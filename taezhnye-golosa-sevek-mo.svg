@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Таёжные голоса — Сэвэк Мо</title>
+  <desc id="desc">Белый стилизованный силуэт эвенкийского ритуального столба на диагональном фоне в современных оттенках белого, зелёного и чёрного.</desc>
+  <defs>
+    <clipPath id="canvas"><rect width="800" height="800" rx="48"/></clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <!-- Modernized white, green, and black flag colors, arranged diagonally -->
+    <path fill="#F0F1E9" d="M0 0h800v800H0z"/>
+    <path fill="#315B4D" d="M800 0v800H0z"/>
+    <path fill="#172522" d="M800 0 0 800V0z"/>
+    <!-- White icon with a fine dark keyline for contrast across all three colors -->
+    <g fill="#fff" stroke="#172522" stroke-width="7" stroke-linejoin="round">
+      <!-- crown; visually separated from the saucer -->
+      <path d="M400 116c-25 34-88 76-88 119 0 39 37 64 88 64s88-25 88-64c0-43-63-85-88-119z"/>
+      <!-- saucer / collar -->
+      <path transform="translate(0 14)" d="M312 315c22-11 51-17 88-17s66 6 88 17v17c-22 11-51 17-88 17s-66-6-88-17z"/>
+      <!-- middle sphere, reduced to match the width of the other three forms -->
+      <path transform="translate(0 20)" d="M400 357c-53 0-88 31-88 73s35 73 88 73 88-31 88-73-35-73-88-73z"/>
+      <!-- narrow separator -->
+      <path transform="translate(0 27)" d="M312 511c25 11 53 16 88 16s63-5 88-16v17c-25 11-53 16-88 16s-63-5-88-16z"/>
+      <!-- lower section, same 176-unit width as the sphere -->
+      <path transform="translate(0 40)" d="M312 545c25 12 53 18 88 18s63-6 88-18v136c-25 15-53 23-88 23s-63-8-88-23z"/>
+      <path transform="translate(0 52)" d="M312 690c25 17 53 26 88 26s63-9 88-26v14c-23 18-53 28-88 28s-65-10-88-28z"/>
+    </g>
+  </g>
+</svg>
