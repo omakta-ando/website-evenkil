@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600;7..72,700&display=swap');
+:root{--pine:#152b25;--pine2:#203c32;--moss:#73846a;--ochre:#b9874f;--cream:#f5f3e9;--paper:#fbfaf5;--ink:#19251f;--muted:#788078;--line:#d9dbcf;--soft-line:#e8e8de;--clay:#bc7654;--gold:#d8b276;--surface-hover:#f1f0e6;--shadow-card:0 8px 24px rgba(21,43,37,.07)}
+body{font-family:'Golos Text',sans-serif}
+.brand,.footer strong,.page-footer strong{font-family:'Golos Text',sans-serif;letter-spacing:-.035em}
+.hero h1,.section h2,.head h1,.page-heading h1,.page-main> .wrap>h1,.page-main h1,.article-content h2,.article-content h3,.about-card h3,.quote-band blockquote{font-family:'Literata',Georgia,serif;letter-spacing:-.035em}
+.hero h1{font-weight:500;line-height:1.02;letter-spacing:-.045em}
+.news-card h2,.news-card h3{font-family:'Golos Text',sans-serif;letter-spacing:-.025em;font-weight:600}
+.section-kicker,.page-kicker,.kicker{display:flex;align-items:center;gap:9px}
+.section-kicker:before,.page-kicker:before,.kicker:before{content:"";display:inline-block;width:18px;height:1px;background:var(--ochre);flex:none}
+.news-area,.about,.regions,.sources{background-image:linear-gradient(rgba(251,250,245,.965),rgba(251,250,245,.965)),url("taiga-contours.svg");background-size:auto,560px;background-position:center,18% 30%}
+.regions{background-image:linear-gradient(rgba(233,231,220,.94),rgba(233,231,220,.94)),url("taiga-contours.svg")}
+.quote-band{background-image:linear-gradient(115deg,rgba(217,223,209,.97),rgba(233,231,220,.94)),url("taiga-contours.svg");background-size:auto,640px;background-position:center,right 20%}
+.news-area,.regions,.about,.quote-band,.sources{border-top:1px solid rgba(115,132,106,.16)}
+.news-card,.about-card,.region-item,.media-card,.source-card{border:1px solid var(--soft-line);box-shadow:0 2px 10px rgba(21,43,37,.025);transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease,box-shadow .2s ease}
+.news-card:hover,.about-card:hover,.media-card:hover,.source-card:hover{transform:translateY(-3px);background-color:var(--paper);border-color:#bac5b2;box-shadow:var(--shadow-card)}
+.news-card:hover h2,.news-card:hover h3,.about-card:hover h3{color:var(--pine2)}
+.region-item:hover{background-color:var(--pine);border-color:var(--pine);color:var(--cream);box-shadow:0 7px 18px rgba(21,43,37,.13);transform:translateY(-1px)}
+.region-item:hover b{color:#e5c58c}
+.btn,.chip,.media-tab,.nav-cta,.pager button,.tools select,.sort{transition:background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.btn:hover,.media-tab:hover,.nav-cta:hover{box-shadow:0 5px 14px rgba(21,43,37,.12);transform:translateY(-1px)}
+.chip:hover:not(.active){background:#e9ecdf;border-color:#bac5b2;color:var(--pine)}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #b9874f;outline-offset:3px}
+.chip:before{display:none}
+.region-glyph{width:17px;height:17px;display:inline-block;flex:none;stroke:currentColor;fill:none;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;color:#8b805e}
+.chip.active .region-glyph,.region-item:hover .region-glyph{color:#e8dfc7}
+.region-item .region-glyph{width:19px;height:19px;color:#8b805e}
+.region-item .region-name{flex:1}
+.about-icon img{filter:drop-shadow(0 0 1.2px rgba(255,255,255,.95))}
+.history-figure img,.article-content figure img,.media-card img,.media-preview,.map-panel,.region-map{border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px rgba(21,43,37,.06)}
+figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;font-size:.86em;color:var(--muted);line-height:1.5}
+.navlinks a,.pagelinks a,.knowledge-nav a,.footer a,.page-footer a{transition:color .16s ease,background-color .16s ease}
+.navlinks a:hover,.pagelinks a:hover,.knowledge-nav a:hover,.footer a:hover,.page-footer a:hover{color:var(--clay)}
+.knowledge-nav a{border-radius:999px;padding:7px 12px}
+.knowledge-nav a:hover{background:#e9ecdf}
+.topline .wrap,.footer .wrap,.page-footer .wrap{position:relative}
+.footer,.page-footer{background-image:linear-gradient(110deg,rgba(10,31,24,.96),rgba(21,43,37,.94)),url("taiga-contours.svg");background-size:auto,560px;background-position:center,right 20%}
+@media(hover:hover){.chip:active,.btn:active,.region-item:active{transform:scale(.985)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
+/* Gallery mark shares the fixed, pale medallion used by the History icon. */
+.about-icon-gallery{overflow:hidden;background:#f3f2e9;border:1px solid rgba(21,43,37,.08);box-shadow:inset 0 0 0 1.5px #fffdf4}
+.about-icon-gallery img{display:block;width:34px;height:34px;object-fit:contain;border-radius:50%;filter:drop-shadow(0 0 1px rgba(255,255,255,.95))}
+.about-card:hover .about-icon-gallery,.about-card:focus-visible .about-icon-gallery{background:#f3f2e9;border-color:rgba(21,43,37,.08);box-shadow:inset 0 0 0 1.5px #fffdf4}
+
+/* Keep the established dark hover state of the four feature cards. */
+.about .about-card:hover,.about .about-card:focus-visible{background-color:var(--pine);border-color:var(--pine);color:var(--cream);box-shadow:0 10px 25px rgba(21,43,37,.12)}
+.about .about-card:hover h3,.about .about-card:hover p,.about .about-card:focus-visible h3,.about .about-card:focus-visible p{color:#edf0e6}
+.about .about-card:hover .card-more,.about .about-card:focus-visible .card-more{color:#e1c98e}
+
+.story-date{display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1.2;white-space:nowrap}
+.story-date span+span{color:#727a70}
+
+/* Region illustrations: one circular field and the same restrained taiga palette. */
+.region-emblem{display:grid;place-items:center;flex:none;width:56px;height:56px;border-radius:50%;background:#e7e8de;border:1px solid #d2d6c8;box-shadow:inset 0 0 0 2px rgba(251,250,245,.78);transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.region-illustration{display:block;width:44px;height:44px}
+.filters .chip{display:inline-flex;align-items:center;gap:8px;padding:6px 13px 6px 6px;border-radius:999px}
+.filters .region-emblem{width:35px;height:35px;box-shadow:inset 0 0 0 1px rgba(251,250,245,.78)}
+.filters .region-illustration{width:27px;height:27px}
+.map-panel .region-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.map-panel .region-item{position:relative;min-height:124px;flex-direction:column;justify-content:center;gap:8px;padding:13px 10px;text-align:center;border-radius:15px;background:var(--paper)}
+.map-panel .region-item b{position:absolute;top:8px;right:10px;font-size:9px;color:#9a7658;letter-spacing:.08em}
+.map-panel .region-item .region-name{flex:none;font-size:12px;line-height:1.35}
+.map-panel .region-emblem{width:62px;height:62px}
+.map-panel .region-illustration{width:50px;height:50px}
+.map-panel .region-item:hover .region-emblem,.map-panel .region-item:focus-visible .region-emblem{border-color:#fffdf4;box-shadow:inset 0 0 0 2px #fffdf4;transform:scale(1.04)}
+@media(max-width:520px){.map-panel .region-list{grid-template-columns:repeat(2,minmax(0,1fr))}.filters .chip{padding-right:10px;font-size:11px}}
+
+/* Text-only region selectors after removing the illustrated badges. */
+.filters .chip{gap:0;padding:9px 14px;border-radius:30px}
+.map-panel .region-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.map-panel .region-item{min-height:50px;flex-direction:row;justify-content:flex-start;gap:10px;padding:11px 12px;text-align:left;border-radius:10px;background:#efeee6}
+.map-panel .region-item b{position:static;flex:none;font-size:9px;color:#9a7658;letter-spacing:.08em}
+.map-panel .region-item .region-name{flex:1;font-size:12px;line-height:1.35;text-align:left}
+.map-panel .region-item:hover .region-emblem,.map-panel .region-item:focus-visible .region-emblem{transform:none}
+.about .about-card{display:flex;flex-direction:column}
+.about .about-card .card-more{display:inline-block;align-self:flex-start;margin-top:auto;padding-top:14px;white-space:nowrap}
+.map-panel .region-item:hover,.map-panel .region-item:focus-visible{background:var(--pine);border-color:var(--pine);color:var(--cream);box-shadow:0 7px 18px rgba(21,43,37,.13);transform:translateY(-1px)}
+
+/* Soft-focus taiga background; foreground copy stays crisp. */
+.hero:before{filter:blur(2.6px);transform:scale(1.025)}
+
+/* Carry the same forest image into the narrow top strip and restore the near-black upper-left mood. */
+.topline{background-color:#071711;background-image:linear-gradient(90deg,rgba(1,11,8,.96) 0%,rgba(5,20,15,.88) 38%,rgba(8,24,18,.72) 100%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:left top;background-size:cover;background-repeat:no-repeat}
+.hero:before{background-image:linear-gradient(90deg,rgba(1,10,8,.76) 0%,rgba(4,18,13,.64) 32%,rgba(10,29,22,.34) 68%,rgba(15,39,30,.2) 100%),radial-gradient(ellipse at 7% 4%,rgba(0,7,5,.55),transparent 58%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 46%;background-size:cover;background-repeat:no-repeat;opacity:1}
+
+/* Darker left and middle of the hero, with forest detail emerging in the right third. */
+.hero:before{background-image:linear-gradient(90deg,rgba(0,8,6,.91) 0%,rgba(1,12,8,.9) 25%,rgba(3,15,10,.82) 50%,rgba(5,20,14,.58) 68%,rgba(8,25,18,.32) 100%),radial-gradient(ellipse at 4% 0%,rgba(0,4,3,.46) 0%,rgba(0,5,4,.22) 30%,transparent 62%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 46%;background-size:cover;background-repeat:no-repeat;opacity:1}
+
+/* Match the top masthead to the hero's image, tonal gradient, and crop. */
+.topline{background-image:linear-gradient(90deg,rgba(0,8,6,.91) 0%,rgba(1,12,8,.9) 25%,rgba(3,15,10,.82) 50%,rgba(5,20,14,.58) 68%,rgba(8,25,18,.32) 100%),radial-gradient(ellipse at 4% 0%,rgba(0,4,3,.46) 0%,rgba(0,5,4,.22) 30%,transparent 62%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 12%;background-size:cover;background-repeat:no-repeat}
+
+/* Continue the same taiga image into the footer, with a deep overlay for legibility. */
+.footer,.page-footer{background-color:#071711;background-image:linear-gradient(90deg,rgba(0,8,6,.76) 0%,rgba(1,12,8,.7) 25%,rgba(3,15,10,.62) 50%,rgba(5,20,14,.48) 100%),radial-gradient(ellipse at 4% 0%,rgba(0,4,3,.28) 0%,rgba(0,5,4,.12) 30%,transparent 62%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 12%;background-size:cover;background-repeat:no-repeat;color:#e8e6d8}
+.footer a,.page-footer a{color:#e8e6d8}
+.footer a:hover,.page-footer a:hover{color:#e1c98e}
+
+/* Center the labels across the twelve region filter cards. */
+.filters .chip{justify-content:center;text-align:center}
+
+/* Keep the top dark strip as an image band without its label and status dot. */
+.topline .status{display:none}
