@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "collect = find and post new headlines; digest = today's roundup"
+        description: "collect = publish new stories to the site, then Telegram; digest = today's roundup"
         required: true
         type: choice
         options:
@@ -47,7 +47,7 @@ jobs:
             echo "value=collect" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Search recent news and publish
+      - name: Search and update the website feed
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TAIGA_THREAD_BOT }}
           TELEGRAM_CHAT_ID: "@taiga_thread"
@@ -64,4 +64,35 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/telegram-news-state.json news-data.js
           git commit -m "Update news feed and Telegram collection state"
+          git push
+
+  notify-after-site-publish:
+    needs: collect-and-publish
+    if: success()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the updated default branch
+        id: checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Notify Telegram only after the site is live
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TAIGA_THREAD_BOT }}
+          TELEGRAM_CHAT_ID: "@taiga_thread"
+        run: python3 scripts/telegram_news.py --mode notify
+
+      - name: Save Telegram delivery state
+        if: always() && steps.checkout.outcome == 'success'
+        run: |
+          if git diff --quiet -- data/telegram-news-state.json; then
+            echo "No Telegram delivery state changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telegram-news-state.json
+          git commit -m "Record Telegram delivery after site publication"
           git push

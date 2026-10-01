@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import time
 from email.utils import parsedate_to_datetime
 import urllib.error
 import urllib.parse
@@ -80,13 +81,13 @@ def load_source_domains() -> list[str]:
     return domains
 
 
-def request(url: str, *, data: bytes | None = None, headers: dict[str, str] | None = None) -> bytes:
+def request(url: str, *, data: bytes | None = None, headers: dict[str, str] | None = None, timeout: int = 25) -> bytes:
     req = urllib.request.Request(
         url,
         data=data,
         headers={"User-Agent": "TaezhnayaNit-NewsMonitor/1.0 (RSS reader)"} | (headers or {}),
     )
-    with urllib.request.urlopen(req, timeout=25) as response:
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read()
 
 
@@ -387,15 +388,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
     """Append matching results from configured media and Ilken's Evenki posts."""
     candidates = [item for item in items if item.get("siteEligible") == "1"]
     path = ROOT / "news-data.js"
-    text = path.read_text(encoding="utf-8")
-    body = text[text.find("[") + 1:text.rfind("]")]
-    stories = []
-    for match in re.findall(r"\{[^{}]*\}", body):
-        js_object = re.sub(r"([{,]\s*)([A-Za-z][A-Za-z0-9]*)(\s*:)", r"\1'\2'\3", match)
-        try:
-            stories.append(ast.literal_eval(js_object))
-        except (ValueError, SyntaxError):
-            continue
+    stories = load_site_news_stories()
     known = {str(story.get("link", "")).rstrip("/") for story in stories}
     added = 0
     for item in candidates:
@@ -417,6 +410,19 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
     return added
 
 
+def load_site_news_stories() -> list[dict[str, object]]:
+    text = (ROOT / "news-data.js").read_text(encoding="utf-8")
+    body = text[text.find("[") + 1:text.rfind("]")]
+    stories = []
+    for match in re.findall(r"\{[^{}]*\}", body):
+        js_object = re.sub(r"([{,]\s*)([A-Za-z][A-Za-z0-9]*)(\s*:)", r"\1'\2'\3", match)
+        try:
+            stories.append(ast.literal_eval(js_object))
+        except (ValueError, SyntaxError):
+            continue
+    return stories
+
+
 def read_state() -> dict:
     if not STATE_FILE.exists():
         return {"version": 1, "seen": {}, "daily": {}}
@@ -425,6 +431,7 @@ def read_state() -> dict:
         raise ValueError("Unsupported Telegram news state format")
     state.setdefault("seen", {})
     state.setdefault("daily", {})
+    state.setdefault("pendingTelegram", [])
     return state
 
 
@@ -478,13 +485,52 @@ def send_digest(today: str, state: dict) -> None:
     print(f"Sent digest with {len(selected)} stories for {today}.")
 
 
+def wait_for_site_publication(items: list[dict[str, str]]) -> None:
+    """Do not notify Telegram until GitHub Pages serves every story in the feed."""
+    if not items:
+        return
+    public_feed = "https://omakta-ando.github.io/website-evenkil/news-data.js"
+    expected = [item["url"].rstrip("/") for item in items]
+    for attempt in range(20):
+        try:
+            url = f"{public_feed}?publish_check={int(time.time())}-{attempt}"
+            published = request(url, timeout=12).decode("utf-8", errors="replace")
+            if all(link in published for link in expected):
+                print(f"Confirmed {len(expected)} stories are live on the website.")
+                return
+        except (urllib.error.URLError, TimeoutError):
+            pass
+        if attempt < 19:
+            time.sleep(15)
+    raise RuntimeError("GitHub Pages has not published the queued stories; Telegram posting was held back.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=("collect", "digest"), default="collect")
+    parser.add_argument("--mode", choices=("collect", "notify", "digest"), default="collect")
     args = parser.parse_args()
 
     today = now_local().date().isoformat()
     state = read_state()
+    if args.mode == "notify":
+        pending = state.get("pendingTelegram", [])
+        if not pending:
+            print("No newly published stories are waiting for Telegram.")
+            return 0
+        wait_for_site_publication(pending)
+        for item in pending:
+            telegram_send(format_item(item))
+            state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
+            state["daily"].setdefault(item["day"], []).append(item)
+            state["pendingTelegram"].remove(item)
+            save_state(state)
+        print(f"Posted {len(pending)} site-published stories to Telegram.")
+        return 0
+
+    if args.mode == "digest":
+        send_digest(today, state)
+        return 0
+
     found = fetch_items()
     # Search results from configured publishers are added to the general feed;
     # Ilken's dedicated Evenki-language category is a trusted direct-source feed.
@@ -493,8 +539,6 @@ def main() -> int:
     new_site_stories = update_site_news_feed(found) if args.mode == "collect" else 0
     if new_site_stories:
         print(f"Added {new_site_stories} new stories to the website news feed.")
-    unseen_today = [item for item in found if item["day"] == today and item["id"] not in state["seen"]]
-
     # Expire IDs older than a month and old digest buckets.
     expiry = now_local() - dt.timedelta(days=MAX_SEEN_DAYS)
     state["seen"] = {
@@ -503,29 +547,17 @@ def main() -> int:
     }
     state["daily"] = {day: items for day, items in state["daily"].items() if day >= (now_local().date() - dt.timedelta(days=7)).isoformat()}
 
-    if args.mode == "collect":
-        # On the first successful scrape, send recent Ilken posts as a catch-up
-        # even when they were published before today. Other sources stay today-only.
-        to_post = [
-            item for item in found
-            if item["id"] not in state["seen"]
-            and (item["day"] == today or item.get("ilkenEvenki") == "1")
-        ]
-        for item in to_post:
-            telegram_send(format_item(item))
-            state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
-            state["daily"].setdefault(item["day"], []).append(item)
-            save_state(state)
-        # Remember older search results too, so they do not reappear on every run.
-        for item in found:
-            if item["day"] != today and item.get("ilkenEvenki") != "1":
-                state["seen"].setdefault(item["id"], now_local().isoformat(timespec="minutes"))
-        print(f"Fetched {len(found)} candidates; posted {len(to_post)} new items ({len(unseen_today)} dated today).")
-    else:
-        for item in unseen_today:
-            state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
-            state["daily"].setdefault(item["day"], []).append(item)
-        send_digest(today, state)
+    public_links = {str(story.get("link", "")).rstrip("/") for story in load_site_news_stories()}
+    queued_ids = {item.get("id") for item in state["pendingTelegram"]}
+    queued = [
+        item for item in found
+        if item.get("siteEligible") == "1"
+        and item["url"].rstrip("/") in public_links
+        and item["id"] not in state["seen"]
+        and item["id"] not in queued_ids
+    ]
+    state["pendingTelegram"].extend(queued)
+    print(f"Fetched {len(found)} candidates; added {new_site_stories} to the site and queued {len(queued)} for Telegram after publication.")
 
     save_state(state)
     return 0
