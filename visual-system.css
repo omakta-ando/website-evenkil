@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600;7..72,700&display=swap');
 :root{--pine:#152b25;--pine2:#203c32;--moss:#73846a;--ochre:#b9874f;--cream:#f5f3e9;--paper:#fbfaf5;--ink:#19251f;--muted:#788078;--line:#d9dbcf;--soft-line:#e8e8de;--clay:#bc7654;--gold:#d8b276;--surface-hover:#f1f0e6;--shadow-card:0 8px 24px rgba(21,43,37,.07)}
+:root{--tungus-snow:#f8f7ef;--tungus-taiga:#91a786;--tungus-earth:#242a26}
 body{font-family:'Golos Text',sans-serif}
 .brand,.footer strong,.page-footer strong{font-family:'Golos Text',sans-serif;letter-spacing:-.035em}
 .hero h1,.section h2,.head h1,.page-heading h1,.page-main> .wrap>h1,.page-main h1,.article-content h2,.article-content h3,.about-card h3,.quote-band blockquote{font-family:'Literata',Georgia,serif;letter-spacing:-.035em}
@@ -10,6 +11,10 @@ body{font-family:'Golos Text',sans-serif}
 .news-area,.about,.regions,.sources{background-image:linear-gradient(rgba(251,250,245,.965),rgba(251,250,245,.965)),url("taiga-contours.svg");background-size:auto,560px;background-position:center,18% 30%}
 .regions{background-image:linear-gradient(rgba(233,231,220,.94),rgba(233,231,220,.94)),url("taiga-contours.svg")}
 .quote-band{background-image:linear-gradient(115deg,rgba(217,223,209,.97),rgba(233,231,220,.94)),url("taiga-contours.svg");background-size:auto,640px;background-position:center,right 20%}
+.stats{position:relative}
+.stats:after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:linear-gradient(90deg,var(--tungus-snow) 0 33.33%,var(--tungus-taiga) 33.33% 66.66%,var(--tungus-earth) 66.66% 100%)}
+.quote-band{position:relative}
+.quote-band:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--tungus-snow) 0 33.33%,var(--tungus-taiga) 33.33% 66.66%,var(--tungus-earth) 66.66% 100%)}
 .news-area,.regions,.about,.quote-band,.sources{border-top:1px solid rgba(115,132,106,.16)}
 .news-card,.about-card,.region-item,.media-card,.source-card{border:1px solid var(--soft-line);box-shadow:0 2px 10px rgba(21,43,37,.025);transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease,box-shadow .2s ease}
 .news-card:hover,.about-card:hover,.media-card:hover,.source-card:hover{transform:translateY(-3px);background-color:var(--paper);border-color:#bac5b2;box-shadow:var(--shadow-card)}
@@ -116,6 +121,12 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 .quote-band cite a{color:inherit;text-decoration:underline;text-decoration-color:#9aa892;text-underline-offset:3px}
 .quote-band cite a:hover{color:#203c32}
 
+/* Restore the dark hover and gold label on regional filters and map cards. */
+.filters .chip:hover:not(.active),.filters .chip:focus-visible:not(.active){background:var(--pine);border-color:var(--pine);color:var(--cream)}
+.filters .chip:hover:not(.active)>span,.filters .chip:focus-visible:not(.active)>span{color:#e5c58c}
+.map-panel .region-item:hover .region-name,.map-panel .region-item:focus-visible .region-name{color:#e5c58c}
+
+
 /* A growing directory of language, culture, and news links at the end of the home page. */
 .resources{background:#e9e7dc}
 .resources-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
@@ -131,6 +142,16 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 .resource-card:focus-visible{outline:2px solid #d8b276;outline-offset:3px}
 @media(max-width:800px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.resource-card{min-height:190px;padding:20px}}
+
+/* Match resource titles to the homepage feature-card typography and hover tone. */
+.resource-card h3{font:600 clamp(25px,2.2vw,30px)/1.2 'Literata',Georgia,serif;letter-spacing:-.035em}
+.resource-card:hover h3,.resource-card:focus-visible h3{color:#e5c58c}
+.about .about-card:hover h3,.about .about-card:focus-visible h3{color:#e5c58c}
+.about .about-grid .about-card:hover h3,.about .about-grid .about-card:focus-visible h3{color:#e5c58c!important}
+.hero-actions .btn-ghost:hover,.hero-actions .btn-ghost:focus-visible{color:#e5c58c}
+.resource-card:hover .resource-type,.resource-card:focus-visible .resource-type{color:#fffdf4}
+.stat:hover>span{color:#e5c58c}
+.stat:hover .census-label{color:#c1c9bb}
 
 
 /* Keep the Gallery medallion and History medallion visually consistent. */
