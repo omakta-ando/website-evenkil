@@ -1,5 +1,20 @@
 {
   "version": 1,
-  "seen": {},
-  "daily": {}
+  "seen": {
+    "CBMihgFBVV95cUxNOHdIMmlycVNtcnJqU2JBSFEyTkhKTnVMbWRoM2l2NzhZT194YzJXalNLcFlrcEVMR3Y3ZjdJSm1rb3dRTEFHYWU4LUlCdkJ2bkFpQW1LUFVXdElTOFFyYmNPbUx6bmQxMGUyYkxsbF9uT0Y3ZXYteXJYNkJqTFlEM1g4Y0E3dw": "2026-10-01T18:36+04:00"
+  },
+  "daily": {
+    "2026-10-01": [
+      {
+        "id": "CBMihgFBVV95cUxNOHdIMmlycVNtcnJqU2JBSFEyTkhKTnVMbWRoM2l2NzhZT194YzJXalNLcFlrcEVMR3Y3ZjdJSm1rb3dRTEFHYWU4LUlCdkJ2bkFpQW1LUFVXdElTOFFyYmNPbUx6bmQxMGUyYkxsbF9uT0Y3ZXYteXJYNkJqTFlEM1g4Y0E3dw",
+        "title": "Официальное лицо в эвенкийской школе Тугура оценило помощь фронту - densus.ru",
+        "source": "densus.ru",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHdIMmlycVNtcnJqU2JBSFEyTkhKTnVMbWRoM2l2NzhZT194YzJXalNLcFlrcEVMR3Y3ZjdJSm1rb3dRTEFHYWU4LUlCdkJ2bkFpQW1LUFVXdElTOFFyYmNPbUx6bmQxMGUyYkxsbF9uT0Y3ZXYteXJYNkJqTFlEM1g4Y0E3dw?oc=5",
+        "published": "2026-10-01T08:22+04:00",
+        "day": "2026-10-01",
+        "description": "Официальное лицо в эвенкийской школе Тугура оценило помощь фронту densus.ru",
+        "ilkenEvenki": "0"
+      }
+    ]
+  }
 }
