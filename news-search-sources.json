@@ -101,6 +101,13 @@
   ],
   "directFeeds": [
     {
+      "id": "ilken-russian-news",
+      "label": "Илкэн · материалы на русском о коренных народах",
+      "url": "https://ilken.ru/feed/",
+      "autoPublishToSiteFeed": true,
+      "editorialNote": "Основная лента портала. Автоматически включать только публикации, где заголовок или описание относятся к эвенкам; регион без явного подтверждения не назначать."
+    },
+    {
       "id": "ilken-evenki-news",
       "label": "Илкэн · новости на эвенкийском",
       "url": "https://ilken.ru/evenki/category/novosti/feed/",

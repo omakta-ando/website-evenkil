@@ -130,12 +130,15 @@ def original_source_url(url: str) -> str:
 
 
 def fetch_ilken_feed() -> list[dict[str, str]]:
-    """Read Ilken's Evenki news category, falling back from RSS to its archive page."""
+    """Read Ilken's Evenki category and the main multilingual news feed."""
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
-    feeds = [feed for feed in data.get("directFeeds", []) if feed.get("id") == "ilken-evenki-news"]
+    feeds = [feed for feed in data.get("directFeeds", []) if feed.get("id") in {"ilken-evenki-news", "ilken-russian-news"}]
     found: list[dict[str, str]] = []
     cutoff = now_local() - dt.timedelta(days=MAX_SEEN_DAYS)
     for feed in feeds:
+        is_evenki_feed = feed.get("id") == "ilken-evenki-news"
+        feed_start = len(found)
+        feed_cutoff = cutoff if is_evenki_feed else now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
         try:
             root = ET.fromstring(request(str(feed["url"])))
             for node in root.findall("./channel/item"):
@@ -143,21 +146,27 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 description = clean(node.findtext("description", ""))
                 link = clean(node.findtext("link", ""))
                 published = parse_date(node.findtext("pubDate", ""))
-                if not title or not link.startswith("https://ilken.ru/evenki/") or not published or published < cutoff:
+                valid_link = link.startswith("https://ilken.ru/evenki/") if is_evenki_feed else (
+                    link.startswith("https://ilken.ru/") and "/evenki/" not in link
+                )
+                if not title or not valid_link or not published or published < feed_cutoff:
+                    continue
+                if not is_evenki_feed and not CORE_RE.search(f"{title} {description}"):
                     continue
                 guid = clean(node.findtext("guid", ""))
                 found.append({
                     "id": guid or link, "title": title, "source": "Илкэн · Улгур",
                     "url": link, "published": published.isoformat(timespec="minutes"),
                     "day": published.date().isoformat(), "description": description,
-                    "ilkenEvenki": "1",
+                    "ilkenEvenki": "1" if is_evenki_feed else "0",
+                    "configuredSource": "0" if is_evenki_feed else "1",
                 })
         except (urllib.error.URLError, TimeoutError, ET.ParseError, KeyError) as error:
             print(f"Warning: direct RSS failed for {feed.get('label', 'source')}: {error}", file=sys.stderr)
 
         # The publisher's RSS is currently returning HTTP 555 to GitHub Actions.
         # The category HTML is public and includes each story's date in its permalink.
-        if not found and feed.get("category"):
+        if len(found) == feed_start and feed.get("category"):
             try:
                 page = request(str(feed["category"]), headers={
                     "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
@@ -180,7 +189,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
 
         # Ilken's origin also blocks GitHub Actions from its public HTML page.
         # Jina Reader fetches that public page and returns its article cards as Markdown.
-        if not found and feed.get("category"):
+        if len(found) == feed_start and feed.get("category"):
             try:
                 reader_url = "https://r.jina.ai/" + str(feed["category"])
                 markdown = request(reader_url, headers={
@@ -328,6 +337,10 @@ def fetch_items() -> list[dict[str, str]]:
     # contain the same orthographic markers or the words chosen as search terms.
     feeds.append(("site:ilken.ru/evenki/ when:30d", True))
     feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True) for term in ilken_terms)
+    # Search Ilken's Russian-language site separately as well. The direct
+    # Evenki category above is language-specific; Russian stories stay in the
+    # general bucket unless a region is confirmed by an editor.
+    feeds.append(("site:ilken.ru when:2d", False))
     items: list[dict[str, str]] = []
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
     failures = 0
@@ -395,8 +408,9 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         link = item["url"].rstrip("/")
         if link in known:
             continue
+        category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
         stories.append({
-            "region": item.get("region") or "Федеральные и общие",
+            "region": item.get("region") or category,
             "date": item["day"], "source": item["source"],
             "title": item["title"],
             "desc": (item.get("description") or "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.")[:420],
