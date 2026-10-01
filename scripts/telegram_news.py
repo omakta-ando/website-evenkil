@@ -176,6 +176,32 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     print(f"Read {len(found)} recent stories from the Ilken category page.")
             except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
                 print(f"Warning: Ilken category page failed: {error}", file=sys.stderr)
+
+        # Ilken's origin also blocks GitHub Actions from its public HTML page.
+        # Jina Reader fetches that public page and returns its article cards as Markdown.
+        if not found and feed.get("category"):
+            try:
+                reader_url = "https://r.jina.ai/" + str(feed["category"])
+                markdown = request(reader_url, headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
+                    "Accept": "text/plain",
+                }).decode("utf-8", errors="replace")
+                for story in parse_ilken_reader_markdown(markdown):
+                    published = story["published"]
+                    if published < cutoff:
+                        continue
+                    found.append({
+                        "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
+                        "url": story["url"], "published": published.isoformat(timespec="minutes"),
+                        "day": published.date().isoformat(), "description": story["description"],
+                        "ilkenEvenki": "1",
+                    })
+                if found:
+                    print(f"Read {len(found)} recent stories from the Ilken category via Reader fallback.")
+                else:
+                    print("Warning: Reader fallback returned no recent Ilken category stories.", file=sys.stderr)
+            except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
+                print(f"Warning: Ilken Reader fallback failed: {error}", file=sys.stderr)
     return found
 
 
@@ -261,6 +287,30 @@ def ilken_permalink_date(url: str) -> dt.datetime | None:
         return dt.datetime(*(int(part) for part in match.groups()), tzinfo=TZ)
     except ValueError:
         return None
+
+
+def parse_ilken_reader_markdown(document: str) -> list[dict[str, object]]:
+    """Extract article cards from Jina Reader's Markdown rendering of Ilken."""
+    pattern = re.compile(
+        r'^####\s+\[(?P<title>[^\]]+)\]\('
+        r'(?P<url>https://ilken\.ru/evenki/\d{4}/\d{2}/\d{2}/[^\s)]+)'
+        r'(?:\s+"[^"]*")?\)\s*\n'
+        r'(?P<description>.*?)(?=\n(?:####\s|!\[|\[[^\]]+\]\(https://ilken\.ru/evenki/)|\Z)',
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    stories: list[dict[str, object]] = []
+    for match in pattern.finditer(document):
+        url = match.group("url")
+        published = ilken_permalink_date(url)
+        if not published:
+            continue
+        stories.append({
+            "url": url,
+            "title": clean(match.group("title")),
+            "description": clean(match.group("description"))[:420],
+            "published": published,
+        })
+    return stories
 
 
 def fetch_items() -> list[dict[str, str]]:
