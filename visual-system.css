@@ -99,3 +99,35 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 
 /* Keep the top dark strip as an image band without its label and status dot. */
 .topline .status{display:none}
+
+/* Feature cards now use larger medallions without descriptive copy. */
+.about .about-icon{width:76px;height:76px}
+.about .about-icon svg{width:62px;height:62px}
+.about .about-icon-history svg{inset:8px 2px auto;width:72px;height:60px}
+.about .about-icon-gallery img,.about .about-icon-language img{width:76px;height:76px}
+
+/* Larger titles on the four image-led feature cards. */
+.about .about-card h3{font-size:clamp(25px,2.2vw,30px)}
+
+/* Census year labels use sentence case while other statistic labels stay uppercase. */
+.stats .census-label{text-transform:none;letter-spacing:inherit}
+
+/* Keep quote citations readable and link to the original text. */
+.quote-band cite a{color:inherit;text-decoration:underline;text-decoration-color:#9aa892;text-underline-offset:3px}
+.quote-band cite a:hover{color:#203c32}
+
+/* A growing directory of language, culture, and news links at the end of the home page. */
+.resources{background:#e9e7dc}
+.resources-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.resource-card{display:flex;flex-direction:column;min-height:220px;padding:24px;border:1px solid #d4d9cb;border-radius:16px;background:#fbfaf5;color:#19251f;transition:background-color .18s ease,color .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease}
+.resource-card:hover,.resource-card:focus-visible{background:#203c32;border-color:#203c32;color:#f5f3e9;transform:translateY(-2px);box-shadow:0 10px 25px #152b2518}
+.resource-type{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#73846a;font-weight:700}
+.resource-card:hover .resource-type,.resource-card:focus-visible .resource-type{color:#d8c28e}
+.resource-card h3{font:600 23px/1.2 Manrope,sans-serif;letter-spacing:-.03em;margin:16px 0 9px}
+.resource-card p{font-size:14px;line-height:1.6;color:#697168;margin:0 0 20px}
+.resource-card:hover p,.resource-card:focus-visible p{color:#dce5d9}
+.resource-visit{margin-top:auto;font-size:12px;font-weight:700;color:#536b4f}
+.resource-card:hover .resource-visit,.resource-card:focus-visible .resource-visit{color:#e1c98e}
+.resource-card:focus-visible{outline:2px solid #d8b276;outline-offset:3px}
+@media(max-width:800px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.resource-card{min-height:190px;padding:20px}}
