@@ -131,3 +131,11 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 .resource-card:focus-visible{outline:2px solid #d8b276;outline-offset:3px}
 @media(max-width:800px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.resource-card{min-height:190px;padding:20px}}
+
+
+/* Keep the Gallery medallion and History medallion visually consistent. */
+.about .about-icon-history,.about .about-icon-gallery{background:#f3f2e9;border:1px solid rgba(21,43,37,.08);box-shadow:inset 0 0 0 1.5px #fffdf4;border-radius:50%}
+.about .about-card:hover .about-icon-history,.about .about-card:focus-visible .about-icon-history{background:#f3f2e9;border-color:rgba(21,43,37,.08);box-shadow:inset 0 0 0 1.5px #fffdf4}
+
+/* Override the older inline Manrope rule on the four image-led card titles. */
+.about .about-card h3{font-family:'Literata',Georgia,serif;font-size:clamp(25px,2.2vw,30px);letter-spacing:-.035em}
