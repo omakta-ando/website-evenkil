@@ -2,11 +2,11 @@ name: Telegram news collection
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "7 12 * * *"
       timezone: "Asia/Tbilisi"
-    - cron: "0 18 * * *"
+    - cron: "7 18 * * *"
       timezone: "Asia/Tbilisi"
-    - cron: "0 19 * * *"
+    - cron: "7 19 * * *"
       timezone: "Asia/Tbilisi"
   workflow_dispatch:
     inputs:
@@ -41,7 +41,7 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event.schedule }}" == "0 19 * * *" ]]; then
+          elif [[ "${{ github.event.schedule }}" == "7 19 * * *" ]]; then
             echo "value=digest" >> "$GITHUB_OUTPUT"
           else
             echo "value=collect" >> "$GITHUB_OUTPUT"

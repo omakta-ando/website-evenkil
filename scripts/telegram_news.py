@@ -350,10 +350,19 @@ def fetch_items() -> list[dict[str, str]]:
                 continue
             source_node = node.find("source")
             source = clean(source_node.text if source_node is not None else "")
+            source_host = ""
+            if source_node is not None:
+                source_host = (urllib.parse.urlsplit(source_node.attrib.get("url", "")).hostname or "").lower()
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
             publisher_url = original_source_url(link)
             is_ilken = ilken_search and publisher_url.startswith("https://ilken.ru/evenki/")
+            publisher_host = (urllib.parse.urlsplit(publisher_url).hostname or "").lower()
+            configured_source = any(
+                host == domain or host.endswith("." + domain)
+                for host in (source_host, publisher_host)
+                for domain in domains
+            ) and "news.google.com" not in publisher_host
             if not CORE_RE.search(f"{title} {description}") and not is_ilken:
                 continue
             items.append({
@@ -365,6 +374,7 @@ def fetch_items() -> list[dict[str, str]]:
                 "day": published.date().isoformat(),
                 "description": description,
                 "ilkenEvenki": "1" if is_ilken else "0",
+                "configuredSource": "1" if configured_source else "0",
             })
     direct_items = fetch_ilken_feed()
     if failures == len(feeds) and not direct_items:
@@ -374,8 +384,8 @@ def fetch_items() -> list[dict[str, str]]:
 
 
 def update_site_news_feed(items: list[dict[str, str]]) -> int:
-    """Append only records from the dedicated Ilken Evenki news category."""
-    candidates = [item for item in items if item.get("ilkenEvenki") == "1"]
+    """Append matching results from configured media and Ilken's Evenki posts."""
+    candidates = [item for item in items if item.get("siteEligible") == "1"]
     path = ROOT / "news-data.js"
     text = path.read_text(encoding="utf-8")
     body = text[text.find("[") + 1:text.rfind("]")]
@@ -393,10 +403,11 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         if link in known:
             continue
         stories.append({
-            "region": "", "date": item["day"], "source": "Илкэн · Улгур",
+            "region": item.get("region") or "Федеральные и общие",
+            "date": item["day"], "source": item["source"],
             "title": item["title"],
-            "desc": (item.get("description") or "Новость на эвенкийском языке. Читайте оригинал на сайте Илкэн.")[:420],
-            "tags": "эвенки эвенкийский язык илкэн", "link": item["url"],
+            "desc": (item.get("description") or "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.")[:420],
+            "tags": "эвенки эвенкийский язык новости", "link": item["url"],
         })
         known.add(link)
         added += 1
@@ -475,9 +486,13 @@ def main() -> int:
     today = now_local().date().isoformat()
     state = read_state()
     found = fetch_items()
+    # Search results from configured publishers are added to the general feed;
+    # Ilken's dedicated Evenki-language category is a trusted direct-source feed.
+    for item in found:
+        item["siteEligible"] = "1" if item.get("ilkenEvenki") == "1" or item.get("configuredSource") == "1" else "0"
     new_site_stories = update_site_news_feed(found) if args.mode == "collect" else 0
     if new_site_stories:
-        print(f"Added {new_site_stories} Ilken stories to the website news feed.")
+        print(f"Added {new_site_stories} new stories to the website news feed.")
     unseen_today = [item for item in found if item["day"] == today and item["id"] not in state["seen"]]
 
     # Expire IDs older than a month and old digest buckets.
