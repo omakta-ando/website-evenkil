@@ -56,12 +56,12 @@ jobs:
       - name: Save deduplication and daily digest state
         if: always() && steps.checkout.outcome == 'success'
         run: |
-          if git diff --quiet -- data/telegram-news-state.json; then
+          if git diff --quiet -- data/telegram-news-state.json news-data.js; then
             echo "No state changes to save."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/telegram-news-state.json
-          git commit -m "Update Telegram news collection state"
+          git add data/telegram-news-state.json news-data.js
+          git commit -m "Update news feed and Telegram collection state"
           git push

@@ -8,12 +8,14 @@ publisher link and should be reviewed by the channel editors after publication.
 from __future__ import annotations
 
 import argparse
+import ast
 import datetime as dt
 import html
 import json
 import os
 import re
 import sys
+from email.utils import parsedate_to_datetime
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -49,7 +51,7 @@ def load_queries() -> list[str]:
     excluded = {str(value).casefold() for value in data.get("excludeExactPhrases", [])}
     terms: list[str] = []
     for group in data["queryGroups"]:
-        if group.get("id") == "regions":
+        if group.get("id") in {"regions", "ilken-evenki"}:
             continue
         for value in group.get("queries", []):
             term = str(value).strip()
@@ -58,6 +60,14 @@ def load_queries() -> list[str]:
     if not terms:
         raise ValueError("No usable queries found in news-search-queries.json")
     return terms
+
+
+def load_ilken_queries() -> list[str]:
+    data = json.loads(QUERIES_FILE.read_text(encoding="utf-8"))
+    for group in data.get("queryGroups", []):
+        if group.get("id") == "ilken-evenki":
+            return [str(value).strip().strip('"') for value in group.get("queries", []) if str(value).strip()]
+    return []
 
 
 def load_source_domains() -> list[str]:
@@ -83,9 +93,9 @@ def parse_date(value: str) -> dt.datetime | None:
     if not value:
         return None
     try:
-        parsed = dt.datetime.strptime(value.strip(), "%a, %d %b %Y %H:%M:%S %Z")
-        return parsed.replace(tzinfo=dt.timezone.utc).astimezone(TZ)
-    except ValueError:
+        parsed = parsedate_to_datetime(value.strip())
+        return (parsed.replace(tzinfo=dt.timezone.utc) if parsed.tzinfo is None else parsed).astimezone(TZ)
+    except (TypeError, ValueError, OverflowError):
         try:
             parsed = dt.datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
             return parsed.replace(tzinfo=dt.timezone.utc).astimezone(TZ) if parsed.tzinfo is None else parsed.astimezone(TZ)
@@ -117,19 +127,50 @@ def original_source_url(url: str) -> str:
     return url
 
 
+def fetch_ilken_feed() -> list[dict[str, str]]:
+    """Read the publisher's dedicated Evenki-language news category RSS."""
+    data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    feeds = [feed for feed in data.get("directFeeds", []) if feed.get("id") == "ilken-evenki-news"]
+    found: list[dict[str, str]] = []
+    cutoff = now_local() - dt.timedelta(days=MAX_SEEN_DAYS)
+    for feed in feeds:
+        try:
+            root = ET.fromstring(request(str(feed["url"])))
+        except (urllib.error.URLError, TimeoutError, ET.ParseError, KeyError) as error:
+            print(f"Warning: direct RSS failed for {feed.get('label', 'source')}: {error}", file=sys.stderr)
+            continue
+        for node in root.findall("./channel/item"):
+            title = clean(node.findtext("title", ""))
+            description = clean(node.findtext("description", ""))
+            link = clean(node.findtext("link", ""))
+            published = parse_date(node.findtext("pubDate", ""))
+            if not title or not link.startswith("https://ilken.ru/evenki/") or not published or published < cutoff:
+                continue
+            guid = clean(node.findtext("guid", ""))
+            found.append({
+                "id": guid or link, "title": title, "source": "Илкэн · Улгур",
+                "url": link, "published": published.isoformat(timespec="minutes"),
+                "day": published.date().isoformat(), "description": description,
+                "ilkenEvenki": "1",
+            })
+    return found
+
+
 def fetch_items() -> list[dict[str, str]]:
     terms = load_queries()
     query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
     domains = load_source_domains()
     domain_groups = [domains[i:i + 12] for i in range(0, len(domains), 12)]
-    feeds = [f"({query}) when:2d"]
+    feeds = [(f"({query}) when:2d", False)]
     for group in domain_groups:
         sites = " OR ".join(f"site:{domain}" for domain in group)
-        feeds.append(f"({query}) ({sites}) when:2d")
+        feeds.append((f"({query}) ({sites}) when:2d", False))
+    ilken_terms = load_ilken_queries()
+    feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True) for term in ilken_terms)
     items: list[dict[str, str]] = []
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
     failures = 0
-    for feed_query in feeds:
+    for feed_query, ilken_search in feeds:
         params = urllib.parse.urlencode({"q": feed_query, "hl": "ru", "gl": "RU", "ceid": "RU:ru"})
         try:
             payload = request(f"{RSS_URL}?{params}")
@@ -141,8 +182,6 @@ def fetch_items() -> list[dict[str, str]]:
         for node in root.findall("./channel/item"):
             title = clean(node.findtext("title", ""))
             description = clean(node.findtext("description", ""))
-            if not CORE_RE.search(f"{title} {description}"):
-                continue
             published = parse_date(node.findtext("pubDate", ""))
             if not published or published < cutoff:
                 continue
@@ -153,18 +192,58 @@ def fetch_items() -> list[dict[str, str]]:
             source = clean(source_node.text if source_node is not None else "")
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
+            publisher_url = original_source_url(link)
+            is_ilken = ilken_search and publisher_url.startswith("https://ilken.ru/evenki/")
+            if not CORE_RE.search(f"{title} {description}") and not is_ilken:
+                continue
             items.append({
                 "id": item_id,
                 "title": title,
                 "source": source or "Источник в Google Новостях",
-                "url": original_source_url(link),
+                "url": publisher_url,
                 "published": published.isoformat(timespec="minutes"),
                 "day": published.date().isoformat(),
+                "description": description,
+                "ilkenEvenki": "1" if is_ilken else "0",
             })
-    if failures == len(feeds):
+    direct_items = fetch_ilken_feed()
+    if failures == len(feeds) and not direct_items:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated variants within a single RSS response.
-    return list({item["id"]: item for item in items}.values())
+    return list({item["url"].rstrip("/"): item for item in items + direct_items}.values())
+
+
+def update_site_news_feed(items: list[dict[str, str]]) -> int:
+    """Append only records from the dedicated Ilken Evenki news category."""
+    candidates = [item for item in items if item.get("ilkenEvenki") == "1"]
+    path = ROOT / "news-data.js"
+    text = path.read_text(encoding="utf-8")
+    body = text[text.find("[") + 1:text.rfind("]")]
+    stories = []
+    for match in re.findall(r"\{[^{}]*\}", body):
+        js_object = re.sub(r"([{,]\s*)([A-Za-z][A-Za-z0-9]*)(\s*:)", r"\1'\2'\3", match)
+        try:
+            stories.append(ast.literal_eval(js_object))
+        except (ValueError, SyntaxError):
+            continue
+    known = {str(story.get("link", "")).rstrip("/") for story in stories}
+    added = 0
+    for item in candidates:
+        link = item["url"].rstrip("/")
+        if link in known:
+            continue
+        stories.append({
+            "region": "", "date": item["day"], "source": "Илкэн · Улгур",
+            "title": item["title"],
+            "desc": (item.get("description") or "Новость на эвенкийском языке. Читайте оригинал на сайте Илкэн.")[:420],
+            "tags": "эвенки эвенкийский язык илкэн", "link": item["url"],
+        })
+        known.add(link)
+        added += 1
+    if added:
+        stories.sort(key=lambda story: str(story.get("date", "")), reverse=True)
+        path.write_text("window.newsStories=" + json.dumps(stories, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
+    return added
 
 
 def read_state() -> dict:
@@ -236,6 +315,9 @@ def main() -> int:
     today = now_local().date().isoformat()
     state = read_state()
     found = fetch_items()
+    new_site_stories = update_site_news_feed(found) if args.mode == "collect" else 0
+    if new_site_stories:
+        print(f"Added {new_site_stories} Ilken stories to the website news feed.")
     unseen_today = [item for item in found if item["day"] == today and item["id"] not in state["seen"]]
 
     # Expire IDs older than a month and old digest buckets.

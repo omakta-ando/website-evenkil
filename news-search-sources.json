@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Домены взяты из списка СМИ проекта. Поиск идёт через Google News RSS; доступность зависит от индексации каждого сайта.",
+  "description": "Основные домены используются в поиске Google News RSS; прямые RSS-источники проверяются отдельно и регулярно.",
   "domains": [
     "75.ru",
     "adm-sel.ru",
@@ -95,5 +95,15 @@
     "zab.ru",
     "zabrab75.ru",
     "таймыр.рф"
+  ],
+  "directFeeds": [
+    {
+      "id": "ilken-evenki-news",
+      "label": "Илкэн · новости на эвенкийском",
+      "url": "https://ilken.ru/evenki/category/novosti/feed/",
+      "category": "https://ilken.ru/evenki/category/novosti/",
+      "autoPublishToSiteFeed": true,
+      "editorialNote": "Источник — специальная рубрика новостей на эвенкийском языке. Публиковать карточку со ссылкой на оригинал, не копировать полный текст."
+    }
   ]
 }
