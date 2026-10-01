@@ -1,0 +1,67 @@
+name: Telegram news collection
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+      timezone: "Asia/Tbilisi"
+    - cron: "0 18 * * *"
+      timezone: "Asia/Tbilisi"
+    - cron: "0 19 * * *"
+      timezone: "Asia/Tbilisi"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "collect = find and post new headlines; digest = today's roundup"
+        required: true
+        type: choice
+        options:
+          - collect
+          - digest
+        default: collect
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-news
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out default branch
+        id: checkout
+        uses: actions/checkout@v4
+
+      - name: Select run mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event.schedule }}" == "0 19 * * *" ]]; then
+            echo "value=digest" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=collect" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Search recent news and publish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "@taiga_thread"
+        run: python3 scripts/telegram_news.py --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Save deduplication and daily digest state
+        if: always() && steps.checkout.outcome == 'success'
+        run: |
+          if git diff --quiet -- data/telegram-news-state.json; then
+            echo "No state changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telegram-news-state.json
+          git commit -m "Update Telegram news collection state"
+          git push
