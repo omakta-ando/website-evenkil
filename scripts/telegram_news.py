@@ -11,6 +11,7 @@ import argparse
 import ast
 import datetime as dt
 import html
+from html.parser import HTMLParser
 import json
 import os
 import re
@@ -128,7 +129,7 @@ def original_source_url(url: str) -> str:
 
 
 def fetch_ilken_feed() -> list[dict[str, str]]:
-    """Read the publisher's dedicated Evenki-language news category RSS."""
+    """Read Ilken's Evenki news category, falling back from RSS to its archive page."""
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     feeds = [feed for feed in data.get("directFeeds", []) if feed.get("id") == "ilken-evenki-news"]
     found: list[dict[str, str]] = []
@@ -136,24 +137,130 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
     for feed in feeds:
         try:
             root = ET.fromstring(request(str(feed["url"])))
+            for node in root.findall("./channel/item"):
+                title = clean(node.findtext("title", ""))
+                description = clean(node.findtext("description", ""))
+                link = clean(node.findtext("link", ""))
+                published = parse_date(node.findtext("pubDate", ""))
+                if not title or not link.startswith("https://ilken.ru/evenki/") or not published or published < cutoff:
+                    continue
+                guid = clean(node.findtext("guid", ""))
+                found.append({
+                    "id": guid or link, "title": title, "source": "Илкэн · Улгур",
+                    "url": link, "published": published.isoformat(timespec="minutes"),
+                    "day": published.date().isoformat(), "description": description,
+                    "ilkenEvenki": "1",
+                })
         except (urllib.error.URLError, TimeoutError, ET.ParseError, KeyError) as error:
             print(f"Warning: direct RSS failed for {feed.get('label', 'source')}: {error}", file=sys.stderr)
-            continue
-        for node in root.findall("./channel/item"):
-            title = clean(node.findtext("title", ""))
-            description = clean(node.findtext("description", ""))
-            link = clean(node.findtext("link", ""))
-            published = parse_date(node.findtext("pubDate", ""))
-            if not title or not link.startswith("https://ilken.ru/evenki/") or not published or published < cutoff:
-                continue
-            guid = clean(node.findtext("guid", ""))
-            found.append({
-                "id": guid or link, "title": title, "source": "Илкэн · Улгур",
-                "url": link, "published": published.isoformat(timespec="minutes"),
-                "day": published.date().isoformat(), "description": description,
-                "ilkenEvenki": "1",
-            })
+
+        # The publisher's RSS is currently returning HTTP 555 to GitHub Actions.
+        # The category HTML is public and includes each story's date in its permalink.
+        if not found and feed.get("category"):
+            try:
+                page = request(str(feed["category"]), headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
+                    "Accept": "text/html,application/xhtml+xml",
+                }).decode("utf-8", errors="replace")
+                for story in IlkenCategoryParser().parse(page):
+                    published = story["published"]
+                    if published < cutoff:
+                        continue
+                    found.append({
+                        "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
+                        "url": story["url"], "published": published.isoformat(timespec="minutes"),
+                        "day": published.date().isoformat(), "description": story["description"],
+                        "ilkenEvenki": "1",
+                    })
+                if found:
+                    print(f"Read {len(found)} recent stories from the Ilken category page.")
+            except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
+                print(f"Warning: Ilken category page failed: {error}", file=sys.stderr)
     return found
+
+
+class IlkenCategoryParser(HTMLParser):
+    """Extract article cards from the visible WordPress category archive."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.cards: list[dict[str, object]] = []
+        self._card_depth = 0
+        self._card: dict[str, object] | None = None
+        self._anchors: list[str] = []
+        self._title_depth = 0
+        self._description_depth = 0
+
+    def parse(self, document: str) -> list[dict[str, object]]:
+        self.feed(document)
+        return [
+            {
+                **card,
+                "title": clean(str(card.get("title", ""))),
+                "description": clean(str(card.get("description", ""))),
+                "published": published,
+            }
+            for card in self.cards
+            if (published := ilken_permalink_date(str(card.get("url", "")))) is not None
+            and card.get("title") and str(card.get("url", "")).startswith("https://ilken.ru/evenki/")
+        ]
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        classes = set((attributes.get("class") or "").split())
+        if tag == "div" and self._card is None and "grid_post_content" in classes:
+            self._card_depth = 1
+            self._card = {"url": "", "title": "", "description": ""}
+            self._anchors = []
+            return
+        if self._card is None:
+            return
+        if tag == "div":
+            self._card_depth += 1
+        if tag == "a":
+            self._anchors.append(attributes.get("href") or "")
+        if tag == "h4" and "b_title" in classes:
+            self._title_depth = 1
+            self._card["url"] = self._anchors[-1] if self._anchors else ""
+        elif self._title_depth and tag == "h4":
+            self._title_depth += 1
+        if tag == "p":
+            self._description_depth = 1
+        elif self._description_depth and tag == "p":
+            self._description_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if self._card is None:
+            return
+        if tag == "h4" and self._title_depth:
+            self._title_depth -= 1
+        if tag == "p" and self._description_depth:
+            self._description_depth -= 1
+        if tag == "a" and self._anchors:
+            self._anchors.pop()
+        if tag == "div":
+            self._card_depth -= 1
+            if self._card_depth == 0:
+                self.cards.append(self._card)
+                self._card = None
+
+    def handle_data(self, data: str) -> None:
+        if self._card is None:
+            return
+        if self._title_depth:
+            self._card["title"] = str(self._card["title"]) + data
+        if self._description_depth:
+            self._card["description"] = str(self._card["description"]) + data
+
+
+def ilken_permalink_date(url: str) -> dt.datetime | None:
+    match = re.search(r"/evenki/(\d{4})/(\d{2})/(\d{2})/", url)
+    if not match:
+        return None
+    try:
+        return dt.datetime(*(int(part) for part in match.groups()), tzinfo=TZ)
+    except ValueError:
+        return None
 
 
 def fetch_items() -> list[dict[str, str]]:
@@ -166,6 +273,9 @@ def fetch_items() -> list[dict[str, str]]:
         sites = " OR ".join(f"site:{domain}" for domain in group)
         feeds.append((f"({query}) ({sites}) when:2d", False))
     ilken_terms = load_ilken_queries()
+    # Keep a source-wide fallback: Evenki-language headlines do not always
+    # contain the same orthographic markers or the words chosen as search terms.
+    feeds.append(("site:ilken.ru/evenki/ when:30d", True))
     feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True) for term in ilken_terms)
     items: list[dict[str, str]] = []
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
@@ -329,16 +439,23 @@ def main() -> int:
     state["daily"] = {day: items for day, items in state["daily"].items() if day >= (now_local().date() - dt.timedelta(days=7)).isoformat()}
 
     if args.mode == "collect":
-        for item in unseen_today:
+        # On the first successful scrape, send recent Ilken posts as a catch-up
+        # even when they were published before today. Other sources stay today-only.
+        to_post = [
+            item for item in found
+            if item["id"] not in state["seen"]
+            and (item["day"] == today or item.get("ilkenEvenki") == "1")
+        ]
+        for item in to_post:
             telegram_send(format_item(item))
             state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
             state["daily"].setdefault(item["day"], []).append(item)
             save_state(state)
         # Remember older search results too, so they do not reappear on every run.
         for item in found:
-            if item["day"] != today:
+            if item["day"] != today and item.get("ilkenEvenki") != "1":
                 state["seen"].setdefault(item["id"], now_local().isoformat(timespec="minutes"))
-        print(f"Fetched {len(found)} candidates; posted {len(unseen_today)} new items dated today.")
+        print(f"Fetched {len(found)} candidates; posted {len(to_post)} new items ({len(unseen_today)} dated today).")
     else:
         for item in unseen_today:
             state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
