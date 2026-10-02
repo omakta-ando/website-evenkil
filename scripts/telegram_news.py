@@ -471,13 +471,13 @@ def format_item(item: dict[str, str], number: int | None = None) -> str:
     title = html.escape(clean(item.get("title", "")))
     url = html.escape(item.get("url", ""), quote=True)
     description = clean(item.get("description", ""))
-    # Keep the summary readable as regular text; only the headline is a link.
+    # Keep title and summary as plain text; link only the source name.
     if len(description) > 420:
         description = description[:417].rsplit(" ", 1)[0] + "…"
-    lines = [f"{prefix}<a href=\"{url}\">{title}</a>"]
+    lines = [f"{prefix}{title}"]
     if description:
         lines.append(html.escape(description))
-    lines.append(f"{html.escape(item['source'])} · {html.escape(item['published'][:10])}")
+    lines.append(f"<a href=\"{url}\">{html.escape(item['source'])}</a> · {html.escape(item['published'][:10])}")
     return "\n".join(lines)
 
 
