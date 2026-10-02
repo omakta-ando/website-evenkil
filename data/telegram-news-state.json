@@ -5,7 +5,8 @@
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/": "2026-10-01T18:52+04:00",
-    "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/": "2026-10-01T18:52+04:00"
+    "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/": "2026-10-01T18:52+04:00",
+    "https://indigenous-russia.com/archives/50607": "2026-10-02T21:09+04:00"
   },
   "daily": {
     "2026-10-01": [
@@ -31,17 +32,18 @@
         "description": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
         "ilkenEvenki": "1"
       }
+    ],
+    "2026-10-02": [
+      {
+        "id": "https://indigenous-russia.com/archives/50607",
+        "title": "Эвенкийские общины требуют почти 74 млн рублей за ущерб от нефтепровода",
+        "source": "Indigenous Russia",
+        "url": "https://indigenous-russia.com/archives/50607",
+        "published": "2026-10-02T00:00+04:00",
+        "day": "2026-10-02",
+        "description": "Общины «Мадра» и «Кунноир» требуют от «Транснефть — Восток» 73,84 млн рублей за ущерб традиционным угодьям от нефтепровода Куюмба — Тайшет. Суд также рассматривает методику расчёта ущерба."
+      }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://indigenous-russia.com/archives/50607",
-      "title": "Эвенкийские общины требуют почти 74 млн рублей за ущерб от нефтепровода",
-      "source": "Indigenous Russia",
-      "url": "https://indigenous-russia.com/archives/50607",
-      "published": "2026-10-02T00:00+04:00",
-      "day": "2026-10-02",
-      "description": "Общины «Мадра» и «Кунноир» требуют от «Транснефть — Восток» 73,84 млн рублей за ущерб традиционным угодьям от нефтепровода Куюмба — Тайшет. Суд также рассматривает методику расчёта ущерба."
-    }
-  ]
+  "pendingTelegram": []
 }
