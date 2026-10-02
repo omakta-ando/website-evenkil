@@ -460,7 +460,7 @@ def telegram_send(text: str) -> None:
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN is not configured in GitHub Actions secrets")
     url = f"{BOT_API}/bot{token}/sendMessage"
-    body = json.dumps({"chat_id": chat_id, "text": text, "disable_web_page_preview": True}, ensure_ascii=False).encode("utf-8")
+    body = json.dumps({"chat_id": chat_id, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True}, ensure_ascii=False).encode("utf-8")
     result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
     if not result.get("ok"):
         raise RuntimeError(f"Telegram sendMessage failed: {result.get('description', 'unknown error')}")
@@ -468,7 +468,16 @@ def telegram_send(text: str) -> None:
 
 def format_item(item: dict[str, str], number: int | None = None) -> str:
     prefix = f"{number}. " if number is not None else "📰 "
-    return f"{prefix}{item['title']}\n{item['source']} · {item['published'][:10]}\n{item['url']}"
+    title = html.escape(clean(item.get("title", "")))
+    url = html.escape(item.get("url", ""), quote=True)
+    description = clean(item.get("description", ""))
+    # Keep a short, readable preview and make the whole title/preview open the source.
+    if len(description) > 420:
+        description = description[:417].rsplit(" ", 1)[0] + "…"
+    linked_text = title
+    if description:
+        linked_text += " — " + html.escape(description)
+    return f"{prefix}<a href=\"{url}\">{linked_text}</a>\n{html.escape(item['source'])} · {html.escape(item['published'][:10])}"
 
 
 def send_digest(today: str, state: dict) -> None:
@@ -479,7 +488,7 @@ def send_digest(today: str, state: dict) -> None:
     selected = items[:MAX_DIGEST_ITEMS]
     parts = [f"📰 Что произошло сегодня — {today}"]
     for index, item in enumerate(selected, start=1):
-        parts.append(f"{index}. {item['title']}\n{item['source']} · {item['url']}")
+        parts.append(format_item(item, number=index))
     if len(items) > len(selected):
         parts.append(f"Ещё {len(items) - len(selected)} публикаций доступны в ленте сайта.")
     # Telegram sendMessage allows 4096 characters. Split only between stories.
