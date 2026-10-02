@@ -471,13 +471,14 @@ def format_item(item: dict[str, str], number: int | None = None) -> str:
     title = html.escape(clean(item.get("title", "")))
     url = html.escape(item.get("url", ""), quote=True)
     description = clean(item.get("description", ""))
-    # Keep a short, readable preview and make the whole title/preview open the source.
+    # Keep the summary readable as regular text; only the headline is a link.
     if len(description) > 420:
         description = description[:417].rsplit(" ", 1)[0] + "…"
-    linked_text = title
+    lines = [f"{prefix}<a href=\"{url}\">{title}</a>"]
     if description:
-        linked_text += " — " + html.escape(description)
-    return f"{prefix}<a href=\"{url}\">{linked_text}</a>\n{html.escape(item['source'])} · {html.escape(item['published'][:10])}"
+        lines.append(html.escape(description))
+    lines.append(f"{html.escape(item['source'])} · {html.escape(item['published'][:10])}")
+    return "\n".join(lines)
 
 
 def send_digest(today: str, state: dict) -> None:
@@ -536,18 +537,20 @@ def main() -> int:
     today = now_local().date().isoformat()
     state = read_state()
     if args.mode == "notify":
-        pending = state.get("pendingTelegram", [])
+        pending = list(state.get("pendingTelegram", []))
         if not pending:
             print("No newly published stories are waiting for Telegram.")
             return 0
         wait_for_site_publication(pending)
+        sent = 0
         for item in pending:
             telegram_send(format_item(item))
             state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
             state["daily"].setdefault(item["day"], []).append(item)
             state["pendingTelegram"].remove(item)
             save_state(state)
-        print(f"Posted {len(pending)} site-published stories to Telegram.")
+            sent += 1
+        print(f"Posted {sent} site-published stories to Telegram.")
         return 0
 
     if args.mode == "digest":
