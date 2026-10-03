@@ -131,10 +131,10 @@ html{scroll-padding-top:160px}
   .nav{top:72px}
 }
 
-/* Compact the light navigation bar and set the logo medallion on deep green. */
+/* Compact the light navigation bar while preserving the original logo treatment. */
 .nav{height:52px}
-.brand-mark{background:#102f26;overflow:hidden}
-.brand-mark img{width:78%;height:78%;object-fit:contain}
+.brand-mark{background:var(--pine);overflow:hidden}
+.brand-mark img{width:100%;height:100%;object-fit:cover}
 @media(max-width:520px){
   .nav .wrap{padding-top:8px;padding-bottom:8px}
 }
