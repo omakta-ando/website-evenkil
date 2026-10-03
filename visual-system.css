@@ -105,6 +105,31 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 /* Keep the top dark strip as an image band without its label and status dot. */
 .topline .status{display:none}
 
+/* Let the top and bottom bands carry the same dawn-and-river landscape. */
+.topline{
+  height:72px;
+  min-height:72px;
+  background-color:#071711;
+  background-image:linear-gradient(90deg,rgba(2,13,10,.72) 0%,rgba(5,18,14,.53) 52%,rgba(3,12,9,.3) 100%),url("media/taiga-river-hero-v1.png?v=20261003-bands");
+  background-position:center 15%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.topline .wrap{height:72px;min-height:72px}
+.nav{top:72px}
+.footer,.page-footer{
+  background-color:#071711;
+  background-image:linear-gradient(90deg,rgba(0,8,6,.84) 0%,rgba(1,12,8,.72) 48%,rgba(3,15,10,.56) 100%),url("media/taiga-river-hero-v1.png?v=20261003-bands");
+  background-position:center 80%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+@media(max-width:700px){
+  .topline{background-position:center 15%}
+  .topline .wrap{height:72px;min-height:72px}
+  .nav{top:72px}
+}
+
 /* Feature cards now use larger medallions without descriptive copy. */
 .about .about-icon{width:76px;height:76px}
 .about .about-icon svg{width:62px;height:62px}
