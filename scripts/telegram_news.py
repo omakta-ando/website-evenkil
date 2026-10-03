@@ -143,6 +143,149 @@ def original_source_url(url: str) -> str:
     return url
 
 
+def parse_russian_publication_date(value: str) -> dt.datetime | None:
+    months = {
+        "января": 1, "февраля": 2, "марта": 3, "апреля": 4,
+        "мая": 5, "июня": 6, "июля": 7, "августа": 8,
+        "сентября": 9, "октября": 10, "ноября": 11, "декабря": 12,
+    }
+    match = re.search(r"\b(\d{1,2})\s+([а-яё]+)\s+(\d{4})\b", clean(value).casefold())
+    if not match or match.group(2) not in months:
+        return None
+    try:
+        return dt.datetime(int(match.group(3)), months[match.group(2)], int(match.group(1)), tzinfo=TZ)
+    except ValueError:
+        return None
+
+
+def fetch_arun_news() -> list[dict[str, str]]:
+    """Read every dated, recent article from the Evenki culture center archive."""
+    data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    feed = next((item for item in data.get("directFeeds", []) if item.get("id") == "arun-news"), None)
+    if not feed:
+        return []
+    category_url = str(feed.get("category", "")).strip()
+    if not category_url:
+        return []
+    try:
+        document = request(category_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
+            "Accept": "text/html,application/xhtml+xml",
+        }).decode("utf-8", errors="replace")
+    except (urllib.error.URLError, TimeoutError) as error:
+        print(f"Warning: Арун news archive failed: {error}", file=sys.stderr)
+        return []
+
+    cutoff = now_local() - dt.timedelta(days=MAX_SEEN_DAYS)
+    found: list[dict[str, str]] = []
+    for story in ArunNewsParser().parse(document, category_url):
+        published = story["published"]
+        if published.date() < cutoff.date() or published > now_local() + dt.timedelta(days=1):
+            continue
+        url = str(story["url"])
+        title = clean(str(story["title"]))
+        description = clean(str(story["description"]))
+        searchable = f"{title} {description}".casefold()
+        region = "Общие новости"
+        if any(term in searchable for term in ("бурят", "улан-удэ", "курумкан", "баунт", "алле", "багдарин")):
+            region = "Бурятия"
+        elif any(term in searchable for term in ("чите", "забайкал", "каларск")):
+            region = "Забайкальский край"
+        found.append({
+            "id": url,
+            "title": title,
+            "source": "Центр эвенкийской культуры «Арун»",
+            "url": url,
+            "published": published.isoformat(timespec="minutes"),
+            "day": published.date().isoformat(),
+            "description": description,
+            "arunNews": "1",
+            "configuredSource": "1",
+            "region": region,
+        })
+    print(f"Read {len(found)} recent dated publications from the Арун news archive.")
+    return found
+
+
+class ArunNewsParser(HTMLParser):
+    """Extract title, blurb, date and canonical link from Arуn's archive cards."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.cards: list[dict[str, object]] = []
+        self.card: dict[str, object] | None = None
+        self.card_depth = 0
+        self.mode: str | None = None
+
+    def parse(self, document: str, base_url: str) -> list[dict[str, object]]:
+        self.feed(document)
+        result: list[dict[str, object]] = []
+        for card in self.cards:
+            published = parse_russian_publication_date(str(card.get("date", "")))
+            raw_url = str(card.get("url", "")).strip()
+            if not published or not card.get("title") or not raw_url:
+                continue
+            url = urllib.parse.urljoin(base_url, raw_url)
+            if not url.startswith("https://arun-rb.ru/"):
+                continue
+            parsed_url = urllib.parse.urlsplit(url)
+            # The archive's relative hrefs resolve below /novosti/, but the
+            # publisher's canonical article URLs are at the domain root.
+            path = parsed_url.path
+            if path.startswith("/novosti/"):
+                path = "/" + path.removeprefix("/novosti/")
+            url = urllib.parse.urlunsplit((parsed_url.scheme, parsed_url.netloc, path, parsed_url.query, parsed_url.fragment))
+            url = urllib.parse.quote(url, safe=":/%?=&")
+            result.append({
+                "url": url,
+                "title": clean(str(card.get("title", ""))),
+                "description": clean(str(card.get("description", "")))[:420],
+                "published": published,
+            })
+        return result
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        classes = set((attributes.get("class") or "").split())
+        if tag == "div" and "category-item__right" in classes and self.card is None:
+            self.card = {"url": "", "title": "", "description": "", "date": ""}
+            self.card_depth = 1
+            self.mode = None
+            return
+        if self.card is None:
+            return
+        if tag == "div":
+            self.card_depth += 1
+            if "category-item__intro" in classes:
+                self.mode = "description"
+            elif "category-item__date" in classes:
+                self.mode = "date"
+        elif tag == "h3" and "category-item__title" in classes:
+            self.mode = "title"
+        elif tag == "a" and self.mode == "title":
+            self.card["url"] = attributes.get("href") or ""
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.card is None:
+            return
+        if tag == "h3" and self.mode == "title":
+            self.mode = None
+        if tag == "div":
+            self.card_depth -= 1
+            if self.card_depth <= 0:
+                self.cards.append(self.card)
+                self.card = None
+                self.card_depth = 0
+                self.mode = None
+
+    def handle_data(self, data: str) -> None:
+        if self.card is None or not self.mode:
+            return
+        key = {"title": "title", "description": "description", "date": "date"}.get(self.mode)
+        if key:
+            self.card[key] = str(self.card[key]) + data
+
+
 def fetch_ilken_feed() -> list[dict[str, str]]:
     """Read Ilken's Evenki category and the main multilingual news feed."""
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
@@ -409,7 +552,7 @@ def fetch_items() -> list[dict[str, str]]:
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
             })
-    direct_items = fetch_ilken_feed()
+    direct_items = fetch_ilken_feed() + fetch_arun_news()
     if failures == len(feeds) and not direct_items:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated variants within a single RSS response.
@@ -580,7 +723,7 @@ def main() -> int:
     # Search results from configured publishers are added to the general feed;
     # Ilken's dedicated Evenki-language category is a trusted direct-source feed.
     for item in found:
-        item["siteEligible"] = "1" if item.get("ilkenEvenki") == "1" or item.get("configuredSource") == "1" else "0"
+        item["siteEligible"] = "1" if item.get("ilkenEvenki") == "1" or item.get("arunNews") == "1" or item.get("configuredSource") == "1" else "0"
     new_site_stories = update_site_news_feed(found) if args.mode == "collect" else 0
     if new_site_stories:
         print(f"Added {new_site_stories} new stories to the website news feed.")
@@ -593,10 +736,16 @@ def main() -> int:
     state["daily"] = {day: items for day, items in state["daily"].items() if day >= (now_local().date() - dt.timedelta(days=7)).isoformat()}
 
     public_links = {str(story.get("link", "")).rstrip("/") for story in load_site_news_stories()}
+    telegram_cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
+    state["pendingTelegram"] = [
+        item for item in state["pendingTelegram"]
+        if (parse_date(item.get("published", "")) or now_local()) >= telegram_cutoff
+    ]
     queued_ids = {item.get("id") for item in state["pendingTelegram"]}
     queued = [
         item for item in found
         if item.get("siteEligible") == "1"
+        and (parse_date(item.get("published", "")) or now_local()) >= telegram_cutoff
         and item["url"].rstrip("/") in public_links
         and item["id"] not in state["seen"]
         and item["id"] not in queued_ids
