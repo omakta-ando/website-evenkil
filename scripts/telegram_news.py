@@ -72,6 +72,20 @@ def load_ilken_queries() -> list[str]:
     return []
 
 
+def load_query_group(group_id: str) -> list[str]:
+    data = json.loads(QUERIES_FILE.read_text(encoding="utf-8"))
+    for group in data.get("queryGroups", []):
+        if group.get("id") == group_id:
+            return [str(value).strip() for value in group.get("queries", []) if str(value).strip()]
+    return []
+
+
+def load_social_search_sites() -> list[str]:
+    data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    sites = [str(account.get("googleNewsSite", "")).strip() for account in data.get("socialAccounts", [])]
+    return [site for site in sites if re.fullmatch(r"[a-z0-9.-]+/[a-zA-Z0-9_./-]+", site)]
+
+
 def load_source_domains() -> list[str]:
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     domains = [str(value).strip().lower() for value in data.get("domains", [])]
@@ -332,6 +346,11 @@ def fetch_items() -> list[dict[str, str]]:
     for group in domain_groups:
         sites = " OR ".join(f"site:{domain}" for domain in group)
         feeds.append((f"({query}) ({sites}) when:2d", False))
+    local_terms = load_query_group("eao-evenki")
+    if local_terms:
+        local_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in local_terms)
+        feeds.append((f"({local_query}) when:30d", False))
+        feeds.extend((f"({local_query}) site:{site} when:30d", False) for site in load_social_search_sites())
     ilken_terms = load_ilken_queries()
     # Keep a source-wide fallback: Evenki-language headlines do not always
     # contain the same orthographic markers or the words chosen as search terms.

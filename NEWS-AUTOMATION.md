@@ -3,8 +3,12 @@
 The scheduled GitHub Actions workflow searches the query groups in
 `news-search-queries.json` through Google News RSS, except for region-only and
 Ilken-specific queries. It searches both the general news index and batches of
-the media domains in `news-search-sources.json`. The Ilken Evenki-language
-category is searched separately and its category RSS is checked directly.
+the media domains in `news-search-sources.json`. EAO terms get separate
+targeted searches, including configured public Telegram and VK accounts.
+Social posts are discovered through Google News indexing, not by reading
+private or complete social feeds, so coverage is not guaranteed. The Ilken
+Evenki-language category is searched separately and its category RSS is
+checked directly.
 
 At 12:00 and 18:00 Asia/Tbilisi, newly discovered matching stories are sent to
 `@taiga_thread`. New stories from the dedicated Ilken Evenki category are also

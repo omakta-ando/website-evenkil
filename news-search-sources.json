@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Настроенные СМИ используются в автоматическом поиске Google News RSS; прямые RSS-источники проверяются отдельно и регулярно.",
+  "description": "Настроенные СМИ и публичные аккаунты ищутся через Google News RSS; прямые RSS-источники проверяются отдельно и регулярно. Поиск по соцсетям зависит от индексации Google.",
   "domains": [
     "75.ru",
     "adm-sel.ru",
@@ -21,10 +21,12 @@
     "culture.sakhalin.gov.ru",
     "culture.tomsk.gov.ru",
     "densus.ru",
+    "eaomedia.ru",
     "egov-buryatia.ru",
     "ethnoinfo.ru",
     "evenkya.gosuslugi.ru",
     "fedpress.ru",
+    "gorodnabire.ru",
     "gazetazp.ru",
     "gnkk.ru",
     "goarctic.ru",
@@ -32,6 +34,7 @@
     "gtrksakha.ru",
     "ilken.ru",
     "indigenous-russia.com",
+    "infobira.ru",
     "infpol.ru",
     "interfax.ru",
     "ircity.ru",
@@ -49,6 +52,7 @@
     "minarctic.sakha.gov.ru",
     "minkult03.ru",
     "nazaccent.ru",
+    "nasledie-eao.ru",
     "newbur.ru",
     "news.kmnsoyuz.ru",
     "ngs24.ru",
@@ -62,6 +66,7 @@
     "rbc.ru",
     "rg.ru",
     "ria.ru",
+    "riabir.ru",
     "riatomsk.ru",
     "russian-arctic.info",
     "rutube.ru",
@@ -89,6 +94,9 @@
     "tynda.ru",
     "tyndapr.ru",
     "ulus.media",
+    "vremya-bir.ru",
+    "biratv.ru",
+    "livebir.ru",
     "vesti-chita.ru",
     "vk.com",
     "vk.ru",
@@ -98,6 +106,56 @@
     "zab.ru",
     "zabrab75.ru",
     "таймыр.рф"
+  ],
+  "socialAccounts": [
+    {
+      "id": "eaomedia-telegram",
+      "label": "ЕАОMedia · Telegram",
+      "url": "https://t.me/eaomedia",
+      "googleNewsSite": "t.me/eaomedia"
+    },
+    {
+      "id": "gtrk-bira-telegram",
+      "label": "ГТРК «Бира» · Telegram",
+      "url": "https://t.me/gtrk_bira",
+      "googleNewsSite": "t.me/gtrk_bira"
+    },
+    {
+      "id": "biraria-telegram",
+      "label": "Бирария · Telegram",
+      "url": "https://t.me/biraria",
+      "googleNewsSite": "t.me/biraria"
+    },
+    {
+      "id": "riabir-news-eao-telegram",
+      "label": "Новости ЕАО · Telegram (РИА Биробиджан)",
+      "url": "https://t.me/novostiEAO",
+      "googleNewsSite": "t.me/novostiEAO"
+    },
+    {
+      "id": "riabir-telegram",
+      "label": "РИА Биробиджан · Telegram",
+      "url": "https://t.me/riabir79",
+      "googleNewsSite": "t.me/riabir79"
+    },
+    {
+      "id": "eaomedia-vk",
+      "label": "ЕАОMedia · ВКонтакте",
+      "url": "https://vk.com/eaomedia",
+      "googleNewsSite": "vk.com/eaomedia"
+    },
+    {
+      "id": "gtrk-bira-vk",
+      "label": "ГТРК «Бира» · ВКонтакте",
+      "url": "https://vk.com/public211746812",
+      "googleNewsSite": "vk.com/public211746812"
+    },
+    {
+      "id": "biraria-vk",
+      "label": "Бирария · ВКонтакте",
+      "url": "https://vk.com/biraria",
+      "googleNewsSite": "vk.com/biraria"
+    }
   ],
   "directFeeds": [
     {
