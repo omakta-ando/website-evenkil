@@ -98,6 +98,14 @@ figcaption,.media-caption,.image-caption{font-family:'Golos Text',sans-serif;fon
 .footer,.page-footer{background-color:#071711;background-image:linear-gradient(90deg,rgba(0,8,6,.76) 0%,rgba(1,12,8,.7) 25%,rgba(3,15,10,.62) 50%,rgba(5,20,14,.48) 100%),radial-gradient(ellipse at 4% 0%,rgba(0,4,3,.28) 0%,rgba(0,5,4,.12) 30%,transparent 62%),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 12%;background-size:cover;background-repeat:no-repeat;color:#e8e6d8}
 .footer a,.page-footer a{color:#e8e6d8}
 .footer a:hover,.page-footer a:hover{color:#e1c98e}
+/* Bring the new taiga-and-river landscape into the quote interlude, softly lit for legibility. */
+.quote-band{
+  background-color:#e8e9df;
+  background-image:linear-gradient(110deg,rgba(232,235,223,.86),rgba(239,235,221,.82)),url("media/taiga-river-hero-v1.png?v=20261003-quote"),url("taiga-contours.svg");
+  background-position:center,center 73%,right 20%;
+  background-size:cover,cover,640px;
+  background-repeat:no-repeat,no-repeat,repeat;
+}
 
 /* Center the labels across the twelve region filter cards. */
 .filters .chip{justify-content:center;text-align:center}
