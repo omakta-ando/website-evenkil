@@ -1,0 +1,55 @@
+/* One shared header for every page in the autonomous site. */
+.topline{
+  position:sticky!important;top:0!important;z-index:40!important;
+  height:72px!important;min-height:72px!important;
+  background-color:#071711!important;
+  background-image:linear-gradient(90deg,rgba(2,13,10,.72) 0%,rgba(5,18,14,.53) 52%,rgba(3,12,9,.3) 100%),url("media/taiga-river-hero-v1.png?v=20261003-bands")!important;
+  background-position:center 15%!important;background-size:cover!important;background-repeat:no-repeat!important;
+}
+.topline .wrap{height:72px!important;min-height:72px!important;position:relative!important}
+.topline .status{display:none!important}
+.nav{
+  position:sticky!important;top:72px!important;z-index:39!important;
+  height:52px!important;min-height:52px!important;background:var(--paper,#fbfaf5)!important;
+  border-bottom:1px solid var(--line,#d9dbcf)!important;box-shadow:none!important;
+}
+.nav .wrap{
+  width:100%!important;max-width:none!important;height:52px!important;min-height:52px!important;
+  margin:0!important;padding:0 clamp(14px,1.6vw,28px)!important;
+  display:flex!important;flex-direction:row!important;align-items:center!important;
+  justify-content:space-between!important;gap:16px!important;
+}
+.nav .brand{
+  display:flex!important;align-items:center!important;gap:10px!important;flex:none!important;
+  color:var(--ink,#19251f)!important;font:800 22px/1 'Golos Text',sans-serif!important;
+  letter-spacing:-.035em!important;white-space:nowrap!important;
+}
+.nav .brand-mark{
+  display:grid!important;place-items:center!important;overflow:hidden!important;flex:0 0 32px!important;
+  width:32px!important;height:32px!important;margin:0!important;border-radius:50%!important;
+  background:var(--pine,#152b25)!important;
+}
+.nav .brand-mark img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important}
+.nav .navlinks{
+  display:flex!important;align-items:center!important;justify-content:flex-end!important;flex:0 1 auto!important;
+  width:auto!important;margin:0!important;padding:0!important;gap:clamp(14px,2vw,30px)!important;
+  color:#59645c!important;font:400 13px/1.2 'Golos Text',sans-serif!important;
+  white-space:nowrap!important;flex-wrap:nowrap!important;order:initial!important;
+}
+.nav .navlinks a{font:inherit!important;color:inherit!important;text-decoration:none!important}
+.nav .navlinks a:first-child{font:inherit!important}
+.nav .navlinks a:first-child:after{content:none!important}
+.nav .navlinks a:hover{color:var(--clay,#bc7654)!important}
+.nav .menu{display:none!important}
+@media(max-width:900px){
+  .nav{height:auto!important;min-height:52px!important}
+  .nav .wrap{height:auto!important;min-height:52px!important;padding-top:8px!important;padding-bottom:8px!important;flex-wrap:wrap!important;row-gap:8px!important}
+  .nav .brand{font-size:17px!important}
+  .nav .brand-mark{width:30px!important;height:30px!important;flex-basis:30px!important}
+  .nav .navlinks{width:100%!important;justify-content:space-between!important;gap:8px 14px!important;white-space:normal!important;flex-wrap:wrap!important;font-size:11px!important}
+}
+@media(max-width:520px){
+  .nav .wrap{gap:7px!important}
+  .nav .brand{font-size:16px!important}
+  .nav .navlinks{justify-content:flex-start!important;gap:7px 13px!important;font-size:10px!important}
+}
