@@ -481,6 +481,167 @@ def parse_ilken_reader_markdown(document: str) -> list[dict[str, object]]:
     return stories
 
 
+class TelegramPublicChannelParser(HTMLParser):
+    """Extract recent text posts from Telegram's public channel preview."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.posts: list[dict[str, str]] = []
+        self.current: dict[str, str] | None = None
+        self.container_depth = 0
+        self.capture_text = False
+        self.text_div_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        classes = set((attributes.get("class") or "").split())
+        if tag == "div":
+            if self.current is None and "tgme_widget_message_wrap" in classes:
+                self.current = {"post": "", "url": "", "date": "", "text": ""}
+                self.container_depth = 1
+            elif self.current is not None:
+                self.container_depth += 1
+            if self.current is not None and "data-post" in attributes:
+                self.current["post"] = attributes.get("data-post") or ""
+            if self.current is not None and "tgme_widget_message_text" in classes:
+                self.capture_text = True
+                self.text_div_depth = 1
+        elif self.current is not None:
+            if self.capture_text and tag == "br":
+                self.current["text"] += " "
+            if tag == "a" and "tgme_widget_message_date" in classes:
+                self.current["url"] = attributes.get("href") or ""
+            elif tag == "time":
+                self.current["date"] = attributes.get("datetime") or ""
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.current is None or tag != "div":
+            return
+        if self.capture_text:
+            self.text_div_depth -= 1
+            if self.text_div_depth <= 0:
+                self.capture_text = False
+        self.container_depth -= 1
+        if self.container_depth <= 0:
+            if self.current.get("post") or self.current.get("url"):
+                self.posts.append(self.current)
+            self.current = None
+            self.container_depth = 0
+            self.capture_text = False
+
+    def handle_data(self, data: str) -> None:
+        if self.current is not None and self.capture_text:
+            self.current["text"] += data
+
+
+def fetch_telegram_public_channels() -> list[dict[str, str]]:
+    """Read public posts directly; Google News remains as a discovery fallback."""
+    data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
+    found: list[dict[str, str]] = []
+    for account in data.get("socialAccounts", []):
+        url = str(account.get("url", "")).strip()
+        parsed = urllib.parse.urlsplit(url)
+        if parsed.hostname not in {"t.me", "telegram.me"}:
+            continue
+        username = parsed.path.strip("/").split("/")[0]
+        if not re.fullmatch(r"[A-Za-z0-9_]+", username):
+            continue
+        try:
+            page = request(
+                f"https://t.me/s/{username}",
+                headers={"User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
+                         "Accept": "text/html,application/xhtml+xml"},
+                timeout=20,
+            ).decode("utf-8", errors="replace")
+        except (urllib.error.URLError, TimeoutError) as error:
+            print(f"Warning: Telegram public channel unavailable ({account.get('label', username)}): {error}", file=sys.stderr)
+            continue
+        parser = TelegramPublicChannelParser()
+        parser.feed(page)
+        for post in parser.posts:
+            published = parse_date(post.get("date", ""))
+            text = clean(post.get("text", ""))
+            if not published or published < cutoff or not CORE_RE.search(text):
+                continue
+            post_path = post.get("post", "").strip("/")
+            post_url = f"https://t.me/{post_path}" if post_path else post.get("url", "")
+            if not post_url.startswith("https://t.me/"):
+                continue
+            found.append({
+                "id": post_url,
+                "title": text[:180].rstrip(" .…") or str(account.get("label", "Telegram")),
+                "source": str(account.get("label", "Telegram")),
+                "url": post_url,
+                "published": published.isoformat(timespec="minutes"),
+                "day": published.date().isoformat(),
+                "description": text[:420],
+                "socialPlatform": "Telegram",
+                "configuredSource": "1",
+            })
+    print(f"Read {len(found)} recent relevant posts directly from public Telegram channels.")
+    return found
+
+
+def fetch_vk_public_walls() -> list[dict[str, str]]:
+    """Read configured public VK walls through the official API when configured."""
+    token = os.environ.get("VK_ACCESS_TOKEN", "").strip()
+    if not token:
+        print("VK direct wall reading is off; set the GitHub Actions secret VK_ACCESS_TOKEN to enable it.")
+        return []
+    data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
+    found: list[dict[str, str]] = []
+    for account in data.get("socialAccounts", []):
+        parsed = urllib.parse.urlsplit(str(account.get("url", "")))
+        if parsed.hostname not in {"vk.com", "vk.ru", "www.vk.com", "www.vk.ru"}:
+            continue
+        domain = parsed.path.strip("/").split("/")[0]
+        if not domain:
+            continue
+        params = urllib.parse.urlencode({
+            "domain": domain, "count": 100, "filter": "owner",
+            "access_token": token, "v": "5.199",
+        }).encode("utf-8")
+        try:
+            payload = request(
+                "https://api.vk.com/method/wall.get",
+                data=params,
+                headers={"Content-Type": "application/x-www-form-urlencoded"},
+                timeout=20,
+            )
+            result = json.loads(payload)
+            if result.get("error"):
+                error_code = result["error"].get("error_code", "unknown")
+                print(f"Warning: VK API rejected {account.get('label', domain)} (error {error_code}).", file=sys.stderr)
+                continue
+            posts = result.get("response", {}).get("items", [])
+        except (urllib.error.URLError, TimeoutError, ValueError, AttributeError) as error:
+            print(f"Warning: VK wall unavailable ({account.get('label', domain)}): {error}", file=sys.stderr)
+            continue
+        for post in posts:
+            text = clean(str(post.get("text", "")))
+            published = dt.datetime.fromtimestamp(int(post.get("date", 0)), tz=TZ)
+            if published < cutoff or not CORE_RE.search(text):
+                continue
+            owner_id = int(post.get("owner_id", 0))
+            post_id = int(post.get("id", 0))
+            post_url = f"https://vk.com/wall{owner_id}_{post_id}"
+            found.append({
+                "id": post_url,
+                "title": text[:180].rstrip(" .…") or str(account.get("label", "ВКонтакте")),
+                "source": str(account.get("label", "ВКонтакте")),
+                "url": post_url,
+                "published": published.isoformat(timespec="minutes"),
+                "day": published.date().isoformat(),
+                "description": text[:420],
+                "socialPlatform": "ВКонтакте",
+                "configuredSource": "1",
+            })
+    print(f"Read {len(found)} recent relevant posts directly from configured VK walls.")
+    return found
+
+
 def fetch_items() -> list[dict[str, str]]:
     domains = load_source_domains()
 
@@ -586,7 +747,7 @@ def fetch_items() -> list[dict[str, str]]:
                 print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
             items.extend(found)
 
-    direct_items = fetch_ilken_feed() + fetch_arun_news()
+    direct_items = fetch_ilken_feed() + fetch_arun_news() + fetch_telegram_public_channels() + fetch_vk_public_walls()
     if failures == len(feeds) and not direct_items:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
