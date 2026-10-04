@@ -40,6 +40,7 @@ MAX_DIGEST_ITEMS = 40
 
 CORE_RE = re.compile(r"эвенк|эвенки|эвенкий|эвенкия|эвенкил|эвэды|ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун", re.I)
 EXCLUDED_TOPIC_RE = re.compile(r"(?:нанайск\w*.{0,50}шашк\w*|шашк\w*.{0,50}нанайск\w*)", re.I)
+EXCLUDED_STORY_URLS = {"https://t.me/biraria/4194"}
 
 
 def now_local() -> dt.datetime:
@@ -761,9 +762,13 @@ def fetch_items() -> list[dict[str, str]]:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
     candidates = items + direct_items
-    excluded = [item for item in candidates if EXCLUDED_TOPIC_RE.search(f"{item.get('title', '')} {item.get('description', '')}")]
+    excluded = [
+        item for item in candidates
+        if item.get("url", "").rstrip("/") in EXCLUDED_STORY_URLS
+        or EXCLUDED_TOPIC_RE.search(f"{item.get('title', '')} {item.get('description', '')}")
+    ]
     if excluded:
-        print(f"Excluded {len(excluded)} stories about Nanai checkers.")
+        print(f"Excluded {len(excluded)} stories by editorial filters.")
     return list({item["url"].rstrip("/"): item for item in candidates if item not in excluded}.values())
 
 
