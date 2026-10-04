@@ -39,6 +39,7 @@ MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
 CORE_RE = re.compile(r"эвенк|эвенки|эвенкий|эвенкия|эвенкил|эвэды|ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун", re.I)
+EXCLUDED_TOPIC_RE = re.compile(r"(?:нанайск\w*.{0,50}шашк\w*|шашк\w*.{0,50}нанайск\w*)", re.I)
 
 
 def now_local() -> dt.datetime:
@@ -497,16 +498,23 @@ class TelegramPublicChannelParser(HTMLParser):
         classes = set((attributes.get("class") or "").split())
         if tag == "div":
             if self.current is None and "tgme_widget_message_wrap" in classes:
-                self.current = {"post": "", "url": "", "date": "", "text": ""}
+                self.current = {"post": "", "url": "", "date": "", "text": "", "image": ""}
                 self.container_depth = 1
             elif self.current is not None:
                 self.container_depth += 1
             if self.current is not None and "data-post" in attributes:
                 self.current["post"] = attributes.get("data-post") or ""
+            if self.current is not None and classes.intersection({"tgme_widget_message_photo", "tgme_widget_message_video_thumb"}):
+                style = attributes.get("style") or ""
+                image = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", style, re.I)
+                if image:
+                    self.current["image"] = html.unescape(image.group(1))
             if self.current is not None and "tgme_widget_message_text" in classes:
                 self.capture_text = True
                 self.text_div_depth = 1
         elif self.current is not None:
+            if tag == "img" and not self.current.get("image"):
+                self.current["image"] = attributes.get("src") or ""
             if self.capture_text and tag == "br":
                 self.current["text"] += " "
             if tag == "a" and "tgme_widget_message_date" in classes:
@@ -578,6 +586,7 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
                 "description": text[:420],
                 "socialPlatform": "Telegram",
                 "configuredSource": "1",
+                **({"image": post["image"]} if post.get("image") else {}),
             })
     print(f"Read {len(found)} recent relevant posts directly from public Telegram channels.")
     return found
@@ -751,7 +760,11 @@ def fetch_items() -> list[dict[str, str]]:
     if failures == len(feeds) and not direct_items:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
-    return list({item["url"].rstrip("/"): item for item in items + direct_items}.values())
+    candidates = items + direct_items
+    excluded = [item for item in candidates if EXCLUDED_TOPIC_RE.search(f"{item.get('title', '')} {item.get('description', '')}")]
+    if excluded:
+        print(f"Excluded {len(excluded)} stories about Nanai checkers.")
+    return list({item["url"].rstrip("/"): item for item in candidates if item not in excluded}.values())
 
 
 def update_site_news_feed(items: list[dict[str, str]]) -> int:
@@ -772,6 +785,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             "title": item["title"],
             "desc": (item.get("description") or "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.")[:420],
             "tags": "эвенки эвенкийский язык новости", "link": item["url"],
+            **({"image": item["image"]} if item.get("image") else {}),
         })
         known.add(link)
         added += 1
@@ -821,6 +835,29 @@ def telegram_send(text: str) -> None:
     result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
     if not result.get("ok"):
         raise RuntimeError(f"Telegram sendMessage failed: {result.get('description', 'unknown error')}")
+
+
+def telegram_send_item(item: dict[str, str]) -> None:
+    """Send a story with its site image when available, otherwise as text."""
+    image = item.get("image", "").strip()
+    if not image:
+        telegram_send(format_item(item))
+        return
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "@taiga_thread").strip()
+    if not token:
+        raise RuntimeError("TELEGRAM_BOT_TOKEN is not configured in GitHub Actions secrets")
+    url = f"{BOT_API}/bot{token}/sendPhoto"
+    body = json.dumps({
+        "chat_id": chat_id,
+        "photo": image,
+        "caption": format_item(item),
+        "parse_mode": "HTML",
+    }, ensure_ascii=False).encode("utf-8")
+    result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
+    if not result.get("ok"):
+        print(f"Telegram could not attach image for {item.get('url')}; sending text instead: {result.get('description', 'unknown error')}", file=sys.stderr)
+        telegram_send(format_item(item))
 
 
 def format_item(item: dict[str, str], number: int | None = None) -> str:
@@ -899,9 +936,16 @@ def main() -> int:
             print("No newly published stories are waiting for Telegram.")
             return 0
         wait_for_site_publication(pending)
+        site_images = {
+            str(story.get("link", "")).rstrip("/"): str(story.get("image", "")).strip()
+            for story in load_site_news_stories()
+            if story.get("image")
+        }
         sent = 0
         for item in pending:
-            telegram_send(format_item(item))
+            item_with_image = dict(item)
+            item_with_image["image"] = item.get("image") or site_images.get(str(item.get("url", "")).rstrip("/"), "")
+            telegram_send_item(item_with_image)
             state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
             state["daily"].setdefault(item["day"], []).append(item)
             state["pendingTelegram"].remove(item)
