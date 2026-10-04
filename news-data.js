@@ -1,5 +1,15 @@
 window.newsStories=[
-{
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-02",
+    "source": "КМНСОЮЗ-NEWS",
+    "title": "Более 130 семей коренных народов Красноярского края получили комплекты для новорожденных",
+    "desc": "131 семья получила комплекты для новорождённых: 91 — на Таймыре, 33 — в Эвенкии и 7 — в Туруханском районе.",
+    "tags": "эвенки Красноярский край Эвенкия Таймыр Туруханский район комплекты новорождённым поддержка семей коренные народы",
+    "link": "https://news.kmnsoyuz.ru/news/53644",
+    "image": "https://news.kmnsoyuz.ru/wp-content/uploads/2026/10/fo5_lB8PMpvi3hYYi4AgprcPC36gNNgiwXOVbwrmqviixCQOdcc-Ah5TdYGnJRNk3vsQC3OpEcPJQcbmPX5_UXCi-1-1.jpg"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-02",
     "source": "Илкэн",
