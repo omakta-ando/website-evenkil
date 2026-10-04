@@ -8,6 +8,7 @@ publisher link and should be reviewed by the channel editors after publication.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import ast
 import datetime as dt
 import html
@@ -481,40 +482,50 @@ def parse_ilken_reader_markdown(document: str) -> list[dict[str, object]]:
 
 
 def fetch_items() -> list[dict[str, str]]:
-    terms = load_queries()
-    query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
     domains = load_source_domains()
-    domain_groups = [domains[i:i + 12] for i in range(0, len(domains), 12)]
-    feeds = [(f"({query}) when:2d", False)]
-    for group in domain_groups:
-        sites = " OR ".join(f"site:{domain}" for domain in group)
-        feeds.append((f"({query}) ({sites}) when:2d", False))
+
+    # Search the full Google News index in focused topic groups. Keeping these
+    # separate avoids one oversized OR query losing narrower language/culture hits.
+    feeds: list[tuple[str, bool]] = []
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names"):
+        terms = load_query_group(group_id)
+        if terms:
+            query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
+            feeds.append((f"({query}) when:2d", False))
+
+    # Search every configured publisher separately. Combining many sites into
+    # one Google News query can crowd out smaller outlets in the RSS results.
+    source_terms = (
+        "эвенки", "эвенк", "эвенкийский", "эвенкия", "эвенкил", "эвэды",
+        "орочон", "орочёны", "хамниган", "тунгус", "бирар", "манегр",
+        "солон", "бакалдын", "мучун",
+    )
+    source_query = " OR ".join(f'"{term}"' for term in source_terms)
+    feeds.extend((f"site:{domain} ({source_query}) when:2d", False) for domain in domains)
+
     local_terms = load_query_group("eao-evenki")
     if local_terms:
         local_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in local_terms)
         feeds.append((f"({local_query}) when:30d", False))
         feeds.extend((f"({local_query}) site:{site} when:30d", False) for site in load_social_search_sites())
     ilken_terms = load_ilken_queries()
-    # Keep a source-wide fallback: Evenki-language headlines do not always
-    # contain the same orthographic markers or the words chosen as search terms.
+    # Keep source-wide searches for the dedicated Ilken Evenki category.
     feeds.append(("site:ilken.ru/evenki/ when:30d", True))
     feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True) for term in ilken_terms)
-    # Search Ilken's Russian-language site separately as well. The direct
-    # Evenki category above is language-specific; Russian stories stay in the
-    # general bucket unless a region is confirmed by an editor.
     feeds.append(("site:ilken.ru when:2d", False))
-    items: list[dict[str, str]] = []
+
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
-    failures = 0
-    for feed_query, ilken_search in feeds:
+
+    def search_feed(feed: tuple[str, bool]) -> tuple[list[dict[str, str]], str | None]:
+        feed_query, ilken_search = feed
         params = urllib.parse.urlencode({"q": feed_query, "hl": "ru", "gl": "RU", "ceid": "RU:ru"})
         try:
             payload = request(f"{RSS_URL}?{params}")
             root = ET.fromstring(payload)
         except (urllib.error.URLError, TimeoutError, ET.ParseError) as error:
-            failures += 1
-            print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
-            continue
+            return [], str(error)
+
+        found: list[dict[str, str]] = []
         for node in root.findall("./channel/item"):
             title = clean(node.findtext("title", ""))
             description = clean(node.findtext("description", ""))
@@ -541,7 +552,7 @@ def fetch_items() -> list[dict[str, str]]:
             ) and "news.google.com" not in publisher_host
             if not CORE_RE.search(f"{title} {description}") and not is_ilken:
                 continue
-            items.append({
+            found.append({
                 "id": item_id,
                 "title": title,
                 "source": source or "Источник в Google Новостях",
@@ -552,10 +563,23 @@ def fetch_items() -> list[dict[str, str]]:
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
             })
+        return found, None
+
+    items: list[dict[str, str]] = []
+    failures = 0
+    # Keep the run short while spreading requests so no source group monopolizes
+    # the limited number of results returned by Google News RSS.
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        for found, error in executor.map(search_feed, feeds):
+            if error:
+                failures += 1
+                print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
+            items.extend(found)
+
     direct_items = fetch_ilken_feed() + fetch_arun_news()
     if failures == len(feeds) and not direct_items:
         raise RuntimeError("All Google News RSS searches failed")
-    # Deduplicate repeated variants within a single RSS response.
+    # Deduplicate repeated articles returned by the global and publisher-specific searches.
     return list({item["url"].rstrip("/"): item for item in items + direct_items}.values())
 
 
