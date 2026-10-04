@@ -1,6 +1,54 @@
 {
   "version": 1,
-  "description": "Настроенные СМИ и публичные аккаунты ищутся через Google News RSS; прямые RSS-источники проверяются отдельно и регулярно. Поиск по соцсетям зависит от индексации Google.",
+  "description": "Настроенные СМИ ищутся через Google News RSS. Открытые Telegram-каналы дополнительно читаются напрямую; открытые стены VK — через официальный API при наличии VK_ACCESS_TOKEN. Поисковая индексация остаётся дополнительным источником обнаружения.",
+  "internationalMedia": [
+    {
+      "country": "Китай",
+      "language": "китайский",
+      "googleNews": {"hl": "zh-CN", "gl": "CN", "ceid": "CN:zh-Hans"},
+      "publishers": [
+        {"label": "Синьхуа · 新华社", "url": "https://www.xinhuanet.com/", "domain": "xinhuanet.com"},
+        {"label": "China Daily", "url": "https://www.chinadaily.com.cn/", "domain": "chinadaily.com.cn"},
+        {"label": "China News Service · 中国新闻网", "url": "https://www.chinanews.com.cn/", "domain": "chinanews.com.cn"},
+        {"label": "Внутренняя Монголия · 内蒙古新闻网", "url": "https://www.nmgnews.com.cn/", "domain": "nmgnews.com.cn"}
+      ],
+      "queries": ["鄂温克", "鄂温克族", "鄂伦春", "鄂伦春族", "敖鲁古雅"]
+    },
+    {
+      "country": "Монголия",
+      "language": "монгольский",
+      "googleNews": {"hl": "mn", "gl": "MN", "ceid": "MN:mn"},
+      "publishers": [
+        {"label": "МОНЦАМЭ · Үндэсний мэдээллийн агентлаг", "url": "https://montsame.mn/", "domain": "montsame.mn"},
+        {"label": "MNB · Монголын Үндэсний Олон Нийтийн Радио Телевиз", "url": "https://www.mnb.mn/", "domain": "mnb.mn"},
+        {"label": "News.mn", "url": "https://news.mn/", "domain": "news.mn"},
+        {"label": "Ikon.mn", "url": "https://ikon.mn/", "domain": "ikon.mn"}
+      ],
+      "queries": ["хамниган", "хамнигад", "эвэнк", "эвэнки", "тунгус"]
+    },
+    {
+      "country": "Япония",
+      "language": "японский",
+      "googleNews": {"hl": "ja", "gl": "JP", "ceid": "JP:ja"},
+      "publishers": [
+        {"label": "NHK", "url": "https://www3.nhk.or.jp/news/", "domain": "nhk.or.jp"},
+        {"label": "Kyodo News · 共同通信", "url": "https://english.kyodonews.net/", "domain": "kyodonews.net"},
+        {"label": "The Asahi Shimbun · 朝日新聞", "url": "https://www.asahi.com/", "domain": "asahi.com"}
+      ],
+      "queries": ["エヴェンキ", "エヴェンキ族", "オロチョン", "ハムニガン"]
+    },
+    {
+      "country": "Корея",
+      "language": "корейский",
+      "googleNews": {"hl": "ko", "gl": "KR", "ceid": "KR:ko"},
+      "publishers": [
+        {"label": "Yonhap News Agency · 연합뉴스", "url": "https://www.yna.co.kr/", "domain": "yna.co.kr"},
+        {"label": "KBS News · 한국방송공사", "url": "https://news.kbs.co.kr/", "domain": "kbs.co.kr"},
+        {"label": "Arirang News", "url": "https://www.arirang.com/news", "domain": "arirang.com"}
+      ],
+      "queries": ["에벤키", "에벤키족", "오로촌", "함니간"]
+    }
+  ],
   "domains": [
     "75.ru",
     "adm-sel.ru",
@@ -17,6 +65,8 @@
     "baunt.ru",
     "biraria.ru",
     "burunen.ru",
+    "chinadaily.com.cn",
+    "chinanews.com.cn",
     "chita.rfn.ru",
     "chita.ru",
     "culture.sakhalin.gov.ru",
@@ -41,6 +91,9 @@
     "ircity.ru",
     "irkobl.ru",
     "irkutsk.rfn.ru",
+    "ikon.mn",
+    "mnb.mn",
+    "montsame.mn",
     "iu-upkm.sakha.gov.ru",
     "k-lensk.ru",
     "kachug.irkobl.ru",
@@ -56,10 +109,15 @@
     "nasledie-eao.ru",
     "newbur.ru",
     "news.kmnsoyuz.ru",
+    "news.mn",
+    "nmgnews.com.cn",
+    "nhk.or.jp",
     "ngs24.ru",
     "nvk-online.ru",
     "obzor.city",
     "ogirk.ru",
+    "asahi.com",
+    "arirang.com",
     "ok.ru",
     "oskoba-r04.gosweb.gosuslugi.ru",
     "portamur.ru",
@@ -101,6 +159,10 @@
     "vesti-chita.ru",
     "vk.com",
     "vk.ru",
+    "kyodonews.net",
+    "kbs.co.kr",
+    "yna.co.kr",
+    "xinhuanet.com",
     "yakutia-daily.ru",
     "youtube.com",
     "ysia.ru",
@@ -156,6 +218,18 @@
       "label": "Бирария · ВКонтакте",
       "url": "https://vk.com/biraria",
       "googleNewsSite": "vk.com/biraria"
+    },
+    {
+      "id": "evenki-vk",
+      "label": "Эвенки · ВКонтакте",
+      "url": "https://vk.com/evenkil",
+      "googleNewsSite": "vk.com/evenkil"
+    },
+    {
+      "id": "infokmns-vk",
+      "label": "Агентство по развитию северных территорий · ВКонтакте",
+      "url": "https://vk.ru/infokmns",
+      "googleNewsSite": "vk.ru/infokmns"
     }
   ],
   "directFeeds": [

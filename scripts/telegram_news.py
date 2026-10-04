@@ -38,7 +38,7 @@ LOOKBACK_HOURS = 72
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
-CORE_RE = re.compile(r"эвенк|эвенки|эвенкий|эвенкия|эвенкил|эвэды|ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун", re.I)
+CORE_RE = re.compile(r"эвенк|эвенки|эвенкий|эвенкия|эвенкил|эвэды|ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|хамнигад|эвэнк|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간", re.I)
 EXCLUDED_TOPIC_RE = re.compile(r"(?:нанайск\w*.{0,50}шашк\w*|шашк\w*.{0,50}нанайск\w*)", re.I)
 EXCLUDED_STORY_URLS = {"https://t.me/biraria/4194"}
 
@@ -92,6 +92,12 @@ def load_social_search_sites() -> list[str]:
 def load_source_domains() -> list[str]:
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     domains = [str(value).strip().lower() for value in data.get("domains", [])]
+    for country in data.get("internationalMedia", []):
+        domains.extend(
+            str(publisher.get("domain", "")).strip().lower()
+            for publisher in country.get("publishers", [])
+        )
+    domains = list(dict.fromkeys(domains))
     domains = [value for value in domains if re.fullmatch(r"[a-z0-9.-]+|[^\s/]+", value)]
     if not domains:
         raise ValueError("No source domains found in news-search-sources.json")
@@ -657,12 +663,12 @@ def fetch_items() -> list[dict[str, str]]:
 
     # Search the full Google News index in focused topic groups. Keeping these
     # separate avoids one oversized OR query losing narrower language/culture hits.
-    feeds: list[tuple[str, bool]] = []
+    feeds: list[tuple[str, bool, dict[str, str] | None]] = []
     for group_id in ("core", "language-education", "culture", "historical-and-local-names"):
         terms = load_query_group(group_id)
         if terms:
             query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
-            feeds.append((f"({query}) when:2d", False))
+            feeds.append((f"({query}) when:2d", False, None))
 
     # Search every configured publisher separately. Combining many sites into
     # one Google News query can crowd out smaller outlets in the RSS results.
@@ -672,12 +678,36 @@ def fetch_items() -> list[dict[str, str]]:
         "солон", "бакалдын", "мучун",
     )
     source_query = " OR ".join(f'"{term}"' for term in source_terms)
-    feeds.extend((f"site:{domain} ({source_query}) when:2d", False) for domain in domains)
+    # Search Asian outlets with the ethnonyms used in their publication languages.
+    # Keep each publisher separate so one large source cannot crowd out smaller ones.
+    sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    international_domains = {
+        str(publisher.get("domain", "")).strip().lower()
+        for country in sources_data.get("internationalMedia", [])
+        for publisher in country.get("publishers", [])
+    }
+    feeds.extend(
+        (f"site:{domain} ({source_query}) when:2d", False, None)
+        for domain in domains
+        if domain not in international_domains
+    )
+    for country in sources_data.get("internationalMedia", []):
+        terms = [str(term).strip() for term in country.get("queries", []) if str(term).strip()]
+        if not terms:
+            continue
+        localized_query = " OR ".join(f'"{term}"' for term in terms)
+        locale = country.get("googleNews")
+        if not isinstance(locale, dict):
+            locale = None
+        for publisher in country.get("publishers", []):
+            domain = str(publisher.get("domain", "")).strip().lower()
+            if domain:
+                feeds.append((f"site:{domain} ({localized_query}) when:7d", False, locale))
 
     local_terms = load_query_group("eao-evenki")
     if local_terms:
         local_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in local_terms)
-        feeds.append((f"({local_query}) when:30d", False))
+        feeds.append((f"({local_query}) when:30d", False, None))
 
     # Search every configured public social account across all major topic groups,
     # not only the regional EAO terms. Google News provides public index coverage;
@@ -688,18 +718,18 @@ def fetch_items() -> list[dict[str, str]]:
         if not terms:
             continue
         social_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
-        feeds.extend((f"site:{site} ({social_query}) when:7d", False) for site in social_sites)
+        feeds.extend((f"site:{site} ({social_query}) when:7d", False, None) for site in social_sites)
     ilken_terms = load_ilken_queries()
     # Keep source-wide searches for the dedicated Ilken Evenki category.
-    feeds.append(("site:ilken.ru/evenki/ when:30d", True))
-    feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True) for term in ilken_terms)
-    feeds.append(("site:ilken.ru when:2d", False))
+    feeds.append(("site:ilken.ru/evenki/ when:30d", True, None))
+    feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True, None) for term in ilken_terms)
+    feeds.append(("site:ilken.ru when:2d", False, None))
 
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
 
-    def search_feed(feed: tuple[str, bool]) -> tuple[list[dict[str, str]], str | None]:
-        feed_query, ilken_search = feed
-        params = urllib.parse.urlencode({"q": feed_query, "hl": "ru", "gl": "RU", "ceid": "RU:ru"})
+    def search_feed(feed: tuple[str, bool, dict[str, str] | None]) -> tuple[list[dict[str, str]], str | None]:
+        feed_query, ilken_search, locale = feed
+        params = urllib.parse.urlencode({"q": feed_query, **(locale or {"hl": "ru", "gl": "RU", "ceid": "RU:ru"})})
         try:
             payload = request(f"{RSS_URL}?{params}")
             root = ET.fromstring(payload)
