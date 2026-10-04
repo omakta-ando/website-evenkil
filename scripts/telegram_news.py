@@ -34,7 +34,7 @@ STATE_FILE = ROOT / "data" / "telegram-news-state.json"
 TZ = ZoneInfo("Asia/Tbilisi")
 RSS_URL = "https://news.google.com/rss/search"
 BOT_API = "https://api.telegram.org"
-LOOKBACK_HOURS = 36
+LOOKBACK_HOURS = 72
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
@@ -507,7 +507,17 @@ def fetch_items() -> list[dict[str, str]]:
     if local_terms:
         local_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in local_terms)
         feeds.append((f"({local_query}) when:30d", False))
-        feeds.extend((f"({local_query}) site:{site} when:30d", False) for site in load_social_search_sites())
+
+    # Search every configured public social account across all major topic groups,
+    # not only the regional EAO terms. Google News provides public index coverage;
+    # direct access to private posts or unindexed content requires platform APIs.
+    social_sites = load_social_search_sites()
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "eao-evenki"):
+        terms = load_query_group(group_id)
+        if not terms:
+            continue
+        social_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
+        feeds.extend((f"site:{site} ({social_query}) when:7d", False) for site in social_sites)
     ilken_terms = load_ilken_queries()
     # Keep source-wide searches for the dedicated Ilken Evenki category.
     feeds.append(("site:ilken.ru/evenki/ when:30d", True))
