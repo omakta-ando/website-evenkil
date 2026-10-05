@@ -1,5 +1,15 @@
 window.newsStories=[
   {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "Бирария · Telegram",
+    "title": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой обо",
+    "desc": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой оборудованной экотропе в Еврейской автономной области, созданной за пределами особо охраняемых природных территорий. Участниками стали ученики и родители школы № 18 п. Теплоозёрск — всего 132 человека. Маршрут протяжённостью 2 км проходит по ж",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4207",
+    "image": "https://cdn4.telesco.pe/file/gkvTBd1XaIum9Bzb1HOtMIss1hzZqe-wJgdQg0VZab6K-p6f6ZbQZ9ZY1xh1wxkylPd9sFRItwVau8NM0Su7PgLtlGKL13nUnf4IFcpIySsat0gVumWscw3mRi0NfHwGPIMp0jDIa3NxvQFABXWWZ-4GF-8FLY8q3nVhQvMbMZFHJmMd85opwvp3m9fb1unDYkl7TD9KbhwAZn0HfO4B9gcUpkEuoJhrcllRbTh0QbyfaPKfoXyoBEeUGmBdH3S1yxLmJ5tDWObnwpw5ApR8VTlGnVZbiEYPF5TtA38kkeEO_HPZFP7uKIuTpqPVHp0rmYEnuEJ84uqP-YpEN2C_bg.jpg"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-03",
     "source": "SakhaNews",
