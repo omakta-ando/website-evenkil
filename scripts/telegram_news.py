@@ -860,23 +860,43 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def telegram_send(text: str) -> None:
+def telegram_send(text: str, *, parse_mode: str | None = "HTML") -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "@taiga_thread").strip()
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN is not configured in GitHub Actions secrets")
     url = f"{BOT_API}/bot{token}/sendMessage"
-    body = json.dumps({"chat_id": chat_id, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True}, ensure_ascii=False).encode("utf-8")
-    result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
+    payload = {"chat_id": chat_id, "text": text, "disable_web_page_preview": True}
+    if parse_mode:
+        payload["parse_mode"] = parse_mode
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    try:
+        result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
+    except urllib.error.HTTPError as error:
+        details = error.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Telegram sendMessage failed: HTTP {error.code}: {details}") from error
     if not result.get("ok"):
         raise RuntimeError(f"Telegram sendMessage failed: {result.get('description', 'unknown error')}")
+
+
+def plain_item(item: dict[str, str]) -> str:
+    parts = ["📰 " + clean(item.get("title", ""))]
+    description = clean(item.get("description", ""))
+    if description:
+        parts.append(description[:900])
+    parts.append(f"{clean(item.get('source', 'Источник'))} · {item.get('published', '')[:10]}\n{item.get('url', '')}")
+    return "\n\n".join(parts)
 
 
 def telegram_send_item(item: dict[str, str]) -> None:
     """Send a story with its site image when available, otherwise as text."""
     image = item.get("image", "").strip()
     if not image:
-        telegram_send(format_item(item))
+        try:
+            telegram_send(format_item(item))
+        except RuntimeError as error:
+            print(f"HTML message failed; retrying as plain text: {error}", file=sys.stderr)
+            telegram_send(plain_item(item), parse_mode=None)
         return
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "@taiga_thread").strip()
@@ -889,10 +909,15 @@ def telegram_send_item(item: dict[str, str]) -> None:
         "caption": format_item(item),
         "parse_mode": "HTML",
     }, ensure_ascii=False).encode("utf-8")
-    result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
-    if not result.get("ok"):
-        print(f"Telegram could not attach image for {item.get('url')}; sending text instead: {result.get('description', 'unknown error')}", file=sys.stderr)
-        telegram_send(format_item(item))
+    try:
+        result = json.loads(request(url, data=body, headers={"Content-Type": "application/json"}))
+        if result.get("ok"):
+            return
+        detail = result.get("description", "unknown error")
+    except urllib.error.HTTPError as error:
+        detail = error.read().decode("utf-8", errors="replace")
+    print(f"Telegram could not attach image for {item.get('url')}: {detail}; sending plain text instead.", file=sys.stderr)
+    telegram_send(plain_item(item), parse_mode=None)
 
 
 def format_item(item: dict[str, str], number: int | None = None) -> str:
