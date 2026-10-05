@@ -16,6 +16,7 @@ on:
         type: choice
         options:
           - collect
+          - notify
           - digest
         default: collect
 
