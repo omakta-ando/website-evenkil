@@ -11,7 +11,8 @@
     "https://1sn.ru/zolotye-lyudi-serebryanogo-vozrasta-unikalnoi-100-letnei-iengry": "2026-10-05T00:01+04:00",
     "https://t.me/biraria/4185": "2026-10-05T00:01+04:00",
     "https://t.me/biraria/4194": "2026-10-05T00:01+04:00",
-    "https://t.me/biraria/4198": "2026-10-05T00:01+04:00"
+    "https://t.me/biraria/4198": "2026-10-05T00:01+04:00",
+    "https://t.me/biraria/4207": "2026-10-05T16:07+04:00"
   },
   "daily": {
     "2026-10-01": [
@@ -69,21 +70,22 @@
         "siteEligible": "1"
       }
     ],
-    "2026-10-04": []
+    "2026-10-04": [],
+    "2026-10-05": [
+      {
+        "id": "https://t.me/biraria/4207",
+        "title": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой обо",
+        "source": "Бирария · Telegram",
+        "url": "https://t.me/biraria/4207",
+        "published": "2026-10-05T07:32+04:00",
+        "day": "2026-10-05",
+        "description": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой оборудованной экотропе в Еврейской автономной области, созданной за пределами особо охраняемых природных территорий. Участниками стали ученики и родители школы № 18 п. Теплоозёрск — всего 132 человека. Маршрут протяжённостью 2 км проходит по ж",
+        "socialPlatform": "Telegram",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/gkvTBd1XaIum9Bzb1HOtMIss1hzZqe-wJgdQg0VZab6K-p6f6ZbQZ9ZY1xh1wxkylPd9sFRItwVau8NM0Su7PgLtlGKL13nUnf4IFcpIySsat0gVumWscw3mRi0NfHwGPIMp0jDIa3NxvQFABXWWZ-4GF-8FLY8q3nVhQvMbMZFHJmMd85opwvp3m9fb1unDYkl7TD9KbhwAZn0HfO4B9gcUpkEuoJhrcllRbTh0QbyfaPKfoXyoBEeUGmBdH3S1yxLmJ5tDWObnwpw5ApR8VTlGnVZbiEYPF5TtA38kkeEO_HPZFP7uKIuTpqPVHp0rmYEnuEJ84uqP-YpEN2C_bg.jpg",
+        "siteEligible": "1"
+      }
+    ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://t.me/biraria/4207",
-      "title": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой обо",
-      "source": "Бирария · Telegram",
-      "url": "https://t.me/biraria/4207",
-      "published": "2026-10-05T07:32+04:00",
-      "day": "2026-10-05",
-      "description": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой оборудованной экотропе в Еврейской автономной области, созданной за пределами особо охраняемых природных территорий. Участниками стали ученики и родители школы № 18 п. Теплоозёрск — всего 132 человека. Маршрут протяжённостью 2 км проходит по ж",
-      "socialPlatform": "Telegram",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/gkvTBd1XaIum9Bzb1HOtMIss1hzZqe-wJgdQg0VZab6K-p6f6ZbQZ9ZY1xh1wxkylPd9sFRItwVau8NM0Su7PgLtlGKL13nUnf4IFcpIySsat0gVumWscw3mRi0NfHwGPIMp0jDIa3NxvQFABXWWZ-4GF-8FLY8q3nVhQvMbMZFHJmMd85opwvp3m9fb1unDYkl7TD9KbhwAZn0HfO4B9gcUpkEuoJhrcllRbTh0QbyfaPKfoXyoBEeUGmBdH3S1yxLmJ5tDWObnwpw5ApR8VTlGnVZbiEYPF5TtA38kkeEO_HPZFP7uKIuTpqPVHp0rmYEnuEJ84uqP-YpEN2C_bg.jpg",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
