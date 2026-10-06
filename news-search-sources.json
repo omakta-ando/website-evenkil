@@ -230,6 +230,36 @@
       "label": "Агентство по развитию северных территорий · ВКонтакте",
       "url": "https://vk.ru/infokmns",
       "googleNewsSite": "vk.ru/infokmns"
+    },
+    {
+      "id": "yakutia24-telegram",
+      "label": "Новости «Якутия 24» · Telegram",
+      "url": "https://t.me/yk24ru",
+      "googleNewsSite": "t.me/yk24ru"
+    },
+    {
+      "id": "ulusmedia-telegram",
+      "label": "Улус.Медиа · Telegram",
+      "url": "https://t.me/ulusmedia",
+      "googleNewsSite": "t.me/ulusmedia"
+    },
+    {
+      "id": "evenki-life-telegram",
+      "label": "Эвенкийская жизнь · Telegram",
+      "url": "https://t.me/evenkya_life",
+      "googleNewsSite": "t.me/evenkya_life"
+    },
+    {
+      "id": "novosti-neryungri-telegram",
+      "label": "Новости Нерюнгри · Telegram",
+      "url": "https://t.me/novosti_neryungri",
+      "googleNewsSite": "t.me/novosti_neryungri"
+    },
+    {
+      "id": "taigapost-telegram",
+      "label": "ТайгаПост · Telegram",
+      "url": "https://t.me/taigapost",
+      "googleNewsSite": "t.me/taigapost"
     }
   ],
   "directFeeds": [
