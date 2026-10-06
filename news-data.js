@@ -1,4 +1,34 @@
-window.newsStories = [
+window.newsStories=[
+  {
+    "region": "Общие новости",
+    "date": "2026-10-06",
+    "source": "ЕАОMedia · Telegram",
+    "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической троп",
+    "desc": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической тропы, которая не входит в границы особо охраняемых природных территорий. Маршрут \"По следам бираров на Тигриную сопку\" (6+) уже принял более 130 первых посетителей — школьников и их родителей. Тропа протяжённостью около 2 км ведёт на вершину с",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/EAOMedia/47585",
+    "image": "https://cdn4.telesco.pe/file/EYWrNBeOPOp3eHzq-wP4c7HNsHfhnSK28nE8pADFzyYXSwbSHROqDCadxch2I46zXSxQaXlCUs6nubh6uocCqY6a2DVFZlRxjJUvJBbLrO3y2rFlv45oD_jK5SYECKDGt5Z19b59nsc2LkJu71Lm8ZVIC4prY2mEA49OkJlYqw-_0WmnG_DNlIY4jgcmkBVbRXxYddl6KelAXxuSqV3Mq-ztwSpU_r9JQgx4-wZf_jU3xINWa6rNffVUMnKnJpkhULe5GqYsNmlU0l7x2I48Z7q2pkWP0qSvcnzhM0bzKQL3Uf0rxO6bBVwwQceRQbZJKo4PAMJj0cC2o9qMOO_bgQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-06",
+    "source": "Бирария · Telegram",
+    "title": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии дре",
+    "desc": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии древних амурских петроглифов. Их автором стал Илья Мерзляков, известный в ЕАО мастер по изготовлению арт-объектов и граффити-рисунков. Илья изготовил арт-объекты в несколько этапов: подготовил специальные «вулканические» камни и нанёс рельефны",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4219",
+    "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-06",
+    "source": "Бирария · Telegram",
+    "title": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Б",
+    "desc": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Бирские сады». Этот чай – настоящий вкус Приамурья в каждой чашке: • Основа – ферментированный особым способом иван-чай, собранный вручную на лугах Малого Хингана. • Добавки – цветки липы и шиповник, которые придают напитку мягкость и лёгкую",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4220",
+    "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg"
+  },
   {
     "region": "Общие новости",
     "date": "2026-10-05",
