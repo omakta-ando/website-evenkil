@@ -12,7 +12,11 @@
     "https://t.me/biraria/4185": "2026-10-05T00:01+04:00",
     "https://t.me/biraria/4194": "2026-10-05T00:01+04:00",
     "https://t.me/biraria/4198": "2026-10-05T00:01+04:00",
-    "https://t.me/biraria/4207": "2026-10-05T16:07+04:00"
+    "https://t.me/biraria/4207": "2026-10-05T16:07+04:00",
+    "https://indigenous-russia.com/archives/50623": "2026-10-05T19:30+04:00",
+    "https://t.me/EAOMedia/47585": "2026-10-06T09:32+04:00",
+    "https://t.me/biraria/4219": "2026-10-06T09:32+04:00",
+    "https://t.me/biraria/4220": "2026-10-06T09:32+04:00"
   },
   "daily": {
     "2026-10-01": [
@@ -84,20 +88,60 @@
         "configuredSource": "1",
         "image": "https://cdn4.telesco.pe/file/gkvTBd1XaIum9Bzb1HOtMIss1hzZqe-wJgdQg0VZab6K-p6f6ZbQZ9ZY1xh1wxkylPd9sFRItwVau8NM0Su7PgLtlGKL13nUnf4IFcpIySsat0gVumWscw3mRi0NfHwGPIMp0jDIa3NxvQFABXWWZ-4GF-8FLY8q3nVhQvMbMZFHJmMd85opwvp3m9fb1unDYkl7TD9KbhwAZn0HfO4B9gcUpkEuoJhrcllRbTh0QbyfaPKfoXyoBEeUGmBdH3S1yxLmJ5tDWObnwpw5ApR8VTlGnVZbiEYPF5TtA38kkeEO_HPZFP7uKIuTpqPVHp0rmYEnuEJ84uqP-YpEN2C_bg.jpg",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://indigenous-russia.com/archives/50623",
+        "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра",
+        "source": "Indigenous Russia",
+        "url": "https://indigenous-russia.com/archives/50623",
+        "published": "2026-10-05T00:00+04:00",
+        "day": "2026-10-05",
+        "description": "Материал пересказывает рецензию Chicago Review of Books на роман Чи Цзицзянь «Последняя четверть луны» в переводе Брюса Хьюмса. Через судьбу женщины и её семьи книга показывает жизнь эвенков в XX веке, значение тайги и оленей, а также последствия политического вмешательства, лесозаготовок и ассимиляции.",
+        "image": "https://indigenous-russia.com/wp-content/uploads/2026/10/signal-2026-10-03-22-20-27-200.jpg",
+        "siteEligible": "1"
+      }
+    ],
+    "2026-10-06": [
+      {
+        "id": "https://t.me/EAOMedia/47585",
+        "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической троп",
+        "source": "ЕАОMedia · Telegram",
+        "url": "https://t.me/EAOMedia/47585",
+        "published": "2026-10-06T08:04+04:00",
+        "day": "2026-10-06",
+        "description": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической тропы, которая не входит в границы особо охраняемых природных территорий. Маршрут \"По следам бираров на Тигриную сопку\" (6+) уже принял более 130 первых посетителей — школьников и их родителей. Тропа протяжённостью около 2 км ведёт на вершину с",
+        "socialPlatform": "Telegram",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/EYWrNBeOPOp3eHzq-wP4c7HNsHfhnSK28nE8pADFzyYXSwbSHROqDCadxch2I46zXSxQaXlCUs6nubh6uocCqY6a2DVFZlRxjJUvJBbLrO3y2rFlv45oD_jK5SYECKDGt5Z19b59nsc2LkJu71Lm8ZVIC4prY2mEA49OkJlYqw-_0WmnG_DNlIY4jgcmkBVbRXxYddl6KelAXxuSqV3Mq-ztwSpU_r9JQgx4-wZf_jU3xINWa6rNffVUMnKnJpkhULe5GqYsNmlU0l7x2I48Z7q2pkWP0qSvcnzhM0bzKQL3Uf0rxO6bBVwwQceRQbZJKo4PAMJj0cC2o9qMOO_bgQ.jpg",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/biraria/4219",
+        "title": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии дре",
+        "source": "Бирария · Telegram",
+        "url": "https://t.me/biraria/4219",
+        "published": "2026-10-06T04:30+04:00",
+        "day": "2026-10-06",
+        "description": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии древних амурских петроглифов. Их автором стал Илья Мерзляков, известный в ЕАО мастер по изготовлению арт-объектов и граффити-рисунков. Илья изготовил арт-объекты в несколько этапов: подготовил специальные «вулканические» камни и нанёс рельефны",
+        "socialPlatform": "Telegram",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/biraria/4220",
+        "title": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Б",
+        "source": "Бирария · Telegram",
+        "url": "https://t.me/biraria/4220",
+        "published": "2026-10-06T06:34+04:00",
+        "day": "2026-10-06",
+        "description": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Бирские сады». Этот чай – настоящий вкус Приамурья в каждой чашке: • Основа – ферментированный особым способом иван-чай, собранный вручную на лугах Малого Хингана. • Добавки – цветки липы и шиповник, которые придают напитку мягкость и лёгкую",
+        "socialPlatform": "Telegram",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://indigenous-russia.com/archives/50623",
-      "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра",
-      "source": "Indigenous Russia",
-      "url": "https://indigenous-russia.com/archives/50623",
-      "published": "2026-10-05T00:00+04:00",
-      "day": "2026-10-05",
-      "description": "Материал пересказывает рецензию Chicago Review of Books на роман Чи Цзицзянь «Последняя четверть луны» в переводе Брюса Хьюмса. Через судьбу женщины и её семьи книга показывает жизнь эвенков в XX веке, значение тайги и оленей, а также последствия политического вмешательства, лесозаготовок и ассимиляции.",
-      "image": "https://indigenous-russia.com/wp-content/uploads/2026/10/signal-2026-10-03-22-20-27-200.jpg",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
