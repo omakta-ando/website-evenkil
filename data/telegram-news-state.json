@@ -32,7 +32,8 @@
     "https://t.me/evenkya_life/12625": "2026-10-07T19:30+04:00",
     "https://t.me/evenkya_life/12627": "2026-10-07T19:30+04:00",
     "https://t.me/evenkya_life/12635": "2026-10-07T19:30+04:00",
-    "https://t.me/evenkya_life/12638": "2026-10-07T19:30+04:00"
+    "https://t.me/evenkya_life/12638": "2026-10-07T19:30+04:00",
+    "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html": "2026-10-07T23:55+04:00"
   },
   "daily": {
     "2026-10-01": [
@@ -366,22 +367,21 @@
         "configuredSource": "1",
         "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html",
+        "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
+        "source": "Центр эвенкийской культуры «Арун»",
+        "url": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html",
+        "published": "2026-10-07T00:00+04:00",
+        "day": "2026-10-07",
+        "description": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
+        "arunNews": "1",
+        "configuredSource": "1",
+        "region": "Общие новости",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html",
-      "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
-      "source": "Центр эвенкийской культуры «Арун»",
-      "url": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html",
-      "published": "2026-10-07T00:00+04:00",
-      "day": "2026-10-07",
-      "description": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
-      "arunNews": "1",
-      "configuredSource": "1",
-      "region": "Общие новости",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
