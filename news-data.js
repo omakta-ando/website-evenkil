@@ -1,6 +1,86 @@
 window.newsStories=[
   {
     "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Бирария · Telegram",
+    "title": "🎉 10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! 🤝 А",
+    "desc": "🎉 10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! 🤝 Агентство — целая экосистема поддержки бизнеса в ЕАО, которая включает: – поддержку предпринимателей – поддержку сельхозтоваропроизводителей – поддержку экспортёров – сопровождение инвестиционных проектов – предоставление поручительств и гар",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4222",
+    "image": "https://cdn4.telesco.pe/file/TE9FCdwejaYnq9eNxAJpacnUOPMo8MXsNA9dwk3wv2ircQORvsfxTExBU9YIJvTZF-3XAbKtvziPCZjCz9pHXk8dcPq6er36cbytInyEQuSbfDXvM_RIgIixMsXCaMAMclA7Hipfjmj2d_-grE79vzewynSW9A4fuSTZZLRpeWX1PcAJ97yEnchlNV0XbT3ByaHUHcNaNpIyD8HP-Smy07KItD_zpng_FiSKdOX_fyCNrFUT2wFGC4kZcGTAh1FmznRinicWFogzr808jcZRvuZhr1cln-tIdODPugvIJe1xEw_J5WoUN7RRwyX5SgpCPBS2REwDEgOeE1QkUS1r6A.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Бирария · Telegram",
+    "title": "📦 «Бирария» принимает в дар предметы истории и быта Друзья, наш культурно-туристический центр продолжает обустраиваться. Мы создаём пространство, где оживает история Приамурья, и н",
+    "desc": "📦 «Бирария» принимает в дар предметы истории и быта Друзья, наш культурно-туристический центр продолжает обустраиваться. Мы создаём пространство, где оживает история Приамурья, и нам очень нужна ваша помощь. С благодарностью примем в дар: 🪑 Мебель – шкафы, комоды, столы, стулья, этажерки в стиле советского времени. Она станет частью интерьера и поможет воссоздать атмосферу прошлых лет. 🏺 Предметы декора – статуэтки, ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4223",
+    "image": "https://cdn4.telesco.pe/file/TE9FCdwejaYnq9eNxAJpacnUOPMo8MXsNA9dwk3wv2ircQORvsfxTExBU9YIJvTZF-3XAbKtvziPCZjCz9pHXk8dcPq6er36cbytInyEQuSbfDXvM_RIgIixMsXCaMAMclA7Hipfjmj2d_-grE79vzewynSW9A4fuSTZZLRpeWX1PcAJ97yEnchlNV0XbT3ByaHUHcNaNpIyD8HP-Smy07KItD_zpng_FiSKdOX_fyCNrFUT2wFGC4kZcGTAh1FmznRinicWFogzr808jcZRvuZhr1cln-tIdODPugvIJe1xEw_J5WoUN7RRwyX5SgpCPBS2REwDEgOeE1QkUS1r6A.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Бирария · Telegram",
+    "title": "🌱 Новая экотропа в Долине тигров открыта для школьников всей ЕАО В окрестностях посёлка Теплоозёрска завершилось создание учебной оборудованной экологической тропы «По следам бирар",
+    "desc": "🌱 Новая экотропа в Долине тигров открыта для школьников всей ЕАО В окрестностях посёлка Теплоозёрска завершилось создание учебной оборудованной экологической тропы «По следам бираров на Тигриную сопку». Теперь школьники из любого уголка области могут приехать сюда на экскурсию и своими глазами увидеть уникальную природу Приамурья. Что можно узнать на тропе? Маршрут протяжённостью около 2 км ведёт на вершину сопки Тиг",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4224",
+    "image": "https://cdn4.telesco.pe/file/TE9FCdwejaYnq9eNxAJpacnUOPMo8MXsNA9dwk3wv2ircQORvsfxTExBU9YIJvTZF-3XAbKtvziPCZjCz9pHXk8dcPq6er36cbytInyEQuSbfDXvM_RIgIixMsXCaMAMclA7Hipfjmj2d_-grE79vzewynSW9A4fuSTZZLRpeWX1PcAJ97yEnchlNV0XbT3ByaHUHcNaNpIyD8HP-Smy07KItD_zpng_FiSKdOX_fyCNrFUT2wFGC4kZcGTAh1FmznRinicWFogzr808jcZRvuZhr1cln-tIdODPugvIJe1xEw_J5WoUN7RRwyX5SgpCPBS2REwDEgOeE1QkUS1r6A.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
+    "desc": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают поддержку к промысловому сезону. В этом году единовременную социальную выплату в размере 27 989 рублей получили 753 промысловика. Кроме этого, им компенсируют расходы на горюче-смазочные материалы и доставку на промысловые участки воздушным тран",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12622",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
+    "desc": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Александра Зарубина с заместителем министра тарифной политики Красноярского края Алексеем Андреевым. На ней обсуждены вопросы корректировки новых тарифов на электроэнергию и расчетов потребления. Замминистра проинформировал о том, что соответству",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12625",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Малышам Байкита рассказали о правилах ПДД 🚦 В детском саду «Морозко» провели программу «Безопасное колесо». Для ребят это стало настоящим праздником, они смогли почувствовать себя",
+    "desc": "Малышам Байкита рассказали о правилах ПДД 🚦 В детском саду «Морозко» провели программу «Безопасное колесо». Для ребят это стало настоящим праздником, они смогли почувствовать себя водителями и заодно закрепить важные правила безопасности. Дети участвовали в заездах на самокатах и велосипедах, преодолевали трассу, показывали, как правильно проезжать пешеходный переход и реагировать на сигналы светофора. Оценивал юных ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12627",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Красноярске дебютировал национальный коллектив «Дюкэкон» В Красноярске появился национальный хореографический коллектив «Дюкэкон» — в переводе с эвенкийского это значит «льдинка»",
+    "desc": "В Красноярске дебютировал национальный коллектив «Дюкэкон» В Красноярске появился национальный хореографический коллектив «Дюкэкон» — в переводе с эвенкийского это значит «льдинка». В нём выступают молодые представители коренных народов Севера, которые учатся и работают в краевой столице. Первый большой выход коллектива на сцену состоялся в августе — на Международном форуме коренных народов на выставке‑ярмарке «Сокро",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12635",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
+    "desc": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также прокомментировал текущую ситуацию со снабжением территории. Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12638",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-06",
     "source": "ЕАОMedia · Telegram",
     "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической троп",
@@ -260,6 +340,15 @@ window.newsStories=[
     "desc": "Во время визита в школу посёлка Тугур рассказали о сохранении эвенкийской культуры и языка, цифровом обучении и помощи учеников фронту. Школе передали сертификат на две интерактивные доски.",
     "tags": "эвенки хабаровский край тугур школа язык образование",
     "link": "https://densus.ru/news/ofitsialnoe-litso-v-evenkiyskoy-shkole-tugura-2026-10-01"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-01",
+    "source": "Илкэн · Улгур",
+    "title": "Северды полюс амарду, Оймякон дюлэду",
+    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Забайкальский край",
