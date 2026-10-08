@@ -39,7 +39,8 @@
     "https://t.me/evenkya_life/12639": "2026-10-08T19:32+04:00",
     "https://t.me/evenkya_life/12640": "2026-10-08T19:32+04:00",
     "https://t.me/evenkya_life/12647": "2026-10-08T19:32+04:00",
-    "https://t.me/evenkya_life/12652": "2026-10-08T19:32+04:00"
+    "https://t.me/evenkya_life/12652": "2026-10-08T19:32+04:00",
+    "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html": "2026-10-08T23:51+04:00"
   },
   "daily": {
     "2026-10-01": [
@@ -466,22 +467,21 @@
         "configuredSource": "1",
         "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
+        "title": "Выставка на Всероссийском культурном форум коренных малочисленных народов России",
+        "source": "Центр эвенкийской культуры «Арун»",
+        "url": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
+        "published": "2026-10-08T00:00+04:00",
+        "day": "2026-10-08",
+        "description": "Видео подготовила Наталья Макарова",
+        "arunNews": "1",
+        "configuredSource": "1",
+        "region": "Общие новости",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
-      "title": "Выставка на Всероссийском культурном форум коренных малочисленных народов России",
-      "source": "Центр эвенкийской культуры «Арун»",
-      "url": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
-      "published": "2026-10-08T00:00+04:00",
-      "day": "2026-10-08",
-      "description": "Видео подготовила Наталья Макарова",
-      "arunNews": "1",
-      "configuredSource": "1",
-      "region": "Общие новости",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
