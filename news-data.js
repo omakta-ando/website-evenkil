@@ -1,13 +1,63 @@
 window.newsStories=[
   {
     "region": "Общие новости",
-    "date": "2026-09-08",
-    "source": "ТАСС · Новости Mail",
-    "title": "В РАН рассказали о языках России с менее чем 10 носителями",
-    "desc": "По данным Института языкознания РАН, на алеутско-медновском и ительменском языках в России говорит по одному человеку. Ещё у восьми языков малых коренных народов осталось менее десяти носителей.",
-    "tags": "эвенки языки коренных народов исчезающие языки новости",
-    "link": "https://news.mail.ru/society/72275373/",
-    "image": "media/tass-rare-languages-2026-09-08.jpg"
+    "date": "2026-10-08",
+    "source": "Бирария · Telegram",
+    "title": "🐯 Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
+    "desc": "🐯 Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в нём занимаются на постоянно остове 12 ребят — и за плечами клана уже немало достижений. Занятия проходят в Центре детских инициатив. Игровая зона размещается в общем пространстве, а весь инвентарь хранится рядом. Каждый месяц в клане ус",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4225",
+    "image": "https://cdn4.telesco.pe/file/ebsi0wud56A9Wk0h_uSSWq3B_je--n34mIsuE6p6fXr0Te2ybKFwtEiIHqkcsCXzmpMLRhZ8thXo3POJyZxIVN20Kh-LavCBzNXw6Je6vNDHnYOzMfxywePBuVCCZoz3i9FRi73GmlGfWP1laJGw1HAVWAkLZwmjap8_NTN2oytl2YmhOT3cAza09zQjNzJlmZ4D1n1JsWusirEBTj4i-7ot8uc6I5yOggP5LLcG9A9zhBGsypzeCz1FhUxL-gsXMrZQLgviRfedciDZd53241OtlYx_8EHl7ip3Y8guOvH2hm9_1BEdfoXk6JLDshWcfSzsFSFArOMGZFnWs_BY3w.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Бирария · Telegram",
+    "title": "🌍 Всемирный день мигрирующих птиц На этой неделе отмечается Всемирный день мигрирующих птиц – важная дата, посвящённая сохранению пернатых, которые ежегодно преодолевают тысячи кил",
+    "desc": "🌍 Всемирный день мигрирующих птиц На этой неделе отмечается Всемирный день мигрирующих птиц – важная дата, посвящённая сохранению пернатых, которые ежегодно преодолевают тысячи километров. Для Приамурья это особенно актуально. Через наш регион проходят миграционные пути многих видов птиц. Здесь можно встретить японского, даурского и чёрного журавлей, дальневосточного аиста, различные виды уток и куликов. «Бирария» не",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4234",
+    "image": "https://cdn4.telesco.pe/file/ebsi0wud56A9Wk0h_uSSWq3B_je--n34mIsuE6p6fXr0Te2ybKFwtEiIHqkcsCXzmpMLRhZ8thXo3POJyZxIVN20Kh-LavCBzNXw6Je6vNDHnYOzMfxywePBuVCCZoz3i9FRi73GmlGfWP1laJGw1HAVWAkLZwmjap8_NTN2oytl2YmhOT3cAza09zQjNzJlmZ4D1n1JsWusirEBTj4i-7ot8uc6I5yOggP5LLcG9A9zhBGsypzeCz1FhUxL-gsXMrZQLgviRfedciDZd53241OtlYx_8EHl7ip3Y8guOvH2hm9_1BEdfoXk6JLDshWcfSzsFSFArOMGZFnWs_BY3w.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Эвенкию отправляется очередной рейс с продуктами Накануне выполнено два рейса, на сегодня запланирован ещё один. Это более 13 тонн овощей, фруктов, молочной и мясной продукции и",
+    "desc": "В Эвенкию отправляется очередной рейс с продуктами Накануне выполнено два рейса, на сегодня запланирован ещё один. Это более 13 тонн овощей, фруктов, молочной и мясной продукции и других важных товаров. Продовольствие завозят не только для обеспечения социальных учреждений, но и для реализации населению. На ближайшее время планируются еще несколько грузовых авиарейсов. Ранее, с 14 по 17 сентября, в пять рейсов завезл",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12639",
+    "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Медиафорум Енисей в Красноярске стартовал. В нем участвуют журналисты газеты «Эвенкийская жизнь». Программу форума открыло пленарное заседание «Образ будущего: влияние медиа». Орга",
+    "desc": "Медиафорум Енисей в Красноярске стартовал. В нем участвуют журналисты газеты «Эвенкийская жизнь». Программу форума открыло пленарное заседание «Образ будущего: влияние медиа». Организатором главного медийного события Сибири выступает агентство печати и массовых коммуникаций Красноярского края при поддержке Министерства цифрового развития, связи и массовых коммуникаций РФ.",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12640",
+    "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Мгновения северной осени 🍁 Фото: Анна Мордвинова Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "desc": "Мгновения северной осени 🍁 Фото: Анна Мордвинова Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12647",
+    "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Лесопожарном центре рассказали, как летом справлялись с возгораниями специалисты В Эвенкийском округе минувшим летом из‑за жары и гроз ежедневно фиксировали десятки термоточек. В",
+    "desc": "В Лесопожарном центре рассказали, как летом справлялись с возгораниями специалисты В Эвенкийском округе минувшим летом из‑за жары и гроз ежедневно фиксировали десятки термоточек. Возгорания возникали в труднодоступных местах — добраться туда можно было только по воздуху. Сотрудники Байкитского авиаотделения следили за обстановкой и доставляли группы к очагам на вертолётах. Сейчас в Красноярском крае лесных пожаров не",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12652",
+    "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
   },
   {
     "region": "Общие новости",
@@ -602,6 +652,16 @@ window.newsStories=[
     "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-09-08",
+    "source": "ТАСС · Новости Mail",
+    "title": "В РАН рассказали о языках России с менее чем 10 носителями",
+    "desc": "По данным Института языкознания РАН, на алеутско-медновском и ительменском языках в России говорит по одному человеку. Ещё у восьми языков малых коренных народов осталось менее десяти носителей.",
+    "tags": "эвенки языки коренных народов исчезающие языки новости",
+    "link": "https://news.mail.ru/society/72275373/",
+    "image": "media/tass-rare-languages-2026-09-08.jpg"
   },
   {
     "region": "Новости на эвенкийском",
