@@ -469,5 +469,19 @@
       }
     ]
   },
-  "pendingTelegram": []
+  "pendingTelegram": [
+    {
+      "id": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
+      "title": "Выставка на Всероссийском культурном форум коренных малочисленных народов России",
+      "source": "Центр эвенкийской культуры «Арун»",
+      "url": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html",
+      "published": "2026-10-08T00:00+04:00",
+      "day": "2026-10-08",
+      "description": "Видео подготовила Наталья Макарова",
+      "arunNews": "1",
+      "configuredSource": "1",
+      "region": "Общие новости",
+      "siteEligible": "1"
+    }
+  ]
 }
