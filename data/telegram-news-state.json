@@ -46,7 +46,8 @@
     "https://t.me/biraria/4245": "2026-10-09T19:18+04:00",
     "https://t.me/evenkya_life/12655": "2026-10-09T19:18+04:00",
     "https://t.me/evenkya_life/12658": "2026-10-09T19:18+04:00",
-    "https://t.me/evenkya_life/12659": "2026-10-09T19:18+04:00"
+    "https://t.me/evenkya_life/12659": "2026-10-09T19:18+04:00",
+    "https://t.me/evenkya_life/12660": "2026-10-09T23:29+04:00"
   },
   "daily": {
     "2026-10-02": [
@@ -552,22 +553,21 @@
         "configuredSource": "1",
         "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12660",
+        "title": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапокон",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12660",
+        "published": "2026-10-09T19:32+04:00",
+        "day": "2026-10-09",
+        "description": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапоконтракту.рф Горячая линия: 117 Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+        "socialPlatform": "Telegram",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://t.me/evenkya_life/12660",
-      "title": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапокон",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12660",
-      "published": "2026-10-09T19:32+04:00",
-      "day": "2026-10-09",
-      "description": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапоконтракту.рф Горячая линия: 117 Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-      "socialPlatform": "Telegram",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
