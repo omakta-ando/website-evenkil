@@ -1,6 +1,56 @@
 window.newsStories=[
   {
     "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Бирария · Telegram",
+    "title": "🐟 Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане",
+    "desc": "🐟 Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане «Амурские осетры» занимаются 15 ребят — и этот год стал для них по-настоящему триумфальным. Занятия проходят в двух форматах: ▪️ Основной — в школьном кабинете, который стал настоящим штабом клана: здесь проходят плановые тренировки, ежеме",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4235",
+    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Бирария · Telegram",
+    "title": "🌲 Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был",
+    "desc": "🌲 Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был богом грома, и, по преданию, в шуме вековых кедров до сих пор звучат голоса предков — они защищают, оберегают и дают силы для новых начинаний. Что вас ждёт? ▪️ Прогулка по кедровому бору — ровные ряды корейского кедра. Вы узнаете, почему бе",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4245",
+    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "«Эвенкийская жизнь» получила спецприз на медиафоруме «Енисей»! Награду наша газета получила в номинации «Единые ценности» за сохранение национальных традиций коренных малочисленных",
+    "desc": "«Эвенкийская жизнь» получила спецприз на медиафоруме «Енисей»! Награду наша газета получила в номинации «Единые ценности» за сохранение национальных традиций коренных малочисленных народов Севера. Дорогие читатели, мы рады работать для вас, и спасибо вам, что остаетесь с нами! ❤️",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12655",
+    "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Красноярском крае выпустят книги о культуре и языках коренных народов Севера В Красноярском крае издадут три книги, посвящённые культурному и историческому наследию северных наро",
+    "desc": "В Красноярском крае выпустят книги о культуре и языках коренных народов Севера В Красноярском крае издадут три книги, посвящённые культурному и историческому наследию северных народов. Проекты стали победителями конкурсного отбора, на который поступило 24 предложения от муниципалитетов региона. Оценкой заявок занималась рабочая группа — в неё вошли депутаты краевого Заксобрания, представители муниципалитетов, обществ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12658",
+    "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Рубрика «Наша Эвенкия» ✨ Фото читательницы Ирины Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "desc": "Рубрика «Наша Эвенкия» ✨ Фото читательницы Ирины Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12659",
+    "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-08",
     "source": "Бирария · Telegram",
     "title": "🐯 Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
@@ -156,6 +206,15 @@ window.newsStories=[
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-07",
+    "source": "Илкэн · Улгур",
+    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
+    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Общие новости",
