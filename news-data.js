@@ -51,6 +51,16 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапокон",
+    "desc": "Подать заявку для заключения контракта можно: В личном кабинете на сайте Министерства обороны РФ. На едином портале государственных услуг. Подробности на Объясняем.рф и службапоконтракту.рф Горячая линия: 117 Прислать новость @newsevenkia_bot 🦌 Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12660",
+    "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-08",
     "source": "Бирария · Telegram",
     "title": "🐯 Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
