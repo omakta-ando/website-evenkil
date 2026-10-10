@@ -48,6 +48,7 @@ EXCLUDED_TOPIC_RE = re.compile(
     r"(?:\bсво\b|\bsvo\b|специальн\w{0,20}\s+военн\w{0,20}\s+операц\w*"
     r"|\bфронт\w*|\bвоеннослужащ\w*|участник\w*\s+(?:сво|боев\w*)"
     r"|боев\w{0,15}\s+действ\w*|зон\w{0,5}\s+боев\w{0,15}\s+действ\w*)", re.I)
+EDITORIAL_RELEVANCE_URLS = {"https://news.mail.ru/society/72275373"}
 EXCLUDED_STORY_URLS = {
     "https://t.me/biraria/4194",
     'https://t.me/EAOMedia/47585',
@@ -70,7 +71,8 @@ def is_excluded_story(item: dict[str, object]) -> bool:
 
 
 def is_evenki_related(item: dict[str, object]) -> bool:
-    return bool(EVENKI_MENTION_RE.search(story_text(item)))
+    url = str(item.get("url", item.get("link", ""))).rstrip("/")
+    return url in EDITORIAL_RELEVANCE_URLS or bool(EVENKI_MENTION_RE.search(story_text(item)))
 
 
 def source_key(item: dict[str, object]) -> str:
