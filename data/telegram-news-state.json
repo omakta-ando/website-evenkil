@@ -47,7 +47,9 @@
     "https://t.me/evenkya_life/12655": "2026-10-09T19:18+04:00",
     "https://t.me/evenkya_life/12658": "2026-10-09T19:18+04:00",
     "https://t.me/evenkya_life/12659": "2026-10-09T19:18+04:00",
-    "https://t.me/evenkya_life/12660": "2026-10-09T23:29+04:00"
+    "https://t.me/evenkya_life/12660": "2026-10-09T23:29+04:00",
+    "CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5": "2026-10-10T14:04+04:00",
+    "CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN": "2026-10-10T14:04+04:00"
   },
   "daily": {
     "2026-10-03": [
@@ -141,35 +143,35 @@
         "siteEligible": "1"
       }
     ],
-    "2026-10-08": [],
+    "2026-10-08": [
+      {
+        "id": "CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5",
+        "title": "Путешествия по Приамурью с «Бирарией» - biraria.ru",
+        "source": "biraria.ru",
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5?oc=5",
+        "published": "2026-10-08T21:21+04:00",
+        "day": "2026-10-08",
+        "description": "Путешествия по Приамурью с «Бирарией» biraria.ru",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "relevance": "direct",
+        "siteEligible": "1"
+      },
+      {
+        "id": "CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN",
+        "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Российская газета",
+        "source": "Российская газета",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5",
+        "published": "2026-10-08T09:57+04:00",
+        "day": "2026-10-08",
+        "description": "Власти Красноярского края ускорили доставку продуктов в Эвенкию Российская газета",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "relevance": "context",
+        "siteEligible": "1"
+      }
+    ],
     "2026-10-09": []
   },
-  "pendingTelegram": [
-    {
-      "id": "CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5",
-      "title": "Путешествия по Приамурью с «Бирарией» - biraria.ru",
-      "source": "biraria.ru",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5?oc=5",
-      "published": "2026-10-08T21:21+04:00",
-      "day": "2026-10-08",
-      "description": "Путешествия по Приамурью с «Бирарией» biraria.ru",
-      "ilkenEvenki": "0",
-      "configuredSource": "0",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN",
-      "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Российская газета",
-      "source": "Российская газета",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5",
-      "published": "2026-10-08T09:57+04:00",
-      "day": "2026-10-08",
-      "description": "Власти Красноярского края ускорили доставку продуктов в Эвенкию Российская газета",
-      "ilkenEvenki": "0",
-      "configuredSource": "0",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
