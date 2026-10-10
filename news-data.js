@@ -1,12 +1,42 @@
 window.newsStories=[
   {
     "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "biraria.ru",
+    "title": "Путешествия по Приамурью с «Бирарией» - biraria.ru",
+    "desc": "Путешествия по Приамурью с «Бирарией» biraria.ru",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Российская газета",
+    "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Российская газета",
+    "desc": "Власти Красноярского края ускорили доставку продуктов в Эвенкию Российская газета",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-07",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-07",
+    "source": "Илкэн · Улгур",
+    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
+    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Общие новости",
@@ -83,15 +113,6 @@ window.newsStories=[
     "desc": "В Чите планируют организовать дополнительные занятия по эвенкийскому языку и фольклору для городских детей. Параллельно готовят курсы для педагогов, которые будут преподавать язык и культуру.",
     "tags": "эвенки Забайкальский край Чита эвенкийский язык фольклор образование",
     "link": "https://mezhnats.ru/chita-razvivaet-format-obucheniya-evenkijskomu-yazyku"
-  },
-  {
-    "region": "Новости на эвенкийском",
-    "date": "2026-09-25",
-    "source": "Илкэн · Улгур",
-    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
-    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Хайыр",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
   },
   {
     "region": "Красноярский край",
@@ -239,6 +260,15 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-03",
+    "source": "Бирария · Telegram",
+    "title": "💃 От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хоровод",
+    "desc": "💃 От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хороводы. Они открыли фестиваль и завершили его, собрав в круг сотни гостей. Фестиваль прошёл при поддержке ПФКИ. Эвенкийский хоровод «Хадё (ёхарьё)» Ровно в 12:00 на берегу Тунгуски зазвучал бубен, и под руководством хранительницы эвенкийских тра",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4185"
+  },
+  {
     "region": "Бурятия",
     "date": "2026-09-24",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -246,6 +276,16 @@ window.newsStories=[
     "desc": "Вице-адмирал Владимир Цимлянский во время визита в Бурятию посетил эвенкийский комплекс Этнографического музея народов Забайкалья",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-01",
+    "source": "Илкэн · Улгур",
+    "title": "Северды полюс амарду, Оймякон дюлэду",
+    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Забайкальский край",
@@ -267,15 +307,6 @@ window.newsStories=[
     "link": "https://nazaccent.ru/content/46005-v-peterburge-izdali-uchebniki-po-pyati-yazykam-korennyh-narodov"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-09-16",
-    "source": "Илкэн · Улгур",
-    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
-    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Якутия",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
-  },
-  {
     "region": "Сахалинская область",
     "date": "2026-08-27",
     "source": "SAKH.ONLINE",
@@ -294,6 +325,15 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
   },
   {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-25",
+    "source": "Илкэн · Улгур",
+    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
+    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
+    "tags": "эвенки эвенкийский язык илкэн Хайыр",
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-02",
     "source": "Indigenous Russia",
@@ -303,15 +343,6 @@ window.newsStories=[
     "link": "https://indigenous-russia.com/archives/50607"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-09-09",
-    "source": "Илкэн · Улгур",
-    "title": "Опоран мутӈи дюлэски. Он бэлэгэн ЗАО «Прогноз» общинаду «Гухуби» орорво иргичинду бэлэтчэрэн",
-    "desc": "Материал о поддержке оленеводческой общины опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн оленеводство",
-    "link": "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/"
-  },
-  {
     "region": "Общие новости",
     "date": "2026-09-03",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -319,6 +350,24 @@ window.newsStories=[
     "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-16",
+    "source": "Илкэн · Улгур",
+    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
+    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
+    "tags": "эвенки эвенкийский язык илкэн Якутия",
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-09",
+    "source": "Илкэн · Улгур",
+    "title": "Опоран мутӈи дюлэски. Он бэлэгэн ЗАО «Прогноз» общинаду «Гухуби» орорво иргичинду бэлэтчэрэн",
+    "desc": "Материал о поддержке оленеводческой общины опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
+    "tags": "эвенки эвенкийский язык илкэн оленеводство",
+    "link": "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/"
   },
   {
     "region": "Новости на эвенкийском",
@@ -346,14 +395,5 @@ window.newsStories=[
     "desc": "Материал о новом цехе по заморозке рыбы опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Бурятия",
     "link": "https://ilken.ru/evenki/2026/08/18/mup-bulunskoe-otkrylo-novyj-modulnyj-czeh-po-zamorozke-ryby/"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-03",
-    "source": "Бирария · Telegram",
-    "title": "💃 От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хоровод",
-    "desc": "💃 От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хороводы. Они открыли фестиваль и завершили его, собрав в круг сотни гостей. Фестиваль прошёл при поддержке ПФКИ. Эвенкийский хоровод «Хадё (ёхарьё)» Ровно в 12:00 на берегу Тунгуски зазвучал бубен, и под руководством хранительницы эвенкийских тра",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4185"
   }
 ];
