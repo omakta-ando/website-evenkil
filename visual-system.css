@@ -181,6 +181,7 @@ html{scroll-padding-top:160px}
 .resource-card:hover p,.resource-card:focus-visible p{color:#dce5d9}
 .resource-visit{margin-top:auto;font-size:12px;font-weight:700;color:#536b4f}
 .resource-card:hover .resource-visit,.resource-card:focus-visible .resource-visit{color:#e1c98e}
+.resource-sub-link{margin-top:8px;text-decoration-thickness:1px;text-underline-offset:3px}.resource-card:focus-within{outline:2px solid #d8b276;outline-offset:3px}.resource-card:focus-within .resource-visit{color:#e1c98e}
 .resource-card:focus-visible{outline:2px solid #d8b276;outline-offset:3px}
 @media(max-width:800px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.resource-card{min-height:190px;padding:20px}}
