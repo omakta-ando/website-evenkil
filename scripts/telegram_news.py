@@ -44,6 +44,18 @@ EVENKI_MENTION_RE = re.compile(
     r"|\bэвенкийц\w*\b|\bперевод\w*\s+с\s+эвенкийск\w*\b|\bэвенкийск\w{0,16}\s+(?:язык\w*|культур\w*|реч\w*|словар\w*|песн\w*|музык\w*|танц\w*|фольклор\w*|литератур\w*|писател\w*|поэт\w*|композитор\w*|художник\w*|артист\w*|школ\w*|учебник\w*|обучен\w*|диктант\w*|олимпиад\w*|конкурс\w*|традиц\w*|обыча\w*|музе\w*|искусств\w*|общин\w*|обществ\w*|истори\w*|наслед\w*|оленевод\w*|промысл\w*|ансамбл\w*)"
     r"|\b(?:evenkis?|ewenkis?|orochons?|hamnigans?)\b"
     r"|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간)", re.I)
+CONTEXT_TOPIC_RE = re.compile(
+    r"(?:северн\w{0,12}\s+завоз\w*|арктическ\w{0,16}\s+(?:завоз\w*|снабжени\w*|доставк\w*)|"
+    r"(?:доставк\w*|перевозк\w*|завоз\w*|снабжени\w*).{0,50}(?:груз\w*|топлив\w*|продукт\w*|арктик\w*|северн\w* посел\w*)|"
+    r"(?:арктик\w*|груз\w*).{0,50}(?:доставк\w*|перевозк\w*|завоз\w*|снабжени\w*)|"
+    r"(?:правил\w*.{0,35}охот\w*|охот\w*.{0,35}правил\w*|срок\w* охот\w*|сезон охот\w*|охотнич\w* сезон\w*|"
+    r"закон\w*.{0,35}охот\w*|охот\w*.{0,35}закон\w*|измен\w*.{0,35}охот\w*|"
+    r"правил\w*.{0,35}рыболов\w*|рыболов\w*.{0,35}правил\w*|измен\w*.{0,35}рыболов\w*|нерестов\w* запрет\w*|"
+    r"квот\w*.{0,30}(?:вылов\w*|рыб\w*)|(?:вылов\w*|рыб\w*).{0,30}квот\w*)", re.I)
+CONTEXT_SCOPE_RE = re.compile(
+    r"(?:якут\w*|саха|красноярск\w*|таймыр\w*|бурят\w*|забайкал\w*|"
+    r"иркутск\w*|амурск\w*|хабаровск\w*|сахалин\w*|приморск\w*|томск\w*|тюмен\w*|"
+    r"еврейск\w* автономн\w*|еао|росси\w*|российск\w* федерац\w*|\bрф\b)", re.I)
 EXCLUDED_TOPIC_RE = re.compile(
     r"(?:\bсво\b|\bsvo\b|специальн\w{0,20}\s+военн\w{0,20}\s+операц\w*"
     r"|\bфронт\w*|\bвоеннослужащ\w*|участник\w*\s+(?:сво|боев\w*)"
@@ -71,8 +83,17 @@ def is_excluded_story(item: dict[str, object]) -> bool:
 
 
 def is_evenki_related(item: dict[str, object]) -> bool:
+    return story_relevance(item) is not None
+
+
+def story_relevance(item: dict[str, object]) -> str | None:
     url = str(item.get("url", item.get("link", ""))).rstrip("/")
-    return url in EDITORIAL_RELEVANCE_URLS or bool(EVENKI_MENTION_RE.search(story_text(item)))
+    text = story_text(item)
+    if url in EDITORIAL_RELEVANCE_URLS or EVENKI_MENTION_RE.search(text):
+        return "direct"
+    if CONTEXT_TOPIC_RE.search(text) and CONTEXT_SCOPE_RE.search(text):
+        return "context"
+    return None
 
 
 def source_key(item: dict[str, object]) -> str:
@@ -144,6 +165,12 @@ def load_query_group(group_id: str) -> list[str]:
         if group.get("id") == group_id:
             return [str(value).strip() for value in group.get("queries", []) if str(value).strip()]
     return []
+
+
+def quote_search_term(term: str) -> str:
+    """Keep intentional phrase quotes and leave geographic qualifiers outside them."""
+    term = str(term).strip()
+    return term if '"' in term else f'"{term}"'
 
 
 def load_social_search_sites() -> list[str]:
@@ -727,10 +754,10 @@ def fetch_items() -> list[dict[str, str]]:
     # Search the full Google News index in focused topic groups. Keeping these
     # separate avoids one oversized OR query losing narrower language/culture hits.
     feeds: list[tuple[str, bool, dict[str, str] | None]] = []
-    for group_id in ("core", "language-education", "culture", "historical-and-local-names"):
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context"):
         terms = load_query_group(group_id)
         if terms:
-            query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
+            query = " OR ".join(quote_search_term(term) for term in terms)
             feeds.append((f"({query}) when:2d", False, None))
 
     # Search every configured publisher separately. Combining many sites into
@@ -769,18 +796,18 @@ def fetch_items() -> list[dict[str, str]]:
 
     local_terms = load_query_group("eao-evenki")
     if local_terms:
-        local_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in local_terms)
+        local_query = " OR ".join(quote_search_term(term) for term in local_terms)
         feeds.append((f"({local_query}) when:30d", False, None))
 
     # Search every configured public social account across all major topic groups,
     # not only the regional EAO terms. Google News provides public index coverage;
     # direct access to private posts or unindexed content requires platform APIs.
     social_sites = load_social_search_sites()
-    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "eao-evenki"):
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "eao-evenki"):
         terms = load_query_group(group_id)
         if not terms:
             continue
-        social_query = " OR ".join(f'"{term.strip(chr(34))}"' for term in terms)
+        social_query = " OR ".join(quote_search_term(term) for term in terms)
         feeds.extend((f"site:{site} ({social_query}) when:7d", False, None) for site in social_sites)
     ilken_terms = load_ilken_queries()
     # Keep source-wide searches for the dedicated Ilken Evenki category.
@@ -877,13 +904,15 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         link = item["url"].rstrip("/")
         if link in known:
             continue
+        relevance = story_relevance(item)
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
         stories.append({
             "region": item.get("region") or category,
             "date": item["day"], "source": item["source"],
             "title": item["title"],
-            "desc": (item.get("description") or "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.")[:420],
-            "tags": "эвенки эвенкийский язык новости", "link": item["url"],
+            "desc": (item.get("description") or ("Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ." if relevance == "context" else "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ."))[:420],
+            "tags": "северные регионы снабжение охота рыболовство" if relevance == "context" else "эвенки эвенкийский язык новости",
+            "relevance": relevance or "direct", "link": item["url"],
             **({"image": item["image"]} if item.get("image") else {}),
         })
         known.add(link)
@@ -1123,7 +1152,9 @@ def main() -> int:
     # Search results from configured publishers are added to the general feed;
     # Ilken's dedicated Evenki-language category is a trusted direct-source feed.
     for item in found:
-        item["siteEligible"] = "1" if item.get("ilkenEvenki") == "1" or item.get("arunNews") == "1" or item.get("configuredSource") == "1" else "0"
+        relevance = story_relevance(item)
+        item["relevance"] = relevance or ""
+        item["siteEligible"] = "1" if item.get("ilkenEvenki") == "1" or item.get("arunNews") == "1" or item.get("configuredSource") == "1" or relevance else "0"
     new_site_stories = update_site_news_feed(found) if args.mode == "collect" else 0
     if new_site_stories:
         print(f"Added {new_site_stories} new stories to the website news feed.")
