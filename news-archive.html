@@ -23,7 +23,16 @@
 @media(max-width:800px){.nav .wrap{height:auto;min-height:52px;flex-wrap:wrap}.brand{font-size:17px}.navlinks{gap:10px;font-size:10px;white-space:normal}}
 @media(max-width:600px){.nav{height:auto}.nav .wrap{padding-top:8px;padding-bottom:8px}.brand-mark{width:30px;height:30px;flex-basis:30px}.navlinks{width:100%;flex-wrap:wrap;order:2;gap:8px 12px}}
 </style>
-<link rel="stylesheet" href="site-header.css?v=20261004-unified"><style>@media(max-width:520px){}</style></head>
+<link rel="stylesheet" href="site-header.css?v=20261004-unified"><style>@media(max-width:520px){}</style><style id="news-card-equal-height">
+.news-grid{grid-auto-rows:1fr;align-items:stretch}
+.news-card{height:374px;min-height:374px;overflow:hidden}
+.news-card .card-meta{height:42px;min-height:42px;flex:0 0 42px;overflow:hidden;align-items:flex-start}
+.news-card .region-tag,.news-card .context-tag{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.news-card h2,.news-card h3{height:5.2em;min-height:5.2em;max-height:5.2em;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+.news-card p{height:6.2em;min-height:6.2em;max-height:6.2em;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+.news-card .card-foot{height:36px;min-height:36px;flex:0 0 36px;overflow:hidden}
+.news-card .card-foot>*{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+</style></head>
 <body>
 <div class="topline"><div class="wrap"><div class="status"><i class="dot"></i><span>Хроника народа</span></div></div></div>
 <header class="nav"><div class="wrap"><a class="brand" href="index.html"><span class="brand-mark"><img src="taezhnye-golosa-sevek-mo.svg?v=20261001-logo-1" alt=""></span>таёжная нить</a><nav class="navlinks"><a href="index.html#news">Новости регионов</a><a href="history.html">Об эвенках</a><a href="map.html">Карта</a><a href="gallery.html">Галерея</a><a href="index.html#resources">Полезные ресурсы</a><a href="sources.html">Источники</a></nav><button class="menu" aria-label="Меню">☰</button></div></header>
