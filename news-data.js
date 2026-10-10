@@ -1,32 +1,12 @@
 window.newsStories=[
   {
     "region": "Общие новости",
-    "date": "2026-10-08",
-    "source": "Бирария · Telegram",
-    "title": "🌍 Всемирный день мигрирующих птиц На этой неделе отмечается Всемирный день мигрирующих птиц – важная дата, посвящённая сохранению пернатых, которые ежегодно преодолевают тысячи кил",
-    "desc": "🌍 Всемирный день мигрирующих птиц На этой неделе отмечается Всемирный день мигрирующих птиц – важная дата, посвящённая сохранению пернатых, которые ежегодно преодолевают тысячи километров. Для Приамурья это особенно актуально. Через наш регион проходят миграционные пути многих видов птиц. Здесь можно встретить японского, даурского и чёрного журавлей, дальневосточного аиста, различные виды уток и куликов. «Бирария» не",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4234",
-    "image": "https://cdn4.telesco.pe/file/ebsi0wud56A9Wk0h_uSSWq3B_je--n34mIsuE6p6fXr0Te2ybKFwtEiIHqkcsCXzmpMLRhZ8thXo3POJyZxIVN20Kh-LavCBzNXw6Je6vNDHnYOzMfxywePBuVCCZoz3i9FRi73GmlGfWP1laJGw1HAVWAkLZwmjap8_NTN2oytl2YmhOT3cAza09zQjNzJlmZ4D1n1JsWusirEBTj4i-7ot8uc6I5yOggP5LLcG9A9zhBGsypzeCz1FhUxL-gsXMrZQLgviRfedciDZd53241OtlYx_8EHl7ip3Y8guOvH2hm9_1BEdfoXk6JLDshWcfSzsFSFArOMGZFnWs_BY3w.jpg"
-  },
-  {
-    "region": "Общие новости",
     "date": "2026-10-07",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-06",
-    "source": "ЕАОMedia · Telegram",
-    "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической троп",
-    "desc": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" В окрестностях пос. Теплоозёрск Облученского района завершилось создание оборудованной экологической тропы, которая не входит в границы особо охраняемых природных территорий. Маршрут \"По следам бираров на Тигриную сопку\" (6+) уже принял более 130 первых посетителей — школьников и их родителей. Тропа протяжённостью около 2 км ведёт на вершину с",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/EAOMedia/47585",
-    "image": "https://cdn4.telesco.pe/file/EYWrNBeOPOp3eHzq-wP4c7HNsHfhnSK28nE8pADFzyYXSwbSHROqDCadxch2I46zXSxQaXlCUs6nubh6uocCqY6a2DVFZlRxjJUvJBbLrO3y2rFlv45oD_jK5SYECKDGt5Z19b59nsc2LkJu71Lm8ZVIC4prY2mEA49OkJlYqw-_0WmnG_DNlIY4jgcmkBVbRXxYddl6KelAXxuSqV3Mq-ztwSpU_r9JQgx4-wZf_jU3xINWa6rNffVUMnKnJpkhULe5GqYsNmlU0l7x2I48Z7q2pkWP0qSvcnzhM0bzKQL3Uf0rxO6bBVwwQceRQbZJKo4PAMJj0cC2o9qMOO_bgQ.jpg"
   },
   {
     "region": "Общие новости",
@@ -259,16 +239,6 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-07",
-    "source": "Бирария · Telegram",
-    "title": "🌱 Новая экотропа в Долине тигров открыта для школьников всей ЕАО В окрестностях посёлка Теплоозёрска завершилось создание учебной оборудованной экологической тропы «По следам бирар",
-    "desc": "🌱 Новая экотропа в Долине тигров открыта для школьников всей ЕАО В окрестностях посёлка Теплоозёрска завершилось создание учебной оборудованной экологической тропы «По следам бираров на Тигриную сопку». Теперь школьники из любого уголка области могут приехать сюда на экскурсию и своими глазами увидеть уникальную природу Приамурья. Что можно узнать на тропе? Маршрут протяжённостью около 2 км ведёт на вершину сопки Тиг",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4224",
-    "image": "https://cdn4.telesco.pe/file/TE9FCdwejaYnq9eNxAJpacnUOPMo8MXsNA9dwk3wv2ircQORvsfxTExBU9YIJvTZF-3XAbKtvziPCZjCz9pHXk8dcPq6er36cbytInyEQuSbfDXvM_RIgIixMsXCaMAMclA7Hipfjmj2d_-grE79vzewynSW9A4fuSTZZLRpeWX1PcAJ97yEnchlNV0XbT3ByaHUHcNaNpIyD8HP-Smy07KItD_zpng_FiSKdOX_fyCNrFUT2wFGC4kZcGTAh1FmznRinicWFogzr808jcZRvuZhr1cln-tIdODPugvIJe1xEw_J5WoUN7RRwyX5SgpCPBS2REwDEgOeE1QkUS1r6A.jpg"
-  },
-  {
     "region": "Бурятия",
     "date": "2026-09-24",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -316,16 +286,6 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-07",
-    "source": "Бирария · Telegram",
-    "title": "📦 «Бирария» принимает в дар предметы истории и быта Друзья, наш культурно-туристический центр продолжает обустраиваться. Мы создаём пространство, где оживает история Приамурья, и н",
-    "desc": "📦 «Бирария» принимает в дар предметы истории и быта Друзья, наш культурно-туристический центр продолжает обустраиваться. Мы создаём пространство, где оживает история Приамурья, и нам очень нужна ваша помощь. С благодарностью примем в дар: 🪑 Мебель – шкафы, комоды, столы, стулья, этажерки в стиле советского времени. Она станет частью интерьера и поможет воссоздать атмосферу прошлых лет. 🏺 Предметы декора – статуэтки, ",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4223",
-    "image": "https://cdn4.telesco.pe/file/TE9FCdwejaYnq9eNxAJpacnUOPMo8MXsNA9dwk3wv2ircQORvsfxTExBU9YIJvTZF-3XAbKtvziPCZjCz9pHXk8dcPq6er36cbytInyEQuSbfDXvM_RIgIixMsXCaMAMclA7Hipfjmj2d_-grE79vzewynSW9A4fuSTZZLRpeWX1PcAJ97yEnchlNV0XbT3ByaHUHcNaNpIyD8HP-Smy07KItD_zpng_FiSKdOX_fyCNrFUT2wFGC4kZcGTAh1FmznRinicWFogzr808jcZRvuZhr1cln-tIdODPugvIJe1xEw_J5WoUN7RRwyX5SgpCPBS2REwDEgOeE1QkUS1r6A.jpg"
-  },
-  {
-    "region": "Общие новости",
     "date": "2026-09-09",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
@@ -353,16 +313,6 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-06",
-    "source": "Бирария · Telegram",
-    "title": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Б",
-    "desc": "🍁 В «Бирарии» – новый чай по-бирарски из «Бирских садов» В культурно-туристическом центре «Бирария» появился фирменный чай по-бирарски – результат коллаборации с семейной фермой «Бирские сады». Этот чай – настоящий вкус Приамурья в каждой чашке: • Основа – ферментированный особым способом иван-чай, собранный вручную на лугах Малого Хингана. • Добавки – цветки липы и шиповник, которые придают напитку мягкость и лёгкую",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4220",
-    "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg"
-  },
-  {
-    "region": "Общие новости",
     "date": "2026-09-03",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
@@ -380,16 +330,6 @@ window.newsStories=[
     "link": "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-06",
-    "source": "Бирария · Telegram",
-    "title": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии дре",
-    "desc": "🎨 На экотропе в Долине тигров появились копии амурских петроглифов На новой экологической тропе «По следам бираров на Тигриную сопку» установлены уникальные арт-объекты — копии древних амурских петроглифов. Их автором стал Илья Мерзляков, известный в ЕАО мастер по изготовлению арт-объектов и граффити-рисунков. Илья изготовил арт-объекты в несколько этапов: подготовил специальные «вулканические» камни и нанёс рельефны",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4219",
-    "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg"
-  },
-  {
     "region": "Новости на эвенкийском",
     "date": "2026-08-23",
     "source": "Илкэн · Улгур",
@@ -399,16 +339,6 @@ window.newsStories=[
     "link": "https://ilken.ru/evenki/2026/08/23/na-mezhdunarodnom-festivale-i-kubke-edinstva-narodov-rossii-po-severnomu-mnogoboryu-komanda-yakutii-zanyala-vtoroe-mesto/"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-06",
-    "source": "Бирария · Telegram",
-    "title": "🚌 Сикачи-Алян: поездка из Биробиджана 17 октября «Бирария» приглашает в путешествие к древним петроглифам на берегу Амура. Это наскальные рисунки возрастом 12–14 тысяч лет — личины",
-    "desc": "🚌 Сикачи-Алян: поездка из Биробиджана 17 октября «Бирария» приглашает в путешествие к древним петроглифам на берегу Амура. Это наскальные рисунки возрастом 12–14 тысяч лет — личины шаманов, лоси, тигры, лодки. Место включено в предварительный список ЮНЕСКО. Что вас ждёт: - экскурсия с хранительницей нанайских традиций Светланой Оненко; - VR-фильм о петроглифах в автобусе (260 км пролетят незаметно); - мастер-класс по",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4221",
-    "image": "https://cdn4.telesco.pe/file/l_UtlMTMpw3YCqohi26PkcEl7ZyRFFIJ7VuZ9flRXPYFZDT_tY-bfzuG3HdcHXGzH5WbtvZC4oemZQHmgsydSy4bSYtzrnh8chTGNOsPibbfwk7N6v01MmIsgCh3f1MxIR1kA2LkS0B8De9ZioIff4HOZE8DzExZUnMx7uXpbMHcT8rpgeQD25reuSbknCExq6ghfXReXmpe2Dd7VBSUmMozbm-RXlM4bnDkMipGybC4K_bsG9sdfPevjasB4xkm6sdFsphc7mAoVKyl4alD9ek1RqNBjWtnZ2rrgiQWzAR2Te_YWbngLXXaSPYI1cHU6qfYu0VlPM5eH6ExWPQFdw.jpg"
-  },
-  {
     "region": "Новости на эвенкийском",
     "date": "2026-08-18",
     "source": "Илкэн · Улгур",
@@ -416,16 +346,6 @@ window.newsStories=[
     "desc": "Материал о новом цехе по заморозке рыбы опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Бурятия",
     "link": "https://ilken.ru/evenki/2026/08/18/mup-bulunskoe-otkrylo-novyj-modulnyj-czeh-po-zamorozke-ryby/"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-05",
-    "source": "Бирария · Telegram",
-    "title": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой обо",
-    "desc": "🍂 Более 130 человек уже прошли по новой экотропе в Долине тигров 1, 2 и 3 октября состоялись первые походы по экологической тропе «По следам бираров на Тигриную сопку» — первой оборудованной экотропе в Еврейской автономной области, созданной за пределами особо охраняемых природных территорий. Участниками стали ученики и родители школы № 18 п. Теплоозёрск — всего 132 человека. Маршрут протяжённостью 2 км проходит по ж",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4207",
-    "image": "https://cdn4.telesco.pe/file/gkvTBd1XaIum9Bzb1HOtMIss1hzZqe-wJgdQg0VZab6K-p6f6ZbQZ9ZY1xh1wxkylPd9sFRItwVau8NM0Su7PgLtlGKL13nUnf4IFcpIySsat0gVumWscw3mRi0NfHwGPIMp0jDIa3NxvQFABXWWZ-4GF-8FLY8q3nVhQvMbMZFHJmMd85opwvp3m9fb1unDYkl7TD9KbhwAZn0HfO4B9gcUpkEuoJhrcllRbTh0QbyfaPKfoXyoBEeUGmBdH3S1yxLmJ5tDWObnwpw5ApR8VTlGnVZbiEYPF5TtA38kkeEO_HPZFP7uKIuTpqPVHp0rmYEnuEJ84uqP-YpEN2C_bg.jpg"
   },
   {
     "region": "Общие новости",
