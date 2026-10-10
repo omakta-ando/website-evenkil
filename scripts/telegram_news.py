@@ -38,9 +38,60 @@ LOOKBACK_HOURS = 72
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
-CORE_RE = re.compile(r"эвенк|эвенки|эвенкий|эвенкия|эвенкил|эвэды|ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|хамнигад|эвэнк|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간", re.I)
-EXCLUDED_TOPIC_RE = re.compile(r"(?:нанайск\w*.{0,50}шашк\w*|шашк\w*.{0,50}нанайск\w*)", re.I)
+EVENKI_MENTION_RE = re.compile(
+    r"(?:\bэвенк(?:и|ов|ам|ами|ах|а|у|ом|е|ой|ою|ок)\b"
+    r"|\b(?:ороч[её]н|хамниган|манегр|бирар|солон|бакалдын|мучун)\w*\b"
+    r"|\bэвенкийц\w*\b|\bперевод\w*\s+с\s+эвенкийск\w*\b|\bэвенкийск\w{0,16}\s+(?:язык\w*|культур\w*|реч\w*|словар\w*|песн\w*|музык\w*|танц\w*|фольклор\w*|литератур\w*|писател\w*|поэт\w*|композитор\w*|художник\w*|артист\w*|школ\w*|учебник\w*|обучен\w*|диктант\w*|олимпиад\w*|конкурс\w*|традиц\w*|обыча\w*|музе\w*|искусств\w*|общин\w*|обществ\w*|истори\w*|наслед\w*|оленевод\w*|промысл\w*|ансамбл\w*)"
+    r"|\b(?:evenkis?|ewenkis?|orochons?|hamnigans?)\b"
+    r"|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간)", re.I)
+EXCLUDED_TOPIC_RE = re.compile(
+    r"(?:\bсво\b|\bsvo\b|специальн\w{0,20}\s+военн\w{0,20}\s+операц\w*"
+    r"|\bфронт\w*|\bвоеннослужащ\w*|участник\w*\s+(?:сво|боев\w*)"
+    r"|боев\w{0,15}\s+действ\w*|зон\w{0,5}\s+боев\w{0,15}\s+действ\w*)", re.I)
 EXCLUDED_STORY_URLS = {"https://t.me/biraria/4194"}
+
+
+def story_text(item: dict[str, object]) -> str:
+    return " ".join(str(item.get(key, "")) for key in ("title", "description", "desc"))
+
+
+def is_excluded_story(item: dict[str, object]) -> bool:
+    return str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS or bool(EXCLUDED_TOPIC_RE.search(story_text(item)))
+
+
+def is_evenki_related(item: dict[str, object]) -> bool:
+    return bool(EVENKI_MENTION_RE.search(story_text(item)))
+
+
+def source_key(item: dict[str, object]) -> str:
+    source = str(item.get("source", "Источник")).casefold().strip()
+    if re.search(r"бирари|biraria", source):
+        return "бирария"
+    if re.search(r"эвенкийск\w*.{0,12}жизн|newsevenkia", source):
+        return "эвенкийская жизнь"
+    source = re.sub(r"\s*[·|—–-]\s*(?:telegram|тг|вконтакте|vk)\s*$", "", source)
+    return re.sub(r"[^a-zа-яё0-9]+", " ", source).strip() or "источник"
+
+
+def diversify_items(items: list[dict[str, object]], max_per_source: int | None = None) -> list[dict[str, object]]:
+    """Interleave publishers so one prolific outlet does not fill a whole feed."""
+    buckets: dict[str, list[dict[str, object]]] = {}
+    for item in items:
+        buckets.setdefault(source_key(item), []).append(item)
+    for bucket in buckets.values():
+        bucket.sort(key=lambda item: str(item.get("published", item.get("date", ""))), reverse=True)
+    keys = sorted(buckets, key=lambda key: str(buckets[key][0].get("published", buckets[key][0].get("date", ""))), reverse=True)
+    result: list[dict[str, object]] = []
+    while keys:
+        remaining = []
+        for key in keys:
+            bucket = buckets[key]
+            if bucket and (max_per_source is None or sum(source_key(row) == key for row in result) < max_per_source):
+                result.append(bucket.pop(0))
+            if bucket and (max_per_source is None or sum(source_key(row) == key for row in result) < max_per_source):
+                remaining.append(key)
+        keys = remaining
+    return result
 
 
 def now_local() -> dt.datetime:
@@ -317,7 +368,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 )
                 if not title or not valid_link or not published or published < feed_cutoff:
                     continue
-                if not is_evenki_feed and not CORE_RE.search(f"{title} {description}"):
+                if not is_evenki_feed and not is_evenki_related({"title": title, "description": description}):
                     continue
                 guid = clean(node.findtext("guid", ""))
                 found.append({
@@ -577,7 +628,7 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
         for post in parser.posts:
             published = parse_date(post.get("date", ""))
             text = clean(post.get("text", ""))
-            if not published or published < cutoff or not CORE_RE.search(text):
+            if not published or published < cutoff or not is_evenki_related({"description": text}):
                 continue
             post_path = post.get("post", "").strip("/")
             post_url = f"https://t.me/{post_path}" if post_path else post.get("url", "")
@@ -638,7 +689,7 @@ def fetch_vk_public_walls() -> list[dict[str, str]]:
         for post in posts:
             text = clean(str(post.get("text", "")))
             published = dt.datetime.fromtimestamp(int(post.get("date", 0)), tz=TZ)
-            if published < cutoff or not CORE_RE.search(text):
+            if published < cutoff or not is_evenki_related({"description": text}):
                 continue
             owner_id = int(post.get("owner_id", 0))
             post_id = int(post.get("id", 0))
@@ -761,7 +812,7 @@ def fetch_items() -> list[dict[str, str]]:
                 for host in (source_host, publisher_host)
                 for domain in domains
             ) and "news.google.com" not in publisher_host
-            if not CORE_RE.search(f"{title} {description}") and not is_ilken:
+            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
                 continue
             found.append({
                 "id": item_id,
@@ -792,14 +843,11 @@ def fetch_items() -> list[dict[str, str]]:
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
     candidates = items + direct_items
-    excluded = [
-        item for item in candidates
-        if item.get("url", "").rstrip("/") in EXCLUDED_STORY_URLS
-        or EXCLUDED_TOPIC_RE.search(f"{item.get('title', '')} {item.get('description', '')}")
-    ]
+    excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and item.get("ilkenEvenki") != "1")]
     if excluded:
-        print(f"Excluded {len(excluded)} stories by editorial filters.")
-    return list({item["url"].rstrip("/"): item for item in candidates if item not in excluded}.values())
+        print(f"Excluded {len(excluded)} stories by relevance and editorial filters.")
+    unique = {item["url"].rstrip("/"): item for item in candidates if item not in excluded}
+    return diversify_items(list(unique.values()))
 
 
 def update_site_news_feed(items: list[dict[str, str]]) -> int:
@@ -807,9 +855,13 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
     candidates = [item for item in items if item.get("siteEligible") == "1"]
     path = ROOT / "news-data.js"
     stories = load_site_news_stories()
+    original_stories = list(stories)
+    stories = [story for story in stories if not is_excluded_story(story)]
     known = {str(story.get("link", "")).rstrip("/") for story in stories}
     added = 0
     for item in candidates:
+        if is_excluded_story(item) or (not is_evenki_related(item) and item.get("ilkenEvenki") != "1"):
+            continue
         link = item["url"].rstrip("/")
         if link in known:
             continue
@@ -824,8 +876,10 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         })
         known.add(link)
         added += 1
-    if added:
+    stories = diversify_items(stories)
+    if added or stories != original_stories:
         stories.sort(key=lambda story: str(story.get("date", "")), reverse=True)
+        stories = diversify_items(stories)
         path.write_text("window.newsStories=" + json.dumps(stories, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
     return added
 
@@ -845,13 +899,16 @@ def load_site_news_stories() -> list[dict[str, object]]:
 
 def read_state() -> dict:
     if not STATE_FILE.exists():
-        return {"version": 1, "seen": {}, "daily": {}}
-    state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        state = {"version": 1, "seen": {}, "daily": {}, "pendingTelegram": []}
+    else:
+        state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
     if not isinstance(state, dict) or state.get("version") != 1:
         raise ValueError("Unsupported Telegram news state format")
     state.setdefault("seen", {})
     state.setdefault("daily", {})
     state.setdefault("pendingTelegram", [])
+    state["pendingTelegram"] = [item for item in state["pendingTelegram"] if not is_excluded_story(item) and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")]
+    state["daily"] = {day: [item for item in items if not is_excluded_story(item) and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")] for day, items in state["daily"].items()}
     return state
 
 
@@ -860,13 +917,13 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def telegram_send(text: str, *, parse_mode: str | None = "HTML") -> None:
+def telegram_send(text: str, *, parse_mode: str | None = "HTML", disable_web_page_preview: bool = True) -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "@taiga_thread").strip()
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN is not configured in GitHub Actions secrets")
     url = f"{BOT_API}/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text, "disable_web_page_preview": True}
+    payload = {"chat_id": chat_id, "text": text, "disable_web_page_preview": disable_web_page_preview}
     if parse_mode:
         payload["parse_mode"] = parse_mode
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -888,15 +945,47 @@ def plain_item(item: dict[str, str]) -> str:
     return "\n\n".join(parts)
 
 
+
+class ArticleImageParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.images: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "meta":
+            return
+        values = {str(key).lower(): str(value or "") for key, value in attrs}
+        marker = (values.get("property") or values.get("name") or "").lower()
+        if marker in {"og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"}:
+            image = values.get("content", "").strip()
+            if image:
+                self.images.append(image)
+
+
+def fetch_article_image(url: str) -> str:
+    try:
+        page = request(url, headers={"Accept": "text/html,application/xhtml+xml"}, timeout=12).decode("utf-8", errors="replace")
+    except (urllib.error.URLError, TimeoutError, ValueError):
+        return ""
+    parser = ArticleImageParser()
+    parser.feed(page[:500_000])
+    for candidate in parser.images:
+        image = urllib.parse.urljoin(url, html.unescape(candidate))
+        if urllib.parse.urlsplit(image).scheme == "https":
+            return image
+    return ""
+
 def telegram_send_item(item: dict[str, str]) -> None:
-    """Send a story with its site image when available, otherwise as text."""
-    image = item.get("image", "").strip()
+    """Send article imagery to Telegram; website cards remain text-only."""
+    if is_excluded_story(item):
+        raise RuntimeError("Editorial exclusion blocked a war/SVO story from Telegram")
+    image = item.get("image", "").strip() or fetch_article_image(item.get("url", ""))
     if not image:
         try:
-            telegram_send(format_item(item))
+            telegram_send(format_item(item), disable_web_page_preview=False)
         except RuntimeError as error:
             print(f"HTML message failed; retrying as plain text: {error}", file=sys.stderr)
-            telegram_send(plain_item(item), parse_mode=None)
+            telegram_send(plain_item(item), parse_mode=None, disable_web_page_preview=False)
         return
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "@taiga_thread").strip()
@@ -1041,14 +1130,17 @@ def main() -> int:
         if (parse_date(item.get("published", "")) or now_local()) >= telegram_cutoff
     ]
     queued_ids = {item.get("id") for item in state["pendingTelegram"]}
-    queued = [
+    queued_candidates = [
         item for item in found
         if item.get("siteEligible") == "1"
+        and not is_excluded_story(item)
+        and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")
         and (parse_date(item.get("published", "")) or now_local()) >= telegram_cutoff
         and item["url"].rstrip("/") in public_links
         and item["id"] not in state["seen"]
         and item["id"] not in queued_ids
     ]
+    queued = diversify_items(queued_candidates, max_per_source=4)
     state["pendingTelegram"].extend(queued)
     print(f"Fetched {len(found)} candidates; added {new_site_stories} to the site and queued {len(queued)} for Telegram after publication.")
 
