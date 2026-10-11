@@ -154,5 +154,45 @@
       }
     ]
   },
-  "pendingTelegram": []
+  "pendingTelegram": [
+    {
+      "id": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
+      "title": "Бакалдын — праздник встречи, который вернул меня в детство",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
+      "published": "2026-10-11T00:00+04:00",
+      "day": "2026-10-11",
+      "description": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
+      "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
+      "published": "2026-10-11T00:00+04:00",
+      "day": "2026-10-11",
+      "description": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
+      "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
+      "published": "2026-10-10T00:00+04:00",
+      "day": "2026-10-10",
+      "description": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "relevance": "direct",
+      "siteEligible": "1"
+    }
+  ]
 }
