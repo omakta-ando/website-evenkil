@@ -1,6 +1,6 @@
 window.newsStories=[
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-10",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Делимся новыми кадрами с нашей площадки на Медианочи! Колорит Севера, эвенкийская культура и национальные традиции покорили сердца гостей Медианочи в краевом центре ❤️ Смотрим, как",
@@ -21,7 +21,7 @@ window.newsStories=[
     "link": "https://gtrksakha.ru/news/2026/10/09/yakutiya-po-pogolovyu-olenej-podnyalas-s-3-na-2-mesto-sredi-regionov-strany/"
   },
   {
-    "region": "Общие новости",
+    "region": "Еврейская автономная область",
     "date": "2026-10-09",
     "source": "Бирария · Telegram",
     "title": "🐟 Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане",
@@ -31,7 +31,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-08",
     "source": "Российская газета",
     "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Российская газета",
@@ -41,7 +41,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
@@ -50,14 +50,15 @@ window.newsStories=[
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-10-07",
     "source": "Илкэн · Улгур",
     "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
     "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/",
+    "languageNews": true
   },
   {
     "region": "Якутия",
@@ -348,7 +349,7 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-09",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "«Эвенкийская жизнь» получила спецприз на медиафоруме «Енисей»! Награду наша газета получила в номинации «Единые ценности» за сохранение национальных традиций коренных малочисленных",
@@ -367,7 +368,7 @@ window.newsStories=[
     "link": "https://gtrksakha.ru/news/2026/09/07/nacionalnyj-prazdnik-bakaldyn-voshyol-chislo-finalistov-vserossijskoj-premii-turizma-russian-event-awards/"
   },
   {
-    "region": "Общие новости",
+    "region": "Еврейская автономная область",
     "date": "2026-10-09",
     "source": "Бирария · Telegram",
     "title": "🌲 Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был",
@@ -386,14 +387,15 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-10-01",
     "source": "Илкэн · Улгур",
     "title": "Северды полюс амарду, Оймякон дюлэду",
     "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/",
+    "languageNews": true
   },
   {
     "region": "Забайкальский край",
@@ -442,7 +444,7 @@ window.newsStories=[
     "link": "https://news.kmnsoyuz.ru/news/53418"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-02",
     "source": "Илкэн",
     "title": "Nordgold поддержал республиканский турнир по северному многоборью памяти Александра Иванова",
@@ -469,7 +471,7 @@ window.newsStories=[
     "link": "https://sakh.online/news/18/2026-08-27/na-poberezhie-zaliva-chayvo-proshyol-prazdnik-olenevodov-kurey-2026-524421"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-09",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "В Красноярском крае выпустят книги о культуре и языках коренных народов Севера В Красноярском крае издадут три книги, посвящённые культурному и историческому наследию северных наро",
@@ -479,7 +481,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Еврейская автономная область",
     "date": "2026-10-03",
     "source": "Бирария · Telegram",
     "title": "💃 От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хоровод",
@@ -497,13 +499,14 @@ window.newsStories=[
     "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-09-25",
     "source": "Илкэн · Улгур",
     "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
     "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Хайыр",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/",
+    "languageNews": true
   },
   {
     "region": "Красноярский край",
@@ -524,7 +527,7 @@ window.newsStories=[
     "link": "https://www.vesti-krasnoyarsk.ru/news/proisshestviya/post-61696/"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-08",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "В Эвенкию отправляется очередной рейс с продуктами Накануне выполнено два рейса, на сегодня запланирован ещё один. Это более 13 тонн овощей, фруктов, молочной и мясной продукции и",
@@ -534,7 +537,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Бурятия",
     "date": "2026-09-15",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Эпизоды фестиваля \"Байкальский аргиш-2026\"",
@@ -543,16 +546,17 @@ window.newsStories=[
     "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-09-16",
     "source": "Илкэн · Улгур",
     "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
     "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Якутия",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/",
+    "languageNews": true
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
@@ -562,7 +566,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Бурятия",
     "date": "2026-09-11",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Центр «Арун» открывает набор в ансамбль «Гулувун»",
@@ -571,16 +575,17 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-09-09",
     "source": "Илкэн · Улгур",
     "title": "Опоран мутӈи дюлэски. Он бэлэгэн ЗАО «Прогноз» общинаду «Гухуби» орорво иргичинду бэлэтчэрэн",
     "desc": "Материал о поддержке оленеводческой общины опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн оленеводство",
-    "link": "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/"
+    "link": "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/",
+    "languageNews": true
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
@@ -590,7 +595,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Бурятия",
     "date": "2026-09-09",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
@@ -599,16 +604,17 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-09-08",
     "source": "Илкэн · Улгур",
     "title": "Этэечимнил Олекмадук эгдэнни орорво Китайдула итыгавдяра",
     "desc": "Материал о подготовке оленеводов к экспорту животных в Китай опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн оленеводство",
-    "link": "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/"
+    "link": "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/",
+    "languageNews": true
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
@@ -627,16 +633,17 @@ window.newsStories=[
     "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-08-23",
     "source": "Илкэн · Улгур",
     "title": "Международнай фестивальду тадук «Кубкаду Россия тэгэл умунупкитту» севердыду кэтэ ӈорчаӈкитту Якутиян ге местован гачан",
     "desc": "Материал о выступлении сборной Якутии на международном фестивале опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Якутия фестиваль",
-    "link": "https://ilken.ru/evenki/2026/08/23/na-mezhdunarodnom-festivale-i-kubke-edinstva-narodov-rossii-po-severnomu-mnogoboryu-komanda-yakutii-zanyala-vtoroe-mesto/"
+    "link": "https://ilken.ru/evenki/2026/08/23/na-mezhdunarodnom-festivale-i-kubke-edinstva-narodov-rossii-po-severnomu-mnogoboryu-komanda-yakutii-zanyala-vtoroe-mesto/",
+    "languageNews": true
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два деся",
@@ -655,16 +662,17 @@ window.newsStories=[
     "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-08-18",
     "source": "Илкэн · Улгур",
     "title": "МУП «Булунское» омактава модульнайва цехва оллово доӈотолва ничэл",
     "desc": "Материал о новом цехе по заморозке рыбы опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
     "tags": "эвенки эвенкийский язык илкэн Бурятия",
-    "link": "https://ilken.ru/evenki/2026/08/18/mup-bulunskoe-otkrylo-novyj-modulnyj-czeh-po-zamorozke-ryby/"
+    "link": "https://ilken.ru/evenki/2026/08/18/mup-bulunskoe-otkrylo-novyj-modulnyj-czeh-po-zamorozke-ryby/",
+    "languageNews": true
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решил",
@@ -674,7 +682,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем",
@@ -684,7 +692,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и",
