@@ -34,7 +34,7 @@ STATE_FILE = ROOT / "data" / "telegram-news-state.json"
 TZ = ZoneInfo("Asia/Tbilisi")
 RSS_URL = "https://news.google.com/rss/search"
 BOT_API = "https://api.telegram.org"
-LOOKBACK_HOURS = 72
+LOOKBACK_HOURS = 7 * 24
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
@@ -781,14 +781,19 @@ def fetch_vk_public_walls() -> list[dict[str, str]]:
 def fetch_items() -> list[dict[str, str]]:
     domains = load_source_domains()
 
-    # Search the full Google News index in focused topic groups. Keeping these
-    # separate avoids one oversized OR query losing narrower language/culture hits.
+    # Search the full Google News index one phrase at a time. Google News RSS
+    # inconsistently handles long OR expressions, which can silently return an
+    # empty feed. Individual queries also make it possible to see which terms
+    # actually discover stories.
     feeds: list[tuple[str, bool, dict[str, str] | None]] = []
     for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context"):
         terms = load_query_group(group_id)
-        if terms:
-            query = " OR ".join(quote_search_term(term) for term in terms)
-            feeds.append((f"({query}) when:2d", False, None))
+        feeds.extend((f"{quote_search_term(term)} when:7d", False, None) for term in terms)
+    international_terms = load_query_group("international-ethnonyms")
+    feeds.extend(
+        (f"{quote_search_term(term)} when:7d", False, {"hl": "en-US", "gl": "US", "ceid": "US:en"})
+        for term in international_terms
+    )
 
     # Search every configured publisher separately. Combining many sites into
     # one Google News query can crowd out smaller outlets in the RSS results.
@@ -826,6 +831,15 @@ def fetch_items() -> list[dict[str, str]]:
             if domain:
                 feeds.append((f"site:{domain} ({localized_query}) when:7d", False, locale))
 
+    # Search non-Russian ethnonyms individually in their native editions. These
+    # are easy to lose inside broad site-restricted queries and often appear in
+    # local reporting that is not indexed by the Russian edition.
+    for country in sources_data.get("internationalMedia", []):
+        locale = country.get("googleNews")
+        terms = [str(term).strip() for term in country.get("queries", []) if str(term).strip()]
+        if isinstance(locale, dict):
+            feeds.extend((f"{quote_search_term(term)} when:7d", False, locale) for term in terms)
+
     local_terms = load_query_group("eao-evenki")
     if local_terms:
         local_query = " OR ".join(quote_search_term(term) for term in local_terms)
@@ -859,25 +873,29 @@ def fetch_items() -> list[dict[str, str]]:
 
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
 
-    def search_feed(feed: tuple[str, bool, dict[str, str] | None]) -> tuple[list[dict[str, str]], str | None]:
+    def search_feed(feed: tuple[str, bool, dict[str, str] | None]) -> tuple[list[dict[str, str]], str | None, tuple[int, int, int, int]]:
         feed_query, ilken_search, locale = feed
         params = urllib.parse.urlencode({"q": feed_query, **(locale or {"hl": "ru", "gl": "RU", "ceid": "RU:ru"})})
         try:
-            payload = request(f"{RSS_URL}?{params}")
+            payload = request(f"{RSS_URL}?{params}", timeout=12)
             root = ET.fromstring(payload)
         except (urllib.error.URLError, TimeoutError, ET.ParseError) as error:
-            return [], str(error)
+            return [], str(error), (0, 0, 0, 0)
 
         found: list[dict[str, str]] = []
-        for node in root.findall("./channel/item"):
+        nodes = root.findall("./channel/item")
+        recent_count = link_count = relevant_count = 0
+        for node in nodes:
             title = clean(node.findtext("title", ""))
             description = clean(node.findtext("description", ""))
             published = parse_date(node.findtext("pubDate", ""))
             if not published or published < cutoff:
                 continue
+            recent_count += 1
             link = clean(node.findtext("link", ""))
             if not link.startswith("https://"):
                 continue
+            link_count += 1
             source_node = node.find("source")
             source = clean(source_node.text if source_node is not None else "")
             source_host = ""
@@ -885,16 +903,19 @@ def fetch_items() -> list[dict[str, str]]:
                 source_host = (urllib.parse.urlsplit(source_node.attrib.get("url", "")).hostname or "").lower()
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
+            is_ilken = ilken_search and "ilken.ru" in (source_host, (urllib.parse.urlsplit(link).hostname or "").lower())
+            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
+                continue
+            relevant_count += 1
+            # Resolve Google News redirects only after relevance filtering. This
+            # avoids making an extra network request for every irrelevant hit.
             publisher_url = original_source_url(link)
-            is_ilken = ilken_search and (urllib.parse.urlsplit(publisher_url).hostname or "").lower() in {"ilken.ru", "www.ilken.ru"}
             publisher_host = (urllib.parse.urlsplit(publisher_url).hostname or "").lower()
             configured_source = any(
                 host == domain or host.endswith("." + domain)
                 for host in (source_host, publisher_host)
                 for domain in domains
             ) and "news.google.com" not in publisher_host
-            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
-                continue
             found.append({
                 "id": item_id,
                 "title": title,
@@ -906,18 +927,23 @@ def fetch_items() -> list[dict[str, str]]:
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
             })
-        return found, None
+        return found, None, (len(nodes), recent_count, link_count, relevant_count)
 
     items: list[dict[str, str]] = []
     failures = 0
+    raw_results = recent_results = https_results = relevant_results = 0
     # Keep the run short while spreading requests so no source group monopolizes
     # the limited number of results returned by Google News RSS.
-    with ThreadPoolExecutor(max_workers=6) as executor:
-        for found, error in executor.map(search_feed, feeds):
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for found, error, metrics in executor.map(search_feed, feeds):
             if error:
                 failures += 1
                 print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
             items.extend(found)
+            raw_results += metrics[0]
+            recent_results += metrics[1]
+            https_results += metrics[2]
+            relevant_results += metrics[3]
 
     direct_items = fetch_ilken_feed() + fetch_arun_news() + fetch_telegram_public_channels() + fetch_vk_public_walls()
     if failures == len(feeds) and not direct_items:
@@ -927,7 +953,9 @@ def fetch_items() -> list[dict[str, str]]:
     excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and item.get("ilkenEvenki") != "1")]
     print(
         f"Search complete: {len(feeds)} Google News RSS searches, "
-        f"{len(items)} indexed candidates, {len(direct_items)} direct-source candidates, "
+        f"{raw_results} raw results, {recent_results} recent, {https_results} with links, "
+        f"{relevant_results} text-relevant, {len(items)} indexed candidates, "
+        f"{len(direct_items)} direct-source candidates, "
         f"{len(excluded)} excluded by relevance/editorial filters."
     )
     unique = {item["url"].rstrip("/"): item for item in candidates if item not in excluded}
