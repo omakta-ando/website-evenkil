@@ -1,0 +1,11 @@
+/* Shared appearance for the rotating quote band across site pages. */
+.quote-band{background-color:#e8e9df;background-image:linear-gradient(105deg,rgba(245,243,233,.9),rgba(238,241,230,.82) 52%,rgba(232,237,224,.88)),url("https://images.unsplash.com/photo-1705574429259-dc47c7504314?auto=format&fit=crop&w=2200&q=85");background-position:center 52%;background-size:cover;color:#203c32;padding:42px 0}
+.quote-band .wrap{display:grid;grid-template-columns:40px minmax(0,1fr);gap:22px;align-items:center}
+.quote-band .quote-mark{font:60px/.8 Georgia,serif;color:#73846a}
+.quote-content{min-width:0}.quote-band blockquote{margin:0;max-width:none;font:500 clamp(17px,2vw,21px)/1.45 Manrope,sans-serif;letter-spacing:-.025em;transition:opacity .45s ease,transform .45s ease}.quote-band cite{display:block;margin-top:10px;font-style:normal;font-size:10px;line-height:1.5;color:#596b59;letter-spacing:.08em;text-transform:uppercase}.quote-band cite a{color:inherit;text-decoration:underline;text-underline-offset:3px}.quote-band cite a:hover{color:#bc7654}
+.quote-band blockquote.is-changing{opacity:0;transform:translateY(5px)}
+.map-sources-link{margin:14px 0 0;text-align:right;color:#788078;font-size:10px;letter-spacing:.02em}
+.map-sources-link a{color:#536b4f;text-decoration:underline;text-underline-offset:2px}
+.map-sources-link a:hover{color:#bc7654}
+@media(max-width:700px){.quote-band{padding:30px 0}.quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px}.quote-band .quote-mark{font-size:44px}.quote-band blockquote{font-size:17px}.map-sources-link{text-align:left}}
+@media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}

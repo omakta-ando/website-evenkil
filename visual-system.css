@@ -202,3 +202,7 @@ html{scroll-padding-top:160px}
 
 /* Override the older inline Manrope rule on the four image-led card titles. */
 .about .about-card h3{font-family:'Literata',Georgia,serif;font-size:clamp(25px,2.2vw,30px);letter-spacing:-.035em}
+
+.news-card-image{display:block;width:100%;height:190px;object-fit:cover;border-radius:10px;margin:0 0 16px;background:#e9e7dc}
+@media(max-width:600px){.news-card-image{height:170px}}
+.context-tag{display:inline-flex;align-items:center;padding:6px 9px;border-radius:20px;background:#f2ead6;color:#806334;font-size:10px;line-height:1.2}

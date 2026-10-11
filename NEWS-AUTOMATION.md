@@ -7,8 +7,11 @@ search. Requests run in a small parallel pool so one
 batch cannot hide smaller outlets. Region-only terms are excluded from the
 general search. EAO terms get separate
 targeted searches, including configured public Telegram and VK accounts.
-Social posts are discovered through Google News indexing, not by reading
-private or complete social feeds, so coverage is not guaranteed. The Ilken
+Public Telegram channels in the source list are also read directly from their
+public web previews, in addition to Google News discovery. Configured VK walls
+are read directly through the official API when the optional `VK_ACCESS_TOKEN`
+GitHub Actions secret is set; without it, VK coverage uses Google News indexing
+and is not guaranteed. Private posts are never read. The Ilken
 Evenki-language category is searched separately and its category RSS is
 checked directly. The public «Арун» news archive is scanned directly as well:
 all dated posts from the last 30 days are added once, so headlines without an
@@ -40,6 +43,9 @@ Repository prerequisites:
 - The bot added to the channel as an administrator with permission to post.
 - The public channel username `@taiga_thread` set in
   `.github/workflows/telegram-news.yml`.
+- Optional GitHub Actions secret `VK_ACCESS_TOKEN` for direct reading of public
+  VK walls in the configured source list. Google News indexed search continues
+  without this token.
 
 After committing and pushing the workflow to the repository's default branch,
 enable Actions for the repository. Run it manually from the Actions tab with
