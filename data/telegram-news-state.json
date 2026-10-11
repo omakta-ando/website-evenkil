@@ -50,7 +50,10 @@
     "https://t.me/evenkya_life/12660": "2026-10-09T23:29+04:00",
     "CBMiREFVX3lxTE9hNGRyaHpjNTMyRE91WUZZQlYzb2pFWEdUaWY1elowVEMzYlpOYW56QzVCTVgwZVJNdGd6UFZSWm5pZUt5": "2026-10-10T14:04+04:00",
     "CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN": "2026-10-10T14:04+04:00",
-    "https://t.me/evenkya_life/12678": "2026-10-11T09:37+04:00"
+    "https://t.me/evenkya_life/12678": "2026-10-11T09:37+04:00",
+    "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/": "2026-10-11T23:26+04:00",
+    "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/": "2026-10-11T23:26+04:00",
+    "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/": "2026-10-11T23:26+04:00"
   },
   "daily": {
     "2026-10-04": [],
@@ -151,48 +154,49 @@
         "image": "https://cdn4.telesco.pe/file/SvkLN8kxU1yKW5-bM2VcgX5tBDlKK5dZoGdd5ku6Zp8Kbr-ShwA2IFqqytGnexLi7SKX4NQLpavJBCTDKZTHUPA8xjuUFOGIPlcks8S-Wg_cI5gZOlsBq_LKUguI4ZdJGkYddbLhMZlrJ92eW4GTboHBpxzHm_5vkYR35_r1eg4PB1uwg420-IHsn_zUmHzKHRi4L18xiDtc2R64EBJppwI584yty4uWQICNcQtaEo6KLsHIzlKrnEAIRs5jEgMsjgsrCJHIgoB28tkkbWHqUX7Obf7esnaafOaUDw4EmZgM6RMI10ZFnoyija2sTqwkfifC_Ygo5Q-zKx0j8hZgfQ.jpg",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
+        "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
+        "published": "2026-10-10T00:00+04:00",
+        "day": "2026-10-10",
+        "description": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "relevance": "direct",
+        "siteEligible": "1"
+      }
+    ],
+    "2026-10-11": [
+      {
+        "id": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
+        "title": "Бакалдын — праздник встречи, который вернул меня в детство",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
+        "published": "2026-10-11T00:00+04:00",
+        "day": "2026-10-11",
+        "description": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "relevance": "direct",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
+        "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
+        "published": "2026-10-11T00:00+04:00",
+        "day": "2026-10-11",
+        "description": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "relevance": "direct",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
-      "title": "Бакалдын — праздник встречи, который вернул меня в детство",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/",
-      "published": "2026-10-11T00:00+04:00",
-      "day": "2026-10-11",
-      "description": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
-      "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/",
-      "published": "2026-10-11T00:00+04:00",
-      "day": "2026-10-11",
-      "description": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
-      "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/",
-      "published": "2026-10-10T00:00+04:00",
-      "day": "2026-10-10",
-      "description": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "relevance": "direct",
-      "siteEligible": "1"
-    }
-  ]
+  "pendingTelegram": []
 }
