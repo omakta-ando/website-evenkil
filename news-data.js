@@ -1,5 +1,15 @@
 window.newsStories=[
   {
+    "region": "Общие новости",
+    "date": "2026-10-11",
+    "source": "Илкэн · Улгур",
+    "title": "Бакалдын — праздник встречи, который вернул меня в детство",
+    "desc": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-10",
     "source": "Эвенкийская жизнь · Telegram",
@@ -48,16 +58,6 @@ window.newsStories=[
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
-  },
-  {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-07",
-    "source": "Илкэн · Улгур",
-    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
-    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Якутия",
@@ -348,6 +348,16 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-11",
+    "source": "Илкэн · Улгур",
+    "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
+    "desc": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-09",
     "source": "Эвенкийская жизнь · Telegram",
@@ -384,16 +394,6 @@ window.newsStories=[
     "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
     "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
-  },
-  {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-01",
-    "source": "Илкэн · Улгур",
-    "title": "Северды полюс амарду, Оймякон дюлэду",
-    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Забайкальский край",
@@ -469,6 +469,16 @@ window.newsStories=[
     "link": "https://sakh.online/news/18/2026-08-27/na-poberezhie-zaliva-chayvo-proshyol-prazdnik-olenevodov-kurey-2026-524421"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-10",
+    "source": "Илкэн · Улгур",
+    "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
+    "desc": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-09",
     "source": "Эвенкийская жизнь · Telegram",
@@ -497,16 +507,6 @@ window.newsStories=[
     "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-09-25",
-    "source": "Илкэн · Улгур",
-    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
-    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-10-02",
     "source": "Indigenous Russia",
@@ -523,6 +523,16 @@ window.newsStories=[
     "desc": "После происшествия с санитарным вертолётом в районе Байкита пострадавших доставили в краевой центр; их состояние оценили как стабильное.",
     "tags": "эвенкия красноярский край санавиация",
     "link": "https://www.vesti-krasnoyarsk.ru/news/proisshestviya/post-61696/"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-07",
+    "source": "Илкэн · Улгур",
+    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
+    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Красноярский край",
@@ -545,13 +555,13 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-16",
+    "date": "2026-10-01",
     "source": "Илкэн · Улгур",
-    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
-    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
+    "title": "Северды полюс амарду, Оймякон дюлэду",
+    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Красноярский край",
@@ -573,6 +583,16 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
   },
   {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-25",
+    "source": "Илкэн · Улгур",
+    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
+    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
@@ -590,6 +610,16 @@ window.newsStories=[
     "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-16",
+    "source": "Илкэн · Улгур",
+    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
+    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
   },
   {
     "region": "Красноярский край",
