@@ -1,6 +1,6 @@
 window.newsStories=[
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
     "title": "Бакалдын — праздник встречи, который вернул меня в детство",
@@ -69,16 +69,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-08",
-    "source": "finance.sina.com.cn",
-    "title": "深夜面馆斗殴滋事，两人被依法被行政拘留|中华人民共和国治安管理处罚法|鄂温克族自治旗|违法行为|内蒙古自治区|公安局 - finance.sina.com.cn",
-    "desc": "深夜面馆斗殴滋事，两人被依法被行政拘留|中华人民共和国治安管理处罚法|鄂温克族自治旗|违法行为|内蒙古自治区|公安局 finance.sina.com.cn",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY3FPd3Zqa25QYXN3QktDM1pxUnp3UlpSdVZHOWZ4SEwzbmFrWjJqalotMnI2dDhpa3FRR3ZCeTVRRUc0ZUM4dHFiYUpfc0dvbXpad1FiUWlFOTNiVWZTbVFNNGlpOE00TnppZ2JYR09ZWFk1X2NqQ1VmLWYxM0tPbV9oYzU5b3N6c0k3cndPVWphTTNMZXlOdA?oc=5"
   },
   {
     "region": "Общие новости",
@@ -168,26 +158,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM1dnWC0wUE5xVHcwUDVKTi01UFpCYXVZRU91WXhrcDhtblFzc0ZtLVJhQUFJeW5hSU56M25Ua2lxZkdMblN0WFFjS1Y0aTc5aWkycWZpQ20wSjIxb21wTVJ3OTlzem1rbTRHOXprSU11RjU5VXRhYmJfUUtzVzdqMjhHNi1LaDhBY3BlMEpMdElCaWdtdVFnNDkyZ0tXNC03RWlvSnZTMUY3Z25hOUVxOFRKT2dnYk9RdXZv?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-05",
-    "source": "Sohu",
-    "title": "内蒙古呼伦贝尔市鄂伦春旗发生3.1级地震，震源深度10千米 - Sohu",
-    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生3.1级地震，震源深度10千米 Sohu",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdmh4UHp5c0d2cEFQYllueXJPYmJkdDRrTFl5SFZPbE4xVmdPN1JGbWQ0VUc1R1JGdkxubklUT2Z3VzJ4WGVFVlhpdXNWTmxKN0hVREgwTnBrQ1A4bVFXTEVrSjUwZWpFb2R0WU52UDhfTWRHZXU2RV81bnBtSS01UFlWWUdiWU9Q?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-05",
-    "source": "凤凰网",
-    "title": "内蒙古呼伦贝尔市鄂伦春旗发生地震 - 凤凰网",
-    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生地震 凤凰网",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pTnUwa3NSWlBMX2g4b01MTEE1WElwTUt0WHhualpmbEp2a2hldU52Zkx2NHNKNFZ0V1VLT19VR05PVWFtVWtuSw?oc=5"
   },
   {
     "region": "Красноярский край",
@@ -536,16 +506,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwZ2FEZk54SFZKb3BRa3NZWkFBWFY0Q3BnY3FJZ19uRThBQ2dLQnRlcC1ZQkFuUFFsWENIcjBXbk9WcjNoX0xhVThKaFhtdEQtbENBRmpIMNIBXEFVX3lxTE50aGZGX2E4YXNQX1pScHNEMGo4WEhGX3NmY2tZenhlaGdoazhUOEVSQUI3VUd0RnMtQW41aUdoSDFydG9nbGFpamlhY21lZlBUMVRNZExoVDNOTW1j?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-05",
-    "source": "凤凰网",
-    "title": "呼伦贝尔市鄂伦春旗发生3.1级地震 - 凤凰网",
-    "desc": "呼伦贝尔市鄂伦春旗发生3.1级地震 凤凰网",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53VHNkLUxmeElIN1Bnd1FuVzA5b3FCZFN2YlB4SmtkRVJGTi1ocVhrcTBZT053UUtReURPQVY0LUVjbG1sTkdqTw?oc=5"
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-09-07",
     "source": "НКК",
@@ -655,16 +615,6 @@ window.newsStories=[
     "tags": "эвенки забайкальский край эвенкийский язык обучение дети чита",
     "link": "https://indigenous-russia.com/archives/50618",
     "image": ""
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-05",
-    "source": "新浪财经",
-    "title": "内蒙古呼伦贝尔市鄂伦春旗发生地震 - 新浪财经",
-    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生地震 新浪财经",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxQUnVpX21HZjAwNWYxNkwtSXRHOGVNdjI0QzVDZ2FRSkNUeURUTzRoME1GQ3V0a3AxTDY2QlZ6NWd2c2xrSmluUDVRQjFXLUdNOVo4XzhKaWN4b3UyVU9ZTmNYRXRfRUJ2eXliSTk5X0pNUUZwcHFPUG1CbDdEWVVxNmhwV3liU3ktVlVyQi1SejFHcldVLVpzbnlaREFDRi1yaXo3d053amtTaEo3U0R6SHZIaXNhR0RKZjhrU1daMmxDeV9aejdwNUlic2M0cjlrTmE2VGFFSXl5d3ZQZWhLdmN3WGIyY3FmSXVEaHdGczdJMjlDVGFHbThndzJqOEFENzBiOUEzb1lIVUU3SVM2b0dTZk5SeXk4UmRQTGUyeFhHUkJTSk45LUxZX1p4dzRvQ080LXhGM2I1VVF3cHNpQW10VU9kRF9LM0Z5NFlrY3Z2dmNYSEd5Q3NxdjZnbk42YkFHSDJuanNWRm1oNjB4WG9lX0FhdEdzbmR4ZjJXZmxaeTFLbUltWjhEQ2VaMUFyM3p1N2hmOXU5bGpZMU81b1VTb3BGTk50cFBaWUZYdkFoZFVoeHZjbDdHOFRQQWVocGlyTWxhdGhIRGFJZ3NmOFZEOVN0aEJWbGFxVmdJOXlJdw?oc=5"
   },
   {
     "region": "Красноярский край",

@@ -72,6 +72,12 @@ EDITORIAL_RELEVANCE_URLS = {
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa",
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns",
 }
+EDITORIAL_REGION_BY_URL = {
+    "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
+}
+EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
+CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
+CHINESE_RELEVANCE_CONTEXT_RE = re.compile(r"文化|传统|語言|语言|民俗|民族|生活|经济|經濟|牧业|牧業|狩猎|狩獵|驯鹿|馴鹿|放牧|非遗|非遺|节庆|節慶|手工艺|手工藝|舞蹈|歌曲|历史|歷史|教育")
 EXCLUDED_STORY_URLS = {
     "https://t.me/biraria/4194",
     'https://t.me/EAOMedia/47585',
@@ -90,7 +96,18 @@ def story_text(item: dict[str, object]) -> str:
 
 
 def is_excluded_story(item: dict[str, object]) -> bool:
-    return str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS or bool(EXCLUDED_TOPIC_RE.search(story_text(item)))
+    text = story_text(item)
+    chinese_place_only = (
+        bool(EAST_ASIAN_SCRIPT_RE.search(text))
+        and bool(CHINESE_ADMIN_PLACE_RE.search(text))
+        and not EVENKI_MENTION_RE.search(CHINESE_ADMIN_PLACE_RE.sub("", text))
+        and not CHINESE_RELEVANCE_CONTEXT_RE.search(text)
+    )
+    return (
+        str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS
+        or bool(EXCLUDED_TOPIC_RE.search(text))
+        or chinese_place_only
+    )
 
 
 def is_evenki_related(item: dict[str, object]) -> bool:
@@ -105,6 +122,16 @@ def story_relevance(item: dict[str, object]) -> str | None:
     if CONTEXT_TOPIC_RE.search(text) and CONTEXT_SCOPE_RE.search(text):
         return "context"
     return None
+
+
+def story_region(item: dict[str, object], default: str) -> str:
+    """Return the story's subject region when the source feed did not provide it."""
+    url = str(item.get("url", item.get("link", ""))).rstrip("/")
+    if url in EDITORIAL_REGION_BY_URL:
+        return EDITORIAL_REGION_BY_URL[url]
+    if EAST_ASIAN_SCRIPT_RE.search(story_text(item)):
+        return "Зарубежные источники"
+    return str(item.get("region") or default)
 
 
 def source_key(item: dict[str, object]) -> str:
@@ -980,7 +1007,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         relevance = story_relevance(item)
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
         stories.append({
-            "region": item.get("region") or category,
+            "region": story_region(item, category),
             "date": item["day"], "source": item["source"],
             "title": item["title"],
             "desc": (item.get("description") or ("Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ." if relevance == "context" else "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ."))[:420],
