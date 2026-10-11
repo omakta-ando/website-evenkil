@@ -502,76 +502,73 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
 
 
 class IlkenCategoryParser(HTMLParser):
-    """Extract article cards from the visible WordPress category archive."""
+    """Extract dated article links and nearby excerpts from Ilken archives."""
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.cards: list[dict[str, object]] = []
-        self._card_depth = 0
         self._card: dict[str, object] | None = None
-        self._anchors: list[str] = []
-        self._title_depth = 0
+        self._anchor_depth = 0
         self._description_depth = 0
+        self._description_done = False
 
     def parse(self, document: str) -> list[dict[str, object]]:
         self.feed(document)
+        self._finish_card()
+        unique: dict[str, dict[str, object]] = {}
+        for card in self.cards:
+            url = str(card.get("url", ""))
+            if not ilken_permalink_date(url):
+                continue
+            entry = unique.setdefault(url, {"url": url, "title": "", "description": ""})
+            for key in ("title", "description"):
+                value = clean(str(card.get(key, "")))
+                if value and (key == "title" or not entry.get(key)):
+                    entry[key] = value
         return [
-            {
-                **card,
-                "title": clean(str(card.get("title", ""))),
-                "description": clean(str(card.get("description", ""))),
-                "published": published,
-            }
-            for card in self.cards
-            if (published := ilken_permalink_date(str(card.get("url", "")))) is not None
-            and card.get("title") and str(card.get("url", "")).startswith("https://ilken.ru/")
+            {**card, "published": ilken_permalink_date(str(card["url"]))}
+            for card in unique.values()
+            if card.get("title") and ilken_permalink_date(str(card["url"])) is not None
         ]
+
+    def _finish_card(self) -> None:
+        if self._card is not None:
+            self.cards.append(self._card)
+            self._card = None
+        self._anchor_depth = 0
+        self._description_depth = 0
+        self._description_done = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attributes = dict(attrs)
-        classes = set((attributes.get("class") or "").split())
-        if tag == "div" and self._card is None and "grid_post_content" in classes:
-            self._card_depth = 1
-            self._card = {"url": "", "title": "", "description": ""}
-            self._anchors = []
-            return
-        if self._card is None:
-            return
-        if tag == "div":
-            self._card_depth += 1
         if tag == "a":
-            self._anchors.append(attributes.get("href") or "")
-        if tag == "h4" and "b_title" in classes:
-            self._title_depth = 1
-            self._card["url"] = self._anchors[-1] if self._anchors else ""
-        elif self._title_depth and tag == "h4":
-            self._title_depth += 1
-        if tag == "p":
+            href = attributes.get("href") or ""
+            if ilken_permalink_date(href):
+                self._finish_card()
+                self._card = {"url": href, "title": "", "description": ""}
+                self._anchor_depth = 1
+                return
+            if self._anchor_depth:
+                self._anchor_depth += 1
+        elif self._card is not None and not self._anchor_depth and not self._description_done and tag == "p":
             self._description_depth = 1
         elif self._description_depth and tag == "p":
             self._description_depth += 1
 
     def handle_endtag(self, tag: str) -> None:
-        if self._card is None:
-            return
-        if tag == "h4" and self._title_depth:
-            self._title_depth -= 1
-        if tag == "p" and self._description_depth:
+        if tag == "a" and self._anchor_depth:
+            self._anchor_depth -= 1
+        elif tag == "p" and self._description_depth:
             self._description_depth -= 1
-        if tag == "a" and self._anchors:
-            self._anchors.pop()
-        if tag == "div":
-            self._card_depth -= 1
-            if self._card_depth == 0:
-                self.cards.append(self._card)
-                self._card = None
+            if not self._description_depth:
+                self._description_done = True
 
     def handle_data(self, data: str) -> None:
         if self._card is None:
             return
-        if self._title_depth:
+        if self._anchor_depth:
             self._card["title"] = str(self._card["title"]) + data
-        if self._description_depth:
+        elif self._description_depth:
             self._card["description"] = str(self._card["description"]) + data
 
 
