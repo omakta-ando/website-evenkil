@@ -50,15 +50,14 @@ window.newsStories=[
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-10-07",
     "source": "Илкэн · Улгур",
     "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
     "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Якутия",
@@ -387,15 +386,14 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-10-01",
     "source": "Илкэн · Улгур",
     "title": "Северды полюс амарду, Оймякон дюлэду",
     "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Забайкальский край",
@@ -499,14 +497,14 @@ window.newsStories=[
     "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-09-25",
     "source": "Илкэн · Улгур",
     "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
-    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Хайыр",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/",
-    "languageNews": true
+    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
   },
   {
     "region": "Красноярский край",
@@ -546,14 +544,14 @@ window.newsStories=[
     "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-09-16",
     "source": "Илкэн · Улгур",
     "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
-    "desc": "Материал опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Якутия",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/",
-    "languageNews": true
+    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
   },
   {
     "region": "Красноярский край",
@@ -575,16 +573,6 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
   },
   {
-    "region": "Якутия",
-    "date": "2026-09-09",
-    "source": "Илкэн · Улгур",
-    "title": "Опоран мутӈи дюлэски. Он бэлэгэн ЗАО «Прогноз» общинаду «Гухуби» орорво иргичинду бэлэтчэрэн",
-    "desc": "Материал о поддержке оленеводческой общины опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн оленеводство",
-    "link": "https://ilken.ru/evenki/2026/09/09/opora-dlya-nashego-budushhego-kak-podderzhka-zao-prognoz-pomogaet-razvivat-olenevodstvo-v-obshhine-guhubi/",
-    "languageNews": true
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
@@ -602,16 +590,6 @@ window.newsStories=[
     "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-09-08",
-    "source": "Илкэн · Улгур",
-    "title": "Этэечимнил Олекмадук эгдэнни орорво Китайдула итыгавдяра",
-    "desc": "Материал о подготовке оленеводов к экспорту животных в Китай опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн оленеводство",
-    "link": "https://ilken.ru/evenki/2026/09/08/olekminskie-olenevody-gotovyatsya-k-eksportu-tayozhnyh-olenej-v-kitaj-veterinarnaya-podgotovka/",
-    "languageNews": true
   },
   {
     "region": "Красноярский край",
@@ -633,16 +611,6 @@ window.newsStories=[
     "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
   },
   {
-    "region": "Якутия",
-    "date": "2026-08-23",
-    "source": "Илкэн · Улгур",
-    "title": "Международнай фестивальду тадук «Кубкаду Россия тэгэл умунупкитту» севердыду кэтэ ӈорчаӈкитту Якутиян ге местован гачан",
-    "desc": "Материал о выступлении сборной Якутии на международном фестивале опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Якутия фестиваль",
-    "link": "https://ilken.ru/evenki/2026/08/23/na-mezhdunarodnom-festivale-i-kubke-edinstva-narodov-rossii-po-severnomu-mnogoboryu-komanda-yakutii-zanyala-vtoroe-mesto/",
-    "languageNews": true
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
@@ -660,16 +628,6 @@ window.newsStories=[
     "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-08-18",
-    "source": "Илкэн · Улгур",
-    "title": "МУП «Булунское» омактава модульнайва цехва оллово доӈотолва ничэл",
-    "desc": "Материал о новом цехе по заморозке рыбы опубликован на эвенкийском языке. Читайте оригинал на сайте Илкэн.",
-    "tags": "эвенки эвенкийский язык илкэн Бурятия",
-    "link": "https://ilken.ru/evenki/2026/08/18/mup-bulunskoe-otkrylo-novyj-modulnyj-czeh-po-zamorozke-ryby/",
-    "languageNews": true
   },
   {
     "region": "Красноярский край",
