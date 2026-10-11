@@ -653,7 +653,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Бурятия",
     "date": "2026-09-03",
     "source": "Центр эвенкийской культуры «Арун»",
     "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
