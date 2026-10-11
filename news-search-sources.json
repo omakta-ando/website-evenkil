@@ -261,16 +261,6 @@
       "label": "ТайгаПост · Telegram",
       "url": "https://t.me/taigapost",
       "googleNewsSite": "t.me/taigapost"
-    },
-    {
-      "id": "anatoly-lee-gi-youtube",
-      "label": "Анатолий Ли · YouTube",
-      "url": "https://www.youtube.com/@anatolyleegi"
-    },
-    {
-      "id": "dnevnik-evenka-youtube",
-      "label": "Дневник эвенка · YouTube",
-      "url": "https://www.youtube.com/@dnevnik_evenka"
     }
   ],
   "directFeeds": [
