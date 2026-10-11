@@ -10,6 +10,16 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-11",
+    "source": "YakutiaMedia",
+    "title": "Якутия в фокусе: северный завоз под угрозой, бензин в пути, скандал в Алдане - YakutiaMedia",
+    "desc": "Якутия в фокусе: северный завоз под угрозой, бензин в пути, скандал в Алдане YakutiaMedia",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1SYlJVMUpDS2lDRUZFdXJUcWhWd0NaZEY1RHlXc1RHZktELTVSSTdkUTYtcHZsVHdaLVNiLXFWVmUwOXpxMU1HbGR1UFQ1dw?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-10",
     "source": "Эвенкийская жизнь · Telegram",
@@ -41,6 +51,16 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Вместе-РФ",
+    "title": "Северный завоз успешно завершается в 19 регионах - Вместе-РФ",
+    "desc": "Северный завоз успешно завершается в 19 регионах Вместе-РФ",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeEdxM0kxRnNRZGp6cmhyc2VTV3hpSVVfTW5SSjVJdTRDdjZWZk9UZEVvWW1jdm1HcERzQ0dfaGxWNG81RnNRZ0lnVEFJaFBLYVpLVHRjOHJ2clAtbkJfTjVSZ19kTkZDWkJFZjdNVmxTSGNHYUpraWNJV0ZjVVRvbVdNTTh3Zw?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-08",
     "source": "Российская газета",
@@ -51,6 +71,36 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "finance.sina.com.cn",
+    "title": "深夜面馆斗殴滋事，两人被依法被行政拘留|中华人民共和国治安管理处罚法|鄂温克族自治旗|违法行为|内蒙古自治区|公安局 - finance.sina.com.cn",
+    "desc": "深夜面馆斗殴滋事，两人被依法被行政拘留|中华人民共和国治安管理处罚法|鄂温克族自治旗|违法行为|内蒙古自治区|公安局 finance.sina.com.cn",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY3FPd3Zqa25QYXN3QktDM1pxUnp3UlpSdVZHOWZ4SEwzbmFrWjJqalotMnI2dDhpa3FRR3ZCeTVRRUc0ZUM4dHFiYUpfc0dvbXpad1FiUWlFOTNiVWZTbVFNNGlpOE00TnppZ2JYR09ZWFk1X2NqQ1VmLWYxM0tPbV9oYzU5b3N6c0k3cndPVWphTTNMZXlOdA?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Рамблер",
+    "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Рамблер",
+    "desc": "Власти Красноярского края ускорили доставку продуктов в Эвенкию Рамблер",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSm43ajdvY3pJc1lxaXhFRUI4UGE2ZG9TM24yMmtlN0VTR3lfWlZjN1VJZ09Bb0M2UWZwQUN6RGNNMnNCQjM2Wndqb1ZBTGtraWNYcWlvZnNVWThYdHV3V2pQa0tBenRCSkRKc205TjU4SnRxczAtS0ZVX0pjUW5td05Sa2Q1WmNLYjQzTFhUdkJZTlgxeUpRa3VEdnRnQlJhcEp5Z1BLMnpiSktPLTln0gG0AUFVX3lxTFBHM2FsNzZKQkp0anN3WE9YbDd3S0xMT3Z4SmRWZWNncHlLaEdZNFVncXQ1U3AtOWEtZHpYNkF0SGhSNEkxR3Q0cWE5NVVNbU5zM0hMUEpmbHBwQW5CVE91Vllrd29RdTd2bndzaFBMR1R6Z0hpN3VGYmtIa3dwN081YXExQVRoRHFJQmd5MGR5YlJXdVVWb3B1TEY4TUFnR2xYbGN5cFpHRE5CX1ZId1p0SjdkWA?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Культура 75",
+    "title": "Съездить на экскурсию в дацан и узнать о моде эвенков. Как отпразднуют 18-летие Забайкалья 1 марта в Чите? - Культура 75",
+    "desc": "Съездить на экскурсию в дацан и узнать о моде эвенков. Как отпразднуют 18-летие Забайкалья 1 марта в Чите? Культура 75",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXBRVGYzOWsxeFpBb2tpSzNDYTBiWWI1RHc0UVpYMm01eGxfYmtFNkpPNU05QnFjSFdnN19CODZ4cGhsS1UzbW9vb2UybkplZm5qVU0yTE1vYnhVRTJSeEx1S1RCcWZ1WmJIZlpXWjJnQnNLNHVUSE52eTdBN0VIcTFIS2s?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -58,6 +108,16 @@ window.newsStories=[
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-07",
+    "source": "Интерфакс Россия",
+    "title": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке - Интерфакс Россия",
+    "desc": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке Интерфакс Россия",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0E3b0FQU1J0ZXJBUVdDU2tzekx6cWI5Sm1YdFdrSGZpSzNiSC1qb2h3aVQtZDFLN2JXTFJaRS1sVTg1MWxEd2NrakdrTjlPU2pBWGFDcldoTXZpSjJFNmdBX0d0WW5GRFFHenhFcGdsUEJURVpOTUxHT0FObkR2V2ZxaGZnd1ZTRllOd1kwUVRxc1N4bkhveXNDMF9TMXZXMVhsUFROYk01eXBuWWtWbg?oc=5"
   },
   {
     "region": "Якутия",
@@ -71,6 +131,16 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
+    "date": "2026-10-06",
+    "source": "EAOMedia",
+    "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" - EAOMedia",
+    "desc": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" EAOMedia",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5RQWtfd1BBRTFZdERveE9NX0FiZF9Wa3ktek4xLW5JazhYNVZLYXBoTS1EYTRtd0J3dDRxS2hfR3dpVHVzUmZNSg?oc=5"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-05",
     "source": "Indigenous Russia",
     "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра",
@@ -78,6 +148,46 @@ window.newsStories=[
     "tags": "эвенки история культура литература Китай",
     "link": "https://indigenous-russia.com/archives/50623",
     "image": "https://indigenous-russia.com/wp-content/uploads/2026/10/signal-2026-10-03-22-20-27-200.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "YouTube",
+    "title": "Песня о маленьком человеке на эвенкийском языке #indigenous - YouTube",
+    "desc": "Песня о маленьком человеке на эвенкийском языке #indigenous YouTube",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HY2IzbmtFWEI2NkFMOVJtaXNUQkp5UjR4ajBYbXEyWnY3aW43RFJTeWdOSk1mRHg3QlVVTmE1WlUxVV8zYnVIbTQ4VmdxbjdvMDdtdWtB?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "Dairy News",
+    "title": "Хабаровский край расширил программу субсидируемой авиадоставки продуктов - Dairy News",
+    "desc": "Хабаровский край расширил программу субсидируемой авиадоставки продуктов Dairy News",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM1dnWC0wUE5xVHcwUDVKTi01UFpCYXVZRU91WXhrcDhtblFzc0ZtLVJhQUFJeW5hSU56M25Ua2lxZkdMblN0WFFjS1Y0aTc5aWkycWZpQ20wSjIxb21wTVJ3OTlzem1rbTRHOXprSU11RjU5VXRhYmJfUUtzVzdqMjhHNi1LaDhBY3BlMEpMdElCaWdtdVFnNDkyZ0tXNC03RWlvSnZTMUY3Z25hOUVxOFRKT2dnYk9RdXZv?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "Sohu",
+    "title": "内蒙古呼伦贝尔市鄂伦春旗发生3.1级地震，震源深度10千米 - Sohu",
+    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生3.1级地震，震源深度10千米 Sohu",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdmh4UHp5c0d2cEFQYllueXJPYmJkdDRrTFl5SFZPbE4xVmdPN1JGbWQ0VUc1R1JGdkxubklUT2Z3VzJ4WGVFVlhpdXNWTmxKN0hVREgwTnBrQ1A4bVFXTEVrSjUwZWpFb2R0WU52UDhfTWRHZXU2RV81bnBtSS01UFlWWUdiWU9Q?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "凤凰网",
+    "title": "内蒙古呼伦贝尔市鄂伦春旗发生地震 - 凤凰网",
+    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生地震 凤凰网",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pTnUwa3NSWlBMX2g4b01MTEE1WElwTUt0WHhualpmbEp2a2hldU52Zkx2NHNKNFZ0V1VLT19VR05PVWFtVWtuSw?oc=5"
   },
   {
     "region": "Красноярский край",
@@ -358,6 +468,16 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-10",
+    "source": "YakutiaMedia",
+    "title": "Север ждет: власти Якутии ускоряют доставку овощей и топлива по рекам - YakutiaMedia",
+    "desc": "Север ждет: власти Якутии ускоряют доставку овощей и топлива по рекам YakutiaMedia",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03Ujd5OXZqN0hfOENnY3FuajNSME1Rd2FpLWJRQnZFdFY1S2JvZXlzaGIzUGRtWUN0MFhMVDNqWlZ1YXl4Qk1JYVBrXzdRdw?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-09",
     "source": "Эвенкийская жизнь · Telegram",
@@ -387,6 +507,16 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-06",
+    "source": "Рамблер",
+    "title": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов - Рамблер",
+    "desc": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов Рамблер",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR1FyOHo1UnBqWFU0NWJ5U05GRm1uZ3ZrQ0c4MWdFODEyVTNrS3c5ckcxOXRvZ1QycGpjbDJJWklOV1ZxdXZzdV9aLWFQZ0czVXpWR0lMQk0wWmJsbktmZm5ucElGSWQ0emVaOU5PRG1wdFpURFhPTEk4SGNKbUhSTjRadGJ1cjdYbVB5N1g2Q252R3QzMDBZQ0ZIYkFtTmFHUnAwSGM4NkF4M0l5emtvUm0teVpxV2lieThRUFU4VE0zdFhId0o4bnVWNNIB0AFBVV95cUxPOWJVUHk1YjVmUFBFbEc1aVFLXzBadG1pdGhIRVVsS19wQWR0MEVWc0M3UVlQMjRqdHc2cFJlQ1FzN19qaWo0eVdMb2hWTEZ1RUVjZ3c5dWZEODNvMzV6SmFnVTZIWG9nOUNpYWJGZG9iWk5GeV9pMi1lV0MwMFZCNHBKTFlfaWt3cktBanRWX2tUOGxzdHV0NmswTFBBTFZieW14UzZHQWdRemJlcGRkdDRKeGdoa1ZLOFZkdW1JZEVGVU9rdUVmdXFEWXdpSU5L?oc=5"
+  },
+  {
     "region": "Бурятия",
     "date": "2026-09-29",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -396,14 +526,24 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-10-03",
+    "region": "Общие новости",
+    "date": "2026-10-05",
     "source": "Indigenous Russia",
-    "title": "В Забайкалье расширят обучение детей эвенкийскому языку",
-    "desc": "Учителей эвенкийского языка планируют подготовить в трёх районах края; детям в Чите хотят дать возможность изучать язык. В Каларском районе занятия пока не идут из-за отсутствия учителя и помещения. В Чите около 35 детей школьного возраста из эвенкийских семей, родители которых заинтересованы в обучении.",
-    "tags": "эвенки забайкальский край эвенкийский язык обучение дети чита",
-    "link": "https://indigenous-russia.com/archives/50618",
-    "image": ""
+    "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра - Indigenous Russia",
+    "desc": "«Последняя четверть луны»: история эвенков, рассказанная у костра Indigenous Russia",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwZ2FEZk54SFZKb3BRa3NZWkFBWFY0Q3BnY3FJZ19uRThBQ2dLQnRlcC1ZQkFuUFFsWENIcjBXbk9WcjNoX0xhVThKaFhtdEQtbENBRmpIMNIBXEFVX3lxTE50aGZGX2E4YXNQX1pScHNEMGo4WEhGX3NmY2tZenhlaGdoazhUOEVSQUI3VUd0RnMtQW41aUdoSDFydG9nbGFpamlhY21lZlBUMVRNZExoVDNOTW1j?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "凤凰网",
+    "title": "呼伦贝尔市鄂伦春旗发生3.1级地震 - 凤凰网",
+    "desc": "呼伦贝尔市鄂伦春旗发生3.1级地震 凤凰网",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53VHNkLUxmeElIN1Bnd1FuVzA5b3FCZFN2YlB4SmtkRVJGTi1ocVhrcTBZT053UUtReURPQVY0LUVjbG1sTkdqTw?oc=5"
   },
   {
     "region": "Красноярский край",
@@ -507,13 +647,24 @@ window.newsStories=[
     "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-02",
+    "region": "Забайкальский край",
+    "date": "2026-10-03",
     "source": "Indigenous Russia",
-    "title": "Эвенкийские общины требуют почти 74 млн рублей за ущерб от нефтепровода",
-    "desc": "Общины «Мадра» и «Кунноир» требуют от «Транснефть — Восток» 73,84 млн рублей за ущерб традиционным угодьям от нефтепровода Куюмба — Тайшет. Суд также рассматривает методику расчёта ущерба.",
-    "tags": "эвенки эвенкия красноярский край общины мадра кунноир транснефть нефтепровод традиционное природопользование суд",
-    "link": "https://indigenous-russia.com/archives/50607"
+    "title": "В Забайкалье расширят обучение детей эвенкийскому языку",
+    "desc": "Учителей эвенкийского языка планируют подготовить в трёх районах края; детям в Чите хотят дать возможность изучать язык. В Каларском районе занятия пока не идут из-за отсутствия учителя и помещения. В Чите около 35 детей школьного возраста из эвенкийских семей, родители которых заинтересованы в обучении.",
+    "tags": "эвенки забайкальский край эвенкийский язык обучение дети чита",
+    "link": "https://indigenous-russia.com/archives/50618",
+    "image": ""
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-05",
+    "source": "新浪财经",
+    "title": "内蒙古呼伦贝尔市鄂伦春旗发生地震 - 新浪财经",
+    "desc": "内蒙古呼伦贝尔市鄂伦春旗发生地震 新浪财经",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxQUnVpX21HZjAwNWYxNkwtSXRHOGVNdjI0QzVDZ2FRSkNUeURUTzRoME1GQ3V0a3AxTDY2QlZ6NWd2c2xrSmluUDVRQjFXLUdNOVo4XzhKaWN4b3UyVU9ZTmNYRXRfRUJ2eXliSTk5X0pNUUZwcHFPUG1CbDdEWVVxNmhwV3liU3ktVlVyQi1SejFHcldVLVpzbnlaREFDRi1yaXo3d053amtTaEo3U0R6SHZIaXNhR0RKZjhrU1daMmxDeV9aejdwNUlic2M0cjlrTmE2VGFFSXl5d3ZQZWhLdmN3WGIyY3FmSXVEaHdGczdJMjlDVGFHbThndzJqOEFENzBiOUEzb1lIVUU3SVM2b0dTZk5SeXk4UmRQTGUyeFhHUkJTSk45LUxZX1p4dzRvQ080LXhGM2I1VVF3cHNpQW10VU9kRF9LM0Z5NFlrY3Z2dmNYSEd5Q3NxdjZnbk42YkFHSDJuanNWRm1oNjB4WG9lX0FhdEdzbmR4ZjJXZmxaeTFLbUltWjhEQ2VaMUFyM3p1N2hmOXU5bGpZMU81b1VTb3BGTk50cFBaWUZYdkFoZFVoeHZjbDdHOFRQQWVocGlyTWxhdGhIRGFJZ3NmOFZEOVN0aEJWbGFxVmdJOXlJdw?oc=5"
   },
   {
     "region": "Красноярский край",
@@ -552,6 +703,15 @@ window.newsStories=[
     "desc": "Видеоклип подготовил эвенкийский певец и композитор из Красноярского края Максим Дженкоуль",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-02",
+    "source": "Indigenous Russia",
+    "title": "Эвенкийские общины требуют почти 74 млн рублей за ущерб от нефтепровода",
+    "desc": "Общины «Мадра» и «Кунноир» требуют от «Транснефть — Восток» 73,84 млн рублей за ущерб традиционным угодьям от нефтепровода Куюмба — Тайшет. Суд также рассматривает методику расчёта ущерба.",
+    "tags": "эвенки эвенкия красноярский край общины мадра кунноир транснефть нефтепровод традиционное природопользование суд",
+    "link": "https://indigenous-russia.com/archives/50607"
   },
   {
     "region": "Новости на эвенкийском",
