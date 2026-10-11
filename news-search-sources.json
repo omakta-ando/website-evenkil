@@ -12,7 +12,7 @@
         {"label": "China News Service · 中国新闻网", "url": "https://www.chinanews.com.cn/", "domain": "chinanews.com.cn"},
         {"label": "Внутренняя Монголия · 内蒙古新闻网", "url": "https://www.nmgnews.com.cn/", "domain": "nmgnews.com.cn"}
       ],
-      "queries": ["鄂温克", "鄂温克族", "鄂伦春", "鄂伦春族", "敖鲁古雅"]
+      "queries": ["鄂温克", "鄂温克族", "使鹿鄂温克", "敖鲁古雅", "鄂温克语", "鄂伦春", "鄂伦春族", "鄂伦春语"]
     },
     {
       "country": "Монголия",
@@ -24,7 +24,7 @@
         {"label": "News.mn", "url": "https://news.mn/", "domain": "news.mn"},
         {"label": "Ikon.mn", "url": "https://ikon.mn/", "domain": "ikon.mn"}
       ],
-      "queries": ["хамниган", "хамнигад", "эвэнк", "эвэнки", "тунгус"]
+      "queries": ["хамниган", "хамнигад", "хамниган үндэстэн", "эвэнк", "эвэнки", "тунгус"]
     },
     {
       "country": "Япония",
@@ -35,7 +35,7 @@
         {"label": "Kyodo News · 共同通信", "url": "https://english.kyodonews.net/", "domain": "kyodonews.net"},
         {"label": "The Asahi Shimbun · 朝日新聞", "url": "https://www.asahi.com/", "domain": "asahi.com"}
       ],
-      "queries": ["エヴェンキ", "エヴェンキ族", "オロチョン", "ハムニガン"]
+      "queries": ["エヴェンキ", "エヴェンキ族", "オロチョン", "オロチョン族", "ハムニガン"]
     },
     {
       "country": "Корея",
@@ -46,7 +46,7 @@
         {"label": "KBS News · 한국방송공사", "url": "https://news.kbs.co.kr/", "domain": "kbs.co.kr"},
         {"label": "Arirang News", "url": "https://www.arirang.com/news", "domain": "arirang.com"}
       ],
-      "queries": ["에벤키", "에벤키족", "오로촌", "함니간"]
+      "queries": ["에벤키", "에벤키족", "오로촌", "오로촌족", "함니간"]
     }
   ],
   "domains": [
