@@ -428,7 +428,7 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
     "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
