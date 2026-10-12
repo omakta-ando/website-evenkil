@@ -204,16 +204,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXBRVGYzOWsxeFpBb2tpSzNDYTBiWWI1RHc0UVpYMm01eGxfYmtFNkpPNU05QnFjSFdnN19CODZ4cGhsS1UzbW9vb2UybkplZm5qVU0yTE1vYnhVRTJSeEx1S1RCcWZ1WmJIZlpXWjJnQnNLNHVUSE52eTdBN0VIcTFIS2s?oc=5"
   },
   {
-    "region": "Камчатский край",
-    "date": "2026-10-07",
-    "source": "Интерфакс Россия",
-    "title": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке - Интерфакс Россия",
-    "desc": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке Интерфакс Россия",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0E3b0FQU1J0ZXJBUVdDU2tzekx6cWI5Sm1YdFdrSGZpSzNiSC1qb2h3aVQtZDFLN2JXTFJaRS1sVTg1MWxEd2NrakdrTjlPU2pBWGFDcldoTXZpSjJFNmdBX0d0WW5GRFFHenhFcGdsUEJURVpOTUxHT0FObkR2V2ZxaGZnd1ZTRllOd1kwUVRxc1N4bkhveXNDMF9TMXZXMVhsUFROYk01eXBuWWtWbg?oc=5"
-  },
-  {
     "region": "Еврейская автономная область",
     "date": "2026-10-07",
     "source": "Livebir",
