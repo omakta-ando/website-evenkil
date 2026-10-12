@@ -103,6 +103,16 @@ window.newsStories=[
     "link": "https://ikon.mn/n/3qy0"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
+    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53765"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
@@ -207,16 +217,6 @@ window.newsStories=[
   {
     "region": "Якутия",
     "date": "2026-10-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
-    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53729"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-09",
     "source": "http://ulus.media/",
     "title": "«Счет идет на дни и часы»: премьер Якутии провел совещание по доставке грузов и топлива на Север - http://ulus.media/",
     "desc": "«Счет идет на дни и часы»: премьер Якутии провел совещание по доставке грузов и топлива на Север http://ulus.media/",
@@ -234,6 +234,16 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/EAOMedia/47729",
     "image": "https://cdn4.telesco.pe/file/ufmgP-aIu4oyx6hsPKgl1DBmrgeb8BOMI9eYZbFVT7aQga2JToGwYdRVE2cCP2qsxDTqpVVgAek9stj78W7RWUifggfrgKq40cUXsugLJbkUKls5Kp2GnkIDxTTOXLTI7_16QjqQJ6mAR2MNpuHoRXuYjq5xSuTcQy02awb6NM8pxOocJIS6cdn7P8z5XbNJ2TdB_Cks2BW30uIsqBA8eOtVNcCiyMpo5WqI1NQUmQ6nE65BFG9Kl_6ZPcGFe_h4djAhaZgrlWAVXL3gZBMwc3AlSCQsn0Pv_5d00ojeJU5DgICheYc9z_TwmubUFt538eXVYJAEa9feTmVyoBkXVg.jpg"
+  },
+  {
+    "region": "Еврейская автономная область",
+    "date": "2026-10-09",
+    "source": "eaomedia.ru",
+    "title": "Тушу косули и четыре единицы оружия изъяли у нарушителей правил охоты в ЕАО",
+    "desc": "В регионе подвели итоги выездных обследований охотничьих угодий в первом квартале 2026 года",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://eaomedia.ru/news/2646557"
   },
   {
     "region": "Красноярский край",
@@ -666,6 +676,16 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
+    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53738"
+  },
+  {
+    "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
     "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
@@ -858,6 +878,16 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR1FyOHo1UnBqWFU0NWJ5U05GRm1uZ3ZrQ0c4MWdFODEyVTNrS3c5ckcxOXRvZ1QycGpjbDJJWklOV1ZxdXZzdV9aLWFQZ0czVXpWR0lMQk0wWmJsbktmZm5ucElGSWQ0emVaOU5PRG1wdFpURFhPTEk4SGNKbUhSTjRadGJ1cjdYbVB5N1g2Q252R3QzMDBZQ0ZIYkFtTmFHUnAwSGM4NkF4M0l5emtvUm0teVpxV2lieThRUFU4VE0zdFhId0o4bnVWNNIB0AFBVV95cUxPOWJVUHk1YjVmUFBFbEc1aVFLXzBadG1pdGhIRVVsS19wQWR0MEVWc0M3UVlQMjRqdHc2cFJlQ1FzN19qaWo0eVdMb2hWTEZ1RUVjZ3c5dWZEODNvMzV6SmFnVTZIWG9nOUNpYWJGZG9iWk5GeV9pMi1lV0MwMFZCNHBKTFlfaWt3cktBanRWX2tUOGxzdHV0NmswTFBBTFZieW14UzZHQWdRemJlcGRkdDRKeGdoa1ZLOFZkdW1JZEVGVU9rdUVmdXFEWXdpSU5L?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
+    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53729"
   },
   {
     "region": "Якутия",
