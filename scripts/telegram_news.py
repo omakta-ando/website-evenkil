@@ -38,7 +38,7 @@ STATE_FILE = ROOT / "data" / "telegram-news-state.json"
 TZ = ZoneInfo("Asia/Tbilisi")
 RSS_URL = "https://news.google.com/rss/search"
 BOT_API = "https://api.telegram.org"
-LOOKBACK_HOURS = 72
+LOOKBACK_HOURS = 7 * 24
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
 
@@ -70,7 +70,18 @@ EXCLUDED_TOPIC_RE = re.compile(
     r"|\bфронт\w*|\bвоеннослужащ\w*|участник\w*\s+(?:сво|боев\w*)"
     r"|боев\w{0,15}\s+действ\w*|зон\w{0,5}\s+боев\w{0,15}\s+действ\w*"
     r"|путешеств\w*.{0,40}по\s+приамурью.{0,40}бирари\w*)", re.I)
-EDITORIAL_RELEVANCE_URLS = {"https://news.mail.ru/society/72275373"}
+EDITORIAL_RELEVANCE_URLS = {
+    "https://news.mail.ru/society/72275373",
+    "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo",
+    "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa",
+    "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns",
+}
+EDITORIAL_REGION_BY_URL = {
+    "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
+}
+EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
+CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
+CHINESE_RELEVANCE_CONTEXT_RE = re.compile(r"文化|传统|語言|语言|民俗|民族|生活|经济|經濟|牧业|牧業|狩猎|狩獵|驯鹿|馴鹿|放牧|非遗|非遺|节庆|節慶|手工艺|手工藝|舞蹈|歌曲|历史|歷史|教育")
 EXCLUDED_STORY_URLS = {
     "https://t.me/biraria/4194",
     'https://t.me/EAOMedia/47585',
@@ -89,7 +100,18 @@ def story_text(item: dict[str, object]) -> str:
 
 
 def is_excluded_story(item: dict[str, object]) -> bool:
-    return str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS or bool(EXCLUDED_TOPIC_RE.search(story_text(item)))
+    text = story_text(item)
+    chinese_place_only = (
+        bool(EAST_ASIAN_SCRIPT_RE.search(text))
+        and bool(CHINESE_ADMIN_PLACE_RE.search(text))
+        and not EVENKI_MENTION_RE.search(CHINESE_ADMIN_PLACE_RE.sub("", text))
+        and not CHINESE_RELEVANCE_CONTEXT_RE.search(text)
+    )
+    return (
+        str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS
+        or bool(EXCLUDED_TOPIC_RE.search(text))
+        or chinese_place_only
+    )
 
 
 def is_evenki_related(item: dict[str, object]) -> bool:
@@ -124,6 +146,16 @@ def story_relevance(item: dict[str, object]) -> str | None:
     if CONTEXT_TOPIC_RE.search(text) and CONTEXT_SCOPE_RE.search(text):
         return "context"
     return None
+
+
+def story_region(item: dict[str, object], default: str) -> str:
+    """Return the story's subject region when the source feed did not provide it."""
+    url = str(item.get("url", item.get("link", ""))).rstrip("/")
+    if url in EDITORIAL_REGION_BY_URL:
+        return EDITORIAL_REGION_BY_URL[url]
+    if EAST_ASIAN_SCRIPT_RE.search(story_text(item)):
+        return "Зарубежные источники"
+    return str(item.get("region") or default)
 
 
 def source_key(item: dict[str, object]) -> str:
@@ -460,8 +492,10 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 description = clean(node.findtext("description", ""))
                 link = clean(node.findtext("link", ""))
                 published = parse_date(node.findtext("pubDate", ""))
-                valid_link = link.startswith("https://ilken.ru/evenki/") if is_evenki_feed else (
-                    link.startswith("https://ilken.ru/") and "/evenki/" not in link
+                valid_link = (
+                    link.startswith("https://ilken.ru/evenki/")
+                    if is_evenki_feed
+                    else link.startswith("https://ilken.ru/") and "/evenki/" not in link
                 )
                 reason = ("missing_title" if not title else "invalid_url" if not valid_link else "invalid_date" if not published else
                           "outside_window" if published < feed_cutoff else "future_date" if published > now_local() + dt.timedelta(hours=6) else None)
@@ -491,20 +525,28 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
                     "Accept": "text/html,application/xhtml+xml",
                 }).decode("utf-8", errors="replace")
-                for story in IlkenCategoryParser().parse(page):
+                category_stories = IlkenCategoryParser().parse(page)
+                for story in category_stories:
                     published = story["published"]
-                    if published < cutoff or published > now_local() + dt.timedelta(hours=6):
-                        AUDIT.event(str(feed["id"]), "outside_window_or_future", str(story["url"]))
+                    reason = "outside_window" if published < feed_cutoff else "future_date" if published > now_local() + dt.timedelta(hours=6) else None
+                    if reason:
+                        AUDIT.event(str(feed["id"]), reason, str(story["url"]))
+                        continue
+                    item = {"title": story["title"], "description": story["description"], "url": story["url"]}
+                    if not is_evenki_feed and not is_evenki_related(item):
+                        AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
                         "day": published.date().isoformat(), "description": story["description"],
-                        "ilkenEvenki": "1",
+                        "ilkenEvenki": "1" if is_evenki_feed else "0",
+                        "configuredSource": "0" if is_evenki_feed else "1",
                     })
-                if found:
-                    print(f"Read {len(found)} recent stories from the Ilken category page.")
-            except (OSError, KeyError, ValueError) as error:
+                count = len(found) - feed_start
+                if count:
+                    print(f"Read {count} recent stories from the Ilken category page.")
+            except (OSError, urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
                 print(f"Warning: Ilken category page failed: {error}", file=sys.stderr)
 
         # Ilken's origin also blocks GitHub Actions from its public HTML page.
@@ -516,19 +558,27 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
                     "Accept": "text/plain",
                 }).decode("utf-8", errors="replace")
-                for story in parse_ilken_reader_markdown(markdown):
+                reader_stories = parse_ilken_reader_markdown(markdown)
+                for story in reader_stories:
                     published = story["published"]
-                    if published < cutoff or published > now_local() + dt.timedelta(hours=6):
-                        AUDIT.event(str(feed["id"]), "outside_window_or_future", str(story["url"]))
+                    reason = "outside_window" if published < feed_cutoff else "future_date" if published > now_local() + dt.timedelta(hours=6) else None
+                    if reason:
+                        AUDIT.event(str(feed["id"]), reason, str(story["url"]))
+                        continue
+                    item = {"title": story["title"], "description": story["description"], "url": story["url"]}
+                    if not is_evenki_feed and not is_evenki_related(item):
+                        AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
                         "day": published.date().isoformat(), "description": story["description"],
-                        "ilkenEvenki": "1",
+                        "ilkenEvenki": "1" if is_evenki_feed else "0",
+                        "configuredSource": "0" if is_evenki_feed else "1",
                     })
-                if found:
-                    print(f"Read {len(found)} recent stories from the Ilken category via Reader fallback.")
+                count = len(found) - feed_start
+                if count:
+                    print(f"Read {count} recent stories from the Ilken category via Reader fallback.")
                 else:
                     print("Warning: Reader fallback returned no recent Ilken category stories.", file=sys.stderr)
             except (OSError, KeyError, ValueError) as error:
@@ -537,81 +587,81 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
 
 
 class IlkenCategoryParser(HTMLParser):
-    """Extract article cards from the visible WordPress category archive."""
+    """Extract dated article links and nearby excerpts from Ilken archives."""
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.cards: list[dict[str, object]] = []
-        self._card_depth = 0
         self._card: dict[str, object] | None = None
-        self._anchors: list[str] = []
-        self._title_depth = 0
+        self._anchor_depth = 0
         self._description_depth = 0
+        self._description_done = False
 
     def parse(self, document: str) -> list[dict[str, object]]:
         self.feed(document)
+        self._finish_card()
+        unique: dict[str, dict[str, object]] = {}
+        for card in self.cards:
+            url = str(card.get("url", ""))
+            if not ilken_permalink_date(url):
+                continue
+            entry = unique.setdefault(url, {"url": url, "title": "", "description": ""})
+            for key in ("title", "description"):
+                value = clean(str(card.get(key, "")))
+                if value and (key == "title" or not entry.get(key)):
+                    entry[key] = value
         return [
-            {
-                **card,
-                "title": clean(str(card.get("title", ""))),
-                "description": clean(str(card.get("description", ""))),
-                "published": published,
-            }
-            for card in self.cards
-            if (published := ilken_permalink_date(str(card.get("url", "")))) is not None
-            and card.get("title") and str(card.get("url", "")).startswith("https://ilken.ru/evenki/")
+            {**card, "published": ilken_permalink_date(str(card["url"]))}
+            for card in unique.values()
+            if card.get("title") and ilken_permalink_date(str(card["url"])) is not None
         ]
+
+    def _finish_card(self) -> None:
+        if self._card is not None:
+            self.cards.append(self._card)
+            self._card = None
+        self._anchor_depth = 0
+        self._description_depth = 0
+        self._description_done = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attributes = dict(attrs)
-        classes = set((attributes.get("class") or "").split())
-        if tag == "div" and self._card is None and "grid_post_content" in classes:
-            self._card_depth = 1
-            self._card = {"url": "", "title": "", "description": ""}
-            self._anchors = []
-            return
-        if self._card is None:
-            return
-        if tag == "div":
-            self._card_depth += 1
         if tag == "a":
-            self._anchors.append(attributes.get("href") or "")
-        if tag == "h4" and "b_title" in classes:
-            self._title_depth = 1
-            self._card["url"] = self._anchors[-1] if self._anchors else ""
-        elif self._title_depth and tag == "h4":
-            self._title_depth += 1
-        if tag == "p":
+            href = attributes.get("href") or ""
+            if ilken_permalink_date(href):
+                self._finish_card()
+                self._card = {"url": href, "title": "", "description": ""}
+                self._anchor_depth = 1
+                return
+            if self._anchor_depth:
+                self._anchor_depth += 1
+        elif self._card is not None and not self._anchor_depth and not self._description_done and tag == "p":
             self._description_depth = 1
         elif self._description_depth and tag == "p":
             self._description_depth += 1
 
     def handle_endtag(self, tag: str) -> None:
-        if self._card is None:
-            return
-        if tag == "h4" and self._title_depth:
-            self._title_depth -= 1
-        if tag == "p" and self._description_depth:
+        if tag == "a" and self._anchor_depth:
+            self._anchor_depth -= 1
+        elif tag == "p" and self._description_depth:
             self._description_depth -= 1
-        if tag == "a" and self._anchors:
-            self._anchors.pop()
-        if tag == "div":
-            self._card_depth -= 1
-            if self._card_depth == 0:
-                self.cards.append(self._card)
-                self._card = None
+            if not self._description_depth:
+                self._description_done = True
 
     def handle_data(self, data: str) -> None:
         if self._card is None:
             return
-        if self._title_depth:
+        if self._anchor_depth:
             self._card["title"] = str(self._card["title"]) + data
-        if self._description_depth:
+        elif self._description_depth:
             self._card["description"] = str(self._card["description"]) + data
 
 
 def ilken_permalink_date(url: str) -> dt.datetime | None:
-    match = re.search(r"/evenki/(\d{4})/(\d{2})/(\d{2})/", url)
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.hostname not in {"ilken.ru", "www.ilken.ru"}:
+        return None
+    match = re.search(r"/(?:evenki/)?(\d{4})/(\d{2})/(\d{2})/", parsed.path)
     if not match:
         return None
     try:
@@ -624,7 +674,7 @@ def parse_ilken_reader_markdown(document: str) -> list[dict[str, object]]:
     """Extract article cards from Jina Reader's Markdown rendering of Ilken."""
     pattern = re.compile(
         r'^####\s+\[(?P<title>[^\]]+)\]\('
-        r'(?P<url>https://ilken\.ru/evenki/\d{4}/\d{2}/\d{2}/[^\s)]+)'
+        r'(?P<url>https://ilken\.ru/(?:evenki/)?\d{4}/\d{2}/\d{2}/[^\s)]+)'
         r'(?:\s+"[^"]*")?\)\s*\n'
         r'(?P<description>.*?)(?=\n(?:####\s|!\[|\[[^\]]+\]\(https://ilken\.ru/evenki/)|\Z)',
         flags=re.MULTILINE | re.DOTALL,
@@ -849,14 +899,19 @@ def fetch_items() -> list[dict[str, str]]:
     for account in manifest.get("socialAccounts", []) + manifest.get("directFeeds", []):
         AUDIT.event(str(account["id"]), "configured", str(account.get("url") or account.get("category", "")))
 
-    # Search the full Google News index in focused topic groups. Keeping these
-    # separate avoids one oversized OR query losing narrower language/culture hits.
+    # Search the full Google News index one phrase at a time. Google News RSS
+    # inconsistently handles long OR expressions, which can silently return an
+    # empty feed. Individual queries also make it possible to see which terms
+    # actually discover stories.
     feeds: list[tuple[str, bool, dict[str, str] | None]] = []
     for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "local-entities"):
         terms = load_query_group(group_id)
-        if terms:
-            query = " OR ".join(quote_search_term(term) for term in terms)
-            feeds.append((f"({query}) when:2d", False, None))
+        feeds.extend((f"{quote_search_term(term)} when:7d", False, None) for term in terms)
+    international_terms = load_query_group("international-ethnonyms")
+    feeds.extend(
+        (f"{quote_search_term(term)} when:7d", False, {"hl": "en-US", "gl": "US", "ceid": "US:en"})
+        for term in international_terms
+    )
 
     # Search every configured publisher separately. Combining many sites into
     # one Google News query can crowd out smaller outlets in the RSS results.
@@ -894,6 +949,15 @@ def fetch_items() -> list[dict[str, str]]:
             if domain:
                 feeds.append((f"site:{domain} ({localized_query}) when:7d", False, locale))
 
+    # Search non-Russian ethnonyms individually in their native editions. These
+    # are easy to lose inside broad site-restricted queries and often appear in
+    # local reporting that is not indexed by the Russian edition.
+    for country in sources_data.get("internationalMedia", []):
+        locale = country.get("googleNews")
+        terms = [str(term).strip() for term in country.get("queries", []) if str(term).strip()]
+        if isinstance(locale, dict):
+            feeds.extend((f"{quote_search_term(term)} when:7d", False, locale) for term in terms)
+
     local_terms = load_query_group("eao-evenki")
     if local_terms:
         local_query = " OR ".join(quote_search_term(term) for term in local_terms)
@@ -910,14 +974,24 @@ def fetch_items() -> list[dict[str, str]]:
         social_query = " OR ".join(quote_search_term(term) for term in terms)
         feeds.extend((f"site:{site} ({social_query}) when:7d", False, None) for site in social_sites)
     ilken_terms = load_ilken_queries()
-    # Keep source-wide searches for the dedicated Ilken Evenki category.
+    # Search both Ilken's Evenki-language section and its Russian-language articles.
+    # The Russian feed is relevance-filtered from the article text/teaser below.
     feeds.append(("site:ilken.ru/evenki/ when:30d", True, None))
     feeds.extend((f'site:ilken.ru/evenki/ "{term}" when:30d', True, None) for term in ilken_terms)
-    feeds.append(("site:ilken.ru when:2d", False, None))
+    feeds.append(("site:ilken.ru (эвенки OR эвенкийский OR Бакалдын OR орочоны OR хамниганы) when:7d", False, None))
+
+    # Search each configured East Asian language edition across the regional index,
+    # in addition to searching each named publisher separately.
+    for country in sources_data.get("internationalMedia", []):
+        terms = [str(term).strip() for term in country.get("queries", []) if str(term).strip()]
+        locale = country.get("googleNews")
+        if terms and isinstance(locale, dict):
+            localized_query = " OR ".join(f'"{term}"' for term in terms)
+            feeds.append((f"({localized_query}) when:7d", False, locale))
 
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
 
-    def search_feed(feed: tuple[str, bool, dict[str, str] | None]) -> tuple[list[dict[str, str]], str | None]:
+    def search_feed(feed: tuple[str, bool, dict[str, str] | None]) -> tuple[list[dict[str, str]], str | None, tuple[int, int, int, int]]:
         feed_query, ilken_search, locale = feed
         params = urllib.parse.urlencode({"q": feed_query, **(locale or {"hl": "ru", "gl": "RU", "ceid": "RU:ru"})})
         try:
@@ -925,19 +999,23 @@ def fetch_items() -> list[dict[str, str]]:
             root = ET.fromstring(payload)
         except (OSError, ValueError, ET.ParseError) as error:
             AUDIT.event(feed_query, "search_failed", error=type(error).__name__)
-            return [], str(error)
+            return [], str(error), (0, 0, 0, 0)
 
         found: list[dict[str, str]] = []
-        for node in root.findall("./channel/item"):
+        nodes = root.findall("./channel/item")
+        recent_count = link_count = relevant_count = 0
+        for node in nodes:
             title = clean(node.findtext("title", ""))
             description = clean(node.findtext("description", ""))
             published = parse_date(node.findtext("pubDate", ""))
             if not published or published < cutoff or published > now_local() + dt.timedelta(hours=6):
                 AUDIT.event(feed_query, "invalid_date" if not published else "outside_window" if published < cutoff else "future_date", node.findtext("link", ""))
                 continue
+            recent_count += 1
             link = clean(node.findtext("link", ""))
             if not link.startswith("https://"):
                 continue
+            link_count += 1
             source_node = node.find("source")
             source = clean(source_node.text if source_node is not None else "")
             source_host = ""
@@ -945,20 +1023,20 @@ def fetch_items() -> list[dict[str, str]]:
                 source_host = (urllib.parse.urlsplit(source_node.attrib.get("url", "")).hostname or "").lower()
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
-            if not is_evenki_related({"title": title, "description": description}) and not ilken_search:
+            is_ilken = ilken_search and "ilken.ru" in (source_host, (urllib.parse.urlsplit(link).hostname or "").lower())
+            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
                 AUDIT.event(feed_query, "irrelevant", link)
                 continue
+            relevant_count += 1
+            # Resolve Google News redirects only after relevance filtering. This
+            # avoids making an extra network request for every irrelevant hit.
             publisher_url = original_source_url(link)
-            is_ilken = ilken_search and publisher_url.startswith("https://ilken.ru/evenki/")
             publisher_host = (urllib.parse.urlsplit(publisher_url).hostname or "").lower()
             configured_source = any(
                 host == domain or host.endswith("." + domain)
                 for host in (source_host, publisher_host)
                 for domain in domains
             ) and "news.google.com" not in publisher_host
-            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
-                AUDIT.event(feed_query, "irrelevant", publisher_url)
-                continue
             found.append({
                 "id": item_id,
                 "title": title,
@@ -970,21 +1048,26 @@ def fetch_items() -> list[dict[str, str]]:
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
             })
-        AUDIT.event(feed_query, "search_ok", accepted=len(found), returned=len(root.findall("./channel/item")))
-        if len(root.findall("./channel/item")) >= 100:
+        AUDIT.event(feed_query, "search_ok", accepted=len(found), returned=len(nodes))
+        if len(nodes) >= 100:
             AUDIT.event(feed_query, "possible_search_result_limit")
-        return found, None
+        return found, None, (len(nodes), recent_count, link_count, relevant_count)
 
     items: list[dict[str, str]] = []
     failures = 0
+    raw_results = recent_results = https_results = relevant_results = 0
     # Keep the run short while spreading requests so no source group monopolizes
     # the limited number of results returned by Google News RSS.
-    with ThreadPoolExecutor(max_workers=12) as executor:
-        for found, error in executor.map(search_feed, feeds):
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for found, error, metrics in executor.map(search_feed, feeds):
             if error:
                 failures += 1
                 print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
             items.extend(found)
+            raw_results += metrics[0]
+            recent_results += metrics[1]
+            https_results += metrics[2]
+            relevant_results += metrics[3]
 
     AUDIT.save(AUDIT_FILE, now_local().isoformat(timespec="seconds"))
     direct_items = news_sources.fetch_domains(sys.modules[__name__], domains, sources_data, AUDIT)
@@ -997,12 +1080,15 @@ def fetch_items() -> list[dict[str, str]]:
     if failures == len(feeds) and not direct_items and not any(AUDIT.rows.get(domain, {}).get("counts", {}).get("request_ok") for domain in domains):
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
-    return finalize_candidates(items + direct_items)
-
-
-def finalize_candidates(candidates: list[dict[str, str]]) -> list[dict[str, str]]:
-    """Apply shared editorial decisions and URL identity to every adapter."""
+    candidates = items + direct_items
     excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and not trusted_category(item))]
+    print(
+        f"Search complete: {len(feeds)} Google News RSS searches, "
+        f"{raw_results} raw results, {recent_results} recent, {https_results} with links, "
+        f"{relevant_results} text-relevant, {len(items)} indexed candidates, "
+        f"{len(direct_items)} direct-source candidates, "
+        f"{len(excluded)} excluded by relevance/editorial filters."
+    )
     if excluded:
         print(f"Excluded {len(excluded)} stories by relevance and editorial filters.")
     unique = {}
@@ -1013,7 +1099,6 @@ def finalize_candidates(candidates: list[dict[str, str]]) -> list[dict[str, str]
             AUDIT.event(source, "editorial_exclusion" if is_excluded_story(item) else "irrelevant", item["url"])
         elif key in unique:
             AUDIT.event(source, "duplicate_url", item["url"])
-            # Prefer trusted categories and direct adapters to preserve metadata.
             if trusted_category(item) or item.get("configuredSource") == "1":
                 unique[key] = item
         else:
@@ -1041,7 +1126,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         relevance = story_relevance(item)
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
         stories.append({
-            "region": item.get("region") or category,
+            "region": story_region(item, category),
             "date": item["day"], "source": item["source"],
             "title": item["title"],
             "desc": (item.get("description") or ("Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ." if relevance == "context" else "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ."))[:420],
