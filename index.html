@@ -73,6 +73,10 @@
 .news-card .context-tag{grid-column:2;width:100%;max-width:100%;justify-self:stretch;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;white-space:normal;line-height:1.15}
 @media(max-width:520px){.news-card .card-meta{grid-template-columns:minmax(0,1fr) minmax(96px,48%);min-height:62px}}
 </style>
+<style id="stats-responsive-spacing">
+@media(max-width:1000px){.stats .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));min-height:0}.stats .stat{min-width:0;min-height:128px;padding:18px 22px;border-bottom:1px solid #d3d4c8}.stats .stat:nth-child(3n){border-right:0}.stats .stat:nth-last-child(-n+3){border-bottom:0}.stats .stat span{line-height:1.45}}
+@media(max-width:600px){.stats .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.stats .stat{min-height:132px;padding:18px 16px}.stats .stat:nth-child(3n){border-right:1px solid #d3d4c8}.stats .stat:nth-child(2n){border-right:0}.stats .stat:nth-last-child(-n+3){border-bottom:1px solid #d3d4c8}.stats .stat:nth-last-child(-n+2){border-bottom:0}.stats .stat strong{font-size:18px}.stats .stat span{font-size:10px;letter-spacing:.07em;line-height:1.5}}
+</style>
 </head>
 <body>
 <div class="topline"><div class="wrap"><div class="status"><i class="dot"></i><span>Хроника народа</span></div></div></div>
