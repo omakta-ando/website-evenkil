@@ -25,6 +25,10 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
+import news_sources
+
+AUDIT = news_sources.Audit()
+AUDIT_FILE = Path(__file__).resolve().parents[1] / "data" / "news-source-audit.json"
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,7 +47,7 @@ EVENKI_MENTION_RE = re.compile(
     r"|\b(?:ороч[её]н|хамниган|манегр|солон|бакалдын|мучун)\w*\b"
     r"|\bбирар(?:ы|ов|ам|ами|ах|а|у|ом|е|ой|ою)\b"
     r"|\bэвенкийц\w*\b|\bперевод\w*\s+с\s+эвенкийск\w*\b|\bэвенкийск\w{0,16}\s+(?:язык\w*|культур\w*|реч\w*|словар\w*|песн\w*|музык\w*|танц\w*|фольклор\w*|литератур\w*|писател\w*|поэт\w*|композитор\w*|художник\w*|артист\w*|школ\w*|учебник\w*|обучен\w*|диктант\w*|олимпиад\w*|конкурс\w*|традиц\w*|обыча\w*|музе\w*|искусств\w*|общин\w*|обществ\w*|истори\w*|наслед\w*|оленевод\w*|промысл\w*|ансамбл\w*)"
-    r"|\b(?:evenkis?|ewenkis?|orochons?|hamnigans?)\b"
+    r"|\b(?:evenkis?|ewenkis?|orochons?|oroqens?|oroqins?|khamnigans?|hamnigans?)\b"
     r"|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간)", re.I)
 CONTEXT_TOPIC_RE = re.compile(
     r"(?:северн\w{0,12}\s+завоз\w*|арктическ\w{0,16}\s+(?:завоз\w*|снабжени\w*|доставк\w*)|"
@@ -92,11 +96,31 @@ def is_evenki_related(item: dict[str, object]) -> bool:
     return story_relevance(item) is not None
 
 
+def trusted_category(item: dict[str, object]) -> bool:
+    return item.get("ilkenEvenki") == "1" or item.get("arunNews") == "1"
+
+
+def entity_relevance(text: str) -> bool:
+    data = json.loads(QUERIES_FILE.read_text(encoding="utf-8"))
+    for entity in data.get("relevanceEntities", []):
+        aliases = entity.get("aliases", [])
+        if not any(re.search(r"(?<!\w)" + re.escape(alias) + r"(?!\w)", text, re.I) for alias in aliases):
+            continue
+        topics = entity.get("topics", [])
+        if not topics or any(re.search(term, text, re.I) for term in topics):
+            return True
+    return False
+
+
 def story_relevance(item: dict[str, object]) -> str | None:
     url = str(item.get("url", item.get("link", ""))).rstrip("/")
     text = story_text(item)
     if url in EDITORIAL_RELEVANCE_URLS or EVENKI_MENTION_RE.search(text):
         return "direct"
+    if item.get("detectedRelevance") in {"direct", "context"}:
+        return str(item["detectedRelevance"])
+    if entity_relevance(text):
+        return "context"
     if CONTEXT_TOPIC_RE.search(text) and CONTEXT_SCOPE_RE.search(text):
         return "context"
     return None
@@ -176,7 +200,7 @@ def load_query_group(group_id: str) -> list[str]:
 def quote_search_term(term: str) -> str:
     """Keep intentional phrase quotes and leave geographic qualifiers outside them."""
     term = str(term).strip()
-    return term if '"' in term else f'"{term}"'
+    return term if '"' in term or any(char.isspace() for char in term) else f'"{term}"'
 
 
 def load_social_search_sites() -> list[str]:
@@ -201,13 +225,29 @@ def load_source_domains() -> list[str]:
 
 
 def request(url: str, *, data: bytes | None = None, headers: dict[str, str] | None = None, timeout: int = 25) -> bytes:
+    parts = urllib.parse.urlsplit(url)
+    if parts.hostname:
+        ascii_host = parts.hostname.encode("idna").decode("ascii")
+        url = urllib.parse.urlunsplit((parts.scheme, parts.netloc.replace(parts.hostname, ascii_host),
+            urllib.parse.quote(parts.path, safe="/%:@"), urllib.parse.quote(parts.query, safe="%=&?/:;+,@"), ""))
     req = urllib.request.Request(
         url,
         data=data,
         headers={"User-Agent": "TaezhnayaNit-NewsMonitor/1.0 (RSS reader)"} | (headers or {}),
     )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return response.read()
+    host = urllib.parse.urlsplit(url).hostname or "unknown"
+    # Do not log API credentials, token-bearing paths, or request bodies.
+    safe_url = url if host not in {"api.telegram.org", "api.vk.com"} else "https://" + host
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            payload = response.read(4_000_001)
+            if len(payload) > 4_000_000:
+                raise ValueError("response_size_limit")
+        AUDIT.event(host, "http_ok", safe_url)
+        return payload
+    except (OSError, ValueError) as error:
+        AUDIT.event(host, "http_failed", safe_url, error=type(error).__name__, httpStatus=getattr(error, "code", None))
+        raise
 
 
 def parse_date(value: str) -> dt.datetime | None:
@@ -221,6 +261,16 @@ def parse_date(value: str) -> dt.datetime | None:
             parsed = dt.datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
             return parsed.replace(tzinfo=dt.timezone.utc).astimezone(TZ) if parsed.tzinfo is None else parsed.astimezone(TZ)
         except ValueError:
+            russian = parse_russian_publication_date(value)
+            if russian:
+                return russian
+            match = re.fullmatch(r"(\d{2})[./](\d{2})[./](\d{4})(?:\s+(\d{2}):(\d{2}))?", value.strip())
+            if match:
+                day, month, year, hour, minute = match.groups()
+                try:
+                    return dt.datetime(int(year), int(month), int(day), int(hour or 0), int(minute or 0), tzinfo=TZ)
+                except ValueError:
+                    pass
             return None
 
 
@@ -245,6 +295,7 @@ def original_source_url(url: str) -> str:
                 return final_url
         except (urllib.error.URLError, TimeoutError, ValueError):
             continue
+    AUDIT.event("google-redirect", "unresolved_redirect", url)
     return url
 
 
@@ -286,6 +337,7 @@ def fetch_arun_news() -> list[dict[str, str]]:
     for story in ArunNewsParser().parse(document, category_url):
         published = story["published"]
         if published.date() < cutoff.date() or published > now_local() + dt.timedelta(days=1):
+            AUDIT.event("arun-news", "outside_window_or_future", str(story["url"]))
             continue
         url = str(story["url"])
         title = clean(str(story["title"]))
@@ -411,9 +463,13 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 valid_link = link.startswith("https://ilken.ru/evenki/") if is_evenki_feed else (
                     link.startswith("https://ilken.ru/") and "/evenki/" not in link
                 )
-                if not title or not valid_link or not published or published < feed_cutoff:
+                reason = ("missing_title" if not title else "invalid_url" if not valid_link else "invalid_date" if not published else
+                          "outside_window" if published < feed_cutoff else "future_date" if published > now_local() + dt.timedelta(hours=6) else None)
+                if reason:
+                    AUDIT.event(str(feed["id"]), reason, link)
                     continue
                 if not is_evenki_feed and not is_evenki_related({"title": title, "description": description}):
+                    AUDIT.event(str(feed["id"]), "irrelevant", link)
                     continue
                 guid = clean(node.findtext("guid", ""))
                 found.append({
@@ -423,7 +479,8 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     "ilkenEvenki": "1" if is_evenki_feed else "0",
                     "configuredSource": "0" if is_evenki_feed else "1",
                 })
-        except (urllib.error.URLError, TimeoutError, ET.ParseError, KeyError) as error:
+        except (OSError, ValueError, ET.ParseError, KeyError) as error:
+            AUDIT.event(str(feed["id"]), "rss_failed", str(feed["url"]), error=type(error).__name__)
             print(f"Warning: direct RSS failed for {feed.get('label', 'source')}: {error}", file=sys.stderr)
 
         # The publisher's RSS is currently returning HTTP 555 to GitHub Actions.
@@ -436,7 +493,8 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 }).decode("utf-8", errors="replace")
                 for story in IlkenCategoryParser().parse(page):
                     published = story["published"]
-                    if published < cutoff:
+                    if published < cutoff or published > now_local() + dt.timedelta(hours=6):
+                        AUDIT.event(str(feed["id"]), "outside_window_or_future", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
@@ -446,7 +504,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     })
                 if found:
                     print(f"Read {len(found)} recent stories from the Ilken category page.")
-            except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
+            except (OSError, KeyError, ValueError) as error:
                 print(f"Warning: Ilken category page failed: {error}", file=sys.stderr)
 
         # Ilken's origin also blocks GitHub Actions from its public HTML page.
@@ -460,7 +518,8 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 }).decode("utf-8", errors="replace")
                 for story in parse_ilken_reader_markdown(markdown):
                     published = story["published"]
-                    if published < cutoff:
+                    if published < cutoff or published > now_local() + dt.timedelta(hours=6):
+                        AUDIT.event(str(feed["id"]), "outside_window_or_future", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
@@ -472,7 +531,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     print(f"Read {len(found)} recent stories from the Ilken category via Reader fallback.")
                 else:
                     print("Warning: Reader fallback returned no recent Ilken category stories.", file=sys.stderr)
-            except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
+            except (OSError, KeyError, ValueError) as error:
                 print(f"Warning: Ilken Reader fallback failed: {error}", file=sys.stderr)
     return found
 
@@ -605,6 +664,8 @@ class TelegramPublicChannelParser(HTMLParser):
                 self.container_depth = 1
             elif self.current is not None:
                 self.container_depth += 1
+                if self.capture_text:
+                    self.text_div_depth += 1
             if self.current is not None and "data-post" in attributes:
                 self.current["post"] = attributes.get("data-post") or ""
             if self.current is not None and classes.intersection({"tgme_widget_message_photo", "tgme_widget_message_video_thumb"}):
@@ -658,22 +719,46 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
         username = parsed.path.strip("/").split("/")[0]
         if not re.fullmatch(r"[A-Za-z0-9_]+", username):
             continue
-        try:
-            page = request(
-                f"https://t.me/s/{username}",
-                headers={"User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
-                         "Accept": "text/html,application/xhtml+xml"},
-                timeout=20,
-            ).decode("utf-8", errors="replace")
-        except (urllib.error.URLError, TimeoutError) as error:
-            print(f"Warning: Telegram public channel unavailable ({account.get('label', username)}): {error}", file=sys.stderr)
-            continue
-        parser = TelegramPublicChannelParser()
-        parser.feed(page)
-        for post in parser.posts:
+        posts = []
+        before = None
+        page_limit = 8
+        reached_cutoff = False
+        visited_pages = set()
+        for page_index in range(page_limit):
+            preview_url = f"https://t.me/s/{username}" + (f"?before={before}" if before else "")
+            try:
+                page = request(preview_url, headers={"Accept": "text/html"}, timeout=15).decode("utf-8", errors="replace")
+            except (OSError, ValueError) as error:
+                AUDIT.event(str(account["id"]), "request_failed", preview_url, error=type(error).__name__)
+                break
+            parser = TelegramPublicChannelParser()
+            parser.feed(page)
+            if not parser.posts:
+                AUDIT.event(str(account["id"]), "empty_or_unavailable_preview", preview_url)
+                break
+            ids = [int(post["post"].rsplit("/", 1)[-1]) for post in parser.posts if re.search(r"/\d+$", post.get("post", ""))]
+            posts.extend(parser.posts)
+            dates = [parse_date(post.get("date", "")) for post in parser.posts]
+            if any(date and date < cutoff for date in dates):
+                reached_cutoff = True
+                break
+            if not ids or min(ids) in visited_pages:
+                AUDIT.event(str(account["id"]), "pagination_stalled", preview_url)
+                break
+            before = min(ids)
+            visited_pages.add(before)
+        else:
+            AUDIT.event(str(account["id"]), "telegram_page_limit", pages=page_limit)
+        AUDIT.event(str(account["id"]), "preview_parsed", returned=len(posts), reachedCutoff=reached_cutoff)
+        for post in posts:
             published = parse_date(post.get("date", ""))
             text = clean(post.get("text", ""))
-            if not published or published < cutoff or not is_evenki_related({"description": text}):
+            reason = ("invalid_date" if not published else "outside_window" if published < cutoff else
+                      "future_date" if published > now_local() + dt.timedelta(hours=6) else
+                      "editorial_exclusion" if is_excluded_story({"description": text}) else
+                      "irrelevant" if not is_evenki_related({"description": text}) else "accepted")
+            AUDIT.event(str(account["id"]), reason, post.get("url", ""))
+            if reason != "accepted":
                 continue
             post_path = post.get("post", "").strip("/")
             post_url = f"https://t.me/{post_path}" if post_path else post.get("url", "")
@@ -688,6 +773,7 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
                 "day": published.date().isoformat(),
                 "description": text[:420],
                 "socialPlatform": "Telegram",
+                "detectedRelevance": story_relevance({"description": text}) or "",
                 "configuredSource": "1",
                 **({"image": post["image"]} if post.get("image") else {}),
             })
@@ -698,69 +784,75 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
 def fetch_vk_public_walls() -> list[dict[str, str]]:
     """Read configured public VK walls through the official API when configured."""
     token = os.environ.get("VK_ACCESS_TOKEN", "").strip()
-    if not token:
-        print("VK direct wall reading is off; set the GitHub Actions secret VK_ACCESS_TOKEN to enable it.")
-        return []
     data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     cutoff = now_local() - dt.timedelta(hours=LOOKBACK_HOURS)
-    found: list[dict[str, str]] = []
+    found = []
     for account in data.get("socialAccounts", []):
         parsed = urllib.parse.urlsplit(str(account.get("url", "")))
         if parsed.hostname not in {"vk.com", "vk.ru", "www.vk.com", "www.vk.ru"}:
             continue
+        source = str(account["id"])
+        if not token:
+            AUDIT.event(source, "missing_vk_token", str(account.get("url", "")))
+            continue
         domain = parsed.path.strip("/").split("/")[0]
-        if not domain:
-            continue
-        params = urllib.parse.urlencode({
-            "domain": domain, "count": 100, "filter": "owner",
-            "access_token": token, "v": "5.199",
-        }).encode("utf-8")
-        try:
-            payload = request(
-                "https://api.vk.com/method/wall.get",
-                data=params,
-                headers={"Content-Type": "application/x-www-form-urlencoded"},
-                timeout=20,
-            )
-            result = json.loads(payload)
-            if result.get("error"):
-                error_code = result["error"].get("error_code", "unknown")
-                print(f"Warning: VK API rejected {account.get('label', domain)} (error {error_code}).", file=sys.stderr)
-                continue
-            posts = result.get("response", {}).get("items", [])
-        except (urllib.error.URLError, TimeoutError, ValueError, AttributeError) as error:
-            print(f"Warning: VK wall unavailable ({account.get('label', domain)}): {error}", file=sys.stderr)
-            continue
+        posts = []
+        for offset in range(0, 800, 100):
+            params = {"count": 100, "offset": offset, "filter": "owner", "access_token": token, "v": "5.199"}
+            numeric = re.fullmatch(r"(?:public|club)(\d+)", domain)
+            params["owner_id" if numeric else "domain"] = -int(numeric.group(1)) if numeric else domain
+            try:
+                result = json.loads(request("https://api.vk.com/method/wall.get", data=urllib.parse.urlencode(params).encode(),
+                    headers={"Content-Type": "application/x-www-form-urlencoded"}, timeout=15))
+                if result.get("error"):
+                    AUDIT.event(source, "vk_api_error", errorCode=result["error"].get("error_code"))
+                    break
+                batch = result.get("response", {}).get("items", [])
+            except (OSError, ValueError, AttributeError):
+                AUDIT.event(source, "vk_request_failed")
+                break
+            posts.extend(batch)
+            # A pinned old post must not stop pagination through newer posts.
+            dates = [int(post.get("date", 0)) for post in batch if not post.get("is_pinned")]
+            if len(batch) < 100 or (dates and max(dates) < cutoff.timestamp()):
+                break
+            time.sleep(0.35)
+        else:
+            AUDIT.event(source, "vk_page_limit", pages=8)
+        AUDIT.event(source, "wall_parsed", returned=len(posts))
         for post in posts:
             text = clean(str(post.get("text", "")))
-            published = dt.datetime.fromtimestamp(int(post.get("date", 0)), tz=TZ)
-            if published < cutoff or not is_evenki_related({"description": text}):
+            # Include the public repost's text when the wall wrapper is empty.
+            text = clean(text + " " + " ".join(str(copy.get("text", "")) for copy in post.get("copy_history", [])))
+            try:
+                published = dt.datetime.fromtimestamp(int(post.get("date", 0)), tz=TZ)
+                post_url = f"https://vk.com/wall{int(post['owner_id'])}_{int(post['id'])}"
+            except (ValueError, TypeError, KeyError, OverflowError, OSError):
+                AUDIT.event(source, "invalid_post")
                 continue
-            owner_id = int(post.get("owner_id", 0))
-            post_id = int(post.get("id", 0))
-            post_url = f"https://vk.com/wall{owner_id}_{post_id}"
-            found.append({
-                "id": post_url,
-                "title": text[:180].rstrip(" .…") or str(account.get("label", "ВКонтакте")),
-                "source": str(account.get("label", "ВКонтакте")),
-                "url": post_url,
-                "published": published.isoformat(timespec="minutes"),
-                "day": published.date().isoformat(),
-                "description": text[:420],
-                "socialPlatform": "ВКонтакте",
-                "configuredSource": "1",
-            })
-    print(f"Read {len(found)} recent relevant posts directly from configured VK walls.")
+            reason = ("outside_window" if published < cutoff else "future_date" if published > now_local() + dt.timedelta(hours=6)
+                      else "editorial_exclusion" if is_excluded_story({"description": text}) else
+                      "irrelevant" if not is_evenki_related({"description": text}) else "accepted")
+            AUDIT.event(source, reason, post_url)
+            if reason != "accepted":
+                continue
+            found.append({"id": post_url, "title": text[:180].rstrip(" .…") or str(account.get("label", "ВКонтакте")),
+                "source": str(account.get("label", "ВКонтакте")), "url": post_url,
+                "published": published.isoformat(timespec="minutes"), "day": published.date().isoformat(),
+                "description": text[:420], "detectedRelevance": story_relevance({"description": text}) or "", "socialPlatform": "ВКонтакте", "configuredSource": "1"})
     return found
 
 
 def fetch_items() -> list[dict[str, str]]:
     domains = load_source_domains()
+    manifest = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+    for account in manifest.get("socialAccounts", []) + manifest.get("directFeeds", []):
+        AUDIT.event(str(account["id"]), "configured", str(account.get("url") or account.get("category", "")))
 
     # Search the full Google News index in focused topic groups. Keeping these
     # separate avoids one oversized OR query losing narrower language/culture hits.
     feeds: list[tuple[str, bool, dict[str, str] | None]] = []
-    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context"):
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "local-entities"):
         terms = load_query_group(group_id)
         if terms:
             query = " OR ".join(quote_search_term(term) for term in terms)
@@ -775,7 +867,7 @@ def fetch_items() -> list[dict[str, str]]:
         "поголовье оленей", "пастбища оленеводов", "разведение оленей",
         "Хатыстыр", "северный завоз", "оленеводческие хозяйства Арктики",
     )
-    source_query = " OR ".join(f'"{term}"' for term in source_terms)
+    source_query = " OR ".join(quote_search_term(term) for term in (*source_terms, *load_query_group("local-entities")))
     # Search Asian outlets with the ethnonyms used in their publication languages.
     # Keep each publisher separate so one large source cannot crowd out smaller ones.
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
@@ -811,7 +903,7 @@ def fetch_items() -> list[dict[str, str]]:
     # not only the regional EAO terms. Google News provides public index coverage;
     # direct access to private posts or unindexed content requires platform APIs.
     social_sites = load_social_search_sites()
-    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "eao-evenki"):
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "eao-evenki", "local-entities"):
         terms = load_query_group(group_id)
         if not terms:
             continue
@@ -829,9 +921,10 @@ def fetch_items() -> list[dict[str, str]]:
         feed_query, ilken_search, locale = feed
         params = urllib.parse.urlencode({"q": feed_query, **(locale or {"hl": "ru", "gl": "RU", "ceid": "RU:ru"})})
         try:
-            payload = request(f"{RSS_URL}?{params}")
+            payload = request(f"{RSS_URL}?{params}", timeout=12)
             root = ET.fromstring(payload)
-        except (urllib.error.URLError, TimeoutError, ET.ParseError) as error:
+        except (OSError, ValueError, ET.ParseError) as error:
+            AUDIT.event(feed_query, "search_failed", error=type(error).__name__)
             return [], str(error)
 
         found: list[dict[str, str]] = []
@@ -839,7 +932,8 @@ def fetch_items() -> list[dict[str, str]]:
             title = clean(node.findtext("title", ""))
             description = clean(node.findtext("description", ""))
             published = parse_date(node.findtext("pubDate", ""))
-            if not published or published < cutoff:
+            if not published or published < cutoff or published > now_local() + dt.timedelta(hours=6):
+                AUDIT.event(feed_query, "invalid_date" if not published else "outside_window" if published < cutoff else "future_date", node.findtext("link", ""))
                 continue
             link = clean(node.findtext("link", ""))
             if not link.startswith("https://"):
@@ -851,6 +945,9 @@ def fetch_items() -> list[dict[str, str]]:
                 source_host = (urllib.parse.urlsplit(source_node.attrib.get("url", "")).hostname or "").lower()
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
+            if not is_evenki_related({"title": title, "description": description}) and not ilken_search:
+                AUDIT.event(feed_query, "irrelevant", link)
+                continue
             publisher_url = original_source_url(link)
             is_ilken = ilken_search and publisher_url.startswith("https://ilken.ru/evenki/")
             publisher_host = (urllib.parse.urlsplit(publisher_url).hostname or "").lower()
@@ -860,6 +957,7 @@ def fetch_items() -> list[dict[str, str]]:
                 for domain in domains
             ) and "news.google.com" not in publisher_host
             if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
+                AUDIT.event(feed_query, "irrelevant", publisher_url)
                 continue
             found.append({
                 "id": item_id,
@@ -872,28 +970,55 @@ def fetch_items() -> list[dict[str, str]]:
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
             })
+        AUDIT.event(feed_query, "search_ok", accepted=len(found), returned=len(root.findall("./channel/item")))
+        if len(root.findall("./channel/item")) >= 100:
+            AUDIT.event(feed_query, "possible_search_result_limit")
         return found, None
 
     items: list[dict[str, str]] = []
     failures = 0
     # Keep the run short while spreading requests so no source group monopolizes
     # the limited number of results returned by Google News RSS.
-    with ThreadPoolExecutor(max_workers=6) as executor:
+    with ThreadPoolExecutor(max_workers=12) as executor:
         for found, error in executor.map(search_feed, feeds):
             if error:
                 failures += 1
                 print(f"Warning: one RSS search failed: {error}", file=sys.stderr)
             items.extend(found)
 
-    direct_items = fetch_ilken_feed() + fetch_arun_news() + fetch_telegram_public_channels() + fetch_vk_public_walls()
-    if failures == len(feeds) and not direct_items:
+    AUDIT.save(AUDIT_FILE, now_local().isoformat(timespec="seconds"))
+    direct_items = news_sources.fetch_domains(sys.modules[__name__], domains, sources_data, AUDIT)
+    AUDIT.save(AUDIT_FILE, now_local().isoformat(timespec="seconds"))
+    for adapter in (fetch_ilken_feed, fetch_arun_news, fetch_telegram_public_channels, fetch_vk_public_walls):
+        adapter_items = adapter()
+        for item in adapter_items:
+            AUDIT.event(item["source"], "adapter_accepted", item["url"])
+        direct_items.extend(adapter_items)
+    if failures == len(feeds) and not direct_items and not any(AUDIT.rows.get(domain, {}).get("counts", {}).get("request_ok") for domain in domains):
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
-    candidates = items + direct_items
-    excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and item.get("ilkenEvenki") != "1")]
+    return finalize_candidates(items + direct_items)
+
+
+def finalize_candidates(candidates: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Apply shared editorial decisions and URL identity to every adapter."""
+    excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and not trusted_category(item))]
     if excluded:
         print(f"Excluded {len(excluded)} stories by relevance and editorial filters.")
-    unique = {item["url"].rstrip("/"): item for item in candidates if item not in excluded}
+    unique = {}
+    for item in candidates:
+        source = item.get("auditSource", item.get("source", "unknown"))
+        key = news_sources.canonical_url(item["url"])
+        if item in excluded:
+            AUDIT.event(source, "editorial_exclusion" if is_excluded_story(item) else "irrelevant", item["url"])
+        elif key in unique:
+            AUDIT.event(source, "duplicate_url", item["url"])
+            # Prefer trusted categories and direct adapters to preserve metadata.
+            if trusted_category(item) or item.get("configuredSource") == "1":
+                unique[key] = item
+        else:
+            unique[key] = item
+            AUDIT.event(source, "collected", item["url"])
     return diversify_items(list(unique.values()))
 
 
@@ -904,13 +1029,14 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
     stories = load_site_news_stories()
     original_stories = list(stories)
     stories = [story for story in stories if not is_excluded_story(story)]
-    known = {str(story.get("link", "")).rstrip("/") for story in stories}
+    known = {news_sources.canonical_url(str(story.get("link", ""))) for story in stories}
     added = 0
     for item in candidates:
-        if is_excluded_story(item) or (not is_evenki_related(item) and item.get("ilkenEvenki") != "1"):
+        if is_excluded_story(item) or (not is_evenki_related(item) and not trusted_category(item)):
             continue
-        link = item["url"].rstrip("/")
+        link = news_sources.canonical_url(item["url"])
         if link in known:
+            AUDIT.event(item["source"], "already_on_site", item["url"])
             continue
         relevance = story_relevance(item)
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
@@ -924,6 +1050,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             **({"image": item["image"]} if item.get("image") else {}),
         })
         known.add(link)
+        AUDIT.event(item["source"], "site_added", item["url"])
         added += 1
     stories = diversify_items(stories)
     if added or stories != original_stories:
@@ -935,6 +1062,10 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
 
 def load_site_news_stories() -> list[dict[str, object]]:
     text = (ROOT / "news-data.js").read_text(encoding="utf-8")
+    try:
+        return json.loads(text[text.find("["):text.rfind("]") + 1])
+    except json.JSONDecodeError:
+        pass
     body = text[text.find("[") + 1:text.rfind("]")]
     stories = []
     for match in re.findall(r"\{[^{}]*\}", body):
@@ -956,8 +1087,16 @@ def read_state() -> dict:
     state.setdefault("seen", {})
     state.setdefault("daily", {})
     state.setdefault("pendingTelegram", [])
-    state["pendingTelegram"] = [item for item in state["pendingTelegram"] if not is_excluded_story(item) and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")]
-    state["daily"] = {day: [item for item in items if not is_excluded_story(item) and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")] for day, items in state["daily"].items()}
+    state.setdefault("deliveredUrls", {})
+    for key, value in state["seen"].items():
+        if key.startswith(("https://", "http://")) and "news.google.com" not in key:
+            state["deliveredUrls"].setdefault(news_sources.canonical_url(key), value)
+    for items in state["daily"].values():
+        for item in items:
+            if item.get("url"):
+                state["deliveredUrls"].setdefault(news_sources.canonical_url(item["url"]), item.get("published", ""))
+    state["pendingTelegram"] = [item for item in state["pendingTelegram"] if not is_excluded_story(item) and (is_evenki_related(item) or trusted_category(item))]
+    state["daily"] = {day: [item for item in items if not is_excluded_story(item) and (is_evenki_related(item) or trusted_category(item))] for day, items in state["daily"].items()}
     return state
 
 
@@ -1123,6 +1262,7 @@ def wait_for_site_publication(items: list[dict[str, str]]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--audit-only", action="store_true", help="Collect and write diagnostics without changing site, state or Telegram")
     parser.add_argument("--mode", choices=("collect", "notify", "digest"), default="collect")
     args = parser.parse_args()
 
@@ -1145,6 +1285,7 @@ def main() -> int:
             item_with_image["image"] = item.get("image") or site_images.get(str(item.get("url", "")).rstrip("/"), "")
             telegram_send_item(item_with_image)
             state["seen"][item["id"]] = now_local().isoformat(timespec="minutes")
+            state.setdefault("deliveredUrls", {})[news_sources.canonical_url(item["url"])] = now_local().isoformat(timespec="minutes")
             state["daily"].setdefault(item["day"], []).append(item)
             state["pendingTelegram"].remove(item)
             save_state(state)
@@ -1156,7 +1297,13 @@ def main() -> int:
         send_digest(today, state)
         return 0
 
-    found = fetch_items()
+    try:
+        found = fetch_items()
+    finally:
+        AUDIT.save(AUDIT_FILE, now_local().isoformat(timespec="seconds"))
+    if args.audit_only:
+        print(f"Audit only: {len(found)} accepted stories; report: {AUDIT_FILE}")
+        return 0
     # Search results from configured publishers are added to the general feed;
     # Ilken's dedicated Evenki-language category is a trusted direct-source feed.
     for item in found:
@@ -1172,6 +1319,8 @@ def main() -> int:
         key: value for key, value in state["seen"].items()
         if (parse_date(value) or now_local()) >= expiry
     }
+    state["deliveredUrls"] = {url: value for url, value in state.get("deliveredUrls", {}).items()
+                              if (parse_date(value) or now_local()) >= expiry}
     state["daily"] = {day: items for day, items in state["daily"].items() if day >= (now_local().date() - dt.timedelta(days=7)).isoformat()}
 
     public_links = {str(story.get("link", "")).rstrip("/") for story in load_site_news_stories()}
@@ -1185,17 +1334,29 @@ def main() -> int:
         item for item in found
         if item.get("siteEligible") == "1"
         and not is_excluded_story(item)
-        and (is_evenki_related(item) or item.get("ilkenEvenki") == "1")
+        and (is_evenki_related(item) or trusted_category(item))
         and (parse_date(item.get("published", "")) or now_local()) >= telegram_cutoff
         and item["url"].rstrip("/") in public_links
         and item["id"] not in state["seen"]
         and item["id"] not in queued_ids
     ]
-    queued = diversify_items(queued_candidates, max_per_source=4)
+    # Remove delivered URLs before applying the notification quota.
+    known_delivery_urls = {news_sources.canonical_url(item["url"]) for item in state["pendingTelegram"]}
+    known_delivery_urls.update(state.get("deliveredUrls", {}))
+    candidates_to_queue = []
+    for item in queued_candidates:
+        if news_sources.canonical_url(item["url"]) in known_delivery_urls:
+            AUDIT.event(item["source"], "telegram_already_delivered_or_pending", item["url"])
+        else:
+            candidates_to_queue.append(item)
+    queued = diversify_items(candidates_to_queue, max_per_source=4)
+    for item in candidates_to_queue:
+        AUDIT.event(item["source"], "telegram_queued" if item in queued else "telegram_source_limit", item["url"])
     state["pendingTelegram"].extend(queued)
     print(f"Fetched {len(found)} candidates; added {new_site_stories} to the site and queued {len(queued)} for Telegram after publication.")
 
     save_state(state)
+    AUDIT.save(AUDIT_FILE, now_local().isoformat(timespec="seconds"))
     return 0
 
 

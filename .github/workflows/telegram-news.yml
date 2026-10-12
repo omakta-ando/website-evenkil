@@ -30,7 +30,7 @@ concurrency:
 jobs:
   collect-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - name: Check out default branch
         id: checkout
@@ -48,12 +48,23 @@ jobs:
             echo "value=collect" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Run collector regression tests
+        run: python3 -m unittest discover -s tests -v
+
       - name: Search and update the website feed
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TAIGA_THREAD_BOT }}
           TELEGRAM_CHAT_ID: "@taiga_thread"
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
         run: python3 scripts/telegram_news.py --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Upload source diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-source-audit
+          path: data/news-source-audit.json
+          retention-days: 30
 
       - name: Save deduplication and daily digest state
         if: always() && steps.checkout.outcome == 'success'
