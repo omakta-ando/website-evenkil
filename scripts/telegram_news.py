@@ -78,6 +78,23 @@ EDITORIAL_RELEVANCE_URLS = {
 }
 EDITORIAL_REGION_BY_URL = {
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
+    "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa": "Якутия",
+    "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns": "Якутия",
+    "https://indigenous-russia.com/archives/50623": "Зарубежные источники",
+}
+REGION_PATTERNS = {
+    "Амурская область": re.compile(r"амурск\w*|благовещенск\w*|бомнак\w*|тынд\w*", re.I),
+    "Бурятия": re.compile(r"бурят\w*|улан[- ]?удэ\w*|баунтовск\w*|курумкан\w*|баунт\w*", re.I),
+    "Забайкальский край": re.compile(r"забайкал\w*|чит(?:а|е|у|ой)\b|каларск\w*|кыринск\w*", re.I),
+    "Еврейская автономная область": re.compile(r"\bеао\b|еврейск\w* автономн\w*|биробиджан\w*|николаевк\w*|сагды-бир\w*|бирари\w*", re.I),
+    "Иркутская область": re.compile(r"иркутск\w*|ербогач[её]н\w*|бодайбинск\w*|качуг\w*|приангар\w*", re.I),
+    "Красноярский край": re.compile(r"красноярск\w*|эвенкия|эвенкии|эвенкийск\w*\s+(?:муниципальн\w*\s+)?(?:округ|район)\w*|туру\w*|ванавар\w*|байкит\w*|баикит\w*|нижн\w* тунгуск\w*|ессе\w*|эконд\w*", re.I),
+    "Приморский край": re.compile(r"примор\w*|владивосток\w*", re.I),
+    "Сахалинская область": re.compile(r"сахалин\w*|южно-сахалинск\w*", re.I),
+    "Томская область": re.compile(r"томск\w*|бакчар\w*", re.I),
+    "Тюменская область": re.compile(r"тюмен\w*", re.I),
+    "Хабаровский край": re.compile(r"хабаровск\w*|комсомольск-на-амуре\w*|ульчск\w*|аяно-майск\w*", re.I),
+    "Якутия": re.compile(r"якут\w*|республик\w* саха|\bсаха\b|оймякон\w*|иенгр\w*|хатыстыр\w*|нерюнгри\w*|алдан\w*", re.I),
 }
 EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
 CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
@@ -153,9 +170,27 @@ def story_region(item: dict[str, object], default: str) -> str:
     url = str(item.get("url", item.get("link", ""))).rstrip("/")
     if url in EDITORIAL_REGION_BY_URL:
         return EDITORIAL_REGION_BY_URL[url]
-    if EAST_ASIAN_SCRIPT_RE.search(story_text(item)):
+    assigned_region = str(item.get("region") or "")
+    if assigned_region and assigned_region != "Общие новости":
+        return assigned_region
+    text = story_text(item)
+    if EAST_ASIAN_SCRIPT_RE.search(text):
         return "Зарубежные источники"
-    return str(item.get("region") or default)
+    # Infer a region only when the headline or excerpt names it explicitly.
+    # The outlet's home region is not a safe substitute for story location.
+    scores: dict[str, int] = {}
+    title = str(item.get("title", ""))
+    excerpt = " ".join(str(item.get(key, "")) for key in ("description", "desc"))
+    for region, pattern in REGION_PATTERNS.items():
+        score = (4 if pattern.search(title) else 0) + (2 if pattern.search(excerpt) else 0)
+        if score:
+            scores[region] = score
+    if scores:
+        highest = max(scores.values())
+        winners = [region for region, score in scores.items() if score == highest]
+        if len(winners) == 1:
+            return winners[0]
+    return assigned_region or default
 
 
 def source_key(item: dict[str, object]) -> str:

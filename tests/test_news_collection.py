@@ -37,6 +37,16 @@ class CollectionTests(unittest.TestCase):
         self.assertIsNone(n.story_relevance({'title':'Новая школа в Москве'}))
         self.assertTrue(n.is_excluded_story({'title':'Эвенки — участники СВО'}))
 
+    def test_story_region_uses_explicit_place_and_keeps_national_topics_general(self):
+        self.assertEqual(n.story_region({'title':'Власти Красноярского края ускорили доставку продуктов в Эвенкию'}, 'Общие новости'), 'Красноярский край')
+        self.assertEqual(n.story_region({'title':'Копии петроглифов появились в ЕАО','source':'EAOMedia'}, 'Общие новости'), 'Еврейская автономная область')
+        self.assertEqual(n.story_region({'title':'Якутия в фокусе: северный завоз','source':'YakutiaMedia'}, 'Общие новости'), 'Якутия')
+        self.assertEqual(n.story_region({'title':'Северный завоз успешно завершается в 19 регионах'}, 'Общие новости'), 'Общие новости')
+        self.assertEqual(n.story_region({'title':'Северный завоз успешно завершается в 19 регионах','source':'YakutiaMedia'}, 'Общие новости'), 'Общие новости')
+        self.assertEqual(n.story_region({'title':'Песня на эвенкийском языке','source':'YouTube'}, 'Общие новости'), 'Общие новости')
+        self.assertEqual(n.story_region({'title':'鄂温克族驯鹿文化'}, 'Общие новости'), 'Зарубежные источники')
+        self.assertEqual(n.story_region({'url':'https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa','title':'Участники обсудили итоги форума'}, 'Общие новости'), 'Якутия')
+
     def test_idn_and_non_ascii_request_and_secret_redaction(self):
         from unittest.mock import MagicMock
         response=MagicMock()

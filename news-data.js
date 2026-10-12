@@ -10,7 +10,7 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-11",
     "source": "YakutiaMedia",
     "title": "Якутия в фокусе: северный завоз под угрозой, бензин в пути, скандал в Алдане - YakutiaMedia",
@@ -71,7 +71,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYUJuOHFCdDJNVVBqMmwxejFRcG5HaEZqZmZUbE9VYk05cF9JTy1uajVMRkotZGhsc0R0TlF0OHhYUVEwbkhCS0F5Q0NBMXd3RjF3OExVbUQwWWpOSnA5OE1wNnkzMVN5R1NNVUJXcFBCYkpsVzhjV2xNMzhyQjBMekpqbFZvRjAzaXhYUk80bHNRUUZRZUgxTXl6UTNQV3FfN0pLTG1ZUUFWQdIBrwFBVV95cUxOTE12Vkt1aEZRM1JDMVB2SF9LREF1aEtsN1hrdm40eXJnZGRObmlmLVJacTBmTUlBVXNxNURWMTRESjNPdWRBdzNITUI5UlZJNWptejIzVzRtNGNXa29tb2ZJcGZlT0wxYlpIREV1bW03azJwQUpSRnRrUXJCVWMyQTBxZVRhR0kzSEZEcUJqWDV2cVR4SDFodzhPWUdKZ3JtNXFlSWxUc2thQmhBSHlN?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-08",
     "source": "Рамблер",
     "title": "Власти Красноярского края ускорили доставку продуктов в Эвенкию - Рамблер",
@@ -81,7 +81,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSm43ajdvY3pJc1lxaXhFRUI4UGE2ZG9TM24yMmtlN0VTR3lfWlZjN1VJZ09Bb0M2UWZwQUN6RGNNMnNCQjM2Wndqb1ZBTGtraWNYcWlvZnNVWThYdHV3V2pQa0tBenRCSkRKc205TjU4SnRxczAtS0ZVX0pjUW5td05Sa2Q1WmNLYjQzTFhUdkJZTlgxeUpRa3VEdnRnQlJhcEp5Z1BLMnpiSktPLTln0gG0AUFVX3lxTFBHM2FsNzZKQkp0anN3WE9YbDd3S0xMT3Z4SmRWZWNncHlLaEdZNFVncXQ1U3AtOWEtZHpYNkF0SGhSNEkxR3Q0cWE5NVVNbU5zM0hMUEpmbHBwQW5CVE91Vllrd29RdTd2bndzaFBMR1R6Z0hpN3VGYmtIa3dwN081YXExQVRoRHFJQmd5MGR5YlJXdVVWb3B1TEY4TUFnR2xYbGN5cFpHRE5CX1ZId1p0SjdkWA?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Забайкальский край",
     "date": "2026-10-08",
     "source": "Культура 75",
     "title": "Съездить на экскурсию в дацан и узнать о моде эвенков. Как отпразднуют 18-летие Забайкалья 1 марта в Чите? - Культура 75",
@@ -120,7 +120,7 @@ window.newsStories=[
     "link": "https://iltumen.ru/news/28242"
   },
   {
-    "region": "Общие новости",
+    "region": "Еврейская автономная область",
     "date": "2026-10-06",
     "source": "EAOMedia",
     "title": "Копии амурских петроглифов появились в ЕАО на экотропе \"По следам бираров\" - EAOMedia",
@@ -130,7 +130,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5RQWtfd1BBRTFZdERveE9NX0FiZF9Wa3ktek4xLW5JazhYNVZLYXBoTS1EYTRtd0J3dDRxS2hfR3dpVHVzUmZNSg?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Зарубежные источники",
     "date": "2026-10-05",
     "source": "Indigenous Russia",
     "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра",
@@ -150,7 +150,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HY2IzbmtFWEI2NkFMOVJtaXNUQkp5UjR4ajBYbXEyWnY3aW43RFJTeWdOSk1mRHg3QlVVTmE1WlUxVV8zYnVIbTQ4VmdxbjdvMDdtdWtB?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Хабаровский край",
     "date": "2026-10-05",
     "source": "Dairy News",
     "title": "Хабаровский край расширил программу субсидируемой авиадоставки продуктов - Dairy News",
@@ -438,7 +438,7 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-10",
     "source": "YakutiaMedia",
     "title": "Север ждет: власти Якутии ускоряют доставку овощей и топлива по рекам - YakutiaMedia",
@@ -477,7 +477,7 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-06",
     "source": "Рамблер",
     "title": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов - Рамблер",
@@ -496,7 +496,7 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
-    "region": "Общие новости",
+    "region": "Зарубежные источники",
     "date": "2026-10-05",
     "source": "Indigenous Russia",
     "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра - Indigenous Russia",
@@ -569,7 +569,7 @@ window.newsStories=[
     "link": "https://sakh.online/news/18/2026-08-27/na-poberezhie-zaliva-chayvo-proshyol-prazdnik-olenevodov-kurey-2026-524421"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-10",
     "source": "Илкэн · Улгур",
     "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
