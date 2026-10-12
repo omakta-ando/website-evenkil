@@ -1,25 +1,5 @@
 window.newsStories=[
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "MNB · Монголын Үндэсний Олон Нийтийн Радио Телевиз",
-    "title": "Э.Бат-Амгалан : \"Солонго-1, 2\" төслийн орон сууцны сонгон шалгаруулалт аравдугаар сардаа багтаж явагдана",
-    "desc": "Э.Бат-Амгалан : \"Солонго-1, 2\" төслийн орон сууцны сонгон шалгаруулалт аравдугаар сардаа багтаж явагдана",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://www.mnb.mn/article/solongo-1-2-tusliin-oron-suutsny-songon-shalgaruulalt-aravdugaar-sardaa-bagtaj-yavagdana-8690"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "Ikon.mn",
-    "title": "Гамшгийн үеэр Өмнөд Солонгосын ерөнхийлөгч гольфын талбайд байснаа Трамптай тоглох бэлтгэл байсан гэж тайлбарлажээ",
-    "desc": "Өнгөрсөн амралтын өдөр Өмнөд Солонгосын зүүн өмнөд бүсийн Тэгү хотод супермаркетын тааз нурсны улмаас 38 хүн бэртсэн осол гарсан байна.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ikon.mn/n/3qy0"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-12",
     "source": "Аграрный МедиаХолдинг Светич",
@@ -222,16 +202,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXBRVGYzOWsxeFpBb2tpSzNDYTBiWWI1RHc0UVpYMm01eGxfYmtFNkpPNU05QnFjSFdnN19CODZ4cGhsS1UzbW9vb2UybkplZm5qVU0yTE1vYnhVRTJSeEx1S1RCcWZ1WmJIZlpXWjJnQnNLNHVUSE52eTdBN0VIcTFIS2s?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-07",
-    "source": "Интерфакс Россия",
-    "title": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке - Интерфакс Россия",
-    "desc": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке Интерфакс Россия",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0E3b0FQU1J0ZXJBUVdDU2tzekx6cWI5Sm1YdFdrSGZpSzNiSC1qb2h3aVQtZDFLN2JXTFJaRS1sVTg1MWxEd2NrakdrTjlPU2pBWGFDcldoTXZpSjJFNmdBX0d0WW5GRFFHenhFcGdsUEJURVpOTUxHT0FObkR2V2ZxaGZnd1ZTRllOd1kwUVRxc1N4bkhveXNDMF9TMXZXMVhsUFROYk01eXBuWWtWbg?oc=5"
   },
   {
     "region": "Еврейская автономная область",
