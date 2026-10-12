@@ -44,7 +44,7 @@ MAX_DIGEST_ITEMS = 40
 
 EVENKI_MENTION_RE = re.compile(
     r"(?:\bэвенк(?:и|ов|ам|ами|ах|а|у|ом|е|ой|ою|ок)\b"
-    r"|\b(?:ороч[её]н|хамниган|манегр|солон|бакалдын|мучун)\w*\b"
+    r"|\b(?:ороч[её]н|хамниган|манегр|бакалдын|мучун)\w*\b|\bсолон(?:ы|ов|ам|ами|ах|а|у|ом|е|ск(?:ий|ая|ое|ие|их|им|ую|ого|ому|ыми))?\b"
     r"|\bбирар(?:ы|ов|ам|ами|ах|а|у|ом|е|ой|ою)\b"
     r"|\bэвенкийц\w*\b|\bперевод\w*\s+с\s+эвенкийск\w*\b|\bэвенкийск\w{0,16}\s+(?:язык\w*|культур\w*|реч\w*|словар\w*|песн\w*|музык\w*|танц\w*|фольклор\w*|литератур\w*|писател\w*|поэт\w*|композитор\w*|художник\w*|артист\w*|школ\w*|учебник\w*|обучен\w*|диктант\w*|олимпиад\w*|конкурс\w*|традиц\w*|обыча\w*|музе\w*|искусств\w*|общин\w*|обществ\w*|истори\w*|наслед\w*|оленевод\w*|промысл\w*|ансамбл\w*)"
     r"|\b(?:evenkis?|ewenkis?|orochons?|oroqens?|oroqins?|khamnigans?|hamnigans?)\b"
@@ -81,12 +81,13 @@ EDITORIAL_REGION_BY_URL = {
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa": "Якутия",
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns": "Якутия",
     "https://indigenous-russia.com/archives/50623": "Зарубежные источники",
+    "https://t.me/biraria/4225": "Еврейская автономная область",
 }
 REGION_PATTERNS = {
     "Амурская область": re.compile(r"амурск\w*|благовещенск\w*|бомнак\w*|тынд\w*", re.I),
     "Бурятия": re.compile(r"бурят\w*|улан[- ]?удэ\w*|баунтовск\w*|курумкан\w*|баунт\w*", re.I),
     "Забайкальский край": re.compile(r"забайкал\w*|чит(?:а|е|у|ой)\b|каларск\w*|кыринск\w*", re.I),
-    "Еврейская автономная область": re.compile(r"\bеао\b|еврейск\w* автономн\w*|биробиджан\w*|николаевк\w*|сагды-бир\w*|бирари\w*", re.I),
+    "Еврейская автономная область": re.compile(r"\bеао\b|еврейск\w* автономн\w*|биробиджан\w*|николаевк\w*|теплоозерск\w*|сагды-бир\w*|бирари\w*", re.I),
     "Иркутская область": re.compile(r"иркутск\w*|ербогач[её]н\w*|бодайбинск\w*|качуг\w*|приангар\w*", re.I),
     "Красноярский край": re.compile(r"красноярск\w*|эвенкия|эвенкии|эвенкийск\w*\s+(?:муниципальн\w*\s+)?(?:округ|район)\w*|туру\w*|ванавар\w*|байкит\w*|баикит\w*|нижн\w* тунгуск\w*|ессе\w*|эконд\w*", re.I),
     "Приморский край": re.compile(r"примор\w*|владивосток\w*", re.I),
@@ -99,6 +100,7 @@ REGION_PATTERNS = {
 EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
 CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
 CHINESE_RELEVANCE_CONTEXT_RE = re.compile(r"文化|传统|語言|语言|民俗|民族|生活|经济|經濟|牧业|牧業|狩猎|狩獵|驯鹿|馴鹿|放牧|非遗|非遺|节庆|節慶|手工艺|手工藝|舞蹈|歌曲|历史|歷史|教育")
+MONGOLIAN_HOMONYM_RE = re.compile(r"(?:\bсолонго(?:[-\s]*[12])?\b|\bсолонгос\w*|\bsolongo(?:[-\s]*[12])?\b|\bsolongos\w*)", re.I)
 EXCLUDED_STORY_URLS = {
     "https://t.me/biraria/4194",
     'https://t.me/EAOMedia/47585',
@@ -109,6 +111,12 @@ EXCLUDED_STORY_URLS = {
     'https://t.me/biraria/4223',
     'https://t.me/biraria/4224',
     'https://t.me/biraria/4234',
+    'https://ikon.mn/n/3qs9',
+    'https://ikon.mn/n/3qy0',
+    'https://t.me/biraria/4218',
+    'https://www.ief.ac.cn/dzxx/info/2026/97221.html',
+    'https://www.mnb.mn/article/solongo-1-2-tusliin-oron-suutsny-songon-shalgaruulalt-aravdugaar-sardaa-bagtaj-yavagdana-8690',
+    'https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwZ2FEZk54SFZKb3BRa3NZWkFBWFY0Q3BnY3FJZ19uRThBQ2dLQnRlcC1ZQkFuUFFsWENIcjBXbk9WcjNoX0xhVThKaFhtdEQtbENBRmpIMNIBXEFVX3lxTE50aGZGX2E4YXNQX1pScHNEMGo4WEhGX3NmY2tZenhlaGdoazhUOEVSQUI3VUd0RnMtQW41aUdoSDFydG9nbGFpamlhY21lZlBUMVRNZExoVDNOTW1j?oc=5',
 }
 
 
@@ -127,6 +135,7 @@ def is_excluded_story(item: dict[str, object]) -> bool:
     return (
         str(item.get("url", "")).rstrip("/") in EXCLUDED_STORY_URLS
         or bool(EXCLUDED_TOPIC_RE.search(text))
+        or (bool(MONGOLIAN_HOMONYM_RE.search(text)) and not EVENKI_MENTION_RE.search(text) and not CONTEXT_TOPIC_RE.search(text))
         or chinese_place_only
     )
 
@@ -953,7 +962,7 @@ def fetch_items() -> list[dict[str, str]]:
     source_terms = (
         "эвенки", "эвенк", "эвенкийский", "эвенкия", "эвенкил", "эвэды",
         "орочон", "орочёны", "хамниган", "тунгус", "бирар", "манегр",
-        "солон", "бакалдын", "мучун", "оленеводство", "оленеводы",
+        "солоны эвенки", "бакалдын", "мучун", "оленеводство", "оленеводы",
         "поголовье оленей", "пастбища оленеводов", "разведение оленей",
         "Хатыстыр", "северный завоз", "оленеводческие хозяйства Арктики",
     )

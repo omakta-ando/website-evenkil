@@ -1,25 +1,5 @@
 window.newsStories=[
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "MNB · Монголын Үндэсний Олон Нийтийн Радио Телевиз",
-    "title": "Э.Бат-Амгалан : \"Солонго-1, 2\" төслийн орон сууцны сонгон шалгаруулалт аравдугаар сардаа багтаж явагдана",
-    "desc": "Э.Бат-Амгалан : \"Солонго-1, 2\" төслийн орон сууцны сонгон шалгаруулалт аравдугаар сардаа багтаж явагдана",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://www.mnb.mn/article/solongo-1-2-tusliin-oron-suutsny-songon-shalgaruulalt-aravdugaar-sardaa-bagtaj-yavagdana-8690"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "Ikon.mn",
-    "title": "Гамшгийн үеэр Өмнөд Солонгосын ерөнхийлөгч гольфын талбайд байснаа Трамптай тоглох бэлтгэл байсан гэж тайлбарлажээ",
-    "desc": "Өнгөрсөн амралтын өдөр Өмнөд Солонгосын зүүн өмнөд бүсийн Тэгү хотод супермаркетын тааз нурсны улмаас 38 хүн бэртсэн осол гарсан байна.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ikon.mn/n/3qy0"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-12",
     "source": "Аграрный МедиаХолдинг Светич",
@@ -224,7 +204,7 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXBRVGYzOWsxeFpBb2tpSzNDYTBiWWI1RHc0UVpYMm01eGxfYmtFNkpPNU05QnFjSFdnN19CODZ4cGhsS1UzbW9vb2UybkplZm5qVU0yTE1vYnhVRTJSeEx1S1RCcWZ1WmJIZlpXWjJnQnNLNHVUSE52eTdBN0VIcTFIS2s?oc=5"
   },
   {
-    "region": "Общие новости",
+    "region": "Камчатский край",
     "date": "2026-10-07",
     "source": "Интерфакс Россия",
     "title": "Камчатка привлекла на северный завоз 4 млрд руб. по льготной ставке - Интерфакс Россия",
@@ -312,16 +292,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM1dnWC0wUE5xVHcwUDVKTi01UFpCYXVZRU91WXhrcDhtblFzc0ZtLVJhQUFJeW5hSU56M25Ua2lxZkdMblN0WFFjS1Y0aTc5aWkycWZpQ20wSjIxb21wTVJ3OTlzem1rbTRHOXprSU11RjU5VXRhYmJfUUtzVzdqMjhHNi1LaDhBY3BlMEpMdElCaWdtdVFnNDkyZ0tXNC03RWlvSnZTMUY3Z25hOUVxOFRKT2dnYk9RdXZv?oc=5"
-  },
-  {
-    "region": "Зарубежные источники",
-    "date": "2026-10-05",
-    "source": "Институт прогнозирования землетрясений КНР",
-    "title": "В Орочонском хошуне произошло землетрясение магнитудой 3,1",
-    "desc": "По сообщению китайской сейсмологической службы, 5 октября в 19:16 по пекинскому времени в Орочонском хошуне Хулун-Буира произошло землетрясение магнитудой 3,1. Глубина очага составила 10 километров.",
-    "tags": "региональный контекст север традиционные промыслы",
-    "relevance": "context",
-    "link": "https://www.ief.ac.cn/dzxx/info/2026/97221.html"
   },
   {
     "region": "Красноярский край",
@@ -592,16 +562,6 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "Ikon.mn",
-    "title": "“Кёнбугт суралцацгаая – 2026” Солонгосын боловсролын үзэсгэлэн энэ сарын 24-нд Галлериа УБ төвд болно",
-    "desc": "БНСУ-ын 6 их, дээд сургуулийн элсэлт хариуцсан төлөөлөгчид тус үзэсгэлэнд хүрэлцэн ирж, арга хэмжээний үеэр сургуулийнхаа тэтгэлгийг олгохоор боллоо. Үзэсгэлэнд оролцох бүртгэл: https://bit.ly/4yts0A5",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ikon.mn/n/3qs9"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
@@ -724,16 +684,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR1FyOHo1UnBqWFU0NWJ5U05GRm1uZ3ZrQ0c4MWdFODEyVTNrS3c5ckcxOXRvZ1QycGpjbDJJWklOV1ZxdXZzdV9aLWFQZ0czVXpWR0lMQk0wWmJsbktmZm5ucElGSWQ0emVaOU5PRG1wdFpURFhPTEk4SGNKbUhSTjRadGJ1cjdYbVB5N1g2Q252R3QzMDBZQ0ZIYkFtTmFHUnAwSGM4NkF4M0l5emtvUm0teVpxV2lieThRUFU4VE0zdFhId0o4bnVWNNIB0AFBVV95cUxPOWJVUHk1YjVmUFBFbEc1aVFLXzBadG1pdGhIRVVsS19wQWR0MEVWc0M3UVlQMjRqdHc2cFJlQ1FzN19qaWo0eVdMb2hWTEZ1RUVjZ3c5dWZEODNvMzV6SmFnVTZIWG9nOUNpYWJGZG9iWk5GeV9pMi1lV0MwMFZCNHBKTFlfaWt3cktBanRWX2tUOGxzdHV0NmswTFBBTFZieW14UzZHQWdRemJlcGRkdDRKeGdoa1ZLOFZkdW1JZEVGVU9rdUVmdXFEWXdpSU5L?oc=5"
   },
   {
-    "region": "Зарубежные источники",
-    "date": "2026-10-05",
-    "source": "Indigenous Russia",
-    "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра - Indigenous Russia",
-    "desc": "«Последняя четверть луны»: история эвенков, рассказанная у костра Indigenous Russia",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwZ2FEZk54SFZKb3BRa3NZWkFBWFY0Q3BnY3FJZ19uRThBQ2dLQnRlcC1ZQkFuUFFsWENIcjBXbk9WcjNoX0xhVThKaFhtdEQtbENBRmpIMNIBXEFVX3lxTE50aGZGX2E4YXNQX1pScHNEMGo4WEhGX3NmY2tZenhlaGdoazhUOEVSQUI3VUd0RnMtQW41aUdoSDFydG9nbGFpamlhY21lZlBUMVRNZExoVDNOTW1j?oc=5"
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-09-07",
     "source": "НКК",
@@ -827,7 +777,7 @@ window.newsStories=[
     "link": "https://t.me/evenkya_life/12665"
   },
   {
-    "region": "Общие новости",
+    "region": "Еврейская автономная область",
     "date": "2026-10-08",
     "source": "Бирария · Telegram",
     "title": "🐯 Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
@@ -985,17 +935,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://t.me/evenkya_life/12658",
     "image": "https://cdn4.telesco.pe/file/Au7zfHOMJrbbDNYn4QCm4i8uFQb4kECuU1btyu__MjhH9Klu9dspyr0CeAvayuI5Qrdw9mfZCU90tcqo9-EMK31dVJIDY2-NTi7Gz9UwFX2lvUVvB5tXdf9nOgZXc2Kie2hf6HjUMeKwL1iFJi1VtadciwrXP081Lpe9b9y78R4KT5is6bt2aXs9ROE5M6mPJfK8rsIS8it3yg2gydyMo-AOeSYY0g-NJh6NouuqOdJ1eY9dspknsrN-8-xRppLL_kDqt_18ipbnhkh3c4GJgbvE8DUy6P1qmPXbfLBNB73dHvTTVpkWmqg_-FWb7H84zlPMzCLw-0dr7lrRAhDRyg.jpg"
-  },
-  {
-    "region": "Еврейская автономная область",
-    "date": "2026-10-05",
-    "source": "Бирария · Telegram",
-    "title": "🎎 Запишись на мастер-класс по нанайским шашкам «Апокачи» в КТЦ «Бирария» Приглашаем на мастер-класс по интеллектуальной игре нанайским шашкам «Апокачи»! Эта древняя игра не только",
-    "desc": "🎎 Запишись на мастер-класс по нанайским шашкам «Апокачи» в КТЦ «Бирария» Приглашаем на мастер-класс по интеллектуальной игре нанайским шашкам «Апокачи»! Эта древняя игра не только увлекательна, но и полезна. Она учит: ▪️ стратегическому и аналитическому мышлению ▪️ концентрации внимания ▪️ усидчивости Вы получите удовольствие от освоения новой игры и от общения с соперниками ▫️ Когда: 17 октября 2026 (суббота) в 14:0",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/biraria/4218",
-    "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
   },
   {
     "region": "Бурятия",
