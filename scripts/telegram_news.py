@@ -41,6 +41,8 @@ BOT_API = "https://api.telegram.org"
 LOOKBACK_HOURS = 7 * 24
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
+MAX_FULLTEXT_REVIEWS = 40
+FULLTEXT_CANDIDATE_RE = re.compile(r"(?:олен\w*|оленевод\w*|экспорт\w*|ген[ьъ]?х[эе]\w*|тянск\w*|арктик\w*|северн\w*.{0,24}(?:завоз\w*|посел\w*|район\w*|народ\w*|олень\w*)|завоз\w*|снабжени\w*|груз\w*|коренн\w* народ\w*|общин\w*|традиц\w*|культур\w*|язык\w*|школ\w*|промысл\w*|охот\w*|рыболов\w*)", re.I)
 
 EVENKI_MENTION_RE = re.compile(
     r"(?:\bэвенк(?:и|ов|ам|ами|ах|а|у|ом|е|ой|ою|ок)\b"
@@ -127,7 +129,62 @@ EXCLUDED_STORY_URLS = {
 
 
 def story_text(item: dict[str, object]) -> str:
-    return " ".join(str(item.get(key, "")) for key in ("title", "description", "desc"))
+    return " ".join(str(item.get(key, "")) for key in ("title", "description", "desc", "articleText"))
+
+
+def needs_fulltext_review(item: dict[str, object]) -> bool:
+    """Retain borderline candidates for bounded full-article relevance review."""
+    return bool(FULLTEXT_CANDIDATE_RE.search(" ".join(
+        str(item.get(key, "")) for key in ("title", "description", "desc"))))
+
+
+def review_fulltext_candidates(items: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Read only ambiguous, plausible candidates; never crawl arbitrary pages."""
+    discovery = json.loads(SOURCES_FILE.read_text(encoding="utf-8")).get("directDiscovery", {})
+    max_reviews = max(0, min(100, int(discovery.get("maxFullTextReviews", MAX_FULLTEXT_REVIEWS))))
+    workers = max(1, min(12, int(discovery.get("fullTextWorkers", 8))))
+    timeout = max(3, min(20, int(discovery.get("fullTextTimeoutSeconds", 10))))
+    pending = [item for item in items if item.get("needsFullText") == "1" and not is_excluded_story(item)]
+    pending.sort(key=lambda item: (item.get("configuredSource") != "1", item.get("source", "")))
+    unique_pending = {}
+    for item in pending:
+        unique_pending.setdefault(news_sources.canonical_url(item.get("url", "")), item)
+    pending = list(unique_pending.values())
+    if len(pending) > max_reviews:
+        AUDIT.event("fulltext-review", "candidate_limit", omitted=len(pending) - max_reviews)
+        pending = pending[:max_reviews]
+
+    def inspect(item: dict[str, str]) -> tuple[dict[str, str], str, str]:
+        url = item.get("url", "")
+        try:
+            payload = request(url, timeout=timeout)
+            page = news_sources.Page(news_sources.decode_html(payload), url)
+            article_text = clean(page.article_text)
+            if len(article_text) < 120:
+                return item, "full_text_unavailable", ""
+            checked = {**item, "articleText": article_text}
+            if is_excluded_story(checked):
+                return item, "editorial_exclusion_full_text", ""
+            relevance = story_relevance(checked)
+            if not relevance:
+                return item, "irrelevant_full_text", ""
+            item["detectedRelevance"] = relevance
+            item["detectedRegion"] = story_region(checked, "Общие новости")
+            item["needsFullText"] = "0"
+            return item, "full_text_relevant", ""
+        except (OSError, ValueError, urllib.error.URLError, TimeoutError) as error:
+            return item, "full_text_failed", type(error).__name__
+
+    accepted = []
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        for item, reason, detail in executor.map(inspect, pending):
+            AUDIT.event(item.get("source", "fulltext-review"), reason, item.get("url", ""), detail=detail)
+            if reason == "full_text_relevant":
+                accepted.append(item)
+    reviewed_ids = {id(item) for item in pending}
+    result = [item for item in items if id(item) not in reviewed_ids]
+    result.extend(accepted)
+    return result
 
 
 def is_excluded_story(item: dict[str, object]) -> bool:
@@ -189,7 +246,7 @@ def story_region(item: dict[str, object], default: str) -> str:
     url = str(item.get("url", item.get("link", ""))).rstrip("/")
     if url in EDITORIAL_REGION_BY_URL:
         return EDITORIAL_REGION_BY_URL[url]
-    assigned_region = str(item.get("region") or "")
+    assigned_region = str(item.get("region") or item.get("detectedRegion") or "")
     if assigned_region and assigned_region != "Общие новости":
         return assigned_region
     text = story_text(item)
@@ -199,7 +256,7 @@ def story_region(item: dict[str, object], default: str) -> str:
     # The outlet's home region is not a safe substitute for story location.
     scores: dict[str, int] = {}
     title = str(item.get("title", ""))
-    excerpt = " ".join(str(item.get(key, "")) for key in ("description", "desc"))
+    excerpt = " ".join(str(item.get(key, "")) for key in ("description", "desc", "articleText"))
     for region, pattern in REGION_PATTERNS.items():
         score = (4 if pattern.search(title) else 0) + (2 if pattern.search(excerpt) else 0)
         if score:
@@ -556,7 +613,8 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 if reason:
                     AUDIT.event(str(feed["id"]), reason, link)
                     continue
-                if not is_evenki_feed and not is_evenki_related({"title": title, "description": description}):
+                needs_review = needs_fulltext_review({"title": title, "description": description})
+                if not is_evenki_feed and not is_evenki_related({"title": title, "description": description}) and not needs_review:
                     AUDIT.event(str(feed["id"]), "irrelevant", link)
                     continue
                 guid = clean(node.findtext("guid", ""))
@@ -566,6 +624,8 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     "day": published.date().isoformat(), "description": description,
                     "ilkenEvenki": "1" if is_evenki_feed else "0",
                     "configuredSource": "0" if is_evenki_feed else "1",
+                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
+                    "needsFullText": "1" if needs_review and not is_evenki_related({"title": title, "description": description}) else "0",
                 })
         except (OSError, ValueError, ET.ParseError, KeyError) as error:
             AUDIT.event(str(feed["id"]), "rss_failed", str(feed["url"]), error=type(error).__name__)
@@ -573,7 +633,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
 
         # The publisher's RSS is currently returning HTTP 555 to GitHub Actions.
         # The category HTML is public and includes each story's date in its permalink.
-        if len(found) == feed_start and feed.get("category"):
+        if feed.get("category"):
             try:
                 page = request(str(feed["category"]), headers={
                     "User-Agent": "Mozilla/5.0 (compatible; TaezhnayaNit-NewsMonitor/1.0)",
@@ -587,13 +647,16 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                         AUDIT.event(str(feed["id"]), reason, str(story["url"]))
                         continue
                     item = {"title": story["title"], "description": story["description"], "url": story["url"]}
-                    if not is_evenki_feed and not is_evenki_related(item):
+                    needs_review = needs_fulltext_review(item)
+                    if not is_evenki_feed and not is_evenki_related(item) and not needs_review:
                         AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
-                        "day": published.date().isoformat(), "description": story["description"],
+                        "day": published.date().isoformat(),
+                        "description": story["description"],
+                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
                         "ilkenEvenki": "1" if is_evenki_feed else "0",
                         "configuredSource": "0" if is_evenki_feed else "1",
                     })
@@ -620,15 +683,19 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                         AUDIT.event(str(feed["id"]), reason, str(story["url"]))
                         continue
                     item = {"title": story["title"], "description": story["description"], "url": story["url"]}
-                    if not is_evenki_feed and not is_evenki_related(item):
+                    needs_review = needs_fulltext_review(item)
+                    if not is_evenki_feed and not is_evenki_related(item) and not needs_review:
                         AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
                         continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
-                        "day": published.date().isoformat(), "description": story["description"],
+                        "day": published.date().isoformat(),
+                        "description": story["description"],
+                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
                         "ilkenEvenki": "1" if is_evenki_feed else "0",
                         "configuredSource": "0" if is_evenki_feed else "1",
+                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
                     })
                 count = len(found) - feed_start
                 if count:
@@ -974,6 +1041,8 @@ def fetch_items() -> list[dict[str, str]]:
         "орочон", "орочёны", "хамниган", "тунгус", "бирар", "манегр",
         "солоны эвенки", "бакалдын", "мучун", "оленеводство", "оленеводы",
         "поголовье оленей", "пастбища оленеводов", "разведение оленей",
+        "экспорт северных оленей", "экспорт оленей Китай", "Гэньхэ оленеводство",
+        "Тянский эвенкийский наслег", "побратимские связи Гэньхэ",
         "Хатыстыр", "северный завоз", "оленеводческие хозяйства Арктики",
     )
     source_query = " OR ".join(quote_search_term(term) for term in (*source_terms, *load_query_group("local-entities")))
@@ -1078,10 +1147,13 @@ def fetch_items() -> list[dict[str, str]]:
             guid = clean(node.findtext("guid", ""))
             item_id = guid or link
             is_ilken = ilken_search and "ilken.ru" in (source_host, (urllib.parse.urlsplit(link).hostname or "").lower())
-            if not is_evenki_related({"title": title, "description": description}) and not is_ilken:
+            text_candidate = {"title": title, "description": description}
+            relevant = is_evenki_related(text_candidate)
+            needs_review = needs_fulltext_review(text_candidate)
+            if not relevant and not is_ilken and not needs_review:
                 AUDIT.event(feed_query, "irrelevant", link)
                 continue
-            relevant_count += 1
+            relevant_count += int(relevant)
             # Resolve Google News redirects only after relevance filtering. This
             # avoids making an extra network request for every irrelevant hit.
             publisher_url = original_source_url(link)
@@ -1101,6 +1173,7 @@ def fetch_items() -> list[dict[str, str]]:
                 "description": description,
                 "ilkenEvenki": "1" if is_ilken else "0",
                 "configuredSource": "1" if configured_source else "0",
+                "needsFullText": "1" if needs_review and not relevant and not is_ilken else "0",
             })
         AUDIT.event(feed_query, "search_ok", accepted=len(found), returned=len(nodes))
         if len(nodes) >= 100:
@@ -1134,7 +1207,7 @@ def fetch_items() -> list[dict[str, str]]:
     if failures == len(feeds) and not direct_items and not any(AUDIT.rows.get(domain, {}).get("counts", {}).get("request_ok") for domain in domains):
         raise RuntimeError("All Google News RSS searches failed")
     # Deduplicate repeated articles returned by the global and publisher-specific searches.
-    candidates = items + direct_items
+    candidates = review_fulltext_candidates(items + direct_items)
     excluded = [item for item in candidates if is_excluded_story(item) or (not is_evenki_related(item) and not trusted_category(item))]
     print(
         f"Search complete: {len(feeds)} Google News RSS searches, "
