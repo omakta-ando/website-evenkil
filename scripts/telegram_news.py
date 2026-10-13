@@ -100,7 +100,9 @@ REGION_PATTERNS = {
 EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
 CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
 CHINESE_RELEVANCE_CONTEXT_RE = re.compile(r"文化|传统|語言|语言|民俗|民族|生活|经济|經濟|牧业|牧業|狩猎|狩獵|驯鹿|馴鹿|放牧|非遗|非遺|节庆|節慶|手工艺|手工藝|舞蹈|歌曲|历史|歷史|教育")
-MONGOLIAN_HOMONYM_RE = re.compile(r"(?:\bсолонго(?:[-\s\u2010-\u2015]*[12])?\b|\bсолонгос\w*|\bsolongo(?:[-\s\u2010-\u2015]*[12])?\b|\bsolongos\w*)", re.I)
+SOLON_TOKEN_RE = re.compile(r"\bсолон[а-яё]*\b", re.I)
+SOLON_CONTEXT_RE = re.compile(r"эвенк|ороч[её]н|хамниган|манегр|тунгус|evenki|ewenki|oroqen|orochon|鄂温克|鄂伦春|народ|этнос|язык|культур|традиц|обыча|истори|наслед|шаман|оленевод|олен|охот|хозяйств|фольклор|поселен|автономн", re.I)
+MONGOLIAN_HOMONYM_RE = re.compile(r"(?:\bсолонго\w*|\bсолонгос\w*|\bсолонц\w*|\bsolongo\w*|\bsolongos\w*)", re.I)
 EXCLUDED_STORY_URLS = {
     "https://t.me/biraria/4194",
     'https://t.me/EAOMedia/47585',
@@ -116,6 +118,9 @@ EXCLUDED_STORY_URLS = {
     'https://t.me/biraria/4218',
     'https://www.ief.ac.cn/dzxx/info/2026/97221.html',
     'https://www.mnb.mn/article/solongo-1-2-tusliin-oron-suutsny-songon-shalgaruulalt-aravdugaar-sardaa-bagtaj-yavagdana-8690',
+    'https://ikon.mn/n/3qy0',
+    'https://ikon.mn/n/3qs9',
+    'https://ngs24.ru/text/gorod/2026/10/12/76694947',
     'https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwZ2FEZk54SFZKb3BRa3NZWkFBWFY0Q3BnY3FJZ19uRThBQ2dLQnRlcC1ZQkFuUFFsWENIcjBXbk9WcjNoX0xhVThKaFhtdEQtbENBRmpIMNIBXEFVX3lxTE50aGZGX2E4YXNQX1pScHNEMGo4WEhGX3NmY2tZenhlaGdoazhUOEVSQUI3VUd0RnMtQW41aUdoSDFydG9nbGFpamlhY21lZlBUMVRNZExoVDNOTW1j?oc=5',
     'https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0E3b0FQU1J0ZXJBUVdDU2tzekx6cWI5Sm1YdFdrSGZpSzNiSC1qb2h3aVQtZDFLN2JXTFJaRS1sVTg1MWxEd2NrakdrTjlPU2pBWGFDcldoTXZpSjJFNmdBX0d0WW5GRFFHenhFcGdsUEJURVpOTUxHT0FObkR2V2ZxaGZnd1ZTRllOd1kwUVRxc1N4bkhveXNDMF9TMXZXMVhsUFROYk01eXBuWWtWbg?oc=5',
 }
@@ -138,7 +143,8 @@ def is_excluded_story(item: dict[str, object]) -> bool:
         story_url in EXCLUDED_STORY_URLS
         or "solongo-1-2" in story_url.casefold()
         or bool(EXCLUDED_TOPIC_RE.search(text))
-        or (bool(MONGOLIAN_HOMONYM_RE.search(text)) and not EVENKI_MENTION_RE.search(text) and not CONTEXT_TOPIC_RE.search(text))
+        or (bool(MONGOLIAN_HOMONYM_RE.search(text)) and not EVENKI_MENTION_RE.search(text))
+        or (bool(SOLON_TOKEN_RE.search(text)) and not SOLON_CONTEXT_RE.search(text))
         or chinese_place_only
     )
 
