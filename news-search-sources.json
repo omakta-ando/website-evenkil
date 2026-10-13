@@ -293,6 +293,9 @@
     "maxArticlePages": 8,
     "maxFeeds": 3,
     "sourceBudgetSeconds": 30,
+    "maxFullTextReviews": 40,
+    "fullTextWorkers": 8,
+    "fullTextTimeoutSeconds": 10,
     "sources": {}
   }
 }
