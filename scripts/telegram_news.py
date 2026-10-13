@@ -145,6 +145,7 @@ def is_excluded_story(item: dict[str, object]) -> bool:
         or bool(EXCLUDED_TOPIC_RE.search(text))
         or (bool(MONGOLIAN_HOMONYM_RE.search(text)) and not EVENKI_MENTION_RE.search(text))
         or (bool(SOLON_TOKEN_RE.search(text)) and not SOLON_CONTEXT_RE.search(text))
+        or (bool(re.search(r"камчат[а-яё]*", text, re.I)) and not EVENKI_MENTION_RE.search(text))
         or chinese_place_only
     )
 
