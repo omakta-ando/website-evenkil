@@ -1263,12 +1263,23 @@ def telegram_send(text: str, *, parse_mode: str | None = "HTML", disable_web_pag
         raise RuntimeError(f"Telegram sendMessage failed: {result.get('description', 'unknown error')}")
 
 
+EMOJI_RE = re.compile(
+    "[\U0001F1E0-\U0001FAFF\U00002600-\U000027BF\uFE0F\u200D\u20E3]+"
+)
+
+
+def telegram_text(value: str) -> str:
+    """Remove pictographic emoji from Telegram copy and tidy resulting spaces."""
+    return re.sub(r"\s+", " ", EMOJI_RE.sub("", clean(value))).strip()
+
+
 def plain_item(item: dict[str, str]) -> str:
-    parts = ["📰 " + clean(item.get("title", ""))]
-    description = clean(item.get("description", ""))
+    parts = [telegram_text(item.get("title", ""))]
+    description = telegram_text(item.get("description", ""))
     if description:
         parts.append(description[:900])
-    parts.append(f"{clean(item.get('source', 'Источник'))} · {item.get('published', '')[:10]}\n{item.get('url', '')}")
+    source = telegram_text(item.get("source", "Источник")) or "Источник"
+    parts.append(f"{source} · {item.get('published', '')[:10]}\n{item.get('url', '')}")
     return "\n\n".join(parts)
 
 
@@ -1338,16 +1349,17 @@ def telegram_send_item(item: dict[str, str]) -> None:
 
 def format_item(item: dict[str, str], number: int | None = None) -> str:
     prefix = f"{number}. " if number is not None else "📰 "
-    title = html.escape(clean(item.get("title", "")))
+    title = html.escape(telegram_text(item.get("title", "")))
     url = html.escape(item.get("url", ""), quote=True)
-    description = clean(item.get("description", ""))
+    description = telegram_text(item.get("description", ""))
     # Keep title and summary as plain text; link only the source name.
     if len(description) > 420:
         description = description[:417].rsplit(" ", 1)[0] + "…"
     lines = [f"{prefix}{title}"]
     if description:
         lines.append(html.escape(description))
-    lines.append(f"<a href=\"{url}\">{html.escape(item['source'])}</a> · {html.escape(item['published'][:10])}")
+    source = telegram_text(item.get("source", "Источник")) or "Источник"
+    lines.append(f"<a href=\"{url}\">{html.escape(source)}</a> · {html.escape(item['published'][:10])}")
     return "\n".join(lines)
 
 
@@ -1357,7 +1369,7 @@ def send_digest(today: str, state: dict) -> None:
         print(f"No matching stories for {today}; digest skipped.")
         return
     selected = items[:MAX_DIGEST_ITEMS]
-    parts = [f"📰 Что произошло сегодня — {today}"]
+    parts = [f"Что произошло сегодня — {today}"]
     for index, item in enumerate(selected, start=1):
         parts.append(format_item(item, number=index))
     if len(items) > len(selected):
