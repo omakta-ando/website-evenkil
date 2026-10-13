@@ -261,6 +261,8 @@ def fetch_domains(collector, domains, config, audit):
                 if payload:
                     article = Page(decode(payload), url)
                     raws = list(article.articles())
+                    for raw in raws:
+                        raw.setdefault('articleText', article.article_text)
                     if not raws:
                         audit.event(domain, 'unsupported_html_or_js', url)
                     for raw in raws:
