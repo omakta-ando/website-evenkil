@@ -59,7 +59,12 @@ class Page(HTMLParser):
         self.meta = {}
         self.anchor = None
         self.script = None
+        self.article_text = ''
+        self._body_parts = []
+        self._skip_depth = 0
         self.feed(document)
+        if not self.article_text:
+            self.article_text = ' '.join(self._body_parts)[:12000]
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -72,12 +77,16 @@ class Page(HTMLParser):
             self.anchor = [U.urljoin(self.base, a.get('href') or ''), '']
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.script = ''
+        if tag in {'script', 'style', 'svg', 'nav', 'footer', 'header', 'aside', 'noscript'}:
+            self._skip_depth += 1
 
     def handle_data(self, data):
-        if self.anchor is not None:
+        if self.anchor is not None and not self._skip_depth:
             self.anchor[1] += data
         if self.script is not None:
             self.script += data
+        elif not self._skip_depth and data.strip():
+            self._body_parts.append(data.strip())
 
     def handle_endtag(self, tag):
         if tag == 'a' and self.anchor is not None:
@@ -85,10 +94,17 @@ class Page(HTMLParser):
             self.anchor = None
         if tag == 'script' and self.script is not None:
             try:
-                self.structured.append(json.loads(self.script))
+                parsed = json.loads(self.script)
+                self.structured.append(parsed)
+                for article in self.articles():
+                    if article.get('articleText'):
+                        self.article_text = str(article['articleText'])[:12000]
+                        break
             except ValueError:
                 pass
             self.script = None
+        if tag in {'script', 'style', 'svg', 'nav', 'footer', 'header', 'aside', 'noscript'}:
+            self._skip_depth = max(0, self._skip_depth - 1)
 
     def articles(self):
         def walk(value):
@@ -104,7 +120,7 @@ class Page(HTMLParser):
                         main = main.get('@id', '')
                     yield {'url': U.urljoin(self.base, value.get('url') or main or self.base),
                            'title': value.get('headline', ''), 'description': value.get('description', ''),
-                           'date': value.get('datePublished', '')}
+                           'date': value.get('datePublished', ''), 'articleText': value.get('articleBody', '')}
                 for child in value.values():
                     if isinstance(child, (dict, list)):
                         yield from walk(child)
@@ -191,17 +207,22 @@ def fetch_domains(collector, domains, config, audit):
             published = collector.parse_date(str(raw.get('date', '')))
             item = {'id': url, 'url': url, 'title': collector.clean(str(raw.get('title', ''))),
                     'description': collector.clean(str(raw.get('description', ''))),
+                    'articleText': collector.clean(str(raw.get('articleText', ''))),
                     'source': settings.get('label', domain), 'configuredSource': '1', 'auditSource': domain}
+            relevance = collector.story_relevance(item)
+            needs_review = collector.needs_fulltext_review(item)
             reason = ('missing_title' if not item['title'] else 'invalid_date' if not published else
                       'future_date' if published > collector.now_local() + collector.dt.timedelta(hours=6) else
                       'outside_window' if published < cutoff else
                       'editorial_exclusion' if collector.is_excluded_story(item) else
-                      'irrelevant' if not collector.is_evenki_related(item) else
+                      'irrelevant' if not relevance and not needs_review else
                       'duplicate_url' if url in visited else 'accepted')
             audit.event(domain, reason, url)
             if reason == 'accepted':
                 visited.add(url)
-                item['detectedRelevance'] = collector.story_relevance(item) or ''
+                item['detectedRelevance'] = relevance or ''
+                item['needsFullText'] = '1' if needs_review and not relevance else '0'
+                item.pop('articleText', None)
                 item['description'] = item['description'][:420]
                 item.update(published=published.isoformat(timespec='minutes'), day=published.date().isoformat())
                 found.append(item)
