@@ -1,4 +1,14 @@
-window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Илкэн","title":"В Якутске обсудили перспективы экспорта северных оленей в Китай и развитие побратимских связей с городом Гэньхэ","desc":"В Якутске обсудили экспорт северных оленей в Китай и развитие побратимских связей с городом Гэньхэ. В материале говорится о сотрудничестве с Тянским эвенкийским наслегом, культурном обмене и сохранении наследия эвенков.","tags":"эвенки якутия китай гэньхэ северные олени","relevance":"direct","link":"https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/"},
+window.newsStories=[
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Илкэн",
+    "title": "В Якутске обсудили перспективы экспорта северных оленей в Китай и развитие побратимских связей с городом Гэньхэ",
+    "desc": "В Якутске обсудили экспорт северных оленей в Китай и развитие побратимских связей с городом Гэньхэ. В материале говорится о сотрудничестве с Тянским эвенкийским наслегом, культурном обмене и сохранении наследия эвенков.",
+    "tags": "эвенки якутия китай гэньхэ северные олени",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/"
+  },
   {
     "region": "Красноярский край",
     "date": "2026-10-13",
@@ -134,6 +144,17 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
   },
   {
     "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Новости Нерюнгри · Telegram",
+    "title": "Закон не писан? Почему золотодобытчики в Иенгре игнорируют Налоговый кодекс РФ Народный депутат Якутии Государственного Собрания (Ил Тумэн) Александр Кошуков поднимает злободневный",
+    "desc": "Закон не писан? Почему золотодобытчики в Иенгре игнорируют Налоговый кодекс РФ Народный депутат Якутии Государственного Собрания (Ил Тумэн) Александр Кошуков поднимает злободневный вопрос, который касается не только бюджетной справедливости, но и всего будущего существования уникального эвенкийского наслега. На территории Иенгры — единственного места компактного проживания эвенков в Южной Якутии — ведётся масштабная ",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/novosti_neryungri/28187",
+    "image": "https://cdn4.telesco.pe/file/oU9MkyfLZrRR9OCGqLZDeZUV9McYU5jb5PXqpefr_UNOnfpr3cnZc1nKjjffhn4NvRLSIY0nKoQAayMFEMmXOuenkt77PN-gjsliMx-t3UiP3uCH08dZTxYP9d_iD0Q1s80p1VjuCv4w82M2BcckaLH7VEY0DRYhV23Qs7xvb2D7k4hHVyKHnhB_OmSOYp-t-n24tyAGGPnK6yH0Q_toTQQiklZUPGrqM7fGK9C6xb3I6VS1GKyT348ylB-srKHG4PJvnSIdyFjopje9HRqTdxYEEYh3g4gj2a6Q6xKbL7hXIdcoB38lhiTRueKUDPoXWfIcn5xFTkeB2g1h2Lt8BQ.jpg"
+  },
+  {
+    "region": "Якутия",
     "date": "2026-10-12",
     "source": "Аграрный МедиаХолдинг Светич",
     "title": "Якутия вышла на второе место в России по поголовью оленей - Аграрный МедиаХолдинг Светич",
@@ -171,17 +192,6 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://ulus.media/2026/10/12/ajsen-nikolaev-postavil-zadachi-pered-glavami-rajonov-yakutii-na-otopitelnyj-sezon-i-zimnij-period"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "Новости Нерюнгри · Telegram",
-    "title": "Нашёл оружие – ответил по закону Нерюнгринский городской суд Республики Саха (Якутия) признал мужчину виновным в незаконном хранении и передаче огнестрельного оружия (ч. 1 ст. 222",
-    "desc": "Нашёл оружие – ответил по закону Нерюнгринский городской суд Республики Саха (Якутия) признал мужчину виновным в незаконном хранении и передаче огнестрельного оружия (ч. 1 ст. 222 УК РФ). Судом установлено, что летом 2015 года осужденный, находясь в лесном массиве, нашел обрез двуствольного гладкоствольного охотничьего ружья и в нарушение требований законодательства, не имея специального разрешения на хранение огнест",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/novosti_neryungri/28177",
-    "image": "https://cdn4.telesco.pe/file/JwZvbNOX2LqNMOkoqOxPGb1v2o56XHgcxRrM7Boco0tpwPZR4K65QxS3DMBR3VOpswfUfpxGQdVQUTeYLZNBoOrf75ze4XutEMvt7va6F0aeh6vc5J25-K_RsEcF8svKeD6g404XjpQe7twQZ1qpEY8Cb2Kwq0NEKaXad-c9KisOX4P_UbcWKLSq59odEHGHHS7Nbo_IrzHSn6qSGY_gGRlntWtP-WopCrnksk1LND6vlLsq1XMwSkPVIA60vOqGOEP9nGDWqQVJ1Osig3EF98-g4AivplHwqKVJqs7wsoCcCKLESvhIRpJboc1Bw-2Fl3GNRWCID7kuRJUg4k0j5A.jpg"
   },
   {
     "region": "Общие новости",
@@ -484,15 +494,6 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "image": "https://news.kmnsoyuz.ru/wp-content/uploads/2026/10/fo5_lB8PMpvi3hYYi4AgprcPC36gNNgiwXOVbwrmqviixCQOdcc-Ah5TdYGnJRNk3vsQC3OpEcPJQcbmPX5_UXCi-1-1.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-02",
-    "source": "Илкэн",
-    "title": "Новые правила охоты для коренных малочисленных народов: что изменилось и как получить квоту",
-    "desc": "Разбор новых правил охоты для коренных малочисленных народов: какие изменения вступили в силу и как оформить охотничью квоту.",
-    "tags": "эвенки коренные малочисленные народы охота новые правила охотничья квота",
-    "link": "https://ilken.ru/2026/10/02/novye-pravila-ohoty-dlya-korennyh-malochislennyh-narodov-chto-izmenilos-i-kak-poluchit-kvotu/"
-  },
-  {
     "region": "Иркутская область",
     "date": "2026-10-02",
     "source": "НТС Иркутск",
@@ -684,6 +685,15 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-02",
+    "source": "Илкэн",
+    "title": "Новые правила охоты для коренных малочисленных народов: что изменилось и как получить квоту",
+    "desc": "Разбор новых правил охоты для коренных малочисленных народов: какие изменения вступили в силу и как оформить охотничью квоту.",
+    "tags": "эвенки коренные малочисленные народы охота новые правила охотничья квота",
+    "link": "https://ilken.ru/2026/10/02/novye-pravila-ohoty-dlya-korennyh-malochislennyh-narodov-chto-izmenilos-i-kak-poluchit-kvotu/"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-13",
     "source": "Эвенкийская жизнь · Telegram",
@@ -745,6 +755,17 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://indigenous-russia.com/archives/50765"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "Новости Нерюнгри · Telegram",
+    "title": "Нашёл оружие – ответил по закону Нерюнгринский городской суд Республики Саха (Якутия) признал мужчину виновным в незаконном хранении и передаче огнестрельного оружия (ч. 1 ст. 222",
+    "desc": "Нашёл оружие – ответил по закону Нерюнгринский городской суд Республики Саха (Якутия) признал мужчину виновным в незаконном хранении и передаче огнестрельного оружия (ч. 1 ст. 222 УК РФ). Судом установлено, что летом 2015 года осужденный, находясь в лесном массиве, нашел обрез двуствольного гладкоствольного охотничьего ружья и в нарушение требований законодательства, не имея специального разрешения на хранение огнест",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/novosti_neryungri/28177",
+    "image": "https://cdn4.telesco.pe/file/JwZvbNOX2LqNMOkoqOxPGb1v2o56XHgcxRrM7Boco0tpwPZR4K65QxS3DMBR3VOpswfUfpxGQdVQUTeYLZNBoOrf75ze4XutEMvt7va6F0aeh6vc5J25-K_RsEcF8svKeD6g404XjpQe7twQZ1qpEY8Cb2Kwq0NEKaXad-c9KisOX4P_UbcWKLSq59odEHGHHS7Nbo_IrzHSn6qSGY_gGRlntWtP-WopCrnksk1LND6vlLsq1XMwSkPVIA60vOqGOEP9nGDWqQVJ1Osig3EF98-g4AivplHwqKVJqs7wsoCcCKLESvhIRpJboc1Bw-2Fl3GNRWCID7kuRJUg4k0j5A.jpg"
   },
   {
     "region": "Красноярский край",
@@ -884,15 +905,6 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "link": "https://news.kmnsoyuz.ru/news/53418"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-02",
-    "source": "Илкэн",
-    "title": "Nordgold поддержал республиканский турнир по северному многоборью памяти Александра Иванова",
-    "desc": "Материал о поддержке компанией Nordgold республиканского турнира по северному многоборью, посвящённого памяти Александра Иванова.",
-    "tags": "эвенки Якутия Nordgold северное многоборье турнир Александр Иванов спорт",
-    "link": "https://ilken.ru/2026/10/02/nordgold-podderzhal-respublikanskij-turnir-po-severnomu-mnogoboryu-pamyati-aleksandra-ivanova/"
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-09-25",
     "source": "Вести. Красноярск",
@@ -909,6 +921,15 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "desc": "На торжестве у залива Чайво участвовали коренные народы севера Сахалина — уйльта и эвенки; в программе были традиционные обряды.",
     "tags": "эвенки сахалин оленеводство культура",
     "link": "https://sakh.online/news/18/2026-08-27/na-poberezhie-zaliva-chayvo-proshyol-prazdnik-olenevodov-kurey-2026-524421"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-02",
+    "source": "Илкэн",
+    "title": "Nordgold поддержал республиканский турнир по северному многоборью памяти Александра Иванова",
+    "desc": "Материал о поддержке компанией Nordgold республиканского турнира по северному многоборью, посвящённого памяти Александра Иванова.",
+    "tags": "эвенки Якутия Nordgold северное многоборье турнир Александр Иванов спорт",
+    "link": "https://ilken.ru/2026/10/02/nordgold-podderzhal-respublikanskij-turnir-po-severnomu-mnogoboryu-pamyati-aleksandra-ivanova/"
   },
   {
     "region": "Красноярский край",
@@ -951,6 +972,16 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "relevance": "context",
     "link": "https://t.me/yk24ru/91206",
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Верховный суд Якутии оставил в силе приговор виновнику смертельного ДТП с молодым спортсменом — Yakutia-daily.ru",
+    "desc": "Хангаласский районный суд назначил ему 5 лет лишения свободы в колонии и компенсацию",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/verhovnyj-sud-yakutii-ostavil-v-sile-prigovor-vinovniku-smertelnogo-dtp-s-molodym-sportsmenom"
   },
   {
     "region": "Якутия",
@@ -1072,6 +1103,16 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "В Якутии отремонтируют 95 км дорог в 2026 году — Yakutia-daily.ru",
+    "desc": "На октябрь 2026 года работы по устройству верхних слоёв покрытия выполнены на 93,5%",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/v-yakutii-otremontiruyut-95-km-dorog-v-2026-godu"
+  },
+  {
     "region": "Новости на эвенкийском",
     "date": "2026-10-07",
     "source": "Илкэн · Улгур",
@@ -1133,14 +1174,24 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "link": "https://t.me/yk24ru/91101"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Путь к углеродной нейтральности: как добыча алмазов снижает парниковый эффект — Yakutia-daily.ru",
+    "desc": "За последние сто лет средняя температура на планете поднялась примерно на один градус",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/put-k-uglerodnoj-nejtralnosti-kak-dobycha-almazov-snizhaet-parnikovyj-effekt"
+  },
+  {
     "region": "Новости на эвенкийском",
-    "date": "2026-10-01",
+    "date": "2026-10-07",
     "source": "Илкэн · Улгур",
-    "title": "Северды полюс амарду, Оймякон дюлэду",
-    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
+    "title": "Клубнай формированиен «Тэкэчи хокто экспедициян хоктоли «Кюпцы- Аян Кюпцы»",
+    "desc": "Илкун бегаду эр анӈаниду членил гэлэктэдери клубнай формированиен «Тэкэчи хокто» эвэды этнокультурнай цетрин «Чээчэбил» бикитту",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
+    "link": "https://ilken.ru/evenki/2026/10/07/ekspedicziya-klubnogo-formirovaniya-put-predkov-po-marshrutu-kyupczy-ayan-kyupczy/"
   },
   {
     "region": "Якутия",
@@ -1195,14 +1246,24 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Маткапитал на второго ребенка в 2027 году может достигнуть 1,029 млн рублей — Yakutia-daily.ru",
+    "desc": "Прибавка составит 65,5 тыс рублей",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/matkapital-na-vtorogo-rebenka-v-2027-godu-mozhet-dostignut-1029-mln-rublej"
+  },
+  {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-25",
+    "date": "2026-10-01",
     "source": "Илкэн · Улгур",
-    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
-    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "title": "Северды полюс амарду, Оймякон дюлэду",
+    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Якутия",
@@ -1246,14 +1307,13 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-21",
+    "date": "2026-09-25",
     "source": "Илкэн · Улгур",
-    "title": "Асаткан тадук авахи (Эвэды нимӈакан)",
-    "desc": "Эвенкийская сказка «Асаткан тадук авахи». Текст на эвенкийском языке опубликован в литературном разделе газеты «Илкэн».",
-    "tags": "эвенки эвенкийский язык сказки литература",
+    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
+    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/asatkan-evenkijskaya-skazka/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
   },
   {
     "region": "Бурятия",
@@ -1279,11 +1339,11 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "region": "Новости на эвенкийском",
     "date": "2026-09-21",
     "source": "Илкэн · Улгур",
-    "title": "Он каравил буԧадыл орор очал (эвэды нимӈакан)",
-    "desc": "«Как журавли стали небесными оленями» — эвенкийская сказка. Публикация на эвенкийском языке в литературном разделе «Илкэн».",
+    "title": "Асаткан тадук авахи (Эвэды нимӈакан)",
+    "desc": "Эвенкийская сказка «Асаткан тадук авахи». Текст на эвенкийском языке опубликован в литературном разделе газеты «Илкэн».",
     "tags": "эвенки эвенкийский язык сказки литература",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/kak-zhuravli-stali-nebesnymi-olenyami-2/",
+    "link": "https://ilken.ru/evenki/2026/09/21/asatkan-evenkijskaya-skazka/",
     "languageNews": true
   },
   {
@@ -1309,11 +1369,11 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "region": "Новости на эвенкийском",
     "date": "2026-09-21",
     "source": "Илкэн · Улгур",
-    "title": "Соӈин Маӈи тадак Хоглен (Эвэды нимӈакан)",
-    "desc": "Эвенкийская сказка о Маӈи и Хоглене. Оригинальный текст на эвенкийском языке опубликован в газете «Илкэн».",
+    "title": "Он каравил буԧадыл орор очал (эвэды нимӈакан)",
+    "desc": "«Как журавли стали небесными оленями» — эвенкийская сказка. Публикация на эвенкийском языке в литературном разделе «Илкэн».",
     "tags": "эвенки эвенкийский язык сказки литература",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/bogatyr-mani-i-hoglen/",
+    "link": "https://ilken.ru/evenki/2026/09/21/kak-zhuravli-stali-nebesnymi-olenyami-2/",
     "languageNews": true
   },
   {
@@ -1339,11 +1399,11 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "region": "Новости на эвенкийском",
     "date": "2026-09-21",
     "source": "Илкэн · Улгур",
-    "title": "Он сулаки аԧалва улекитчэ",
-    "desc": "«Как лисица женщин обманула» — сказка на эвенкийском языке. Материал опубликован в разделе литературы и сказок газеты «Илкэн».",
+    "title": "Соӈин Маӈи тадак Хоглен (Эвэды нимӈакан)",
+    "desc": "Эвенкийская сказка о Маӈи и Хоглене. Оригинальный текст на эвенкийском языке опубликован в газете «Илкэн».",
     "tags": "эвенки эвенкийский язык сказки литература",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/kak-lisicza-zhenshhin-obmanula-2/",
+    "link": "https://ilken.ru/evenki/2026/09/21/bogatyr-mani-i-hoglen/",
     "languageNews": true
   },
   {
@@ -1367,13 +1427,14 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-16",
+    "date": "2026-09-21",
     "source": "Илкэн · Улгур",
-    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
-    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
-    "tags": "эвенки эвенкийский язык новости",
+    "title": "Он сулаки аԧалва улекитчэ",
+    "desc": "«Как лисица женщин обманула» — сказка на эвенкийском языке. Материал опубликован в разделе литературы и сказок газеты «Илкэн».",
+    "tags": "эвенки эвенкийский язык сказки литература",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
+    "link": "https://ilken.ru/evenki/2026/09/21/kak-lisicza-zhenshhin-obmanula-2/",
+    "languageNews": true
   },
   {
     "region": "Забайкальский край",
@@ -1393,6 +1454,16 @@ window.newsStories=[{"region":"Якутия","date":"2026-10-13","source":"Ил�
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://t.me/evenkya_life/12622",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-16",
+    "source": "Илкэн · Улгур",
+    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
+    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
   },
   {
     "region": "Бурятия",
