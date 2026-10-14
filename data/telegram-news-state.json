@@ -139,7 +139,14 @@
     "https://tia-ostrova.ru/news/articles/202428": "2026-10-14T13:54+04:00",
     "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00",
     "https://riatomsk.ru/article/20261014/benzin-azs-tomsk": "2026-10-14T14:33+04:00",
-    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00"
+    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00",
+    "https://ngs24.ru/text/incidents/2026/10/14/76700023": "2026-10-14T18:06+04:00",
+    "CBMitAFBVV95cUxOd1hZblZuX1dVWFVydWZuOUFlN0JaWDVIVFludDZiVDFHSThib1NQRkRLcGNOVHpMbTNlWW4zaGNicUVtMVRBdk8wUmt2MjBNOTNTMXRMNnI5ZUJHcl9ieW1qMjVSS2JfUjI0QXoyUWtya2c3YmdlcDNvODFqc3dKQWFhRkctTDZ3LVoxSWthWHBKVHJPWTg5ekVZellRZVdDM3lhcEIwanZOUHM5U1dKSVNJS0k": "2026-10-14T18:06+04:00",
+    "CBMilwFBVV95cUxPQ0NQa2xaaURsSmFBamppOUxlRFZUbFNmVlhXT3FWSGNuVmNXYWVXMFlXRzFEZXdtOS1lMnZGUGxqRThsallqekhlODd2VVFTMUxrSUZDVlNUQ2pKWDdGWF9BR29UX3VQaUNWU1g5RUtkdmIweDl4TzZjY1ZnVlV0TEI0V3ZvT3lxZElKUEY0Z1B1anZJS2VV": "2026-10-14T18:06+04:00",
+    "https://interfax.ru/russia/1122391": "2026-10-14T18:06+04:00",
+    "https://news.kmnsoyuz.ru/news/53775": "2026-10-14T18:06+04:00",
+    "https://t.me/evenkya_life/12782": "2026-10-14T18:06+04:00",
+    "CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3": "2026-10-14T18:06+04:00"
   },
   "daily": {
     "2026-10-07": [
@@ -1107,6 +1114,20 @@
         "day": "2026-10-13",
         "relevance": "context",
         "siteEligible": "1"
+      },
+      {
+        "id": "CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3",
+        "title": "Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза - НИА-Федерация",
+        "source": "НИА-Федерация",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3?oc=5",
+        "published": "2026-10-13T12:09+04:00",
+        "day": "2026-10-13",
+        "description": "Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза НИА-Федерация",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "needsFullText": "0",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ],
     "2026-10-14": [
@@ -1225,6 +1246,94 @@
         "configuredSource": "1",
         "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg",
         "relevance": "direct",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://ngs24.ru/text/incidents/2026/10/14/76700023",
+        "url": "https://ngs24.ru/text/incidents/2026/10/14/76700023",
+        "title": "Следственный комитет завел уголовное дело в отношении краевого Агентства по развитию северных территорий",
+        "description": "Из-за сорванного завоза в магазинах Эвенкии дефицит продуктов",
+        "source": "ngs24.ru",
+        "configuredSource": "1",
+        "auditSource": "ngs24.ru",
+        "detectedRelevance": "context",
+        "needsFullText": "0",
+        "published": "2026-10-14T17:53+04:00",
+        "day": "2026-10-14",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "CBMitAFBVV95cUxOd1hZblZuX1dVWFVydWZuOUFlN0JaWDVIVFludDZiVDFHSThib1NQRkRLcGNOVHpMbTNlWW4zaGNicUVtMVRBdk8wUmt2MjBNOTNTMXRMNnI5ZUJHcl9ieW1qMjVSS2JfUjI0QXoyUWtya2c3YmdlcDNvODFqc3dKQWFhRkctTDZ3LVoxSWthWHBKVHJPWTg5ekVZellRZVdDM3lhcEIwanZOUHM5U1dKSVNJS0k",
+        "title": "Северный завоз в арктические районы Якутии завершился с недопоставками - Infranews.ru",
+        "source": "Infranews.ru",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd1hZblZuX1dVWFVydWZuOUFlN0JaWDVIVFludDZiVDFHSThib1NQRkRLcGNOVHpMbTNlWW4zaGNicUVtMVRBdk8wUmt2MjBNOTNTMXRMNnI5ZUJHcl9ieW1qMjVSS2JfUjI0QXoyUWtya2c3YmdlcDNvODFqc3dKQWFhRkctTDZ3LVoxSWthWHBKVHJPWTg5ekVZellRZVdDM3lhcEIwanZOUHM5U1dKSVNJS0k?oc=5",
+        "published": "2026-10-14T16:51+04:00",
+        "day": "2026-10-14",
+        "description": "Северный завоз в арктические районы Якутии завершился с недопоставками Infranews.ru",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "needsFullText": "0",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "CBMilwFBVV95cUxPQ0NQa2xaaURsSmFBamppOUxlRFZUbFNmVlhXT3FWSGNuVmNXYWVXMFlXRzFEZXdtOS1lMnZGUGxqRThsallqekhlODd2VVFTMUxrSUZDVlNUQ2pKWDdGWF9BR29UX3VQaUNWU1g5RUtkdmIweDl4TzZjY1ZnVlV0TEI0V3ZvT3lxZElKUEY0Z1B1anZJS2VV",
+        "title": "Красноярский СК возбудил дело из-за плохого снабжения жителей Эвенкии продуктами - Ведомости",
+        "source": "Ведомости",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0NQa2xaaURsSmFBamppOUxlRFZUbFNmVlhXT3FWSGNuVmNXYWVXMFlXRzFEZXdtOS1lMnZGUGxqRThsallqekhlODd2VVFTMUxrSUZDVlNUQ2pKWDdGWF9BR29UX3VQaUNWU1g5RUtkdmIweDl4TzZjY1ZnVlV0TEI0V3ZvT3lxZElKUEY0Z1B1anZJS2VV?oc=5",
+        "published": "2026-10-14T16:16+04:00",
+        "day": "2026-10-14",
+        "description": "Красноярский СК возбудил дело из-за плохого снабжения жителей Эвенкии продуктами Ведомости",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "needsFullText": "0",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://interfax.ru/russia/1122391",
+        "url": "https://interfax.ru/russia/1122391",
+        "title": "Возбуждено уголовное дело о нехватке продовольствия на севере Красноярского края",
+        "description": "Следственные органы возбудили уголовное дело в связи с ненадлежащим обеспечением продуктами питания жителей Эвенкии в Красноярском крае, сообщает пресс-служба",
+        "source": "interfax.ru",
+        "configuredSource": "1",
+        "auditSource": "interfax.ru",
+        "detectedRelevance": "context",
+        "needsFullText": "0",
+        "published": "2026-10-14T15:55+04:00",
+        "day": "2026-10-14",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://news.kmnsoyuz.ru/news/53775",
+        "url": "https://news.kmnsoyuz.ru/news/53775",
+        "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
+        "description": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
+        "source": "news.kmnsoyuz.ru",
+        "configuredSource": "1",
+        "auditSource": "news.kmnsoyuz.ru",
+        "detectedRelevance": "context",
+        "needsFullText": "0",
+        "published": "2026-10-14T15:42+04:00",
+        "day": "2026-10-14",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12782",
+        "title": "В Ванаваре запустили экологический и культурный проекты 🍃🎻 Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Эк",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12782",
+        "published": "2026-10-14T14:51+04:00",
+        "day": "2026-10-14",
+        "description": "В Ванаваре запустили экологический и культурный проекты 🍃🎻 Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Экокультура на Подкаменной». Его цель — привить детям и подросткам бережное отношение к природе. Старт проекту дал экосубботник на берегу Подкаменной Тунгуски. Мероприятие открыли концертной программой, участники спели песни о малой родине, а",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "context",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg",
+        "relevance": "context",
         "siteEligible": "1"
       }
     ]
@@ -1367,6 +1476,13 @@
     "https://tia-ostrova.ru/news/articles/202428": "2026-10-14T13:54+04:00",
     "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00",
     "https://riatomsk.ru/article/20261014/benzin-azs-tomsk": "2026-10-14T14:33+04:00",
-    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00"
+    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00",
+    "https://ngs24.ru/text/incidents/2026/10/14/76700023": "2026-10-14T18:06+04:00",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd1hZblZuX1dVWFVydWZuOUFlN0JaWDVIVFludDZiVDFHSThib1NQRkRLcGNOVHpMbTNlWW4zaGNicUVtMVRBdk8wUmt2MjBNOTNTMXRMNnI5ZUJHcl9ieW1qMjVSS2JfUjI0QXoyUWtya2c3YmdlcDNvODFqc3dKQWFhRkctTDZ3LVoxSWthWHBKVHJPWTg5ekVZellRZVdDM3lhcEIwanZOUHM5U1dKSVNJS0k?oc=5": "2026-10-14T18:06+04:00",
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0NQa2xaaURsSmFBamppOUxlRFZUbFNmVlhXT3FWSGNuVmNXYWVXMFlXRzFEZXdtOS1lMnZGUGxqRThsallqekhlODd2VVFTMUxrSUZDVlNUQ2pKWDdGWF9BR29UX3VQaUNWU1g5RUtkdmIweDl4TzZjY1ZnVlV0TEI0V3ZvT3lxZElKUEY0Z1B1anZJS2VV?oc=5": "2026-10-14T18:06+04:00",
+    "https://interfax.ru/russia/1122391": "2026-10-14T18:06+04:00",
+    "https://news.kmnsoyuz.ru/news/53775": "2026-10-14T18:06+04:00",
+    "https://t.me/evenkya_life/12782": "2026-10-14T18:06+04:00",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3?oc=5": "2026-10-14T18:06+04:00"
   }
 }
