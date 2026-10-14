@@ -137,7 +137,9 @@
     "CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ": "2026-10-14T13:54+04:00",
     "https://t.me/biraria/4262": "2026-10-14T13:54+04:00",
     "https://tia-ostrova.ru/news/articles/202428": "2026-10-14T13:54+04:00",
-    "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00"
+    "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00",
+    "https://riatomsk.ru/article/20261014/benzin-azs-tomsk": "2026-10-14T14:33+04:00",
+    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00"
   },
   "daily": {
     "2026-10-07": [
@@ -1194,41 +1196,40 @@
         "day": "2026-10-14",
         "relevance": "context",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://riatomsk.ru/article/20261014/benzin-azs-tomsk",
+        "url": "https://riatomsk.ru/article/20261014/benzin-azs-tomsk",
+        "title": "Власти: еще 10-20 АЗС будут не лишними в Томской агломерации",
+        "description": "Топливный кризис вполне может вызвать появление в Томской агломерации еще нескольких новых АЗС; пока власти переговоров с инвесторами на эту тему не ведут, но заинтересованным готовы помочь, сообщил в среду журналистам заместитель председателя регионального правительства Василий Потемкин.",
+        "source": "riatomsk.ru",
+        "configuredSource": "1",
+        "auditSource": "riatomsk.ru",
+        "detectedRelevance": "context",
+        "needsFullText": "0",
+        "published": "2026-10-14T14:19+04:00",
+        "day": "2026-10-14",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12777",
+        "title": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске 🎤 Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийс",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12777",
+        "published": "2026-10-14T14:06+04:00",
+        "day": "2026-10-14",
+        "description": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске 🎤 Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийском культурном форуме коренных малочисленных народов России в Томске. На одной сцене с «Осиктаканом» выступили творческие коллективы из разных регионов — ансамбли «Алтай», «Тагтал», «Солоны», «Пор‑Бажын» и другие. Концерты прошли в Томской ",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "direct",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg",
+        "relevance": "direct",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://riatomsk.ru/article/20261014/benzin-azs-tomsk",
-      "url": "https://riatomsk.ru/article/20261014/benzin-azs-tomsk",
-      "title": "Власти: еще 10-20 АЗС будут не лишними в Томской агломерации",
-      "description": "Топливный кризис вполне может вызвать появление в Томской агломерации еще нескольких новых АЗС; пока власти переговоров с инвесторами на эту тему не ведут, но заинтересованным готовы помочь, сообщил в среду журналистам заместитель председателя регионального правительства Василий Потемкин.",
-      "source": "riatomsk.ru",
-      "configuredSource": "1",
-      "auditSource": "riatomsk.ru",
-      "detectedRelevance": "context",
-      "needsFullText": "0",
-      "published": "2026-10-14T14:19+04:00",
-      "day": "2026-10-14",
-      "relevance": "context",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://t.me/evenkya_life/12777",
-      "title": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске 🎤 Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийс",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12777",
-      "published": "2026-10-14T14:06+04:00",
-      "day": "2026-10-14",
-      "description": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске 🎤 Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийском культурном форуме коренных малочисленных народов России в Томске. На одной сцене с «Осиктаканом» выступили творческие коллективы из разных регионов — ансамбли «Алтай», «Тагтал», «Солоны», «Пор‑Бажын» и другие. Концерты прошли в Томской ",
-      "socialPlatform": "Telegram",
-      "detectedRelevance": "direct",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg",
-      "relevance": "direct",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -1364,6 +1365,8 @@
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5": "2026-10-14T13:54+04:00",
     "https://t.me/biraria/4262": "2026-10-14T13:54+04:00",
     "https://tia-ostrova.ru/news/articles/202428": "2026-10-14T13:54+04:00",
-    "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00"
+    "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html": "2026-10-14T13:55+04:00",
+    "https://riatomsk.ru/article/20261014/benzin-azs-tomsk": "2026-10-14T14:33+04:00",
+    "https://t.me/evenkya_life/12777": "2026-10-14T14:33+04:00"
   }
 }
