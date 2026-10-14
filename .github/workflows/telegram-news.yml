@@ -1,12 +1,15 @@
 name: Telegram news collection
-
 on:
   schedule:
-    - cron: "7 12 * * *"
+    - cron: "30 9 * * *"
       timezone: "Asia/Tbilisi"
-    - cron: "7 18 * * *"
+    - cron: "40 12 * * *"
       timezone: "Asia/Tbilisi"
-    - cron: "7 19 * * *"
+    - cron: "40 15 * * *"
+      timezone: "Asia/Tbilisi"
+    - cron: "40 18 * * *"
+      timezone: "Asia/Tbilisi"
+    - cron: "30 21 * * *"
       timezone: "Asia/Tbilisi"
   workflow_dispatch:
     inputs:
@@ -19,14 +22,11 @@ on:
           - notify
           - digest
         default: collect
-
 permissions:
   contents: write
-
 concurrency:
   group: telegram-news
   cancel-in-progress: false
-
 jobs:
   collect-and-publish:
     runs-on: ubuntu-latest
@@ -35,29 +35,23 @@ jobs:
       - name: Check out default branch
         id: checkout
         uses: actions/checkout@v4
-
       - name: Select run mode
         id: mode
         shell: bash
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event.schedule }}" == "7 19 * * *" ]]; then
-            echo "value=digest" >> "$GITHUB_OUTPUT"
           else
             echo "value=collect" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Run collector regression tests
         run: python3 -m unittest discover -s tests -v
-
       - name: Search and update the website feed
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TAIGA_THREAD_BOT }}
           TELEGRAM_CHAT_ID: "@taiga_thread"
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
         run: python3 scripts/telegram_news.py --mode "${{ steps.mode.outputs.value }}"
-
       - name: Upload source diagnostics
         if: always()
         uses: actions/upload-artifact@v4
@@ -65,7 +59,6 @@ jobs:
           name: news-source-audit
           path: data/news-source-audit.json
           retention-days: 30
-
       - name: Save deduplication and daily digest state
         if: always() && steps.checkout.outcome == 'success'
         run: |
@@ -78,7 +71,6 @@ jobs:
           git add data/telegram-news-state.json news-data.js
           git commit -m "Update news feed and Telegram collection state"
           git push
-
   notify-after-site-publish:
     needs: collect-and-publish
     if: success()
@@ -90,13 +82,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-
       - name: Notify Telegram only after the site is live
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TAIGA_THREAD_BOT }}
           TELEGRAM_CHAT_ID: "@taiga_thread"
         run: python3 scripts/telegram_news.py --mode notify
-
       - name: Save Telegram delivery state
         if: always() && steps.checkout.outcome == 'success'
         run: |
