@@ -146,7 +146,8 @@
     "https://interfax.ru/russia/1122391": "2026-10-14T18:06+04:00",
     "https://news.kmnsoyuz.ru/news/53775": "2026-10-14T18:06+04:00",
     "https://t.me/evenkya_life/12782": "2026-10-14T18:06+04:00",
-    "CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3": "2026-10-14T18:06+04:00"
+    "CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3": "2026-10-14T18:06+04:00",
+    "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/": "2026-10-14T18:47+04:00"
   },
   "daily": {
     "2026-10-07": [
@@ -1335,27 +1336,26 @@
         "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg",
         "relevance": "context",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
+        "title": "На конференции в Новосибирске представят исследования по языкам коренных малочисленных народов Якутии",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
+        "published": "2026-10-14T00:00+04:00",
+        "day": "2026-10-14",
+        "description": "(далее…)",
+        "needsFullText": "0",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "detectedRelevance": "direct",
+        "detectedRegion": "Якутия",
+        "relevance": "direct",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
-      "title": "На конференции в Новосибирске представят исследования по языкам коренных малочисленных народов Якутии",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
-      "published": "2026-10-14T00:00+04:00",
-      "day": "2026-10-14",
-      "description": "(далее…)",
-      "needsFullText": "0",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "detectedRelevance": "direct",
-      "detectedRegion": "Якутия",
-      "relevance": "direct",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -1500,6 +1500,7 @@
     "https://interfax.ru/russia/1122391": "2026-10-14T18:06+04:00",
     "https://news.kmnsoyuz.ru/news/53775": "2026-10-14T18:06+04:00",
     "https://t.me/evenkya_life/12782": "2026-10-14T18:06+04:00",
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3?oc=5": "2026-10-14T18:06+04:00"
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTeG1HZzNoOWNJUHh5b2RDT3dPNUZMNEh3bXZuRHpUMW54LTJpZldZdFBSRE1YSDNNQldoQmUybnZCRENRVGxGbmtqbkgtZFM4UDI3WXV3?oc=5": "2026-10-14T18:06+04:00",
+    "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov": "2026-10-14T18:47+04:00"
   }
 }
