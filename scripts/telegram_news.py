@@ -944,14 +944,18 @@ def fetch_telegram_public_channels() -> list[dict[str, str]]:
             post_url = f"https://t.me/{post_path}" if post_path else post.get("url", "")
             if not post_url.startswith("https://t.me/"):
                 continue
+            # Keep source posts readable when we reuse them on the site and in
+            # the channel: Telegram decorations should not become part of the
+            # headline or summary.
+            display_text = telegram_text(text)
             found.append({
                 "id": post_url,
-                "title": text[:180].rstrip(" .…") or str(account.get("label", "Telegram")),
+                "title": display_text[:180].rstrip(" .…") or str(account.get("label", "Telegram")),
                 "source": str(account.get("label", "Telegram")),
                 "url": post_url,
                 "published": published.isoformat(timespec="minutes"),
                 "day": published.date().isoformat(),
-                "description": text[:420],
+                "description": display_text[:420],
                 "socialPlatform": "Telegram",
                 "detectedRelevance": story_relevance({"description": text}) or "",
                 "configuredSource": "1",
