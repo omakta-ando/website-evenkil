@@ -296,13 +296,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "source": "Илкэн · Улгур",
-    "title": "Бакалдын — праздник встречи, который вернул меня в детство",
-    "desc": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
+    "title": "Айсен Николаев: Северный форум по устойчивому развитию стал площадкой международного экспертного диалога",
+    "desc": "Глава Якутии Айсен Николаев в ходе прямого эфира подвёл итоги Северного форума по устойчивому развитию.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
+    "link": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/"
   },
   {
     "region": "Якутия",
@@ -901,14 +901,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSm43ajdvY3pJc1lxaXhFRUI4UGE2ZG9TM24yMmtlN0VTR3lfWlZjN1VJZ09Bb0M2UWZwQUN6RGNNMnNCQjM2Wndqb1ZBTGtraWNYcWlvZnNVWThYdHV3V2pQa0tBenRCSkRKc205TjU4SnRxczAtS0ZVX0pjUW5td05Sa2Q1WmNLYjQzTFhUdkJZTlgxeUpRa3VEdnRnQlJhcEp5Z1BLMnpiSktPLTln0gG0AUFVX3lxTFBHM2FsNzZKQkp0anN3WE9YbDd3S0xMT3Z4SmRWZWNncHlLaEdZNFVncXQ1U3AtOWEtZHpYNkF0SGhSNEkxR3Q0cWE5NVVNbU5zM0hMUEpmbHBwQW5CVE91Vllrd29RdTd2bndzaFBMR1R6Z0hpN3VGYmtIa3dwN081YXExQVRoRHFJQmd5MGR5YlJXdVVWb3B1TEY4TUFnR2xYbGN5cFpHRE5CX1ZId1p0SjdkWA?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-11",
+    "region": "Общие новости",
+    "date": "2026-10-12",
     "source": "Илкэн · Улгур",
-    "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
-    "desc": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
+    "title": "35 лет на страже родного слова: кафедра северной филологии СВФУ отметила юбилей",
+    "desc": "В Северо-Восточном федеральном университете имени М.К. Аммосова прошли торжественные мероприятия, посвящённые 35-летию кафедры северной филологии.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
+    "link": "https://ilken.ru/2026/10/12/35-let-na-strazhe-rodnogo-slova-kafedra-severnoj-filologii-svfu-otmetila-yubilej/"
   },
   {
     "region": "Якутия",
@@ -1119,13 +1119,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "source": "Илкэн · Улгур",
-    "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
-    "desc": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
+    "title": "Бакалдын — праздник встречи, который вернул меня в детство",
+    "desc": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/"
+    "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
   },
   {
     "region": "Якутия",
@@ -1246,14 +1246,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/v-yakutii-otremontiruyut-95-km-dorog-v-2026-godu"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-07",
+    "region": "Якутия",
+    "date": "2026-10-11",
     "source": "Илкэн · Улгур",
-    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
-    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
+    "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
+    "desc": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
+    "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
   },
   {
     "region": "Якутия",
@@ -1316,14 +1316,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/put-k-uglerodnoj-nejtralnosti-kak-dobycha-almazov-snizhaet-parnikovyj-effekt"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-07",
+    "region": "Общие новости",
+    "date": "2026-10-11",
     "source": "Илкэн · Улгур",
-    "title": "Клубнай формированиен «Тэкэчи хокто экспедициян хоктоли «Кюпцы- Аян Кюпцы»",
-    "desc": "Илкун бегаду эр анӈаниду членил гэлэктэдери клубнай формированиен «Тэкэчи хокто» эвэды этнокультурнай цетрин «Чээчэбил» бикитту",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/07/ekspedicziya-klubnogo-formirovaniya-put-predkov-po-marshrutu-kyupczy-ayan-kyupczy/"
+    "title": "Юкагирец Иван Слепцов — отец семерых сыновей, оленевод и охотник",
+    "desc": "Жизнь на Крайнем Севере требует выносливости, трудолюбия и умения полагаться на собственные силы. Особенно хорошо",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/11/yukagirecz-ivan-slepczov-otecz-semeryh-synovej-olenevod-i-ohotnik/"
   },
   {
     "region": "Якутия",
@@ -1389,14 +1389,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/matkapital-na-vtorogo-rebenka-v-2027-godu-mozhet-dostignut-1029-mln-rublej"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-01",
+    "region": "Якутия",
+    "date": "2026-10-11",
     "source": "Илкэн · Улгур",
-    "title": "Северды полюс амарду, Оймякон дюлэду",
-    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
+    "title": "Поздравление Главы Республики Саха (Якутия) Айсена Николаева с Днем работника сельского хозяйства и перерабатывающей промышленности",
+    "desc": "Уважаемые работники сельского хозяйства и перерабатывающей промышленности Республики Саха (Якутия)! Дорогие ветераны отрасли! Сердечно поздравляю 1[2](https://ilken.ru/category/novosti/page/2/)…[245](https://ilken.ru/category/novosti/page/245/)[](https://ilken.ru/category/novosti/page/2/) ### Новое на сайте [![Image 33](https://ilken.ru/wp-content/uploads/2026/10/img_4256-70x70.jpeg)](https://ilken.ru/2026/10/14/v-no",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/11/pozdravlenie-glavy-respubliki-saha-yakutiya-ajsena-nikolaeva-s-dnem-rabotnika-selskogo-hozyajstva-i-pererabatyvayushhej-promyshlennosti/"
   },
   {
     "region": "Якутия",
@@ -1442,14 +1442,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/SvkLN8kxU1yKW5-bM2VcgX5tBDlKK5dZoGdd5ku6Zp8Kbr-ShwA2IFqqytGnexLi7SKX4NQLpavJBCTDKZTHUPA8xjuUFOGIPlcks8S-Wg_cI5gZOlsBq_LKUguI4ZdJGkYddbLhMZlrJ92eW4GTboHBpxzHm_5vkYR35_r1eg4PB1uwg420-IHsn_zUmHzKHRi4L18xiDtc2R64EBJppwI584yty4uWQICNcQtaEo6KLsHIzlKrnEAIRs5jEgMsjgsrCJHIgoB28tkkbWHqUX7Obf7esnaafOaUDw4EmZgM6RMI10ZFnoyija2sTqwkfifC_Ygo5Q-zKx0j8hZgfQ.jpg"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-09-25",
+    "region": "Якутия",
+    "date": "2026-10-10",
     "source": "Илкэн · Улгур",
-    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
-    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "title": "Фестиваль «Языковой мир Арктики»: показатель уровня знания языков и культуры КМНС",
+    "desc": "С 6 по 8 октября в Институте языков и культуры народов Северо-Восточного федерального университета имени",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
+    "link": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/"
   },
   {
     "region": "Бурятия",
@@ -1482,14 +1482,13 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-21",
+    "date": "2026-10-07",
     "source": "Илкэн · Улгур",
-    "title": "Асаткан тадук авахи (Эвэды нимӈакан)",
-    "desc": "Эвенкийская сказка «Асаткан тадук авахи». Текст на эвенкийском языке опубликован в литературном разделе газеты «Илкэн».",
-    "tags": "эвенки эвенкийский язык сказки литература",
+    "title": "Омолги эвенни дуннэӈи: 80 (дяпкундяр) балдыдяк анӈанидук Семена Власьевича Баишева",
+    "desc": "Баишев Семен Власьевич 7 угун бегаду 1946 (умун тыԧинча егин няма дыгиндяр нюӈи) анӈаниду бикитту",
+    "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/asatkan-evenkijskaya-skazka/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/10/07/syn-evenskoj-zemli-80-let-so-dnya-rozhdeniya-semena-vlasevicha-baisheva/"
   },
   {
     "region": "Бурятия",
@@ -1512,14 +1511,13 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-21",
+    "date": "2026-10-07",
     "source": "Илкэн · Улгур",
-    "title": "Он каравил буԧадыл орор очал (эвэды нимӈакан)",
-    "desc": "«Как журавли стали небесными оленями» — эвенкийская сказка. Публикация на эвенкийском языке в литературном разделе «Илкэн».",
-    "tags": "эвенки эвенкийский язык сказки литература",
+    "title": "Клубнай формированиен «Тэкэчи хокто экспедициян хоктоли «Кюпцы- Аян Кюпцы»",
+    "desc": "Илкун бегаду эр анӈаниду членил гэлэктэдери клубнай формированиен «Тэкэчи хокто» эвэды этнокультурнай цетрин «Чээчэбил» бикитту",
+    "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/kak-zhuravli-stali-nebesnymi-olenyami-2/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/10/07/ekspedicziya-klubnogo-formirovaniya-put-predkov-po-marshrutu-kyupczy-ayan-kyupczy/"
   },
   {
     "region": "Бурятия",
@@ -1542,14 +1540,13 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-21",
+    "date": "2026-10-01",
     "source": "Илкэн · Улгур",
-    "title": "Соӈин Маӈи тадак Хоглен (Эвэды нимӈакан)",
-    "desc": "Эвенкийская сказка о Маӈи и Хоглене. Оригинальный текст на эвенкийском языке опубликован в газете «Илкэн».",
-    "tags": "эвенки эвенкийский язык сказки литература",
+    "title": "Северды полюс амарду, Оймякон дюлэду",
+    "desc": "Савдери гиркуктамни Валентин Ефремов Хандыга алагувумнилнун бакалдычан. Хандыгаду бэе бичэн, нуӈанду турэн гиркун-эр хокто картаду,",
+    "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/bogatyr-mani-i-hoglen/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/10/01/severnyj-polyus-pozadi-ojmyakon-vperedi/"
   },
   {
     "region": "Бурятия",
@@ -1572,14 +1569,13 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-21",
+    "date": "2026-09-25",
     "source": "Илкэн · Улгур",
-    "title": "Он сулаки аԧалва улекитчэ",
-    "desc": "«Как лисица женщин обманула» — сказка на эвенкийском языке. Материал опубликован в разделе литературы и сказок газеты «Илкэн».",
-    "tags": "эвенки эвенкийский язык сказки литература",
+    "title": "Болоды олломокит он Хайырду оллоды фестиваль ӈэнэрэн",
+    "desc": "Болони – эр окин урожайва тавдяра, аялва итылва. Инэӈду бира Омолон дяпкадун бикитту Хайыр центрит",
+    "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/21/kak-lisicza-zhenshhin-obmanula-2/",
-    "languageNews": true
+    "link": "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival/"
   },
   {
     "region": "Забайкальский край",
@@ -1602,13 +1598,14 @@ window.newsStories=[
   },
   {
     "region": "Новости на эвенкийском",
-    "date": "2026-09-16",
+    "date": "2026-09-21",
     "source": "Илкэн · Улгур",
-    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
-    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
-    "tags": "эвенки эвенкийский язык новости",
+    "title": "Асаткан тадук авахи (Эвэды нимӈакан)",
+    "desc": "Эвенкийская сказка «Асаткан тадук авахи». Текст на эвенкийском языке опубликован в литературном разделе газеты «Илкэн».",
+    "tags": "эвенки эвенкийский язык сказки литература",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
+    "link": "https://ilken.ru/evenki/2026/09/21/asatkan-evenkijskaya-skazka/",
+    "languageNews": true
   },
   {
     "region": "Бурятия",
@@ -1630,6 +1627,17 @@ window.newsStories=[
     "link": "https://t.me/evenkya_life/12640"
   },
   {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-21",
+    "source": "Илкэн · Улгур",
+    "title": "Он каравил буԧадыл орор очал (эвэды нимӈакан)",
+    "desc": "«Как журавли стали небесными оленями» — эвенкийская сказка. Публикация на эвенкийском языке в литературном разделе «Илкэн».",
+    "tags": "эвенки эвенкийский язык сказки литература",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/21/kak-zhuravli-stali-nebesnymi-olenyami-2/",
+    "languageNews": true
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
@@ -1638,6 +1646,17 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://t.me/evenkya_life/12622",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-21",
+    "source": "Илкэн · Улгур",
+    "title": "Соӈин Маӈи тадак Хоглен (Эвэды нимӈакан)",
+    "desc": "Эвенкийская сказка о Маӈи и Хоглене. Оригинальный текст на эвенкийском языке опубликован в газете «Илкэн».",
+    "tags": "эвенки эвенкийский язык сказки литература",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/21/bogatyr-mani-i-hoglen/",
+    "languageNews": true
   },
   {
     "region": "Красноярский край",
@@ -1650,6 +1669,17 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-21",
+    "source": "Илкэн · Улгур",
+    "title": "Он сулаки аԧалва улекитчэ",
+    "desc": "«Как лисица женщин обманула» — сказка на эвенкийском языке. Материал опубликован в разделе литературы и сказок газеты «Илкэн».",
+    "tags": "эвенки эвенкийский язык сказки литература",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/21/kak-lisicza-zhenshhin-obmanula-2/",
+    "languageNews": true
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
@@ -1658,6 +1688,16 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://t.me/evenkya_life/12638",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+  },
+  {
+    "region": "Новости на эвенкийском",
+    "date": "2026-09-16",
+    "source": "Илкэн · Улгур",
+    "title": "Якутияду бидерил бутуннул сахарва, бурдукка, газировкава депивкил",
+    "desc": "10 сирун бегаду научно-практическай конференцияду «Основы жизнеобеспечивания и здоровьесбережения в Арктике» Михаил Погодаев Арктикава хэгдыдери",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku/"
   },
   {
     "region": "Красноярский край",
