@@ -1338,7 +1338,24 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
+      "title": "На конференции в Новосибирске представят исследования по языкам коренных малочисленных народов Якутии",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
+      "published": "2026-10-14T00:00+04:00",
+      "day": "2026-10-14",
+      "description": "(далее…)",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "direct",
+      "detectedRegion": "Якутия",
+      "relevance": "direct",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",

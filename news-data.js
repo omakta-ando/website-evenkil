@@ -1,14 +1,14 @@
 window.newsStories=[
-{
-  "region": "Якутия",
-  "date": "2026-10-14",
-  "source": "Илкэн",
-  "title": "На конференции в Новосибирске представят исследования по языкам коренных малочисленных народов Якутии",
-  "desc": "На Всероссийской научной конференции «Языки народов Сибири и сопредельных регионов» обсуждают исследования по эвенкийскому языку: хатыстырский говор, речь эвенков Иенгры и устное народное творчество.",
-  "tags": "эвенки эвенкийский язык якутия хатыстыр иенгра наука",
-  "relevance": "direct",
-  "link": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/"
-},
+  {
+    "region": "Якутия",
+    "date": "2026-10-14",
+    "source": "Илкэн",
+    "title": "На конференции в Новосибирске представят исследования по языкам коренных малочисленных народов Якутии",
+    "desc": "На Всероссийской научной конференции «Языки народов Сибири и сопредельных регионов» обсуждают исследования по эвенкийскому языку: хатыстырский говор, речь эвенков Иенгры и устное народное творчество.",
+    "tags": "эвенки эвенкийский язык якутия хатыстыр иенгра наука",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/"
+  },
   {
     "region": "Еврейская автономная область",
     "date": "2026-10-14",
@@ -131,16 +131,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0NQa2xaaURsSmFBamppOUxlRFZUbFNmVlhXT3FWSGNuVmNXYWVXMFlXRzFEZXdtOS1lMnZGUGxqRThsallqekhlODd2VVFTMUxrSUZDVlNUQ2pKWDdGWF9BR29UX3VQaUNWU1g5RUtkdmIweDl4TzZjY1ZnVlV0TEI0V3ZvT3lxZElKUEY0Z1B1anZJS2VV?oc=5"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "Илкэн",
-    "title": "В Якутске обсудили перспективы экспорта северных оленей в Китай и развитие побратимских связей с городом Гэньхэ",
-    "desc": "В Якутске обсудили экспорт северных оленей в Китай и развитие побратимских связей с городом Гэньхэ. В материале говорится о сотрудничестве с Тянским эвенкийским наслегом, культурном обмене и сохранении наследия эвенков.",
-    "tags": "эвенки якутия китай гэньхэ северные олени",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/"
   },
   {
     "region": "Якутия",
@@ -767,6 +757,16 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Илкэн",
+    "title": "В Якутске обсудили перспективы экспорта северных оленей в Китай и развитие побратимских связей с городом Гэньхэ",
+    "desc": "В Якутске обсудили экспорт северных оленей в Китай и развитие побратимских связей с городом Гэньхэ. В материале говорится о сотрудничестве с Тянским эвенкийским наслегом, культурном обмене и сохранении наследия эвенков.",
+    "tags": "эвенки якутия китай гэньхэ северные олени",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-13",
     "source": "Бирария · Telegram",
@@ -827,15 +827,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.kmnsoyuz.ru/news/53765"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-02",
-    "source": "Илкэн",
-    "title": "Новые правила охоты для коренных малочисленных народов: что изменилось и как получить квоту",
-    "desc": "Разбор новых правил охоты для коренных малочисленных народов: какие изменения вступили в силу и как оформить охотничью квоту.",
-    "tags": "эвенки коренные малочисленные народы охота новые правила охотничья квота",
-    "link": "https://ilken.ru/2026/10/02/novye-pravila-ohoty-dlya-korennyh-malochislennyh-narodov-chto-izmenilos-i-kak-poluchit-kvotu/"
   },
   {
     "region": "Якутия",
@@ -1046,6 +1037,15 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
+    "date": "2026-10-02",
+    "source": "Илкэн",
+    "title": "Новые правила охоты для коренных малочисленных народов: что изменилось и как получить квоту",
+    "desc": "Разбор новых правил охоты для коренных малочисленных народов: какие изменения вступили в силу и как оформить охотничью квоту.",
+    "tags": "эвенки коренные малочисленные народы охота новые правила охотничья квота",
+    "link": "https://ilken.ru/2026/10/02/novye-pravila-ohoty-dlya-korennyh-malochislennyh-narodov-chto-izmenilos-i-kak-poluchit-kvotu/"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-10-12",
     "source": "Бирария · Telegram",
     "title": "🎉 Спасибо тем, кто сделал экотропу в Долине тигров реальностью Сегодня в Теплоозёрске прошло награждение тех, без кого наш проект «По следам бираров на Тигриную сопку» не состоялся",
@@ -1075,15 +1075,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.kmnsoyuz.ru/news/53738"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-02",
-    "source": "Илкэн",
-    "title": "Nordgold поддержал республиканский турнир по северному многоборью памяти Александра Иванова",
-    "desc": "Материал о поддержке компанией Nordgold республиканского турнира по северному многоборью, посвящённого памяти Александра Иванова.",
-    "tags": "эвенки Якутия Nordgold северное многоборье турнир Александр Иванов спорт",
-    "link": "https://ilken.ru/2026/10/02/nordgold-podderzhal-respublikanskij-turnir-po-severnomu-mnogoboryu-pamyati-aleksandra-ivanova/"
   },
   {
     "region": "Якутия",
@@ -1182,6 +1173,15 @@ window.newsStories=[
     "desc": "После происшествия с санитарным вертолётом в районе Байкита пострадавших доставили в краевой центр; их состояние оценили как стабильное.",
     "tags": "эвенкия красноярский край санавиация",
     "link": "https://www.vesti-krasnoyarsk.ru/news/proisshestviya/post-61696/"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-02",
+    "source": "Илкэн",
+    "title": "Nordgold поддержал республиканский турнир по северному многоборью памяти Александра Иванова",
+    "desc": "Материал о поддержке компанией Nordgold республиканского турнира по северному многоборью, посвящённого памяти Александра Иванова.",
+    "tags": "эвенки Якутия Nordgold северное многоборье турнир Александр Иванов спорт",
+    "link": "https://ilken.ru/2026/10/02/nordgold-podderzhal-respublikanskij-turnir-po-severnomu-mnogoboryu-pamyati-aleksandra-ivanova/"
   },
   {
     "region": "Еврейская автономная область",
