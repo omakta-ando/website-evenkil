@@ -19,16 +19,11 @@ body{font-family:'Golos Text',sans-serif}
 .news-card,.about-card,.region-item,.media-card,.source-card{border:1px solid var(--soft-line);box-shadow:0 2px 10px rgba(21,43,37,.025);transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease,box-shadow .2s ease}
 .news-card:hover,.about-card:hover,.media-card:hover,.source-card:hover{transform:translateY(-3px);background-color:var(--paper);border-color:#bac5b2;box-shadow:var(--shadow-card)}
 .news-card:hover h2,.news-card:hover h3,.about-card:hover h3{color:var(--pine2)}
-/* Gold contour waves appear over the forest-green news-card hover state. */
-body .news-card{position:relative;isolation:isolate}
-body .news-card::after{content:"";position:absolute;inset:-18%;z-index:0;pointer-events:none;background:url("taiga-contours-gold.svg") center/100% 100% no-repeat;opacity:0;transform:translateX(-5%) rotate(-9deg);transition:opacity .24s ease,transform .35s ease}
-body .news-card>*{position:relative;z-index:1}
-body .news-card:hover,body .news-card:focus-visible{background-color:var(--pine)!important;border-color:var(--pine)!important;color:var(--cream);box-shadow:0 10px 25px rgba(21,43,37,.16)}
-body .news-card:hover::after,body .news-card:focus-visible::after{opacity:.27;transform:translateX(0) rotate(-9deg)}
-body .news-card h2,body .news-card h3,body .news-card p,body .news-card .story-date,body .news-card .card-foot{transition:color .22s ease}
-body .news-card:hover h2,body .news-card:hover h3,body .news-card:focus-visible h2,body .news-card:focus-visible h3{color:var(--gold)!important}
-body .news-card:hover p,body .news-card:focus-visible p{color:#e2e3d8}
-body .news-card:hover .story-date,body .news-card:focus-visible .story-date,body .news-card:hover .card-foot,body .news-card:focus-visible .card-foot{color:#d0d5c9}
+/* Gold contour waves decorate resource and map cards, never news cards. */
+body .resource-card,body .map-panel .region-item{position:relative;isolation:isolate;overflow:hidden}
+body .resource-card::after,body .map-panel .region-item::after{content:"";position:absolute;inset:-18%;z-index:0;pointer-events:none;background:url("taiga-contours-gold.svg") center/100% 100% no-repeat;opacity:0;transform:translateX(-5%) rotate(-9deg);transition:opacity .24s ease,transform .35s ease}
+body .resource-card>*,body .map-panel .region-item>*{position:relative;z-index:1}
+body .resource-card:hover::after,body .resource-card:focus-visible::after,body .map-panel .region-item:hover::after,body .map-panel .region-item:focus-visible::after{opacity:.44;transform:translateX(0) rotate(-9deg)}
 .region-item:hover{background-color:var(--pine);border-color:var(--pine);color:var(--cream);box-shadow:0 7px 18px rgba(21,43,37,.13);transform:translateY(-1px)}
 .region-item:hover b{color:#e5c58c}
 .btn,.chip,.media-tab,.nav-cta,.pager button,.tools select,.sort{transition:background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease}
