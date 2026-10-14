@@ -1355,7 +1355,72 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/",
+      "title": "В Якутске обсудили перспективы экспорта северных оленей в Китай и развитие побратимских связей с городом Гэньхэ",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/13/v-yakutske-obsudili-perspektivy-eksporta-severnyh-olenej-v-kitaj-i-razvitie-pobratimskih-svyazej-s-gorodom-genhe/",
+      "published": "2026-10-13T00:00+04:00",
+      "day": "2026-10-13",
+      "description": "12 октября 2026 года состоялась рабочая встреча с делегацией Китайской Народной Республики, посвящённая вопросам сотрудничества",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "direct",
+      "detectedRegion": "Якутия",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/",
+      "title": "Айсен Николаев: Северный форум по устойчивому развитию стал площадкой международного экспертного диалога",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/",
+      "published": "2026-10-12T00:00+04:00",
+      "day": "2026-10-12",
+      "description": "Глава Якутии Айсен Николаев в ходе прямого эфира подвёл итоги Северного форума по устойчивому развитию.",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "direct",
+      "detectedRegion": "Якутия",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/12/35-let-na-strazhe-rodnogo-slova-kafedra-severnoj-filologii-svfu-otmetila-yubilej/",
+      "title": "35 лет на страже родного слова: кафедра северной филологии СВФУ отметила юбилей",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/12/35-let-na-strazhe-rodnogo-slova-kafedra-severnoj-filologii-svfu-otmetila-yubilej/",
+      "published": "2026-10-12T00:00+04:00",
+      "day": "2026-10-12",
+      "description": "В Северо-Восточном федеральном университете имени М.К. Аммосова прошли торжественные мероприятия, посвящённые 35-летию кафедры северной филологии.",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "direct",
+      "detectedRegion": "Общие новости",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/11/yukagirecz-ivan-slepczov-otecz-semeryh-synovej-olenevod-i-ohotnik/",
+      "title": "Юкагирец Иван Слепцов — отец семерых сыновей, оленевод и охотник",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/11/yukagirecz-ivan-slepczov-otecz-semeryh-synovej-olenevod-i-ohotnik/",
+      "published": "2026-10-11T00:00+04:00",
+      "day": "2026-10-11",
+      "description": "Жизнь на Крайнем Севере требует выносливости, трудолюбия и умения полагаться на собственные силы. Особенно хорошо",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "context",
+      "detectedRegion": "Общие новости",
+      "relevance": "context",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
