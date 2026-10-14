@@ -74,11 +74,13 @@ EXCLUDED_TOPIC_RE = re.compile(
     r"|путешеств\w*.{0,40}по\s+приамурью.{0,40}бирари\w*)", re.I)
 EDITORIAL_RELEVANCE_URLS = {
     "https://news.mail.ru/society/72275373",
+    "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov",
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo",
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa",
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns",
 }
 EDITORIAL_REGION_BY_URL = {
+    "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov": "Якутия",
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa": "Якутия",
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns": "Якутия",
@@ -139,13 +141,23 @@ def needs_fulltext_review(item: dict[str, object]) -> bool:
 
 
 def review_fulltext_candidates(items: list[dict[str, str]]) -> list[dict[str, str]]:
-    """Read only ambiguous, plausible candidates; never crawl arbitrary pages."""
+    """Read ambiguous candidates and every recent Russian-language Ilken article."""
     discovery = json.loads(SOURCES_FILE.read_text(encoding="utf-8")).get("directDiscovery", {})
     max_reviews = max(0, min(100, int(discovery.get("maxFullTextReviews", MAX_FULLTEXT_REVIEWS))))
     workers = max(1, min(12, int(discovery.get("fullTextWorkers", 8))))
     timeout = max(3, min(20, int(discovery.get("fullTextTimeoutSeconds", 10))))
-    pending = [item for item in items if item.get("needsFullText") == "1" and not is_excluded_story(item)]
-    pending.sort(key=lambda item: (item.get("configuredSource") != "1", item.get("source", "")))
+    pending = [
+        item for item in items
+        if (item.get("needsFullText") == "1" or (
+            (urllib.parse.urlsplit(item.get("url", "")).hostname or "").lower() in {"ilken.ru", "www.ilken.ru"}
+            and item.get("ilkenEvenki") != "1"
+        )) and not is_excluded_story(item)
+    ]
+    pending.sort(key=lambda item: (
+        (urllib.parse.urlsplit(item.get("url", "")).hostname or "").lower() not in {"ilken.ru", "www.ilken.ru"},
+        item.get("configuredSource") != "1",
+        item.get("source", ""),
+    ))
     unique_pending = {}
     for item in pending:
         unique_pending.setdefault(news_sources.canonical_url(item.get("url", "")), item)
@@ -156,24 +168,35 @@ def review_fulltext_candidates(items: list[dict[str, str]]) -> list[dict[str, st
 
     def inspect(item: dict[str, str]) -> tuple[dict[str, str], str, str]:
         url = item.get("url", "")
-        try:
-            payload = request(url, timeout=timeout)
-            page = news_sources.Page(news_sources.decode_html(payload), url)
-            article_text = clean(page.article_text)
-            if len(article_text) < 120:
-                return item, "full_text_unavailable", ""
-            checked = {**item, "articleText": article_text}
-            if is_excluded_story(checked):
-                return item, "editorial_exclusion_full_text", ""
-            relevance = story_relevance(checked)
-            if not relevance:
-                return item, "irrelevant_full_text", ""
-            item["detectedRelevance"] = relevance
-            item["detectedRegion"] = story_region(checked, "Общие новости")
-            item["needsFullText"] = "0"
-            return item, "full_text_relevant", ""
-        except (OSError, ValueError, urllib.error.URLError, TimeoutError) as error:
-            return item, "full_text_failed", type(error).__name__
+        host = (urllib.parse.urlsplit(url).hostname or "").lower()
+        targets = [url]
+        if host in {"ilken.ru", "www.ilken.ru"}:
+            targets.append("https://r.jina.ai/" + url)
+        last_error = ""
+        for target in targets:
+            try:
+                payload = request(target, timeout=timeout)
+                document = news_sources.decode_html(payload)
+                page = news_sources.Page(document, url)
+                article_text = clean(page.article_text)
+                if len(article_text) < 120 and target.startswith("https://r.jina.ai/"):
+                    article_text = clean(re.sub(r"!\[[^]]*\]\([^)]*\)|\[([^]]+)\]\([^)]*\)|^#+\s*", r"\1 ", document, flags=re.M))
+                if len(article_text) < 120:
+                    last_error = "short_article_text"
+                    continue
+                checked = {**item, "articleText": article_text}
+                if is_excluded_story(checked):
+                    return item, "editorial_exclusion_full_text", ""
+                relevance = story_relevance(checked)
+                if not relevance:
+                    return item, "irrelevant_full_text", ""
+                item["detectedRelevance"] = relevance
+                item["detectedRegion"] = story_region(checked, "Общие новости")
+                item["needsFullText"] = "0"
+                return item, "full_text_relevant", ""
+            except (OSError, ValueError, urllib.error.URLError, TimeoutError) as error:
+                last_error = type(error).__name__
+        return item, "full_text_failed", last_error
 
     accepted = []
     with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -613,10 +636,6 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                 if reason:
                     AUDIT.event(str(feed["id"]), reason, link)
                     continue
-                needs_review = needs_fulltext_review({"title": title, "description": description})
-                if not is_evenki_feed and not is_evenki_related({"title": title, "description": description}) and not needs_review:
-                    AUDIT.event(str(feed["id"]), "irrelevant", link)
-                    continue
                 guid = clean(node.findtext("guid", ""))
                 found.append({
                     "id": guid or link, "title": title, "source": "Илкэн · Улгур",
@@ -624,8 +643,7 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                     "day": published.date().isoformat(), "description": description,
                     "ilkenEvenki": "1" if is_evenki_feed else "0",
                     "configuredSource": "0" if is_evenki_feed else "1",
-                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
-                    "needsFullText": "1" if needs_review and not is_evenki_related({"title": title, "description": description}) else "0",
+                    "needsFullText": "1" if not is_evenki_feed else "0",
                 })
         except (OSError, ValueError, ET.ParseError, KeyError) as error:
             AUDIT.event(str(feed["id"]), "rss_failed", str(feed["url"]), error=type(error).__name__)
@@ -647,16 +665,12 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                         AUDIT.event(str(feed["id"]), reason, str(story["url"]))
                         continue
                     item = {"title": story["title"], "description": story["description"], "url": story["url"]}
-                    needs_review = needs_fulltext_review(item)
-                    if not is_evenki_feed and not is_evenki_related(item) and not needs_review:
-                        AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
-                        continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
                         "day": published.date().isoformat(),
                         "description": story["description"],
-                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
+                        "needsFullText": "1" if not is_evenki_feed else "0",
                         "ilkenEvenki": "1" if is_evenki_feed else "0",
                         "configuredSource": "0" if is_evenki_feed else "1",
                     })
@@ -683,19 +697,14 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
                         AUDIT.event(str(feed["id"]), reason, str(story["url"]))
                         continue
                     item = {"title": story["title"], "description": story["description"], "url": story["url"]}
-                    needs_review = needs_fulltext_review(item)
-                    if not is_evenki_feed and not is_evenki_related(item) and not needs_review:
-                        AUDIT.event(str(feed["id"]), "irrelevant", str(story["url"]))
-                        continue
                     found.append({
                         "id": story["url"], "title": story["title"], "source": "Илкэн · Улгур",
                         "url": story["url"], "published": published.isoformat(timespec="minutes"),
                         "day": published.date().isoformat(),
                         "description": story["description"],
-                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
+                        "needsFullText": "1" if not is_evenki_feed else "0",
                         "ilkenEvenki": "1" if is_evenki_feed else "0",
                         "configuredSource": "0" if is_evenki_feed else "1",
-                        "needsFullText": "1" if needs_review and not is_evenki_related(item) else "0",
                     })
                 count = len(found) - feed_start
                 if count:
