@@ -26,7 +26,7 @@ body .resource-card::after{background-image:url("taiga-contours-gold.svg");trans
 body .map-panel .region-item::after{background-image:url("taiga-mountains-gold.svg")}
 body .resource-card>*,body .map-panel .region-item>*{position:relative;z-index:1}
 body .resource-card:hover::after,body .resource-card:focus-visible::after{opacity:.44;transform:translateX(0) rotate(-9deg)}
-body .map-panel .region-item:hover::after,body .map-panel .region-item:focus-visible::after{opacity:.68;transform:translateX(0)}
+body .map-panel .region-item:hover::after,body .map-panel .region-item:focus-visible::after{opacity:.9;transform:translateX(0)}
 .region-item:hover{background-color:var(--pine);border-color:var(--pine);color:var(--cream);box-shadow:0 7px 18px rgba(21,43,37,.13);transform:translateY(-1px)}
 .region-item:hover b{color:#e5c58c}
 .btn,.chip,.media-tab,.nav-cta,.pager button,.tools select,.sort{transition:background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease}
