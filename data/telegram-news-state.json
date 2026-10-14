@@ -1419,6 +1419,22 @@
       "detectedRegion": "Общие новости",
       "relevance": "context",
       "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/11/pozdravlenie-glavy-respubliki-saha-yakutiya-ajsena-nikolaeva-s-dnem-rabotnika-selskogo-hozyajstva-i-pererabatyvayushhej-promyshlennosti/",
+      "title": "Поздравление Главы Республики Саха (Якутия) Айсена Николаева с Днем работника сельского хозяйства и перерабатывающей промышленности",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/11/pozdravlenie-glavy-respubliki-saha-yakutiya-ajsena-nikolaeva-s-dnem-rabotnika-selskogo-hozyajstva-i-pererabatyvayushhej-promyshlennosti/",
+      "published": "2026-10-11T00:00+04:00",
+      "day": "2026-10-11",
+      "description": "Уважаемые работники сельского хозяйства и перерабатывающей промышленности Республики Саха (Якутия)! Дорогие ветераны отрасли! Сердечно поздравляю 1[2](https://ilken.ru/category/novosti/page/2/)…[245](https://ilken.ru/category/novosti/page/245/)[](https://ilken.ru/category/novosti/page/2/) ### Новое на сайте [![Image 33](https://ilken.ru/wp-content/uploads/2026/10/img_4256-70x70.jpeg)](https://ilken.ru/2026/10/14/v-no",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "context",
+      "detectedRegion": "Якутия",
+      "relevance": "context",
+      "siteEligible": "1"
     }
   ],
   "deliveredUrls": {
