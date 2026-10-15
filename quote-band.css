@@ -45,3 +45,65 @@
  .quote-band.page-intro-quote.history-page-quote-band{margin-top:0}
 }
 @media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}
+
+
+/* Stable intro quote banners: same dawn landscape as the masthead, with a 2:1 quote/source split. */
+.quote-band.page-intro-quote,
+.quote-band.page-intro-quote.history-page-quote-band{
+  box-sizing:border-box;
+  height:240px;
+  min-height:240px;
+  padding:0;
+  background-color:#e8e9df;
+  background-image:linear-gradient(115deg,rgba(232,235,223,.58),rgba(233,231,220,.5)),url("media/taiga-river-hero-v1.png?v=20261003-bands");
+  background-position:center,center 15%;
+  background-size:auto,cover;
+  background-repeat:no-repeat;
+}
+.quote-band.page-intro-quote .wrap,
+.quote-band.page-intro-quote.history-page-quote-band .wrap{
+  box-sizing:border-box;
+  height:100%;
+  grid-template-columns:40px minmax(0,2fr) minmax(0,1fr);
+  gap:22px;
+  align-content:center;
+  align-items:center;
+  padding-inline:15px;
+}
+.quote-band.page-intro-quote blockquote,
+.quote-band.page-intro-quote.history-page-quote-band blockquote{
+  max-width:none;
+  align-self:center;
+}
+.quote-band.page-intro-quote cite,
+.quote-band.page-intro-quote.history-page-quote-band cite{
+  align-self:center;
+}
+@media(max-width:700px){
+  .quote-band.page-intro-quote,
+  .quote-band.page-intro-quote.history-page-quote-band{
+    height:320px;
+    min-height:320px;
+    padding:0;
+  }
+  .quote-band.page-intro-quote .wrap,
+  .quote-band.page-intro-quote.history-page-quote-band .wrap{
+    grid-template-columns:25px minmax(0,1fr);
+    grid-template-rows:minmax(0,2fr) minmax(0,1fr);
+    gap:14px;
+    padding-inline:20px;
+  }
+  .quote-band.page-intro-quote blockquote,
+  .quote-band.page-intro-quote.history-page-quote-band blockquote{
+    font-size:17px;
+    line-height:1.45;
+  }
+  .quote-band.page-intro-quote cite,
+  .quote-band.page-intro-quote.history-page-quote-band cite{
+    grid-column:2;
+    align-self:center;
+    margin:0;
+    text-align:left;
+    font-size:9px;
+  }
+}
