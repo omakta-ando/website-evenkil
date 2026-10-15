@@ -256,3 +256,9 @@ html{scroll-padding-top:160px}
 /* Reserve actual card height as well as a lower lane for the contour. */
 .filters#filters .chip{height:124px!important;min-height:124px!important}
 .filters#filters .chip::after{top:auto!important;height:30px!important;bottom:5px!important;background-position:center 40%!important}
+
+
+/* Center regional titles at rest; lift them on hover like the general-news filters. */
+.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"])>span{position:relative;z-index:1;transform:translateY(0);transition:transform .24s ease,color .24s ease}
+.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):hover>span,.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):focus-visible>span{transform:translateY(-14px);color:#e5c58c}
+@media(max-width:520px){.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):hover>span,.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):focus-visible>span{transform:translateY(-7px)}}
