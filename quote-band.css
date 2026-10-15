@@ -24,13 +24,12 @@
 .map-sources-link{margin:14px 0 0;text-align:right;color:#788078;font-size:10px;letter-spacing:.02em}
 .map-sources-link a{color:#536b4f;text-decoration:underline;text-underline-offset:2px}
 .map-sources-link a:hover{color:#bc7654}
-.quote-band.page-intro-quote,.quote-band.page-intro-quote.history-page-quote-band{margin:0;padding:50px 0;border-bottom:1px solid rgba(115,132,106,.18);box-shadow:0 12px 34px rgba(21,43,37,.055);background-color:#e8e9df;background-image:linear-gradient(115deg,rgba(217,223,209,.68),rgba(233,231,220,.62)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 12%;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.quote-band.page-intro-quote,.quote-band.page-intro-quote.history-page-quote-band{margin:0;padding:50px 0;border-bottom:1px solid rgba(115,132,106,.18);box-shadow:0 12px 34px rgba(21,43,37,.055);background-color:#e8e9df;background-image:linear-gradient(115deg,rgba(217,223,209,.48),rgba(233,231,220,.44)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 15%;background-size:cover;background-repeat:no-repeat}
 .quote-band.page-intro-quote .wrap,.quote-band.page-intro-quote.history-page-quote-band .wrap{grid-template-columns:40px minmax(0,1.25fr) minmax(0,1fr);gap:22px;width:100%;max-width:none;margin:0;padding-inline:15px}
 .quote-band.page-intro-quote .quote-content{display:contents}
 .quote-band.page-intro-quote .quote-mark,.quote-band.page-intro-quote.history-page-quote-band .quote-mark{font-size:60px;color:#839176}
 .quote-band.page-intro-quote blockquote,.quote-band.page-intro-quote.history-page-quote-band blockquote{max-width:760px;color:#203c32;font:500 21px/1.45 'Literata',Georgia,serif;letter-spacing:-.035em}
 .quote-band.page-intro-quote cite,.quote-band.page-intro-quote.history-page-quote-band cite{align-self:center;margin:0;text-align:right;font-size:10px;line-height:1.6;color:#707a6d}
-.topline{background-attachment:fixed}
 @media(max-width:700px){
  .quote-band{padding:30px 0}
  .quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px;padding-inline:20px}
