@@ -83,16 +83,6 @@ window.newsStories=[
     "link": "https://amurmedia.ru/news/2652209"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "kommersant.ru",
-    "title": "Топливо привозного розлива",
-    "desc": "Россия может импортировать по 620 тыс. тонн бензина в месяц до конца года",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://kommersant.ru/doc/9027583"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-14",
     "source": "Илкэн",
