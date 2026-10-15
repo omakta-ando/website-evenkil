@@ -166,7 +166,8 @@
     "https://t.me/biraria/4264": "2026-10-15T14:16+04:00",
     "https://ilken.ru/2026/10/15/obrashhenie-deputata-k-izbiratelyam/": "2026-10-15T14:16+04:00",
     "https://ilken.ru/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri/": "2026-10-15T14:16+04:00",
-    "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns/": "2026-10-15T17:45+04:00"
+    "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns/": "2026-10-15T17:45+04:00",
+    "https://kommersant.ru/doc/9027583": "2026-10-15T22:34+04:00"
   },
   "daily": {
     "2026-10-08": [
@@ -1581,26 +1582,25 @@
         "detectedRegion": "Якутия",
         "relevance": "context",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://kommersant.ru/doc/9027583",
+        "url": "https://kommersant.ru/doc/9027583",
+        "title": "Топливо привозного розлива",
+        "description": "Россия может импортировать по 620 тыс. тонн бензина в месяц до конца года",
+        "source": "kommersant.ru",
+        "configuredSource": "1",
+        "auditSource": "kommersant.ru",
+        "detectedRelevance": "context",
+        "needsFullText": "0",
+        "published": "2026-10-15T21:59+04:00",
+        "day": "2026-10-15",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://kommersant.ru/doc/9027583",
-      "url": "https://kommersant.ru/doc/9027583",
-      "title": "Топливо привозного розлива",
-      "description": "Россия может импортировать по 620 тыс. тонн бензина в месяц до конца года",
-      "source": "kommersant.ru",
-      "configuredSource": "1",
-      "auditSource": "kommersant.ru",
-      "detectedRelevance": "context",
-      "needsFullText": "0",
-      "published": "2026-10-15T21:59+04:00",
-      "day": "2026-10-15",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -1765,6 +1765,7 @@
     "https://t.me/biraria/4264": "2026-10-15T14:16+04:00",
     "https://ilken.ru/2026/10/15/obrashhenie-deputata-k-izbiratelyam": "2026-10-15T14:16+04:00",
     "https://ilken.ru/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri": "2026-10-15T14:16+04:00",
-    "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns": "2026-10-15T17:45+04:00"
+    "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns": "2026-10-15T17:45+04:00",
+    "https://kommersant.ru/doc/9027583": "2026-10-15T22:34+04:00"
   }
 }
