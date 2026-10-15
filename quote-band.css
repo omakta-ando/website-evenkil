@@ -10,5 +10,39 @@
 @media(max-width:700px){.quote-band{padding:30px 0}.quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px}.quote-band .quote-mark{font-size:44px}.quote-band blockquote{font-size:17px}.map-sources-link{text-align:left}}
 @media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}
 
-/* Quote bands directly below the navigation reuse the same clear taiga sunrise scene as the masthead. */
-.quote-band.page-intro-quote{background-color:#e8e9df;background-image:linear-gradient(105deg,rgba(245,243,233,.50),rgba(238,241,230,.46) 52%,rgba(232,237,224,.52)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center,center 15%;background-size:cover,cover;background-repeat:no-repeat,no-repeat}
+/* Shared quote band: match the main page typography, colors, proportions and spacing. */
+.quote-band{position:relative;isolation:isolate;box-sizing:border-box;padding:50px 0;background-color:#e8e9df;background-image:linear-gradient(115deg,rgba(217,223,209,.96),rgba(233,231,220,.92)),url("https://images.unsplash.com/photo-1705574429259-dc47c7504314?auto=format&fit=crop&w=2200&q=85");background-size:auto,640px;background-position:center,right 20%;color:#203c32}
+.quote-band .wrap{display:grid;grid-template-columns:40px minmax(0,1.25fr) minmax(0,1fr);gap:22px;align-items:center;width:100%;max-width:none;margin:0;padding-inline:15px}
+.quote-band .quote-mark{font:60px/.8 Georgia,serif;color:#839176}
+.quote-content{min-width:0}
+.quote-band blockquote{margin:0;max-width:760px;color:#203c32;font:500 21px/1.45 'Literata',Georgia,serif;letter-spacing:-.035em;transition:opacity .45s ease,transform .45s ease}
+.quote-band cite{display:block;align-self:center;margin:0;text-align:right;font-style:normal;font-size:10px;line-height:1.6;color:#707a6d;letter-spacing:.1em;text-transform:uppercase}
+.quote-band cite a{color:inherit;text-decoration:underline;text-decoration-color:#9aa892;text-underline-offset:3px}
+.quote-band cite a:hover{color:#203c32}
+.quote-band blockquote.is-changing{opacity:0;transform:translateY(5px)}
+.quote-band:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,#f5f3e9 0 33.33%,#839176 33.33% 66.66%,#203c32 66.66% 100%);z-index:-1}
+.map-sources-link{margin:14px 0 0;text-align:right;color:#788078;font-size:10px;letter-spacing:.02em}
+.map-sources-link a{color:#536b4f;text-decoration:underline;text-underline-offset:2px}
+.map-sources-link a:hover{color:#bc7654}
+.quote-band.page-intro-quote,.quote-band.page-intro-quote.history-page-quote-band{margin:0;padding:50px 0;border-bottom:1px solid rgba(115,132,106,.18);box-shadow:0 12px 34px rgba(21,43,37,.055);background-color:#e8e9df;background-image:linear-gradient(115deg,rgba(217,223,209,.68),rgba(233,231,220,.62)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center 12%;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.quote-band.page-intro-quote .wrap,.quote-band.page-intro-quote.history-page-quote-band .wrap{grid-template-columns:40px minmax(0,1.25fr) minmax(0,1fr);gap:22px;width:100%;max-width:none;margin:0;padding-inline:15px}
+.quote-band.page-intro-quote .quote-content{display:contents}
+.quote-band.page-intro-quote .quote-mark,.quote-band.page-intro-quote.history-page-quote-band .quote-mark{font-size:60px;color:#839176}
+.quote-band.page-intro-quote blockquote,.quote-band.page-intro-quote.history-page-quote-band blockquote{max-width:760px;color:#203c32;font:500 21px/1.45 'Literata',Georgia,serif;letter-spacing:-.035em}
+.quote-band.page-intro-quote cite,.quote-band.page-intro-quote.history-page-quote-band cite{align-self:center;margin:0;text-align:right;font-size:10px;line-height:1.6;color:#707a6d}
+.topline{background-attachment:fixed}
+@media(max-width:700px){
+ .quote-band{padding:30px 0}
+ .quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px;padding-inline:20px}
+ .quote-band .quote-mark{font-size:44px}
+ .quote-band blockquote{font-size:17px}
+ .quote-band cite{grid-column:2;text-align:left}
+ .map-sources-link{text-align:left}
+ .quote-band.page-intro-quote,.quote-band.page-intro-quote.history-page-quote-band{margin:0;padding:30px 0}
+ .quote-band.page-intro-quote .wrap,.quote-band.page-intro-quote.history-page-quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px;padding-inline:20px}
+ .quote-band.page-intro-quote .quote-mark,.quote-band.page-intro-quote.history-page-quote-band .quote-mark{font-size:44px}
+ .quote-band.page-intro-quote blockquote,.quote-band.page-intro-quote.history-page-quote-band blockquote{font-size:17px;line-height:1.45}
+ .quote-band.page-intro-quote cite,.quote-band.page-intro-quote.history-page-quote-band cite{grid-column:2;text-align:left;margin-top:10px;font-size:9px}
+ .quote-band.page-intro-quote.history-page-quote-band{margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}
