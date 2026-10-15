@@ -242,3 +242,7 @@ html{scroll-padding-top:160px}
 .filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"])::after{top:68%;background-position:center 20%}
 .filters#filters .chip[data-region="Все регионы"]::after,.filters#filters .chip[data-region="Общие новости"]::after,.filters#filters .chip[data-region="Зарубежные источники"]::after,.filters#filters .chip[data-region="Новости на эвенкийском"]::after{top:68%;background-position:center 20%}
 }
+
+
+/* Anchor the contour in a dedicated lower strip, with a guaranteed gap below long labels. */
+.filters#filters .chip::after{top:auto!important;height:48px!important;bottom:14px!important;background-position:center 40%!important}
