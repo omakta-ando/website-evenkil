@@ -266,7 +266,7 @@ html{scroll-padding-top:160px}
 
 /* Gold eternity spiral is vertically centered at the right and spins on hover. */
 .stats .stat{position:relative}
-.stats .stat::before{content:"";position:absolute;top:50%;right:10px;width:34px;height:34px;background:url("eternity-spiral-gold.svg?v=2") center/contain no-repeat;opacity:.72;pointer-events:none;transform:translateY(-50%) rotate(0);transform-origin:center;transition:opacity .2s ease}
+.stats .stat::before{content:"";position:absolute;top:50%;right:10px;width:34px;height:34px;background:url("eternity-spiral-gold.svg?v=3") center/contain no-repeat;opacity:.72;pointer-events:none;transform:translateY(-50%) rotate(0);transform-origin:center;transition:opacity .2s ease}
 .stats .stat:hover::before{opacity:1;animation:stat-spiral-turn .72s ease-in-out 1}
 @keyframes stat-spiral-turn{0%{transform:translateY(-50%) rotate(0)}65%{transform:translateY(-50%) rotate(390deg)}100%{transform:translateY(-50%) rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.stats .stat:hover::before{animation:none}}
