@@ -246,3 +246,8 @@ html{scroll-padding-top:160px}
 
 /* Anchor the contour in a dedicated lower strip, with a guaranteed gap below long labels. */
 .filters#filters .chip::after{top:auto!important;height:48px!important;bottom:14px!important;background-position:center 40%!important}
+
+
+/* Give long region names space above the decorative contour. */
+.filters#filters .chip{min-height:124px}
+.filters#filters .chip::after{top:auto!important;height:30px!important;bottom:5px!important;background-position:center 40%!important}
