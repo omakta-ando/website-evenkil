@@ -130,6 +130,7 @@
     "riatomsk.ru",
     "russian-arctic.info",
     "rutube.ru",
+    "sakhaday.ru",
     "sakh.online",
     "sakh.rfn.ru",
     "sakha.gov.ru",
@@ -296,6 +297,11 @@
     "maxFullTextReviews": 40,
     "fullTextWorkers": 8,
     "fullTextTimeoutSeconds": 10,
-    "sources": {}
+    "sources": {
+      "sakhaday.ru": {
+        "label": "Сахадэй · новости Якутии",
+        "url": "https://sakhaday.ru/"
+      }
+    }
   }
 }
