@@ -55,10 +55,10 @@
   min-height:240px;
   padding:0;
   background-color:#e8e9df;
-  background-image:linear-gradient(115deg,rgba(232,235,223,.58),rgba(233,231,220,.5)),url("media/taiga-river-hero-v1.png?v=20261003-bands");
-  background-position:center,center 15%;
-  background-size:auto,cover;
-  background-repeat:no-repeat;
+  background-image:linear-gradient(110deg,rgba(232,235,223,.86),rgba(239,235,221,.82)),url("media/taiga-river-hero-v1.png?v=20261003-quote"),url("taiga-contours.svg");
+  background-position:center,center 73%,right 20%;
+  background-size:cover,cover,640px;
+  background-repeat:no-repeat,no-repeat,repeat;
 }
 .quote-band.page-intro-quote .wrap,
 .quote-band.page-intro-quote.history-page-quote-band .wrap{
