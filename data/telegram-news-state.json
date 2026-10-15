@@ -1584,7 +1584,23 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "https://kommersant.ru/doc/9027583",
+      "url": "https://kommersant.ru/doc/9027583",
+      "title": "Топливо привозного розлива",
+      "description": "Россия может импортировать по 620 тыс. тонн бензина в месяц до конца года",
+      "source": "kommersant.ru",
+      "configuredSource": "1",
+      "auditSource": "kommersant.ru",
+      "detectedRelevance": "context",
+      "needsFullText": "0",
+      "published": "2026-10-15T21:59+04:00",
+      "day": "2026-10-15",
+      "relevance": "context",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
