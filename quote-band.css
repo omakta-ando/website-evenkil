@@ -9,3 +9,6 @@
 .map-sources-link a:hover{color:#bc7654}
 @media(max-width:700px){.quote-band{padding:30px 0}.quote-band .wrap{grid-template-columns:25px minmax(0,1fr);gap:14px}.quote-band .quote-mark{font-size:44px}.quote-band blockquote{font-size:17px}.map-sources-link{text-align:left}}
 @media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}
+
+/* Quote bands directly below the navigation reuse the same clear taiga sunrise scene as the masthead. */
+.quote-band.page-intro-quote{background-color:#e8e9df;background-image:linear-gradient(105deg,rgba(245,243,233,.72),rgba(238,241,230,.68) 52%,rgba(232,237,224,.74)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center,center 15%;background-size:cover,cover;background-repeat:no-repeat,no-repeat}
