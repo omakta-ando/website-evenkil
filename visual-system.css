@@ -262,3 +262,10 @@ html{scroll-padding-top:160px}
 .filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"])>span{position:relative;z-index:1;transform:translateY(0);transition:transform .24s ease,color .24s ease}
 .filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):hover>span,.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):focus-visible>span{transform:translateY(-14px);color:#e5c58c}
 @media(max-width:520px){.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):hover>span,.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):focus-visible>span{transform:translateY(-7px)}}
+
+
+/* Thin gold eternity spiral in the upper-left corner of each statistics card. */
+.stats .stat{position:relative}
+.stats .stat::before{content:"";position:absolute;top:9px;left:10px;width:19px;height:19px;background:url("eternity-spiral-gold.svg?v=1") center/contain no-repeat;opacity:.72;pointer-events:none;transition:opacity .2s ease,transform .25s ease}
+.stats .stat:hover::before{opacity:1;transform:rotate(-12deg)}
+@media(prefers-reduced-motion:reduce){.stats .stat::before{transition:none}}
