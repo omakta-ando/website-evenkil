@@ -264,8 +264,9 @@ html{scroll-padding-top:160px}
 @media(max-width:520px){.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):hover>span,.filters#filters .chip:not([data-region="Все регионы"]):not([data-region="Общие новости"]):not([data-region="Зарубежные источники"]):not([data-region="Новости на эвенкийском"]):focus-visible>span{transform:translateY(-7px)}}
 
 
-/* Thin gold eternity spiral in the upper-left corner of each statistics card. */
+/* Gold eternity spiral sits in the upper-right corner and spins on hover. */
 .stats .stat{position:relative}
-.stats .stat::before{content:"";position:absolute;top:9px;left:10px;width:19px;height:19px;background:url("eternity-spiral-gold.svg?v=1") center/contain no-repeat;opacity:.72;pointer-events:none;transition:opacity .2s ease,transform .25s ease}
-.stats .stat:hover::before{opacity:1;transform:rotate(-12deg)}
-@media(prefers-reduced-motion:reduce){.stats .stat::before{transition:none}}
+.stats .stat::before{content:"";position:absolute;top:9px;right:10px;width:27px;height:27px;background:url("eternity-spiral-gold.svg?v=1") center/contain no-repeat;opacity:.72;pointer-events:none;transform:rotate(0);transform-origin:center;transition:opacity .2s ease}
+.stats .stat:hover::before{opacity:1;animation:stat-spiral-turn .72s ease-in-out 1}
+@keyframes stat-spiral-turn{0%{transform:rotate(0)}65%{transform:rotate(390deg)}100%{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.stats .stat:hover::before{animation:none}}
