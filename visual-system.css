@@ -270,3 +270,9 @@ html{scroll-padding-top:160px}
 .stats .stat:hover::before,.stats .stat:focus-visible::before{opacity:1;animation:stat-spiral-turn .72s ease-in-out 1}
 @keyframes stat-spiral-turn{0%{transform:translateY(-50%) rotate(0)}65%{transform:translateY(-50%) rotate(390deg)}100%{transform:translateY(-50%) rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.stats .stat:hover::before,.stats .stat:focus-visible::before{animation:none}}
+
+
+/* Spin the kumalan while a news-filter label rises on hover or keyboard focus. */
+.filters#filters .chip:hover::before,.filters#filters .chip:focus-visible::before{animation:kumalan-card-spin .4s ease-in-out 1}
+@keyframes kumalan-card-spin{0%{transform:translateY(-3px) rotate(0)}100%{transform:translateY(0) rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.filters#filters .chip:hover::before,.filters#filters .chip:focus-visible::before{animation:none}}
