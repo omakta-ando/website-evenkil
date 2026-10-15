@@ -11,4 +11,4 @@
 @media(prefers-reduced-motion:reduce){.quote-band blockquote{transition:none}}
 
 /* Quote bands directly below the navigation reuse the same clear taiga sunrise scene as the masthead. */
-.quote-band.page-intro-quote{background-color:#e8e9df;background-image:linear-gradient(105deg,rgba(245,243,233,.72),rgba(238,241,230,.68) 52%,rgba(232,237,224,.74)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center,center 15%;background-size:cover,cover;background-repeat:no-repeat,no-repeat}
+.quote-band.page-intro-quote{background-color:#e8e9df;background-image:linear-gradient(105deg,rgba(245,243,233,.34),rgba(238,241,230,.28) 52%,rgba(232,237,224,.36)),url("media/taiga-mountain-hero.jpg?v=20261001-1");background-position:center,center 15%;background-size:cover,cover;background-repeat:no-repeat,no-repeat}
