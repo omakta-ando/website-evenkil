@@ -94,6 +94,16 @@ window.newsStories=[
     "link": "https://arun-rb.ru/v-buryatii-snimut-film-o-snajpere-evenke-semyone-nomokonove.html"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-16",
+    "source": "7 канал Красноярск",
+    "title": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине - 7 канал Красноярск",
+    "desc": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vY18zb3gzVG1Db2RXWmU3RFI0c2RIendXVDhFZ2FIVURZZlh1eU9FUTNLdlVKOXFkRlRwTWJJSktxd3lIXy1Z?oc=5"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-15",
     "source": "Сахадэй",
@@ -153,16 +163,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://amurmedia.ru/news/2652209"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-15",
-    "source": "7 канал Красноярск",
-    "title": "В Эвенкии ввели лимит на продажу продуктов - 7 канал Красноярск",
-    "desc": "В Эвенкии ввели лимит на продажу продуктов 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mekRkVzFGZm1hTEFsblZETEN0dV92SFlUSDlrbGw2dVBySzZwSF9yRWt5MWhSNmRmamdGZHptVGlnblRISm9F?oc=5"
   },
   {
     "region": "Красноярский край",
@@ -882,6 +882,16 @@ window.newsStories=[
     "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-15",
+    "source": "7 канал Красноярск",
+    "title": "В Эвенкии ввели лимит на продажу продуктов - 7 канал Красноярск",
+    "desc": "В Эвенкии ввели лимит на продажу продуктов 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mekRkVzFGZm1hTEFsblZETEN0dV92SFlUSDlrbGw2dVBySzZwSF9yRWt5MWhSNmRmamdGZHptVGlnblRISm9F?oc=5"
+  },
+  {
     "region": "Зарубежные источники",
     "date": "2026-10-15",
     "source": "中国新闻网",
@@ -930,16 +940,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://amurmedia.ru/news/2652036"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-14",
-    "source": "7 канал Красноярск",
-    "title": "На севере Красноярского края завершился северный завоз - 7 канал Красноярск",
-    "desc": "На севере Красноярского края завершился северный завоз 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Md1hlR1NITW94N1NnZm5SekhaMGJpRWllRXYwQnJDVk51R0dMbXlxZndnMFVKTm1CSmV5eFZ1NG9PNmlzN0lF?oc=5"
   },
   {
     "region": "Якутия",
@@ -1220,6 +1220,16 @@ window.newsStories=[
     "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-14",
+    "source": "7 канал Красноярск",
+    "title": "На севере Красноярского края завершился северный завоз - 7 канал Красноярск",
+    "desc": "На севере Красноярского края завершился северный завоз 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Md1hlR1NITW94N1NnZm5SekhaMGJpRWllRXYwQnJDVk51R0dMbXlxZndnMFVKTm1CSmV5eFZ1NG9PNmlzN0lF?oc=5"
+  },
+  {
     "region": "Зарубежные источники",
     "date": "2026-10-14",
     "source": "新华网",
@@ -1249,16 +1259,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://indigenous-russia.com/archives/50765"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-09",
-    "source": "7 канал Красноярск",
-    "title": "Дефицит продуктов в Эвенкии может окончиться уголовным делом - 7 канал Красноярск",
-    "desc": "Дефицит продуктов в Эвенкии может окончиться уголовным делом 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5"
   },
   {
     "region": "Общие новости",
@@ -1388,6 +1388,16 @@ window.newsStories=[
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-09",
+    "source": "7 канал Красноярск",
+    "title": "Дефицит продуктов в Эвенкии может окончиться уголовным делом - 7 канал Красноярск",
+    "desc": "Дефицит продуктов в Эвенкии может окончиться уголовным делом 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5"
   },
   {
     "region": "Якутия",
