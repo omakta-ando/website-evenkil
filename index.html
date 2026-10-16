@@ -75,20 +75,21 @@
 @media(max-width:1000px){.stats .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));min-height:0}.stats .stat{min-width:0;min-height:128px;padding:18px 22px;border-bottom:1px solid #d3d4c8}.stats .stat:nth-child(3n){border-right:0}.stats .stat:nth-last-child(-n+3){border-bottom:0}.stats .stat span{line-height:1.45}}
 @media(max-width:600px){.stats .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.stats .stat{min-height:132px;padding:18px 16px}.stats .stat:nth-child(3n){border-right:1px solid #d3d4c8}.stats .stat:nth-child(2n){border-right:0}.stats .stat:nth-last-child(-n+3){border-bottom:1px solid #d3d4c8}.stats .stat:nth-last-child(-n+2){border-bottom:0}.stats .stat strong{font-size:18px}.stats .stat span{font-size:10px;letter-spacing:.07em;line-height:1.5}}
 </style>
-\n<style>.nav-social{display:inline-flex;align-items:center;gap:10px;margin-left:-16px}.nav-social a{box-sizing:border-box;width:34px;height:34px;flex:0 0 34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #c9cec2;border-radius:50%;color:#59645c;transition:color .18s ease,border-color .18s ease,transform .18s ease}.nav-social a:hover{color:#bc7654;border-color:#bc7654;transform:translateY(-1px)}.nav-social svg{width:16px;height:16px;fill:currentColor}.navlinks{align-items:center}@media(max-width:800px){.nav-social{margin-left:-5px;gap:6px}.nav-social a{width:32px;height:32px;flex-basis:32px}.nav-social svg{width:15px;height:15px}}</style><style id="fullscreen-hero-with-stats">
-/* Keep the hero and all statistics within the first viewport. */
+<style>.nav-social{display:inline-flex;align-items:center;gap:10px;margin-left:-16px}.nav-social a{box-sizing:border-box;width:34px;height:34px;flex:0 0 34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #c9cec2;border-radius:50%;color:#59645c;transition:color .18s ease,border-color .18s ease,transform .18s ease}.nav-social a:hover{color:#bc7654;border-color:#bc7654;transform:translateY(-1px)}.nav-social svg{width:16px;height:16px;fill:currentColor}.navlinks{align-items:center}@media(max-width:800px){.nav-social{margin-left:-5px;gap:6px}.nav-social a{width:32px;height:32px;flex-basis:32px}.nav-social svg{width:15px;height:15px}}</style><style id="fullscreen-hero-with-stats">
+/* Match the full first screen to the real 72px masthead, 52px nav and statistics row. */
+.topline{background-color:#0b211b!important;background-image:linear-gradient(90deg,#071711,#152b25)!important}
 @media (min-width:901px){
-  .hero{min-height:calc(100svh - 199px)}
+  .hero{min-height:calc(100svh - 209px)}
   .hero .wrap{min-height:inherit}
 }
 @media (max-width:900px){
-  .hero{min-height:max(420px,calc(100svh - 314px))}
+  .hero{min-height:max(420px,calc(100svh - 324px))}
   .hero .wrap{min-height:inherit;padding-top:clamp(36px,6svh,64px);padding-bottom:26px}
   .stats .wrap{grid-template-columns:repeat(3,minmax(0,1fr))}
   .stats .stat{min-height:100px;padding:12px 16px}
 }
 @media (max-width:600px){
-  .hero{min-height:max(360px,calc(100svh - 414px))}
+  .hero{min-height:max(360px,calc(100svh - 424px))}
   .hero .wrap{min-height:inherit;padding-top:clamp(24px,5svh,48px);padding-bottom:24px}
   .stats .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
   .stats .stat{min-height:100px;padding:10px 12px}
@@ -96,6 +97,7 @@
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
+
 </head>
 <body>
 <div class="topline"><div class="wrap"><div class="status"><i class="dot"></i><span>Хроника народа</span></div></div></div>
