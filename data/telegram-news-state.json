@@ -181,7 +181,8 @@
     "CBMiogFBVV95cUxPSklyNERwbFNTb2NYUkZFT2hHR2h2dzJZdFJPekdKbUw1bF9PbFNyRDVRdHBHSEItZUdWSmtFYTdLRTF1N2RISjZDSmotcWttZTVRcVQ4bHRjS0xHUS1PQURDR0M2QzduWlRYRFh6bXlRQ3lvRGxWVGktdV9xTFNybEpjbHFqRm56a29EcnpRcF9MWlJOcEVZckxTODVVNlliM2c": "2026-10-16T11:54+04:00",
     "https://t.me/evenkya_life/12814": "2026-10-16T11:54+04:00",
     "CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv": "2026-10-16T11:54+04:00",
-    "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00"
+    "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00",
+    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00"
   },
   "daily": {
     "2026-10-09": [
@@ -1345,6 +1346,21 @@
         "detectedRegion": "Якутия",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12775",
+        "title": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12775",
+        "published": "2026-10-14T11:58+04:00",
+        "day": "2026-10-14",
+        "description": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "context",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ],
     "2026-10-15": [
@@ -1726,23 +1742,7 @@
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://t.me/evenkya_life/12775",
-      "title": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12775",
-      "published": "2026-10-14T11:58+04:00",
-      "day": "2026-10-14",
-      "description": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-      "socialPlatform": "Telegram",
-      "detectedRelevance": "context",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -1922,6 +1922,7 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSklyNERwbFNTb2NYUkZFT2hHR2h2dzJZdFJPekdKbUw1bF9PbFNyRDVRdHBHSEItZUdWSmtFYTdLRTF1N2RISjZDSmotcWttZTVRcVQ4bHRjS0xHUS1PQURDR0M2QzduWlRYRFh6bXlRQ3lvRGxWVGktdV9xTFNybEpjbHFqRm56a29EcnpRcF9MWlJOcEVZckxTODVVNlliM2c?oc=5": "2026-10-16T11:54+04:00",
     "https://t.me/evenkya_life/12814": "2026-10-16T11:54+04:00",
     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5": "2026-10-16T11:54+04:00",
-    "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00"
+    "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00",
+    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00"
   }
 }
