@@ -41,6 +41,14 @@ BOT_API = "https://api.telegram.org"
 LOOKBACK_HOURS = 7 * 24
 MAX_SEEN_DAYS = 30
 MAX_DIGEST_ITEMS = 40
+MAX_TOPIC_STORIES_PER_REGION = 2
+TOPIC_STORY_LOOKBACK_DAYS = 7
+SUPPLY_ACTIVITY_RE = re.compile(r"(?:завоз\w*|снабжени\w*|доставк\w*|поставк\w*|перевозк\w*)", re.I)
+SUPPLY_GOODS_RE = re.compile(r"(?:продукт\w*|топлив\w*|груз\w*|товар\w*|снабжени\w*)", re.I)
+NORTH_SUPPLY_CONTEXT_RE = re.compile(
+    r"(?:северн\w{0,12}|арктическ\w*|таймыр\w*|эвенки\w*|"
+    r"отдал[её]нн\w*.{0,30}посел\w*|север\w*.{0,50}(?:красноярск\w*|саха|якут\w*)|"
+    r"(?:красноярск\w*|саха|якут\w*).{0,50}север\w*)", re.I)
 MAX_FULLTEXT_REVIEWS = 40
 FULLTEXT_CANDIDATE_RE = re.compile(r"(?:олен\w*|оленевод\w*|экспорт\w*|ген[ьъ]?х[эе]\w*|тянск\w*|арктик\w*|северн\w*.{0,24}(?:завоз\w*|посел\w*|район\w*|народ\w*|олень\w*)|завоз\w*|снабжени\w*|груз\w*|коренн\w* народ\w*|общин\w*|традиц\w*|культур\w*|язык\w*|школ\w*|промысл\w*|охот\w*|рыболов\w*)", re.I)
 
@@ -291,6 +299,20 @@ def story_region(item: dict[str, object], default: str) -> str:
         if len(winners) == 1:
             return winners[0]
     return assigned_region or default
+
+
+def story_topic_key(item: dict[str, object]) -> tuple[str, str] | None:
+    """Group repetitive northern food/fuel supply stories by subject region."""
+    text = story_text(item)
+    has_supply_activity = bool(SUPPLY_ACTIVITY_RE.search(text))
+    has_supply_goods = bool(SUPPLY_GOODS_RE.search(text))
+    has_northern_context = bool(NORTH_SUPPLY_CONTEXT_RE.search(text))
+    if not (has_supply_activity and has_supply_goods and has_northern_context):
+        return None
+    region = story_region(item, str(item.get("region") or "Общие новости"))
+    if region in {"", "Общие новости", "Зарубежные источники", "Новости на эвенкийском"}:
+        return None
+    return region, "северный завоз и снабжение"
 
 
 def source_key(item: dict[str, object]) -> str:
@@ -1256,6 +1278,13 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
     original_stories = list(stories)
     stories = [story for story in stories if not is_excluded_story(story)]
     known = {news_sources.canonical_url(str(story.get("link", ""))) for story in stories}
+    topic_cutoff = now_local() - dt.timedelta(days=TOPIC_STORY_LOOKBACK_DAYS)
+    topic_counts: dict[tuple[str, str], int] = {}
+    for story in stories:
+        published = parse_date(str(story.get("date", "")))
+        topic_key = story_topic_key(story)
+        if published and published >= topic_cutoff and topic_key:
+            topic_counts[topic_key] = topic_counts.get(topic_key, 0) + 1
     added = 0
     for item in candidates:
         if is_excluded_story(item) or (not is_evenki_related(item) and not trusted_category(item)):
@@ -1263,6 +1292,14 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
         link = news_sources.canonical_url(item["url"])
         if link in known:
             AUDIT.event(item["source"], "already_on_site", item["url"])
+            continue
+        topic_key = story_topic_key(item)
+        if topic_key and topic_counts.get(topic_key, 0) >= MAX_TOPIC_STORIES_PER_REGION:
+            AUDIT.event(
+                item["source"], "topic_region_limit", item["url"],
+                topic=topic_key[1], region=topic_key[0],
+                limit=MAX_TOPIC_STORIES_PER_REGION,
+            )
             continue
         relevance = story_relevance(item)
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
@@ -1276,6 +1313,8 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             **({"image": item["image"]} if item.get("image") else {}),
         })
         known.add(link)
+        if topic_key:
+            topic_counts[topic_key] = topic_counts.get(topic_key, 0) + 1
         AUDIT.event(item["source"], "site_added", item["url"])
         added += 1
     stories = diversify_items(stories)
