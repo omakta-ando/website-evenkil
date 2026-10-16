@@ -182,7 +182,10 @@
     "https://t.me/evenkya_life/12814": "2026-10-16T11:54+04:00",
     "CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv": "2026-10-16T11:54+04:00",
     "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00",
-    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00"
+    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00",
+    "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/": "2026-10-16T14:07+04:00",
+    "https://t.me/evenkya_life/12765": "2026-10-16T14:07+04:00",
+    "https://t.me/evenkya_life/12740": "2026-10-16T14:07+04:00"
   },
   "daily": {
     "2026-10-09": [
@@ -761,6 +764,21 @@
         "detectedRelevance": "direct",
         "detectedRegion": "Общие новости",
         "relevance": "direct",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12740",
+        "title": "Молодёжь приглашают на творческий конкурс «Гордость и надежда моя, Эвенкия!» Конкурс приурочен ко Дню образования Эвенкии. Приём заявок начался сегодня, 12 октября, и продлится до",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12740",
+        "published": "2026-10-12T15:17+04:00",
+        "day": "2026-10-12",
+        "description": "Молодёжь приглашают на творческий конкурс «Гордость и надежда моя, Эвенкия!» Конкурс приурочен ко Дню образования Эвенкии. Приём заявок начался сегодня, 12 октября, и продлится до 29 ноября. Участвовать могут жители округа от 14 до 35 лет — как отдельные исполнители, так и творческие коллективы. Конкурс пройдёт в двух номинациях: «Арт парад» — музыкальные номера (в виде видеоролика до 3 минут). В финале ролика обязат",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "context",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
+        "relevance": "context",
         "siteEligible": "1"
       }
     ],
@@ -1361,6 +1379,21 @@
         "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
         "relevance": "context",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12765",
+        "title": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участко",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12765",
+        "published": "2026-10-14T06:42+04:00",
+        "day": "2026-10-14",
+        "description": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участком волонтеры выдавали билеты Викторины 2026, посвященной Году единства народов России. Айнур заполнил билет и даже не надеялся на удачу. Но на следующий день ему позвонили и сообщили о том, что он выиграл смартфон. 12 октября в здании админи",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "context",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ],
     "2026-10-15": [
@@ -1739,57 +1772,26 @@
         "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/",
+        "title": "Эвенкийский сказитель Валентин Исаков покорил Китай",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/",
+        "published": "2026-10-16T00:00+04:00",
+        "day": "2026-10-16",
+        "description": "ИЛКЭН. В сентябре этого года артист Театра Олонхо Валентин Гаврильевич Исаков успешно выступил на ежегодном",
+        "needsFullText": "0",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "detectedRelevance": "direct",
+        "detectedRegion": "Общие новости",
+        "relevance": "direct",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/",
-      "title": "Эвенкийский сказитель Валентин Исаков покорил Китай",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/",
-      "published": "2026-10-16T00:00+04:00",
-      "day": "2026-10-16",
-      "description": "ИЛКЭН. В сентябре этого года артист Театра Олонхо Валентин Гаврильевич Исаков успешно выступил на ежегодном",
-      "needsFullText": "0",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "detectedRelevance": "direct",
-      "detectedRegion": "Общие новости",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://t.me/evenkya_life/12765",
-      "title": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участко",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12765",
-      "published": "2026-10-14T06:42+04:00",
-      "day": "2026-10-14",
-      "description": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участком волонтеры выдавали билеты Викторины 2026, посвященной Году единства народов России. Айнур заполнил билет и даже не надеялся на удачу. Но на следующий день ему позвонили и сообщили о том, что он выиграл смартфон. 12 октября в здании админи",
-      "socialPlatform": "Telegram",
-      "detectedRelevance": "context",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
-      "relevance": "context",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://t.me/evenkya_life/12740",
-      "title": "Молодёжь приглашают на творческий конкурс «Гордость и надежда моя, Эвенкия!» Конкурс приурочен ко Дню образования Эвенкии. Приём заявок начался сегодня, 12 октября, и продлится до",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12740",
-      "published": "2026-10-12T15:17+04:00",
-      "day": "2026-10-12",
-      "description": "Молодёжь приглашают на творческий конкурс «Гордость и надежда моя, Эвенкия!» Конкурс приурочен ко Дню образования Эвенкии. Приём заявок начался сегодня, 12 октября, и продлится до 29 ноября. Участвовать могут жители округа от 14 до 35 лет — как отдельные исполнители, так и творческие коллективы. Конкурс пройдёт в двух номинациях: «Арт парад» — музыкальные номера (в виде видеоролика до 3 минут). В финале ролика обязат",
-      "socialPlatform": "Telegram",
-      "detectedRelevance": "context",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -1970,6 +1972,9 @@
     "https://t.me/evenkya_life/12814": "2026-10-16T11:54+04:00",
     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5": "2026-10-16T11:54+04:00",
     "https://t.me/evenkya_life/12801": "2026-10-16T11:54+04:00",
-    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00"
+    "https://t.me/evenkya_life/12775": "2026-10-16T11:56+04:00",
+    "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj": "2026-10-16T14:07+04:00",
+    "https://t.me/evenkya_life/12765": "2026-10-16T14:07+04:00",
+    "https://t.me/evenkya_life/12740": "2026-10-16T14:07+04:00"
   }
 }
