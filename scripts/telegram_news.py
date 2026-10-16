@@ -52,9 +52,10 @@ EVENKI_MENTION_RE = re.compile(
     r"|\b(?:evenkis?|ewenkis?|orochons?|oroqens?|oroqins?|khamnigans?|hamnigans?)\b"
     r"|鄂温克|鄂伦春|鄂倫春|敖鲁古雅|エヴェンキ|オロチョン|ハムニガン|에벤키|오로촌|함니간)", re.I)
 CONTEXT_TOPIC_RE = re.compile(
-    r"(?:северн\w{0,12}\s+завоз\w*|арктическ\w{0,16}\s+(?:завоз\w*|снабжени\w*|доставк\w*)|"
-    r"(?:доставк\w*|перевозк\w*|завоз\w*|снабжени\w*).{0,50}(?:груз\w*|топлив\w*|продукт\w*|арктик\w*|северн\w* посел\w*)|"
-    r"(?:арктик\w*|груз\w*).{0,50}(?:доставк\w*|перевозк\w*|завоз\w*|снабжени\w*)|"
+    r"(?:северн\w{0,12}\s+завоз\w*|завоз\w*.{0,40}северн\w*\s+(?:район\w*|посел\w*)|"
+    r"арктическ\w{0,16}\s+(?:завоз\w*|снабжени\w*|доставк\w*)|"
+    r"снабжени\w*.{0,50}(?:арктическ\w*|северн\w*|отдал[её]нн\w*) посел\w*|"
+    r"доставк\w*.{0,50}(?:отдал[её]нн\w* северн\w*|северн\w* отдал[её]нн\w*) посел\w*|"
     r"(?:правил\w*.{0,35}охот\w*|охот\w*.{0,35}правил\w*|срок\w* охот\w*|сезон охот\w*|охотнич\w* сезон\w*|"
     r"закон\w*.{0,35}охот\w*|охот\w*.{0,35}закон\w*|измен\w*.{0,35}охот\w*|"
     r"правил\w*.{0,35}рыболов\w*|рыболов\w*.{0,35}правил\w*|измен\w*.{0,35}рыболов\w*|нерестов\w* запрет\w*|"
@@ -1038,7 +1039,7 @@ def fetch_items() -> list[dict[str, str]]:
     # empty feed. Individual queries also make it possible to see which terms
     # actually discover stories.
     feeds: list[tuple[str, bool, dict[str, str] | None]] = []
-    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "local-entities"):
+    for group_id in ("core", "language-education", "culture", "historical-and-local-names", "regional-context", "local-entities", "map-localities"):
         terms = load_query_group(group_id)
         feeds.extend((f"{quote_search_term(term)} when:7d", False, None) for term in terms)
     international_terms = load_query_group("international-ethnonyms")
