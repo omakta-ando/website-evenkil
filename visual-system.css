@@ -287,4 +287,4 @@ html{scroll-padding-top:124px}@media(max-width:900px){html{scroll-padding-top:19
 .section.news-area#news .region-tag{background:#eef0e7;color:#687a63}
 .section.news-area#news .news-card .context-tag{background:#f2ead6;color:#806334}
 .section.news-area#news .chip{border-color:#cfd5c8;color:#5e6d5d}
-.section.news-area#news .chip:hover:not(.active){background:#dce3d7;border-color:#b9c7b1;color:#203c32}
+.section.news-area#news .filters .chip:hover:not(.active),.section.news-area#news .filters .chip:focus-visible:not(.active){background:#203c32;border-color:#203c32;color:#f5f3e9;box-shadow:0 10px 25px #152b2518;transform:translateY(-2px)}
