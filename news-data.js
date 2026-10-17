@@ -850,6 +850,16 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
+    "date": "2026-10-17",
+    "source": "Настоящее Время",
+    "title": "Из-за обмеления Нижней Тунгуски в Эвенкии начался дефицит продовольствия. В поселке Тура люди провели в очереди два дня - Настоящее Время",
+    "desc": "Из-за обмеления Нижней Тунгуски в Эвенкии начался дефицит продовольствия. В поселке Тура люди провели в очереди два дня Настоящее Время",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hob9IBb0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hobw?oc=5"
+  },
+  {
+    "region": "Красноярский край",
     "date": "2026-10-16",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Редакция газеты «Эвенкийская жизнь» объявляет о старте окружного творческого конкурса для детей и подростков «Тепло Севера: из Эвенкии с любовью» Цель нашего очередного конкурса —",

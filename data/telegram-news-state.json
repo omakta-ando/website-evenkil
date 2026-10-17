@@ -1765,7 +1765,22 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "CBMib0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hob9IBb0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hobw",
+      "title": "Из-за обмеления Нижней Тунгуски в Эвенкии начался дефицит продовольствия. В поселке Тура люди провели в очереди два дня - Настоящее Время",
+      "source": "Настоящее Время",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hob9IBb0FVX3lxTE1PTlg5X3NYQ0UtbHlzbWFIS1duc2NVZG1JbU1OeGx3NkFkR2RpaFB4UDhoSkxwd1FNUjFqQ1A5cmhFaEZIYlg1ZjEtRmpZV0JHS2JfQ08tamplakVGaFI3WkZkZFpXdW84QjRGX3hobw?oc=5",
+      "published": "2026-10-17T15:10+04:00",
+      "day": "2026-10-17",
+      "description": "Из-за обмеления Нижней Тунгуски в Эвенкии начался дефицит продовольствия. В поселке Тура люди провели в очереди два дня Настоящее Время",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
