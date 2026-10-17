@@ -276,3 +276,14 @@ html{scroll-padding-top:124px}@media(max-width:900px){html{scroll-padding-top:19
 .filters#filters .chip:hover::before,.filters#filters .chip:focus-visible::before{animation:kumalan-card-spin .4s ease-in-out 1}
 @keyframes kumalan-card-spin{0%{transform:translateY(-3px) rotate(0)}100%{transform:translateY(0) rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.filters#filters .chip:hover::before,.filters#filters .chip:focus-visible::before{animation:none}}
+
+/* News palette sampled from the updated regional-card reference. */
+.section.news-area#news{background-color:#e5e7dd;background-image:none}
+.section.news-area#news .news-card{background-color:#fbfaf5;border-color:#d4d9cb;box-shadow:0 3px 14px rgba(21,43,37,.035)}
+.section.news-area#news .news-card:hover,.section.news-area#news .news-card:focus-visible{background-color:#f0f3e9;border-color:#bdcbb5;box-shadow:0 8px 22px rgba(21,43,37,.08)}
+.section.news-area#news .news-card h3{color:#192a22}
+.section.news-area#news .news-card p,.section.news-area#news .story-date,.section.news-area#news .card-foot{color:#737d72}
+.section.news-area#news .story-date span+span{color:#828a7e}
+.section.news-area#news .region-tag,.section.news-area#news .context-tag{background:#eef0e7;color:#687a63}
+.section.news-area#news .chip{border-color:#cfd5c8;color:#5e6d5d}
+.section.news-area#news .chip:hover:not(.active){background:#dce3d7;border-color:#b9c7b1;color:#203c32}
