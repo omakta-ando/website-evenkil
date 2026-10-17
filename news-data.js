@@ -1,14 +1,34 @@
 window.newsStories=[
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "source": "Бирария · Telegram",
-    "title": "6 ноября в КТЦ «Бирария» откроется первая общественная выставка археологических артефактов, найденных в ЕАО Друзья, долгожданная новость! Уже 6 ноября в культурно-туристическом цен",
-    "desc": "6 ноября в КТЦ «Бирария» откроется первая общественная выставка археологических артефактов, найденных в ЕАО Друзья, долгожданная новость! Уже 6 ноября в культурно-туристическом центре «Бирария» (г. Биробиджан, ул. Пионерская, 62-Ф) начнёт работу постоянная экспозиция «Хранители древностей Бирарии». Мы представим более 300 подлинных артефактов, найденных на территории Еврейской автономной области. Проект реализуется п",
+    "title": "КТЦ «Бирария» переходит на зимний режим работы С 17 октября двери культурно-туристического центра «Бирария» в Биробиджане открыты для посещения по субботам с 11:00 до 17:00. 6+ Что",
+    "desc": "КТЦ «Бирария» переходит на зимний режим работы С 17 октября двери культурно-туристического центра «Бирария» в Биробиджане открыты для посещения по субботам с 11:00 до 17:00. 6+ Что посмотреть? – Выставки «Минералы Приамурья» и «Коренные народы Приамурья». – Зона с объёмным панно. – Игра «Апокачи» — нанайские шашки. – Фотозона с национальными костюмами. – Сувенирная лавка с работами мастеров Приамурья. Для корпоративн",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/biraria/4266",
-    "image": "https://cdn4.telesco.pe/file/cd2jx1wROpV3MO1EBxscWcxeJzsBU0AEDzNrTOQcWGWUJwBgK1hg7_NqVpSok4t_XYlUrEA0wtHJTf-JuWRfPhTiJH0L6pxzZuiIDLHVNDfAtQ8PO7BEbU9BE0Luc1zhew0sMgAnRAK3-DyimJKTPF7hYAzvhTJVLLstdoVtJzwEMKFJATO5vQbdCAeXEa59SaZcSNskq-m-RUWHsk1s7xxDwDeglYqvOKwGRIN2U14MoO5zP-UEToLKvfvHmLJn6bxZMh8c1B70Tv0jbgARwdQUQBI4QZmgT8T61ex063m01EqesmbZJG5-M4wGomUcJgCRsIJRiOIhP3XGtOgFGg.jpg"
+    "link": "https://t.me/biraria/4278",
+    "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-17",
+    "source": "Илкэн · Улгур",
+    "title": "Детальное рассмотрение бюджета Якутии: острые вопросы по Арктике",
+    "desc": "16 октября на расширенном заседании комитета Государственного Собрания (Ил Тумэн) по бюджету, финансам, налоговой и",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/17/detalnoe-rassmotrenie-byudzheta-yakutii-ostrye-voprosy-po-arktike/"
+  },
+  {
+    "region": "Амурская область",
+    "date": "2026-10-17",
+    "source": "portamur.ru",
+    "title": "В Амурской области начался сезон охоты на дикого северного оленя",
+    "desc": "Численность животных остается стабильной",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://portamur.ru/news/detail/v-priamure-nachalsya-sezon-ohotyi-na-dikogo-severnogo-olenya"
   },
   {
     "region": "Красноярский край",
@@ -63,16 +83,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRkFyUk9EdUM4N0VmTlhENlJxLTliS25kdkNpejJvZmo2T3ctM3pGTkFJck0zWDJPSllvRlRFc0xyRk53Snc3Ni13ZmtpbHVOTXQ5MXhiZ0FXY2haZGtZQi1mZzhUMUhENDlWM01FZUpxektVME1EN04xODVtNVpCQjBRZWZFYXhpY0dUVHhHSUZUY0V1Wng4V0p3eUJIVXFHQkl4N3FqY20xcFdkbzhreDV1N2ZzblFYSlM3WlVDT3VNc2EtV3FvekpzdjlUYk1keW00YQ?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-16",
-    "source": "Илкэн · Улгур",
-    "title": "Эвенкийский сказитель Валентин Исаков покорил Китай",
-    "desc": "ИЛКЭН. В сентябре этого года артист Театра Олонхо Валентин Гаврильевич Исаков успешно выступил на ежегодном",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-16",
     "source": "Новости «Якутия 24» · Telegram",
@@ -102,6 +112,16 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vY18zb3gzVG1Db2RXWmU3RFI0c2RIendXVDhFZ2FIVURZZlh1eU9FUTNLdlVKOXFkRlRwTWJJSktxd3lIXy1Z?oc=5"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-16",
+    "source": "Центр «Арун",
+    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове - Центр «Арун",
+    "desc": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове Центр «Арун",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm9HSWdkUzdndnlaUXVvYkdQZFlsY2FUTTBZSC1IM0c1ZFJBNjEwSFRnNHRLT1VFXzFOeGs1RUphSlZjTkJwTDZDUlRzMWtZVzJSb0ZXUV9qM2lDV3dveGFOWFlpYVFlTXlqNEdYU0ZyVkFYZ1hROHFJUWVzT0lnWkFKRzZ2dGJhVEN3?oc=5"
   },
   {
     "region": "Якутия",
@@ -263,16 +283,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNTBTZVJTTlEwZ0JudkxPZTRoYktUSzZQQ1lkNFhncUdSSjM3ck5JY0dUVm5zU3lacG0wbGlxdXAxS014SU1PNGVZY2lyQXdlZUNMalFrX003RjlWdHpZQVZqMTRpNUVkd2NhVGZhNzZwSGlzekNlUXlqOVdMaHZYMWVGVC1lclhfQ0QxcGJQRlIybGNkcktXdA?oc=5"
-  },
-  {
-    "region": "Амурская область",
-    "date": "2026-10-13",
-    "source": "portamur.ru",
-    "title": "В Амурской области бывший охотник незаконно хранил патроны, в том числе пулеметные",
-    "desc": "Мужчина предстанет перед судом",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://portamur.ru/news/detail/v-priamure-byivshiy-ohotnik-nezakonno-hranil-patronyi-v-tom-chisle-pulemetnyie"
   },
   {
     "region": "Общие новости",
@@ -798,15 +808,35 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
-    "region": "Еврейская автономная область",
-    "date": "2026-10-15",
+    "region": "Амурская область",
+    "date": "2026-10-17",
     "source": "Бирария · Telegram",
-    "title": "Поехали 4 ноября всей семьей в Долину тигров с Бирарией Этот день — для тех, кто устал от шума, экранов и бесконечных дел. Для тех, кому нужно выдохнуть, расправить плечи и почувст",
-    "desc": "Поехали 4 ноября всей семьей в Долину тигров с Бирарией Этот день — для тех, кто устал от шума, экранов и бесконечных дел. Для тех, кому нужно выдохнуть, расправить плечи и почувствовать, что мир большой и живой. Что вас ждёт: ▪ Прогулка по экотропе «По следам бираров» Прогулка на сопку Тигриную — 1,5 км, на которых природа сменится трижды: широколиственные эндемики, вековые кедры и «марсианский» болотный пейзаж. Гид",
+    "title": "Друзья, признаюсь: периодически с удовольствием провожу экскурсии сам. Особенно если маршрут ведёт в Долину тигров или в заповедник «Бастак» – дом амурских кошек. И да, в эти дни я",
+    "desc": "Друзья, признаюсь: периодически с удовольствием провожу экскурсии сам. Особенно если маршрут ведёт в Долину тигров или в заповедник «Бастак» – дом амурских кошек. И да, в эти дни я надеваю костюм тигра. Не для шоу. Для настроения. Первая задача такого костюма – заставить участников улыбнуться и расслабиться. Немного отвлечься и понять простую вещь: они едут отдыхать. Не работать, не решать проблемы, не соответствоват",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/biraria/4265",
-    "image": "https://cdn4.telesco.pe/file/iRLlFDVgmZEqHlBRB7Ijr0g2MZvIlRJrbofssLjUIn103ha97EUkB9pg_Iu3Q8gW5VAI3bN_0vkxWdB9XNyvKvHby6iSarr4L8t9yHrKNRjQSxKK57s7pasyecdDGUZ7sk95RcTamSULaj45iJtTsnAmKVie5s_NNIC2-8sCtSbEJF08xuZ41SpuCtRP0fI94j6wsm-toRitAr8tyFKZP5Ve8IHbYD0RVGHHyGjF5OEuH3fM3kSQu6P6D0dq8FwYSikTMyUM6FfpwzebwyGNmVvecmcSa-TP8y38L1UHMxWlTIkAumLKwI1oiFP7T6ac5ychLyrJfKRawTl6Y1OTIw.jpg"
+    "link": "https://t.me/biraria/4277",
+    "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-16",
+    "source": "Илкэн · Улгур",
+    "title": "Эвенкийский сказитель Валентин Исаков покорил Китай",
+    "desc": "ИЛКЭН. В сентябре этого года артист Театра Олонхо Валентин Гаврильевич Исаков успешно выступил на ежегодном",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/16/evenkijskij-skazitel-valentin-isakov-pokoril-kitaj/"
+  },
+  {
+    "region": "Амурская область",
+    "date": "2026-10-13",
+    "source": "portamur.ru",
+    "title": "В Амурской области бывший охотник незаконно хранил патроны, в том числе пулеметные",
+    "desc": "Мужчина предстанет перед судом",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://portamur.ru/news/detail/v-priamure-byivshiy-ohotnik-nezakonno-hranil-patronyi-v-tom-chisle-pulemetnyie"
   },
   {
     "region": "Красноярский край",
@@ -849,16 +879,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://eaomedia.ru/news/2646557"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-15",
-    "source": "Илкэн · Улгур",
-    "title": "Тобольский клуб: “Пути и дороги Сибири”",
-    "desc": "Якутск на прошлой неделе принимал экспертов и гостей VII Северного форума. Одними из значимых событий",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri/"
   },
   {
     "region": "Якутия",
@@ -1157,14 +1177,24 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-15",
+    "date": "2026-10-17",
     "source": "Бирария · Telegram",
-    "title": "С днём рождения, Татьяна Викторовна! Сегодня свой день рождения отмечает человек, чьё имя в Смидовичском районе знают далеко за его пределами, – Татьяна Томашевич, директор Музейно",
-    "desc": "С днём рождения, Татьяна Викторовна! Сегодня свой день рождения отмечает человек, чьё имя в Смидовичском районе знают далеко за его пределами, – Татьяна Томашевич, директор Музейно-выставочного центра имени В.И. Клипеля, Почётный житель Смидовичского района, депутат районного Собрания. Для «Бирарии» Татьяна Викторовна – настоящий друг и соратник. Именно она стояла у истоков нашего сотрудничества, и благодаря ей Музей",
+    "title": "С Днём рождения! Сегодня мы поздравляем замечательного человека и нашего доброго друга — Алину Олейникову, редактора Центра управления регионом ЕАО. Алина, спасибо тебе за то, что",
+    "desc": "С Днём рождения! Сегодня мы поздравляем замечательного человека и нашего доброго друга — Алину Олейникову, редактора Центра управления регионом ЕАО. Алина, спасибо тебе за то, что ты всегда на связи, за оперативную помощь в информационном сопровождении наших проектов. Благодаря твоей работе о «Бирарии», этнофестивалях, экотропе и мастерах Приамурья узнают тысячи людей. Ты умеешь рассказать о важном просто и интересно",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/biraria/4264",
-    "image": "https://cdn4.telesco.pe/file/iRLlFDVgmZEqHlBRB7Ijr0g2MZvIlRJrbofssLjUIn103ha97EUkB9pg_Iu3Q8gW5VAI3bN_0vkxWdB9XNyvKvHby6iSarr4L8t9yHrKNRjQSxKK57s7pasyecdDGUZ7sk95RcTamSULaj45iJtTsnAmKVie5s_NNIC2-8sCtSbEJF08xuZ41SpuCtRP0fI94j6wsm-toRitAr8tyFKZP5Ve8IHbYD0RVGHHyGjF5OEuH3fM3kSQu6P6D0dq8FwYSikTMyUM6FfpwzebwyGNmVvecmcSa-TP8y38L1UHMxWlTIkAumLKwI1oiFP7T6ac5ychLyrJfKRawTl6Y1OTIw.jpg"
+    "link": "https://t.me/biraria/4276",
+    "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-15",
+    "source": "Илкэн · Улгур",
+    "title": "Тобольский клуб: “Пути и дороги Сибири”",
+    "desc": "Якутск на прошлой неделе принимал экспертов и гостей VII Северного форума. Одними из значимых событий",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri/"
   },
   {
     "region": "Общие новости",
@@ -1187,16 +1217,6 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/EAOMedia/47710",
     "image": "https://cdn4.telesco.pe/file/ufmgP-aIu4oyx6hsPKgl1DBmrgeb8BOMI9eYZbFVT7aQga2JToGwYdRVE2cCP2qsxDTqpVVgAek9stj78W7RWUifggfrgKq40cUXsugLJbkUKls5Kp2GnkIDxTTOXLTI7_16QjqQJ6mAR2MNpuHoRXuYjq5xSuTcQy02awb6NM8pxOocJIS6cdn7P8z5XbNJ2TdB_Cks2BW30uIsqBA8eOtVNcCiyMpo5WqI1NQUmQ6nE65BFG9Kl_6ZPcGFe_h4djAhaZgrlWAVXL3gZBMwc3AlSCQsn0Pv_5d00ojeJU5DgICheYc9z_TwmubUFt538eXVYJAEa9feTmVyoBkXVg.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-15",
-    "source": "Илкэн · Улгур",
-    "title": "Обращение депутата к избирателям",
-    "desc": "Уважаемые избиратели арктических улусов! В эти дни идет активное обсуждение параметров государственного бюджета 2027 года.",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/15/obrashhenie-deputata-k-izbiratelyam/"
   },
   {
     "region": "Якутия",
@@ -1291,6 +1311,16 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "НИА-Федерация",
+    "title": "Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза - НИА-Федерация",
+    "desc": "Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза НИА-Федерация",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrTHFGd2RBLUVuRXR3MXg2NVZScHVTX2V6TTBabUJ3d05MWlczUlFxN2xpSjlvQUE5YkdQbGlPU2F1VXd3RlA0eDVYTmRKaHRs?oc=5"
+  },
+  {
+    "region": "Якутия",
     "date": "2026-10-06",
     "source": "Рамблер",
     "title": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов - Рамблер",
@@ -1339,14 +1369,24 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-14",
+    "date": "2026-10-16",
     "source": "Бирария · Telegram",
-    "title": "Глава Смидовичского района вручил Благодарственное письмо команде «Бирарии» На IV Этнофесте «Бирария» на Тунгуске глава Смидовичского муниципального района Евгений Башкиров вручи",
-    "desc": "Глава Смидовичского района вручил Благодарственное письмо команде «Бирарии» На IV Этнофесте «Бирария» на Тунгуске глава Смидовичского муниципального района Евгений Башкиров вручил Благодарственное письмо команде культурно-туристического бренда «Бирария». за организацию и проведение IV Этнофеста «Бирария» на территории Смидовичского района, за значительный вклад в развитие культурного туризма, сохранение и популяр",
+    "title": "6 ноября в КТЦ «Бирария» откроется первая общественная выставка археологических артефактов, найденных в ЕАО Друзья, долгожданная новость! Уже 6 ноября в культурно-туристическом цен",
+    "desc": "6 ноября в КТЦ «Бирария» откроется первая общественная выставка археологических артефактов, найденных в ЕАО Друзья, долгожданная новость! Уже 6 ноября в культурно-туристическом центре «Бирария» (г. Биробиджан, ул. Пионерская, 62-Ф) начнёт работу постоянная экспозиция «Хранители древностей Бирарии». Мы представим более 300 подлинных артефактов, найденных на территории Еврейской автономной области. Проект реализуется п",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/biraria/4262",
-    "image": "https://cdn4.telesco.pe/file/D_fh6SNwpd3kgEKdhKZwclYgP002iZvrPEnbVJCCPY7EKfBvVBPDlQ9tZMhhYCdvK3n-ylcm7cvEqe1nM53oE4Vmt0Rh-Z4wpC5B3wlyCMw6F-1gf8sPlDi2RBKGAOSG0a9k-FjIsP1RlGdG9OwzDx044BBJStYYQa1x1BwH6ugVfokMebHS8eu9eB8fin8DG_231LcKm-pnL44R29kiywOwWVB6xKHPY8H53GVUurIZyZzBjypUM_VHmB8oTPFnCnnT9CU9OLfPfBN6yvXyxbd7u86IrN_f-J-TfYdkJHP0hqkG-08TyzpfTVjwxuHsLmrYtIBQjXfvgocbxaWiFw.jpg"
+    "link": "https://t.me/biraria/4266",
+    "image": "https://cdn4.telesco.pe/file/cd2jx1wROpV3MO1EBxscWcxeJzsBU0AEDzNrTOQcWGWUJwBgK1hg7_NqVpSok4t_XYlUrEA0wtHJTf-JuWRfPhTiJH0L6pxzZuiIDLHVNDfAtQ8PO7BEbU9BE0Luc1zhew0sMgAnRAK3-DyimJKTPF7hYAzvhTJVLLstdoVtJzwEMKFJATO5vQbdCAeXEa59SaZcSNskq-m-RUWHsk1s7xxDwDeglYqvOKwGRIN2U14MoO5zP-UEToLKvfvHmLJn6bxZMh8c1B70Tv0jbgARwdQUQBI4QZmgT8T61ex063m01EqesmbZJG5-M4wGomUcJgCRsIJRiOIhP3XGtOgFGg.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-15",
+    "source": "Илкэн · Улгур",
+    "title": "Обращение депутата к избирателям",
+    "desc": "Уважаемые избиратели арктических улусов! В эти дни идет активное обсуждение параметров государственного бюджета 2027 года.",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/15/obrashhenie-deputata-k-izbiratelyam/"
   },
   {
     "region": "Красноярский край",
@@ -1358,16 +1398,6 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/evenkya_life/12797",
     "image": "https://cdn4.telesco.pe/file/lZ2cKAyLM_UZhsh_27FdMR0ToOB3GRWVkbixRqNsycWlawxMRZ4YhX68lyEXtrCBz3kHd9kSGUnwfXHap0pq4HqOKlxWScYpCRbuuC2g-NrnxmTy3kSnXMd5mnDQvkwv2OAKbq-xwgkoE_LpF_x44fXqo7QpDMb117wXsjDwOgypUAQnvUL65P3G1-QFdqYHtozeJxA2eoUv52eejGSYCs4o6rTwcmHTRHyBVN3Lt8vfoh2GOm3JpQCG77ZENx1xM2hfGXCgKjf52O2gmaf5i7_WTGNXpq8xG7rhuhuTDLUAnieLss9PpYA6LLK6Wawt0wmQ7tx9Sy5UQ-8DhSA5bw.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-15",
-    "source": "Илкэн · Улгур",
-    "title": "Тобольский клуб: “Пути и дороги Сибири”",
-    "desc": "Якутск на прошлой неделе принимал экспертов и гостей VII Северного форума. Одними из значимых событий",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri/"
   },
   {
     "region": "Якутия",
@@ -1450,14 +1480,24 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-13",
+    "date": "2026-10-15",
     "source": "Бирария · Telegram",
-    "title": "Спасибо волонтёрам IV Этнофеста «Бирария» Фестиваль на Тунгуске завершился, но тепло тех дней остаётся с нами. И это во многом благодаря вам — нашим волонтёрам. Вы были первыми,",
-    "desc": "Спасибо волонтёрам IV Этнофеста «Бирария» Фестиваль на Тунгуске завершился, но тепло тех дней остаётся с нами. И это во многом благодаря вам — нашим волонтёрам. Вы были первыми, кто приехал на площадку, и последними, кто её покинул. Вы помогали мастерам, встречали гостей, работали на почте, в музее, на сцене, в зоне «Апокачи» и на гастрофесте. Вы стали настоящей командой и сердцем «Бирарии». От всей души благодарим",
+    "title": "Поехали 4 ноября всей семьей в Долину тигров с Бирарией Этот день — для тех, кто устал от шума, экранов и бесконечных дел. Для тех, кому нужно выдохнуть, расправить плечи и почувст",
+    "desc": "Поехали 4 ноября всей семьей в Долину тигров с Бирарией Этот день — для тех, кто устал от шума, экранов и бесконечных дел. Для тех, кому нужно выдохнуть, расправить плечи и почувствовать, что мир большой и живой. Что вас ждёт: ▪ Прогулка по экотропе «По следам бираров» Прогулка на сопку Тигриную — 1,5 км, на которых природа сменится трижды: широколиственные эндемики, вековые кедры и «марсианский» болотный пейзаж. Гид",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/biraria/4265",
+    "image": "https://cdn4.telesco.pe/file/iRLlFDVgmZEqHlBRB7Ijr0g2MZvIlRJrbofssLjUIn103ha97EUkB9pg_Iu3Q8gW5VAI3bN_0vkxWdB9XNyvKvHby6iSarr4L8t9yHrKNRjQSxKK57s7pasyecdDGUZ7sk95RcTamSULaj45iJtTsnAmKVie5s_NNIC2-8sCtSbEJF08xuZ41SpuCtRP0fI94j6wsm-toRitAr8tyFKZP5Ve8IHbYD0RVGHHyGjF5OEuH3fM3kSQu6P6D0dq8FwYSikTMyUM6FfpwzebwyGNmVvecmcSa-TP8y38L1UHMxWlTIkAumLKwI1oiFP7T6ac5ychLyrJfKRawTl6Y1OTIw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-15",
+    "source": "Илкэн · Улгур",
+    "title": "Тобольский клуб: “Пути и дороги Сибири”",
+    "desc": "Якутск на прошлой неделе принимал экспертов и гостей VII Северного форума. Одними из значимых событий",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/biraria/4261",
-    "image": "https://cdn4.telesco.pe/file/CHsJlhr7QUy2Ldn-hq_-2myqY5sTYG5KE8zObEAJ7Z44WrrWEuYT9i9GXTtyJX2uS28WXqLGthGTyxoZBZ13HjJ6uuhV7ckIAOSzGhVK4Qyd7upboeE4orYxy4lHcuWNq4dHHj8Hq0_Sb0vu2T6iBjD3n4RMD_AKXV-ojBHpGJ5TrdICLG3Kpb260uuZfx3GP4lXhVL7nj4uxH4NVDvGeLjx3pZDA1RRXsL64wx2jHOKk3qAI1_Hvee78jrhB6sDY9NDIoVJWxWmGHEy7zQZO9KahNx0KlSlHMCqpPxzAJR2OW58odYiMFAtEHqy4bMuUn1952wyHkzDOhoMOfO9zg.jpg"
+    "link": "https://ilken.ru/2026/10/15/tobolskij-klub-puti-i-dorogi-sibiri/"
   },
   {
     "region": "Томская область",
@@ -1469,16 +1509,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://t.me/evenkya_life/12777",
     "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-15",
-    "source": "Илкэн · Улгур",
-    "title": "Публичные слушания по бюджету Якутии: что важно для КМНС",
-    "desc": "(из официальной информации Пресс-службы Ил Тумэн) 15 октября в парламенте Якутии состоялись публичные слушания",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns/"
   },
   {
     "region": "Якутия",
@@ -1532,15 +1562,25 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/O9iCPcbW1gCfvlsDlwZu0K4iDQsdAQUY55bQsX6mzE1d9mNMW1jsxq4N1hQfwfM_qVT_QR6h4DMokABQPsdNlir0uF85XE2Rdc6gPkrTC90PX7a_sd6uefVPuF6vDqETIP6ArmahDvxhBDZYGyYCrDd5QVpEKaTRvSHr2PcfqQ06mMlyrE5sBNoLzG2aF36EXj7ha0dWgEg5Tgtji2Sik82lb42Yw9WvnWfpmGtdPuTws8A6R-yWnhE2XOrtNrWPoD_jgzMDUSlZo7SrpBdqothqK6rX8wic8YarMWU0wBZim7d1C1IKgg8ENNT_zNk8gJ7ybfg4grKXnhY2QHqWAQ.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
+    "region": "Еврейская автономная область",
+    "date": "2026-10-15",
     "source": "Бирария · Telegram",
-    "title": "Спасибо тем, кто сделал экотропу в Долине тигров реальностью Сегодня в Теплоозёрске прошло награждение тех, без кого наш проект «По следам бираров на Тигриную сопку» не состоялся",
-    "desc": "Спасибо тем, кто сделал экотропу в Долине тигров реальностью Сегодня в Теплоозёрске прошло награждение тех, без кого наш проект «По следам бираров на Тигриную сопку» не состоялся бы. Учащиеся и родители школы №18 п. Теплоозёрск получили благодарственные письма и подарки. Особые слова признательности — десяти старшеклассникам, которые несколько дней помогали устанавливать информационные щиты на экотропе. Их труд —",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/biraria/4246",
-    "image": "https://cdn4.telesco.pe/file/CHsJlhr7QUy2Ldn-hq_-2myqY5sTYG5KE8zObEAJ7Z44WrrWEuYT9i9GXTtyJX2uS28WXqLGthGTyxoZBZ13HjJ6uuhV7ckIAOSzGhVK4Qyd7upboeE4orYxy4lHcuWNq4dHHj8Hq0_Sb0vu2T6iBjD3n4RMD_AKXV-ojBHpGJ5TrdICLG3Kpb260uuZfx3GP4lXhVL7nj4uxH4NVDvGeLjx3pZDA1RRXsL64wx2jHOKk3qAI1_Hvee78jrhB6sDY9NDIoVJWxWmGHEy7zQZO9KahNx0KlSlHMCqpPxzAJR2OW58odYiMFAtEHqy4bMuUn1952wyHkzDOhoMOfO9zg.jpg"
+    "title": "С днём рождения, Татьяна Викторовна! Сегодня свой день рождения отмечает человек, чьё имя в Смидовичском районе знают далеко за его пределами, – Татьяна Томашевич, директор Музейно",
+    "desc": "С днём рождения, Татьяна Викторовна! Сегодня свой день рождения отмечает человек, чьё имя в Смидовичском районе знают далеко за его пределами, – Татьяна Томашевич, директор Музейно-выставочного центра имени В.И. Клипеля, Почётный житель Смидовичского района, депутат районного Собрания. Для «Бирарии» Татьяна Викторовна – настоящий друг и соратник. Именно она стояла у истоков нашего сотрудничества, и благодаря ей Музей",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/biraria/4264",
+    "image": "https://cdn4.telesco.pe/file/iRLlFDVgmZEqHlBRB7Ijr0g2MZvIlRJrbofssLjUIn103ha97EUkB9pg_Iu3Q8gW5VAI3bN_0vkxWdB9XNyvKvHby6iSarr4L8t9yHrKNRjQSxKK57s7pasyecdDGUZ7sk95RcTamSULaj45iJtTsnAmKVie5s_NNIC2-8sCtSbEJF08xuZ41SpuCtRP0fI94j6wsm-toRitAr8tyFKZP5Ve8IHbYD0RVGHHyGjF5OEuH3fM3kSQu6P6D0dq8FwYSikTMyUM6FfpwzebwyGNmVvecmcSa-TP8y38L1UHMxWlTIkAumLKwI1oiFP7T6ac5ychLyrJfKRawTl6Y1OTIw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-15",
+    "source": "Илкэн · Улгур",
+    "title": "Публичные слушания по бюджету Якутии: что важно для КМНС",
+    "desc": "(из официальной информации Пресс-службы Ил Тумэн) 15 октября в парламенте Якутии состоялись публичные слушания",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/15/publichnye-slushaniya-po-byudzhetu-yakutii-chto-vazhno-dlya-kmns/"
   },
   {
     "region": "Красноярский край",
@@ -1552,17 +1592,6 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/evenkya_life/12782",
     "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-14",
-    "source": "Илкэн · Улгур",
-    "title": "Новосибирскту конференцияду Якутия бивкэл адыка̄н таӈучӣ тэгэлин турэрдули научнаилва хавалва ичэвкэндятын",
-    "desc": "14 угун бегаду 2026 анӈаниду Новосибирскту Всероссийскай научнай конференция «Языки народов Сибири и сопредельных регионов» хававан ноновчон. Конференцияду хуӈтулдук государствалдук бэел хавалилды̄дяра. Конференциява доктор филологическай наук Наталья Николаевна Широбокова 80 балдыдяк анӈаниду итывчэл.",
-    "tags": "эвенки эвенкийский язык якутия конференция языки народов сибири",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
-    "languageNews": true
   },
   {
     "region": "Якутия",
@@ -1606,13 +1635,25 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-09",
+    "date": "2026-10-14",
     "source": "Бирария · Telegram",
-    "title": "Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане",
-    "desc": "Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане «Амурские осетры» занимаются 15 ребят — и этот год стал для них по-настоящему триумфальным. Занятия проходят в двух форматах: ▪ Основной — в школьном кабинете, который стал настоящим штабом клана: здесь проходят плановые тренировки, ежеме",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4235",
-    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+    "title": "Глава Смидовичского района вручил Благодарственное письмо команде «Бирарии» На IV Этнофесте «Бирария» на Тунгуске глава Смидовичского муниципального района Евгений Башкиров вручи",
+    "desc": "Глава Смидовичского района вручил Благодарственное письмо команде «Бирарии» На IV Этнофесте «Бирария» на Тунгуске глава Смидовичского муниципального района Евгений Башкиров вручил Благодарственное письмо команде культурно-туристического бренда «Бирария». за организацию и проведение IV Этнофеста «Бирария» на территории Смидовичского района, за значительный вклад в развитие культурного туризма, сохранение и популяр",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/biraria/4262",
+    "image": "https://cdn4.telesco.pe/file/D_fh6SNwpd3kgEKdhKZwclYgP002iZvrPEnbVJCCPY7EKfBvVBPDlQ9tZMhhYCdvK3n-ylcm7cvEqe1nM53oE4Vmt0Rh-Z4wpC5B3wlyCMw6F-1gf8sPlDi2RBKGAOSG0a9k-FjIsP1RlGdG9OwzDx044BBJStYYQa1x1BwH6ugVfokMebHS8eu9eB8fin8DG_231LcKm-pnL44R29kiywOwWVB6xKHPY8H53GVUurIZyZzBjypUM_VHmB8oTPFnCnnT9CU9OLfPfBN6yvXyxbd7u86IrN_f-J-TfYdkJHP0hqkG-08TyzpfTVjwxuHsLmrYtIBQjXfvgocbxaWiFw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-14",
+    "source": "Илкэн · Улгур",
+    "title": "Новосибирскту конференцияду Якутия бивкэл адыка̄н таӈучӣ тэгэлин турэрдули научнаилва хавалва ичэвкэндятын",
+    "desc": "14 угун бегаду 2026 анӈаниду Новосибирскту Всероссийскай научнай конференция «Языки народов Сибири и сопредельных регионов» хававан ноновчон. Конференцияду хуӈтулдук государствалдук бэел хавалилды̄дяра. Конференциява доктор филологическай наук Наталья Николаевна Широбокова 80 балдыдяк анӈаниду итывчэл.",
+    "tags": "эвенки эвенкийский язык якутия конференция языки народов сибири",
+    "relevance": "direct",
+    "link": "https://ilken.ru/evenki/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/",
+    "languageNews": true
   },
   {
     "region": "Красноярский край",
@@ -1624,16 +1665,6 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/evenkya_life/12775",
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "Илкэн · Улгур",
-    "title": "Айсен Николаев: Северный форум по устойчивому развитию стал площадкой международного экспертного диалога",
-    "desc": "Глава Якутии Айсен Николаев в ходе прямого эфира подвёл итоги Северного форума по устойчивому развитию.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/"
   },
   {
     "region": "Якутия",
@@ -1668,13 +1699,24 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-09",
+    "date": "2026-10-13",
     "source": "Бирария · Telegram",
-    "title": "Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был",
-    "desc": "Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был богом грома, и, по преданию, в шуме вековых кедров до сих пор звучат голоса предков — они защищают, оберегают и дают силы для новых начинаний. Что вас ждёт? ▪ Прогулка по кедровому бору — ровные ряды корейского кедра. Вы узнаете, почему бе",
+    "title": "Спасибо волонтёрам IV Этнофеста «Бирария» Фестиваль на Тунгуске завершился, но тепло тех дней остаётся с нами. И это во многом благодаря вам — нашим волонтёрам. Вы были первыми,",
+    "desc": "Спасибо волонтёрам IV Этнофеста «Бирария» Фестиваль на Тунгуске завершился, но тепло тех дней остаётся с нами. И это во многом благодаря вам — нашим волонтёрам. Вы были первыми, кто приехал на площадку, и последними, кто её покинул. Вы помогали мастерам, встречали гостей, работали на почте, в музее, на сцене, в зоне «Апокачи» и на гастрофесте. Вы стали настоящей командой и сердцем «Бирарии». От всей души благодарим",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/biraria/4261",
+    "image": "https://cdn4.telesco.pe/file/CHsJlhr7QUy2Ldn-hq_-2myqY5sTYG5KE8zObEAJ7Z44WrrWEuYT9i9GXTtyJX2uS28WXqLGthGTyxoZBZ13HjJ6uuhV7ckIAOSzGhVK4Qyd7upboeE4orYxy4lHcuWNq4dHHj8Hq0_Sb0vu2T6iBjD3n4RMD_AKXV-ojBHpGJ5TrdICLG3Kpb260uuZfx3GP4lXhVL7nj4uxH4NVDvGeLjx3pZDA1RRXsL64wx2jHOKk3qAI1_Hvee78jrhB6sDY9NDIoVJWxWmGHEy7zQZO9KahNx0KlSlHMCqpPxzAJR2OW58odYiMFAtEHqy4bMuUn1952wyHkzDOhoMOfO9zg.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "Илкэн · Улгур",
+    "title": "Айсен Николаев: Северный форум по устойчивому развитию стал площадкой международного экспертного диалога",
+    "desc": "Глава Якутии Айсен Николаев в ходе прямого эфира подвёл итоги Северного форума по устойчивому развитию.",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4245",
-    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/"
   },
   {
     "region": "Красноярский край",
@@ -1688,16 +1730,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "Илкэн · Улгур",
-    "title": "35 лет на страже родного слова: кафедра северной филологии СВФУ отметила юбилей",
-    "desc": "В Северо-Восточном федеральном университете имени М.К. Аммосова прошли торжественные мероприятия, посвящённые 35-летию кафедры северной филологии.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/12/35-let-na-strazhe-rodnogo-slova-kafedra-severnoj-filologii-svfu-otmetila-yubilej/"
-  },
-  {
     "region": "Бурятия",
     "date": "2026-09-17",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -1709,14 +1741,24 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-08",
+    "date": "2026-10-12",
     "source": "Бирария · Telegram",
-    "title": "Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
-    "desc": "Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в нём занимаются на постоянно остове 12 ребят — и за плечами клана уже немало достижений. Занятия проходят в Центре детских инициатив. Игровая зона размещается в общем пространстве, а весь инвентарь хранится рядом. Каждый месяц в клане ус",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/biraria/4225",
-    "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
+    "title": "Спасибо тем, кто сделал экотропу в Долине тигров реальностью Сегодня в Теплоозёрске прошло награждение тех, без кого наш проект «По следам бираров на Тигриную сопку» не состоялся",
+    "desc": "Спасибо тем, кто сделал экотропу в Долине тигров реальностью Сегодня в Теплоозёрске прошло награждение тех, без кого наш проект «По следам бираров на Тигриную сопку» не состоялся бы. Учащиеся и родители школы №18 п. Теплоозёрск получили благодарственные письма и подарки. Особые слова признательности — десяти старшеклассникам, которые несколько дней помогали устанавливать информационные щиты на экотропе. Их труд —",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/biraria/4246",
+    "image": "https://cdn4.telesco.pe/file/CHsJlhr7QUy2Ldn-hq_-2myqY5sTYG5KE8zObEAJ7Z44WrrWEuYT9i9GXTtyJX2uS28WXqLGthGTyxoZBZ13HjJ6uuhV7ckIAOSzGhVK4Qyd7upboeE4orYxy4lHcuWNq4dHHj8Hq0_Sb0vu2T6iBjD3n4RMD_AKXV-ojBHpGJ5TrdICLG3Kpb260uuZfx3GP4lXhVL7nj4uxH4NVDvGeLjx3pZDA1RRXsL64wx2jHOKk3qAI1_Hvee78jrhB6sDY9NDIoVJWxWmGHEy7zQZO9KahNx0KlSlHMCqpPxzAJR2OW58odYiMFAtEHqy4bMuUn1952wyHkzDOhoMOfO9zg.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-12",
+    "source": "Илкэн · Улгур",
+    "title": "35 лет на страже родного слова: кафедра северной филологии СВФУ отметила юбилей",
+    "desc": "В Северо-Восточном федеральном университете имени М.К. Аммосова прошли торжественные мероприятия, посвящённые 35-летию кафедры северной филологии.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/12/35-let-na-strazhe-rodnogo-slova-kafedra-severnoj-filologii-svfu-otmetila-yubilej/"
   },
   {
     "region": "Красноярский край",
@@ -1730,16 +1772,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-11",
-    "source": "Илкэн · Улгур",
-    "title": "Бакалдын — праздник встречи, который вернул меня в детство",
-    "desc": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
-  },
-  {
     "region": "Бурятия",
     "date": "2026-09-15",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -1750,14 +1782,23 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-07",
+    "date": "2026-10-09",
     "source": "Бирария · Telegram",
-    "title": "10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! А",
-    "desc": "10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! Агентство — целая экосистема поддержки бизнеса в ЕАО, которая включает: – поддержку предпринимателей – поддержку сельхозтоваропроизводителей – поддержку экспортёров – сопровождение инвестиционных проектов – предоставление поручительств и гар",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/biraria/4222",
-    "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
+    "title": "Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане",
+    "desc": "Клан «Амурские осетры»: триумфальный год школы №7 п. Николаевка В средней школе №7 п. Николаевка на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в клане «Амурские осетры» занимаются 15 ребят — и этот год стал для них по-настоящему триумфальным. Занятия проходят в двух форматах: ▪ Основной — в школьном кабинете, который стал настоящим штабом клана: здесь проходят плановые тренировки, ежеме",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4235",
+    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-11",
+    "source": "Илкэн · Улгур",
+    "title": "Бакалдын — праздник встречи, который вернул меня в детство",
+    "desc": "Сама я родом из Кобяйского улуса, первый год работаю в Экспериментальной школе-интернате «Арктика» города Нерюнгри.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo/"
   },
   {
     "region": "Красноярский край",
@@ -1771,16 +1812,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-11",
-    "source": "Илкэн · Улгур",
-    "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
-    "desc": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
-  },
-  {
     "region": "Бурятия",
     "date": "2026-09-11",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -1791,12 +1822,23 @@ window.newsStories=[
   },
   {
     "region": "Еврейская автономная область",
-    "date": "2026-10-03",
+    "date": "2026-10-09",
     "source": "Бирария · Telegram",
-    "title": "От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хоровод",
-    "desc": "От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хороводы. Они открыли фестиваль и завершили его, собрав в круг сотни гостей. Фестиваль прошёл при поддержке ПФКИ. Эвенкийский хоровод «Хадё (ёхарьё)» Ровно в 12:00 на берегу Тунгуски зазвучал бубен, и под руководством хранительницы эвенкийских тра",
+    "title": "Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был",
+    "desc": "Едем 4 ноября в Кедровый бор у Сагды-Биры: место, где слышен голос леса Река Сагды-Бира переводится с языка коренных народов Приамурья как «река Бога грома». У гольдов Сагды был богом грома, и, по преданию, в шуме вековых кедров до сих пор звучат голоса предков — они защищают, оберегают и дают силы для новых начинаний. Что вас ждёт? ▪ Прогулка по кедровому бору — ровные ряды корейского кедра. Вы узнаете, почему бе",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/biraria/4185"
+    "link": "https://t.me/biraria/4245",
+    "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-11",
+    "source": "Илкэн · Улгур",
+    "title": "Сахамин Афанасьев и Елена Голомарева обсудили итоговый документ II Форума женщин Севера",
+    "desc": "Сенатор Совета Федерации Федерального Собрания РФ Сахамин Афанасьев 8 октября торжественно вручил председателю постоянного комитета по вопросам",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa/"
   },
   {
     "region": "Красноярский край",
@@ -1810,6 +1852,26 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-09-09",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
+    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-08",
+    "source": "Бирария · Telegram",
+    "title": "Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодн",
+    "desc": "Клан «Амурские тигры»: как школа Теплоозерска стала центром «Апокачи» В школе №18 посёлка Теплоозерск ЕАО на постоянной основе работает кружок по нанайской игре «Апокачи». Сегодня в нём занимаются на постоянно остове 12 ребят — и за плечами клана уже немало достижений. Занятия проходят в Центре детских инициатив. Игровая зона размещается в общем пространстве, а весь инвентарь хранится рядом. Каждый месяц в клане ус",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/biraria/4225",
+    "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
@@ -1818,15 +1880,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://ilken.ru/2026/10/11/yukagirecz-ivan-slepczov-otecz-semeryh-synovej-olenevod-i-ohotnik/"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-09",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
-    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
   },
   {
     "region": "Общие новости",
@@ -1840,6 +1893,26 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/cNaCIwUb0ZVPCzrAi--bhW_W5ANDrHry-rfTE-q2mJiX__BBOq10BH-o_Y7-5nStpsBj5jdrKK68AvtHBJes_b8jd8gxL38zc4FtAWcnEqkmfV8RtDK1hreE-6PBHQxidnmRvTkgsvjFn2UvuEBQEOA6Gl3ehNRHN8SemXxYUIIagab_HjG654tI_oYOOlxpgvTN7zCIK5tHNWK3Hywsq66Lcy3yRJcL4P3mVakCoh5WVYz5UZYTkznSE6i8DSIBURvYu-HisPScBvl6jn9WMpu-2-drE_X9lo7PD4lIUiDxb9lmdVfDI6FpBrxsTP4O7MvAkL_TjFs16aI0qKlBuw.jpg"
   },
   {
+    "region": "Забайкальский край",
+    "date": "2026-09-08",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Эвeнки Бypятии пpиняли yчacтиe вo Bcepoccийcкoм фopyмe",
+    "desc": "Сюжет телеканала \"Ариг Ус\" о поездке Центра \"Арун\" на II Всероссийский культурный форум коренных народов в Чите",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
+  },
+  {
+    "region": "Еврейская автономная область",
+    "date": "2026-10-07",
+    "source": "Бирария · Telegram",
+    "title": "10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! А",
+    "desc": "10 лет Инвестиционному агентству ЕАО Сегодня мы поздравляем наших надёжных партнёров — Инвестиционное агентство Еврейской автономной области и центр «Мой бизнес» — с юбилеем! Агентство — целая экосистема поддержки бизнеса в ЕАО, которая включает: – поддержку предпринимателей – поддержку сельхозтоваропроизводителей – поддержку экспортёров – сопровождение инвестиционных проектов – предоставление поручительств и гар",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/biraria/4222",
+    "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-11",
     "source": "Илкэн · Улгур",
@@ -1848,15 +1921,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://ilken.ru/2026/10/11/pozdravlenie-glavy-respubliki-saha-yakutiya-ajsena-nikolaeva-s-dnem-rabotnika-selskogo-hozyajstva-i-pererabatyvayushhej-promyshlennosti/"
-  },
-  {
-    "region": "Забайкальский край",
-    "date": "2026-09-08",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвeнки Бypятии пpиняли yчacтиe вo Bcepoccийcкoм фopyмe",
-    "desc": "Сюжет телеканала \"Ариг Ус\" о поездке Центра \"Арун\" на II Всероссийский культурный форум коренных народов в Чите",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
   },
   {
     "region": "Красноярский край",
@@ -1870,6 +1934,24 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-09-03",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
+    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
+  },
+  {
+    "region": "Еврейская автономная область",
+    "date": "2026-10-03",
+    "source": "Бирария · Telegram",
+    "title": "От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хоровод",
+    "desc": "От эвенкийского «Хадё» до русского хоровода: круг единства на IV Этнофесте «Бирария» Одним из самых ярких и объединяющих моментов IV Этнофеста «Бирария» на Тунгуске стали хороводы. Они открыли фестиваль и завершили его, собрав в круг сотни гостей. Фестиваль прошёл при поддержке ПФКИ. Эвенкийский хоровод «Хадё (ёхарьё)» Ровно в 12:00 на берегу Тунгуски зазвучал бубен, и под руководством хранительницы эвенкийских тра",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/biraria/4185"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-10",
     "source": "Илкэн · Улгур",
@@ -1878,15 +1960,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns/"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-03",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
-    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
   },
   {
     "region": "Красноярский край",
