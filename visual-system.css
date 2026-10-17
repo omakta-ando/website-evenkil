@@ -284,6 +284,7 @@ html{scroll-padding-top:124px}@media(max-width:900px){html{scroll-padding-top:19
 .section.news-area#news .news-card h3{color:#192a22}
 .section.news-area#news .news-card p,.section.news-area#news .story-date,.section.news-area#news .card-foot{color:#737d72}
 .section.news-area#news .story-date span+span{color:#828a7e}
-.section.news-area#news .region-tag,.section.news-area#news .context-tag{background:#eef0e7;color:#687a63}
+.section.news-area#news .region-tag{background:#eef0e7;color:#687a63}
+.section.news-area#news .news-card .context-tag{background:#f1e7d4;color:#7b5a2b}
 .section.news-area#news .chip{border-color:#cfd5c8;color:#5e6d5d}
 .section.news-area#news .chip:hover:not(.active){background:#dce3d7;border-color:#b9c7b1;color:#203c32}
