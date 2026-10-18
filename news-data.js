@@ -45,7 +45,7 @@ window.newsStories=[
     "date": "2026-10-17",
     "source": "finance.sina.com.cn",
     "title": "呼伦贝尔非遗体验怎么玩？3条路线+预算避坑全解析+FAQ|呼伦贝尔市|草原|马头琴|敖鲁古雅|驯鹿_新浪新闻 - finance.sina.com.cn",
-    "desc": "呼伦贝尔非遗体验怎么玩？3条路线+预算避坑全解析+FAQ|呼伦贝尔市|草原|马头琴|敖鲁古雅|驯鹿_新浪新闻 finance.sina.com.cn",
+    "desc": "Путеводитель предлагает маршруты по нематериальному наследию Хулун-Буира и рассказывает о традициях региона, включая знакомство с культурой эвенков-оленеводов в Аолугуе. Также в материале приведены ориентировочные расходы на поездку.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90UnRwZWQtTWlwM2FYcm1lZnR2T3BKRjhDalZaeFpiVzlONzl2WUFEbmhTUEVVRWE4SUtTZDZHby1qc2tCZk5fc2FUWEFEbFFncVhLajNBSktCQUtzbnp0cUJwRFdrRVVvb0hNa1FRUVg2a1FVZEM3OXFHM0RvQQ?oc=5"
