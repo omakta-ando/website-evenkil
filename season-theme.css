@@ -427,3 +427,7 @@ html[data-season="night"] body .quote-band.page-intro-quote.history-page-quote-b
   background-position:center 52%!important;background-size:cover!important;
 }
 html[data-season="night"] body .quote-band.page-intro-quote:before{background:linear-gradient(90deg,#f8f7ef 0 33.33%,#2f6b49 33.33% 66.66%,#111512 66.66% 100%)!important}
+
+html[data-season="night"] body .quote-band.page-intro-quote blockquote,
+html[data-season="night"] body .quote-band.page-intro-quote cite,
+html[data-season="night"] body .quote-band.page-intro-quote cite a{color:#19251f!important}
