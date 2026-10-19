@@ -378,3 +378,8 @@ html[data-season="night"] .hero:before {
   background-position: center calc(-15vh - var(--hero-scene-offset, 124px)) !important;
   background-repeat: no-repeat !important;
 }
+
+/* Keep the selected “Все регионы” filter outlined like the other cards. */
+html[data-season="night"] .filters .chip.active {
+  border: 1px solid #65796d !important;
+}
