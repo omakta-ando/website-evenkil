@@ -418,3 +418,12 @@ html[data-season="night"] .quote-band:before {
   height: 5px !important;
   background: linear-gradient(90deg, #f8f7ef 0 33.33%, #2f6b49 33.33% 66.66%, #111512 66.66% 100%) !important;
 }
+
+
+html[data-season="night"] body .quote-band.page-intro-quote,
+html[data-season="night"] body .quote-band.page-intro-quote.history-page-quote-band{
+  background-color:#e8e9df!important;
+  background-image:linear-gradient(105deg,rgba(245,243,233,.62),rgba(238,241,230,.56) 52%,rgba(232,237,224,.62)),url("media/taiga-river-winter-aurora-v2.jpg")!important;
+  background-position:center 52%!important;background-size:cover!important;
+}
+html[data-season="night"] body .quote-band.page-intro-quote:before{background:linear-gradient(90deg,#f8f7ef 0 33.33%,#2f6b49 33.33% 66.66%,#111512 66.66% 100%)!important}
