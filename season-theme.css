@@ -1,0 +1,351 @@
+/* Polar day and polar night theme for the autonomous edition. */
+html[data-season="night"] {
+  color-scheme: dark;
+  --pine: #203c32;
+  --pine2: #203c32;
+  --moss: #9aab91;
+  --cream: #263b34;
+  --paper: #2c433b;
+  --ink: #f0f1e8;
+  --muted: #c0c9bd;
+  --line: #50645a;
+  --clay: #e5c58c;
+  --gold: #e5c58c;
+  --sage: #263b34;
+  --soft-line: #50645a;
+  --surface-hover: #3c5549;
+  --shadow-card: 0 10px 24px rgba(0, 0, 0, .2);
+  --tungus-snow: #41564c;
+  --tungus-taiga: #82977d;
+  --tungus-earth: #203c32;
+}
+
+html[data-season="night"] body {
+  background: #263b34;
+  color: #f0f1e8;
+}
+
+html[data-season="night"] .topline {
+  background-color: #142a24 !important;
+  background-image: linear-gradient(90deg, rgba(5, 15, 18, .58), rgba(14, 31, 34, .22)), url("media/taiga-river-winter-aurora-v2.jpg") !important;
+  background-position: center 12% !important;
+}
+
+html[data-season="night"] .nav {
+  background: #182e27 !important;
+  color: #f0f1e8 !important;
+  border-color: #50645a !important;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, .22) !important;
+}
+
+html[data-season="night"] .nav .brand,
+html[data-season="night"] .nav .navlinks,
+html[data-season="night"] .nav .navlinks a,
+html[data-season="night"] .nav .nav-social a { color: #e7eee5 !important; }
+html[data-season="night"] .nav .brand-mark { background: #203c32 !important; }
+html[data-season="night"] .nav .navlinks a:hover,
+html[data-season="night"] .nav .nav-social a:hover { color: #e5c58c !important; }
+html[data-season="night"] .nav .nav-social a { border-color: #65796d !important; }
+
+html[data-season="night"] .hero {
+  background: #203c32;
+}
+html[data-season="night"] .hero:before {
+  background-image: linear-gradient(90deg, rgba(8, 22, 25, .58), rgba(10, 28, 31, .2) 62%, rgba(10, 24, 28, .08)), url("media/taiga-river-winter-aurora-v2.jpg") !important;
+  background-position: center 48% !important;
+  background-size: cover !important;
+}
+html[data-season="night"] .hero .sun { display: none !important; }
+
+html[data-season="night"] .stats,
+html[data-season="night"] .regions,
+html[data-season="night"] .section.news-area#news,
+html[data-season="night"] .page-main,
+html[data-season="night"] main,
+html[data-season="night"] .about,
+html[data-season="night"] .sources,
+html[data-season="night"] .source-topic,
+html[data-season="night"] .contact-page {
+  background-color: #263b34 !important;
+  color: #f0f1e8 !important;
+}
+
+/* Remove the pale day gradients used beneath the page sections. */
+html[data-season="night"] .news-area,
+html[data-season="night"] .about,
+html[data-season="night"] .regions,
+html[data-season="night"] .sources,
+html[data-season="night"] .resources,
+html[data-season="night"] .page-main,
+html[data-season="night"] main {
+  background-image: linear-gradient(rgba(38, 59, 52, .965), rgba(38, 59, 52, .965)), url("taiga-contours.svg") !important;
+  background-size: auto, 560px !important;
+  color: #f0f1e8 !important;
+}
+
+html[data-season="night"] .quote-band,
+html[data-season="night"] .section.resources,
+html[data-season="night"] .section.about,
+html[data-season="night"] .knowledge-nav {
+  background-color: #2c433b !important;
+  color: #f0f1e8 !important;
+}
+html[data-season="night"] .quote-band.page-intro-quote {
+  background-color: #2c433b !important;
+  background-image: linear-gradient(115deg, rgba(24, 47, 41, .82), rgba(40, 60, 54, .8)), url("media/taiga-river-winter-aurora-v2.jpg") !important;
+  background-position: center 18% !important;
+}
+html[data-season="night"] .quote-band blockquote,
+html[data-season="night"] .quote-band .rotating-quote { color: #f0f1e8 !important; }
+html[data-season="night"] .quote-band cite,
+html[data-season="night"] .section-intro,
+html[data-season="night"] .region-note,
+html[data-season="night"] .page-kicker,
+html[data-season="night"] .contact-heading p,
+html[data-season="night"] .contact-kicker,
+html[data-season="night"] .source-topic-head p,
+html[data-season="night"] .legal-citations,
+html[data-season="night"] .article-content,
+html[data-season="night"] .article-content p,
+html[data-season="night"] .article-content li { color: #c0c9bd !important; }
+
+html[data-season="night"] h1,
+html[data-season="night"] h2,
+html[data-season="night"] h3,
+html[data-season="night"] h4,
+html[data-season="night"] h5,
+html[data-season="night"] h6,
+html[data-season="night"] .section-kicker,
+html[data-season="night"] .page-kicker,
+html[data-season="night"] .kicker,
+html[data-season="night"] .source-topic-head > span,
+html[data-season="night"] .page-heading,
+html[data-season="night"] .contact-heading,
+html[data-season="night"] .knowledge-nav a,
+html[data-season="night"] .article-content h2,
+html[data-season="night"] .article-content h3,
+html[data-season="night"] .article-content h4 {
+  color: #f0f1e8 !important;
+}
+html[data-season="night"] p,
+html[data-season="night"] figcaption,
+html[data-season="night"] .media-caption,
+html[data-season="night"] .image-caption,
+html[data-season="night"] .source-kind,
+html[data-season="night"] .source-loading,
+html[data-season="night"] .source-empty,
+html[data-season="night"] .page-status,
+html[data-season="night"] .empty,
+html[data-season="night"] .empty-media,
+html[data-season="night"] .gallery-empty,
+html[data-season="night"] .map-note,
+html[data-season="night"] .map-sources-link,
+html[data-season="night"] .muted,
+html[data-season="night"] .form-help,
+html[data-season="night"] .demo-note {
+  color: #c0c9bd !important;
+}
+
+html[data-season="night"] .resource-card,
+html[data-season="night"] .news-card,
+html[data-season="night"] .about-card,
+html[data-season="night"] .region-item,
+html[data-season="night"] .contact-card,
+html[data-season="night"] .contact-aside,
+html[data-season="night"] .source-grid a,
+html[data-season="night"] .source-caveat,
+html[data-season="night"] .map-panel,
+html[data-season="night"] .locality-panel,
+html[data-season="night"] .media-notice,
+html[data-season="night"] .media-tab,
+html[data-season="night"] .history-table-wrap,
+html[data-season="night"] .knowledge-collapse,
+html[data-season="night"] .article-content table,
+html[data-season="night"] .admin-card,
+html[data-season="night"] .auth-panel {
+  background-color: #30483f !important;
+  color: #f0f1e8 !important;
+  border-color: #52695d !important;
+}
+html[data-season="night"] .empty-media,
+html[data-season="night"] .gallery-empty,
+html[data-season="night"] .notice,
+html[data-season="night"] .source-caveat,
+html[data-season="night"] .source-nav a,
+html[data-season="night"] .contact-choice,
+html[data-season="night"] .type-option,
+html[data-season="night"] .consent,
+html[data-season="night"] .locality-edit-row,
+html[data-season="night"] .admin-item,
+html[data-season="night"] .source-row,
+html[data-season="night"] .quote-edit,
+html[data-season="night"] .article-editor figure,
+html[data-season="night"] .tools select,
+html[data-season="night"] .sort,
+html[data-season="night"] .pager button,
+html[data-season="night"] .empty {
+  background: #30483f !important;
+  color: #f0f1e8 !important;
+  border-color: #52695d !important;
+}
+html[data-season="night"] .resource-card:hover,
+html[data-season="night"] .resource-card:focus-visible,
+html[data-season="night"] .news-card:hover,
+html[data-season="night"] .news-card:focus-visible,
+html[data-season="night"] .source-grid a:hover,
+html[data-season="night"] .filters .chip:hover:not(.active),
+html[data-season="night"] .filters .chip:focus-visible:not(.active),
+html[data-season="night"] .btn,
+html[data-season="night"] .btn-light,
+html[data-season="night"] .submit-button,
+html[data-season="night"] .pager button,
+html[data-season="night"] .chip.active,
+html[data-season="night"] .region-item:hover {
+  background: #203c32 !important;
+  border-color: #203c32 !important;
+  color: #f5f3e9 !important;
+}
+html[data-season="night"] .btn-ghost { background: rgba(32, 60, 50, .75) !important; color: #f5f3e9 !important; }
+html[data-season="night"] .resource-card h3,
+html[data-season="night"] .news-card h2,
+html[data-season="night"] .news-card h3,
+html[data-season="night"] .about-card h3,
+html[data-season="night"] .source-topic-head h2,
+html[data-season="night"] .knowledge-section>h2,
+html[data-season="night"] .contact-heading h1,
+html[data-season="night"] .page-heading h1,
+html[data-season="night"] .head h1 { color: #f0f1e8 !important; }
+html[data-season="night"] .resource-card p,
+html[data-season="night"] .news-card p,
+html[data-season="night"] .about-card p,
+html[data-season="night"] .card-foot,
+html[data-season="night"] .story-date,
+html[data-season="night"] .source-grid a,
+html[data-season="night"] .contact-card label,
+html[data-season="night"] .contact-card .form-help { color: #c0c9bd !important; }
+html[data-season="night"] .region-tag { background: #3c5549 !important; color: #dce8d6 !important; }
+html[data-season="night"] .context-tag { background: #5b4c35 !important; color: #f1d59e !important; }
+html[data-season="night"] input,
+html[data-season="night"] textarea,
+html[data-season="night"] select,
+html[data-season="night"] .article-editor {
+  color: #f0f1e8 !important;
+  background: #263b34 !important;
+  border-color: #65796d !important;
+}
+html[data-season="night"] input::placeholder,
+html[data-season="night"] textarea::placeholder { color: #aab8ad !important; }
+html[data-season="night"] .region-map { background: #30483f !important; }
+html[data-season="night"] .map-shape { background: #82977d !important; }
+html[data-season="night"] .footer,
+html[data-season="night"] .page-footer {
+  background-color: #142a24 !important;
+  color: #e7eee5 !important;
+}
+html[data-season="night"] .footer,
+html[data-season="night"] .page-footer {
+  background-image: linear-gradient(110deg, rgba(10, 25, 22, .94), rgba(20, 42, 36, .88)), url("media/taiga-river-winter-aurora-v2.jpg") !important;
+  background-position: center 80% !important;
+  background-size: cover !important;
+}
+html[data-season="night"] .section-kicker,
+html[data-season="night"] .contact-kicker { color: #e5c58c !important; }
+html[data-season="night"] .section-kicker:before,
+html[data-season="night"] .page-kicker:before,
+html[data-season="night"] .kicker:before { background: #e5c58c !important; }
+html[data-season="night"] .region-emblem,
+html[data-season="night"] .about-icon,
+html[data-season="night"] .about-icon-gallery,
+html[data-season="night"] .about-icon-history {
+  background-color: #3c5549 !important;
+  border-color: #65796d !important;
+  box-shadow: inset 0 0 0 1.5px #30483f !important;
+}
+html[data-season="night"] .filters .chip,
+html[data-season="night"] .source-nav a,
+html[data-season="night"] .knowledge-nav a,
+html[data-season="night"] .media-tab,
+html[data-season="night"] .nav-cta {
+  color: #e7eee5 !important;
+  border-color: #65796d !important;
+}
+html[data-season="night"] .filters .chip:hover:not(.active),
+html[data-season="night"] .filters .chip:focus-visible:not(.active),
+html[data-season="night"] .filters .chip.active,
+html[data-season="night"] .media-tab.active,
+html[data-season="night"] .nav-cta:hover,
+html[data-season="night"] .pager button:hover:not(:disabled),
+html[data-season="night"] .pager button.current {
+  background: #203c32 !important;
+  border-color: #203c32 !important;
+  color: #f5f3e9 !important;
+}
+html[data-season="night"] .news-card .context-tag { background: #5b4c35 !important; color: #f1d59e !important; }
+html[data-season="night"] .news-card .region-tag { background: #3c5549 !important; color: #dce8d6 !important; }
+html[data-season="night"] .news-card:hover .context-tag,
+html[data-season="night"] .news-card:hover .region-tag { color: #f1d59e !important; }
+html[data-season="night"] .history-table-wrap th,
+html[data-season="night"] .article-content th { background: #203c32 !important; color: #f5f3e9 !important; }
+html[data-season="night"] .history-table-wrap td,
+html[data-season="night"] .article-content td { background: #30483f !important; color: #e4ebe2 !important; border-color: #52695d !important; }
+html[data-season="night"] .knowledge-collapse summary,
+html[data-season="night"] .source-subhead,
+html[data-season="night"] .contact-card .legend,
+html[data-season="night"] .contact-card .field-label { color: #f0f1e8 !important; }
+html[data-season="night"] .article-content a,
+html[data-season="night"] .source-grid a,
+html[data-season="night"] .map-sources-link { color: #e5c58c !important; }
+html[data-season="night"] button,
+html[data-season="night"] .btn,
+html[data-season="night"] .chip.active,
+html[data-season="night"] .pager button.current,
+html[data-season="night"] .submit-button,
+html[data-season="night"] .archive-link {
+  background-color: #203c32 !important;
+  border-color: #203c32 !important;
+  color: #f5f3e9 !important;
+}
+html[data-season="night"] .season-toggle {
+  background: transparent !important;
+  border-color: #65796d !important;
+  color: #e5c58c !important;
+}
+html[data-season="night"] .season-toggle:hover,
+html[data-season="night"] .season-toggle:focus-visible {
+  background: #e5c58c !important;
+  border-color: #e5c58c !important;
+  color: #152b25 !important;
+}
+html[data-season="night"] img,
+html[data-season="night"] video,
+html[data-season="night"] canvas { filter: none !important; }
+
+.season-toggle {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid #c9cec2;
+  border-radius: 50%;
+  color: #59645c;
+  background: transparent;
+  transition: color .18s ease, background .18s ease, border-color .18s ease, transform .18s ease;
+}
+.season-toggle:hover,
+.season-toggle:focus-visible { color: #f5f3e9; background: #203c32; border-color: #203c32; transform: translateY(-1px); }
+.season-toggle svg { display: block; width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+html[data-season="night"] .season-toggle { color: #e5c58c; border-color: #65796d; }
+html[data-season="night"] .season-toggle:hover,
+html[data-season="night"] .season-toggle:focus-visible { color: #152b25; background: #e5c58c; border-color: #e5c58c; }
+@media(max-width:900px){.season-toggle{width:32px;height:32px;flex-basis:32px}}
+@media(min-width:901px) and (max-width:1200px){
+  .nav .navlinks{gap:10px!important;font-size:11px!important}
+  .nav .nav-social{gap:6px!important}
+  .nav .nav-social a{width:30px!important;height:30px!important;flex-basis:30px!important}
+  .season-toggle{width:30px;height:30px;flex-basis:30px}
+}
+@media(prefers-reduced-motion:reduce){.season-toggle{transition:none}}
+
+.nav .season-toggle{order:1000!important;margin-left:2px!important}
