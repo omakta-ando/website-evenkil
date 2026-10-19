@@ -222,7 +222,8 @@
     "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki": "2026-10-20T00:18+04:00",
     "CBMi1wFBVV95cUxPdm1qRHNxclAzY3RyR1pCbmRpUUhCdUt1OU9XZlNjTHU0SVY1c1l0YmdBSmpqOVJIYmRlbVZmVTNnbE9vT3pyWklwNU1zd3NBeUlycWZNMk9QZzBGVy1iUTk4akUzOWNIRzA2YmJQaEhncFlWelZhSWczdVp5WV9UNi1kbFZVZXR1TTBfNklRYXVNRmg3MnozdkFibExoVnFBZHB0dVlYMHZSR2hQeTZMcFZKajBoa2d6N1hrekhHdHloaHoxTVlQRkxZT3ZUQy10cWNyV3hrVQ": "2026-10-20T00:18+04:00",
     "https://news.kmnsoyuz.ru/news/53864": "2026-10-20T00:18+04:00",
-    "CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg": "2026-10-20T00:18+04:00"
+    "CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg": "2026-10-20T00:18+04:00",
+    "CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ": "2026-10-20T01:44+04:00"
   },
   "daily": {
     "2026-10-13": [
@@ -1776,25 +1777,24 @@
         "needsFullText": "0",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ",
+        "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
+        "source": "моо «кмнсоюз",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5",
+        "published": "2026-10-19T22:30+04:00",
+        "day": "2026-10-19",
+        "description": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "needsFullText": "0",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ",
-      "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
-      "source": "моо «кмнсоюз",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5",
-      "published": "2026-10-19T22:30+04:00",
-      "day": "2026-10-19",
-      "description": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
-      "ilkenEvenki": "0",
-      "configuredSource": "0",
-      "needsFullText": "0",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -2015,6 +2015,7 @@
     "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki": "2026-10-20T00:18+04:00",
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdm1qRHNxclAzY3RyR1pCbmRpUUhCdUt1OU9XZlNjTHU0SVY1c1l0YmdBSmpqOVJIYmRlbVZmVTNnbE9vT3pyWklwNU1zd3NBeUlycWZNMk9QZzBGVy1iUTk4akUzOWNIRzA2YmJQaEhncFlWelZhSWczdVp5WV9UNi1kbFZVZXR1TTBfNklRYXVNRmg3MnozdkFibExoVnFBZHB0dVlYMHZSR2hQeTZMcFZKajBoa2d6N1hrekhHdHloaHoxTVlQRkxZT3ZUQy10cWNyV3hrVQ?oc=5": "2026-10-20T00:18+04:00",
     "https://news.kmnsoyuz.ru/news/53864": "2026-10-20T00:18+04:00",
-    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5": "2026-10-20T00:18+04:00"
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5": "2026-10-20T00:18+04:00",
+    "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5": "2026-10-20T01:44+04:00"
   }
 }
