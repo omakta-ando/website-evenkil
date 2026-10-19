@@ -355,7 +355,7 @@ html[data-season="night"] .season-toggle:focus-visible { color: #152b25; backgro
    and x alignment prevent the mountain ridge from being cropped twice. */
 html[data-season="day"] .topline,
 html[data-season="night"] .topline {
-  background-size: auto max(100vh, 56.3vw) !important;
+  background-size: auto max(calc(100vh + var(--hero-scene-offset, 124px)), 56.3vw) !important;
   background-position: center calc(-15vh) !important;
   background-repeat: no-repeat !important;
 }
@@ -364,17 +364,17 @@ html[data-season="day"] .topline {
 }
 html[data-season="day"] .hero:before {
   background-image: linear-gradient(90deg, rgba(3,18,13,.78) 0%, rgba(5,22,16,.52) 42%, rgba(8,25,20,.18) 100%), url("media/taiga-river-hero-v1.png?v=20261003-bands") !important;
-  background-size: auto max(100vh, 56.3vw) !important;
+  background-size: auto max(calc(100vh + var(--hero-scene-offset, 124px)), 56.3vw) !important;
   background-position: center calc(-15vh - var(--hero-scene-offset, 124px)) !important;
   background-repeat: no-repeat !important;
 }
 html[data-season="night"] .topline {
-  background-size: auto max(100vh, 56.3vw) !important;
+  background-size: auto max(calc(100vh + var(--hero-scene-offset, 124px)), 56.3vw) !important;
   background-position: center calc(-15vh) !important;
   background-repeat: no-repeat !important;
 }
 html[data-season="night"] .hero:before {
-  background-size: auto max(100vh, 56.3vw) !important;
+  background-size: auto max(calc(100vh + var(--hero-scene-offset, 124px)), 56.3vw) !important;
   background-position: center calc(-15vh - var(--hero-scene-offset, 124px)) !important;
   background-repeat: no-repeat !important;
 }
