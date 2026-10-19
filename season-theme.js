@@ -4,6 +4,22 @@
   const storageKey = "taiga-season-theme";
   let mode = root.dataset.season === "night" ? "night" : "day";
 
+  function syncHeroSceneOffset() {
+    const masthead = document.querySelector(".topline");
+    const nav = document.querySelector(".nav");
+    const offset = (masthead?.offsetHeight || 72) + (nav?.offsetHeight || 52);
+    root.style.setProperty("--hero-scene-offset", `${offset}px`);
+  }
+  syncHeroSceneOffset();
+  if ("ResizeObserver" in window) {
+    const sceneObserver = new ResizeObserver(syncHeroSceneOffset);
+    const masthead = document.querySelector(".topline");
+    const nav = document.querySelector(".nav");
+    if (masthead) sceneObserver.observe(masthead);
+    if (nav) sceneObserver.observe(nav);
+  }
+  window.addEventListener("resize", syncHeroSceneOffset, { passive: true });
+
   function render() {
     if (!button) return;
     const night = mode === "night";
