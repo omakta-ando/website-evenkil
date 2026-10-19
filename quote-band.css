@@ -161,3 +161,6 @@ body .quote-band.page-intro-quote .rotating-quote{
  body .quote-band.page-intro-quote blockquote,
  body .quote-band.page-intro-quote .rotating-quote{height:9em!important;min-height:9em!important;max-height:9em!important}
 }
+
+
+body .quote-band.page-intro-quote blockquote,body .quote-band.page-intro-quote .rotating-quote{text-align:center!important}
