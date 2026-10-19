@@ -23,7 +23,7 @@
 @media(max-width:800px){.nav .wrap{height:auto;min-height:52px;flex-wrap:wrap}.brand{font-size:17px}.navlinks{gap:10px;font-size:10px;white-space:normal}}
 @media(max-width:600px){.nav{height:auto}.nav .wrap{padding-top:8px;padding-bottom:8px}.brand-mark{width:30px;height:30px;flex-basis:30px}.navlinks{width:100%;flex-wrap:wrap;order:2;gap:8px 12px}}
 </style>
-<link rel="stylesheet" href="site-header.css?v=20261004-unified"><style>@media(max-width:520px){}</style><style id="news-card-equal-height">
+<link rel="stylesheet" href="site-header.css?v=20261019-shared-v1"><style>@media(max-width:520px){}</style><style id="news-card-equal-height">
 .news-grid{grid-auto-rows:auto;align-items:start}
 .news-card{height:auto;min-height:0;aspect-ratio:.92/1;min-width:0;overflow:hidden}
 .news-card .card-meta{height:42px;min-height:42px;flex:0 0 42px;overflow:hidden;align-items:flex-start}
@@ -39,10 +39,9 @@
 .news-card .context-tag{grid-column:2;width:100%;max-width:100%;justify-self:stretch;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;white-space:normal;line-height:1.15}
 @media(max-width:520px){.news-card .card-meta{grid-template-columns:minmax(0,1fr) minmax(96px,48%);min-height:62px}}
 </style>
-<script>try{document.documentElement.dataset.season=localStorage.getItem("taiga-season-theme")||"day"}catch(e){document.documentElement.dataset.season="day"}</script><link rel="stylesheet" href="season-theme.css?v=polar-night-other-pages-v3"></head>
+<script>try{document.documentElement.dataset.season=localStorage.getItem("taiga-season-theme")||"day"}catch(e){document.documentElement.dataset.season="day"}</script><link rel="stylesheet" href="season-theme.css?v=polar-night-other-pages-v3"><script defer src="site-header.js?v=20261019-shared-v1"></script></head>
 <body>
-<div class="topline"><div class="wrap"><div class="status"><i class="dot"></i><span>Хроника народа</span></div></div></div>
-<header class="nav"><div class="wrap"><a class="brand" href="index.html"><span class="brand-mark"><img src="taezhnye-golosa-sevek-mo.svg?v=20261001-logo-1" alt=""></span>таёжная нить</a><nav class="navlinks"><a href="index.html?rev=20261016-news-anchor-v2#news">Новости регионов</a><a href="history.html">Об эвенках</a><a href="map.html">Эвэды Буга</a><a href="gallery.html">Галерея</a><a href="index.html#resources">Полезные ресурсы</a><a href="sources.html">Источники</a><button class="season-toggle" type="button" aria-label="Включить полярную ночь" title="Полярная ночь" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.2A8.5 8.5 0 0 1 8.8 3.6 8.6 8.6 0 1 0 20.4 15.2Z"/><path d="M16 3v3m-1.5-1.5h3"/></svg></button></nav><button class="menu" aria-label="Меню">☰</button></div></header>
+<div id="site-header-root"></div>
 <main><div class="wrap"><div class="head"><div><div class="kicker">Все регионы · Россия и зарубежье</div><h1>Архив новостей</h1></div><p>Публикации расположены по дате выхода. Нажмите на карточку, чтобы открыть материал в СМИ.</p></div><div class="tools"><label class="count" id="resultCount">Загружаем публикации…</label><select id="archiveRegion" aria-label="Фильтр по региону"><option value="Все регионы">Все регионы</option><option>Якутия</option><option>Красноярский край</option><option>Бурятия</option><option>Забайкальский край</option><option>Иркутская область</option><option>Амурская область</option><option>Хабаровский край</option><option>Сахалинская область</option><option>Приморский край</option><option>Томская область</option><option>Тюменская область</option><option>Общие новости</option><option>Новости на эвенкийском</option><option>Еврейская автономная область</option><option>Зарубежные источники</option></select></div><div class="news-grid" id="archiveGrid"></div><nav class="pager" id="pager" aria-label="Страницы архива новостей"></nav></div></main>
 <footer class="footer"><div class="wrap"><strong>таёжная нить</strong><span>Архив публикаций об эвенках России</span><a href="https://t.me/taiga_thread" target="_blank" rel="noopener noreferrer">Наш Telegram</a><a href="https://www.facebook.com/groups/1427835186122942/" target="_blank" rel="noopener noreferrer">Наш Facebook</a></div></footer>
 <script src="news-data.js?v=20261012-region-routing-4"></script><script>
