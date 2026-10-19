@@ -1779,7 +1779,22 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ",
+      "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
+      "source": "моо «кмнсоюз",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5",
+      "published": "2026-10-19T22:30+04:00",
+      "day": "2026-10-19",
+      "description": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",

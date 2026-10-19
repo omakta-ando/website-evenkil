@@ -154,6 +154,16 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdm1qRHNxclAzY3RyR1pCbmRpUUhCdUt1OU9XZlNjTHU0SVY1c1l0YmdBSmpqOVJIYmRlbVZmVTNnbE9vT3pyWklwNU1zd3NBeUlycWZNMk9QZzBGVy1iUTk4akUzOWNIRzA2YmJQaEhncFlWelZhSWczdVp5WV9UNi1kbFZVZXR1TTBfNklRYXVNRmg3MnozdkFibExoVnFBZHB0dVlYMHZSR2hQeTZMcFZKajBoa2d6N1hrekhHdHloaHoxTVlQRkxZT3ZUQy10cWNyV3hrVQ?oc=5"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "моо «кмнсоюз",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
+    "desc": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-18",
     "source": "Илкэн · Улгур",
@@ -274,16 +284,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://indigenous-russia.com/archives/50825"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "моо «кмнсоюз",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
-    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -982,6 +982,16 @@ window.newsStories=[
     "link": "https://news.kmnsoyuz.ru/news/53787"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "моо «кмнсоюз",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
+    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-17",
     "source": "Илкэн · Улгур",
@@ -1061,16 +1071,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://indigenous-russia.com/archives/50770"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "моо «кмнсоюз",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
-    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -1368,6 +1368,16 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.kmnsoyuz.ru/news/53775"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "моо «кмнсоюз",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
+    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
   },
   {
     "region": "Общие новости",
