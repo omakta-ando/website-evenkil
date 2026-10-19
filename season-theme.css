@@ -401,3 +401,12 @@ html[data-season="night"] .quote-band cite,
 html[data-season="night"] .quote-band cite a {
   color: #19251f !important;
 }
+
+
+/* Carry the polar-night landscape through the quote band without moving it. */
+html[data-season="night"] .quote-band {
+  background-color: #e8e9df !important;
+  background-image: linear-gradient(105deg, rgba(245, 243, 233, .84), rgba(238, 241, 230, .78) 52%, rgba(232, 237, 224, .82)), url("media/taiga-river-winter-aurora-v2.png") !important;
+  background-position: center 52% !important;
+  background-size: cover !important;
+}
