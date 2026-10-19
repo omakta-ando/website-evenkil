@@ -383,3 +383,12 @@ html[data-season="night"] .hero:before {
 html[data-season="night"] .filters .chip.active {
   border: 1px solid #65796d !important;
 }
+
+
+/* Keep card outlines visible on hover in polar night mode. */
+html[data-season="night"] .news-card:hover,
+html[data-season="night"] .news-card:focus-visible,
+html[data-season="night"] .resource-card:hover,
+html[data-season="night"] .resource-card:focus-visible {
+  border: 1px solid #65796d !important;
+}
