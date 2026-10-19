@@ -133,3 +133,31 @@ body .quote-band.page-intro-quote:before{height:5px!important;background:linear-
 }
 
 body .quote-band.page-intro-quote blockquote,body .quote-band.page-intro-quote .rotating-quote{display:block!important;grid-column:2!important;height:auto!important;max-height:none!important;overflow:visible!important;white-space:normal!important;text-overflow:clip!important;-webkit-line-clamp:unset!important;-webkit-box-orient:initial!important}
+
+
+/* Fixed-height quote slots: three lines on desktop; room for mobile wrapping. */
+body .quote-band.page-intro-quote,
+body .quote-band.page-intro-quote.history-page-quote-band{
+  box-sizing:border-box!important;height:240px!important;min-height:240px!important;max-height:240px!important;padding:0!important;
+}
+body .quote-band.page-intro-quote .wrap,
+body .quote-band.page-intro-quote.history-page-quote-band .wrap{
+  box-sizing:border-box!important;height:100%!important;min-height:0!important;align-content:center!important;grid-template-rows:auto!important;
+}
+body .quote-band.page-intro-quote blockquote,
+body .quote-band.page-intro-quote .rotating-quote{
+  box-sizing:border-box!important;height:4.35em!important;min-height:4.35em!important;max-height:4.35em!important;overflow:visible!important;
+}
+@media(max-width:900px){
+ body .quote-band.page-intro-quote .wrap,
+ body .quote-band.page-intro-quote.history-page-quote-band .wrap{grid-template-columns:25px minmax(0,1fr)!important;grid-template-rows:auto auto!important;gap:14px!important}
+ body .quote-band.page-intro-quote cite{grid-column:2!important;text-align:left!important}
+}
+@media(max-width:700px){
+ body .quote-band.page-intro-quote,
+ body .quote-band.page-intro-quote.history-page-quote-band{height:320px!important;min-height:320px!important;max-height:320px!important}
+ body .quote-band.page-intro-quote .wrap,
+ body .quote-band.page-intro-quote.history-page-quote-band .wrap{grid-template-rows:minmax(0,2fr) minmax(0,1fr)!important}
+ body .quote-band.page-intro-quote blockquote,
+ body .quote-band.page-intro-quote .rotating-quote{height:9em!important;min-height:9em!important;max-height:9em!important}
+}
