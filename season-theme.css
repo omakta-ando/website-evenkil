@@ -349,3 +349,38 @@ html[data-season="night"] .season-toggle:focus-visible { color: #152b25; backgro
 @media(prefers-reduced-motion:reduce){.season-toggle{transition:none}}
 
 .nav .season-toggle{order:1000!important;margin-left:2px!important}
+
+
+/* Keep the masthead and hero on one uninterrupted image plane. The same size
+   and x alignment prevent the mountain ridge from being cropped twice. */
+html[data-season="day"] .topline,
+html[data-season="night"] .topline {
+  background-size: auto max(100vh, 56.3vw) !important;
+  background-position: center calc(-15vh) !important;
+  background-repeat: no-repeat !important;
+}
+html[data-season="day"] .topline {
+  background-image: linear-gradient(90deg, rgba(5,22,17,.78), rgba(8,27,21,.42) 52%, rgba(13,34,27,.2)), url("media/taiga-river-hero-v1.png?v=20261003-bands") !important;
+}
+html[data-season="day"] .hero:before {
+  background-image: linear-gradient(90deg, rgba(3,18,13,.78) 0%, rgba(5,22,16,.52) 42%, rgba(8,25,20,.18) 100%), url("media/taiga-river-hero-v1.png?v=20261003-bands") !important;
+  background-size: auto max(100vh, 56.3vw) !important;
+  background-position: center calc(-15vh - 124px) !important;
+  background-repeat: no-repeat !important;
+}
+html[data-season="night"] .topline {
+  background-size: auto max(100vh, 56.3vw) !important;
+  background-position: center calc(-15vh) !important;
+  background-repeat: no-repeat !important;
+}
+html[data-season="night"] .hero:before {
+  background-size: auto max(100vh, 56.3vw) !important;
+  background-position: center calc(-15vh - 124px) !important;
+  background-repeat: no-repeat !important;
+}
+@media(max-width:900px) {
+  html[data-season="day"] .hero:before,
+  html[data-season="night"] .hero:before {
+    background-position: center calc(-15vh - 188px) !important;
+  }
+}
