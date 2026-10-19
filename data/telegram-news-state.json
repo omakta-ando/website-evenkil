@@ -1859,7 +1859,66 @@
       }
     ]
   },
-  "pendingTelegram": [],
+  "pendingTelegram": [
+    {
+      "id": "CBMibEFVX3lxTE9BZGJQT1R0U2dXR2xNVThkQmxzbldfcE9oRlFlcHBYQ3lwcDVFWXNGM2R4aHh1Yk1nOHdDY0txUm92YUU0UUxMVmEzWEprTndjSWUtZkpmUTVYNUNESEp4OHBRaUl6T2x5aXU1WA",
+      "title": "Жители Эвенкии снова сообщили о нехватке продуктов - Новости Красноярск - Прима",
+      "source": "Новости Красноярск - Прима",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BZGJQT1R0U2dXR2xNVThkQmxzbldfcE9oRlFlcHBYQ3lwcDVFWXNGM2R4aHh1Yk1nOHdDY0txUm92YUU0UUxMVmEzWEprTndjSWUtZkpmUTVYNUNESEp4OHBRaUl6T2x5aXU1WA?oc=5",
+      "published": "2026-10-19T17:09+04:00",
+      "day": "2026-10-19",
+      "description": "Жители Эвенкии снова сообщили о нехватке продуктов Новости Красноярск - Прима",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://t.me/biraria/4280",
+      "title": "Куда сходить в Биробиджане в октябре Музей современного искусства ЕАО г. Биробиджан, ул. Шолом-Алейхема, 11 (Городской Дворец культуры, 2 этаж) До 31 октября 2026 года здесь проход",
+      "source": "Бирария · Telegram",
+      "url": "https://t.me/biraria/4280",
+      "published": "2026-10-19T16:37+04:00",
+      "day": "2026-10-19",
+      "description": "Куда сходить в Биробиджане в октябре Музей современного искусства ЕАО г. Биробиджан, ул. Шолом-Алейхема, 11 (Городской Дворец культуры, 2 этаж) До 31 октября 2026 года здесь проходит выставка «По линиям Твоим иду...» (6+) в рамках проекта «Восточный путь просветителя Николая Японского». Экспозиция реализуется при поддержке ПФКИ. Культурно-туристический центр «Бирария» г. Биробиджан, ул. Пионерская, 62-Ф По субботам с",
+      "socialPlatform": "Telegram",
+      "detectedRelevance": "context",
+      "configuredSource": "1",
+      "image": "https://cdn4.telesco.pe/file/kuJs1aX2O3sUiatpnWsFHS92aZ7F_nr37UQf3xSz2fIyPLaUwYzjAIrN90t9Qh9kRSaPN8_5xK2vntrb2VdK_7oulrub_yn_kPk-vIA9xlvhMpnCYEVjReRDnRTuR24cXxN8RbrOnahzHhSOSn0f4TLgazyPr-mkAGMpA4YxR06CWcJORm2ao2XK3NClBzqnlTgvXCPNMCw5e5dxCcA4imk8r4hsJjcz-z_X3AtqDsjtZPbRkFKG8RZbCebiYgrrPq4yGpJH0Kkuo--YmOf3QwjGO1J7H1Z3gM5Wj46qI-QzEft8D5ZZAGyDWx-oyyoMmtr8NVKOyP4TvuHj2mAH0Q.jpg",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "CBMipwFBVV95cUxNMEhFbHl1dmQtNmcwM1p4VEJzcm9vN1NGaEdscjJhMGE2cENuNVByZkYwZG9GQW83c0VaTXB0eWpaNkt0bmxkd3VGRGJSTmFzRlpUanAxaUpRb3BFSTRRdnhaTnVvajJMUXotNlhaaGRnNFpTY2tlQWRqcjN6ZURwTnEtc2RxcnV0YlB3Q2pXUDhpdEZCNk51MFFmYldja2VleV9ONFNlUQ",
+      "title": "В Эвенкии рассчитывают наладить доставку продуктов после открытия зимников - Городские Новости Красноярск",
+      "source": "Городские Новости Красноярск",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMEhFbHl1dmQtNmcwM1p4VEJzcm9vN1NGaEdscjJhMGE2cENuNVByZkYwZG9GQW83c0VaTXB0eWpaNkt0bmxkd3VGRGJSTmFzRlpUanAxaUpRb3BFSTRRdnhaTnVvajJMUXotNlhaaGRnNFpTY2tlQWRqcjN6ZURwTnEtc2RxcnV0YlB3Q2pXUDhpdEZCNk51MFFmYldja2VleV9ONFNlUQ?oc=5",
+      "published": "2026-10-19T15:54+04:00",
+      "day": "2026-10-19",
+      "description": "В Эвенкии рассчитывают наладить доставку продуктов после открытия зимников Городские Новости Красноярск",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki",
+      "url": "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki",
+      "title": "В Якутии провели рок-лекцию ко Дню государственного флага республики — ЯСИА",
+      "description": "Рок и история: в Якутии провели лекцию о флаге республики с выступлениями рок-групп",
+      "source": "ysia.ru",
+      "configuredSource": "1",
+      "auditSource": "ysia.ru",
+      "detectedRelevance": "context",
+      "needsFullText": "0",
+      "published": "2026-10-19T15:00+04:00",
+      "day": "2026-10-19",
+      "relevance": "context",
+      "siteEligible": "1"
+    }
+  ],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
