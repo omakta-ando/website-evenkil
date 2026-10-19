@@ -134,6 +134,26 @@ window.newsStories=[
     "link": "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки",
+    "desc": "Управление по делам коренных малочисленных народов Таймыра и вопросам сельского и промыслового хозяйства сообщило, что 14 оленеводов и 8 промысловиков до конца 2026 года будут обеспечены кочевым жильем в виде балка. The post Оленеводы и промысловики Таймыра получат новые балки appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53864"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-19",
+    "source": "RuNews24",
+    "title": "В Якутии подвели итоги северного завоза: основные проблемы связаны с финансированием и мелководьем - RuNews24",
+    "desc": "В Якутии подвели итоги северного завоза: основные проблемы связаны с финансированием и мелководьем RuNews24",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdm1qRHNxclAzY3RyR1pCbmRpUUhCdUt1OU9XZlNjTHU0SVY1c1l0YmdBSmpqOVJIYmRlbVZmVTNnbE9vT3pyWklwNU1zd3NBeUlycWZNMk9QZzBGVy1iUTk4akUzOWNIRzA2YmJQaEhncFlWelZhSWczdVp5WV9UNi1kbFZVZXR1TTBfNklRYXVNRmg3MnozdkFibExoVnFBZHB0dVlYMHZSR2hQeTZMcFZKajBoa2d6N1hrekhHdHloaHoxTVlQRkxZT3ZUQy10cWNyV3hrVQ?oc=5"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-18",
     "source": "Илкэн · Улгур",
@@ -244,16 +264,6 @@ window.newsStories=[
     "tags": "Тянский эвенкийский наслег культурное наследие Сэвэк-Мо Иван Кульбертинов",
     "relevance": "direct",
     "link": "https://sakhaday.ru/news/uchenye-zadokumentiruyut-nasledie-legendarnogo-evenkiyskogo-snaypera-v-olekminskom-rayone"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
-    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53787"
   },
   {
     "region": "Красноярский край",
@@ -962,6 +972,16 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWEZOc1pseU9PWmdMRmJnRnltUGthTGIyUTFaWFlXNU0yLTNPTEFDOXZqT3VUcEdTSngtYmtxMk0xdl9VNkdKQUJGR3RDZTVWRzhSTldsc29KVzdrUVlrc1VpYzlyc2lSXy1MUHdMQ1VFaTdNTUtxV004UnRMMXE0eF9zejVWU0J3ZGg4?oc=5"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
+    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53787"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-17",
     "source": "Илкэн · Улгур",
@@ -1031,16 +1051,6 @@ window.newsStories=[
     "tags": "региональный контекст север традиционные промыслы",
     "relevance": "context",
     "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-14",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
-    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53775"
   },
   {
     "region": "Якутия",
@@ -1300,14 +1310,13 @@ window.newsStories=[
   },
   {
     "region": "Зарубежные источники",
-    "date": "2026-10-15",
-    "source": "中国新闻网",
-    "title": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 - 中国新闻网",
-    "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
+    "date": "2026-10-19",
+    "source": "新浪财经",
+    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 新浪财经",
+    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 新浪财经",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
-    "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5"
   },
   {
     "region": "Якутия",
@@ -1351,6 +1360,16 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-14",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
+    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53775"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-16",
     "source": "Илкэн · Улгур",
@@ -1380,16 +1399,6 @@ window.newsStories=[
     "tags": "эвенки культура коренные народы",
     "relevance": "direct",
     "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
-    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53765"
   },
   {
     "region": "Якутия",
@@ -1518,7 +1527,8 @@ window.newsStories=[
     "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5"
+    "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
+    "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
   },
   {
     "region": "Якутия",
@@ -1552,6 +1562,16 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
+    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53765"
+  },
+  {
     "region": "Новости на эвенкийском",
     "date": "2026-10-16",
     "source": "Илкэн · Улгур",
@@ -1569,16 +1589,6 @@ window.newsStories=[
     "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
-    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53738"
   },
   {
     "region": "Якутия",
@@ -1643,14 +1653,13 @@ window.newsStories=[
   },
   {
     "region": "Зарубежные источники",
-    "date": "2026-10-14",
-    "source": "新华网",
-    "title": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 - 新华网",
-    "desc": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 新华网",
-    "overviewRu": "В деревне Яньцаоши Орочонского автономного хошуна модернизируют сельскохозяйственную инфраструктуру: прокладывают водоотводные каналы и дороги для обработки и вывоза урожая. Проект охватывает 20 тысяч му сельхозземель; на момент публикации он был выполнен более чем на 97%. Статья рассказывает о сельском хозяйстве в Орочонском хошуне, а не об эвенках.",
-    "tags": "орочоны сельское хозяйство китай внутренняя монголия",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5"
+    "date": "2026-10-15",
+    "source": "中国新闻网",
+    "title": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 - 中国新闻网",
+    "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5"
   },
   {
     "region": "Якутия",
@@ -1675,6 +1684,16 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
+    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53738"
+  },
+  {
+    "region": "Якутия",
     "date": "2026-10-15",
     "source": "Илкэн · Улгур",
     "title": "Тобольский клуб: “Пути и дороги Сибири”",
@@ -1691,16 +1710,6 @@ window.newsStories=[
     "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
     "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
-    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53729"
   },
   {
     "region": "Якутия",
@@ -1736,6 +1745,17 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
+    "region": "Зарубежные источники",
+    "date": "2026-10-14",
+    "source": "新华网",
+    "title": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 - 新华网",
+    "desc": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 新华网",
+    "overviewRu": "В деревне Яньцаоши Орочонского автономного хошуна модернизируют сельскохозяйственную инфраструктуру: прокладывают водоотводные каналы и дороги для обработки и вывоза урожая. Проект охватывает 20 тысяч му сельхозземель; на момент публикации он был выполнен более чем на 97%. Статья рассказывает о сельском хозяйстве в Орочонском хошуне, а не об эвенках.",
+    "tags": "орочоны сельское хозяйство китай внутренняя монголия",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-13",
     "source": "yakutia-daily.ru",
@@ -1755,6 +1775,16 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/biraria/4266",
     "image": "https://cdn4.telesco.pe/file/cd2jx1wROpV3MO1EBxscWcxeJzsBU0AEDzNrTOQcWGWUJwBgK1hg7_NqVpSok4t_XYlUrEA0wtHJTf-JuWRfPhTiJH0L6pxzZuiIDLHVNDfAtQ8PO7BEbU9BE0Luc1zhew0sMgAnRAK3-DyimJKTPF7hYAzvhTJVLLstdoVtJzwEMKFJATO5vQbdCAeXEa59SaZcSNskq-m-RUWHsk1s7xxDwDeglYqvOKwGRIN2U14MoO5zP-UEToLKvfvHmLJn6bxZMh8c1B70Tv0jbgARwdQUQBI4QZmgT8T61ex063m01EqesmbZJG5-M4wGomUcJgCRsIJRiOIhP3XGtOgFGg.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
+    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53729"
   },
   {
     "region": "Якутия",
