@@ -131,3 +131,5 @@ body .quote-band.page-intro-quote:before{height:5px!important;background:linear-
  body .quote-band.page-intro-quote blockquote{font-size:17px!important;line-height:1.45!important}
  body .quote-band.page-intro-quote cite{grid-column:2!important;text-align:left!important;font-size:9px!important}
 }
+
+body .quote-band.page-intro-quote blockquote,body .quote-band.page-intro-quote .rotating-quote{display:block!important;grid-column:2!important;height:auto!important;max-height:none!important;overflow:visible!important;white-space:normal!important;text-overflow:clip!important;-webkit-line-clamp:unset!important;-webkit-box-orient:initial!important}
