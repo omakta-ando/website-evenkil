@@ -431,3 +431,6 @@ html[data-season="night"] body .quote-band.page-intro-quote:before{background:li
 html[data-season="night"] body .quote-band.page-intro-quote blockquote,
 html[data-season="night"] body .quote-band.page-intro-quote cite,
 html[data-season="night"] body .quote-band.page-intro-quote cite a{color:#19251f!important}
+
+
+html[data-season="night"] .stats .stat strong{color:#fff!important}
