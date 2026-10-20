@@ -1,16 +1,5 @@
 name: Telegram news collection
 on:
-  schedule:
-    - cron: "30 9 * * *"
-      timezone: "Asia/Tbilisi"
-    - cron: "40 12 * * *"
-      timezone: "Asia/Tbilisi"
-    - cron: "40 15 * * *"
-      timezone: "Asia/Tbilisi"
-    - cron: "40 18 * * *"
-      timezone: "Asia/Tbilisi"
-    - cron: "30 21 * * *"
-      timezone: "Asia/Tbilisi"
   workflow_dispatch:
     inputs:
       mode:
