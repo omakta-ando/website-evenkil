@@ -1,5 +1,7 @@
 name: Telegram news collection
 on:
+  schedule:
+    - cron: "0 5,11 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -80,7 +82,7 @@ jobs:
         if: always() && steps.checkout.outcome == 'success'
         run: |
           if git diff --quiet -- data/telegram-news-state.json; then
-            echo "No Telegram delivery state changes to save."
+            echo "No state changes to save."
             exit 0
           fi
           git config user.name "github-actions[bot]"
