@@ -15,9 +15,9 @@ html[data-season="night"] {
   --soft-line: #50645a;
   --surface-hover: #3c5549;
   --shadow-card: 0 10px 24px rgba(0, 0, 0, .2);
-  --tungus-snow: #41564c;
-  --tungus-taiga: #82977d;
-  --tungus-earth: #203c32;
+  --tungus-snow: #f8f7ef;
+  --tungus-taiga: #2f6b49;
+  --tungus-earth: #111512;
 }
 
 html[data-season="night"] body {
