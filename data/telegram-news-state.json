@@ -2068,6 +2068,52 @@
       "detectedRegion": "Якутия",
       "relevance": "direct",
       "siteEligible": "1"
+    },
+    {
+      "id": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
+      "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
+      "source": "Центр эвенкийской культуры «Арун»",
+      "url": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
+      "published": "2026-10-21T00:00+04:00",
+      "day": "2026-10-21",
+      "description": "",
+      "arunNews": "1",
+      "configuredSource": "1",
+      "region": "Общие новости",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
+      "title": "Хранители тундры. Как семья Ачикасовых из Булунского района сохранила традиции оленеводства и память о предках",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
+      "published": "2026-10-20T00:00+04:00",
+      "day": "2026-10-20",
+      "description": "Семья играет для людей важную роль. Самой природой заложены в человеке зависимость, необходимость, трепетное отношение",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "context",
+      "detectedRegion": "Якутия",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
+      "title": "Жиганцы отметили праздник «Синилгэн»",
+      "source": "Илкэн · Улгур",
+      "url": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
+      "published": "2026-10-20T00:00+04:00",
+      "day": "2026-10-20",
+      "description": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
+      "needsFullText": "0",
+      "ilkenEvenki": "0",
+      "configuredSource": "1",
+      "detectedRelevance": "direct",
+      "detectedRegion": "Якутия",
+      "relevance": "direct",
+      "siteEligible": "1"
     }
   ],
   "deliveredUrls": {
