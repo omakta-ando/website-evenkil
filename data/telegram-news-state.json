@@ -2130,6 +2130,35 @@
       "detectedRegion": "Якутия",
       "relevance": "direct",
       "siteEligible": "1"
+    },
+    {
+      "id": "CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ",
+      "title": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе - Люди Байкала",
+      "source": "Люди Байкала",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ?oc=5",
+      "published": "2026-10-21T19:47+04:00",
+      "day": "2026-10-21",
+      "description": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе Люди Байкала",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://t.me/evenkya_life/12879",
+      "title": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного це",
+      "source": "Эвенкийская жизнь · Telegram",
+      "url": "https://t.me/evenkya_life/12879",
+      "published": "2026-10-21T13:59+04:00",
+      "day": "2026-10-21",
+      "description": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного центра и отдаленных поселений – Ессея, Чиринды, Эконды и Кислокана. Продукты по сниженным ценам поступят в торговые точки индивидуального предпринимателя Солеха Пирова. По данным администрации Эвенкии, все социальные и учреждения имеют необхо",
+      "socialPlatform": "Telegram",
+      "detectedRelevance": "context",
+      "configuredSource": "1",
+      "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg",
+      "relevance": "context",
+      "siteEligible": "1"
     }
   ],
   "deliveredUrls": {
