@@ -266,7 +266,12 @@
     "https://ilken.ru/2026/10/21/olenevody-vyshli-na-zimnie-pastbishha-vperedi-koralizacziya-i-zaboj-2/": "2026-10-21T13:54+04:00",
     "CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU": "2026-10-21T13:54+04:00",
     "https://ilken.ru/2026/10/20/olyokminskie-gorizonty-kak-lokalnye-idei-mogut-izmenit-zhizn-v-yakutskoj-glubinke/": "2026-10-21T13:54+04:00",
-    "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady/": "2026-10-21T13:54+04:00"
+    "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady/": "2026-10-21T13:54+04:00",
+    "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html": "2026-10-21T19:55+04:00",
+    "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/": "2026-10-21T19:55+04:00",
+    "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/": "2026-10-21T19:55+04:00",
+    "CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ": "2026-10-21T19:55+04:00",
+    "https://t.me/evenkya_life/12879": "2026-10-21T19:55+04:00"
   },
   "daily": {
     "2026-10-14": [
@@ -1873,6 +1878,38 @@
         "detectedRegion": "Якутия",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
+        "title": "Хранители тундры. Как семья Ачикасовых из Булунского района сохранила традиции оленеводства и память о предках",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
+        "published": "2026-10-20T00:00+04:00",
+        "day": "2026-10-20",
+        "description": "Семья играет для людей важную роль. Самой природой заложены в человеке зависимость, необходимость, трепетное отношение",
+        "needsFullText": "0",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "detectedRelevance": "context",
+        "detectedRegion": "Якутия",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
+        "title": "Жиганцы отметили праздник «Синилгэн»",
+        "source": "Илкэн · Улгур",
+        "url": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
+        "published": "2026-10-20T00:00+04:00",
+        "day": "2026-10-20",
+        "description": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
+        "needsFullText": "0",
+        "ilkenEvenki": "0",
+        "configuredSource": "1",
+        "detectedRelevance": "direct",
+        "detectedRegion": "Якутия",
+        "relevance": "direct",
+        "siteEligible": "1"
       }
     ],
     "2026-10-21": [
@@ -2081,86 +2118,53 @@
         "detectedRegion": "Якутия",
         "relevance": "direct",
         "siteEligible": "1"
+      },
+      {
+        "id": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
+        "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
+        "source": "Центр эвенкийской культуры «Арун»",
+        "url": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
+        "published": "2026-10-21T00:00+04:00",
+        "day": "2026-10-21",
+        "description": "",
+        "arunNews": "1",
+        "configuredSource": "1",
+        "region": "Общие новости",
+        "relevance": "direct",
+        "siteEligible": "1"
+      },
+      {
+        "id": "CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ",
+        "title": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе - Люди Байкала",
+        "source": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ?oc=5",
+        "published": "2026-10-21T19:47+04:00",
+        "day": "2026-10-21",
+        "description": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе Люди Байкала",
+        "ilkenEvenki": "0",
+        "configuredSource": "0",
+        "needsFullText": "0",
+        "relevance": "context",
+        "siteEligible": "1"
+      },
+      {
+        "id": "https://t.me/evenkya_life/12879",
+        "title": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного це",
+        "source": "Эвенкийская жизнь · Telegram",
+        "url": "https://t.me/evenkya_life/12879",
+        "published": "2026-10-21T13:59+04:00",
+        "day": "2026-10-21",
+        "description": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного центра и отдаленных поселений – Ессея, Чиринды, Эконды и Кислокана. Продукты по сниженным ценам поступят в торговые точки индивидуального предпринимателя Солеха Пирова. По данным администрации Эвенкии, все социальные и учреждения имеют необхо",
+        "socialPlatform": "Telegram",
+        "detectedRelevance": "context",
+        "configuredSource": "1",
+        "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg",
+        "relevance": "context",
+        "siteEligible": "1"
       }
     ]
   },
-  "pendingTelegram": [
-    {
-      "id": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
-      "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
-      "source": "Центр эвенкийской культуры «Арун»",
-      "url": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html",
-      "published": "2026-10-21T00:00+04:00",
-      "day": "2026-10-21",
-      "description": "",
-      "arunNews": "1",
-      "configuredSource": "1",
-      "region": "Общие новости",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
-      "title": "Хранители тундры. Как семья Ачикасовых из Булунского района сохранила традиции оленеводства и память о предках",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/",
-      "published": "2026-10-20T00:00+04:00",
-      "day": "2026-10-20",
-      "description": "Семья играет для людей важную роль. Самой природой заложены в человеке зависимость, необходимость, трепетное отношение",
-      "needsFullText": "0",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "detectedRelevance": "context",
-      "detectedRegion": "Якутия",
-      "relevance": "context",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
-      "title": "Жиганцы отметили праздник «Синилгэн»",
-      "source": "Илкэн · Улгур",
-      "url": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/",
-      "published": "2026-10-20T00:00+04:00",
-      "day": "2026-10-20",
-      "description": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
-      "needsFullText": "0",
-      "ilkenEvenki": "0",
-      "configuredSource": "1",
-      "detectedRelevance": "direct",
-      "detectedRegion": "Якутия",
-      "relevance": "direct",
-      "siteEligible": "1"
-    },
-    {
-      "id": "CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ",
-      "title": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе - Люди Байкала",
-      "source": "Люди Байкала",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ?oc=5",
-      "published": "2026-10-21T19:47+04:00",
-      "day": "2026-10-21",
-      "description": "Власти Якутии нашли виноватого в срыве северного завоза — сломанную технику на одном разрезе Люди Байкала",
-      "ilkenEvenki": "0",
-      "configuredSource": "0",
-      "needsFullText": "0",
-      "relevance": "context",
-      "siteEligible": "1"
-    },
-    {
-      "id": "https://t.me/evenkya_life/12879",
-      "title": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного це",
-      "source": "Эвенкийская жизнь · Telegram",
-      "url": "https://t.me/evenkya_life/12879",
-      "published": "2026-10-21T13:59+04:00",
-      "day": "2026-10-21",
-      "description": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного центра и отдаленных поселений – Ессея, Чиринды, Эконды и Кислокана. Продукты по сниженным ценам поступят в торговые точки индивидуального предпринимателя Солеха Пирова. По данным администрации Эвенкии, все социальные и учреждения имеют необхо",
-      "socialPlatform": "Telegram",
-      "detectedRelevance": "context",
-      "configuredSource": "1",
-      "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg",
-      "relevance": "context",
-      "siteEligible": "1"
-    }
-  ],
+  "pendingTelegram": [],
   "deliveredUrls": {
     "https://ilken.ru/evenki/2026/09/25/osennij-ulov-i-dushevnoe-teplo-kak-v-hajyre-proshel-rybolovnyj-festival": "2026-10-01T18:52+04:00",
     "https://ilken.ru/evenki/2026/09/16/yakutyane-povalno-edyat-sahar-beluyu-muku-i-pyut-gazirovku": "2026-10-01T18:52+04:00",
@@ -2425,6 +2429,11 @@
     "https://ilken.ru/2026/10/21/olenevody-vyshli-na-zimnie-pastbishha-vperedi-koralizacziya-i-zaboj-2": "2026-10-21T13:54+04:00",
     "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5": "2026-10-21T13:54+04:00",
     "https://ilken.ru/2026/10/20/olyokminskie-gorizonty-kak-lokalnye-idei-mogut-izmenit-zhizn-v-yakutskoj-glubinke": "2026-10-21T13:54+04:00",
-    "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady": "2026-10-21T13:54+04:00"
+    "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady": "2026-10-21T13:54+04:00",
+    "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html": "2026-10-21T19:55+04:00",
+    "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah": "2026-10-21T19:55+04:00",
+    "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen": "2026-10-21T19:55+04:00",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ?oc=5": "2026-10-21T19:55+04:00",
+    "https://t.me/evenkya_life/12879": "2026-10-21T19:55+04:00"
   }
 }
