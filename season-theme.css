@@ -470,3 +470,21 @@ html[data-season="night"] .news-card:focus-visible h2,
 html[data-season="night"] .news-card:focus-visible h3 {
   color: #e5c58c !important;
 }
+
+/* Keep the statistic divider visible when a dark-theme cell is highlighted. */
+html[data-season="night"] .stats .stat:hover:not(:last-child),
+html[data-season="night"] .stats .stat:focus-visible:not(:last-child) {
+  border-right-color: #e5c58c !important;
+}
+@media (max-width: 1000px) {
+  html[data-season="night"] .stats .stat:nth-child(3n):hover:not(:last-child),
+  html[data-season="night"] .stats .stat:nth-child(3n):focus-visible:not(:last-child) {
+    border-right-color: transparent !important;
+  }
+}
+@media (max-width: 600px) {
+  html[data-season="night"] .stats .stat:nth-child(2n):hover:not(:last-child),
+  html[data-season="night"] .stats .stat:nth-child(2n):focus-visible:not(:last-child) {
+    border-right-color: transparent !important;
+  }
+}
