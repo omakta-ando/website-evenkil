@@ -3,15 +3,6 @@ on:
   schedule:
     - cron: "0 5,11 * * *"
   workflow_dispatch:
-    inputs:
-      mode:
-        description: "collect = publish new stories to the site; digest = today's roundup"
-        required: true
-        type: choice
-        options:
-          - collect
-          - digest
-        default: collect
 permissions:
   contents: write
 concurrency:
@@ -25,21 +16,12 @@ jobs:
       - name: Check out default branch
         id: checkout
         uses: actions/checkout@v4
-      - name: Select run mode
-        id: mode
-        shell: bash
-        run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          else
-            echo "value=collect" >> "$GITHUB_OUTPUT"
-          fi
       - name: Run collector regression tests
         run: python3 -m unittest discover -s tests -v
       - name: Search and update the website feed
         env:
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
-        run: python3 scripts/telegram_news.py --mode "${{ steps.mode.outputs.value }}"
+        run: python3 scripts/telegram_news.py --mode collect
       - name: Upload source diagnostics
         if: always()
         uses: actions/upload-artifact@v4
@@ -57,5 +39,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/telegram-news-state.json news-data.js
-          git commit -m "Update news feed and Telegram collection state"
+          git commit -m "Update website news feed and collection state"
           git push
