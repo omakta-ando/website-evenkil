@@ -456,3 +456,17 @@ html[data-season="night"] .resource-card:hover h3,
 html[data-season="night"] .resource-card:focus-visible h3 {
   color: #e5c58c !important;
 }
+
+
+/* Gold hover accents for news cards in polar night. */
+html[data-season="night"] .news-card:hover,
+html[data-season="night"] .news-card:focus-visible {
+  border-color: #e5c58c !important;
+  box-shadow: inset 0 0 0 1px #e5c58c, 0 10px 24px rgba(0, 0, 0, .22) !important;
+}
+html[data-season="night"] .news-card:hover h2,
+html[data-season="night"] .news-card:hover h3,
+html[data-season="night"] .news-card:focus-visible h2,
+html[data-season="night"] .news-card:focus-visible h3 {
+  color: #e5c58c !important;
+}
