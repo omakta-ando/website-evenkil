@@ -292,7 +292,8 @@ window.newsStories=[
     "desc": "新时代的使鹿鄂温克人 ThePaper.cn",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JT2s3Y0Vwby04Y1VWekJOVEozRUlRSEU5WUVxY1V6RzRXTTJtZTJPb3VQbF80U0d5S29KRTNjNDl4UHc2a0RXanRITmhDbGtNTWk5THF6YVI5OHQ4NVc5aQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JT2s3Y0Vwby04Y1VWekJOVEozRUlRSEU5WUVxY1V6RzRXTTJtZTJPb3VQbF80U0d5S29KRTNjNDl4UHc2a0RXanRITmhDbGtNTWk5THF6YVI5OHQ4NVc5aQ?oc=5",
+    "overviewRu": "Материал рассказывает о современных эвенках-оленеводах из Аолугуи: как меняется их жизнь между тайгой и поселением, а оленеводство и традиции остаются важной частью жизни общины. Фотопроект Ван Вэя показывает представителей разных поколений и перемены, произошедшие за последние десятилетия."
   },
   {
     "region": "Якутия",
@@ -495,7 +496,8 @@ window.newsStories=[
     "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 QQ News",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wTnA2TWtILUxuZ0xFMmd3QmRwV2p1QmQ5NmxXaGJnSFVLUFB0UDFjT1l6MFRJV3QyMWxaZnpQQXFHemkxaGh2UmROc1dzWV9pdjFsTmNn?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wTnA2TWtILUxuZ0xFMmd3QmRwV2p1QmQ5NmxXaGJnSFVLUFB0UDFjT1l6MFRJV3QyMWxaZnpQQXFHemkxaGh2UmROc1dzWV9pdjFsTmNn?oc=5",
+    "overviewRu": "В Рейкьявике на полях форума Arctic Circle прошла встреча об изменении климата и жизни сообщества эвенков-оленеводов. Жители Аолугуи рассказали о сезонном выпасе оленей и традиционных знаниях о тайге; участники обсудили, как этот опыт помогает сохранять культуру и может учитываться в диалоге об устойчивом развитии Арктики."
   },
   {
     "region": "Якутия",
@@ -1202,7 +1204,8 @@ window.newsStories=[
     "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 搜狐",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZk1SM2lMSFUyT1JJSEZ2bTdqRWVWNUgyRTA1Ty05Q1lsZUxteTBidTQ0azMwWTR1TTU3OWlkYVh0WjNCSk8yRjlKT2JmQ0c0aFQzNFdyRElNVjVXa3RoSXJPQVpTZWs1OVFQTEdRQVgtZWNjUHJ0Ukw3MlZZMjl4ZWdDSHdITHph?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZk1SM2lMSFUyT1JJSEZ2bTdqRWVWNUgyRTA1Ty05Q1lsZUxteTBidTQ0azMwWTR1TTU3OWlkYVh0WjNCSk8yRjlKT2JmQ0c0aFQzNFdyRElNVjVXa3RoSXJPQVpTZWs1OVFQTEdRQVgtZWNjUHJ0Ukw3MlZZMjl4ZWdDSHdITHph?oc=5",
+    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
   },
   {
     "region": "Якутия",
@@ -1611,7 +1614,8 @@ window.newsStories=[
     "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 新浪财经",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5",
+    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
   },
   {
     "region": "Якутия",
@@ -1984,7 +1988,8 @@ window.newsStories=[
     "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 金融界",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5",
+    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
   },
   {
     "region": "Якутия",
@@ -2189,7 +2194,8 @@ window.newsStories=[
     "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5",
+    "overviewRu": "В Рейкьявике на полях форума Arctic Circle прошла встреча об изменении климата и жизни сообщества эвенков-оленеводов. Жители Аолугуи рассказали о сезонном выпасе оленей и традиционных знаниях о тайге; участники обсудили, как этот опыт помогает сохранять культуру и может учитываться в диалоге об устойчивом развитии Арктики."
   },
   {
     "region": "Общие новости",
