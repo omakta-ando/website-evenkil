@@ -2,6 +2,7 @@
   const target=document.getElementById('siteQuoteText');
   if(!target)return;
   const sourceNode=document.getElementById('siteQuoteSource');
+  const band=target.closest('.quote-band')||target;
   const defaults=window.TAEZHNAYA_QUOTES||[];
   const savedKey='taezhnaya-nit-quotes-v3';
   const lastKey='taezhnaya-nit-shared-last-quote-v1';
@@ -12,11 +13,11 @@
   let pendingUpdate=null;
   let rotationTimer=null;
   try{const previous=Number(localStorage.getItem(lastKey));if(Number.isInteger(previous)&&previous>=0&&previous<quotes.length)index=previous}catch(e){}
-  target.tabIndex=0;
-  target.setAttribute('aria-label','Цитата. Нажмите, чтобы показать следующую.');
-  target.style.cursor='pointer';
-  target.addEventListener('focus',()=>{target.style.outline='2px solid var(--gold,#d8b276)';target.style.outlineOffset='5px'});
-  target.addEventListener('blur',()=>{target.style.outline='';target.style.outlineOffset=''});
+  band.tabIndex=0;
+  band.setAttribute('aria-label','Цитата. Нажмите, чтобы показать следующую.');
+  band.style.cursor='pointer';
+  band.addEventListener('focus',()=>{band.style.outline='2px solid var(--gold,#d8b276)';band.style.outlineOffset='5px'});
+  band.addEventListener('blur',()=>{band.style.outline='';band.style.outlineOffset=''});
   const show=(animate=false)=>{
     if(pendingUpdate){window.clearTimeout(pendingUpdate);pendingUpdate=null}
     if(animate)target.classList.add('is-changing');
@@ -41,9 +42,12 @@
     rotationTimer=window.setInterval(()=>{if(!document.hidden&&quotes.length>1)show(true)},12000);
   };
   const nextQuote=()=>{if(quotes.length>1)show(true);scheduleRotation()};
-  target.addEventListener('click',nextQuote);
-  target.addEventListener('keydown',event=>{
-    if(event.key==='Enter'||event.key===' '){event.preventDefault();nextQuote()}
+  band.addEventListener('click',event=>{
+    if(event.target.closest('a'))return;
+    nextQuote();
+  });
+  band.addEventListener('keydown',event=>{
+    if(event.target===band&&(event.key==='Enter'||event.key===' ')){event.preventDefault();nextQuote()}
   });
   show(false);
   scheduleRotation();
