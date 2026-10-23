@@ -861,17 +861,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWV1OWJXQXJrYS1EbVpONzdsVnJlVFp1NkRzU3RQMTZGdUg2QzJMb2FaM2RQT2tSX29JWmYzN0ZLSDhyMmJTRGQ4dUhJc2o3Qm4zWkVnU1dkSG5RWll1d0dlMjBWWnRhcjJ5b1c0THRyVGVLSEttQ0UxM0Vrb19BZFBNekQ?oc=5"
   },
   {
-    "region": "Зарубежные источники",
-    "date": "2026-10-05",
-    "source": "Indigenous Russia",
-    "title": "«Последняя четверть луны»: история эвенков, рассказанная у костра",
-    "desc": "Рецензия на роман Чи Цзицзянь «Последняя четверть луны» рассказывает об истории эвенкийской семьи и переменах, затронувших её жизнь в XX веке.",
-    "overviewRu": "Рецензия на роман Чи Цзицзянь «Последняя четверть луны» рассказывает об истории эвенкийской семьи и переменах, затронувших её жизнь в XX веке.",
-    "tags": "эвенки история культура литература Китай",
-    "link": "https://indigenous-russia.com/archives/50623",
-    "image": "https://indigenous-russia.com/wp-content/uploads/2026/10/signal-2026-10-03-22-20-27-200.jpg"
-  },
-  {
     "region": "Общие новости",
     "date": "2026-10-05",
     "source": "YouTube",
@@ -1547,16 +1536,6 @@ window.newsStories=[
     "link": "https://nts-tv.ru/events/osobennosti-kultury-evenkiyskogo-naroda-izuchayut-deti-v-spetsialnoy-shkole-v-erbogachene"
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-10-03",
-    "source": "Indigenous Russia",
-    "title": "В Забайкалье расширят обучение детей эвенкийскому языку",
-    "desc": "Учителей эвенкийского языка планируют подготовить в трёх районах края; детям в Чите хотят дать возможность изучать язык. В Каларском районе занятия пока не идут из-за отсутствия учителя и помещения. В Чите около 35 детей школьного возраста из эвенкийских семей, родители которых заинтересованы в обучении.",
-    "tags": "эвенки забайкальский край эвенкийский язык обучение дети чита",
-    "link": "https://indigenous-russia.com/archives/50618",
-    "image": ""
-  },
-  {
     "region": "Красноярский край",
     "date": "2026-09-07",
     "source": "НКК",
@@ -1865,15 +1844,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWVJNTnpYT2pZMV9Oc0RqQ1ZRUlVqUXhRWEs0VnpSRXlNemduTFlBTjhQdDVQeVR5cDZhTTZFSm5Ed2M2LXctWjRyc0ViUQ?oc=5"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-02",
-    "source": "Indigenous Russia",
-    "title": "Эвенкийские общины требуют почти 74 млн рублей за ущерб от нефтепровода",
-    "desc": "Общины «Мадра» и «Кунноир» требуют от «Транснефть — Восток» 73,84 млн рублей за ущерб традиционным угодьям от нефтепровода Куюмба — Тайшет. Суд также рассматривает методику расчёта ущерба.",
-    "tags": "эвенки эвенкия красноярский край общины мадра кунноир транснефть нефтепровод традиционное природопользование суд",
-    "link": "https://indigenous-russia.com/archives/50607"
   },
   {
     "region": "Красноярский край",
