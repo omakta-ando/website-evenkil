@@ -93,7 +93,6 @@ EDITORIAL_REGION_BY_URL = {
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa": "Якутия",
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns": "Якутия",
-    "https://indigenous-russia.com/archives/50623": "Зарубежные источники",
     "https://t.me/biraria/4225": "Еврейская автономная область",
 }
 REGION_PATTERNS = {
