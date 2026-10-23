@@ -20,7 +20,7 @@
 .quote-band cite a{color:inherit;text-decoration:underline;text-decoration-color:#9aa892;text-underline-offset:3px}
 .quote-band cite a:hover{color:#203c32}
 .quote-band blockquote.is-changing{opacity:0;transform:translateY(5px)}
-.quote-band:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,#f5f3e9 0 33.33%,#839176 33.33% 66.66%,#203c32 66.66% 100%);z-index:-1}
+.quote-band:before{content:"";position:absolute;top:0;left:0;right:0;height:10px;background:linear-gradient(90deg,#f5f3e9 0 33.33%,#839176 33.33% 66.66%,#203c32 66.66% 100%);z-index:-1}
 .map-sources-link{margin:14px 0 0;text-align:right;color:#788078;font-size:10px;letter-spacing:.02em}
 .map-sources-link a{color:#536b4f;text-decoration:underline;text-underline-offset:2px}
 .map-sources-link a:hover{color:#bc7654}
@@ -123,7 +123,7 @@ body .quote-band.page-intro-quote .quote-content{display:contents!important}
 body .quote-band.page-intro-quote .quote-mark{font:60px/.8 Georgia,serif!important;color:#839176!important}
 body .quote-band.page-intro-quote blockquote{max-width:760px!important;margin:0!important;color:#203c32!important;font:500 21px/1.45 'Literata',Georgia,serif!important;letter-spacing:-.035em!important}
 body .quote-band.page-intro-quote cite{align-self:center!important;margin:0!important;color:#707a6d!important;text-align:right!important;font-size:10px!important;line-height:1.6!important}
-body .quote-band.page-intro-quote:before{height:5px!important;background:linear-gradient(90deg,#f8f7ef 0 33.33%,#91a786 33.33% 66.66%,#242a26 66.66% 100%)!important}
+body .quote-band.page-intro-quote:before{height:10px!important;background:linear-gradient(90deg,#f8f7ef 0 33.33%,#91a786 33.33% 66.66%,#242a26 66.66% 100%)!important}
 @media(max-width:700px){
  body .quote-band.page-intro-quote,body .quote-band.page-intro-quote.history-page-quote-band{padding:30px 0!important}
  body .quote-band.page-intro-quote .wrap,body .quote-band.page-intro-quote.history-page-quote-band .wrap{padding-inline:20px!important;grid-template-columns:25px minmax(0,1fr)!important;grid-template-rows:auto auto!important;gap:14px!important}
