@@ -415,7 +415,7 @@ html[data-season="night"] .quote-band {
 /* Matching white-green-black separators on every page in polar night mode. */
 html[data-season="night"] .stats:after,
 html[data-season="night"] .quote-band:before {
-  height: 5px !important;
+  height: 10px !important;
   background: linear-gradient(90deg, #f8f7ef 0 33.33%, #2f6b49 33.33% 66.66%, #111512 66.66% 100%) !important;
 }
 
