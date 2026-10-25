@@ -354,6 +354,16 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkZmcVFlMXVnVkxKV25YN1JnNF9NUjdnYW52MktJaU1OUnZZdDZjeHNhZFF3Y1JjTDJiQjE0WW5ZNEJ1ZTRscU05Wms5NXhOTjRDcnV6cm9UaWpDclp2VzB0RURpejdCdXYwa19iVEJRSWZQbGloaGFLdDZxUTRzUEdFZ2dhZmhYN2xpLUUxQ0d1OFZwUlNDMVg4WHptQzNYTlN2RjdVaEFwcEM1Uy1WajFnTHh0X09yU0pSeTdjVXJYQzd1X0VDUGcxUQ?oc=5"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-10-21",
+    "source": "Правительство Республики Бурятия",
+    "title": "Стартует отбор на получение субсидии на поддержку оленеводства - Правительство Республики Бурятия",
+    "desc": "Стартует отбор на получение субсидии на поддержку оленеводства Правительство Республики Бурятия",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BbmFTMng5WUxWRGFpOE14ZGNuTnprV0FRTXU5RncwZFRIX0ltVGMwZC11THQ3cXRHUGNUWXNzd2NPdlNTRWVWNVdIbUdaS2FvQVB4WlhfczV0cXlMc0N5dTJ2NC01WnB1ODNGeU03ZkN1Rk1Od3R2T29QUXdJZw?oc=5"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-20",
     "source": "ЕАОMedia · Telegram",
