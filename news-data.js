@@ -74,16 +74,6 @@ window.newsStories=[
   {
     "region": "Якутия",
     "date": "2026-10-26",
-    "source": "Говорит НеМосква",
-    "title": "Срыв северного завоза в Якутии: винят федеральный бюджет - Говорит НеМосква",
-    "desc": "Срыв северного завоза в Якутии: винят федеральный бюджет Говорит НеМосква",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mZGpaZmFDYnV6UFlDMDRlVy0yOWhKbU5lQWZVUUZJMEN4XzJSaktVVUhYOG9NMjdZWFdLMjQ1Tnpwdy1kV3o5QTByMzNnVTlzZ0t1OEZaS3VtVU8yRURSdEx5UmVkLXNhSEFpWHNPTQ?oc=5"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-26",
     "source": "Информационное агентство SakhaTime",
     "title": "Правительство Якутии фактически возложило часть ответственности за срыв северного завоза на федеральный центр - Информационное агентство SakhaTime",
     "desc": "Правительство Якутии фактически возложило часть ответственности за срыв северного завоза на федеральный центр Информационное агентство SakhaTime",
@@ -1222,16 +1212,6 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/yk24ru/91611",
     "image": "https://cdn4.telesco.pe/file/g9wdpJl_988I4CtxUZok1tMftPcM28issCVmGRur28HmppJlAZoKssflDjfW_sYxfd0rMsABep-U-56g3uTGgeKkqogEm6WWMq4GmPiE5JwM2Rzeh18FiqK9MPynb14hQJEnvToeGNi_Vv0bNRTIc0ODpWwQFZ4PGHx8vEbm9PqICRJLw-znWZW-eZ85AJrb2-RW7lG-0UhtACAR2Z37hft80q35P68frQ6NDtCbwOphljUnnbx5lkwLGi0bmEEaFRdRj8ot_8z0Vz83dl5wtVbp911CTfeUWbRFfnjPacbg8CYccbj_tHhE39l8iFRweUCHAzJMDolB_M8nv-6Rgw.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-21",
-    "source": "Говорит НеМосква",
-    "title": "Власти Якутии объяснили срыв северного завоза поломками техники - Говорит НеМосква",
-    "desc": "Власти Якутии объяснили срыв северного завоза поломками техники Говорит НеМосква",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVMzRKMU4zUkVabm1WRGRMVlJZYm1SeERMOE5lUHFOMVZFa2dsaXlBQjk1alZ6bXpRZUtrS0N6V011TjkxZE15U3N4WE8wV3hWVkl1aTBTd3M0Vl9TeHdXNDFqbng1cGo0UDFqb19DUzFEVDN3SXVaVHIwaw?oc=5"
   },
   {
     "region": "Якутия",
