@@ -34,6 +34,11 @@ AUDIT_FILE = Path(__file__).resolve().parents[1] / "data" / "news-source-audit.j
 ROOT = Path(__file__).resolve().parents[1]
 QUERIES_FILE = ROOT / "news-search-queries.json"
 SOURCES_FILE = ROOT / "news-search-sources.json"
+
+# Excluded publishers are kept out of search candidates and any saved digest.
+_EXCLUDED_SOURCE_RULES = json.loads(SOURCES_FILE.read_text(encoding="utf-8")).get("excludedSources", [])
+EXCLUDED_SOURCE_DOMAINS = {str(rule.get("domain", "")).strip().lower() for rule in _EXCLUDED_SOURCE_RULES if rule.get("domain")}
+EXCLUDED_SOURCE_LABELS = {str(rule.get("label", "")).strip().casefold() for rule in _EXCLUDED_SOURCE_RULES if rule.get("label")}
 STATE_FILE = ROOT / "data" / "telegram-news-state.json"
 TZ = ZoneInfo("Asia/Tbilisi")
 RSS_URL = "https://news.google.com/rss/search"
@@ -227,8 +232,18 @@ def is_excluded_story(item: dict[str, object]) -> bool:
         and not CHINESE_RELEVANCE_CONTEXT_RE.search(text)
     )
     story_url = str(item.get("url") or item.get("link") or "").rstrip("/")
+    story_hosts = {
+        (urllib.parse.urlsplit(str(item.get(key) or "")).hostname or "").lower()
+        for key in ("url", "link", "sourceUrl")
+    }
+    story_source = " ".join(str(item.get(key) or "") for key in ("source", "sourceName", "publisher")).casefold()
+    excluded_publisher = (
+        any(label and label in story_source for label in EXCLUDED_SOURCE_LABELS)
+        or any(host == domain or host.endswith("." + domain) for host in story_hosts for domain in EXCLUDED_SOURCE_DOMAINS)
+    )
     return (
-        story_url in EXCLUDED_STORY_URLS
+        excluded_publisher
+        or story_url in EXCLUDED_STORY_URLS
         or "solongo-1-2" in story_url.casefold()
         or bool(EXCLUDED_TOPIC_RE.search(text))
         or (bool(MONGOLIAN_HOMONYM_RE.search(text)) and not EVENKI_MENTION_RE.search(text))
