@@ -402,5 +402,11 @@
         "url": "https://sakhaday.ru/"
       }
     }
-  }
+  },
+  "excludedSources": [
+    {
+      "label": "Говорит НеМосква",
+      "domain": "nemoskva.net"
+    }
+  ]
 }
