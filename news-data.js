@@ -73,6 +73,86 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0VURHc3YmVVaW5hUnRjc3dhSnNBbE1HMUZETEJ3bldFSVZrWlpPaGwtSU1XZDlCWlBXV2FFSTV3RVBCQjd0bDRzYVcxVUU4c3BYVjhKYWhkTFc1cXpWZ3RrWW1wcWhPZEhMSk9VN3lPbzFGZXlLb1J1ZWlQYkJfOG4wa1gtRWlxMHVKRTJJb0lZSEFscDFGcGNqSFEwdjFkVlFUckd1bG91TUE2X0ZTNUx3SQ?oc=5"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "Центр «Арун",
+    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова - Центр «Арун",
+    "desc": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова Центр «Арун",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmU1YWljMkh4cnYxeDdrWFNSaTBtZDJfNEJWTFNDUXF6MGtfQl85dzZma0VmdHJuQWpjOXYwRFpZSUUyWkNhRUlDZ19SWE5iRFZRaTdjSVVabUN5MV93ekhTRWg4VFpKMDNPWnMwbER4TFhrdXVZc2dUa01XQ2N1QWV6dGpFTWRwQ2t3cDkzN2VfeFJIVHBj?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-27",
+    "source": "7 канал Красноярск",
+    "title": "50 дней ожидания и тонны гнили — продукты для Эвенкии вернулись в Красноярск - 7 канал Красноярск",
+    "desc": "50 дней ожидания и тонны гнили — продукты для Эвенкии вернулись в Красноярск 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0tN1ZaYkJvNXBpVUhCMzg5TnFfMXZRRHJWVldEVW9jZjN5R0w4Q1VtdHAyV2JxQm1OSW55bXZGT19WWDFfWXVv?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-27",
+    "source": "yakutia-daily.ru",
+    "title": "Айсен Николаев доложил о завершении основного этапа топливного завоза",
+    "desc": "Населённые пункты Якутии полностью обеспечены необходимым объёмом топливно-энергетических ресурсов до открытия зимних автомобильных дорог. Об этом сообщил Глава республики Айсен Николаев в передаче «Якутия, вперёд!». На сегодняшний день доставлено 96% грузов, предусмотренных планом северного завоза. Глава региона подчеркнул, что топливно-энергетические ресурсы на период до открытия зимников завезены в полном",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/ajsen-nikolaev-dolozhil-o-zavershenii-osnovnogo-etapa-toplivnogo-zavoza"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове",
+    "desc": "В Бурятии снимут фильм «Глаз коршуна» о снайперах Великой Отечественной, которые были родом из Сибири. В их числе легендарный забайкальский эвенк Семён Данилович Номоконов. Один из самых результативных снайперов Великой Отечественной, он уничтожил 368 немецких солдат и офицеров, а также до 70 японских солдат в ходе Маньчжурской наступательной операции. The post В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке ",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54014"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-10-27",
+    "source": "моо «кмнсоюз",
+    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» - моо «кмнсоюз",
+    "desc": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13SGVrTmZka2hPeXhQdVhlRjJlbXhmY253VVhEQW9ZZHZLVWhsLXFGQjhnT0ZvSEJQQWY2Tl95X3ByNEt3TkZoSExJMA?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-27",
+    "source": "Таймырский телеграф",
+    "title": "Оленеводы и промысловики получат новые балки - Таймырский телеграф",
+    "desc": "Оленеводы и промысловики получат новые балки Таймырский телеграф",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1bnR2UG9WamJibGJuQjZJN2t6QWZJVFpGQ1J1OUlMeVVPZHp2dlVEelNxNV9zdWxRbW40OW1PdGg2bWRwcm1WUGZxV09rSXZGNk03QkY5dlMyZ09uaEpnLVFWZXpTSF9HcmtZOTJfMDJKZi1pM3VFcW9zVQ?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-27",
+    "source": "ethnoinfo.ru",
+    "title": "«Диалог культур»: в Якутии разворачивается масштабная программа ко Дню народного единства",
+    "desc": "В Якутии продолжается масштабная программа мероприятий, приуроченных ко Дню народного единства. События, стартовавшие в школах республики 20 октября, охватят всю республику и завершатся 2 ноября гала-концертом в Якутске. Организаторы подчёркивают: программа направлена на укрепление межнационального согласия, сохранение исторической памяти и вовлечение молодёжи в общественно значимую деятельность. От классных часов до",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ethnoinfo.ru/dialog-kultur-v-yakutii-razvorachivaetsya-masshtabnaya-programma-ko-dnyu-narodnogo-edinstva"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "Восток-Телеинформ",
+    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры - Восток-Телеинформ",
+    "desc": "В Улан-Удэ пройдет фестиваль эвенкийской культуры Восток-Телеинформ",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05T0xDT1c2b3UtVl9EMmN6RkRETlMwcVdySkotd3FQbS1iOEQyZ0taZFA5cmRmWjlmZVFaVjlza29COHNzMWNpYTV4aUlyZw?oc=5"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-26",
     "source": "Бирария · Telegram",
@@ -264,16 +344,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wYVBfaWVZODR3OFJiekpsZGVfSDFZTHRzQVRiWEctcXk5c2Y0NlR2Y1dfYVo3Q3BYeGpZX2ZqY1dzUTRtZWo0Y1BtVTF5VnM?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-22",
-    "source": "Центр «Арун",
-    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры - Центр «Арун",
-    "desc": "В первый день зимы вас ждёт фестиваль эвенкийской культуры Центр «Арун",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWEF4SUtmeHJlUXctbmNjdUxWZXhYUkFfSWVfTnBxeXRwSnJQSVgxUUZjR0NBVUlmX3I2b212WGtxTmxOM191S19fN0JmYUhxa1YtSnV5TVBhSTNHSXAtM3dnSXRCZzNFckp5MXZXcFluSmdwVDE3N3h5R3l3ZFJ6QXJYcXFOaUtzQ2VJWQ?oc=5"
-  },
-  {
     "region": "Томская область",
     "date": "2026-10-22",
     "source": "riatomsk.ru",
@@ -352,16 +422,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://14.ru/text/animals/2026/10/21/76709665"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-21",
-    "source": "7 канал Красноярск",
-    "title": "В Красноярском крае состоялось первое заседание нового совета депутатов Эвенкии - 7 канал Красноярск",
-    "desc": "В Красноярском крае состоялось первое заседание нового совета депутатов Эвенкии 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16NEdXaW5ibWpCelhwY19pWC1MbXZ6MHZjS1Z3dUhGZGVGWm9oWnNtY1U0bkVsdHcxc2hocENNWEpjRmJJZ0Jj?oc=5"
   },
   {
     "region": "Якутия",
@@ -560,16 +620,6 @@ window.newsStories=[
   {
     "region": "Общие новости",
     "date": "2026-10-19",
-    "source": "yakutia-daily.ru",
-    "title": "Строительство Ленского моста вступило в ключевую фазу — Yakutia-daily.ru",
-    "desc": "Группа «ВИС» сообщила о переходе строительства трёхпилонного вантового перехода через реку Лену в ключевую фазу. В русле реки уже установлены гигантские коффердамы, позволяющие вести работы в сухой зоне. То, что сейчас разворачивается в русле реки Лены, специалисты называют ключевой фазой исторической стройки. Уже установлены в проектные положения на дно два коффердама, что позволило приступить к",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/stroitelstvo-lenskogo-mosta-vstupilo-v-klyuchevuyu-fazu"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-19",
     "source": "Российское информационное агентство \"Победа РФ\"",
     "title": "Проект Музея Победы расскажет о боевом пути отважного эвенка - Российское информационное агентство \"Победа РФ\"",
     "desc": "Проект Музея Победы расскажет о боевом пути отважного эвенка Российское информационное агентство \"Победа РФ\"",
@@ -596,26 +646,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://ysia.ru/v-yakutii-proveli-rok-lektsiyu-ko-dnyu-gosudarstvennogo-flaga-respubliki"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-19",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы и промысловики Таймыра получат новые балки",
-    "desc": "Управление по делам коренных малочисленных народов Таймыра и вопросам сельского и промыслового хозяйства сообщило, что 14 оленеводов и 8 промысловиков до конца 2026 года будут обеспечены кочевым жильем в виде балка. The post Оленеводы и промысловики Таймыра получат новые балки appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53864"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-19",
-    "source": "моо «кмнсоюз",
-    "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
-    "desc": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
   },
   {
     "region": "Амурская область",
@@ -1061,15 +1091,6 @@ window.newsStories=[
     "link": "https://fadn.gov.ru/press-centr/news/v-amurskoj-oblasti-proshla-mezhdunarodnaya-olimpiada-turen-2026"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-09-11",
-    "source": "Таймырский телеграф",
-    "title": "На Таймыре отметили День языков народов России",
-    "desc": "В праздничной программе звучали стихи на языках коренных народов, в том числе на эвенкийском; открылась выставка книг и словарей.",
-    "tags": "таймыр эвенкийский язык культура",
-    "link": "https://www.ttelegraf.ru/news/na-tajmyre-otmetili-den-yazykov-narodov-rossii/"
-  },
-  {
     "region": "Бурятия",
     "date": "2026-09-10",
     "source": "АТВ",
@@ -1215,6 +1236,65 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzdmEzZmUydVlKbmNma29Sa3RSdnZVNFUzVF8xMk5UU2h1R0dpZ1FITFhBYkxyNTdYdmZ2NW16aTVMVmFfREpvazlPVHY0Zw?oc=5"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-22",
+    "source": "Центр «Арун",
+    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры - Центр «Арун",
+    "desc": "В первый день зимы вас ждёт фестиваль эвенкийской культуры Центр «Арун",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWEF4SUtmeHJlUXctbmNjdUxWZXhYUkFfSWVfTnBxeXRwSnJQSVgxUUZjR0NBVUlmX3I2b212WGtxTmxOM191S19fN0JmYUhxa1YtSnV5TVBhSTNHSXAtM3dnSXRCZzNFckp5MXZXcFluSmdwVDE3N3h5R3l3ZFJ6QXJYcXFOaUtzQ2VJWQ?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-21",
+    "source": "7 канал Красноярск",
+    "title": "В Красноярском крае состоялось первое заседание нового совета депутатов Эвенкии - 7 канал Красноярск",
+    "desc": "В Красноярском крае состоялось первое заседание нового совета депутатов Эвенкии 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16NEdXaW5ibWpCelhwY19pWC1MbXZ6MHZjS1Z3dUhGZGVGWm9oWnNtY1U0bkVsdHcxc2hocENNWEpjRmJJZ0Jj?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-27",
+    "source": "yakutia-daily.ru",
+    "title": "В Якутии открыли круглогодичный путь в село Тополиное — Yakutia-daily.ru",
+    "desc": "В Томпонском улусе Якутии введён в эксплуатацию круглогодичный проезд до отдалённого села Тополиное. Об этом сообщил Глава республики Айсен Николаев в эфире передачи «Якутия, вперёд!». Историческое событие стало возможным благодаря вводу сегодня двух новых мостов на дороге «Яна». Всего за последний год на этой трассе возвели пять мостов. На два последних объекта по нацпроекту «Инфраструктура для",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/v-yakutii-otkryli-kruglogodichnyj-put-v-selo-topolinoe"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-10-27",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ»",
+    "desc": "Международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» объединит представителей эвенкийского народа из России, Китая и Монголии и станет площадкой для сохранения родного языка, традиций и укрепления межкультурного диалога. The post Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/53990"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "моо «кмнсоюз",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
+    "desc": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-09-11",
+    "source": "Таймырский телеграф",
+    "title": "На Таймыре отметили День языков народов России",
+    "desc": "В праздничной программе звучали стихи на языках коренных народов, в том числе на эвенкийском; открылась выставка книг и словарей.",
+    "tags": "таймыр эвенкийский язык культура",
+    "link": "https://www.ttelegraf.ru/news/na-tajmyre-otmetili-den-yazykov-narodov-rossii/"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-26",
     "source": "Бирария · Telegram",
@@ -1306,6 +1386,16 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeEdxM0kxRnNRZGp6cmhyc2VTV3hpSVVfTW5SSjVJdTRDdjZWZk9UZEVvWW1jdm1HcERzQ0dfaGxWNG81RnNRZ0lnVEFJaFBLYVpLVHRjOHJ2clAtbkJfTjVSZ19kTkZDWkJFZjdNVmxTSGNHYUpraWNJV0ZjVVRvbVdNTTh3Zw?oc=5"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-24",
+    "source": "Yakutia24.ru",
+    "title": "Ассоциация эвенков Якутии приглашает на праздник первого снега «Сиӈилгэн» - Yakutia24.ru",
+    "desc": "Ассоциация эвенков Якутии приглашает на праздник первого снега «Сиӈилгэн» Yakutia24.ru",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXl3dzZlZjVwRUt2U0h1UjdMVHpWT3Vad3pKamNyZUFBUXhUZjNhQ3Jzc2wtdWFjeEZ4UXpmTFpRcEJCUWM5UXBaTXg5aklmdjR1d20ydXh1VmxpbWdTY0t0dEVhNmhrUGhKOF90bnpwbWdCR21IQ1dfLXhZY2VRRldHLWg3UDY4WFVtaHdNM25PUVh6eHFINmFpMnFBalYwbHZ4M1hoMmFCUkFmRkk4?oc=5"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-21",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -1336,16 +1426,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd2g4a1R6ZlBLY2Vnb0RsRkJNUHAwUnY1emotZmc0LTNINjQxczZKeTU0dnFZMnFBNTI3ck9RcnBCazl1THFtYmEtRlFXM0F0VnRZTXpiVGdROS1NNEI2QnV0SUZzTUdZR2JEbEtEWjBtSXFPdHRSTWpsMzdFb0UyYU9kdjlBSFlWSXYzM1l0UXJvQU1BSWRHemRoN091T1EtTW5jdU0yeFpUVE13RFZlMzR4M3IzbnZaYngtRC01Z25mSDlmenJN?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-16",
-    "source": "Центр «Арун",
-    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове - Центр «Арун",
-    "desc": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове Центр «Арун",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm9HSWdkUzdndnlaUXVvYkdQZFlsY2FUTTBZSC1IM0c1ZFJBNjEwSFRnNHRLT1VFXzFOeGs1RUphSlZjTkJwTDZDUlRzMWtZVzJSb0ZXUV9qM2lDV3dveGFOWFlpYVFlTXlqNEdYU0ZyVkFYZ1hROHFJUWVzT0lnWkFKRzZ2dGJhVEN3?oc=5"
-  },
-  {
     "region": "Томская область",
     "date": "2026-10-14",
     "source": "riatomsk.ru",
@@ -1374,16 +1454,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://14.ru/text/animals/2026/10/20/76708265"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-20",
-    "source": "7 канал Красноярск",
-    "title": "Еда на вес золота — в Эвенкии новая поставка продуктов снова не спасла ситуацию - 7 канал Красноярск",
-    "desc": "Еда на вес золота — в Эвенкии новая поставка продуктов снова не спасла ситуацию 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82OFBOTWk3Z2VVMFFUUl9YZ0lxTmljYUFzdGExbk9WaE40RjB4aTR0NzNJV0o2Vnd4SVNGYlBrY1U0alphNVVR?oc=5"
   },
   {
     "region": "Еврейская автономная область",
@@ -1445,36 +1515,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZk1SM2lMSFUyT1JJSEZ2bTdqRWVWNUgyRTA1Ty05Q1lsZUxteTBidTQ0azMwWTR1TTU3OWlkYVh0WjNCSk8yRjlKT2JmQ0c0aFQzNFdyRElNVjVXa3RoSXJPQVpTZWs1OVFQTEdRQVgtZWNjUHJ0Ukw3MlZZMjl4ZWdDSHdITHph?oc=5",
     "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "Yakutia-Daily.ru",
-    "title": "Северный завоз в Якутии выполнен на 94,9% от плана - Yakutia-Daily.ru",
-    "desc": "Северный завоз в Якутии выполнен на 94,9% от плана Yakutia-Daily.ru",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORnNTaTYxQWltT3FEQlNFMDAydFRGelp5QjZmcmlBekRIaExYYlZ3NURtM1pEdGNnSHh4SUoySlA0Z0xWNU9WTXhxR1FsOG5SSjFTVnJsNjZaUG51Y0RfdDJydVcxeU1YQ1cwSzZPTGtVTENkMVhXVlRJLTJpd2xEMNIBhgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QQ?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
-    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53787"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "моо «кмнсоюз",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
-    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
   },
   {
     "region": "Амурская область",
@@ -1685,6 +1725,56 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1SYlJVMUpDS2lDRUZFdXJUcWhWd0NaZEY1RHlXc1RHZktELTVSSTdkUTYtcHZsVHdaLVNiLXFWVmUwOXpxMU1HbGR1UFQ1dw?oc=5"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-10-16",
+    "source": "Центр «Арун",
+    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове - Центр «Арун",
+    "desc": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове Центр «Арун",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm9HSWdkUzdndnlaUXVvYkdQZFlsY2FUTTBZSC1IM0c1ZFJBNjEwSFRnNHRLT1VFXzFOeGs1RUphSlZjTkJwTDZDUlRzMWtZVzJSb0ZXUV9qM2lDV3dveGFOWFlpYVFlTXlqNEdYU0ZyVkFYZ1hROHFJUWVzT0lnWkFKRzZ2dGJhVEN3?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-20",
+    "source": "7 канал Красноярск",
+    "title": "Еда на вес золота — в Эвенкии новая поставка продуктов снова не спасла ситуацию - 7 канал Красноярск",
+    "desc": "Еда на вес золота — в Эвенкии новая поставка продуктов снова не спасла ситуацию 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82OFBOTWk3Z2VVMFFUUl9YZ0lxTmljYUFzdGExbk9WaE40RjB4aTR0NzNJV0o2Vnd4SVNGYlBrY1U0alphNVVR?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "yakutia-daily.ru",
+    "title": "Строительство Ленского моста вступило в ключевую фазу — Yakutia-daily.ru",
+    "desc": "Группа «ВИС» сообщила о переходе строительства трёхпилонного вантового перехода через реку Лену в ключевую фазу. В русле реки уже установлены гигантские коффердамы, позволяющие вести работы в сухой зоне. То, что сейчас разворачивается в русле реки Лены, специалисты называют ключевой фазой исторической стройки. Уже установлены в проектные положения на дно два коффердама, что позволило приступить к",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/stroitelstvo-lenskogo-mosta-vstupilo-v-klyuchevuyu-fazu"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки",
+    "desc": "Управление по делам коренных малочисленных народов Таймыра и вопросам сельского и промыслового хозяйства сообщило, что 14 оленеводов и 8 промысловиков до конца 2026 года будут обеспечены кочевым жильем в виде балка. The post Оленеводы и промысловики Таймыра получат новые балки appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53864"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "моо «кмнсоюз",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
+    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-24",
     "source": "Бирария · Telegram",
@@ -1815,16 +1905,6 @@ window.newsStories=[
     "link": "https://14.ru/text/world/2026/10/02/76673876/"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-19",
-    "source": "7 канал Красноярск",
-    "title": "В Эвенкию прорвались еще два рейса с продовольствием - 7 канал Красноярск",
-    "desc": "В Эвенкию прорвались еще два рейса с продовольствием 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4bktsUFUxSTNGY01ieks0LXc4V3ZEZmpIc0l4ZGhTeEFuZEhVUUFLNlRPR3RVUVczOU1sbnY5eFlDbDRNU01z?oc=5"
-  },
-  {
     "region": "Еврейская автономная область",
     "date": "2026-10-16",
     "source": "ЕАОMedia · Telegram",
@@ -1855,36 +1935,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5",
     "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "yakutia-daily.ru",
-    "title": "Северный завоз в Якутии выполнен на 94,9% от плана",
-    "desc": "Отгружено 958 тыс тонн жизнеобеспечивающих грузов",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/severnyj-zavoz-v-yakutii-vypolnen-na-949-ot-plana"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-14",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
-    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53775"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "моо «кмнсоюз",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
-    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
   },
   {
     "region": "Общие новости",
@@ -1978,6 +2028,46 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03Ujd5OXZqN0hfOENnY3FuajNSME1Rd2FpLWJRQnZFdFY1S2JvZXlzaGIzUGRtWUN0MFhMVDNqWlZ1YXl4Qk1JYVBrXzdRdw?oc=5"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-19",
+    "source": "7 канал Красноярск",
+    "title": "В Эвенкию прорвались еще два рейса с продовольствием - 7 канал Красноярск",
+    "desc": "В Эвенкию прорвались еще два рейса с продовольствием 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4bktsUFUxSTNGY01ieks0LXc4V3ZEZmpIc0l4ZGhTeEFuZEhVUUFLNlRPR3RVUVczOU1sbnY5eFlDbDRNU01z?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Yakutia-Daily.ru",
+    "title": "Северный завоз в Якутии выполнен на 94,9% от плана - Yakutia-Daily.ru",
+    "desc": "Северный завоз в Якутии выполнен на 94,9% от плана Yakutia-Daily.ru",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORnNTaTYxQWltT3FEQlNFMDAydFRGelp5QjZmcmlBekRIaExYYlZ3NURtM1pEdGNnSHh4SUoySlA0Z0xWNU9WTXhxR1FsOG5SSjFTVnJsNjZaUG51Y0RfdDJydVcxeU1YQ1cwSzZPTGtVTENkMVhXVlRJLTJpd2xEMNIBhgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QQ?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
+    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53787"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "моо «кмнсоюз",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
+    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-23",
     "source": "Бирария · Telegram",
@@ -2068,16 +2158,6 @@ window.newsStories=[
     "link": "https://14.ru/text/culture/2026/06/20/76489628/"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-16",
-    "source": "7 канал Красноярск",
-    "title": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине - 7 канал Красноярск",
-    "desc": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vY18zb3gzVG1Db2RXWmU3RFI0c2RIendXVDhFZ2FIVURZZlh1eU9FUTNLdlVKOXFkRlRwTWJJSktxd3lIXy1Z?oc=5"
-  },
-  {
     "region": "Еврейская автономная область",
     "date": "2026-10-09",
     "source": "ЕАОMedia · Telegram",
@@ -2098,26 +2178,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWZE1JS1ZLRWpVbTk3LVFBSEpRNVVjWVAxN1VBeEJwT0NDdWJoYUdLREJlYU5Zdl9UQXdYZkxYSk5nZ2tZNmc2Zw?oc=5",
     "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом."
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "yakutia-daily.ru",
-    "title": "Верховный суд Якутии оставил в силе приговор виновнику смертельного ДТП с молодым спортсменом — Yakutia-daily.ru",
-    "desc": "Хангаласский районный суд назначил ему 5 лет лишения свободы в колонии и компенсацию",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/verhovnyj-sud-yakutii-ostavil-v-sile-prigovor-vinovniku-smertelnogo-dtp-s-molodym-sportsmenom"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
-    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53765"
   },
   {
     "region": "Якутия",
@@ -2180,6 +2240,36 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWVJNTnpYT2pZMV9Oc0RqQ1ZRUlVqUXhRWEs0VnpSRXlNemduTFlBTjhQdDVQeVR5cDZhTTZFSm5Ed2M2LXctWjRyc0ViUQ?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-16",
+    "source": "7 канал Красноярск",
+    "title": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине - 7 канал Красноярск",
+    "desc": "Очередь длиною в день — жители Эвенкии с утра до полуночи ждали продукты в единственном магазине 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vY18zb3gzVG1Db2RXWmU3RFI0c2RIendXVDhFZ2FIVURZZlh1eU9FUTNLdlVKOXFkRlRwTWJJSktxd3lIXy1Z?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Северный завоз в Якутии выполнен на 94,9% от плана",
+    "desc": "Отгружено 958 тыс тонн жизнеобеспечивающих грузов",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/severnyj-zavoz-v-yakutii-vypolnen-na-949-ot-plana"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-14",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
+    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53775"
   },
   {
     "region": "Еврейская автономная область",
@@ -2253,16 +2343,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEpzaldqQ2FvT0RsTTc2UjhwTHVGREtRY2tUOGhWY29QQi0wcjZlaUh2bEhfNWwtd3NGNnk3ZERFYlRRSVVocS1mREw4d2tSS00wWUstc0hSM1IxSEE2c0piVkQwR0FhVXBXWFpESW1UcWNEWnp2STE0cGl6elR5SXhfQktYaVppYlJvX2JKemx6M0NaMkRtR082dGFBUDFZRWN2VUZUdHA?oc=5"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-15",
-    "source": "7 канал Красноярск",
-    "title": "В Эвенкии ввели лимит на продажу продуктов - 7 канал Красноярск",
-    "desc": "В Эвенкии ввели лимит на продажу продуктов 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mekRkVzFGZm1hTEFsblZETEN0dV92SFlUSDlrbGw2dVBySzZwSF9yRWt5MWhSNmRmamdGZHptVGlnblRISm9F?oc=5"
-  },
-  {
     "region": "Еврейская автономная область",
     "date": "2026-10-09",
     "source": "ЕАОMedia · Telegram",
@@ -2283,26 +2363,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5",
     "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "yakutia-daily.ru",
-    "title": "В Якутии отремонтируют 95 км дорог в 2026 году — Yakutia-daily.ru",
-    "desc": "На октябрь 2026 года работы по устройству верхних слоёв покрытия выполнены на 93,5%",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/v-yakutii-otremontiruyut-95-km-dorog-v-2026-godu"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
-    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53738"
   },
   {
     "region": "Якутия",
@@ -2345,6 +2405,36 @@ window.newsStories=[
     "tags": "региональный контекст север традиционные промыслы",
     "relevance": "context",
     "link": "https://ulus.media/2026/10/09/schet-idet-na-dni-i-chasy-premer-yakutii-provel-soveshhanie-po-dostavke-gruzov-i-topliva-na-sever/"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-15",
+    "source": "7 канал Красноярск",
+    "title": "В Эвенкии ввели лимит на продажу продуктов - 7 канал Красноярск",
+    "desc": "В Эвенкии ввели лимит на продажу продуктов 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mekRkVzFGZm1hTEFsblZETEN0dV92SFlUSDlrbGw2dVBySzZwSF9yRWt5MWhSNmRmamdGZHptVGlnblRISm9F?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Верховный суд Якутии оставил в силе приговор виновнику смертельного ДТП с молодым спортсменом — Yakutia-daily.ru",
+    "desc": "Хангаласский районный суд назначил ему 5 лет лишения свободы в колонии и компенсацию",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/verhovnyj-sud-yakutii-ostavil-v-sile-prigovor-vinovniku-smertelnogo-dtp-s-molodym-sportsmenom"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
+    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53765"
   },
   {
     "region": "Еврейская автономная область",
@@ -2397,16 +2487,6 @@ window.newsStories=[
     "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-14",
-    "source": "7 канал Красноярск",
-    "title": "На севере Красноярского края завершился северный завоз - 7 канал Красноярск",
-    "desc": "На севере Красноярского края завершился северный завоз 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Md1hlR1NITW94N1NnZm5SekhaMGJpRWllRXYwQnJDVk51R0dMbXlxZndnMFVKTm1CSmV5eFZ1NG9PNmlzN0lF?oc=5"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-15",
     "source": "中国新闻网",
@@ -2416,26 +2496,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
     "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-13",
-    "source": "yakutia-daily.ru",
-    "title": "Путь к углеродной нейтральности: как добыча алмазов снижает парниковый эффект — Yakutia-daily.ru",
-    "desc": "За последние сто лет средняя температура на планете поднялась примерно на один градус",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/put-k-uglerodnoj-nejtralnosti-kak-dobycha-almazov-snizhaet-parnikovyj-effekt"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
-    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53729"
   },
   {
     "region": "Якутия",
@@ -2480,6 +2540,36 @@ window.newsStories=[
     "link": "https://t.me/ulusmedia/149130"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-14",
+    "source": "7 канал Красноярск",
+    "title": "На севере Красноярского края завершился северный завоз - 7 канал Красноярск",
+    "desc": "На севере Красноярского края завершился северный завоз 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Md1hlR1NITW94N1NnZm5SekhaMGJpRWllRXYwQnJDVk51R0dMbXlxZndnMFVKTm1CSmV5eFZ1NG9PNmlzN0lF?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "В Якутии отремонтируют 95 км дорог в 2026 году — Yakutia-daily.ru",
+    "desc": "На октябрь 2026 года работы по устройству верхних слоёв покрытия выполнены на 93,5%",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/v-yakutii-otremontiruyut-95-km-dorog-v-2026-godu"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
+    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53738"
+  },
+  {
     "region": "Еврейская автономная область",
     "date": "2026-10-21",
     "source": "Бирария · Telegram",
@@ -2520,16 +2610,6 @@ window.newsStories=[
     "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-09",
-    "source": "7 канал Красноярск",
-    "title": "Дефицит продуктов в Эвенкии может окончиться уголовным делом - 7 канал Красноярск",
-    "desc": "Дефицит продуктов в Эвенкии может окончиться уголовным делом 7 канал Красноярск",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-15",
     "source": "中国新闻网",
@@ -2539,16 +2619,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5",
     "overviewRu": "В Рейкьявике на полях форума Arctic Circle прошла встреча об изменении климата и жизни сообщества эвенков-оленеводов. Жители Аолугуи рассказали о сезонном выпасе оленей и традиционных знаниях о тайге; участники обсудили, как этот опыт помогает сохранять культуру и может учитываться в диалоге об устойчивом развитии Арктики."
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-13",
-    "source": "yakutia-daily.ru",
-    "title": "Маткапитал на второго ребенка в 2027 году может достигнуть 1,029 млн рублей — Yakutia-daily.ru",
-    "desc": "Прибавка составит 65,5 тыс рублей",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://yakutia-daily.ru/matkapital-na-vtorogo-rebenka-v-2027-godu-mozhet-dostignut-1029-mln-rublej"
   },
   {
     "region": "Якутия",
@@ -2594,6 +2664,36 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/O9iCPcbW1gCfvlsDlwZu0K4iDQsdAQUY55bQsX6mzE1d9mNMW1jsxq4N1hQfwfM_qVT_QR6h4DMokABQPsdNlir0uF85XE2Rdc6gPkrTC90PX7a_sd6uefVPuF6vDqETIP6ArmahDvxhBDZYGyYCrDd5QVpEKaTRvSHr2PcfqQ06mMlyrE5sBNoLzG2aF36EXj7ha0dWgEg5Tgtji2Sik82lb42Yw9WvnWfpmGtdPuTws8A6R-yWnhE2XOrtNrWPoD_jgzMDUSlZo7SrpBdqothqK6rX8wic8YarMWU0wBZim7d1C1IKgg8ENNT_zNk8gJ7ybfg4grKXnhY2QHqWAQ.jpg"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-09",
+    "source": "7 канал Красноярск",
+    "title": "Дефицит продуктов в Эвенкии может окончиться уголовным делом - 7 канал Красноярск",
+    "desc": "Дефицит продуктов в Эвенкии может окончиться уголовным делом 7 канал Красноярск",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1EV3FpOW0ySkhDMXlHcFpyRWFTTTM0YkppbUtGSjMzY1Nsb0ZGVVNnLTVpQkZIZ01KdGI4QV9BUVNqazVPWEFv?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Путь к углеродной нейтральности: как добыча алмазов снижает парниковый эффект — Yakutia-daily.ru",
+    "desc": "За последние сто лет средняя температура на планете поднялась примерно на один градус",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/put-k-uglerodnoj-nejtralnosti-kak-dobycha-almazov-snizhaet-parnikovyj-effekt"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
+    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53729"
+  },
+  {
     "region": "Общие новости",
     "date": "2026-10-20",
     "source": "Бирария · Telegram",
@@ -2633,16 +2733,6 @@ window.newsStories=[
     "tags": "орочоны сельское хозяйство китай внутренняя монголия",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "Yakutia-Daily.ru",
-    "title": "Северный завоз в Якутии выполнен на 94,9% от плана - Yakutia-Daily.ru",
-    "desc": "Северный завоз в Якутии выполнен на 94,9% от плана Yakutia-Daily.ru",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QdIBhgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QQ?oc=5"
   },
   {
     "region": "Якутия",
@@ -2686,6 +2776,16 @@ window.newsStories=[
     "relevance": "context",
     "link": "https://t.me/ulusmedia/149149",
     "image": "https://cdn4.telesco.pe/file/O9iCPcbW1gCfvlsDlwZu0K4iDQsdAQUY55bQsX6mzE1d9mNMW1jsxq4N1hQfwfM_qVT_QR6h4DMokABQPsdNlir0uF85XE2Rdc6gPkrTC90PX7a_sd6uefVPuF6vDqETIP6ArmahDvxhBDZYGyYCrDd5QVpEKaTRvSHr2PcfqQ06mMlyrE5sBNoLzG2aF36EXj7ha0dWgEg5Tgtji2Sik82lb42Yw9WvnWfpmGtdPuTws8A6R-yWnhE2XOrtNrWPoD_jgzMDUSlZo7SrpBdqothqK6rX8wic8YarMWU0wBZim7d1C1IKgg8ENNT_zNk8gJ7ybfg4grKXnhY2QHqWAQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-13",
+    "source": "yakutia-daily.ru",
+    "title": "Маткапитал на второго ребенка в 2027 году может достигнуть 1,029 млн рублей — Yakutia-daily.ru",
+    "desc": "Прибавка составит 65,5 тыс рублей",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://yakutia-daily.ru/matkapital-na-vtorogo-rebenka-v-2027-godu-mozhet-dostignut-1029-mln-rublej"
   },
   {
     "region": "Еврейская автономная область",
@@ -2748,6 +2848,16 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://t.me/evenkya_life/12837",
     "image": "https://cdn4.telesco.pe/file/ZXZsSPUu0SQAd3axXpakbDa8BsRDmVFm9IqovtdSJztzH0PMlGvNceSifmcP2bpHV0GI3LNJDRXX77b3ro4LMXyfE1_asAS5QjYr1YMrVrIxU25f-RBukKbwU0mgXisU59Lpiwe-jzZn4Iy-9czrtOriJgriAY66LGJ9iiYewWqEe5CwcL2jZkd131kvucZl87aD-VYmXUb9c8gozB22kAeRM2t_9jn8R4dVK0H0Rn-8oE4Lr0zNVhMejASbgXgvZM1f0IPdvzfZlH2vaQjkilqurzrs2VplvgkeT2tOwGhUpCVdGCnivwsQ6q6YjjoLzEMGf6UBaUJox58rbJpu6A.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Yakutia-Daily.ru",
+    "title": "Северный завоз в Якутии выполнен на 94,9% от плана - Yakutia-Daily.ru",
+    "desc": "Северный завоз в Якутии выполнен на 94,9% от плана Yakutia-Daily.ru",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QdIBhgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QQ?oc=5"
   },
   {
     "region": "Еврейская автономная область",
