@@ -1185,20 +1185,6 @@
       "siteEligible": "1"
     },
     {
-      "id": "CBMifkFVX3lxTE9BbmFTMng5WUxWRGFpOE14ZGNuTnprV0FRTXU5RncwZFRIX0ltVGMwZC11THQ3cXRHUGNUWXNzd2NPdlNTRWVWNVdIbUdaS2FvQVB4WlhfczV0cXlMc0N5dTJ2NC01WnB1ODNGeU03ZkN1Rk1Od3R2T29QUXdJZw",
-      "title": "Стартует отбор на получение субсидии на поддержку оленеводства - Правительство Республики Бурятия",
-      "source": "Правительство Республики Бурятия",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BbmFTMng5WUxWRGFpOE14ZGNuTnprV0FRTXU5RncwZFRIX0ltVGMwZC11THQ3cXRHUGNUWXNzd2NPdlNTRWVWNVdIbUdaS2FvQVB4WlhfczV0cXlMc0N5dTJ2NC01WnB1ODNGeU03ZkN1Rk1Od3R2T29QUXdJZw?oc=5",
-      "published": "2026-10-21T16:30+04:00",
-      "day": "2026-10-21",
-      "description": "Стартует отбор на получение субсидии на поддержку оленеводства Правительство Республики Бурятия",
-      "ilkenEvenki": "0",
-      "configuredSource": "0",
-      "needsFullText": "0",
-      "relevance": "context",
-      "siteEligible": "1"
-    },
-    {
       "id": "https://gtrksakha.ru/news/2026/10/25/uchenye-inzhenery-i-gejmery-yakutii-mogut-stat-uchastnikami-mezhdunarodnogo-simpoziuma-sozdavaya-budushee",
       "url": "https://gtrksakha.ru/news/2026/10/25/uchenye-inzhenery-i-gejmery-yakutii-mogut-stat-uchastnikami-mezhdunarodnogo-simpoziuma-sozdavaya-budushee",
       "title": "Ученые, инженеры и геймеры Якутии могут стать участниками III Международного симпозиума \"Создавая будущее\"",
@@ -2078,6 +2064,49 @@
       "configuredSource": "1",
       "detectedRelevance": "direct",
       "detectedRegion": "Общие новости",
+      "relevance": "direct",
+      "siteEligible": "1"
+    },
+    {
+      "id": "https://t.me/evenkya_life/12949",
+      "title": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной програм",
+      "source": "Эвенкийская жизнь · Telegram",
+      "url": "https://t.me/evenkya_life/12949",
+      "published": "2026-10-28T16:19+04:00",
+      "day": "2026-10-28",
+      "description": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной программе будут задействованы самолёты Ан-26: чтобы увеличить объёмы доставки продовольствия, грузо-пассажирские машины переоборудуют в грузовые – демонтаж кресел позволит увеличить предельную коммерческую загрузку каждого борта до 4 тонн на рейс.",
+      "socialPlatform": "Telegram",
+      "detectedRelevance": "context",
+      "configuredSource": "1",
+      "image": "https://cdn4.telesco.pe/file/l8nEIXfb0zBVzQtI5JGvI0OSJegN9zS-ArguHIT4bRs4rTOXB4lHqao77wOXYYz3TG3Ps9FgmqQnGyKcjlbKYt1o7wd1oJoJws2JwhYPmbyeur7L8iZXuzZYxQDB6ARW6NqJZR-85ufufzTZMnA6SL8t4h4d7C3zXXZ3iHOhhW_qd8zXuho0OimUMlrD9wZfwSe382i3EibG_WSveEm65bdyYhljTx6FBJg_mMQO_maFT9x4o7fHMdRcsxIWCrRfGFq7Wi1iSaUTWk7keyVP4-p2GrW7AlDyG6tZ05mBT-0i8qpTZCPw2pQYv9i2ZisZWJ6KrvNk0xM-suFapTqapQ.jpg",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "CBMiW0FVX3lxTE1SbG9TeFlWMTlXeHp1Y0YxTzZ1blZUdFJWUWFvUGJELVlRSExtQ1FrRkhRd0FiclQ2c1ZnRUtxcVpqWmVsV1MwcDVZcUJfeV9CVHV5YUNlaUZjRUk",
+      "title": "В Таймыре 22 семьи оленеводов и промысловиков получат новые кочевые жилища - НИА-Красноярск",
+      "source": "НИА-Красноярск",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SbG9TeFlWMTlXeHp1Y0YxTzZ1blZUdFJWUWFvUGJELVlRSExtQ1FrRkhRd0FiclQ2c1ZnRUtxcVpqWmVsV1MwcDVZcUJfeV9CVHV5YUNlaUZjRUk?oc=5",
+      "published": "2026-10-27T12:12+04:00",
+      "day": "2026-10-27",
+      "description": "В Таймыре 22 семьи оленеводов и промысловиков получат новые кочевые жилища НИА-Красноярск",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
+      "relevance": "context",
+      "siteEligible": "1"
+    },
+    {
+      "id": "CBMiTkFVX3lxTE82aUo0MWVOa2dhc19OS1RsM08zRUpvcENqVXV3NGhCYW1jeVREMUJfWUxXM1N6UjRRLUttQlVNVTdCakJHUGpkdHN4VkdiZw",
+      "title": "В Бурятии состоится фестиваль эвенкийской культуры имени Гончикова - Asiais.ru",
+      "source": "Asiais.ru",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82aUo0MWVOa2dhc19OS1RsM08zRUpvcENqVXV3NGhCYW1jeVREMUJfWUxXM1N6UjRRLUttQlVNVTdCakJHUGpkdHN4VkdiZw?oc=5",
+      "published": "2026-10-22T18:51+04:00",
+      "day": "2026-10-22",
+      "description": "В Бурятии состоится фестиваль эвенкийской культуры имени Гончикова Asiais.ru",
+      "ilkenEvenki": "0",
+      "configuredSource": "0",
+      "needsFullText": "0",
       "relevance": "direct",
       "siteEligible": "1"
     }
