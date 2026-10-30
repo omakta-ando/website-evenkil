@@ -63,6 +63,7 @@
       root.dataset.season = mode;
       try { localStorage.setItem(storageKey, mode); } catch (_) {}
       render();
+      root.dispatchEvent(new Event("season-theme-change"));
     });
     render();
   }
@@ -145,13 +146,27 @@
       accessibleButton.setAttribute('aria-pressed', 'true');
       accessibleButton.setAttribute('aria-label', 'Выключить летний режим для слабовидящих');
       accessibleButton.title = 'Выключить летний режим для слабовидящих';
-      if (seasonToggle) {
-        seasonToggle.disabled = true;
-        seasonToggle.title = 'Сначала выключите летний режим для слабовидящих';
-      }
     }
   } catch (_) {}
   window.dispatchEvent(new Event('accessible-font-scale-change'));
+
+  root.addEventListener('season-theme-change', () => {
+    const summerSelected = root.dataset.season === 'summer';
+    accessibleButton.hidden = !summerSelected;
+    if (summerSelected || root.dataset.accessibility !== 'vision') return;
+
+    delete root.dataset.accessibility;
+    try {
+      localStorage.removeItem(storage.enabled);
+      localStorage.removeItem(storage.previousSeason);
+    } catch (_) {}
+    accessibleButton.setAttribute('aria-pressed', 'false');
+    accessibleButton.setAttribute('aria-label', 'Включить летний режим для слабовидящих');
+    accessibleButton.title = 'Летний режим для слабовидящих';
+    stopLens();
+    live.textContent = 'Увеличенный шрифт выключен при смене сезона.';
+    window.dispatchEvent(new Event('accessible-font-scale-change'));
+  });
 
   function toggleVisionMode() {
     const enabled = root.dataset.accessibility !== 'vision';
@@ -172,10 +187,6 @@
       accessibleButton.setAttribute('aria-pressed', 'true');
       accessibleButton.setAttribute('aria-label', 'Выключить летний режим для слабовидящих');
       accessibleButton.title = 'Выключить летний режим для слабовидящих';
-      if (seasonToggle) {
-        seasonToggle.disabled = true;
-        seasonToggle.title = 'Сначала выключите летний режим для слабовидящих';
-      }
       live.textContent = 'Летний режим для слабовидящих включён. Текст увеличен. Удерживайте правую кнопку мыши, чтобы включить лупу.';
     } else {
       delete root.dataset.accessibility;
@@ -183,10 +194,6 @@
       accessibleButton.setAttribute('aria-pressed', 'false');
       accessibleButton.setAttribute('aria-label', 'Включить летний режим для слабовидящих');
       accessibleButton.title = 'Летний режим для слабовидящих';
-      if (seasonToggle) {
-        seasonToggle.disabled = false;
-        seasonToggle.title = 'Переключить сезон';
-      }
       stopLens();
       live.textContent = 'Летний режим для слабовидящих выключен.';
     }
