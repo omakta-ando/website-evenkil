@@ -56,6 +56,7 @@
 
   if (button) {
     button.addEventListener("click", () => {
+      mode = seasonOrder.includes(root.dataset.season) ? root.dataset.season : mode;
       mode = seasonOrder[(seasonOrder.indexOf(mode) + 1) % seasonOrder.length];
       root.dataset.season = mode;
       try { localStorage.setItem(storageKey, mode); } catch (_) {}
@@ -63,4 +64,10 @@
     });
     render();
   }
+
+  root.addEventListener("season-theme-change", () => {
+    if (!seasonOrder.includes(root.dataset.season)) return;
+    mode = root.dataset.season;
+    render();
+  });
 })();

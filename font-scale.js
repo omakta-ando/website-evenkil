@@ -20,11 +20,26 @@
 
     for (const [element, size] of pending) {
       element.setAttribute(marker, String(size));
-      element.style.setProperty('font-size', `${size + 2}px`);
+      element.style.setProperty('font-size', `${fontSizeFor(size)}px`);
     }
   }
 
+  function fontSizeFor(size) {
+    const normal = size + 2;
+    return document.documentElement.dataset.accessibility === 'vision'
+      ? Math.max(normal, size * 1.35)
+      : normal;
+  }
+
+  function refresh() {
+    document.querySelectorAll(`[${marker}]`).forEach(element => {
+      const base = Number.parseFloat(element.getAttribute(marker));
+      if (Number.isFinite(base)) element.style.setProperty('font-size', `${fontSizeFor(base)}px`);
+    });
+  }
+
   enlarge(document.body);
+  window.addEventListener('accessible-font-scale-change', refresh);
   new MutationObserver(records => {
     for (const record of records) {
       for (const node of record.addedNodes) enlarge(node);
