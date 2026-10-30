@@ -647,6 +647,16 @@ html[data-season="summer"] .resource-card:hover h3 { color: #a96c37 !important; 
 html[data-season="summer"] .stats .stat:hover,
 html[data-season="summer"] .region-item:hover,
 html[data-season="summer"] .region-item:focus-visible { background-color: #2f6b49 !important; }
+/* Keep resource-card copy dark against the pale summer surface, including hover/focus. */
+html[data-season="summer"] #resources .resource-card .resource-type,
+html[data-season="summer"] #resources .resource-card:hover .resource-type,
+html[data-season="summer"] #resources .resource-card:focus-visible .resource-type { color: #405846 !important; }
+html[data-season="summer"] #resources .resource-card p,
+html[data-season="summer"] #resources .resource-card:hover p,
+html[data-season="summer"] #resources .resource-card:focus-visible p { color: #26362d !important; }
+html[data-season="summer"] #resources .resource-card .resource-visit,
+html[data-season="summer"] #resources .resource-card:hover .resource-visit,
+html[data-season="summer"] #resources .resource-card:focus-visible .resource-visit { color: #624515 !important; }
 /* Keep the selected region legible, while regular region cards stay light on hover. */
 html[data-season="summer"] .filters .chip.active,
 html[data-season="summer"] .section.news-area#news .filters .chip.active {
