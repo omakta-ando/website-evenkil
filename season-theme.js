@@ -52,6 +52,8 @@
     button.setAttribute("aria-label", `Сейчас: ${labels[mode]}. Переключить на тему «${labels[next]}»`);
     button.title = `Следующая тема: ${labels[next]}`;
     button.innerHTML = icons[next];
+    const accessibilityToggle = document.querySelector(".a11y-toggle");
+    if (accessibilityToggle) accessibilityToggle.hidden = mode !== "summer";
   }
 
   if (button) {
@@ -92,6 +94,7 @@
   accessibleButton.setAttribute('data-accessibility-ui', 'true');
   accessibleButton.dataset.a11yControl = 'vision';
   accessibleButton.setAttribute('aria-keyshortcuts', 'Alt+Shift+V');
+  accessibleButton.hidden = root.dataset.season !== 'summer';
   accessibleButton.addEventListener('click', toggleVisionMode);
   if (seasonToggle) seasonToggle.after(accessibleButton);
   else nav.append(accessibleButton);

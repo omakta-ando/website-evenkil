@@ -998,6 +998,7 @@ html[data-season] body .quote-band cite {
   transition: color .18s ease, background .18s ease, border-color .18s ease, transform .18s ease !important;
 }
 .nav .a11y-toggle { order: 1001 !important; }
+.nav .a11y-toggle[hidden] { display: none !important; }
 .nav .magnifier-toggle { order: 1002 !important; }
 .nav .season-toggle:disabled { opacity: .42 !important; cursor: not-allowed !important; transform: none !important; }
 .nav .a11y-toggle:hover,
