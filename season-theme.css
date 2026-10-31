@@ -988,9 +988,8 @@ html[data-season] body .quote-band cite {
   text-shadow: none !important;
 }
 
-/* Optional summer accessibility mode for low-vision visitors. */
-.nav .a11y-toggle,
-.nav .magnifier-toggle {
+/* Optional larger text mode, available in every seasonal theme. */
+.nav .a11y-toggle {
   box-sizing: border-box !important;
   width: 36px !important;
   height: 36px !important;
@@ -1008,20 +1007,14 @@ html[data-season] body .quote-band cite {
   transition: color .18s ease, background .18s ease, border-color .18s ease, transform .18s ease !important;
 }
 .nav .a11y-toggle { order: 1001 !important; }
-.nav .a11y-toggle[hidden] { display: none !important; }
-.nav .magnifier-toggle { order: 1002 !important; }
-.nav .season-toggle:disabled { opacity: .42 !important; cursor: not-allowed !important; transform: none !important; }
 .nav .a11y-toggle:hover,
 .nav .a11y-toggle:focus-visible,
-.nav .magnifier-toggle:hover,
-.nav .magnifier-toggle:focus-visible,
-.nav .magnifier-toggle[aria-pressed="true"] {
+.nav .a11y-toggle[aria-pressed="true"] {
   background: #2f6b49 !important;
   border-color: #2f6b49 !important;
   color: #fffef7 !important;
   transform: translateY(-1px);
 }
-.nav .magnifier-toggle svg { width: 18px !important; height: 18px !important; fill: none !important; stroke: currentColor !important; stroke-width: 1.8 !important; stroke-linecap: round !important; }
 .nav .a11y-live { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0,0,0,0) !important; white-space: nowrap !important; border: 0 !important; }
 
 html[data-accessibility="vision"] body { line-height: 1.65 !important; }
@@ -1032,66 +1025,20 @@ html[data-accessibility="vision"] :where(a, button, input, textarea, select) { t
 html[data-accessibility="vision"] :where(a, button, input, textarea, select):focus-visible { outline: 3px solid #8c4e16 !important; outline-offset: 3px !important; }
 html[data-accessibility="vision"] .nav .navlinks { flex-wrap: wrap !important; }
 html[data-accessibility="vision"] .quote-band blockquote { line-height: 1.45 !important; }
-/* Resource-card captions and descriptions need a strong contrast on the pale summer surface. */
-html[data-accessibility="vision"] #resources .resource-card .resource-type,
-html[data-accessibility="vision"] #resources .resource-card:hover .resource-type,
-html[data-accessibility="vision"] #resources .resource-card:focus-visible .resource-type { color: #344d3a !important; }
-html[data-accessibility="vision"] #resources .resource-card h3,
-html[data-accessibility="vision"] #resources .resource-card:hover h3,
-html[data-accessibility="vision"] #resources .resource-card:focus-visible h3 { color: #17251d !important; }
-html[data-accessibility="vision"] #resources .resource-card p,
-html[data-accessibility="vision"] #resources .resource-card:hover p,
-html[data-accessibility="vision"] #resources .resource-card:focus-visible p { color: #26362d !important; }
-html[data-accessibility="vision"] #resources .resource-card .resource-visit,
-html[data-accessibility="vision"] #resources .resource-card:hover .resource-visit,
-html[data-accessibility="vision"] #resources .resource-card:focus-visible .resource-visit { color: #5c3916 !important; }
-html[data-accessibility="vision"] #resources .resource-card::after { opacity: .08 !important; }
-
-.accessibility-magnifier {
-  display: none;
-  position: fixed;
-  z-index: 2147483000;
-  width: 210px;
-  height: 210px;
-  overflow: hidden;
-  border: 3px solid #d6a649;
-  border-radius: 50%;
-  background: #fbfaf5;
-  box-shadow: 0 5px 25px rgba(13, 32, 22, .42), inset 0 0 0 2px rgba(255,255,255,.85);
-  pointer-events: none;
-  contain: strict;
-}
-.accessibility-magnifier.is-visible { display: block; }
-.accessibility-magnifier iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  max-width: none;
-  border: 0;
-  background: #fbfaf5;
-  transform-origin: top left;
-  pointer-events: none;
-}
-html[data-season="night"] .nav .a11y-toggle,
-html[data-season="night"] .nav .magnifier-toggle {
+html[data-season="night"] .nav .a11y-toggle {
   border-color: #65796d !important;
   color: #e5c58c !important;
 }
 html[data-season="night"] .nav .a11y-toggle:hover,
 html[data-season="night"] .nav .a11y-toggle:focus-visible,
-html[data-season="night"] .nav .magnifier-toggle:hover,
-html[data-season="night"] .nav .magnifier-toggle:focus-visible,
-html[data-season="night"] .nav .magnifier-toggle[aria-pressed="true"] {
+html[data-season="night"] .nav .a11y-toggle[aria-pressed="true"] {
   background: #e5c58c !important;
   border-color: #e5c58c !important;
   color: #152b25 !important;
 }
 @media (max-width: 900px) {
-  .nav .a11y-toggle, .nav .magnifier-toggle { width: 32px !important; height: 32px !important; flex-basis: 32px !important; }
-  .accessibility-magnifier { width: 190px; height: 190px; }
+  .nav .a11y-toggle { width: 32px !important; height: 32px !important; flex-basis: 32px !important; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .nav .a11y-toggle, .nav .magnifier-toggle { transition: none !important; }
+  .nav .a11y-toggle { transition: none !important; }
 }
