@@ -51,13 +51,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "source": "Илкэн · Улгур",
-    "title": "Заявление Совета старейшин юкагирского народа",
-    "desc": "В социальных сетях и сети «Интернет» распространяется информация об участии Шадрина Вячеслава Ивановича и Исакова",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/30/zayavlenie-soveta-starejshin-yukagirskogo-naroda/"
+    "title": "Стратегия выживания в Арктике: что решили на Суглане 30 октября",
+    "desc": "30 октября в зале заседаний Районного Совета депутатов прошла встреча действующего созыва Суглана с ветеранами района. [Новости](https://ilken.ru/category/novosti/)",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/31/strategiya-vyzhivaniya-v-arktike-chto-reshili-na-suglane-30-oktyabrya/"
   },
   {
     "region": "Еврейская автономная область",
@@ -1375,13 +1375,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "source": "Илкэн · Улгур",
-    "title": "«В Якутске много шума и суеты», — оленевод Слепцов ответил на вопросы Sakhaday прямо из глухой лесотундры",
-    "desc": "Знакомьтесь, — 27-летний Дмитрий Слепцов, наполовину эвен, наполовину саха. Он потомственный оленевод, его родители, братья",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/29/v-yakutske-mnogo-shuma-i-suety-olenevod-slepczov-otvetil-na-voprosy-sakhaday-pryamo-iz-gluhoj-lesotundry/"
+    "title": "Заявление Совета старейшин юкагирского народа",
+    "desc": "В социальных сетях и сети «Интернет» распространяется информация об участии Шадрина Вячеслава Ивановича и Исакова",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/30/zayavlenie-soveta-starejshin-yukagirskogo-naroda/"
   },
   {
     "region": "Общие новости",
@@ -1937,11 +1937,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-29",
     "source": "Илкэн · Улгур",
-    "title": "В Якутске концертом «Мы — люди Севера» завершился день «Код Севера»",
-    "desc": "28 октября в Доме дружбы народов имени А.Е. Кулаковского в Якутске прошёл концерт «Мы —",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/29/v-yakutske-konczertom-my-lyudi-severa-zavershilsya-den-kod-severa/"
+    "title": "«В Якутске много шума и суеты», — оленевод Слепцов ответил на вопросы Sakhaday прямо из глухой лесотундры",
+    "desc": "Знакомьтесь, — 27-летний Дмитрий Слепцов, наполовину эвен, наполовину саха. Он потомственный оленевод, его родители, братья",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/29/v-yakutske-mnogo-shuma-i-suety-olenevod-slepczov-otvetil-na-voprosy-sakhaday-pryamo-iz-gluhoj-lesotundry/"
   },
   {
     "region": "Общие новости",
@@ -2007,14 +2007,14 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Я",
-    "desc": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Якутия) напомнило жителям региона о действующих правилах любительского рыболовства на карася. Как отмечают в ведомстве, соблюдение установленных норм — залог хорошего времяпровождения на природе. Согласно Правилам рыболовства для Восточно-Си",
+    "title": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые до",
+    "desc": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые должны были доставить, уже находятся в населенных пунктах. «До начала зимников мы не видим серьезных проблем по районам, куда идет северный завоз. Топливные ресурсы завезены в полном объеме», — сказал Айсен Николаев. Он отметил, что в этом го",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91634",
-    "image": "https://cdn4.telesco.pe/file/CJg64nIIN9jNsDz18Xnm475LEFD6ehVsyHrqkRFQBNQTP79liQzKqMpmqWCrmJ0B83l47LHl6gvZgJ26TmnHktQuw73wDiVU6OeSDUJid4RdLKNshbD2W_EEzl92GTn_tCsrAw_QDeBM9V_ZhTforN-cFgIxSwOkba5IjS-aRVoIBZ3wqbD4KSWUvMq8YffdnPdhs05xvBAQERmDH6z4RUAjIurpyczl4oZgYtHrC-Yu1r9I_fiMoSv1sh75MPhMnMJZBNa2DVCe8lx53ts3KCKLJYJdL59Utm9R0MAjwWYxRIU2QVBH4cp6jnoVD6Z78bhZlCzmFactyZ-vHx1jcA.jpg"
+    "link": "https://t.me/yk24ru/91712",
+    "image": "https://cdn4.telesco.pe/file/NBlWku-koDUPEIkH1V5dXAoiYYRD65L4oIz_U41UnNoe5rMC3mR9nD7cGkaetolE8nHOYdZ49y_CjAybBBaRRal1QOOwSNgtvBU1pEeAgmMz_gjvrlFi6lNfGx-dHQGtist8obM-9Gmg8MLAERT8RJpg3vO33-fxoemFI91j2kQxySZNV69OYFpSFH9ADRj-3CjpiRjltSow2Yyw3390zvHUsDX1m0CdfnJoaN-3qAOf6zewDI5JBIL7HLsefspVuR7pw7cvgTlriG6mhuQHgy_pLJYgQXmWTS7vkuAJWGZgiP3UIEUvUuc86_lh2Hz_iNMUOcggyj8NeTAgG5PpFA.jpg"
   },
   {
     "region": "Якутия",
@@ -2269,13 +2269,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "source": "Илкэн · Улгур",
-    "title": "Родной язык и культура — основа сохранения самобытности",
-    "desc": "28 октября в Доме дружбы народов имени А. Е. Кулаковского состоялась стратегическая сессия «Роль и",
+    "title": "В Якутске концертом «Мы — люди Севера» завершился день «Код Севера»",
+    "desc": "28 октября в Доме дружбы народов имени А.Е. Кулаковского в Якутске прошёл концерт «Мы —",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/28/rodnoj-yazyk-i-kultura-osnova-sohraneniya-samobytnosti/"
+    "link": "https://ilken.ru/2026/10/29/v-yakutske-konczertom-my-lyudi-severa-zavershilsya-den-kod-severa/"
   },
   {
     "region": "Общие новости",
@@ -2340,15 +2340,15 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsRHNZOU85YzJGU0xaZzNTU3dxVW4xTC00RWhhRGhIUkdHWFY1Z0ZWWGZpRm92LUstejVCWjhkZ0FxU04zb1hBRGw5cw?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-23",
+    "region": "Якутия",
+    "date": "2026-10-26",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного",
-    "desc": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного смотрите в нашем сообществе ВК по ссылке. yk24.ru в MAКС | Telegram | ВК | VK Видео",
+    "title": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Я",
+    "desc": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Якутия) напомнило жителям региона о действующих правилах любительского рыболовства на карася. Как отмечают в ведомстве, соблюдение установленных норм — залог хорошего времяпровождения на природе. Согласно Правилам рыболовства для Восточно-Си",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91611",
-    "image": "https://cdn4.telesco.pe/file/g9wdpJl_988I4CtxUZok1tMftPcM28issCVmGRur28HmppJlAZoKssflDjfW_sYxfd0rMsABep-U-56g3uTGgeKkqogEm6WWMq4GmPiE5JwM2Rzeh18FiqK9MPynb14hQJEnvToeGNi_Vv0bNRTIc0ODpWwQFZ4PGHx8vEbm9PqICRJLw-znWZW-eZ85AJrb2-RW7lG-0UhtACAR2Z37hft80q35P68frQ6NDtCbwOphljUnnbx5lkwLGi0bmEEaFRdRj8ot_8z0Vz83dl5wtVbp911CTfeUWbRFfnjPacbg8CYccbj_tHhE39l8iFRweUCHAzJMDolB_M8nv-6Rgw.jpg"
+    "link": "https://t.me/yk24ru/91634",
+    "image": "https://cdn4.telesco.pe/file/CJg64nIIN9jNsDz18Xnm475LEFD6ehVsyHrqkRFQBNQTP79liQzKqMpmqWCrmJ0B83l47LHl6gvZgJ26TmnHktQuw73wDiVU6OeSDUJid4RdLKNshbD2W_EEzl92GTn_tCsrAw_QDeBM9V_ZhTforN-cFgIxSwOkba5IjS-aRVoIBZ3wqbD4KSWUvMq8YffdnPdhs05xvBAQERmDH6z4RUAjIurpyczl4oZgYtHrC-Yu1r9I_fiMoSv1sh75MPhMnMJZBNa2DVCe8lx53ts3KCKLJYJdL59Utm9R0MAjwWYxRIU2QVBH4cp6jnoVD6Z78bhZlCzmFactyZ-vHx1jcA.jpg"
   },
   {
     "region": "Якутия",
@@ -2515,11 +2515,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-28",
     "source": "Илкэн · Улгур",
-    "title": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык",
-    "desc": "В небольшом селе Тяня Олёкминского района Якутии дети снимают мультфильмы на эвенкийском языке, записывают рассказы",
+    "title": "Родной язык и культура — основа сохранения самобытности",
+    "desc": "28 октября в Доме дружбы народов имени А. Е. Кулаковского состоялась стратегическая сессия «Роль и",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/28/kak-v-yakutskom-sele-tyanya-vozvrashhayut-k-zhizni-evenkijskij-yazyk/"
+    "link": "https://ilken.ru/2026/10/28/rodnoj-yazyk-i-kultura-osnova-sohraneniya-samobytnosti/"
   },
   {
     "region": "Общие новости",
@@ -2583,15 +2583,15 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-19",
+    "region": "Общие новости",
+    "date": "2026-10-23",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администра",
-    "desc": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администрации определил основные задачи на ближайшие месяцы. Приоритетными обозначены подготовка к выездному заседанию Комитета Совета Федерации по экономической политике, формирование бюджета на 2027–2029 годы и завершение северного завоза. Подробне",
+    "title": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного",
+    "desc": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного смотрите в нашем сообществе ВК по ссылке. yk24.ru в MAКС | Telegram | ВК | VK Видео",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91453",
-    "image": "https://cdn4.telesco.pe/file/N3cJNSF2EI2hIAoS1bmio_l7k32YpINLozJA-5MqMWKoZxpszA0mi6jbPzv1yT-Dd1KP5PUR7A01Ux3N_doC3VOsv13SVBMufOO0DnY9A_sfx3H3chlCXEQmDvbE6ygiUSQmkZjoRtrHfbB06WkJnk9IEo12p5xoCzotb3Oho8k4gGBNJ1t2PlffE6UbSDIkYnDGRikRfmzwLb3qxYFa8imfPWy3qtbmJNilck4N5feSdpdHE3eRPsZSq7YF4hMbMiBFNBoEPw67pnn3-yQrtXRcozpbIZ0wvN9Hbe0VMNDOvvT36AmESq-Fyqmr68JfN1gnmU6UP86jk6qtampInA.jpg"
+    "link": "https://t.me/yk24ru/91611",
+    "image": "https://cdn4.telesco.pe/file/g9wdpJl_988I4CtxUZok1tMftPcM28issCVmGRur28HmppJlAZoKssflDjfW_sYxfd0rMsABep-U-56g3uTGgeKkqogEm6WWMq4GmPiE5JwM2Rzeh18FiqK9MPynb14hQJEnvToeGNi_Vv0bNRTIc0ODpWwQFZ4PGHx8vEbm9PqICRJLw-znWZW-eZ85AJrb2-RW7lG-0UhtACAR2Z37hft80q35P68frQ6NDtCbwOphljUnnbx5lkwLGi0bmEEaFRdRj8ot_8z0Vz83dl5wtVbp911CTfeUWbRFfnjPacbg8CYccbj_tHhE39l8iFRweUCHAzJMDolB_M8nv-6Rgw.jpg"
   },
   {
     "region": "Якутия",
@@ -2736,14 +2736,14 @@ window.newsStories=[
     "link": "https://amurmedia.ru/news/2652209"
   },
   {
-    "region": "Красноярский край",
+    "region": "Якутия",
     "date": "2026-10-28",
     "source": "Илкэн · Улгур",
-    "title": "Оленекцы намерены не повторить прошлогоднюю ситуацию",
-    "desc": "Ровно год назад в Оленекском национальном эвенкийском районе дикие олени таймырской популяции увели более тысячи",
+    "title": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык",
+    "desc": "В небольшом селе Тяня Олёкминского района Якутии дети снимают мультфильмы на эвенкийском языке, записывают рассказы",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/28/olenekczy-namereny-ne-povtorit-proshlogodnyuyu-situacziyu/"
+    "link": "https://ilken.ru/2026/10/28/kak-v-yakutskom-sele-tyanya-vozvrashhayut-k-zhizni-evenkijskij-yazyk/"
   },
   {
     "region": "Еврейская автономная область",
@@ -2789,14 +2789,14 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание к",
-    "desc": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание комиссии Госсовета по энергетике. Груз особой важности. Якутия подводит итоги северного завоза. Как прошла арктическая навигация? Загрязнение рек в Алданском и Нерюнгринском районах и регулирование численности хищников. В Якутске прошло засе",
+    "title": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администра",
+    "desc": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администрации определил основные задачи на ближайшие месяцы. Приоритетными обозначены подготовка к выездному заседанию Комитета Совета Федерации по экономической политике, формирование бюджета на 2027–2029 годы и завершение северного завоза. Подробне",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91402",
-    "image": "https://cdn4.telesco.pe/file/bzTQlGZB5gP4Xg0rOpkVK_IRR10W51-A-xHgHiK2N9pfLtgXIYGIDcpXfzDmMdOWshtSnv61cREgMEqgceTwLTdf5jXxs03Zx1rFeAjnr61H0v1DkRuCELwUnYsOXvjceiUACsey93qlZoPVUD_3Q8NZiy_xKKIH-oFdot9y5z0nT9fSHxBdT53MOBI6FymZQjRDTzb78GCVTaZhxW0owLE9iLt6VMUoui9QO6gMndwJsOcJ7lyFuWTTPqJ0_a9gY0ZRvbz66TjK58ICfrzadUgoQpvflKqRfteUmyQoEefh3Le8QK0QGjZRbYG2MSY7ZsQTzBWu8Xyj90BpRxQe0A.jpg"
+    "link": "https://t.me/yk24ru/91453",
+    "image": "https://cdn4.telesco.pe/file/N3cJNSF2EI2hIAoS1bmio_l7k32YpINLozJA-5MqMWKoZxpszA0mi6jbPzv1yT-Dd1KP5PUR7A01Ux3N_doC3VOsv13SVBMufOO0DnY9A_sfx3H3chlCXEQmDvbE6ygiUSQmkZjoRtrHfbB06WkJnk9IEo12p5xoCzotb3Oho8k4gGBNJ1t2PlffE6UbSDIkYnDGRikRfmzwLb3qxYFa8imfPWy3qtbmJNilck4N5feSdpdHE3eRPsZSq7YF4hMbMiBFNBoEPw67pnn3-yQrtXRcozpbIZ0wvN9Hbe0VMNDOvvT36AmESq-Fyqmr68JfN1gnmU6UP86jk6qtampInA.jpg"
   },
   {
     "region": "Якутия",
@@ -2911,14 +2911,14 @@ window.newsStories=[
     "link": "https://amurmedia.ru/news/2652036"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-27",
+    "region": "Красноярский край",
+    "date": "2026-10-28",
     "source": "Илкэн · Улгур",
-    "title": "«Герой Сергей»: история мужества, рассказанная на эвенском языке",
-    "desc": "В эфире передачи «Геван» вышло интервью с Сергеем Кривошапкиным, который в семнадцать лет спас товарища",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/27/geroj-sergej-istoriya-muzhestva-rasskazannaya-na-evenskom-yazyke/"
+    "title": "Оленекцы намерены не повторить прошлогоднюю ситуацию",
+    "desc": "Ровно год назад в Оленекском национальном эвенкийском районе дикие олени таймырской популяции увели более тысячи",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/28/olenekczy-namereny-ne-povtorit-proshlogodnyuyu-situacziyu/"
   },
   {
     "region": "Еврейская автономная область",
@@ -2964,14 +2964,14 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-13",
+    "date": "2026-10-16",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов п",
-    "desc": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза, в том числе по частичной замене бюджетных кредитов федеральными субсидиями. Подробнее читайте по ссылке yk24.ru в MAКС | Telegram | ВК | VK Видео",
+    "title": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание к",
+    "desc": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание комиссии Госсовета по энергетике. Груз особой важности. Якутия подводит итоги северного завоза. Как прошла арктическая навигация? Загрязнение рек в Алданском и Нерюнгринском районах и регулирование численности хищников. В Якутске прошло засе",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91287",
-    "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
+    "link": "https://t.me/yk24ru/91402",
+    "image": "https://cdn4.telesco.pe/file/bzTQlGZB5gP4Xg0rOpkVK_IRR10W51-A-xHgHiK2N9pfLtgXIYGIDcpXfzDmMdOWshtSnv61cREgMEqgceTwLTdf5jXxs03Zx1rFeAjnr61H0v1DkRuCELwUnYsOXvjceiUACsey93qlZoPVUD_3Q8NZiy_xKKIH-oFdot9y5z0nT9fSHxBdT53MOBI6FymZQjRDTzb78GCVTaZhxW0owLE9iLt6VMUoui9QO6gMndwJsOcJ7lyFuWTTPqJ0_a9gY0ZRvbz66TjK58ICfrzadUgoQpvflKqRfteUmyQoEefh3Le8QK0QGjZRbYG2MSY7ZsQTzBWu8Xyj90BpRxQe0A.jpg"
   },
   {
     "region": "Якутия",
@@ -3045,14 +3045,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/verhovnyj-sud-yakutii-ostavil-v-sile-prigovor-vinovniku-smertelnogo-dtp-s-molodym-sportsmenom"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Якутия",
     "date": "2026-10-27",
     "source": "Илкэн · Улгур",
-    "title": "Свежая рыба на столах пожилых",
-    "desc": "Абыйский район славится своими водоемами, где ловится немало разной рыбы. Главная водная и рыбная артерия",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/27/svezhaya-ryba-na-stolah-pozhilyh/"
+    "title": "«Герой Сергей»: история мужества, рассказанная на эвенском языке",
+    "desc": "В эфире передачи «Геван» вышло интервью с Сергеем Кривошапкиным, который в семнадцать лет спас товарища",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/27/geroj-sergej-istoriya-muzhestva-rasskazannaya-na-evenskom-yazyke/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3090,11 +3090,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-13",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Более 924 тысяч тонн грузов доставили в Якутию с начала навигации Всего 958 тысяч тонн жизнеобеспечивающих грузов для нужд республики, или 94,9% от плана отгрузили с начала нави",
-    "desc": "Более 924 тысяч тонн грузов доставили в Якутию с начала навигации Всего 958 тысяч тонн жизнеобеспечивающих грузов для нужд республики, или 94,9% от плана отгрузили с начала навигации. Доставили 924,6 тысяч тонн, или 91,6% от планового объема. План завоза грузов для нужд Якутии в навигацию 2026 года составляет 1 009,5 тысяч тонн. «Завоз грузов в арктические районы республики находится на еженедельном контроле минис",
+    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов п",
+    "desc": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза, в том числе по частичной замене бюджетных кредитов федеральными субсидиями. Подробнее читайте по ссылке yk24.ru в MAКС | Telegram | ВК | VK Видео",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91300",
+    "link": "https://t.me/yk24ru/91287",
     "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
   },
   {
@@ -3158,14 +3158,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/v-yakutii-otremontiruyut-95-km-dorog-v-2026-godu"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-10-27",
     "source": "Илкэн · Улгур",
     "title": "Свежая рыба на столах пожилых",
     "desc": "Абыйский район славится своими водоемами, где ловится немало разной рыбы. Главная водная и рыбная артерия",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/27/svezhaya-ryba-na-stolah-pozhilyh/"
+    "link": "https://ilken.ru/evenki/2026/10/27/svezhaya-ryba-na-stolah-pozhilyh/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3201,14 +3201,14 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-09",
+    "date": "2026-10-13",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с",
-    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. Это стало возможным благодаря системной поддержке северного домашнего оленеводства и рыболовства — отраслей, которые н",
+    "title": "Более 924 тысяч тонн грузов доставили в Якутию с начала навигации Всего 958 тысяч тонн жизнеобеспечивающих грузов для нужд республики, или 94,9% от плана отгрузили с начала нави",
+    "desc": "Более 924 тысяч тонн грузов доставили в Якутию с начала навигации Всего 958 тысяч тонн жизнеобеспечивающих грузов для нужд республики, или 94,9% от плана отгрузили с начала навигации. Доставили 924,6 тысяч тонн, или 91,6% от планового объема. План завоза грузов для нужд Якутии в навигацию 2026 года составляет 1 009,5 тысяч тонн. «Завоз грузов в арктические районы республики находится на еженедельном контроле минис",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91206",
-    "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
+    "link": "https://t.me/yk24ru/91300",
+    "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
   },
   {
     "region": "Якутия",
@@ -3250,14 +3250,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/put-k-uglerodnoj-nejtralnosti-kak-dobycha-almazov-snizhaet-parnikovyj-effekt"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-26",
+    "region": "Якутия",
+    "date": "2026-10-27",
     "source": "Илкэн · Улгур",
-    "title": "Загадочное государство Бохай, или Ходите в музей",
-    "desc": "Есть у меня давняя привычка, можно сказать, традиция. Так, по приезду в любой населенный пункт,",
+    "title": "Свежая рыба на столах пожилых",
+    "desc": "Абыйский район славится своими водоемами, где ловится немало разной рыбы. Главная водная и рыбная артерия",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/26/zagadochnoe-gosudarstvo-bohaj-ili-hodite-v-muzej/"
+    "link": "https://ilken.ru/2026/10/27/svezhaya-ryba-na-stolah-pozhilyh/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3295,11 +3295,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-09",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Запасы топлива пополняют в Якутии к межсезонью В Якутию начала поступать очередная крупная партия нефтепродуктов общим объемом 30,3 тысячи тонн, или 521 вагон. Сейчас в пути нах",
-    "desc": "Запасы топлива пополняют в Якутии к межсезонью В Якутию начала поступать очередная крупная партия нефтепродуктов общим объемом 30,3 тысячи тонн, или 521 вагон. Сейчас в пути находятся 328 вагонов с 18,7 тысячи тонн бензина и дизельного топлива. Для своевременной доставки нефтепродуктов из Нижнего Бестяха в Якутск ежедневно задействовано более 30 бензовозов. Основная задача заключается в формировании достаточных за",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с",
+    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. Это стало возможным благодаря системной поддержке северного домашнего оленеводства и рыболовства — отраслей, которые н",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91190",
+    "link": "https://t.me/yk24ru/91206",
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
@@ -3344,14 +3344,14 @@ window.newsStories=[
     "link": "https://yakutia-daily.ru/matkapital-na-vtorogo-rebenka-v-2027-godu-mozhet-dostignut-1029-mln-rublej"
   },
   {
-    "region": "Приморский край",
+    "region": "Новости на эвенкийском",
     "date": "2026-10-26",
     "source": "Илкэн · Улгур",
     "title": "Загадочное государство Бохай, или Ходите в музей",
     "desc": "Есть у меня давняя привычка, можно сказать, традиция. Так, по приезду в любой населенный пункт,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/26/zagadochnoe-gosudarstvo-bohaj-ili-hodite-v-muzej/"
+    "link": "https://ilken.ru/evenki/2026/10/26/zagadochnoe-gosudarstvo-bohaj-ili-hodite-v-muzej/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3377,13 +3377,14 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-07",
+    "date": "2026-10-09",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Развитие Северного морского пути: перспективы сотрудничества России и Китая",
-    "desc": "«Якутия 24» сообщает о заявлении Владимира Путина на заседании клуба «Валдай» и рассматривает значение Северного морского пути для доставки грузов, северного завоза и экономики Якутии.",
-    "tags": "региональный контекст север традиционные промыслы",
+    "title": "Запасы топлива пополняют в Якутии к межсезонью В Якутию начала поступать очередная крупная партия нефтепродуктов общим объемом 30,3 тысячи тонн, или 521 вагон. Сейчас в пути нах",
+    "desc": "Запасы топлива пополняют в Якутии к межсезонью В Якутию начала поступать очередная крупная партия нефтепродуктов общим объемом 30,3 тысячи тонн, или 521 вагон. Сейчас в пути находятся 328 вагонов с 18,7 тысячи тонн бензина и дизельного топлива. Для своевременной доставки нефтепродуктов из Нижнего Бестяха в Якутск ежедневно задействовано более 30 бензовозов. Основная задача заключается в формировании достаточных за",
+    "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91101"
+    "link": "https://t.me/yk24ru/91190",
+    "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
     "region": "Якутия",
@@ -3427,14 +3428,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QdIBhgFBVV95cUxQTm1LMy1UVjBvWHZiMVhMbDN5Q3o3VW93VExfZWs3Z0hNaC1JSk9yNW1ERERiT0JsSVFjTjExbnVjUWRBbUwxdXcwMVZTSDF3YWNoTWw2b20wZTBySmtsWWQtU3dTdTduekhaVjhHVEhPWDB1R1VUUFlrZVZGbWFiRFpDUXo0QQ?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-25",
+    "region": "Приморский край",
+    "date": "2026-10-26",
     "source": "Илкэн · Улгур",
-    "title": "«Синильгэн» как завет беречь природу",
-    "desc": "Для эвенков Якутии первый снег — не просто смена сезона. Это «Синильгэн» (или «Синилгэн») —",
+    "title": "Загадочное государство Бохай, или Ходите в музей",
+    "desc": "Есть у меня давняя привычка, можно сказать, традиция. Так, по приезду в любой населенный пункт,",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/25/sinilgen-kak-zavet-berech-prirodu/"
+    "link": "https://ilken.ru/2026/10/26/zagadochnoe-gosudarstvo-bohaj-ili-hodite-v-muzej/"
   },
   {
     "region": "Общие новости",
@@ -3462,12 +3463,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-07",
     "source": "Новости «Якутия 24» · Telegram",
-    "title": "Племенная база Якутии представлена 32 профильными организациями Племенная база Якутии представлена 32 профильными организациями: восемь хозяйств специализируются на молочном скот",
-    "desc": "Племенная база Якутии представлена 32 профильными организациями Племенная база Якутии представлена 32 профильными организациями: восемь хозяйств специализируются на молочном скотоводстве, 19 — на коневодстве, пять — на оленеводстве. Работа данных предприятий формирует фундамент продовольственной безопасности и устойчивого развития северных территорий. Всего в племенных предприятиях республики насчитывают более четы",
-    "tags": "северные регионы снабжение охота рыболовство",
+    "title": "Развитие Северного морского пути: перспективы сотрудничества России и Китая",
+    "desc": "«Якутия 24» сообщает о заявлении Владимира Путина на заседании клуба «Валдай» и рассматривает значение Северного морского пути для доставки грузов, северного завоза и экономики Якутии.",
+    "tags": "региональный контекст север традиционные промыслы",
     "relevance": "context",
-    "link": "https://t.me/yk24ru/91138",
-    "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
+    "link": "https://t.me/yk24ru/91101"
   },
   {
     "region": "Бурятия",
@@ -3492,11 +3492,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-25",
     "source": "Илкэн · Улгур",
-    "title": "Бэгину Борису Николаеву – с юбилеем!",
-    "desc": "Борис Ануфриевич Николаев — выдающийся государственный и общественный деятель Республики Саха (Якутия), чья биография неразрывно",
+    "title": "«Синильгэн» как завет беречь природу",
+    "desc": "Для эвенков Якутии первый снег — не просто смена сезона. Это «Синильгэн» (или «Синилгэн») —",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/25/beginu-borisu-nikolaevu-s-yubileem/"
+    "link": "https://ilken.ru/2026/10/25/sinilgen-kak-zavet-berech-prirodu/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3521,6 +3521,17 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-07",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Племенная база Якутии представлена 32 профильными организациями Племенная база Якутии представлена 32 профильными организациями: восемь хозяйств специализируются на молочном скот",
+    "desc": "Племенная база Якутии представлена 32 профильными организациями Племенная база Якутии представлена 32 профильными организациями: восемь хозяйств специализируются на молочном скотоводстве, 19 — на коневодстве, пять — на оленеводстве. Работа данных предприятий формирует фундамент продовольственной безопасности и устойчивого развития северных территорий. Всего в племенных предприятиях республики насчитывают более четы",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91138",
+    "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
+  },
+  {
     "region": "Бурятия",
     "date": "2026-09-11",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -3541,13 +3552,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "source": "Илкэн · Улгур",
-    "title": "Памяти этномузыковеда Шейкина",
-    "desc": "Голоса тайги, шепот тундры и танец солнца: как в Якутске ожила музыкальная этнография 15 октября",
+    "title": "Бэгину Борису Николаеву – с юбилеем!",
+    "desc": "Борис Ануфриевич Николаев — выдающийся государственный и общественный деятель Республики Саха (Якутия), чья биография неразрывно",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/pamyati-etnomuzykoveda-shejkina/"
+    "link": "https://ilken.ru/2026/10/25/beginu-borisu-nikolaevu-s-yubileem/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3594,11 +3605,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-24",
     "source": "Илкэн · Улгур",
-    "title": "Эвенский свадебный обряд «Манаридяк» вошёл в Федеральный реестр этнокультурного достояния",
-    "desc": "Магаданская область впервые вошла в Федеральный реестр объектов нематериального этнокультурного достояния народов России, что стало",
+    "title": "Памяти этномузыковеда Шейкина",
+    "desc": "Голоса тайги, шепот тундры и танец солнца: как в Якутске ожила музыкальная этнография 15 октября",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/evenskij-svadebnyj-obryad-manaridyak-voshyol-v-federalnyj-reestr-etnokulturnogo-dostoyaniya/"
+    "link": "https://ilken.ru/2026/10/24/pamyati-etnomuzykoveda-shejkina/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3645,11 +3656,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-24",
     "source": "Илкэн · Улгур",
-    "title": "Юные хранители традиции: русскоустьинские школьники покорили «Старт в науке—2026»",
-    "desc": "В «Сириусе» завершился XXIX Всероссийский международный конкурс научно‑исследовательских и творческих работ учащихся «Старт в науке",
+    "title": "Эвенский свадебный обряд «Манаридяк» вошёл в Федеральный реестр этнокультурного достояния",
+    "desc": "Магаданская область впервые вошла в Федеральный реестр объектов нематериального этнокультурного достояния народов России, что стало",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/yunye-hraniteli-tradiczii-russkoustinskie-shkolniki-pokorili-start-v-nauke-2026/"
+    "link": "https://ilken.ru/2026/10/24/evenskij-svadebnyj-obryad-manaridyak-voshyol-v-federalnyj-reestr-etnokulturnogo-dostoyaniya/"
   },
   {
     "region": "Амурская область",
@@ -3684,13 +3695,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "source": "Илкэн · Улгур",
-    "title": "Код Севера: Этно-лаборатория наследия",
-    "desc": "С 25 октября по 4 ноября Дом дружбы народов имени А.Е. Кулаковского приглашает на Международную",
+    "title": "Юные хранители традиции: русскоустьинские школьники покорили «Старт в науке—2026»",
+    "desc": "В «Сириусе» завершился XXIX Всероссийский международный конкурс научно‑исследовательских и творческих работ учащихся «Старт в науке",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/kod-severa-etno-laboratoriya-naslediya/"
+    "link": "https://ilken.ru/2026/10/24/yunye-hraniteli-tradiczii-russkoustinskie-shkolniki-pokorili-start-v-nauke-2026/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3718,11 +3729,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Елена Голомарева поблагодарила Юрия Трутнева за поддержку инициатив для Якутии",
-    "desc": "Трутнев занимал пост полпреда в ДФО с 2013 года Председатель комитета Государственного Собрания (Ил Тумэн)",
+    "title": "Код Севера: Этно-лаборатория наследия",
+    "desc": "С 25 октября по 4 ноября Дом дружбы народов имени А.Е. Кулаковского приглашает на Международную",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/elena-golomareva-poblagodarila-yuriya-trutneva-za-podderzhku-inicziativ-dlya-yakutii/"
+    "link": "https://ilken.ru/2026/10/23/kod-severa-etno-laboratoriya-naslediya/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3747,14 +3758,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Мы родом из кафедры северной филологии",
-    "desc": "Кафедра северной филологии отпраздновала 35‑летний юбилей! Первые два дня прошли в стенах нашей альма-матер –",
+    "title": "Елена Голомарева поблагодарила Юрия Трутнева за поддержку инициатив для Якутии",
+    "desc": "Трутнев занимал пост полпреда в ДФО с 2013 года Председатель комитета Государственного Собрания (Ил Тумэн)",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/my-rodom-iz-kafedry-severnoj-filologii/"
+    "link": "https://ilken.ru/2026/10/23/elena-golomareva-poblagodarila-yuriya-trutneva-za-podderzhku-inicziativ-dlya-yakutii/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3779,14 +3790,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/lZ2cKAyLM_UZhsh_27FdMR0ToOB3GRWVkbixRqNsycWlawxMRZ4YhX68lyEXtrCBz3kHd9kSGUnwfXHap0pq4HqOKlxWScYpCRbuuC2g-NrnxmTy3kSnXMd5mnDQvkwv2OAKbq-xwgkoE_LpF_x44fXqo7QpDMb117wXsjDwOgypUAQnvUL65P3G1-QFdqYHtozeJxA2eoUv52eejGSYCs4o6rTwcmHTRHyBVN3Lt8vfoh2GOm3JpQCG77ZENx1xM2hfGXCgKjf52O2gmaf5i7_WTGNXpq8xG7rhuhuTDLUAnieLss9PpYA6LLK6Wawt0wmQ7tx9Sy5UQ-8DhSA5bw.jpg"
   },
   {
-    "region": "Якутия",
+    "region": "Общие новости",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Якутия подводит итоги экологического сезона проекта “Чистая Арктика” в 2026 году",
-    "desc": "Вот уже 5 лет на Крайнем Севере, в том числе и в Якутии, работают волонтёры",
+    "title": "Мы родом из кафедры северной филологии",
+    "desc": "Кафедра северной филологии отпраздновала 35‑летний юбилей! Первые два дня прошли в стенах нашей альма-матер –",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
+    "link": "https://ilken.ru/2026/10/23/my-rodom-iz-kafedry-severnoj-filologii/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3814,11 +3825,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Якутиян итогилва экологическай проектва «Дучама Арктика» 2026 анӈаниду очан",
-    "desc": "Тунӈа анӈанива Крайняй Северду, якутияду волонтерил экологическай проектули «Дучама Арктика» тэԧинду севернай дуннэвэ хавалдяра. Нюӈи",
+    "title": "Якутия подводит итоги экологического сезона проекта “Чистая Арктика” в 2026 году",
+    "desc": "Вот уже 5 лет на Крайнем Севере, в том числе и в Якутии, работают волонтёры",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
+    "link": "https://ilken.ru/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3844,13 +3855,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "“Синилгэн” совсем скоро: встречаем первый снег вместе!",
-    "desc": "Ассоциация эвенков Республики Саха (Якутия), Молодежный совет эвенков “Геван”, Родовая община эвенков имени А.К. Ильинова",
+    "title": "Якутиян итогилва экологическай проектва «Дучама Арктика» 2026 анӈаниду очан",
+    "desc": "Тунӈа анӈанива Крайняй Северду, якутияду волонтерил экологическай проектули «Дучама Арктика» тэԧинду севернай дуннэвэ хавалдяра. Нюӈи",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/22/sinilgen-sovsem-skoro-vstrechaem-pervyj-sneg-vmeste/"
+    "link": "https://ilken.ru/evenki/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3878,11 +3889,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "Язык предков в формате 2D: в СВФУ презентовали уникальные мультфильмы на чукотском и долганском языках",
-    "desc": "В Северо-Восточном федеральном университете им. М.К. Аммосова прошло знаковое событие, приуроченное к 35-летию кафедры северной",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/22/yazyk-predkov-v-formate-2d-v-svfu-prezentovali-unikalnye-multfilmy-na-chukotskom-i-dolganskom-yazykah/"
+    "title": "“Синилгэн” совсем скоро: встречаем первый снег вместе!",
+    "desc": "Ассоциация эвенков Республики Саха (Якутия), Молодежный совет эвенков “Геван”, Родовая община эвенков имени А.К. Ильинова",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/22/sinilgen-sovsem-skoro-vstrechaem-pervyj-sneg-vmeste/"
   },
   {
     "region": "Общие новости",
@@ -3910,11 +3921,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "В районе создан Совет представителей КМНС",
-    "desc": "В администрации района недавно прошло первое заседание Совета представителей коренных малочисленных народов Севера Республики Саха",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/22/v-rajone-sozdan-sovet-predstavitelej-kmns/"
+    "title": "Язык предков в формате 2D: в СВФУ презентовали уникальные мультфильмы на чукотском и долганском языках",
+    "desc": "В Северо-Восточном федеральном университете им. М.К. Аммосова прошло знаковое событие, приуроченное к 35-летию кафедры северной",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/22/yazyk-predkov-v-formate-2d-v-svfu-prezentovali-unikalnye-multfilmy-na-chukotskom-i-dolganskom-yazykah/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3938,14 +3949,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "Больше, чем спонсорство",
-    "desc": "В 2017 году «Полиметалл» начал работу в Томпонском районе. Горняки открыли здесь не только богатство",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/22/bolshe-chem-sponsorstvo/"
+    "title": "В районе создан Совет представителей КМНС",
+    "desc": "В администрации района недавно прошло первое заседание Совета представителей коренных малочисленных народов Севера Республики Саха",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/22/v-rajone-sozdan-sovet-predstavitelej-kmns/"
   },
   {
     "region": "Еврейская автономная область",
@@ -3969,14 +3980,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
-    "region": "Новости на эвенкийском",
+    "region": "Общие новости",
     "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "Волонтер Аллайхадук кусимнилду СВОла 150 кг олгивчава оллово тадук ёкодылва котолво эмурэн",
-    "desc": "Сардана Лебедева волонтер Аллаиховскай улустук, нян айкитылдула иду кусимнил айдяра, ӈэнэрэн. Нуӈан кусимнилду 150 кг",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/22/volontyor-iz-allaihovskogo-rajona-dostavit-bojczam-svo-150-kg-yukoly-i-yakutskie-nozhi/"
+    "title": "Больше, чем спонсорство",
+    "desc": "В 2017 году «Полиметалл» начал работу в Томпонском районе. Горняки открыли здесь не только богатство",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/22/bolshe-chem-sponsorstvo/"
   },
   {
     "region": "Общие новости",
@@ -4001,14 +4012,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/L5zR3CxMAwinVsvftjsOV_dNZ5O_SDJeuDWs2nwReuKHZAFb3yNtVlU4WFzBAWmlgdZnbS58PW4uRHVu1AbhkIBg7VlGs3dlOYagmKAS6BZC-wVmgDHBjwtSzSW7wPDIP5fr2m5BMEH8m8qxsrAXPQOIKULbnTlxpPz794cN4HMO79tXkJbiMtyLSWCb0dFvz7_ScrlOYCdw9aV0rz9YZAQC0t1L-f1WqDt5Vc8993pGM0UW8ktyfvyPUDClLBIYsR7QHC_QFLZw-4z6aJP_HGq0ge2OoIF4yGWiWv-S8g6anl7hjVqG4yYRCEdQOpCrXCGWopY6cHjqhfEsRSf3hA.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-21",
+    "region": "Новости на эвенкийском",
+    "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "В Арктике завершили летнюю путину",
-    "desc": "В этом году промышленным выловом в низовьях северных рек занимались 145 бригад (468 человек). Добыто",
+    "title": "Волонтер Аллайхадук кусимнилду СВОла 150 кг олгивчава оллово тадук ёкодылва котолво эмурэн",
+    "desc": "Сардана Лебедева волонтер Аллаиховскай улустук, нян айкитылдула иду кусимнил айдяра, ӈэнэрэн. Нуӈан кусимнилду 150 кг",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/21/v-arktike-zavershili-letnyuyu-putinu/"
+    "link": "https://ilken.ru/evenki/2026/10/22/volontyor-iz-allaihovskogo-rajona-dostavit-bojczam-svo-150-kg-yukoly-i-yakutskie-nozhi/"
   },
   {
     "region": "Еврейская автономная область",
@@ -4036,11 +4047,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-21",
     "source": "Илкэн · Улгур",
-    "title": "Оленеводы вышли на зимние пастбища. Впереди корализация и забой",
-    "desc": "Давненько мы не подсчитывали поголовье наших домашних оленей. Итак, как сообщает отдел традиционных отраслей Севера",
+    "title": "В Арктике завершили летнюю путину",
+    "desc": "В этом году промышленным выловом в низовьях северных рек занимались 145 бригад (468 человек). Добыто",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/21/olenevody-vyshli-na-zimnie-pastbishha-vperedi-koralizacziya-i-zaboj-2/"
+    "link": "https://ilken.ru/2026/10/21/v-arktike-zavershili-letnyuyu-putinu/"
   },
   {
     "region": "Еврейская автономная область",
@@ -4063,14 +4074,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
-    "region": "Новости на эвенкийском",
-    "date": "2026-10-20",
+    "region": "Якутия",
+    "date": "2026-10-21",
     "source": "Илкэн · Улгур",
-    "title": "Жиганцы отметили праздник «Синилгэн»",
-    "desc": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
+    "title": "Оленеводы вышли на зимние пастбища. Впереди корализация и забой",
+    "desc": "Давненько мы не подсчитывали поголовье наших домашних оленей. Итак, как сообщает отдел традиционных отраслей Севера",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/"
+    "link": "https://ilken.ru/2026/10/21/olenevody-vyshli-na-zimnie-pastbishha-vperedi-koralizacziya-i-zaboj-2/"
   },
   {
     "region": "Красноярский край",
@@ -4084,14 +4095,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/SvkLN8kxU1yKW5-bM2VcgX5tBDlKK5dZoGdd5ku6Zp8Kbr-ShwA2IFqqytGnexLi7SKX4NQLpavJBCTDKZTHUPA8xjuUFOGIPlcks8S-Wg_cI5gZOlsBq_LKUguI4ZdJGkYddbLhMZlrJ92eW4GTboHBpxzHm_5vkYR35_r1eg4PB1uwg420-IHsn_zUmHzKHRi4L18xiDtc2R64EBJppwI584yty4uWQICNcQtaEo6KLsHIzlKrnEAIRs5jEgMsjgsrCJHIgoB28tkkbWHqUX7Obf7esnaafOaUDw4EmZgM6RMI10ZFnoyija2sTqwkfifC_Ygo5Q-zKx0j8hZgfQ.jpg"
   },
   {
-    "region": "Якутия",
+    "region": "Новости на эвенкийском",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "Традиционные знания и локальные продовольственные системы: Проектный офис представил предложения по устойчивому развитию территорий КМН",
-    "desc": "В Аграрно-технологическом институте РУДН им. Патриса Лумумбы состоялся круглый стол, посвящённый продовольственным системам коренных народов.",
+    "title": "Жиганцы отметили праздник «Синилгэн»",
+    "desc": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/20/tradiczionnye-znaniya-i-lokalnye-prodovolstvennye-sistemy-proektnyj-ofis-predstavil-predlozheniya-po-ustojchivomu-razvitiyu-territorij-kmn/"
+    "link": "https://ilken.ru/evenki/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/"
   },
   {
     "region": "Красноярский край",
@@ -4107,11 +4118,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "Олёкминские горизонты: как локальные идеи могут изменить жизнь в якутской глубинке",
-    "desc": "Олёкминский район Якутии – место удивительных контрастов. Здесь, посреди глухой тайги, вековой уклад сибирских деревень",
+    "title": "Традиционные знания и локальные продовольственные системы: Проектный офис представил предложения по устойчивому развитию территорий КМН",
+    "desc": "В Аграрно-технологическом институте РУДН им. Патриса Лумумбы состоялся круглый стол, посвящённый продовольственным системам коренных народов.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/20/olyokminskie-gorizonty-kak-lokalnye-idei-mogut-izmenit-zhizn-v-yakutskoj-glubinke/"
+    "link": "https://ilken.ru/2026/10/20/tradiczionnye-znaniya-i-lokalnye-prodovolstvennye-sistemy-proektnyj-ofis-predstavil-predlozheniya-po-ustojchivomu-razvitiyu-territorij-kmn/"
   },
   {
     "region": "Красноярский край",
@@ -4127,11 +4138,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "Концерт Олимпии — настоящий праздник северной эстрады",
-    "desc": "18 и 19 октября в Государственном театре оперы и балета имени Д.К. Сивцева — Суоруна",
+    "title": "Олёкминские горизонты: как локальные идеи могут изменить жизнь в якутской глубинке",
+    "desc": "Олёкминский район Якутии – место удивительных контрастов. Здесь, посреди глухой тайги, вековой уклад сибирских деревень",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady/"
+    "link": "https://ilken.ru/2026/10/20/olyokminskie-gorizonty-kak-lokalnye-idei-mogut-izmenit-zhizn-v-yakutskoj-glubinke/"
   },
   {
     "region": "Красноярский край",
@@ -4147,11 +4158,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "Хранители тундры. Как семья Ачикасовых из Булунского района сохранила традиции оленеводства и память о предках",
-    "desc": "Семья играет для людей важную роль. Самой природой заложены в человеке зависимость, необходимость, трепетное отношение",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/"
+    "title": "Концерт Олимпии — настоящий праздник северной эстрады",
+    "desc": "18 и 19 октября в Государственном театре оперы и балета имени Д.К. Сивцева — Суоруна",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/20/konczert-olimpii-nastoyashhij-prazdnik-severnoj-estrady/"
   },
   {
     "region": "Красноярский край",
@@ -4167,11 +4178,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "Жиганцы отметили праздник «Синилгэн»",
-    "desc": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/"
+    "title": "Хранители тундры. Как семья Ачикасовых из Булунского района сохранила традиции оленеводства и память о предках",
+    "desc": "Семья играет для людей важную роль. Самой природой заложены в человеке зависимость, необходимость, трепетное отношение",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/"
   },
   {
     "region": "Красноярский край",
@@ -4185,13 +4196,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "source": "Илкэн · Улгур",
-    "title": "МАТЕРИНСКИЙ НАКАЗ — ПУТЕВОДНАЯ НИТЬ ЖИЗНИ",
-    "desc": "Ко дню рождения народного писателя Якутии Андрея Васильевича Кривошапкина и Дню матери в Республике Саха",
+    "title": "Жиганцы отметили праздник «Синилгэн»",
+    "desc": "Жители Жиганска, почитающие эвенкийские традиции, на днях провели праздник «Синилгэн», встречу зимы и начало охотничьего",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/18/materinskij-nakaz-putevodnaya-nit-zhizni/"
+    "link": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/"
   },
   {
     "region": "Красноярский край",
@@ -4202,6 +4213,26 @@ window.newsStories=[
     "tags": "эвенки культура коренные народы",
     "relevance": "direct",
     "link": "https://t.me/evenkya_life/12640"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-18",
+    "source": "Илкэн · Улгур",
+    "title": "МАТЕРИНСКИЙ НАКАЗ — ПУТЕВОДНАЯ НИТЬ ЖИЗНИ",
+    "desc": "Ко дню рождения народного писателя Якутии Андрея Васильевича Кривошапкина и Дню матери в Республике Саха",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/18/materinskij-nakaz-putevodnaya-nit-zhizni/"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-07",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
+    "desc": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают поддержку к промысловому сезону. В этом году единовременную социальную выплату в размере 27 989 рублей получили 753 промысловика. Кроме этого, им компенсируют расходы на горюче-смазочные материалы и доставку на промысловые участки воздушным тран",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12622",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
     "region": "Якутия",
@@ -4217,10 +4248,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
-    "desc": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают поддержку к промысловому сезону. В этом году единовременную социальную выплату в размере 27 989 рублей получили 753 промысловика. Кроме этого, им компенсируют расходы на горюче-смазочные материалы и доставку на промысловые участки воздушным тран",
+    "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
+    "desc": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Александра Зарубина с заместителем министра тарифной политики Красноярского края Алексеем Андреевым. На ней обсуждены вопросы корректировки новых тарифов на электроэнергию и расчетов потребления. Замминистра проинформировал о том, что соответству",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12622",
+    "link": "https://t.me/evenkya_life/12625",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
@@ -4237,10 +4268,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
-    "desc": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Александра Зарубина с заместителем министра тарифной политики Красноярского края Алексеем Андреевым. На ней обсуждены вопросы корректировки новых тарифов на электроэнергию и расчетов потребления. Замминистра проинформировал о том, что соответству",
+    "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
+    "desc": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также прокомментировал текущую ситуацию со снабжением территории. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12625",
+    "link": "https://t.me/evenkya_life/12638",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
@@ -4257,11 +4288,11 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
-    "desc": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также прокомментировал текущую ситуацию со снабжением территории. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12638",
-    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+    "title": "В Красноярске дебютировал национальный коллектив «Дюкэкон»",
+    "desc": "В коллективе выступают молодые представители коренных народов из Эвенкии и Таймыра. Дебют состоялся на «Сокровищах Севера» и «Кочевье Севера»; в репертуаре — эвенкийские танцы.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12635"
   },
   {
     "region": "Якутия",
@@ -4275,13 +4306,13 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-07",
+    "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Красноярске дебютировал национальный коллектив «Дюкэкон»",
-    "desc": "В коллективе выступают молодые представители коренных народов из Эвенкии и Таймыра. Дебют состоялся на «Сокровищах Севера» и «Кочевье Севера»; в репертуаре — эвенкийские танцы.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12635"
+    "title": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два деся",
+    "desc": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два десятка лет Мария Кирилловна не живет в Эвенкии – она выехала в Красноярск, в город с более мягкими климатическими условиями, – ее сердце навсегда осталось на Севере и с эвенкийцами. Рассказываем о её жизни. Прислать новость @newsevenkia_bot",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12611",
+    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
     "region": "Якутия",
@@ -4297,10 +4328,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два деся",
-    "desc": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два десятка лет Мария Кирилловна не живет в Эвенкии – она выехала в Красноярск, в город с более мягкими климатическими условиями, – ее сердце навсегда осталось на Севере и с эвенкийцами. Рассказываем о её жизни. Прислать новость @newsevenkia_bot",
+    "title": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решил",
+    "desc": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решили уточнить, действительно ли в местном магазине есть дефицит самых необходимых продуктов, и обратились за комментарием к главе поселка Надежде Удыгир. По ее словам, основные продукты в магазине есть, и имеющихся запасов хватит до открытия з",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12611",
+    "link": "https://t.me/evenkya_life/12601",
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
@@ -4317,10 +4348,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решил",
-    "desc": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решили уточнить, действительно ли в местном магазине есть дефицит самых необходимых продуктов, и обратились за комментарием к главе поселка Надежде Удыгир. По ее словам, основные продукты в магазине есть, и имеющихся запасов хватит до открытия з",
+    "title": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем",
+    "desc": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем необходимым до открытия зимней дороги. По его информации, основные продовольственные товары завезли ранее, их достаточно на межсезонный период. На полках есть мука, сахар, растительное и сливочное масло, крупы, макаронные изделия, колбаса,",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12601",
+    "link": "https://t.me/evenkya_life/12609",
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
@@ -4337,10 +4368,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем",
-    "desc": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем необходимым до открытия зимней дороги. По его информации, основные продовольственные товары завезли ранее, их достаточно на межсезонный период. На полках есть мука, сахар, растительное и сливочное масло, крупы, макаронные изделия, колбаса,",
+    "title": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и",
+    "desc": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и поселках Илимпии, постановлением администрации Эвенкии на территории этих населенных пунктов введен режим функционирования «Повышенная готовность». При этом в местных магазинах в наличии основные товары длительного хранения: овощные, рыбные",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12609",
+    "link": "https://t.me/evenkya_life/12617",
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
@@ -4358,11 +4389,12 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и",
-    "desc": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и поселках Илимпии, постановлением администрации Эвенкии на территории этих населенных пунктов введен режим функционирования «Повышенная готовность». При этом в местных магазинах в наличии основные товары длительного хранения: овощные, рыбные",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12617",
-    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
+    "title": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет бол",
+    "desc": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет большая медиатусовка с яркими перформансами, интерактивными площадками, фотозонами и встречами с журналистами, которых в этот вечер можно будет увидеть совсем с другой стороны – вне привычной рабочей атмосферы. Свою творческую площадку подгото",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12621",
+    "image": "https://cdn4.telesco.pe/file/cNaCIwUb0ZVPCzrAi--bhW_W5ANDrHry-rfTE-q2mJiX__BBOq10BH-o_Y7-5nStpsBj5jdrKK68AvtHBJes_b8jd8gxL38zc4FtAWcnEqkmfV8RtDK1hreE-6PBHQxidnmRvTkgsvjFn2UvuEBQEOA6Gl3ehNRHN8SemXxYUIIagab_HjG654tI_oYOOlxpgvTN7zCIK5tHNWK3Hywsq66Lcy3yRJcL4P3mVakCoh5WVYz5UZYTkznSE6i8DSIBURvYu-HisPScBvl6jn9WMpu-2-drE_X9lo7PD4lIUiDxb9lmdVfDI6FpBrxsTP4O7MvAkL_TjFs16aI0qKlBuw.jpg"
   },
   {
     "region": "Якутия",
@@ -4373,17 +4405,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://ilken.ru/2026/10/12/ajsen-nikolaev-severnyj-forum-po-ustojchivomu-razvitiyu-stal-ploshhadkoj-mezhdunarodnogo-ekspertnogo-dialoga/"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-06",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет бол",
-    "desc": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет большая медиатусовка с яркими перформансами, интерактивными площадками, фотозонами и встречами с журналистами, которых в этот вечер можно будет увидеть совсем с другой стороны – вне привычной рабочей атмосферы. Свою творческую площадку подгото",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12621",
-    "image": "https://cdn4.telesco.pe/file/cNaCIwUb0ZVPCzrAi--bhW_W5ANDrHry-rfTE-q2mJiX__BBOq10BH-o_Y7-5nStpsBj5jdrKK68AvtHBJes_b8jd8gxL38zc4FtAWcnEqkmfV8RtDK1hreE-6PBHQxidnmRvTkgsvjFn2UvuEBQEOA6Gl3ehNRHN8SemXxYUIIagab_HjG654tI_oYOOlxpgvTN7zCIK5tHNWK3Hywsq66Lcy3yRJcL4P3mVakCoh5WVYz5UZYTkznSE6i8DSIBURvYu-HisPScBvl6jn9WMpu-2-drE_X9lo7PD4lIUiDxb9lmdVfDI6FpBrxsTP4O7MvAkL_TjFs16aI0qKlBuw.jpg"
   },
   {
     "region": "Общие новости",
