@@ -3,11 +3,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-10",
     "source": "内蒙古新闻网",
-    "title": "走进冬日敖鲁古雅 - 内蒙古新闻网",
-    "desc": "走进冬日敖鲁古雅 内蒙古新闻网",
+    "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
+    "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jWWFFcmhMeGZHUjRidHUydV9LOU5OUFhuWmVvcGRKM1NuQmpSLTFsOVphV1hJTjlBcExGbWk0am9IWnJHNG1jUDJJVHpFaVdVMHlyQmdhRUFGczFGejVSQUlzd3l2WDhFYmZDaEplSQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jWWFFcmhMeGZHUjRidHUydV9LOU5OUFhuWmVvcGRKM1NuQmpSLTFsOVphV1hJTjlBcExGbWk0am9IWnJHNG1jUDJJVHpFaVdVMHlyQmdhRUFGczFGejVSQUlzd3l2WDhFYmZDaEplSQ?oc=5",
+    "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
   },
   {
     "region": "Якутия",
@@ -398,11 +399,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-02",
     "source": "QQ News",
-    "title": "鄂伦春小调在现实中更震撼 - QQ News",
-    "desc": "鄂伦春小调在现实中更震撼 QQ News",
+    "title": "Орочонская народная песня сильнее звучит вживую",
+    "desc": "Короткий материал посвящён орочонской народной песне: автор отмечает, что живое исполнение производит особенно сильное впечатление. Публикация знакомит с музыкальной традицией орочонов.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BV0l0eE05TzdORGoyV0R5V2NGWHhySDZLQm5RS3luaTc1ZWhhbDlXSzFuRkZIWVA0SS12SHhiN3JLY2dMUHQyWXhBV3NjVldZelVFbU1B?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BV0l0eE05TzdORGoyV0R5V2NGWHhySDZLQm5RS3luaTc1ZWhhbDlXSzFuRkZIWVA0SS12SHhiN3JLY2dMUHQyWXhBV3NjVldZelVFbU1B?oc=5",
+    "overviewRu": "Короткий материал посвящён орочонской народной песне: автор отмечает, что живое исполнение производит особенно сильное впечатление. Публикация знакомит с музыкальной традицией орочонов."
   },
   {
     "region": "Хабаровский край",
@@ -1435,11 +1437,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
-    "title": "走进冬日敖鲁古雅 - 新华网",
-    "desc": "走进冬日敖鲁古雅 新华网",
+    "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
+    "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMnRYd1JLWXBVOHV2TFUtRGVrNXdzQXM0SU4tN3VnWC1GeVk5S2kwcldQZnhBSERVZ0JZbmU3dXE3V0JyOEtNekJoVWN0Y3NnSW9naEF3YUdMUVVweENITjJjYkQ2M2hydW5VX3c1S2dtaDFoRzRtdjlFSnV1OEtXV3AzYw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMnRYd1JLWXBVOHV2TFUtRGVrNXdzQXM0SU4tN3VnWC1GeVk5S2kwcldQZnhBSERVZ0JZbmU3dXE3V0JyOEtNekJoVWN0Y3NnSW9naEF3YUdMUVVweENITjJjYkQ2M2hydW5VX3c1S2dtaDFoRzRtdjlFSnV1OEtXV3AzYw?oc=5",
+    "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
   },
   {
     "region": "Якутия",
@@ -2136,11 +2139,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
-    "title": "走进冬日敖鲁古雅 - 新华网",
-    "desc": "走进冬日敖鲁古雅 新华网",
+    "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
+    "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRDFiWGdWSTRrLVFHb1ZuT2JjejlMbktrOUxTN1ZZWV9FVlNrcFR3bVRCVzE5RlB2ejZ4aVhrNnlNQ2NmbllxTGYtZ0N1VEhrVUo0SkJ6eVBwTjIzZFZfSHoyLV9TNnFoZFdrdUVPNVZFU0o0NWc?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRDFiWGdWSTRrLVFHb1ZuT2JjejlMbktrOUxTN1ZZWV9FVlNrcFR3bVRCVzE5RlB2ejZ4aVhrNnlNQ2NmbllxTGYtZ0N1VEhrVUo0SkJ6eVBwTjIzZFZfSHoyLV9TNnFoZFdrdUVPNVZFU0o0NWc?oc=5",
+    "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
   },
   {
     "region": "Якутия",
@@ -2549,11 +2553,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
-    "title": "听使鹿部落鄂温克族最后一代猎民吹一曲口琴 - 新华网",
-    "desc": "听使鹿部落鄂温克族最后一代猎民吹一曲口琴 新华网",
+    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
+    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1BWelBBdG01Y2JHaU5Gc3NsNFd6RXA1Y0FkVGs2RW5sRHVaVFhrRnNPNl8yZWlnZnEzejVWbkd4ODZDbWE1OHpSNHQ1enNSdnNHOXVtYTY2UTBTY29TQXZVVXpxYjFuX0RFQUsxbnBOMUcteXZlQkZVV3pZRGczRkNuUQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1BWelBBdG01Y2JHaU5Gc3NsNFd6RXA1Y0FkVGs2RW5sRHVaVFhrRnNPNl8yZWlnZnEzejVWbkd4ODZDbWE1OHpSNHQ1enNSdnNHOXVtYTY2UTBTY29TQXZVVXpxYjFuX0RFQUsxbnBOMUcteXZlQkZVV3pZRGczRkNuUQ?oc=5",
+    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
   },
   {
     "region": "Якутия",
@@ -2822,11 +2827,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "手机网易网",
-    "title": "《小城良方》主演王彦霖唱响鄂伦春经典民歌 - 手机网易网",
-    "desc": "《小城良方》主演王彦霖唱响鄂伦春经典民歌 手机网易网",
+    "title": "Актёр Ван Яньлин исполнил классическую орочонскую народную песню",
+    "desc": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sei1xb1g2NE1KOUdidjFrZk1PeFhNWWpPWDFQSWQ1Ums5RUtReVFjazk5OE1XVG9vQWpWUWtHc2RQbWpZWXRaQnJhTmJyQzFtVGNEMQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sei1xb1g2NE1KOUdidjFrZk1PeFhNWWpPWDFQSWQ1Ums5RUtReVFjazk5OE1XVG9vQWpWUWtHc2RQbWpZWXRaQnJhTmJyQzFtVGNEMQ?oc=5",
+    "overviewRu": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа."
   },
   {
     "region": "Якутия",
@@ -3056,11 +3062,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
-    "title": "听使鹿部落鄂温克族最后一代猎民吹一曲口琴 - 新华网",
-    "desc": "听使鹿部落鄂温克族最后一代猎民吹一曲口琴 新华网",
+    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
+    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mTVEyaTVOVXkxaHFjb1dMa1EzdXFOMnpkZmVzdUtpc3JKdF9FSHR6QWlqMFBQQWVLb2I3dXo1dVFFMkszZEFDLTY1WE14b1BIaDl4NEpqZ0hWSjF4OTNfbElSRHNfTzBCM3E2U3ViVjU5SzBCTkE?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mTVEyaTVOVXkxaHFjb1dMa1EzdXFOMnpkZmVzdUtpc3JKdF9FSHR6QWlqMFBQQWVLb2I3dXo1dVFFMkszZEFDLTY1WE14b1BIaDl4NEpqZ0hWSjF4OTNfbElSRHNfTzBCM3E2U3ViVjU5SzBCTkE?oc=5",
+    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
   },
   {
     "region": "Якутия",
@@ -3250,11 +3257,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-06",
     "source": "凤凰网",
-    "title": "燃动冷极！马拉松选手专属——敖鲁古雅游玩福利重磅上线 - 凤凰网",
-    "desc": "燃动冷极！马拉松选手专属——敖鲁古雅游玩福利重磅上线 凤凰网",
+    "title": "Для участников марафона подготовили поездки в Аолугуя",
+    "desc": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zcl9fbkIzU05naEpPSDU3Z1lSU2dseFZXMWZUSW41SndhamU3ZnJXMy01N3dtMnFmM1dhb0NxejVYZ2htbXRRSmlvQXI?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zcl9fbkIzU05naEpPSDU3Z1lSU2dseFZXMWZUSW41SndhamU3ZnJXMy01N3dtMnFmM1dhb0NxejVYZ2htbXRRSmlvQXI?oc=5",
+    "overviewRu": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством."
   },
   {
     "region": "Общие новости",
@@ -3413,11 +3421,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-11-03",
     "source": "新浪财经",
-    "title": "农银理财“安心护万家”金融宣教活动走进鄂伦春少数民族地区 - 新浪财经",
-    "desc": "农银理财“安心护万家”金融宣教活动走进鄂伦春少数民族地区 新浪财经",
+    "title": "В орочонских районах провели финансово-просветительскую акцию",
+    "desc": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZYThmYkEtOTUtOEcwZk1aQ3hNYlVZcFF4Y1pobDg2OEhQTnZISTBMb0hHYUx0UFVDTkkwbjVtY2VKZTVGLXdjZkd0dEFPaVhjY2d1VFFZaVBqRjFVd3lBUnp3aWg0X29ZOThpc29TTUI1T01LYnc?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZYThmYkEtOTUtOEcwZk1aQ3hNYlVZcFF4Y1pobDg2OEhQTnZISTBMb0hHYUx0UFVDTkkwbjVtY2VKZTVGLXdjZkd0dEFPaVhjY2d1VFFZaVBqRjFVd3lBUnp3aWg0X29ZOThpc29TTUI1T01LYnc?oc=5",
+    "overviewRu": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей."
   },
   {
     "region": "Якутия",
@@ -3557,11 +3566,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-10-30",
     "source": "凤凰网",
-    "title": "闻雪而动 以雪为令丨鄂伦春公安风雪中筑牢平安防线 - 凤凰网",
-    "desc": "闻雪而动 以雪为令丨鄂伦春公安风雪中筑牢平安防线 凤凰网",
+    "title": "Полиция орочонского района укрепила безопасность во время снегопада",
+    "desc": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DVjNEcjdVd1pERWRsQ3RueHplVkJyM0JNZWN6SXdXLUtpaDZuQTVEUXRoaloySFRNVDVkLWs3M0lacld3Mm9fck4xa0s?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DVjNEcjdVd1pERWRsQ3RueHplVkJyM0JNZWN6SXdXLUtpaDZuQTVEUXRoaloySFRNVDVkLWs3M0lacld3Mm9fck4xa0s?oc=5",
+    "overviewRu": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей."
   },
   {
     "region": "Якутия",
@@ -3700,11 +3710,12 @@ window.newsStories=[
     "region": "Зарубежные источники",
     "date": "2026-10-30",
     "source": "凤凰网",
-    "title": "【林海牧歌行】雪落兴安，冬赴鄂伦春 - 凤凰网",
-    "desc": "【林海牧歌行】雪落兴安，冬赴鄂伦春 凤凰网",
+    "title": "Снег в Хингане: зимнее путешествие к орочонам",
+    "desc": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxUkVCRnMtR2dMX0I0NndFMDVva3NTYWRXWERULVB1dTBJVzU4Zm11dmktZ2hnWUVtMm5MeHFod1dKWGtYcE9IWTlaRWs?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxUkVCRnMtR2dMX0I0NndFMDVva3NTYWRXWERULVB1dTBJVzU4Zm11dmktZ2hnWUVtMm5MeHFod1dKWGtYcE9IWTlaRWs?oc=5",
+    "overviewRu": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой."
   },
   {
     "region": "Якутия",
