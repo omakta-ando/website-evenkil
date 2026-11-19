@@ -249,6 +249,7 @@
     "tomskmuseum.ru",
     "tsu.ru",
     "ttelegraf.ru",
+    "tropapredkov.ru",
     "tungiro-olekma.ru",
     "tvtomsk.ru",
     "tynda.ru",
@@ -400,6 +401,10 @@
       "sakhaday.ru": {
         "label": "Сахадэй · новости Якутии",
         "url": "https://sakhaday.ru/"
+      },
+      "tropapredkov.ru": {
+        "label": "Тропа предков · эвенки Алданского района",
+        "url": "https://tropapredkov.ru/"
       }
     }
   },
