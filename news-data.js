@@ -1,14 +1,45 @@
 window.newsStories=[
   {
     "region": "Красноярский край",
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Новая работа для творческого конкурса «Тепло Севера: из Эвенкии с любовью» Эту фотографию прислала нам 17-летняя Анастасия Жилянина из Байкита для номинации «Северный объектив». Во",
-    "desc": "Новая работа для творческого конкурса «Тепло Севера: из Эвенкии с любовью» Эту фотографию прислала нам 17-летняя Анастасия Жилянина из Байкита для номинации «Северный объектив». Вот что она написала о своём кадре: «На фотографии перед нами — алые огоньки, пронзающие густую зелень. Это лилия, она же саранка, один из символов Эвенкии и всей Сибири. В её ярких лепестках с тёмными крапинками словно сконцентрировалась вся",
+    "title": "В Эвенкии построили четыре новых дома для промысловиков В Эвенкийском муниципальном округе завершено строительство четырех жилых домов для представителей коренных малочисленных нар",
+    "desc": "В Эвенкии построили четыре новых дома для промысловиков В Эвенкийском муниципальном округе завершено строительство четырех жилых домов для представителей коренных малочисленных народов, занимающихся традиционной хозяйственной деятельностью. Новое жилье построено при поддержке Красноярского края в поселках Тутончаны, Юкта и Эконда. Площадь каждого дома составляет не менее 50 квадратных метров. В них предусмотрены две ",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13281",
-    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+    "link": "https://t.me/evenkya_life/13310",
+    "image": "https://cdn4.telesco.pe/file/fP2K2cRubadi6V1sog22yZzvL6uvNCuFndtGcrhT2vbbAlZvsxGVpEgupjYntIvgZvApC9ysiqx9OEXuYGehxJqn5bK8lYyMmZe8Nd4vl39mMcKkXJv4zgMJSXGnsHeaOeQNAuwn3BaTp1FwtB060v7dy0rDnn_9hk0qt0LxdE2rDeN8ORBu7YtDYHopReQt8ZiUaJBk1Kmx_oHYvPFXfrWqGS6Spfb4FfhVcW8MbmDgi0W_AHcVYdyAAK4Kwe0E9xBCO5bMPdBEaukG60Ii0NHCFyXiDsEiwd-dBPgrLxIxFB3HF0gVeOMk8LXug97x0N6QU1zJD1ipKt8J1kIQqw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-19",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Почти 664 тыс. тонн грузов планируют перевезти по автозимникам В сезоне 2026–2027 годов в рамках северного завоза по автозимникам в Якутии планируют перевезти порядка 663,8 тыс. то",
+    "desc": "Почти 664 тыс. тонн грузов планируют перевезти по автозимникам В сезоне 2026–2027 годов в рамках северного завоза по автозимникам в Якутии планируют перевезти порядка 663,8 тыс. тонн грузов, включая дополнительные объёмы. Ключевым грузом остаётся уголь — его доля составит 530,1 тыс. тонн. Особое внимание уделено поставкам в труднодоступные районы: в январе–феврале 2027 года по зимним автодорогам доставят 8,5 тыс. тон",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/92476",
+    "image": "https://cdn4.telesco.pe/file/aAZTQJtqWIJH9UX5fKqdL3_SVRuEQPfSlgJCkTvcX0vhAQjXO_NYrTLNWpFR3-eD5F0GMGukTl1IcEfm4X2FkKiRGs4gTgbwEhsU1CWU1rL-kwJMfblPrM99sja48tlEC0QfEkYuEn-BaT9qwdA7s01xHNsxKeZ7WrSZP6-YmnL2XXAPMv8D5yzY9xq3uttImXv4fo_HEa8EEf758VA3AzK1farGZXfs609TkuCT_mUvU3CS4ePBBWiuYTySzPHh5b5fgShGj1vWkgSNhATHDcBGOwRKSTlTyeXYSYircQCWsGv4_4FV9EWxg-Rzhf70_rf_uYvi7fiGHfqLS9rvag.jpg"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-19",
+    "source": "Newslab",
+    "title": "В Красноярском крае многодетная семья оленеводов получила новый дом - Newslab",
+    "desc": "В Красноярском крае многодетная семья оленеводов получила новый дом Newslab",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uTDgxUkJfUE84ZmgydXdMTmQzalB0NUc1aTRXNVhZbmhobEhINjhtazNZREU4REFzSVJLOXdzTERFenM5bHfSAVpBVV95cUxPV0VNbGFUTUNaeWdLYXVfWmNiVVB4THR2M0g0UW5HaF9OVGVES2JVdkxGSVFiZUVNNEY0S3J0Rl9nYVJsSXBmNVVHUElzU09GWktDem9MWmFXeGc?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-19",
+    "source": "Вечерний Мурманск",
+    "title": "От абазинов до эвенков: библиотека в Мурманске покажет документальные фильмы о коренных народах России - Вечерний Мурманск",
+    "desc": "От абазинов до эвенков: библиотека в Мурманске покажет документальные фильмы о коренных народах России Вечерний Мурманск",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX1Y2NUhTaVY1WWJpdW1GYk1uUkFSNnd4dHJJTy03Z29JRXdWMFBTbzNYT2lmYUhwbExZeU5jcnBhVkZ0bThpRkhxT05qYjdGbG9Lc2FoWk43bWVDRGZCQ0hPNGk2R2dvdW43OVp3RGRodks4dzVzaFRhbGpNME1MRFpORUVhMmJOTVNIN0luUnlmWW5KajJ0MFdHbjZuMWJGVHlIcVI4LUY4MUx0Qm9yMEpIWkNsYlpudy1URWhocFNhV0JZQXF2R3dpb2lOZzlxR2Fv?oc=5"
   },
   {
     "region": "Амурская область",
@@ -49,6 +80,76 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9SS1ZDNnQzUlN6aXZwTk12eVAyeDM3U0tQQ1NPNnVkSkVfZ2E0cXhpaEFaTXQyVWlXejVScndlb2sySGhaYVJ3?oc=5"
+  },
+  {
+    "region": "Хабаровский край",
+    "date": "2026-11-18",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Комсомольске-на-Амуре открылась уличная экспозиция о культуре коренных народов Приамурья",
+    "desc": "Выставка рассказывает о наследии восьми народов Хабаровского края: нанайцев, негидальцев, ульчей, удэгейцев, орочей, нивхов, эвенов и эвенков. Основу экспозиции составили репродукции знаковых произведений и предметов декоративно-прикладного искусства. The post В Комсомольске-на-Амуре открылась уличная экспозиция о культуре коренных народов Приамурья appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54498"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-11-18",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестиваль Гончикова в Бурятии соберутся эвенки со всей России",
+    "desc": "Будут представлены эвенкийские этноартисты из Якутии, Иркутской области, Хабаровского и Красноярского краев.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festival-gonchikova-v-buryatii-soberutsya-evenki-so-vsej-rossii.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-18",
+    "source": "моо «кмнсоюз",
+    "title": "В Таймырском колледже прошли отборочные соревнования по компетенции «Оленеводство» - моо «кмнсоюз",
+    "desc": "В Таймырском колледже прошли отборочные соревнования по компетенции «Оленеводство» моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00c2FEOWNMd3h2Mmo3ZUxYUXFCRnYtTEJBM1dCRTlHbndFcVh2TzNHZXBiUUhna3BRT1hLNGUzNHR3RFFFblZZMFViSQ?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-18",
+    "source": "Корабел.ру",
+    "title": "Порт «Найба» должен стать ключевым морским звеном северного завоза в Якутии - Корабел.ру",
+    "desc": "Порт «Найба» должен стать ключевым морским звеном северного завоза в Якутии Корабел.ру",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVFhTNGdsR3AtT3RjNV85QU9LYUREUEpNbnhjN0hfNXpnX0tibDlfRXN0TjBWZUZnSnBOZHRZaHhuZ3FGVVNjczRoX0ZZYjM4aEtYamt0Tm10ZWlBUVNkLWRucnZzdjRYVlZpNFVKVVZCSGVYNlpRY2xVREZDSG12Z2dSNk9FYXZQbGNpS08tOTZJS1J4UGw0bHF3aldLa3BWb3hrLU9zN3NucFp1aHYxZ0xJbU1LdHBNMHc?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-18",
+    "source": "Агентство социальной информации",
+    "title": "Оленеводы и промысловики Красноярского края получат солнечные электроустановки бесплатно - Агентство социальной информации",
+    "desc": "Оленеводы и промысловики Красноярского края получат солнечные электроустановки бесплатно Агентство социальной информации",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWmJkUzA5X0hMR2dNc1czaVJoUzN3cnBBWmZwWHk3ZlhZZnBpZDRfTjFMNGhsVXpNWUdHV1V2QVRrNDBqYTNKdFlHQWxhLURYMExkV2tGYktYQllMcXZfdDh6M05JZnJoM3NlZ1ZMZE41YzhVZ0tHbXlCbkgwQ0p3TjV0b0x3Qld5Q2RJR0pFWHNJcDVGOXZYc1ViUzBZTXotdUttYmJEbXBIZ3BTMUpqME9kMG1LZ1JOUk5vTkM5MjJlWFd3VWRj?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-18",
+    "source": "Neftegaz.RU",
+    "title": "Росатом Арктика планирует увеличить объем северного завоза на 27% в 2027 г. - Neftegaz.RU",
+    "desc": "Росатом Арктика планирует увеличить объем северного завоза на 27% в 2027 г. Neftegaz.RU",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHAtVDBKZlVFSy1HYmpDNnlFQlBvSC15RnQtUmdmZzdJVXFNTFBDU2tTNC1nQURoMURmVzk3emhvWUFzVGFINXJXREFHandmQWZ6cjFpeUhhcEVZTkpqVWd0QnV3MVRJT3prUkxweFNqZXFpb0Z5Z002NUxpRXJFZUVRTzJWR2pYMG04TXc3TklMcjFHWDJ6dVc2R3U4WFoxYmlidDFkR0pVSzZUcWlENUlEcUhoVm13R240U3lOa05CeU5vR1E?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-18",
+    "source": "InfraNews",
+    "title": "«Росатом Арктика» доставил 266,7 тыс. тонн грузов в рамках северного завоза 2026 года - InfraNews",
+    "desc": "«Росатом Арктика» доставил 266,7 тыс. тонн грузов в рамках северного завоза 2026 года InfraNews",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV25xcGZGb2U0OWVVRlIzeWxpMWk0ZXZ2WHFEdVRSRXctOVhMaDNUVWJXMXJ0UW1ibUQtVWk3V2FxWk9KRE1sdU5oXzlPRGRNekthTmFZc3ZGUHpGZ0FZeTVLc3hhUEl5RjN1cVdUekFNdHMwVmdZdGc3R29nRFZlVDZac1JETngzUGlCTURGeWtLd0JGVy01elJMMmtZN2hrS0RoT3l6X29WRGh3ZF9SbVlNUjVwSEJISFE5OG5n?oc=5"
   },
   {
     "region": "Якутия",
@@ -112,16 +213,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/NFyToIUXap8N0ubrYEpD8BrYAtrBhW4Ivzr3yadR3YIBYGYQqoCl-QXtlqRvOzFisxvMgAqz1iq6fe_S6UUtgzDwazw3us7uhgvqKUBKw9O9_6E_FjIM9QClUYQTvOIrITVe5xYGf-xFRxUEyqONJX6dtxDq3eMBfwp51QSiZarw4HQFoH7YMjthPR0zHrf8gXD-9pdhMWWjGlVEo6Xn1BYXwu2BviWuOxM5-0DSNek7SXLyKNwhLAcFdnX2OpvwO3SYW7Jyhyrce0loC3nln8CHvWmcSPp42U374wyrElrdavs3JB36bLg80mBzut-ZllWwQ4eiN7Pb5nxf6Hrc9Q.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-11-16",
-    "source": "news.kmnsoyuz.ru",
-    "title": "На Таймыре оленеводческое хозяйство, созданное при поддержке края, получит субсидию",
-    "desc": "В Красноярском крае подвели итоги отбора на предоставление субсидий оленеводческим хозяйствам. Государственную поддержку получит хозяйство «Нерня» («Вперед»), созданное в прошлом году на Таймыре. The post На Таймыре оленеводческое хозяйство, созданное при поддержке края, получит субсидию appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/54435"
-  },
-  {
     "region": "Якутия",
     "date": "2026-11-16",
     "source": "YakutiaMedia",
@@ -172,24 +263,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kSmhNbWJHV3JBUWd1T2puQlY3dUk3czVsdDFsNDhyR0RNcm56YXJucHhUN2w5eGs3Q1gxRHQ1NTJLdEhjZlpBelNLejRnOENXTEx1U2F3R2tIcURIMmE3Zjd1VDEtWnRGakFyWEZlTTNhWXRLNFJtedIBfkFVX3lxTE54cDJzaUJIMUEwNXpSaXZjWkF4Uk1jWXlvLUp4OVlrMXp0bEdqTmp4UnlHZXN4VUxFSnRxZmtaQWhlT282SzEyZjhORnQxRTQtaUFsa2ZISTFRcmFEeDZ3cWUyUGdMWEZPRURyNUNqbFp0M3pNb25xTnJnQXVBQQ?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-15",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "На фестивале имени Гончикова выступят эвенки Якутии и Иркутской области",
-    "desc": "Напомним, гала-концерт состоится 1 декабря в 18:00 на сцене Бурдрама",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/na-festivale-imeni-gonchikova-vyistupyat-evenki-yakutii-i-irkutskoj-oblasti.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-15",
-    "source": "潮新闻客户端",
-    "title": "山河秋意浓# 穿越呼中卡玛兰大桥。\"卡玛兰\"是鄂温克语，意为寒冬时节——也有人说原意是\"玉带\"。卡玛兰大桥原名呼中大桥，位于大兴安岭呼中区北部、呼玛河上，是一座建于1969—1972年的九孔连拱老桥，现为“大兴安岭地区历史建筑”，已不再通车，主要作为景观桥 - 潮新闻客户端",
-    "desc": "山河秋意浓# 穿越呼中卡玛兰大桥。\"卡玛兰\"是鄂温克语，意为寒冬时节——也有人说原意是\"玉带\"。卡玛兰大桥原名呼中大桥，位于大兴安岭呼中区北部、呼玛河上，是一座建于1969—1972年的九孔连拱老桥，现为“大兴安岭地区历史建筑”，已不再通车，主要作为景观桥 潮新闻客户端",
+    "date": "2026-11-16",
+    "source": "腾讯新闻",
+    "title": "踏雪扬鞭奔赴莽莽林海 探访鄂伦春千里雪野 策马相逢森林山灵 - 腾讯新闻",
+    "desc": "踏雪扬鞭奔赴莽莽林海 探访鄂伦春千里雪野 策马相逢森林山灵 腾讯新闻",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmNUZ3Q2Q3SWk1dnV3dEluMkpTWF9ST2ZlWTZtc1U4Q0Y1cWNkMjA0dmtQN01DZkVabGY3WENnQ19qV05nbVRHS21JcnFOQ3B1bHZhN3pTX0JkOEZUYU1aZHZzX1UwYjBlZjJBWWphTmZFUHlnYXk0?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51NWV6dHh4cndka3g3a0wzSjV2WmVSWFFoeExBRDZfTEZYZVcxRXlRRTUzdlo2UnJFWnVUNUxtTFEzSEladG9PdUNGZE5STGdXZVlpcDhn?oc=5"
   },
   {
     "region": "Общие новости",
@@ -200,16 +281,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcmh6akFndEF1eWRYRFRzYW52TzhsOUFfY1E1RDVZRTU2NDNCQWtSNEk4QjRERldFQkI3UmFtbWwzS0lKd0JRd1pjVG1fWlA5VVVUNm5YZ1pYcDNwdjhoUUFLWlhvb0ZUQkh1MXlBZm5aeWJSWlBJZnNGMnl2TnJyMGhDYXNzRDhDQ2xWWjcyRnpaeWV0bDRpb3NxbUtiNWIx?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-11-14",
-    "source": "моо «кмнсоюз",
-    "title": "Эвенки Archives - Страница 14 из 14 - моо «кмнсоюз",
-    "desc": "Эвенки Archives - Страница 14 из 14 моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcEkwZUIyR3B6X08zYmJDTHJDRU9ha0d4elA5bkNMcVg4R3hrNGg3Yy1UYTI1VElmS2poZDA0VFB5R2RxUXZlbVFlVXI1MUZQaHRwUERVa3V1cVEzX1llS1Axbl9kUE5POVJtdGlPek14SFlFeWROa3F2ZUZtUlBsX3Z3MkM?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -313,17 +384,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xbUtDLXkyZnRCdml6T1VuOVRYWmU1OF9HX3BYRWxac01CLUZpUzJOa0lWRU1Fa2dGVmtFaEFjcE9wYWx2NkZMckhya0dPV3pTR3RENQ?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-11-10",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "АТЛК ведёт масштабную подготовку к навигации 2027 года АО «Арктическая торгово‑логистическая компания» (АТЛК) начало подготовку флота к навигации 2027 года — идёт техобслуживание и",
-    "desc": "АТЛК ведёт масштабную подготовку к навигации 2027 года АО «Арктическая торгово‑логистическая компания» (АТЛК) начало подготовку флота к навигации 2027 года — идёт техобслуживание и капремонт судов для бесперебойного северного завоза в районы Якутии. Особое внимание уделяют корпусам и главным энергетическим установкам, чтобы исключить технические риски в короткий период завоза. В планах — ремонт сухогруза СТК‑1012 и т",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/92158",
-    "image": "https://cdn4.telesco.pe/file/HTvBlLXmhPUx7bYx60I0T69Zcen9e9UlYvtqjhJOwR2py0bOLWkhWY8FWPhiQt31QPB1qkXjfH3wHFSRlccvEk-kTDzP_NTFzKA91y0D6lAU-9IWPgpjkjFiatpvPhlKShYbtTHXdZX-B5DoeM6mXhQSVfVgHG776K3dgTqVaDmhg_Br-SFUPyHmyrywasxhfwsjC4TmhqHIx4cMAocWiX6LXLqYpyvBV_SDYBm9BrpzcaXQsz2j-AdSkFuFFRAGg3qYSgbzxQIqx64l3TOy3MDWnZOHj_rzozKMnHiP3R0T83fijNkCN_dy3ryouT_8x0ZP_OJUJ0Wxhbs279KiHw.jpg"
-  },
-  {
     "region": "Томская область",
     "date": "2026-11-10",
     "source": "tvtomsk.ru",
@@ -413,16 +473,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://t.me/novosti_neryungri/28281",
     "image": "https://cdn4.telesco.pe/file/PNCyzdZ1auVrpJWBwRh6jtqfNo2DTQTLvETDwNTbItrOeEFyzejESgoDm7b6WtlavVd45kNaxLWLKlGLYxGmaRfKlNemiFgkL944-i_0neUHef2xhKlUxAxj_HrUYcJ4i4TQnpQSj6P2R6NEYMfvSdy8dFpBjp-IIKdOAzwvhhIoQnue3hR2BQ4Dtm9w4yKZKe_IsSryxkl5J2WMfnx_oUspgl6XwDDNx8vX1YVCiK_Zgha3aVZdGEOMYbB5-vHw6_MZb0AZ15Qz6GHQCJZq1NmAyGx9x6dybg-Ja3vcG6F4y6SiVJa3TFeCIYq3-taSU4qkV1f6QA46YGHmWlh3ZQ.jpg"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-11-06",
-    "source": "Корабел.ру",
-    "title": "Северный завоз в Красноярском крае выполнен на 96% - Корабел.ру",
-    "desc": "Северный завоз в Красноярском крае выполнен на 96% Корабел.ру",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNVhHYkxpcXpOcFlUSDc0dGFlQlk0bnFVRzFrYWl6Nk4zM0h0dmw2OVJ6ekhqeHQ4dzJBa1NvTDcwZVhhbnFfME1GRFdjRnlJR1UxbGpVYklzY29JMlcwSTBkS1Q0RGY2bnZ1OHRvQ3RfanJ6Z2hlYlR4bDdsMnJHV0ViNUVaeGkxWDRnemw3czJEMXlYRmQ4?oc=5"
   },
   {
     "region": "Бурятия",
@@ -837,16 +887,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdDJQbWp4eWdtbkJ2ZUdfbXhlSWR5R09Hd3lpNUxiY2k4ZTBJbW9JU3dFWWpVSWVNTWRCdkNEaFhlWkw0Q245dzBJU3dRYkV1YklLbkIzWEw1TGRMTUgwbnJqNjJwQTF5dTlDcHFKa096OFNUS3Z0YmZsNmpCMlRaSEFUVjBwSG9GbFMxVzFqOXA2MHBwVWgtM053VzNpSGVzQUlLRGtkdlhVUQ?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-23",
-    "source": "Агентство социальной информации",
-    "title": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык - Агентство социальной информации",
-    "desc": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык Агентство социальной информации",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQelRKdGxTemthRHFnZzVPNmRMQWNMd0p4MEhXV1FHaUhhMnI1M2MxXzFSX2djRVhKNnp3dkJkdE1nR1A0dmZvdlc4OEVVbkMyVkF6Ymk0Zi1ka1BZSnlTRUpnLUx2MC1FT045M0ZRMDRLYURmaWxvWjB0YjVEYnh0aWt0aWstQnFLZURzeF9janFxaGdseVEwVlFTbUh4Q2s2?oc=5"
-  },
-  {
     "region": "Томская область",
     "date": "2026-10-22",
     "source": "riatomsk.ru",
@@ -997,16 +1037,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://riabir.ru/492377"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-20",
-    "source": "Newslab",
-    "title": "Депутаты Заксобрания Красноярского края просят Минприроды изменить правила охоты - Newslab",
-    "desc": "Депутаты Заксобрания Красноярского края просят Минприроды изменить правила охоты Newslab",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE11dEJxOFVzOTlHdFllUlFNOTlwS2ZrTVpxaEEwRjk2aXlaeXp2RFRZT2F5al9YNkNiMEFkRU0xcnZoMUhwMVHSAVpBVV95cUxObElhalVMMkF6d0lVUGQ3S2FsTm9nUWt6ckctLUFXMlRlclY5UzgtN1lOOTY5TFhqQ1BsNnl0SkNrank5SGpTLWtQa2I0dV9zRVhiUllzLVpFRnc?oc=5"
   },
   {
     "region": "Амурская область",
@@ -1494,14 +1524,35 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-17",
+    "date": "2026-11-19",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Оленеводы и промысловики Красноярского края смогут бесплатно получить солнечные батареи В Красноярском крае вводят новую меру поддержки. Представители коренных малочисленных народо",
-    "desc": "Оленеводы и промысловики Красноярского края смогут бесплатно получить солнечные батареи В Красноярском крае вводят новую меру поддержки. Представители коренных малочисленных народов, которые ведут кочевой или полукочевой образ жизни в Эвенкии, смогут бесплатно получить солнечную электроустановку — по одной на семью или для одиноко проживающего человека. Оборудование поможет заряжать фонари, средства связи и другие пр",
+    "title": "Новая работа на конкурс «Тепло Севера: из Эвенкии с любовью» Это фото от 16-летней Елены Мерзляковой. Давайте почитаем, как девушка описывает свой снимок: «Моя малая Родина». п. Бу",
+    "desc": "Новая работа на конкурс «Тепло Севера: из Эвенкии с любовью» Это фото от 16-летней Елены Мерзляковой. Давайте почитаем, как девушка описывает свой снимок: «Моя малая Родина». п. Бурный живописно расположен в месте слияния рек «Бурная» и «Вельмо». Он находится между гор, так называемой котловине, из-за этой особенности он имеет микроклимат и защищен от холодных ветров, поэтому здесь хорошо вызревают многие сельскохозя",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/13309",
+    "image": "https://cdn4.telesco.pe/file/fP2K2cRubadi6V1sog22yZzvL6uvNCuFndtGcrhT2vbbAlZvsxGVpEgupjYntIvgZvApC9ysiqx9OEXuYGehxJqn5bK8lYyMmZe8Nd4vl39mMcKkXJv4zgMJSXGnsHeaOeQNAuwn3BaTp1FwtB060v7dy0rDnn_9hk0qt0LxdE2rDeN8ORBu7YtDYHopReQt8ZiUaJBk1Kmx_oHYvPFXfrWqGS6Spfb4FfhVcW8MbmDgi0W_AHcVYdyAAK4Kwe0E9xBCO5bMPdBEaukG60Ii0NHCFyXiDsEiwd-dBPgrLxIxFB3HF0gVeOMk8LXug97x0N6QU1zJD1ipKt8J1kIQqw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-10",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "АТЛК ведёт масштабную подготовку к навигации 2027 года АО «Арктическая торгово‑логистическая компания» (АТЛК) начало подготовку флота к навигации 2027 года — идёт техобслуживание и",
+    "desc": "АТЛК ведёт масштабную подготовку к навигации 2027 года АО «Арктическая торгово‑логистическая компания» (АТЛК) начало подготовку флота к навигации 2027 года — идёт техобслуживание и капремонт судов для бесперебойного северного завоза в районы Якутии. Особое внимание уделяют корпусам и главным энергетическим установкам, чтобы исключить технические риски в короткий период завоза. В планах — ремонт сухогруза СТК‑1012 и т",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13270",
-    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+    "link": "https://t.me/yk24ru/92158",
+    "image": "https://cdn4.telesco.pe/file/HTvBlLXmhPUx7bYx60I0T69Zcen9e9UlYvtqjhJOwR2py0bOLWkhWY8FWPhiQt31QPB1qkXjfH3wHFSRlccvEk-kTDzP_NTFzKA91y0D6lAU-9IWPgpjkjFiatpvPhlKShYbtTHXdZX-B5DoeM6mXhQSVfVgHG776K3dgTqVaDmhg_Br-SFUPyHmyrywasxhfwsjC4TmhqHIx4cMAocWiX6LXLqYpyvBV_SDYBm9BrpzcaXQsz2j-AdSkFuFFRAGg3qYSgbzxQIqx64l3TOy3MDWnZOHj_rzozKMnHiP3R0T83fijNkCN_dy3ryouT_8x0ZP_OJUJ0Wxhbs279KiHw.jpg"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-20",
+    "source": "Newslab",
+    "title": "Депутаты Заксобрания Красноярского края просят Минприроды изменить правила охоты - Newslab",
+    "desc": "Депутаты Заксобрания Красноярского края просят Минприроды изменить правила охоты Newslab",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE11dEJxOFVzOTlHdFllUlFNOTlwS2ZrTVpxaEEwRjk2aXlaeXp2RFRZT2F5al9YNkNiMEFkRU0xcnZoMUhwMVHSAVpBVV95cUxObElhalVMMkF6d0lVUGQ3S2FsTm9nUWt6ckctLUFXMlRlclY5UzgtN1lOOTY5TFhqQ1BsNnl0SkNrank5SGpTLWtQa2I0dV9zRVhiUllzLVpFRnc?oc=5"
   },
   {
     "region": "Амурская область",
@@ -1542,6 +1593,56 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5jeVVjR3NYc2loV3ZNU1RoZW1pdzhlcDM2X0RBOExPa1lEOEIwcGd0VTItYndGU2Zqc0pPWU1sQzcteU0zc2hv?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-18",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Таймырском колледже прошли отборочные соревнования по компетенции «Оленеводство»",
+    "desc": "Таймырский колледж стал площадкой для проведения внутреннего отборочного этапа чемпионата «Профессионалы» по компетенции «Оленеводство». Мероприятие прошло в условиях суровой арктической погоды: участникам пришлось демонстрировать свое мастерство во время сильной метели. The post В Таймырском колледже прошли отборочные соревнования по компетенции «Оленеводство» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/54491"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-15",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестивале имени Гончикова выступят эвенки Якутии и Иркутской области",
+    "desc": "Напомним, гала-концерт состоится 1 декабря в 18:00 на сцене Бурдрама",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festivale-imeni-gonchikova-vyistupyat-evenki-yakutii-i-irkutskoj-oblasti.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-14",
+    "source": "моо «кмнсоюз",
+    "title": "Эвенки Archives - Страница 14 из 14 - моо «кмнсоюз",
+    "desc": "Эвенки Archives - Страница 14 из 14 моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcEkwZUIyR3B6X08zYmJDTHJDRU9ha0d4elA5bkNMcVg4R3hrNGg3Yy1UYTI1VElmS2poZDA0VFB5R2RxUXZlbVFlVXI1MUZQaHRwUERVa3V1cVEzX1llS1Axbl9kUE5POVJtdGlPek14SFlFeWROa3F2ZUZtUlBsX3Z3MkM?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-06",
+    "source": "Корабел.ру",
+    "title": "Северный завоз в Красноярском крае выполнен на 96% - Корабел.ру",
+    "desc": "Северный завоз в Красноярском крае выполнен на 96% Корабел.ру",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNVhHYkxpcXpOcFlUSDc0dGFlQlk0bnFVRzFrYWl6Nk4zM0h0dmw2OVJ6ekhqeHQ4dzJBa1NvTDcwZVhhbnFfME1GRFdjRnlJR1UxbGpVYklzY29JMlcwSTBkS1Q0RGY2bnZ1OHRvQ3RfanJ6Z2hlYlR4bDdsMnJHV0ViNUVaeGkxWDRnemw3czJEMXlYRmQ4?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-23",
+    "source": "Агентство социальной информации",
+    "title": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык - Агентство социальной информации",
+    "desc": "Как в якутском селе Тяня возвращают к жизни эвенкийский язык Агентство социальной информации",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQelRKdGxTemthRHFnZzVPNmRMQWNMd0p4MEhXV1FHaUhhMnI1M2MxXzFSX2djRVhKNnp3dkJkdE1nR1A0dmZvdlc4OEVVbkMyVkF6Ymk0Zi1ka1BZSnlTRUpnLUx2MC1FT045M0ZRMDRLYURmaWxvWjB0YjVEYnh0aWt0aWstQnFLZURzeF9janFxaGdseVEwVlFTbUh4Q2s2?oc=5"
   },
   {
     "region": "Якутия",
@@ -1595,16 +1696,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/fl8VtA1ytzyq4pMZDeavSAkug9lPadAJYoTUPiBpBjOcNF2QOb-BLOt7BhIHusS33vJ3tBGM3g7I8K5Vn7jj2ygAlKkXnKVKiNhnSo9x_c4ImOTfh15pkE7UiqTwwYqzOiE8We6LMYun0DvRNd9xP19w6qseFoHuVjxmyrSn-vRCu2k3615MiJNkI_RF9vWnj0OqgZ5k7aoL2dnZtskWpqa3DZ-a7tWUC0Wd6B9GYBlHzDxNJw2-AtJlpJc3AKAQJS-D_ojrrFBbjDqKahxl_0gwlbuxkk9PgjIYxZBYg0lfywBZmDcX5gI5N148VKRt-rP_1xp9PCsKNwRaK7J2BQ.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-13",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей",
-    "desc": "«Маут» повествует об истории эвенкийской семьи оленеводов. По сюжету молодой человек вопреки желанию отца передать семейное дело – разведение оленей – решает уехать работать в город, что становится личной и семейной трагедией. The post Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54386"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-27",
     "source": "YakutiaMedia",
@@ -1645,34 +1736,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54cDJzaUJIMUEwNXpSaXZjWkF4Uk1jWXlvLUp4OVlrMXp0bEdqTmp4UnlHZXN4VUxFSnRxZmtaQWhlT282SzEyZjhORnQxRTQtaUFsa2ZISTFRcmFEeDZ3cWUyUGdMWEZPRURyNUNqbFp0M3pNb25xTnJnQXVBQdIBfkFVX3lxTE54cDJzaUJIMUEwNXpSaXZjWkF4Uk1jWXlvLUp4OVlrMXp0bEdqTmp4UnlHZXN4VUxFSnRxZmtaQWhlT282SzEyZjhORnQxRTQtaUFsa2ZISTFRcmFEeDZ3cWUyUGdMWEZPRURyNUNqbFp0M3pNb25xTnJnQXVBQQ?oc=5"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-11-11",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвенкийская этнопевица Ayaa примет участие в фестивале имени В.С. Гончикова",
-    "desc": "«Ayaa» - творческий псевдоним певицы из Красноярского края Галины Веретновой, это слово переводится как «добро, свет, путь».",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/evenkijskaya-etnopevicza-ayaa-primet-uchastie-v-festivale-imeni-v.s.-gonchikova.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-11-15",
-    "source": "凤凰网",
-    "title": "传民族天籁 续文脉薪火！2026年鄂伦春族传统民歌培训班顺利开班 - 凤凰网",
-    "desc": "传民族天籁 续文脉薪火！2026年鄂伦春族传统民歌培训班顺利开班 凤凰网",
+    "source": "潮新闻客户端",
+    "title": "山河秋意浓# 穿越呼中卡玛兰大桥。\"卡玛兰\"是鄂温克语，意为寒冬时节——也有人说原意是\"玉带\"。卡玛兰大桥原名呼中大桥，位于大兴安岭呼中区北部、呼玛河上，是一座建于1969—1972年的九孔连拱老桥，现为“大兴安岭地区历史建筑”，已不再通车，主要作为景观桥 - 潮新闻客户端",
+    "desc": "山河秋意浓# 穿越呼中卡玛兰大桥。\"卡玛兰\"是鄂温克语，意为寒冬时节——也有人说原意是\"玉带\"。卡玛兰大桥原名呼中大桥，位于大兴安岭呼中区北部、呼玛河上，是一座建于1969—1972年的九孔连拱老桥，现为“大兴安岭地区历史建筑”，已不再通车，主要作为景观桥 潮新闻客户端",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ubXlDY1JUNGczT1gtcnNPYW1JUnhWUWN1UFdCMHNZdlAtZ2F6a0h2MlItU0h1TWU4V1o0MjBPZzF2VmVnMHhKNHQ5WHA?oc=5"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-11-13",
-    "source": "моо «кмнсоюз",
-    "title": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка - моо «кмнсоюз",
-    "desc": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zMDBzOWV3MU5DeVhvVUk1azJvckhfQ0wwbWRXakN2cjA3QW45WFRnV1lvbHlEZW9QVTFvX0c4dXJlX3RvTEJOTDQzVQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmNUZ3Q2Q3SWk1dnV3dEluMkpTWF9ST2ZlWTZtc1U4Q0Y1cWNkMjA0dmtQN01DZkVabGY3WENnQ19qV05nbVRHS21JcnFOQ3B1bHZhN3pTX0JkOEZUYU1aZHZzX1UwYjBlZjJBWWphTmZFUHlnYXk0?oc=5"
   },
   {
     "region": "Общие новости",
@@ -1766,17 +1837,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FTjRfWGNzQ2hXd21GTVJYQno2SUVNSzJrQk5QVk5NSzBja1ZFOUJQNDZKRDRUbnNOaWcxOXJyOFExOGNjLV9uZVNyR3NEdDNRYUw4Mw?oc=5"
   },
   {
-    "region": "Якутия",
-    "date": "2026-11-04",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Большой этнографический диктант написали в «Царстве Вечной мерзлоты» в Якутске В этом году впервые площадкой для проведения акции выступило «Царство Вечной мерзлоты». Свои знания о",
-    "desc": "Большой этнографический диктант написали в «Царстве Вечной мерзлоты» в Якутске В этом году впервые площадкой для проведения акции выступило «Царство Вечной мерзлоты». Свои знания о культуре и традициях народов России проверили активисты национально-культурных объединений – представители саха, русских, бурят, эвенов, долган, эвенков и юкагиров. Атмосфера вечной мерзлоты сделала участие в диктанте особенно запоминающим",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/yk24ru/91964",
-    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
-  },
-  {
     "region": "Томская область",
     "date": "2026-10-31",
     "source": "tvtomsk.ru",
@@ -1856,16 +1916,6 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://t.me/novosti_neryungri/28187",
     "image": "https://cdn4.telesco.pe/file/oU9MkyfLZrRR9OCGqLZDeZUV9McYU5jb5PXqpefr_UNOnfpr3cnZc1nKjjffhn4NvRLSIY0nKoQAayMFEMmXOuenkt77PN-gjsliMx-t3UiP3uCH08dZTxYP9d_iD0Q1s80p1VjuCv4w82M2BcckaLH7VEY0DRYhV23Qs7xvb2D7k4hHVyKHnhB_OmSOYp-t-n24tyAGGPnK6yH0Q_toTQQiklZUPGrqM7fGK9C6xb3I6VS1GKyT348ylB-srKHG4PJvnSIdyFjopje9HRqTdxYEEYh3g4gj2a6Q6xKbL7hXIdcoB38lhiTRueKUDPoXWfIcn5xFTkeB2g1h2Lt8BQ.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-20",
-    "source": "Корабел.ру",
-    "title": "В Якутии обсудили сложную ситуацию с северным завозом - Корабел.ру",
-    "desc": "В Якутии обсудили сложную ситуацию с северным завозом Корабел.ру",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLW1qOVVWd0x3d01OeVYtMS1fX213X0d2WWdGYUFEdUV3WWNJMDdtX296b0lORUVqNjFpbThsdE5FMHZpSTBnYXA1a1hPankwVno2Mi1zbUtDTGFLZ1dMUmtfSDZXSGpHeDZWTEp0WXFTQjB2RHRDREJ2anMwRlpZdGI4cll6d29CclFDMGYtZFhwVTc3WEhqbWZWbEVJSS1Y?oc=5"
   },
   {
     "region": "Бурятия",
@@ -2265,14 +2315,25 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В детской школе искусств сохраняют культуру КМНС Ванаварская школа искусств показала односельчанам этноспектакль «Как появилась земля». Его основой стала легенда, которую записал о",
-    "desc": "В детской школе искусств сохраняют культуру КМНС Ванаварская школа искусств показала односельчанам этноспектакль «Как появилась земля». Его основой стала легенда, которую записал от своих сородичей Николай Оёгир. Мероприятие было организовано в рамках реализации грантового проекта «Николай Оёгир. Голос древней земли». Спектакль провели в концертном зале Дома культуры, ведь всех желающих посмотреть представление невоз",
+    "title": "Новая работа для творческого конкурса «Тепло Севера: из Эвенкии с любовью» Эту фотографию прислала нам 17-летняя Анастасия Жилянина из Байкита для номинации «Северный объектив». Во",
+    "desc": "Новая работа для творческого конкурса «Тепло Севера: из Эвенкии с любовью» Эту фотографию прислала нам 17-летняя Анастасия Жилянина из Байкита для номинации «Северный объектив». Вот что она написала о своём кадре: «На фотографии перед нами — алые огоньки, пронзающие густую зелень. Это лилия, она же саранка, один из символов Эвенкии и всей Сибири. В её ярких лепестках с тёмными крапинками словно сконцентрировалась вся",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/13281",
+    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-04",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Большой этнографический диктант написали в «Царстве Вечной мерзлоты» в Якутске В этом году впервые площадкой для проведения акции выступило «Царство Вечной мерзлоты». Свои знания о",
+    "desc": "Большой этнографический диктант написали в «Царстве Вечной мерзлоты» в Якутске В этом году впервые площадкой для проведения акции выступило «Царство Вечной мерзлоты». Свои знания о культуре и традициях народов России проверили активисты национально-культурных объединений – представители саха, русских, бурят, эвенов, долган, эвенков и юкагиров. Атмосфера вечной мерзлоты сделала участие в диктанте особенно запоминающим",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/evenkya_life/13262",
-    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+    "link": "https://t.me/yk24ru/91964",
+    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
   },
   {
     "region": "Амурская область",
@@ -2293,6 +2354,46 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXl3dzZlZjVwRUt2U0h1UjdMVHpWT3Vad3pKamNyZUFBUXhUZjNhQ3Jzc2wtdWFjeEZ4UXpmTFpRcEJCUWM5UXBaTXg5aklmdjR1d20ydXh1VmxpbWdTY0t0dEVhNmhrUGhKOF90bnpwbWdCR21IQ1dfLXhZY2VRRldHLWg3UDY4WFVtaHdNM25PUVh6eHFINmFpMnFBalYwbHZ4M1hoMmFCUkFmRkk4?oc=5"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-16",
+    "source": "news.kmnsoyuz.ru",
+    "title": "На Таймыре оленеводческое хозяйство, созданное при поддержке края, получит субсидию",
+    "desc": "В Красноярском крае подвели итоги отбора на предоставление субсидий оленеводческим хозяйствам. Государственную поддержку получит хозяйство «Нерня» («Вперед»), созданное в прошлом году на Таймыре. The post На Таймыре оленеводческое хозяйство, созданное при поддержке края, получит субсидию appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/54435"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-11",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Эвенкийская этнопевица Ayaa примет участие в фестивале имени В.С. Гончикова",
+    "desc": "«Ayaa» - творческий псевдоним певицы из Красноярского края Галины Веретновой, это слово переводится как «добро, свет, путь».",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/evenkijskaya-etnopevicza-ayaa-primet-uchastie-v-festivale-imeni-v.s.-gonchikova.html"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-13",
+    "source": "моо «кмнсоюз",
+    "title": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка - моо «кмнсоюз",
+    "desc": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zMDBzOWV3MU5DeVhvVUk1azJvckhfQ0wwbWRXakN2cjA3QW45WFRnV1lvbHlEZW9QVTFvX0c4dXJlX3RvTEJOTDQzVQ?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-20",
+    "source": "Корабел.ру",
+    "title": "В Якутии обсудили сложную ситуацию с северным завозом - Корабел.ру",
+    "desc": "В Якутии обсудили сложную ситуацию с северным завозом Корабел.ру",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLW1qOVVWd0x3d01OeVYtMS1fX213X0d2WWdGYUFEdUV3WWNJMDdtX296b0lORUVqNjFpbThsdE5FMHZpSTBnYXA1a1hPankwVno2Mi1zbUtDTGFLZ1dMUmtfSDZXSGpHeDZWTEp0WXFTQjB2RHRDREJ2anMwRlpZdGI4cll6d29CclFDMGYtZFhwVTc3WEhqbWZWbEVJSS1Y?oc=5"
   },
   {
     "region": "Якутия",
@@ -2347,16 +2448,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-11-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка",
-    "desc": "Автором игры стала учитель эвенкийского языка школы №26 Диана Мартынова, получившая грантовую поддержку Росмолодёжи. В игровой базе собрано 700 эвенкийских слов, разбитых по уровням сложности. Они размещены на 140 карточках – по пять слов на каждой, от простых к сложным. The post В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54351"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-27",
     "source": "YakutiaMedia",
     "title": "Приоритеты Якутии: бюджет, ЖКХ и северный завоз - YakutiaMedia",
@@ -2376,35 +2467,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qUFY4RTlBc3hMSXh4NWZzTmtJYTkyWDltNjhncUZNUkE4dEFDNVNWdlEyNHRQSUlWV2NYYTd0NnZBUExaRC1aV29pOVVlcGptVjJzSmFKME5JMWpCWlYtV052MHptQTg?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-07",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "На фестивале имени В.С. Гончикова выступит этно-певица AINA",
-    "desc": "Она впервые участвует в этом межрегиональном этнокультурном мероприятии.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/na-festivale-imeni-v.s.-gonchikova-vyistupit-etno-pevicza-aina.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-10",
-    "source": "内蒙古新闻网",
-    "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
-    "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
+    "date": "2026-11-15",
+    "source": "凤凰网",
+    "title": "传民族天籁 续文脉薪火！2026年鄂伦春族传统民歌培训班顺利开班 - 凤凰网",
+    "desc": "传民族天籁 续文脉薪火！2026年鄂伦春族传统民歌培训班顺利开班 凤凰网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jWWFFcmhMeGZHUjRidHUydV9LOU5OUFhuWmVvcGRKM1NuQmpSLTFsOVphV1hJTjlBcExGbWk0am9IWnJHNG1jUDJJVHpFaVdVMHlyQmdhRUFGczFGejVSQUlzd3l2WDhFYmZDaEplSQ?oc=5",
-    "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-11-13",
-    "source": "моо «кмнсоюз",
-    "title": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей - моо «кмнсоюз",
-    "desc": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PUEh3bWFhRU4xODFveng0QXdKWmtuRWN3NC1KemVLUGhGSnVGV3UzNHZsZWdVa20xWnpkdGY0NmRuTTlRU005VmdiZw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ubXlDY1JUNGczT1gtcnNPYW1JUnhWUWN1UFdCMHNZdlAtZ2F6a0h2MlItU0h1TWU4V1o0MjBPZzF2VmVnMHhKNHQ5WHA?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -2476,17 +2546,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HY2IzbmtFWEI2NkFMOVJtaXNUQkp5UjR4ajBYbXEyWnY3aW43RFJTeWdOSk1mRHg3QlVVTmE1WlUxVV8zYnVIbTQ4VmdxbjdvMDdtdWtB?oc=5"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-11-04",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Айсен Николаев поздравил якутян с Днем народного единства «Дорогие якутяне! Сердечно поздравляю вас с Днем народного единства в Год единства народов России! Президент РФ Владимир П",
-    "desc": "Айсен Николаев поздравил якутян с Днем народного единства «Дорогие якутяне! Сердечно поздравляю вас с Днем народного единства в Год единства народов России! Президент РФ Владимир Путин 5 февраля официально открыл Год единства народов России. Единство народов России, основанное на взаимном уважении к культуре и традициям каждого, является главной силой страны и основой всех ее достижений и побед, подчеркнул президент»",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/yk24ru/91949",
-    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
   },
   {
     "region": "Томская область",
@@ -2718,15 +2777,56 @@ window.newsStories=[
     "link": "https://www.vesti-krasnoyarsk.ru/news/proisshestviya/post-61696/"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-14",
+    "region": "Красноярский край",
+    "date": "2026-11-17",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Новый выпуск ЭЖ! Как всегда подготовили для вас материалы о главных событиях недели, новости на эвенкийском языке и детскую страничку!",
-    "desc": "Новый выпуск ЭЖ! Как всегда подготовили для вас материалы о главных событиях недели, новости на эвенкийском языке и детскую страничку!",
+    "title": "Оленеводы и промысловики Красноярского края смогут бесплатно получить солнечные батареи В Красноярском крае вводят новую меру поддержки. Представители коренных малочисленных народо",
+    "desc": "Оленеводы и промысловики Красноярского края смогут бесплатно получить солнечные батареи В Красноярском крае вводят новую меру поддержки. Представители коренных малочисленных народов, которые ведут кочевой или полукочевой образ жизни в Эвенкии, смогут бесплатно получить солнечную электроустановку — по одной на семью или для одиноко проживающего человека. Оборудование поможет заряжать фонари, средства связи и другие пр",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/13270",
+    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-04",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Айсен Николаев поздравил якутян с Днем народного единства «Дорогие якутяне! Сердечно поздравляю вас с Днем народного единства в Год единства народов России! Президент РФ Владимир П",
+    "desc": "Айсен Николаев поздравил якутян с Днем народного единства «Дорогие якутяне! Сердечно поздравляю вас с Днем народного единства в Год единства народов России! Президент РФ Владимир Путин 5 февраля официально открыл Год единства народов России. Единство народов России, основанное на взаимном уважении к культуре и традициям каждого, является главной силой страны и основой всех ее достижений и побед, подчеркнул президент»",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/evenkya_life/13235",
-    "image": "https://cdn4.telesco.pe/file/lphQxoHCWAdaAPVLk7x36NdhRxOLtakOJQn9yqm7wmBSyUvMoRju6OkP6mUFp20S-rRm6CZFMXnkr5MccQGDg_NGdZ5dfDr9r8CzQSCHk5YdIzs5Hv-O6MTRcYTwQXiH9G2bJue_HgFSeDYNBsCgl2UOgYyqEQEN6NgZeEnhD6VXrzY9HYacsqk6beD0BUzHI3dgGC1YchyuuDpvHSBNU3cP7UPc2i2bOPjldxVcEjw8s2IL1eVLGWDm1qdpitRjffk0YJwGekwJVWTomeapI8mAVSw3Z58Fp0WyWtqIVQW6LYSQyxlHziTbhC39SrS2I63rQLQ2bVAX4KMQObnFsA.jpg"
+    "link": "https://t.me/yk24ru/91949",
+    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-13",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей",
+    "desc": "«Маут» повествует об истории эвенкийской семьи оленеводов. По сюжету молодой человек вопреки желанию отца передать семейное дело – разведение оленей – решает уехать работать в город, что становится личной и семейной трагедией. The post Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54386"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-07",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестивале имени В.С. Гончикова выступит этно-певица AINA",
+    "desc": "Она впервые участвует в этом межрегиональном этнокультурном мероприятии.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festivale-imeni-v.s.-gonchikova-vyistupit-etno-pevicza-aina.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-13",
+    "source": "моо «кмнсоюз",
+    "title": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей - моо «кмнсоюз",
+    "desc": "Фильм «Маут» об истории семьи эвенкийских оленеводов отправится на шесть фестивалей моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PUEh3bWFhRU4xODFveng0QXdKWmtuRWN3NC1KemVLUGhGSnVGV3UzNHZsZWdVa20xWnpkdGY0NmRuTTlRU005VmdiZw?oc=5"
   },
   {
     "region": "Якутия",
@@ -2780,16 +2880,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/TtzM9C9jxWkJKqI_krOISCDhW1GpBiRhxn_EJHq-WZ2iK4wmfpqsSqxW3U7y-BMzINF-x5eMbiJJ2zfrSoO82mpkK8W3zdNjh5WBQQY1-BTD7wj6ACOPKHtkuT-Y75xdD0TeAWF2mb5sAIhuf-eEY-MTiqwzD5KL-syH1UEkXRj0bid3B326eBeW9eQo9Ynfn77YoOFsxW2pMC0rj4G7YO2WS5h_fXNF9oQh4AGVo4jf_rMhcXp61Wzsr6sTvffb6CPvUmNk-0szwngys9bV4rSXA6lCrYRi5dBraDOAfZEq62iO2KFMx0RUqxMaxMu8If51baJSSSOXz5mDQXcfmA.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-11",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Подведены итоги конкурса переводов художественных произведений на языки коренных народов",
-    "desc": "Более 70 художественных переводов на восемь языков народов России представили на конкурсе Федерального института родных языков. Участники из разных регионов страны представили переводы прозы и поэзии на вепсский, долганский, нганасанский, ненецкий, тоджинский, чукотский, эвенский и эвенкийский языки. The post Подведены итоги конкурса переводов художественных произведений на языки коренных народов appeared first on Но",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54298"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-11",
     "source": "YakutiaMedia",
@@ -2810,35 +2900,15 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzMjBZdzYxbzZ4bWdhTDdyTTVNLV91ejdvd1VVMFBRM0N0b3g1R0NPV2U1OFBTZHN5Q3NKc09WbTZvcEFXNF91SldITHJaMjBXczZSV2tnLVlIam1oZTR6eWhBSmtQWDQ?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-11-05",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Валентина Матвиенко посетила экспозицию Центра «Арун»",
-    "desc": "Председатель Совета Федерации похвалила деятельность организации по сохранению культуры эвенков Бурятии",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/valentina-matvienko-posetila-ekspozicziyu-czentra-arun.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-08",
-    "source": "新华网",
+    "date": "2026-11-10",
+    "source": "内蒙古新闻网",
     "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
     "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMnRYd1JLWXBVOHV2TFUtRGVrNXdzQXM0SU4tN3VnWC1GeVk5S2kwcldQZnhBSERVZ0JZbmU3dXE3V0JyOEtNekJoVWN0Y3NnSW9naEF3YUdMUVVweENITjJjYkQ2M2hydW5VX3c1S2dtaDFoRzRtdjlFSnV1OEtXV3AzYw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jWWFFcmhMeGZHUjRidHUydV9LOU5OUFhuWmVvcGRKM1NuQmpSLTFsOVphV1hJTjlBcExGbWk0am9IWnJHNG1jUDJJVHpFaVdVMHlyQmdhRUFGczFGejVSQUlzd3l2WDhFYmZDaEplSQ?oc=5",
     "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-11-04",
-    "source": "моо «кмнсоюз",
-    "title": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО - моо «кмнсоюз",
-    "desc": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PcW9nUFIxYm1aQ0NjOHpRcG51NE5seHF6UGxoZTR6aXNaTVdnZzB0bXBFckk0UDNwWGs0YUd1Q0pMV2ZWbFFkQmUzSQ?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -2890,17 +2960,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://14.ru/text/animals/2026/10/28/76727294"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-11-03",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Курс на рост: Айсен Николаев и Олег Кожемяко обсудили будущее Якутии Глава Якутии Айсен Николаев провёл встречу с полпредом Президента в ДФО Олегом Кожемяко. Обсудили социально‑эко",
-    "desc": "Курс на рост: Айсен Николаев и Олег Кожемяко обсудили будущее Якутии Глава Якутии Айсен Николаев провёл встречу с полпредом Президента в ДФО Олегом Кожемяко. Обсудили социально‑экономическое развитие региона, северный завоз, транспортную доступность и стратегические проекты — в том числе коридор «Мохэ — Найба». Олег Кожемяко отметил лидерство Якутии по приросту рождаемости, её роль как газового донора ДФО и перспекти",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91941",
-    "image": "https://cdn4.telesco.pe/file/ny7ZV-CCLqnRZ6MCoh9DaJng7ZEnptjZgIImhnlxo8ltdd_8uwFLQQzt1xmXhHPUWF4ArnRgjxgnwmmvjnFwa6Q2ZVLZPwFUVfSaQeh7VlDucKsHYiwXjNtrDAvJfGPKSVnc_n5PamvWTyjMT384FV3YMiPRqkY0GjVw_XqWH8pFQS_iujMYkQhAddmDRKIX_jYS5ewfc50dKkVOM50c3I9bTsOs-SUweiicaXz3ueZ6bNZ6lgwuFUrXapYUJX3Gqfbw8V_kcGHyed6KC1WiMfNI8Wh8DquLVO3jZ-H6iPQazH-mBFISRYj85-suXynmxQffM_mzv8b-2GrddrZMpQ.jpg"
   },
   {
     "region": "Томская область",
@@ -3013,14 +3072,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-13",
+    "date": "2026-11-17",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В краевом бюджете предусмотрели средства на развитие Севера и поддержку его жителей 12 ноября депутаты Законодательного Собрания Красноярского края рассмотрели проект бюджета на 20",
-    "desc": "В краевом бюджете предусмотрели средства на развитие Севера и поддержку его жителей 12 ноября депутаты Законодательного Собрания Красноярского края рассмотрели проект бюджета на 2027-2029 годы в части развития северных территорий. Почти 3,8 млрд рублей предусмотрено на поддержку коренных малочисленных народов. Финансирование увеличено на 239,7 млн рублей. Дополнительные средства направят на индексацию соцвыплат, фина",
+    "title": "В детской школе искусств сохраняют культуру КМНС Ванаварская школа искусств показала односельчанам этноспектакль «Как появилась земля». Его основой стала легенда, которую записал о",
+    "desc": "В детской школе искусств сохраняют культуру КМНС Ванаварская школа искусств показала односельчанам этноспектакль «Как появилась земля». Его основой стала легенда, которую записал от своих сородичей Николай Оёгир. Мероприятие было организовано в рамках реализации грантового проекта «Николай Оёгир. Голос древней земли». Спектакль провели в концертном зале Дома культуры, ведь всех желающих посмотреть представление невоз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/13262",
+    "image": "https://cdn4.telesco.pe/file/n9AUIyVfEPneli6orddQJSDlyGoWCPYQ6RS-H1w-otQmDm62-oJA3piDEceo7uBIUmFF8_6Vsq5MSMfMCtf1xqoUpGiSGBupBmaWlP6DS09zDizG43Bq3RlON9wWbcRvjUCps8b2gFFmUl-wJ3udpPBF_rsdOvXQPd8_1IC9eyI01m0D6WZ9cIa3x00BQCcT6QOj8Z338KN3Q2Gh4Rbg8-_nKuNWV4uTYdUN4rbGCmtHr4mbmA1cVXh9d0LOe6F9qovuW5bFvtGP8tnulQpKrt7cAVggY6MZpr4iWLxzroY8cXUW8GRSite8iozhm7m_jHbg4qXb06gVJj7uMmqH3g.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-03",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Курс на рост: Айсен Николаев и Олег Кожемяко обсудили будущее Якутии Глава Якутии Айсен Николаев провёл встречу с полпредом Президента в ДФО Олегом Кожемяко. Обсудили социально‑эко",
+    "desc": "Курс на рост: Айсен Николаев и Олег Кожемяко обсудили будущее Якутии Глава Якутии Айсен Николаев провёл встречу с полпредом Президента в ДФО Олегом Кожемяко. Обсудили социально‑экономическое развитие региона, северный завоз, транспортную доступность и стратегические проекты — в том числе коридор «Мохэ — Найба». Олег Кожемяко отметил лидерство Якутии по приросту рождаемости, её роль как газового донора ДФО и перспекти",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13224",
-    "image": "https://cdn4.telesco.pe/file/upD6vKnlhQIj294_eOeKVz984E-ywDSxA5YnUl4NB6rHBMRumiT0Cl0oQi7NM7MsFXF8jtshe9mTHoF--nx-34HfwxcYTAJYxsLvmvj4Zd49MaLSxfUCpI8x9RYlaueTHWLtNq2BsKO-J2FawyokfYiPOmEUmAqFoCQ28p7FEhV1t69Zz40MYubXVuv8WRqr7oF-7ElfMeCj1tLelPdj_ikh5jnReqXaYWRGjZN39rN3kkRPGA-Zd_5GfTg0wGgq79eJowOZvCAKk3ZbUO84o_5v9CGXz-2BfrKW9IDPA41ax5fMtvmYeYrv8vtENEeHEm6guay06Aa0TKcsoGPCYA.jpg"
+    "link": "https://t.me/yk24ru/91941",
+    "image": "https://cdn4.telesco.pe/file/ny7ZV-CCLqnRZ6MCoh9DaJng7ZEnptjZgIImhnlxo8ltdd_8uwFLQQzt1xmXhHPUWF4ArnRgjxgnwmmvjnFwa6Q2ZVLZPwFUVfSaQeh7VlDucKsHYiwXjNtrDAvJfGPKSVnc_n5PamvWTyjMT384FV3YMiPRqkY0GjVw_XqWH8pFQS_iujMYkQhAddmDRKIX_jYS5ewfc50dKkVOM50c3I9bTsOs-SUweiicaXz3ueZ6bNZ6lgwuFUrXapYUJX3Gqfbw8V_kcGHyed6KC1WiMfNI8Wh8DquLVO3jZ-H6iPQazH-mBFISRYj85-suXynmxQffM_mzv8b-2GrddrZMpQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка",
+    "desc": "Автором игры стала учитель эвенкийского языка школы №26 Диана Мартынова, получившая грантовую поддержку Росмолодёжи. В игровой базе собрано 700 эвенкийских слов, разбитых по уровням сложности. Они размещены на 140 карточках – по пять слов на каждой, от простых к сложным. The post В Якутии презентовали авторскую игру «Хокто» для изучения эвенкийского языка appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54351"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-11-05",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Валентина Матвиенко посетила экспозицию Центра «Арун»",
+    "desc": "Председатель Совета Федерации похвалила деятельность организации по сохранению культуры эвенков Бурятии",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/valentina-matvienko-posetila-ekspozicziyu-czentra-arun.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-04",
+    "source": "моо «кмнсоюз",
+    "title": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО - моо «кмнсоюз",
+    "desc": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PcW9nUFIxYm1aQ0NjOHpRcG51NE5seHF6UGxoZTR6aXNaTVdnZzB0bXBFckk0UDNwWGs0YUd1Q0pMV2ZWbFFkQmUzSQ?oc=5"
   },
   {
     "region": "Якутия",
@@ -3064,16 +3164,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/TtzM9C9jxWkJKqI_krOISCDhW1GpBiRhxn_EJHq-WZ2iK4wmfpqsSqxW3U7y-BMzINF-x5eMbiJJ2zfrSoO82mpkK8W3zdNjh5WBQQY1-BTD7wj6ACOPKHtkuT-Y75xdD0TeAWF2mb5sAIhuf-eEY-MTiqwzD5KL-syH1UEkXRj0bid3B326eBeW9eQo9Ynfn77YoOFsxW2pMC0rj4G7YO2WS5h_fXNF9oQh4AGVo4jf_rMhcXp61Wzsr6sTvffb6CPvUmNk-0szwngys9bV4rSXA6lCrYRi5dBraDOAfZEq62iO2KFMx0RUqxMaxMu8If51baJSSSOXz5mDQXcfmA.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-11-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Куда ведёт «Большой Аргиш»: культура народов Севера в центре внимания",
-    "desc": "В Красноярском крае 6 и 7 ноября Дудинка и Норильск вновь стали центром северной культуры: этнический фестиваль «Большой Аргиш» объединил традиции долган, ненцев, энцев, эвенков и нганасан. The post Куда ведёт «Большой Аргиш»: культура народов Севера в центре внимания appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54231"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-10",
     "source": "YakutiaMedia",
@@ -3094,16 +3184,6 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MVnNMWEtnZ1FsUUJrc2pSLTgzX1RqN1ZKM01LRm9SbW5jeTNEdm9HSS1DcXZsTmlfbVdoR2ltMXFxMUFKeW9UUTYzTFBoN21IRnJZZWppWFBueDFWNFNwRV9sOUY?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-29",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» поддержал семинар «Игры народов России»",
-    "desc": "Мероприятие филиала Центра \"ВОИН\" в Бурятии было приурочено ко Дню народного единства",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/czentr-arun-podderzhal-seminar-igryi-narodov-rossii.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
@@ -3111,18 +3191,8 @@ window.newsStories=[
     "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRDFiWGdWSTRrLVFHb1ZuT2JjejlMbktrOUxTN1ZZWV9FVlNrcFR3bVRCVzE5RlB2ejZ4aVhrNnlNQ2NmbllxTGYtZ0N1VEhrVUo0SkJ6eVBwTjIzZFZfSHoyLV9TNnFoZFdrdUVPNVZFU0o0NWc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMnRYd1JLWXBVOHV2TFUtRGVrNXdzQXM0SU4tN3VnWC1GeVk5S2kwcldQZnhBSERVZ0JZbmU3dXE3V0JyOEtNekJoVWN0Y3NnSW9naEF3YUdMUVVweENITjJjYkQ2M2hydW5VX3c1S2dtaDFoRzRtdjlFSnV1OEtXV3AzYw?oc=5",
     "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
-  },
-  {
-    "region": "Забайкальский край",
-    "date": "2026-11-03",
-    "source": "моо «кмнсоюз",
-    "title": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» - моо «кмнсоюз",
-    "desc": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wTWNud0ZDQUN6MXJjdXhqZkd5WWkwQURoX2ZDVGtVTVJvR1pfWmt2TjVEejYzUnM2Yl9qbzBsUzAyc0VndHQ0NlJyMA?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -3174,17 +3244,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://14.ru/text/animals/2026/10/21/76709665"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-11-03",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Якутия готовит «тепляки» с продовольствием для Арктики С завершением навигации в регионе стартовала подготовка к работе автозимников. Оператор северного завоза — АО «АТЛК» — уже ко",
-    "desc": "Якутия готовит «тепляки» с продовольствием для Арктики С завершением навигации в регионе стартовала подготовка к работе автозимников. Оператор северного завоза — АО «АТЛК» — уже комплектует на складах первые партии продуктов, чтобы отправить их в арктические районы в утеплённых машинах-«тепляках». Такие транспортные средства способны сохранять нужный температурный режим даже в суровые якутские морозы — это критически",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91936",
-    "image": "https://cdn4.telesco.pe/file/ny7ZV-CCLqnRZ6MCoh9DaJng7ZEnptjZgIImhnlxo8ltdd_8uwFLQQzt1xmXhHPUWF4ArnRgjxgnwmmvjnFwa6Q2ZVLZPwFUVfSaQeh7VlDucKsHYiwXjNtrDAvJfGPKSVnc_n5PamvWTyjMT384FV3YMiPRqkY0GjVw_XqWH8pFQS_iujMYkQhAddmDRKIX_jYS5ewfc50dKkVOM50c3I9bTsOs-SUweiicaXz3ueZ6bNZ6lgwuFUrXapYUJX3Gqfbw8V_kcGHyed6KC1WiMfNI8Wh8DquLVO3jZ-H6iPQazH-mBFISRYj85-suXynmxQffM_mzv8b-2GrddrZMpQ.jpg"
   },
   {
     "region": "Якутия",
@@ -3267,15 +3326,56 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/ufmgP-aIu4oyx6hsPKgl1DBmrgeb8BOMI9eYZbFVT7aQga2JToGwYdRVE2cCP2qsxDTqpVVgAek9stj78W7RWUifggfrgKq40cUXsugLJbkUKls5Kp2GnkIDxTTOXLTI7_16QjqQJ6mAR2MNpuHoRXuYjq5xSuTcQy02awb6NM8pxOocJIS6cdn7P8z5XbNJ2TdB_Cks2BW30uIsqBA8eOtVNcCiyMpo5WqI1NQUmQ6nE65BFG9Kl_6ZPcGFe_h4djAhaZgrlWAVXL3gZBMwc3AlSCQsn0Pv_5d00ojeJU5DgICheYc9z_TwmubUFt538eXVYJAEa9feTmVyoBkXVg.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-11-09",
+    "region": "Общие новости",
+    "date": "2026-11-14",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В северные поселки Эвенкии продолжают доставлять продовольствие В Красноярском крае продолжается доставка авиацией продовольствия в северные населенные пункты Эвенкии. Ситуация нах",
-    "desc": "В северные поселки Эвенкии продолжают доставлять продовольствие В Красноярском крае продолжается доставка авиацией продовольствия в северные населенные пункты Эвенкии. Ситуация находится на контроле Правительства края. По состоянию на 9 ноября выполнено 36 авиарейсов, доставлено около 142 тонн продуктов питания. На текущей неделе в поселок Тура запланировано еще девять авиарейсов, которыми доставят более 34 тонн прод",
+    "title": "Новый выпуск ЭЖ! Как всегда подготовили для вас материалы о главных событиях недели, новости на эвенкийском языке и детскую страничку!",
+    "desc": "Новый выпуск ЭЖ! Как всегда подготовили для вас материалы о главных событиях недели, новости на эвенкийском языке и детскую страничку!",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/13235",
+    "image": "https://cdn4.telesco.pe/file/lphQxoHCWAdaAPVLk7x36NdhRxOLtakOJQn9yqm7wmBSyUvMoRju6OkP6mUFp20S-rRm6CZFMXnkr5MccQGDg_NGdZ5dfDr9r8CzQSCHk5YdIzs5Hv-O6MTRcYTwQXiH9G2bJue_HgFSeDYNBsCgl2UOgYyqEQEN6NgZeEnhD6VXrzY9HYacsqk6beD0BUzHI3dgGC1YchyuuDpvHSBNU3cP7UPc2i2bOPjldxVcEjw8s2IL1eVLGWDm1qdpitRjffk0YJwGekwJVWTomeapI8mAVSw3Z58Fp0WyWtqIVQW6LYSQyxlHziTbhC39SrS2I63rQLQ2bVAX4KMQObnFsA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-03",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Якутия готовит «тепляки» с продовольствием для Арктики С завершением навигации в регионе стартовала подготовка к работе автозимников. Оператор северного завоза — АО «АТЛК» — уже ко",
+    "desc": "Якутия готовит «тепляки» с продовольствием для Арктики С завершением навигации в регионе стартовала подготовка к работе автозимников. Оператор северного завоза — АО «АТЛК» — уже комплектует на складах первые партии продуктов, чтобы отправить их в арктические районы в утеплённых машинах-«тепляках». Такие транспортные средства способны сохранять нужный температурный режим даже в суровые якутские морозы — это критически",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13175",
-    "image": "https://cdn4.telesco.pe/file/VxuK5ALQNSEiNdkr2nrB6aDcbHVNv0R-XG7pzeknjQctCY8Dih7yaJmSKUBaGbAeHuA-oxAtUIId3UkS8QGDBA4atskCa4b_68YlwWrnwm2k0QzrlSkkuGXqItPS_fnQIY6FSXihr7KLV_Anj7RzhEpjNhZGxg1t03DpYo4-1ZMRj5QM4Fi82E8gglUEoEirEygMBCqqezT7uGGIWkE0_H99r2I5bsdeuAmHB6as0cR9hIPF37wxxxKJuWIAH8-KpqD7DLAJsKfrJU4AlvXHCQaQDPOBV5sT0YH7mzZu7lLs7B6uhercjVKY6H04CQfk9cH2oLQ1Js7vx7Q7R4HBmw.jpg"
+    "link": "https://t.me/yk24ru/91936",
+    "image": "https://cdn4.telesco.pe/file/ny7ZV-CCLqnRZ6MCoh9DaJng7ZEnptjZgIImhnlxo8ltdd_8uwFLQQzt1xmXhHPUWF4ArnRgjxgnwmmvjnFwa6Q2ZVLZPwFUVfSaQeh7VlDucKsHYiwXjNtrDAvJfGPKSVnc_n5PamvWTyjMT384FV3YMiPRqkY0GjVw_XqWH8pFQS_iujMYkQhAddmDRKIX_jYS5ewfc50dKkVOM50c3I9bTsOs-SUweiicaXz3ueZ6bNZ6lgwuFUrXapYUJX3Gqfbw8V_kcGHyed6KC1WiMfNI8Wh8DquLVO3jZ-H6iPQazH-mBFISRYj85-suXynmxQffM_mzv8b-2GrddrZMpQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-11",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Подведены итоги конкурса переводов художественных произведений на языки коренных народов",
+    "desc": "Более 70 художественных переводов на восемь языков народов России представили на конкурсе Федерального института родных языков. Участники из разных регионов страны представили переводы прозы и поэзии на вепсский, долганский, нганасанский, ненецкий, тоджинский, чукотский, эвенский и эвенкийский языки. The post Подведены итоги конкурса переводов художественных произведений на языки коренных народов appeared first on Но",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54298"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-29",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Центр «Арун» поддержал семинар «Игры народов России»",
+    "desc": "Мероприятие филиала Центра \"ВОИН\" в Бурятии было приурочено ко Дню народного единства",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/czentr-arun-podderzhal-seminar-igryi-narodov-rossii.html"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-11-03",
+    "source": "моо «кмнсоюз",
+    "title": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» - моо «кмнсоюз",
+    "desc": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wTWNud0ZDQUN6MXJjdXhqZkd5WWkwQURoX2ZDVGtVTVJvR1pfWmt2TjVEejYzUnM2Yl9qbzBsUzAyc0VndHQ0NlJyMA?oc=5"
   },
   {
     "region": "Якутия",
@@ -3320,16 +3420,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-11-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "В Якутии открыли пять центров чтения на родных языках коренных малочисленных народов",
-    "desc": "Пять центров, ориентированных на сохранение и развитие эвенского и эвенкийского языков, открыты в Алданском, Оймяконском, Булунском и Кобяйском улусах. Центры чтения организованы на базе сельских библиотек. The post В Якутии открыли пять центров чтения на родных языках коренных малочисленных народов appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54250"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-08",
     "source": "YakutiaMedia",
     "title": "В Якутии бьют тревогу из‑за угрозы ликвидации оленеводческих МУП - YakutiaMedia",
@@ -3349,35 +3439,15 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrQVVWQS1LOW83M3JHRmFjRUlNaUdZakptRjVZazEzajRKYVY5VE1Xa1NEYzhlcWpWaV85eEdKUDRXUm81eHJuY3RrX2Q4RTA?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-27",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова",
-    "desc": "Гала-концерт межрегионального мероприятия будет проходить 1 декабря на сцене Бурдрама",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/v-ulan-ude-projdet-festival-evenkijskoj-kulturyi-im.-v.s.-gonchikova.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-11-08",
     "source": "新华网",
-    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
-    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
+    "title": "Зимняя Аолугуя: жизнь эвенков-оленеводов в тайге",
+    "desc": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1BWelBBdG01Y2JHaU5Gc3NsNFd6RXA1Y0FkVGs2RW5sRHVaVFhrRnNPNl8yZWlnZnEzejVWbkd4ODZDbWE1OHpSNHQ1enNSdnNHOXVtYTY2UTBTY29TQXZVVXpxYjFuX0RFQUsxbnBOMUcteXZlQkZVV3pZRGczRkNuUQ?oc=5",
-    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-30",
-    "source": "моо «кмнсоюз",
-    "title": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре - моо «кмнсоюз",
-    "desc": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pZzRyeUJPRWVlc1NIWVZEbGtLSlo1VVkzSWJrZkd3TkhpWTF1czJTVlpQc295RlpsazAzRTEyZW4tVks0WElEbS1NSQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRDFiWGdWSTRrLVFHb1ZuT2JjejlMbktrOUxTN1ZZWV9FVlNrcFR3bVRCVzE5RlB2ejZ4aVhrNnlNQ2NmbllxTGYtZ0N1VEhrVUo0SkJ6eVBwTjIzZFZfSHoyLV9TNnFoZFdrdUVPNVZFU0o0NWc?oc=5",
+    "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
   },
   {
     "region": "Общие новости",
@@ -3432,17 +3502,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-11-03",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Итоги дня»: Самые заметные события уходящего дня Развитие экономики, северный завоз и транспортная доступность. Эти вопросы обсудили Глава Якутии Айсен Николаев и полпред ДФО Олег",
-    "desc": "«Итоги дня»: Самые заметные события уходящего дня Развитие экономики, северный завоз и транспортная доступность. Эти вопросы обсудили Глава Якутии Айсен Николаев и полпред ДФО Олег Кожемяко «Больше энергии – ярче завтра»: под таким девизом в Ленске прошел молодежный районный форум ЗОЖ История о пропавшей собаке, которая гораздо больше, чем просто комедия. Русский драмтеатр готовит новую постановку Подробнее смотрите ",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91943",
-    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-26",
     "source": "gtrksakha.ru",
     "title": "Порядка 30 судов на воздушной подушке задействованы на переправе Якутск — Нижний Бестях",
@@ -3493,14 +3552,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-08",
+    "date": "2026-11-13",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Как прошел «Аяврик» в Байките? Окружной фестиваль детского творчества прошел при полном аншлаге, несмотря на то, что в Доме культуры на сегодняшний день идут ремонтные работы и нет",
-    "desc": "Как прошел «Аяврик» в Байките? Окружной фестиваль детского творчества прошел при полном аншлаге, несмотря на то, что в Доме культуры на сегодняшний день идут ремонтные работы и нет возможности принимать гостей в стенах ДК. Три дня фестиваля провели на разных площадках села: Байкитская средняя школа, пришкольный интернат, детская школа искусств. Более 170 участников, 15 творческих коллективов, 50 концертных номеров: и",
+    "title": "В краевом бюджете предусмотрели средства на развитие Севера и поддержку его жителей 12 ноября депутаты Законодательного Собрания Красноярского края рассмотрели проект бюджета на 20",
+    "desc": "В краевом бюджете предусмотрели средства на развитие Севера и поддержку его жителей 12 ноября депутаты Законодательного Собрания Красноярского края рассмотрели проект бюджета на 2027-2029 годы в части развития северных территорий. Почти 3,8 млрд рублей предусмотрено на поддержку коренных малочисленных народов. Финансирование увеличено на 239,7 млн рублей. Дополнительные средства направят на индексацию соцвыплат, фина",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13152",
-    "image": "https://cdn4.telesco.pe/file/SOj87h1yOji02urobd5WU01lPP8I69kMgLGtcBOF_YsTe17DSI5fwSZaBse7W8NqtEXdsUPI1JxZF93s29aXuHoc6RS4hdh_aej6pvQwCkNvB6JWY6Ntc8tXjL6gIsPW1ktnixM5KMLkzIYGM3v7QLgcHq3Fl1GOJWBc_j34njEwM-zgQsXPuVu_NPRo_B4rPX6QcuNiOiWII2FQvFrLG9B-nFAhp5UXvhzDbpj2glPBAKBynAwRtTUKJDXT8cA-0CWG8HRADCMhF_XjPJuRd67PcdiqEOgznWsDzKPZcUeEfKIg601ArWF6ogbFA9kjgFmT0npADnWrwB-Tkc0HAw.jpg"
+    "link": "https://t.me/evenkya_life/13224",
+    "image": "https://cdn4.telesco.pe/file/upD6vKnlhQIj294_eOeKVz984E-ywDSxA5YnUl4NB6rHBMRumiT0Cl0oQi7NM7MsFXF8jtshe9mTHoF--nx-34HfwxcYTAJYxsLvmvj4Zd49MaLSxfUCpI8x9RYlaueTHWLtNq2BsKO-J2FawyokfYiPOmEUmAqFoCQ28p7FEhV1t69Zz40MYubXVuv8WRqr7oF-7ElfMeCj1tLelPdj_ikh5jnReqXaYWRGjZN39rN3kkRPGA-Zd_5GfTg0wGgq79eJowOZvCAKk3ZbUO84o_5v9CGXz-2BfrKW9IDPA41ax5fMtvmYeYrv8vtENEeHEm6guay06Aa0TKcsoGPCYA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-03",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "«Итоги дня»: Самые заметные события уходящего дня Развитие экономики, северный завоз и транспортная доступность. Эти вопросы обсудили Глава Якутии Айсен Николаев и полпред ДФО Олег",
+    "desc": "«Итоги дня»: Самые заметные события уходящего дня Развитие экономики, северный завоз и транспортная доступность. Эти вопросы обсудили Глава Якутии Айсен Николаев и полпред ДФО Олег Кожемяко «Больше энергии – ярче завтра»: под таким девизом в Ленске прошел молодежный районный форум ЗОЖ История о пропавшей собаке, которая гораздо больше, чем просто комедия. Русский драмтеатр готовит новую постановку Подробнее смотрите ",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91943",
+    "image": "https://cdn4.telesco.pe/file/uaZJJ1S0rD-Fs8cAWkw2hDTQbYUJKP_P2yI4lq_HexMUoT7NLfRZegugGhIoFYLFBnwB6Ld2Z8VFsiEjSUbXK_q9tKEjWUlxqxQC1ov7KDHnZ69DIoORUMDf4WZdEtsr_o0MhRW56GdAT9m64hdzNELNB2n78S3LPNUTEVnaTDFAw5A0O0lx1k07fn4xD_RwMFPD-jw72ugdrqbrb-_kR7qv0KTiNhN8stlLHsHbauhBIZdy_DA5cNgdC3KGPqfeOZmB3LpWw_YZOPSNeiMxaYN-tSuOoHCy3qN0Rgor4aQbOUOJI2mBE_RE4X4q1pznW5x589neSjmmEsXROYV6Sw.jpg"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Куда ведёт «Большой Аргиш»: культура народов Севера в центре внимания",
+    "desc": "В Красноярском крае 6 и 7 ноября Дудинка и Норильск вновь стали центром северной культуры: этнический фестиваль «Большой Аргиш» объединил традиции долган, ненцев, энцев, эвенков и нганасан. The post Куда ведёт «Большой Аргиш»: культура народов Севера в центре внимания appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54231"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова",
+    "desc": "Гала-концерт межрегионального мероприятия будет проходить 1 декабря на сцене Бурдрама",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/v-ulan-ude-projdet-festival-evenkijskoj-kulturyi-im.-v.s.-gonchikova.html"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-30",
+    "source": "моо «кмнсоюз",
+    "title": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре - моо «кмнсоюз",
+    "desc": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pZzRyeUJPRWVlc1NIWVZEbGtLSlo1VVkzSWJrZkd3TkhpWTF1czJTVlpQc295RlpsazAzRTEyZW4tVks0WElEbS1NSQ?oc=5"
   },
   {
     "region": "Якутия",
@@ -3535,16 +3635,6 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-11-04",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО",
-    "desc": "Губернатор НАО Ирина Гехт вместе с руководителями племенных хозяйств региона встретились с заместителем министра сельского хозяйства России Романом Некрасовым, чтобы поднять вопрос о необходимой для отрасли поддержке. The post Из шести племенных хозяйств северного оленеводства России три находятся в НАО appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/54186"
-  },
-  {
-    "region": "Общие новости",
     "date": "2026-11-02",
     "source": "Одноклассники",
     "title": "Эвенки, оленеводы из Юктэ, великий таежный народ. Фильм Дмитрия Кремнёва - Одноклассники",
@@ -3554,35 +3644,15 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CZWpNT1VnNzNRZ2IzS1BlWDEzUmlueG94b0VWd2VibVpyMHJWSE80M19YLVVxUmdJVS1FR01ETHg0T0J0SkdDSXdIR2xpb2c?oc=5"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-24",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Музыкальные композиции эвенкийского певца и композитора Максима Дженкоуля",
-    "desc": "Все выложенные композиции доступны для скачивания.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/pesni-evenkijskogo-pevcza-i-kompozitora-maksima-dzhenkoulya.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-11-08",
-    "source": "手机网易网",
-    "title": "Актёр Ван Яньлин исполнил классическую орочонскую народную песню",
-    "desc": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа.",
+    "source": "新华网",
+    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
+    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sei1xb1g2NE1KOUdidjFrZk1PeFhNWWpPWDFQSWQ1Ums5RUtReVFjazk5OE1XVG9vQWpWUWtHc2RQbWpZWXRaQnJhTmJyQzFtVGNEMQ?oc=5",
-    "overviewRu": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа."
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-10-29",
-    "source": "моо «кмнсоюз",
-    "title": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры - моо «кмнсоюз",
-    "desc": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80RWlycUYzV0lQaG1qcDgzUVNtY2ViWmVCMnRnOVNnSEtjMV85U2F3ejE1TFJjV21aM1ZGZUprRTdXTTQ0dzNZdUNrdw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1BWelBBdG01Y2JHaU5Gc3NsNFd6RXA1Y0FkVGs2RW5sRHVaVFhrRnNPNl8yZWlnZnEzejVWbkd4ODZDbWE1OHpSNHQ1enNSdnNHOXVtYTY2UTBTY29TQXZVVXpxYjFuX0RFQUsxbnBOMUcteXZlQkZVV3pZRGczRkNuUQ?oc=5",
+    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
   },
   {
     "region": "Хабаровский край",
@@ -3637,17 +3707,6 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-29",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Система здравоохранения является одним из национальных приоритетов по простым и понятным причинам: во-первых, она важна для народосбережения, во-вторых, это наиболее близкая и чувс",
-    "desc": "Система здравоохранения является одним из национальных приоритетов по простым и понятным причинам: во-первых, она важна для народосбережения, во-вторых, это наиболее близкая и чувствительная сфера для жителей любого региона, по состоянию которой они судят о работе власти. Именно поэтому эта тема всегда присутствует во всех президентских обращениях и посланиях и поднимается во время встреч главы государства с губернат",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91786",
-    "image": "https://cdn4.telesco.pe/file/mi116DjE_0gFbQC3vld8XgJkWPCggjZ1SYeV7dhp9kHLzffFPvbHtsW6Y8do6cmmZNd17nUa5MTq71K2Z8-QsDkT5pkz0gsAXlhQl4rJ91qptxFDJw3Gr_p4klqm8sAbCzc3c06R06jFbRoRNovjWGGMISmfMuwsFVsMTsyIXWDBP_g0-L0pOOoE5SkGAMcPVx8uCT1WPHPzrHZe4OyajWkLoNv6hnaRH5-C5i-XH2m2V9FuGbk4fzN5ZXtNY8849Bk2QIubT5CGQpoWBmuWnNLDggwEVB9e4R0is114lbLPkjRmuQfsSXg_sZdiEId96axq9xIuL08ucR8AM5EoaQ.jpg"
-  },
-  {
-    "region": "Общие новости",
     "date": "2026-10-26",
     "source": "gtrksakha.ru",
     "title": "300 тонн золота за всю историю работы золотоизвлекательной фабрики на Куранахском рудном поле",
@@ -3678,14 +3737,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Рубрика «Ретро-фото» База геофизической экспидиции. Ванавара, 1986 год. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "desc": "Рубрика «Ретро-фото» База геофизической экспидиции. Ванавара, 1986 год. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "title": "В северные поселки Эвенкии продолжают доставлять продовольствие В Красноярском крае продолжается доставка авиацией продовольствия в северные населенные пункты Эвенкии. Ситуация нах",
+    "desc": "В северные поселки Эвенкии продолжают доставлять продовольствие В Красноярском крае продолжается доставка авиацией продовольствия в северные населенные пункты Эвенкии. Ситуация находится на контроле Правительства края. По состоянию на 9 ноября выполнено 36 авиарейсов, доставлено около 142 тонн продуктов питания. На текущей неделе в поселок Тура запланировано еще девять авиарейсов, которыми доставят более 34 тонн прод",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13151",
-    "image": "https://cdn4.telesco.pe/file/SOj87h1yOji02urobd5WU01lPP8I69kMgLGtcBOF_YsTe17DSI5fwSZaBse7W8NqtEXdsUPI1JxZF93s29aXuHoc6RS4hdh_aej6pvQwCkNvB6JWY6Ntc8tXjL6gIsPW1ktnixM5KMLkzIYGM3v7QLgcHq3Fl1GOJWBc_j34njEwM-zgQsXPuVu_NPRo_B4rPX6QcuNiOiWII2FQvFrLG9B-nFAhp5UXvhzDbpj2glPBAKBynAwRtTUKJDXT8cA-0CWG8HRADCMhF_XjPJuRd67PcdiqEOgznWsDzKPZcUeEfKIg601ArWF6ogbFA9kjgFmT0npADnWrwB-Tkc0HAw.jpg"
+    "link": "https://t.me/evenkya_life/13175",
+    "image": "https://cdn4.telesco.pe/file/VxuK5ALQNSEiNdkr2nrB6aDcbHVNv0R-XG7pzeknjQctCY8Dih7yaJmSKUBaGbAeHuA-oxAtUIId3UkS8QGDBA4atskCa4b_68YlwWrnwm2k0QzrlSkkuGXqItPS_fnQIY6FSXihr7KLV_Anj7RzhEpjNhZGxg1t03DpYo4-1ZMRj5QM4Fi82E8gglUEoEirEygMBCqqezT7uGGIWkE0_H99r2I5bsdeuAmHB6as0cR9hIPF37wxxxKJuWIAH8-KpqD7DLAJsKfrJU4AlvXHCQaQDPOBV5sT0YH7mzZu7lLs7B6uhercjVKY6H04CQfk9cH2oLQ1Js7vx7Q7R4HBmw.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-29",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Система здравоохранения является одним из национальных приоритетов по простым и понятным причинам: во-первых, она важна для народосбережения, во-вторых, это наиболее близкая и чувс",
+    "desc": "Система здравоохранения является одним из национальных приоритетов по простым и понятным причинам: во-первых, она важна для народосбережения, во-вторых, это наиболее близкая и чувствительная сфера для жителей любого региона, по состоянию которой они судят о работе власти. Именно поэтому эта тема всегда присутствует во всех президентских обращениях и посланиях и поднимается во время встреч главы государства с губернат",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91786",
+    "image": "https://cdn4.telesco.pe/file/mi116DjE_0gFbQC3vld8XgJkWPCggjZ1SYeV7dhp9kHLzffFPvbHtsW6Y8do6cmmZNd17nUa5MTq71K2Z8-QsDkT5pkz0gsAXlhQl4rJ91qptxFDJw3Gr_p4klqm8sAbCzc3c06R06jFbRoRNovjWGGMISmfMuwsFVsMTsyIXWDBP_g0-L0pOOoE5SkGAMcPVx8uCT1WPHPzrHZe4OyajWkLoNv6hnaRH5-C5i-XH2m2V9FuGbk4fzN5ZXtNY8849Bk2QIubT5CGQpoWBmuWnNLDggwEVB9e4R0is114lbLPkjRmuQfsSXg_sZdiEId96axq9xIuL08ucR8AM5EoaQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-11-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Якутии открыли пять центров чтения на родных языках коренных малочисленных народов",
+    "desc": "Пять центров, ориентированных на сохранение и развитие эвенского и эвенкийского языков, открыты в Алданском, Оймяконском, Булунском и Кобяйском улусах. Центры чтения организованы на базе сельских библиотек. The post В Якутии открыли пять центров чтения на родных языках коренных малочисленных народов appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54250"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-24",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Музыкальные композиции эвенкийского певца и композитора Максима Дженкоуля",
+    "desc": "Все выложенные композиции доступны для скачивания.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/pesni-evenkijskogo-pevcza-i-kompozitora-maksima-dzhenkoulya.html"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-29",
+    "source": "моо «кмнсоюз",
+    "title": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры - моо «кмнсоюз",
+    "desc": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80RWlycUYzV0lQaG1qcDgzUVNtY2ViWmVCMnRnOVNnSEtjMV85U2F3ejE1TFJjV21aM1ZGZUprRTdXTTQ0dzNZdUNrdw?oc=5"
   },
   {
     "region": "Якутия",
@@ -3709,45 +3809,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/T6JpDByVOM2vciudsamq3qTb0chkoF1yN_yPgGg2gymg9-Asv3z3bdMJi5LyBZHN1xbASyg4TQgSC5H9DUO919HzZwXYTfYDpfANCeSWzHNBbrTYPHWRza-eDRynw7V26skRMe2gwuelSiLhr1xzVdquNRpKANlpVOdsgF5reujiHV1tq5mCApuCWUlON4iVdJrMS8AXBJe4oZoOO05VCop0fYzVovs8nSTRqvKcYxltJX1WC_BBPzh69V_ovRVYSZnkNNYRZK5MS4sLvHqzbk2DiF0Y-KImkrac6e8Te2c_ef2wRsOXbIdG38mPnxwqBwXU3WP-twkEKklsu3cPLg.jpg"
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-11-03",
-    "source": "news.kmnsoyuz.ru",
-    "title": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ»",
-    "desc": "2 и 3 ноября 2026 года в Чите работал первый в Забайкалье международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» – «Земля эвенков». Он объединил носителей языка, мастеров, педагогов, исследователей, школьников и студентов из России и Китая. The post В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54167"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-21",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
-    "desc": "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-11-08",
-    "source": "新华网",
-    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
-    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
+    "source": "手机网易网",
+    "title": "Актёр Ван Яньлин исполнил классическую орочонскую народную песню",
+    "desc": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mTVEyaTVOVXkxaHFjb1dMa1EzdXFOMnpkZmVzdUtpc3JKdF9FSHR6QWlqMFBQQWVLb2I3dXo1dVFFMkszZEFDLTY1WE14b1BIaDl4NEpqZ0hWSjF4OTNfbElSRHNfTzBCM3E2U3ViVjU5SzBCTkE?oc=5",
-    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
-  },
-  {
-    "region": "Забайкальский край",
-    "date": "2026-10-27",
-    "source": "моо «кмнсоюз",
-    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» - моо «кмнсоюз",
-    "desc": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13SGVrTmZka2hPeXhQdVhlRjJlbXhmY253VVhEQW9ZZHZLVWhsLXFGQjhnT0ZvSEJQQWY2Tl95X3ByNEt3TkZoSExJMA?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sei1xb1g2NE1KOUdidjFrZk1PeFhNWWpPWDFQSWQ1Ums5RUtReVFjazk5OE1XVG9vQWpWUWtHc2RQbWpZWXRaQnJhTmJyQzFtVGNEMQ?oc=5",
+    "overviewRu": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа."
   },
   {
     "region": "Хабаровский край",
@@ -3801,17 +3871,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-27",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "#Пушистыеновости: Стершонок Удьуор переезжает в новый дом В зоопарке «Орто-Дойду» открыли новый теплый павильон для стершонка Удьуора — символа проекта «Полет стерха». Павильон раз",
-    "desc": "#Пушистыеновости: Стершонок Удьуор переезжает в новый дом В зоопарке «Орто-Дойду» открыли новый теплый павильон для стершонка Удьуора — символа проекта «Полет стерха». Павильон разделен на теплую и холодную зоны, оснащен отоплением, вентиляцией и освещением, рассчитан на экстремальные морозы. По якутскому обычаю провели обряд благословения алгыс. Удьуора спасли осенью прошлого года оленеводы в Усть-Янском районе. Пти",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91675",
-    "image": "https://cdn4.telesco.pe/file/o_z_bVoDjBR_XelqBq1C7fA5qnNkDif8OD7Jrj5clu_0Ij7Ukg1mkcFJacLIso7IPyvnm1Q8nxVq7wW1ithwxPS3bYJcza0-1Xx6wg_6FthejS1yrwPYEklps2TjMxhPTQTAJD2nDUuVE7ZVTpizjPO2HtksGCM1Z_ZDa9N2hcump049rDfqCL5nd3YolhmKng0_a6XPTIiIjBRnr-7RQMOmVu7nJu9p1YYmKUPGxAd5yi0hKxkTeLmY0SZT4y23Ug_spQlYjxy5RJBsBlgSIpSvVZ-SG3LJAHaLTejzjcs9MLTc6t6Xj79ZeJvBDEYrVYpjGIEDxF4ylV3eY5BobQ.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-25",
     "source": "gtrksakha.ru",
     "title": "Ученые, инженеры и геймеры Якутии могут стать участниками III Международного симпозиума \"Создавая будущее\"",
@@ -3834,12 +3893,53 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-11-08",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Байките отметили День народного единства праздничным концертом В селе Байкит прошёл концерт ко Дню народного единства. Его организовала Байкитская клубная система. На сцене высту",
-    "desc": "В Байките отметили День народного единства праздничным концертом В селе Байкит прошёл концерт ко Дню народного единства. Его организовала Байкитская клубная система. На сцене выступили местные ансамбли — «Сувенир», «Бегакан», «Рябинушка» и «Северное сияние», а также ансамбль «Просторы» и гости из посёлка Суринда — ансамбль «Алтан». Вокалистки Каролина Дорофеева и Кира Буриченко спели песни о малой родине. Ярким финал",
+    "title": "Как прошел «Аяврик» в Байките? Окружной фестиваль детского творчества прошел при полном аншлаге, несмотря на то, что в Доме культуры на сегодняшний день идут ремонтные работы и нет",
+    "desc": "Как прошел «Аяврик» в Байките? Окружной фестиваль детского творчества прошел при полном аншлаге, несмотря на то, что в Доме культуры на сегодняшний день идут ремонтные работы и нет возможности принимать гостей в стенах ДК. Три дня фестиваля провели на разных площадках села: Байкитская средняя школа, пришкольный интернат, детская школа искусств. Более 170 участников, 15 творческих коллективов, 50 концертных номеров: и",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13159",
-    "image": "https://cdn4.telesco.pe/file/VxuK5ALQNSEiNdkr2nrB6aDcbHVNv0R-XG7pzeknjQctCY8Dih7yaJmSKUBaGbAeHuA-oxAtUIId3UkS8QGDBA4atskCa4b_68YlwWrnwm2k0QzrlSkkuGXqItPS_fnQIY6FSXihr7KLV_Anj7RzhEpjNhZGxg1t03DpYo4-1ZMRj5QM4Fi82E8gglUEoEirEygMBCqqezT7uGGIWkE0_H99r2I5bsdeuAmHB6as0cR9hIPF37wxxxKJuWIAH8-KpqD7DLAJsKfrJU4AlvXHCQaQDPOBV5sT0YH7mzZu7lLs7B6uhercjVKY6H04CQfk9cH2oLQ1Js7vx7Q7R4HBmw.jpg"
+    "link": "https://t.me/evenkya_life/13152",
+    "image": "https://cdn4.telesco.pe/file/SOj87h1yOji02urobd5WU01lPP8I69kMgLGtcBOF_YsTe17DSI5fwSZaBse7W8NqtEXdsUPI1JxZF93s29aXuHoc6RS4hdh_aej6pvQwCkNvB6JWY6Ntc8tXjL6gIsPW1ktnixM5KMLkzIYGM3v7QLgcHq3Fl1GOJWBc_j34njEwM-zgQsXPuVu_NPRo_B4rPX6QcuNiOiWII2FQvFrLG9B-nFAhp5UXvhzDbpj2glPBAKBynAwRtTUKJDXT8cA-0CWG8HRADCMhF_XjPJuRd67PcdiqEOgznWsDzKPZcUeEfKIg601ArWF6ogbFA9kjgFmT0npADnWrwB-Tkc0HAw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-27",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "#Пушистыеновости: Стершонок Удьуор переезжает в новый дом В зоопарке «Орто-Дойду» открыли новый теплый павильон для стершонка Удьуора — символа проекта «Полет стерха». Павильон раз",
+    "desc": "#Пушистыеновости: Стершонок Удьуор переезжает в новый дом В зоопарке «Орто-Дойду» открыли новый теплый павильон для стершонка Удьуора — символа проекта «Полет стерха». Павильон разделен на теплую и холодную зоны, оснащен отоплением, вентиляцией и освещением, рассчитан на экстремальные морозы. По якутскому обычаю провели обряд благословения алгыс. Удьуора спасли осенью прошлого года оленеводы в Усть-Янском районе. Пти",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91675",
+    "image": "https://cdn4.telesco.pe/file/o_z_bVoDjBR_XelqBq1C7fA5qnNkDif8OD7Jrj5clu_0Ij7Ukg1mkcFJacLIso7IPyvnm1Q8nxVq7wW1ithwxPS3bYJcza0-1Xx6wg_6FthejS1yrwPYEklps2TjMxhPTQTAJD2nDUuVE7ZVTpizjPO2HtksGCM1Z_ZDa9N2hcump049rDfqCL5nd3YolhmKng0_a6XPTIiIjBRnr-7RQMOmVu7nJu9p1YYmKUPGxAd5yi0hKxkTeLmY0SZT4y23Ug_spQlYjxy5RJBsBlgSIpSvVZ-SG3LJAHaLTejzjcs9MLTc6t6Xj79ZeJvBDEYrVYpjGIEDxF4ylV3eY5BobQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-04",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Из шести племенных хозяйств северного оленеводства России три находятся в НАО",
+    "desc": "Губернатор НАО Ирина Гехт вместе с руководителями племенных хозяйств региона встретились с заместителем министра сельского хозяйства России Романом Некрасовым, чтобы поднять вопрос о необходимой для отрасли поддержке. The post Из шести племенных хозяйств северного оленеводства России три находятся в НАО appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/54186"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-21",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
+    "desc": "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-10-27",
+    "source": "моо «кмнсоюз",
+    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» - моо «кмнсоюз",
+    "desc": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13SGVrTmZka2hPeXhQdVhlRjJlbXhmY253VVhEQW9ZZHZLVWhsLXFGQjhnT0ZvSEJQQWY2Tl95X3ByNEt3TkZoSExJMA?oc=5"
   },
   {
     "region": "Якутия",
@@ -3863,44 +3963,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/NW4I_K-Bo3-7pV1BK8LbROAKjBFHHYOIUpgspHTDqCVPfzvFufaFyt9UN6jt_cH7-G5sag0YCeAzTrfNvImFjGrGa5sUsOkh599GAEB_LoDKlWMT-39oCylHPMHffEVxqNJzesWr-CiSBNd5QalaMKni1yp25TCEnnaFWG1CJZJuTBq84D5BIPe6zmQ5dZtx73WawqmyvBnADFdyhBdNwRitFN1CK23VuzwOZ4aBY6z7WPK0okI8Q70_Rf7DE7syp4YQB6YGrFn9JG684UKKzLldNmfC1HOJuq_FYAKaQKo2yhWzaM7Zhe_rt7LGXC8mrOeoXs4PEiFJ1km_el2V4w.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-30",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре",
-    "desc": "В селе Ванавара реализуют грантовый проект «Аюкан», направленный на приобщение детей и подростков к культуре эвенкийского народа. Инициатива получила поддержку агентства по развитию северных территорий Красноярского края. The post Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54111"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-10-16",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове",
-    "desc": "Режиссёр Юрий Ботоев готовит проект кинокартины о снайперах Великой Отечественной из Бурятии, Иркутской области и Забайкальского края",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/v-buryatii-snimut-film-o-snajpere-evenke-semyone-nomokonove.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-07",
-    "source": "凤凰网",
-    "title": "鄂伦春拾物集——蓝莓 - 凤凰网",
-    "desc": "鄂伦春拾物集——蓝莓 凤凰网",
+    "date": "2026-11-08",
+    "source": "新华网",
+    "title": "Охотник из эвенкийского оленеводческого сообщества играет на губной гармошке",
+    "desc": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SemJsRy1RbExkQldhUGFfZlkxNVVUU0VuZTRGVkY1bWRyX1J6eTJYNmpfSUkydjRfUnRmZWRxODNoWnZISWMydVJtUEE?oc=5"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-10-27",
-    "source": "моо «кмнсоюз",
-    "title": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове - моо «кмнсоюз",
-    "desc": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове моо «кмнсоюз",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsRHNZOU85YzJGU0xaZzNTU3dxVW4xTC00RWhhRGhIUkdHWFY1Z0ZWWGZpRm92LUstejVCWjhkZ0FxU04zb1hBRGw5cw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mTVEyaTVOVXkxaHFjb1dMa1EzdXFOMnpkZmVzdUtpc3JKdF9FSHR6QWlqMFBQQWVLb2I3dXo1dVFFMkszZEFDLTY1WE14b1BIaDl4NEpqZ0hWSjF4OTNfbElSRHNfTzBCM3E2U3ViVjU5SzBCTkE?oc=5",
+    "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
   },
   {
     "region": "Амурская область",
@@ -3945,17 +4016,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-27",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые до",
-    "desc": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые должны были доставить, уже находятся в населенных пунктах. «До начала зимников мы не видим серьезных проблем по районам, куда идет северный завоз. Топливные ресурсы завезены в полном объеме», — сказал Айсен Николаев. Он отметил, что в этом го",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91712",
-    "image": "https://cdn4.telesco.pe/file/NBlWku-koDUPEIkH1V5dXAoiYYRD65L4oIz_U41UnNoe5rMC3mR9nD7cGkaetolE8nHOYdZ49y_CjAybBBaRRal1QOOwSNgtvBU1pEeAgmMz_gjvrlFi6lNfGx-dHQGtist8obM-9Gmg8MLAERT8RJpg3vO33-fxoemFI91j2kQxySZNV69OYFpSFH9ADRj-3CjpiRjltSow2Yyw3390zvHUsDX1m0CdfnJoaN-3qAOf6zewDI5JBIL7HLsefspVuR7pw7cvgTlriG6mhuQHgy_pLJYgQXmWTS7vkuAJWGZgiP3UIEUvUuc86_lh2Hz_iNMUOcggyj8NeTAgG5PpFA.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
     "title": "Ассоциация эвенков Якутии приглашает на праздник первого снега \"Сиӈилгэн\"",
@@ -3976,14 +4036,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-06",
+    "date": "2026-11-08",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Жители Эвенкии могут получить адресную материальную помощь Жители поселка Тура и населенных пунктов Илимпийской группы поселений, оказавшиеся в трудной жизненной ситуации, могут об",
-    "desc": "Жители Эвенкии могут получить адресную материальную помощь Жители поселка Тура и населенных пунктов Илимпийской группы поселений, оказавшиеся в трудной жизненной ситуации, могут обратиться за единовременной адресной материальной помощью. Эта мера поддержки особенно актуальна в условиях роста цен на продовольствие, вызванного сложностями с доставкой грузов на север Эвенкии. При поддержке правительства Красноярского кр",
+    "title": "Рубрика «Ретро-фото» База геофизической экспидиции. Ванавара, 1986 год. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "desc": "Рубрика «Ретро-фото» База геофизической экспидиции. Ванавара, 1986 год. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13130",
-    "image": "https://cdn4.telesco.pe/file/oXhPYiBaKO1w7MqIKVbsRR8Zc2H2N1R-2ihOGfT_D79AoMM5NFE0EB10y5NaMNRUydrIp5XSXKVXIoLh1x-TX_vedt-5SHXvGF8cRNpgL5mDgF0D5vDoQ-PtQN0NxL2_ba2iuyq-PMnz25xLMACg_Hir-R0ay5qBD_ro6oeRTW270a_4AwWm5ctVVC3EXOBz9DRSnVH2h1VREyBUjqzO_96Lu_D8ZnfRnOHtTt5N-WhsWoNkcb_a_Q6TJDgDLAm2vldRVnuVvKPtukWwyq7Oxl8xBOnl_3KWzdS2Jpij_vhkxe8mDR8L5ZaOrYeOuibwjPzLL8vUR3Cc_2gArJ3ItQ.jpg"
+    "link": "https://t.me/evenkya_life/13151",
+    "image": "https://cdn4.telesco.pe/file/SOj87h1yOji02urobd5WU01lPP8I69kMgLGtcBOF_YsTe17DSI5fwSZaBse7W8NqtEXdsUPI1JxZF93s29aXuHoc6RS4hdh_aej6pvQwCkNvB6JWY6Ntc8tXjL6gIsPW1ktnixM5KMLkzIYGM3v7QLgcHq3Fl1GOJWBc_j34njEwM-zgQsXPuVu_NPRo_B4rPX6QcuNiOiWII2FQvFrLG9B-nFAhp5UXvhzDbpj2glPBAKBynAwRtTUKJDXT8cA-0CWG8HRADCMhF_XjPJuRd67PcdiqEOgznWsDzKPZcUeEfKIg601ArWF6ogbFA9kjgFmT0npADnWrwB-Tkc0HAw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-27",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые до",
+    "desc": "«Топливные ресурсы завезены в полном объеме»: Айсен Николаев о северном завозе Глава Якутии Айсен Николаев рассказал, как идет северный завоз. По его словам, 96% грузов, которые должны были доставить, уже находятся в населенных пунктах. «До начала зимников мы не видим серьезных проблем по районам, куда идет северный завоз. Топливные ресурсы завезены в полном объеме», — сказал Айсен Николаев. Он отметил, что в этом го",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91712",
+    "image": "https://cdn4.telesco.pe/file/NBlWku-koDUPEIkH1V5dXAoiYYRD65L4oIz_U41UnNoe5rMC3mR9nD7cGkaetolE8nHOYdZ49y_CjAybBBaRRal1QOOwSNgtvBU1pEeAgmMz_gjvrlFi6lNfGx-dHQGtist8obM-9Gmg8MLAERT8RJpg3vO33-fxoemFI91j2kQxySZNV69OYFpSFH9ADRj-3CjpiRjltSow2Yyw3390zvHUsDX1m0CdfnJoaN-3qAOf6zewDI5JBIL7HLsefspVuR7pw7cvgTlriG6mhuQHgy_pLJYgQXmWTS7vkuAJWGZgiP3UIEUvUuc86_lh2Hz_iNMUOcggyj8NeTAgG5PpFA.jpg"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-11-03",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ»",
+    "desc": "2 и 3 ноября 2026 года в Чите работал первый в Забайкалье международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» – «Земля эвенков». Он объединил носителей языка, мастеров, педагогов, исследователей, школьников и студентов из России и Китая. The post В Забайкалье провели первый международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54167"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-16",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове",
+    "desc": "Режиссёр Юрий Ботоев готовит проект кинокартины о снайперах Великой Отечественной из Бурятии, Иркутской области и Забайкальского края",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/v-buryatii-snimut-film-o-snajpere-evenke-semyone-nomokonove.html"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "моо «кмнсоюз",
+    "title": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове - моо «кмнсоюз",
+    "desc": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове моо «кмнсоюз",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsRHNZOU85YzJGU0xaZzNTU3dxVW4xTC00RWhhRGhIUkdHWFY1Z0ZWWGZpRm92LUstejVCWjhkZ0FxU04zb1hBRGw5cw?oc=5"
   },
   {
     "region": "Общие новости",
@@ -4007,45 +4108,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/Gq7l-c4mL7ED8QmKSz96N0kbJ8G053NoaMZelR2FbKAWHb_uL9g2a2zeyhBo4P_qfdFw7HH0KOI8JQfjXkpJNWDPqWthBHKMlZZrrAIaWhqzJsSQmOJCf6a988XGWKrYtkodALQIcnzmMmkTNKuopV23Sy5BeF7B3Jl9Oay-HDxLxZnQezvNweIGKULoQFiJHDE0o4M8ZRTICBWAwg8044OS87CxGiK2J4VmJg-r80sRdDD8lP8jRCm3wOM6orgXlzMuDtQ6fM_WPmzJKiD-GOnVFUcph0QZZI6yLjdRELNampUw9LhmJ0X9n1ERbURZPVXd35NZRiamtr3BT9_8rQ.jpg"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-29",
-    "source": "news.kmnsoyuz.ru",
-    "title": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры",
-    "desc": "В этом году фестиваль вновь соберет творческие коллективы и исполнителей из разных регионов страны: Якутии, Красноярского и Хабаровского края, Амурской и Иркутской областей, Забайкальского края, и, конечно, северных районов Бурятии. The post В Бурятии состоится межрегиональный фестиваль эвенкийской культуры appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54048"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-09",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Продолжается приём заявок на конкурс «Дальний Восток — Земля приключений»",
-    "desc": "Центр «Арун» сообщает о приёме фильмов о путешествиях по Дальнему Востоку и Арктике. Заявки на конкурс принимают до 15 января 2027 года.",
-    "tags": "региональный контекст север традиционные промыслы",
-    "relevance": "context",
-    "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "source": "凤凰网",
-    "title": "Для участников марафона подготовили поездки в Аолугуя",
-    "desc": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством.",
+    "title": "鄂伦春拾物集——蓝莓 - 凤凰网",
+    "desc": "鄂伦春拾物集——蓝莓 凤凰网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zcl9fbkIzU05naEpPSDU3Z1lSU2dseFZXMWZUSW41SndhamU3ZnJXMy01N3dtMnFmM1dhb0NxejVYZ2htbXRRSmlvQXI?oc=5",
-    "overviewRu": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством."
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-19",
-    "source": "моо «кмнсоюз",
-    "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
-    "desc": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SemJsRy1RbExkQldhUGFfZlkxNVVUU0VuZTRGVkY1bWRyX1J6eTJYNmpfSUkydjRfUnRmZWRxODNoWnZISWMydVJtUEE?oc=5"
   },
   {
     "region": "Общие новости",
@@ -4089,17 +4159,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-26",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Я",
-    "desc": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Якутия) напомнило жителям региона о действующих правилах любительского рыболовства на карася. Как отмечают в ведомстве, соблюдение установленных норм — залог хорошего времяпровождения на природе. Согласно Правилам рыболовства для Восточно-Си",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91634",
-    "image": "https://cdn4.telesco.pe/file/CJg64nIIN9jNsDz18Xnm475LEFD6ehVsyHrqkRFQBNQTP79liQzKqMpmqWCrmJ0B83l47LHl6gvZgJ26TmnHktQuw73wDiVU6OeSDUJid4RdLKNshbD2W_EEzl92GTn_tCsrAw_QDeBM9V_ZhTforN-cFgIxSwOkba5IjS-aRVoIBZ3wqbD4KSWUvMq8YffdnPdhs05xvBAQERmDH6z4RUAjIurpyczl4oZgYtHrC-Yu1r9I_fiMoSv1sh75MPhMnMJZBNa2DVCe8lx53ts3KCKLJYJdL59Utm9R0MAjwWYxRIU2QVBH4cp6jnoVD6Z78bhZlCzmFactyZ-vHx1jcA.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
     "title": "Оперштаб Якутии сообщает данные по отпуску топлива на АЗС по состоянию на 18:00 23 октября",
@@ -4120,14 +4179,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-05",
+    "date": "2026-11-08",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Ночь искусств провели в Ванаварской ДШИ под девизом «В единстве культур — сила народа» Педагоги школы пригласили работников культуры, которые сами часто бывают в роли наставников,",
-    "desc": "Ночь искусств провели в Ванаварской ДШИ под девизом «В единстве культур — сила народа» Педагоги школы пригласили работников культуры, которые сами часто бывают в роли наставников, подготовили для них обучающую программу в игровой форме, дав возможность почувствовать себя в роли учеников. Первым делом гости мероприятия посетили урок теории музыки. Педагог Людмила Липская познакомила новых учеников с творчеством композ",
+    "title": "В Байките отметили День народного единства праздничным концертом В селе Байкит прошёл концерт ко Дню народного единства. Его организовала Байкитская клубная система. На сцене высту",
+    "desc": "В Байките отметили День народного единства праздничным концертом В селе Байкит прошёл концерт ко Дню народного единства. Его организовала Байкитская клубная система. На сцене выступили местные ансамбли — «Сувенир», «Бегакан», «Рябинушка» и «Северное сияние», а также ансамбль «Просторы» и гости из посёлка Суринда — ансамбль «Алтан». Вокалистки Каролина Дорофеева и Кира Буриченко спели песни о малой родине. Ярким финал",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13096",
-    "image": "https://cdn4.telesco.pe/file/rf9RNbgS_HNBNF4tHk9-TWOlbTM9Fr2CcfiG7JqqUMzkoIp9q9bnNb6GxINXoSWvZq7q8Ipth3UU1jWSnKo0Eyi4__HwLvDUxmP3dcMN0f4JhFICjowb5uQ6tBTmC69vYVcGYsBn2iOCDBNMkx4LAY8H7Djc2woxEtzpoxA8KXX1vEufyKtkazFoYT40v7SSeAOd5HnCA8lTVMhaLAGvGZqo1i9gFIyPECV1Q2efiYpsx8KWfpqyNnTn7QI9GTe1YDyG85nAtbaFjlPy1EVEzAxVjoicRJG71z2MJquMDJ9LvWHfBoIbaEdR-cKRCMx_4b6O2Wa2MDYKXHjEyzf5aA.jpg"
+    "link": "https://t.me/evenkya_life/13159",
+    "image": "https://cdn4.telesco.pe/file/VxuK5ALQNSEiNdkr2nrB6aDcbHVNv0R-XG7pzeknjQctCY8Dih7yaJmSKUBaGbAeHuA-oxAtUIId3UkS8QGDBA4atskCa4b_68YlwWrnwm2k0QzrlSkkuGXqItPS_fnQIY6FSXihr7KLV_Anj7RzhEpjNhZGxg1t03DpYo4-1ZMRj5QM4Fi82E8gglUEoEirEygMBCqqezT7uGGIWkE0_H99r2I5bsdeuAmHB6as0cR9hIPF37wxxxKJuWIAH8-KpqD7DLAJsKfrJU4AlvXHCQaQDPOBV5sT0YH7mzZu7lLs7B6uhercjVKY6H04CQfk9cH2oLQ1Js7vx7Q7R4HBmw.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-26",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Я",
+    "desc": "Минэкологии Якутии напомнило рыбакам о суточной норме вылова карася — не более 250 штук на человека Министерство экологии, природопользования и лесного хозяйства Республики Саха (Якутия) напомнило жителям региона о действующих правилах любительского рыболовства на карася. Как отмечают в ведомстве, соблюдение установленных норм — залог хорошего времяпровождения на природе. Согласно Правилам рыболовства для Восточно-Си",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91634",
+    "image": "https://cdn4.telesco.pe/file/CJg64nIIN9jNsDz18Xnm475LEFD6ehVsyHrqkRFQBNQTP79liQzKqMpmqWCrmJ0B83l47LHl6gvZgJ26TmnHktQuw73wDiVU6OeSDUJid4RdLKNshbD2W_EEzl92GTn_tCsrAw_QDeBM9V_ZhTforN-cFgIxSwOkba5IjS-aRVoIBZ3wqbD4KSWUvMq8YffdnPdhs05xvBAQERmDH6z4RUAjIurpyczl4oZgYtHrC-Yu1r9I_fiMoSv1sh75MPhMnMJZBNa2DVCe8lx53ts3KCKLJYJdL59Utm9R0MAjwWYxRIU2QVBH4cp6jnoVD6Z78bhZlCzmFactyZ-vHx1jcA.jpg"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-30",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре",
+    "desc": "В селе Ванавара реализуют грантовый проект «Аюкан», направленный на приобщение детей и подростков к культуре эвенкийского народа. Инициатива получила поддержку агентства по развитию северных территорий Красноярского края. The post Проект «Аюкан» помогает детям Ванавары приобщиться к эвенкийской культуре appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54111"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-09",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Продолжается приём заявок на конкурс «Дальний Восток — Земля приключений»",
+    "desc": "Центр «Арун» сообщает о приёме фильмов о путешествиях по Дальнему Востоку и Арктике. Заявки на конкурс принимают до 15 января 2027 года.",
+    "tags": "региональный контекст север традиционные промыслы",
+    "relevance": "context",
+    "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "моо «кмнсоюз",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки - моо «кмнсоюз",
+    "desc": "Оленеводы и промысловики Таймыра получат новые балки моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02QnQ1dlR5dG9rallMTFI0d19GR2tCMkk0cEJKQ3hTTzU4VlgzeFpMY1dEbjZRcldRdUhtdE9fVnBVQzg3dHFpb015UQ?oc=5"
   },
   {
     "region": "Общие новости",
@@ -4151,44 +4251,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/Gq7l-c4mL7ED8QmKSz96N0kbJ8G053NoaMZelR2FbKAWHb_uL9g2a2zeyhBo4P_qfdFw7HH0KOI8JQfjXkpJNWDPqWthBHKMlZZrrAIaWhqzJsSQmOJCf6a988XGWKrYtkodALQIcnzmMmkTNKuopV23Sy5BeF7B3Jl9Oay-HDxLxZnQezvNweIGKULoQFiJHDE0o4M8ZRTICBWAwg8044OS87CxGiK2J4VmJg-r80sRdDD8lP8jRCm3wOM6orgXlzMuDtQ6fM_WPmzJKiD-GOnVFUcph0QZZI6yLjdRELNampUw9LhmJ0X9n1ERbURZPVXd35NZRiamtr3BT9_8rQ.jpg"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-27",
-    "source": "news.kmnsoyuz.ru",
-    "title": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове",
-    "desc": "В Бурятии снимут фильм «Глаз коршуна» о снайперах Великой Отечественной, которые были родом из Сибири. В их числе легендарный забайкальский эвенк Семён Данилович Номоконов. Один из самых результативных снайперов Великой Отечественной, он уничтожил 368 немецких солдат и офицеров, а также до 70 японских солдат в ходе Маньчжурской наступательной операции. The post В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке ",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/54014"
-  },
-  {
-    "region": "Забайкальский край",
-    "date": "2026-10-08",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Видео выставки на II культурном форуме коренных народов в Чите",
-    "desc": "Центр «Арун» опубликовал видео выставки, подготовленное дизайнером Натальей Макаровой. Выставка проходила во время II Всероссийского культурного форума коренных малочисленных народов в Чите в августе 2026 года.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "source": "凤凰网",
-    "title": "艺术赋能林海文脉｜国际青年艺术家汪柯帆走进鄂伦春探寻森林文化 - 凤凰网",
-    "desc": "艺术赋能林海文脉｜国际青年艺术家汪柯帆走进鄂伦春探寻森林文化 凤凰网",
+    "title": "Для участников марафона подготовили поездки в Аолугуя",
+    "desc": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBRYXMxb3hyREZ3djhBQmxGVjF2WTRHZjFGUnI3bWUxNXNLcDhmU0x4WURsdDd1WFBKT1dua2tFNGZYd2hsX29JR2JqTG4?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "моо «кмнсоюз",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
-    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zcl9fbkIzU05naEpPSDU3Z1lSU2dseFZXMWZUSW41SndhamU3ZnJXMy01N3dtMnFmM1dhb0NxejVYZ2htbXRRSmlvQXI?oc=5",
+    "overviewRu": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством."
   },
   {
     "region": "Хабаровский край",
@@ -4221,17 +4292,6 @@ window.newsStories=[
     "link": "https://t.me/ulusmedia/149130"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-23",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного",
-    "desc": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного смотрите в нашем сообществе ВК по ссылке. yk24.ru в MAКС | Telegram | ВК | VK Видео",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91611",
-    "image": "https://cdn4.telesco.pe/file/g9wdpJl_988I4CtxUZok1tMftPcM28issCVmGRur28HmppJlAZoKssflDjfW_sYxfd0rMsABep-U-56g3uTGgeKkqogEm6WWMq4GmPiE5JwM2Rzeh18FiqK9MPynb14hQJEnvToeGNi_Vv0bNRTIc0ODpWwQFZ4PGHx8vEbm9PqICRJLw-znWZW-eZ85AJrb2-RW7lG-0UhtACAR2Z37hft80q35P68frQ6NDtCbwOphljUnnbx5lkwLGi0bmEEaFRdRj8ot_8z0Vz83dl5wtVbp911CTfeUWbRFfnjPacbg8CYccbj_tHhE39l8iFRweUCHAzJMDolB_M8nv-6Rgw.jpg"
-  },
-  {
     "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
@@ -4243,14 +4303,55 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "День народного единства состоялся в Ванаваре Праздничный концерт прошёл в Доме культуры. На сцене выступили артисты средней школы, детской школы искусств, ДК. В холле расположилась",
-    "desc": "День народного единства состоялся в Ванаваре Праздничный концерт прошёл в Доме культуры. На сцене выступили артисты средней школы, детской школы искусств, ДК. В холле расположилась выставка мастеров. Ранее Дом культуры объявил конкурс «Творение добрых рук» по изготовлению кисета с элементами культуры народов, населяющих Ванавару. Победителей наградили призами во время концертной программы. Прислать новость @newsevenk",
+    "title": "Жители Эвенкии могут получить адресную материальную помощь Жители поселка Тура и населенных пунктов Илимпийской группы поселений, оказавшиеся в трудной жизненной ситуации, могут об",
+    "desc": "Жители Эвенкии могут получить адресную материальную помощь Жители поселка Тура и населенных пунктов Илимпийской группы поселений, оказавшиеся в трудной жизненной ситуации, могут обратиться за единовременной адресной материальной помощью. Эта мера поддержки особенно актуальна в условиях роста цен на продовольствие, вызванного сложностями с доставкой грузов на север Эвенкии. При поддержке правительства Красноярского кр",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13121",
+    "link": "https://t.me/evenkya_life/13130",
     "image": "https://cdn4.telesco.pe/file/oXhPYiBaKO1w7MqIKVbsRR8Zc2H2N1R-2ihOGfT_D79AoMM5NFE0EB10y5NaMNRUydrIp5XSXKVXIoLh1x-TX_vedt-5SHXvGF8cRNpgL5mDgF0D5vDoQ-PtQN0NxL2_ba2iuyq-PMnz25xLMACg_Hir-R0ay5qBD_ro6oeRTW270a_4AwWm5ctVVC3EXOBz9DRSnVH2h1VREyBUjqzO_96Lu_D8ZnfRnOHtTt5N-WhsWoNkcb_a_Q6TJDgDLAm2vldRVnuVvKPtukWwyq7Oxl8xBOnl_3KWzdS2Jpij_vhkxe8mDR8L5ZaOrYeOuibwjPzLL8vUR3Cc_2gArJ3ItQ.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-23",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного",
+    "desc": "«Смотрим!»: Видео дня от «Якутия 24» Бурятский борец укусил якутского Красивое поле подсолнухов расцвело во Вьетнаме Стада домашних оленей увеличиваются в Якутии Больше интересного смотрите в нашем сообществе ВК по ссылке. yk24.ru в MAКС | Telegram | ВК | VK Видео",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91611",
+    "image": "https://cdn4.telesco.pe/file/g9wdpJl_988I4CtxUZok1tMftPcM28issCVmGRur28HmppJlAZoKssflDjfW_sYxfd0rMsABep-U-56g3uTGgeKkqogEm6WWMq4GmPiE5JwM2Rzeh18FiqK9MPynb14hQJEnvToeGNi_Vv0bNRTIc0ODpWwQFZ4PGHx8vEbm9PqICRJLw-znWZW-eZ85AJrb2-RW7lG-0UhtACAR2Z37hft80q35P68frQ6NDtCbwOphljUnnbx5lkwLGi0bmEEaFRdRj8ot_8z0Vz83dl5wtVbp911CTfeUWbRFfnjPacbg8CYccbj_tHhE39l8iFRweUCHAzJMDolB_M8nv-6Rgw.jpg"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-29",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Бурятии состоится межрегиональный фестиваль эвенкийской культуры",
+    "desc": "В этом году фестиваль вновь соберет творческие коллективы и исполнителей из разных регионов страны: Якутии, Красноярского и Хабаровского края, Амурской и Иркутской областей, Забайкальского края, и, конечно, северных районов Бурятии. The post В Бурятии состоится межрегиональный фестиваль эвенкийской культуры appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/54048"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-10-08",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Видео выставки на II культурном форуме коренных народов в Чите",
+    "desc": "Центр «Арун» опубликовал видео выставки, подготовленное дизайнером Натальей Макаровой. Выставка проходила во время II Всероссийского культурного форума коренных малочисленных народов в Чите в августе 2026 года.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "моо «кмнсоюз",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России? - моо «кмнсоюз",
+    "desc": "Как оленеводство обеспечивает продовольственный суверенитет России? моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xdGlxYzEtS1Jod2pjYjNVcXBjbjkwdDJEMmtGUm81SXF4THl2S3NBZzV0TFhWeXYydVpoUi1SVU52TDFXQjdtb1oybw?oc=5"
   },
   {
     "region": "Якутия",
@@ -4274,44 +4375,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/U3PG8k3H7LlW0UmSldclCJoTRS3tusRdSqB96GdkwIRnm-HzuSCTqF5dW-stpfQWJX3Qunh7NqToWsxi-3W1NDC6wzkvQQZVFohwOZ4KHAdkI1sbS26LPyzt8DBztHYC0_FJoWD0ExoF56qnBb__fBIevrv0AnQJ2K9cmiEIIK6qLFtILvvm5vUYTXdQZOOGuxuxwIV7gHFOVDkSQsl13qn-BUza7htGgAzWnhsYtiVqgesSAhcwKykgGP62dq9oWVN5wxmsonioyUY3eJxyv_adafuQUMSkhvdPKkJglW8C31ULnXRn1-dMfK0e6WlNxs5oLDOaINnajLwB1LLUKg.jpg"
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-10-27",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ»",
-    "desc": "Международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» объединит представителей эвенкийского народа из России, Китая и Монголии и станет площадкой для сохранения родного языка, традиций и укрепления межкультурного диалога. The post Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://news.kmnsoyuz.ru/news/53990"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-07",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
-    "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-11-03",
-    "source": "新浪财经",
-    "title": "В орочонских районах провели финансово-просветительскую акцию",
-    "desc": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей.",
+    "date": "2026-11-04",
+    "source": "凤凰网",
+    "title": "艺术赋能林海文脉｜国际青年艺术家汪柯帆走进鄂伦春探寻森林文化 - 凤凰网",
+    "desc": "艺术赋能林海文脉｜国际青年艺术家汪柯帆走进鄂伦春探寻森林文化 凤凰网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZYThmYkEtOTUtOEcwZk1aQ3hNYlVZcFF4Y1pobDg2OEhQTnZISTBMb0hHYUx0UFVDTkkwbjVtY2VKZTVGLXdjZkd0dEFPaVhjY2d1VFFZaVBqRjFVd3lBUnp3aWg0X29ZOThpc29TTUI1T01LYnc?oc=5",
-    "overviewRu": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей."
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "моо «кмнсоюз",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
-    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBRYXMxb3hyREZ3djhBQmxGVjF2WTRHZjFGUnI3bWUxNXNLcDhmU0x4WURsdDd1WFBKT1dua2tFNGZYd2hsX29JR2JqTG4?oc=5"
   },
   {
     "region": "Хабаровский край",
@@ -4346,17 +4417,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-19",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администра",
-    "desc": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администрации определил основные задачи на ближайшие месяцы. Приоритетными обозначены подготовка к выездному заседанию Комитета Совета Федерации по экономической политике, формирование бюджета на 2027–2029 годы и завершение северного завоза. Подробне",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91453",
-    "image": "https://cdn4.telesco.pe/file/N3cJNSF2EI2hIAoS1bmio_l7k32YpINLozJA-5MqMWKoZxpszA0mi6jbPzv1yT-Dd1KP5PUR7A01Ux3N_doC3VOsv13SVBMufOO0DnY9A_sfx3H3chlCXEQmDvbE6ygiUSQmkZjoRtrHfbB06WkJnk9IEo12p5xoCzotb3Oho8k4gGBNJ1t2PlffE6UbSDIkYnDGRikRfmzwLb3qxYFa8imfPWy3qtbmJNilck4N5feSdpdHE3eRPsZSq7YF4hMbMiBFNBoEPw67pnn3-yQrtXRcozpbIZ0wvN9Hbe0VMNDOvvT36AmESq-Fyqmr68JfN1gnmU6UP86jk6qtampInA.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
     "title": "Более 200 человек посетили двухдневный семинар Минфина Якутии",
@@ -4367,14 +4427,54 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-03",
+    "date": "2026-11-05",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "«Ночь искусств» в Ванаварском музее Ежегодная культурно-образовательная акция «Ночь искусств» приурочена ко Дню народного единства. В Ванаварском музее мероприятия были организован",
-    "desc": "«Ночь искусств» в Ванаварском музее Ежегодная культурно-образовательная акция «Ночь искусств» приурочена ко Дню народного единства. В Ванаварском музее мероприятия были организованы для детей и взрослых. Центром встречи стали традиционные ремесла эвенков и русских старожилов. Сотрудники музея рассказали о декоративно-прикладном искусстве предков, техниках и орнаментах, которыми украшали предметы быта. Экскурсовод Вер",
+    "title": "Ночь искусств провели в Ванаварской ДШИ под девизом «В единстве культур — сила народа» Педагоги школы пригласили работников культуры, которые сами часто бывают в роли наставников,",
+    "desc": "Ночь искусств провели в Ванаварской ДШИ под девизом «В единстве культур — сила народа» Педагоги школы пригласили работников культуры, которые сами часто бывают в роли наставников, подготовили для них обучающую программу в игровой форме, дав возможность почувствовать себя в роли учеников. Первым делом гости мероприятия посетили урок теории музыки. Педагог Людмила Липская познакомила новых учеников с творчеством композ",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/13096",
+    "image": "https://cdn4.telesco.pe/file/rf9RNbgS_HNBNF4tHk9-TWOlbTM9Fr2CcfiG7JqqUMzkoIp9q9bnNb6GxINXoSWvZq7q8Ipth3UU1jWSnKo0Eyi4__HwLvDUxmP3dcMN0f4JhFICjowb5uQ6tBTmC69vYVcGYsBn2iOCDBNMkx4LAY8H7Djc2woxEtzpoxA8KXX1vEufyKtkazFoYT40v7SSeAOd5HnCA8lTVMhaLAGvGZqo1i9gFIyPECV1Q2efiYpsx8KWfpqyNnTn7QI9GTe1YDyG85nAtbaFjlPy1EVEzAxVjoicRJG71z2MJquMDJ9LvWHfBoIbaEdR-cKRCMx_4b6O2Wa2MDYKXHjEyzf5aA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-19",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администра",
+    "desc": "Айсен Николаев определил приоритеты работы правительства республики на ближайшие месяцы Глава Якутии Айсен Николаев на планерном совещании с руководством правительства и администрации определил основные задачи на ближайшие месяцы. Приоритетными обозначены подготовка к выездному заседанию Комитета Совета Федерации по экономической политике, формирование бюджета на 2027–2029 годы и завершение северного завоза. Подробне",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91453",
+    "image": "https://cdn4.telesco.pe/file/N3cJNSF2EI2hIAoS1bmio_l7k32YpINLozJA-5MqMWKoZxpszA0mi6jbPzv1yT-Dd1KP5PUR7A01Ux3N_doC3VOsv13SVBMufOO0DnY9A_sfx3H3chlCXEQmDvbE6ygiUSQmkZjoRtrHfbB06WkJnk9IEo12p5xoCzotb3Oho8k4gGBNJ1t2PlffE6UbSDIkYnDGRikRfmzwLb3qxYFa8imfPWy3qtbmJNilck4N5feSdpdHE3eRPsZSq7YF4hMbMiBFNBoEPw67pnn3-yQrtXRcozpbIZ0wvN9Hbe0VMNDOvvT36AmESq-Fyqmr68JfN1gnmU6UP86jk6qtampInA.jpg"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-10-27",
+    "source": "news.kmnsoyuz.ru",
+    "title": "В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке Семёне Номоконове",
+    "desc": "В Бурятии снимут фильм «Глаз коршуна» о снайперах Великой Отечественной, которые были родом из Сибири. В их числе легендарный забайкальский эвенк Семён Данилович Номоконов. Один из самых результативных снайперов Великой Отечественной, он уничтожил 368 немецких солдат и офицеров, а также до 70 японских солдат в ходе Маньчжурской наступательной операции. The post В Бурятии снимут фильм «Глаз коршуна» о снайпере-эвенке ",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/evenkya_life/13066",
-    "image": "https://cdn4.telesco.pe/file/TUvNekBHI3r33bLV-8OXVBS1WscMac-abKGufctVr0zcp4Ln-7VmSADmWBnJyUdUDiocnMAKGEWhqXmFk9TMUZtaJ5VAQsTdeWRIc0wqHtO1u_2EXGpPBxdOcC8EJYinGuGTe9ynSmPp3S6ml1oF1w_GEAzqeU0Pp505g6ZuQbtHHG8f6n89llEJflcae_21jMMOVPI_dn2RhqYSE7YpkGuoudMvVfzkPeHr0RwK390w8pEllpqYCfV4ge8OpGDCIiO_BG0rY5zOU1mFhoBjjmGzrnI-9zc06A7kZKGnwdVULdfmtvN_9qSnxVAEroxDSrLfcBvK-qNIOam6ccCZzQ.jpg"
+    "link": "https://news.kmnsoyuz.ru/news/54014"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-07",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
+    "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "моо «кмнсоюз",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны - моо «кмнсоюз",
+    "desc": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны моо «кмнсоюз",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ab2NsMkZmZnRXVXhPb05nTFRTbjctVGNza0psdHl4RXlIMTBNdHZPV3NLNGJaUzkyZHBmbzE0SlBCam1qQWRnWkRPUQ?oc=5"
   },
   {
     "region": "Общие новости",
@@ -4398,34 +4498,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/T6eBdOVxhkhWBxEgu4YfjYAWjRYb9RRjYk-_s6m0lK7jvYzRo5kJxu9y_P7v2g2Erw8emGB53pEQT2l7lJpz-fNf-AIYUnOjk-le5qEYqHhvsrB1J6oFbQaSvNe08hLIeU7idemlZSduWKIp3xlrUtT1uzB_XoWoq9UVqbHTUbgHA1CkInfbytk1M1EXXwJjwssQM4Nrny5UIAanJHyzCL6b1-hs9qwPeh3Pm1gpk5CGJq2R4OH4nFaE-SmHesA7-zyKzQZeWd0trsD8m6Po9CTi4GJ0tqMy6b9rPVa1Jand9vtQL367lbFI0dK-HdVjXbmfa-gdgjGgnotOBwB61Q.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-19",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы и промысловики Таймыра получат новые балки",
-    "desc": "Управление по делам коренных малочисленных народов Таймыра и вопросам сельского и промыслового хозяйства сообщило, что 14 оленеводов и 8 промысловиков до конца 2026 года будут обеспечены кочевым жильем в виде балка. The post Оленеводы и промысловики Таймыра получат новые балки appeared first on Новостной портал КМНСОЮЗ-NEWS .",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53864"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-29",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» продолжает конкурс «Моя родословная. Миӈни дюган, миӈни дялан»",
-    "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
-    "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
-    "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-10-30",
-    "source": "凤凰网",
-    "title": "Полиция орочонского района укрепила безопасность во время снегопада",
-    "desc": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей.",
+    "date": "2026-11-03",
+    "source": "新浪财经",
+    "title": "В орочонских районах провели финансово-просветительскую акцию",
+    "desc": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DVjNEcjdVd1pERWRsQ3RueHplVkJyM0JNZWN6SXdXLUtpaDZuQTVEUXRoaloySFRNVDVkLWs3M0lacld3Mm9fck4xa0s?oc=5",
-    "overviewRu": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей."
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZYThmYkEtOTUtOEcwZk1aQ3hNYlVZcFF4Y1pobDg2OEhQTnZISTBMb0hHYUx0UFVDTkkwbjVtY2VKZTVGLXdjZkd0dEFPaVhjY2d1VFFZaVBqRjFVd3lBUnp3aWg0X29ZOThpc29TTUI1T01LYnc?oc=5",
+    "overviewRu": "Агробанк провёл в районах проживания орочонов просветительскую акцию «Спокойствие и защита каждой семьи». Материал посвящён финансовому просвещению местных жителей."
   },
   {
     "region": "Общие новости",
@@ -4450,17 +4531,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-16",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание к",
-    "desc": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание комиссии Госсовета по энергетике. Груз особой важности. Якутия подводит итоги северного завоза. Как прошла арктическая навигация? Загрязнение рек в Алданском и Нерюнгринском районах и регулирование численности хищников. В Якутске прошло засе",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91402",
-    "image": "https://cdn4.telesco.pe/file/bzTQlGZB5gP4Xg0rOpkVK_IRR10W51-A-xHgHiK2N9pfLtgXIYGIDcpXfzDmMdOWshtSnv61cREgMEqgceTwLTdf5jXxs03Zx1rFeAjnr61H0v1DkRuCELwUnYsOXvjceiUACsey93qlZoPVUD_3Q8NZiy_xKKIH-oFdot9y5z0nT9fSHxBdT53MOBI6FymZQjRDTzb78GCVTaZhxW0owLE9iLt6VMUoui9QO6gMndwJsOcJ7lyFuWTTPqJ0_a9gY0ZRvbz66TjK58ICfrzadUgoQpvflKqRfteUmyQoEefh3Le8QK0QGjZRbYG2MSY7ZsQTzBWu8Xyj90BpRxQe0A.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
     "title": "В Якутии чествовали первого председателя Конституционного суда республики Дмитрия Миронова",
@@ -4471,14 +4541,44 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-02",
+    "date": "2026-11-05",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Эвенкии завершился фестиваль «Аяврик» С 30 октября по 1 ноября в Эвенкии проходил окружной фестиваль детского художественного творчества «Аяврик». В Туре торжественное открытие с",
-    "desc": "В Эвенкии завершился фестиваль «Аяврик» С 30 октября по 1 ноября в Эвенкии проходил окружной фестиваль детского художественного творчества «Аяврик». В Туре торжественное открытие состоялось 30 октября, 31 октября юные артисты показывали свои номера, а 1 ноября фестиваль завершился ярким гала-концертом. В окружной центр приехали творческие коллективы из поселков Илимпийской группы: Чиринды, Ессея, Эконды, Нидыма, Туто",
+    "title": "День народного единства состоялся в Ванаваре Праздничный концерт прошёл в Доме культуры. На сцене выступили артисты средней школы, детской школы искусств, ДК. В холле расположилась",
+    "desc": "День народного единства состоялся в Ванаваре Праздничный концерт прошёл в Доме культуры. На сцене выступили артисты средней школы, детской школы искусств, ДК. В холле расположилась выставка мастеров. Ранее Дом культуры объявил конкурс «Творение добрых рук» по изготовлению кисета с элементами культуры народов, населяющих Ванавару. Победителей наградили призами во время концертной программы. Прислать новость @newsevenk",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/13036",
-    "image": "https://cdn4.telesco.pe/file/fJP3bqOQdDhi9EY6Z907KJcXXR2ZqZrCTSEnCiVP-Dzhx0SX6aXorK1R8KWEjKrn1YLrZplHgg5u3o6K0O5dKOIY6yIsqXfHYDKIvjDs6hiX6uE0JVZS2BBDFlAZOUaJyPUSFCHWfk6_uAUzue_80GU90m_alYpKyMrCLGFm8oUlsRdEatAgHriHgHpS6sHukfclP8Z-JcHzL76Svc7rMgzVlqNo_AvzK7QYkgfAZQ7fwX6_XmR48-vkAa7jJJlfn7RxTi_UXk42vterqRJvqRIw6Je3YpBKkJxmaEs0NZ6vjbHD8Apxek5iTRTy8EnCW0a4YEu5kGP_cQHT99FGvA.jpg"
+    "link": "https://t.me/evenkya_life/13121",
+    "image": "https://cdn4.telesco.pe/file/oXhPYiBaKO1w7MqIKVbsRR8Zc2H2N1R-2ihOGfT_D79AoMM5NFE0EB10y5NaMNRUydrIp5XSXKVXIoLh1x-TX_vedt-5SHXvGF8cRNpgL5mDgF0D5vDoQ-PtQN0NxL2_ba2iuyq-PMnz25xLMACg_Hir-R0ay5qBD_ro6oeRTW270a_4AwWm5ctVVC3EXOBz9DRSnVH2h1VREyBUjqzO_96Lu_D8ZnfRnOHtTt5N-WhsWoNkcb_a_Q6TJDgDLAm2vldRVnuVvKPtukWwyq7Oxl8xBOnl_3KWzdS2Jpij_vhkxe8mDR8L5ZaOrYeOuibwjPzLL8vUR3Cc_2gArJ3ItQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-16",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание к",
+    "desc": "«Итоги дня»: Самые заметные события уходящего дня Обновление устаревшей энергоинфраструктуры и переход отраслей к новейшим технологиям производства. В Москве состоялось заседание комиссии Госсовета по энергетике. Груз особой важности. Якутия подводит итоги северного завоза. Как прошла арктическая навигация? Загрязнение рек в Алданском и Нерюнгринском районах и регулирование численности хищников. В Якутске прошло засе",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91402",
+    "image": "https://cdn4.telesco.pe/file/bzTQlGZB5gP4Xg0rOpkVK_IRR10W51-A-xHgHiK2N9pfLtgXIYGIDcpXfzDmMdOWshtSnv61cREgMEqgceTwLTdf5jXxs03Zx1rFeAjnr61H0v1DkRuCELwUnYsOXvjceiUACsey93qlZoPVUD_3Q8NZiy_xKKIH-oFdot9y5z0nT9fSHxBdT53MOBI6FymZQjRDTzb78GCVTaZhxW0owLE9iLt6VMUoui9QO6gMndwJsOcJ7lyFuWTTPqJ0_a9gY0ZRvbz66TjK58ICfrzadUgoQpvflKqRfteUmyQoEefh3Le8QK0QGjZRbYG2MSY7ZsQTzBWu8Xyj90BpRxQe0A.jpg"
+  },
+  {
+    "region": "Забайкальский край",
+    "date": "2026-10-27",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ»",
+    "desc": "Международный фестиваль эвенкийского языка и культуры «Эвэды дуннэ» объединит представителей эвенкийского народа из России, Китая и Монголии и станет площадкой для сохранения родного языка, традиций и укрепления межкультурного диалога. The post Чита соберет эвенков на праздник родного языка и культуры «Эвэды дуннэ» appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.kmnsoyuz.ru/news/53990"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-29",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Центр «Арун» продолжает конкурс «Моя родословная. Миӈни дюган, миӈни дялан»",
+    "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
+    "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
+    "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
     "region": "Забайкальский край",
@@ -4502,34 +4602,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/f-3fDYfeVktXoV_Z269pmcLm7Jj9O9FJyDle3r2s4_O3zn40CVUAkfR2N8A5SfTAfcYXADFxLBUPiDWQRc07ZbEMA-ky3ruuMZ_6wFbxgi8tn5sacg0U6QBug6lIDcfGSwtB-5MI9KieYKJmIcbt3cmjF5GvrZL2ZnItVU1p4nhWqW_puQx2X2LRAUcVHjehPEsdmspe3XlnYjAuBa2fXvnEMhDTnvnB3JQZGkxTGgHA5RsBaJRea5CRhb_uduGcakF-yJNpsgBoR4jDPdSuqoplLXPuC5tZRnEWagdiPg68YGS-EuC4GQpGew5CYB6boL4bWApWXkDzUyzmwJch4g.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-15",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
-    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53787"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-24",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Культуру эвенков Бурятии показали представителю Минобороны РФ",
-    "desc": "Вице-адмирал Владимир Цимлянский во время визита в Бурятию посетил эвенкийский комплекс Этнографического музея народов Забайкалья",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-30",
     "source": "凤凰网",
-    "title": "Снег в Хингане: зимнее путешествие к орочонам",
-    "desc": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой.",
+    "title": "Полиция орочонского района укрепила безопасность во время снегопада",
+    "desc": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxUkVCRnMtR2dMX0I0NndFMDVva3NTYWRXWERULVB1dTBJVzU4Zm11dmktZ2hnWUVtMm5MeHFod1dKWGtYcE9IWTlaRWs?oc=5",
-    "overviewRu": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой."
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DVjNEcjdVd1pERWRsQ3RueHplVkJyM0JNZWN6SXdXLUtpaDZuQTVEUXRoaloySFRNVDVkLWs3M0lacld3Mm9fck4xa0s?oc=5",
+    "overviewRu": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей."
   },
   {
     "region": "Общие новости",
@@ -4543,17 +4624,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "Новости «Якутия 24» · Telegram",
-    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов п",
-    "desc": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза, в том числе по частичной замене бюджетных кредитов федеральными субсидиями. Подробнее читайте по ссылке yk24.ru в MAКС | Telegram | ВК | VK Видео",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/yk24ru/91287",
-    "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-23",
     "source": "gtrksakha.ru",
     "title": "Выпуск \"Вести Саха\" 23.10.2026 (11:30)",
@@ -4564,14 +4634,44 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-11-01",
+    "date": "2026-11-03",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Ванаваре проект «Аюкан» знакомят детей с эвенкийской культурой В селе Ванавара стартовал проект «Аюкан», его цель — помочь детям и подросткам узнать больше о традициях эвенков. П",
-    "desc": "В Ванаваре проект «Аюкан» знакомят детей с эвенкийской культурой В селе Ванавара стартовал проект «Аюкан», его цель — помочь детям и подросткам узнать больше о традициях эвенков. Проект получил грант от агентства по развитию северных территорий Красноярского края — он вошёл в число 24 победителей, получивших 28 миллионов рублей. Инициативу придумала местная жительница Мальвина Чуркина, а идейным вдохновителем стала Э",
+    "title": "«Ночь искусств» в Ванаварском музее Ежегодная культурно-образовательная акция «Ночь искусств» приурочена ко Дню народного единства. В Ванаварском музее мероприятия были организован",
+    "desc": "«Ночь искусств» в Ванаварском музее Ежегодная культурно-образовательная акция «Ночь искусств» приурочена ко Дню народного единства. В Ванаварском музее мероприятия были организованы для детей и взрослых. Центром встречи стали традиционные ремесла эвенков и русских старожилов. Сотрудники музея рассказали о декоративно-прикладном искусстве предков, техниках и орнаментах, которыми украшали предметы быта. Экскурсовод Вер",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/evenkya_life/13016",
-    "image": "https://cdn4.telesco.pe/file/l6cHsqldysVm2jxJQdemXGqGzJLXuTQEm-dbD1wR0TUsdGDP3OhJLZQOxB_4jeTjy36TDe7ym0OgHdKAfLBYSYvdgC4JR56Q-2FpKSplXEvmUOfoJklW0Lvo8CtDNkt7mF-jempUTFIykOFMide2w4T7VSHpnqWjIZ1iKGMxfIP6BjEQsrs3HvZJFsLjkJKTRCty11KrYxqMKgIchAOrxzYNOv63lJwRNfgn5Mcav4NnOboz_93kex3JOIJigfMNS7rPolbd0gAjgmB8peeI5cPjgeQabn2p1WxzgEQJ9OT4vJzZDDvksFrV2AavRgJ_FBm7vY-03jJwR2xALOKltg.jpg"
+    "link": "https://t.me/evenkya_life/13066",
+    "image": "https://cdn4.telesco.pe/file/TUvNekBHI3r33bLV-8OXVBS1WscMac-abKGufctVr0zcp4Ln-7VmSADmWBnJyUdUDiocnMAKGEWhqXmFk9TMUZtaJ5VAQsTdeWRIc0wqHtO1u_2EXGpPBxdOcC8EJYinGuGTe9ynSmPp3S6ml1oF1w_GEAzqeU0Pp505g6ZuQbtHHG8f6n89llEJflcae_21jMMOVPI_dn2RhqYSE7YpkGuoudMvVfzkPeHr0RwK390w8pEllpqYCfV4ge8OpGDCIiO_BG0rY5zOU1mFhoBjjmGzrnI-9zc06A7kZKGnwdVULdfmtvN_9qSnxVAEroxDSrLfcBvK-qNIOam6ccCZzQ.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "Новости «Якутия 24» · Telegram",
+    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов п",
+    "desc": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза, в том числе по частичной замене бюджетных кредитов федеральными субсидиями. Подробнее читайте по ссылке yk24.ru в MAКС | Telegram | ВК | VK Видео",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/yk24ru/91287",
+    "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-19",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы и промысловики Таймыра получат новые балки",
+    "desc": "Управление по делам коренных малочисленных народов Таймыра и вопросам сельского и промыслового хозяйства сообщило, что 14 оленеводов и 8 промысловиков до конца 2026 года будут обеспечены кочевым жильем в виде балка. The post Оленеводы и промысловики Таймыра получат новые балки appeared first on Новостной портал КМНСОЮЗ-NEWS .",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.kmnsoyuz.ru/news/53864"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-24",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Культуру эвенков Бурятии показали представителю Минобороны РФ",
+    "desc": "Вице-адмирал Владимир Цимлянский во время визита в Бурятию посетил эвенкийский комплекс Этнографического музея народов Забайкалья",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
     "region": "Якутия",
@@ -4595,35 +4695,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/f-3fDYfeVktXoV_Z269pmcLm7Jj9O9FJyDle3r2s4_O3zn40CVUAkfR2N8A5SfTAfcYXADFxLBUPiDWQRc07ZbEMA-ky3ruuMZ_6wFbxgi8tn5sacg0U6QBug6lIDcfGSwtB-5MI9KieYKJmIcbt3cmjF5GvrZL2ZnItVU1p4nhWqW_puQx2X2LRAUcVHjehPEsdmspe3XlnYjAuBa2fXvnEMhDTnvnB3JQZGkxTGgHA5RsBaJRea5CRhb_uduGcakF-yJNpsgBoR4jDPdSuqoplLXPuC5tZRnEWagdiPg68YGS-EuC4GQpGew5CYB6boL4bWApWXkDzUyzmwJch4g.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-14",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
-    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53775"
-  },
-  {
-    "region": "Забайкальский край",
-    "date": "2026-09-20",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвенкийские работы на выставке II Всероссийского форума коренных народов",
-    "desc": "Центр «Арун» показал экспонаты выставки в Чите: куклы, украшения и сувениры различных этнокультурных организаций, включая работы эвенкийских мастеров Бурятии. Материал опубликован 20 сентября.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/eksponatyi-vyistavki-na-vserossijskom-forume-korennyix-narodov.html"
-  },
-  {
     "region": "Зарубежные источники",
-    "date": "2026-10-19",
-    "source": "经济参考报",
-    "title": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 - 经济参考报",
-    "desc": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 经济参考报",
-    "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом.",
+    "date": "2026-10-30",
+    "source": "凤凰网",
+    "title": "Снег в Хингане: зимнее путешествие к орочонам",
+    "desc": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFI1Q3BqRF9qcDdhM3Jqd1hiWHhrN1hmSWJ5ZlB6bHFTVXo1V1N0V2NRWGt0MkotY1hWRlFIaXJzTUVJRmI5QmpQRFo5MG9kTDJwZHZ6eTV2MWkybTg0U1VMd3g1cXg5RFd5RjRpYjNiWU1iQ0J4RTVtOGh1dDVZNQ?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxUkVCRnMtR2dMX0I0NndFMDVva3NTYWRXWERULVB1dTBJVzU4Zm11dmktZ2hnWUVtMm5MeHFod1dKWGtYcE9IWTlaRWs?oc=5",
+    "overviewRu": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой."
   },
   {
     "region": "Якутия",
@@ -4637,6 +4717,27 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
+    "date": "2026-10-20",
+    "source": "gtrksakha.ru",
+    "title": "В Якутии подвели предварительные итоги навигации 2026 года",
+    "desc": "В Якутии подвели предварительные итоги навигации 2026 года и обсудили организацию зимних поставок топлива в арктические районы республики. Вопросы обеспечения теплоснабжающих организаций и объектов коммунальной энергетики топливно-энергетическими ресурсами рассмотрели на круглом столе с участием представителей органов власти, муниципальных образований и профильных предприятий. Как сообщил исполняющий обязанности перв",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://gtrksakha.ru/news/2026/10/20/v-yakutii-podveli-predvaritelnye-itogi-navigacii-2026-goda"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-02",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Эвенкии завершился фестиваль «Аяврик» С 30 октября по 1 ноября в Эвенкии проходил окружной фестиваль детского художественного творчества «Аяврик». В Туре торжественное открытие с",
+    "desc": "В Эвенкии завершился фестиваль «Аяврик» С 30 октября по 1 ноября в Эвенкии проходил окружной фестиваль детского художественного творчества «Аяврик». В Туре торжественное открытие состоялось 30 октября, 31 октября юные артисты показывали свои номера, а 1 ноября фестиваль завершился ярким гала-концертом. В окружной центр приехали творческие коллективы из поселков Илимпийской группы: Чиринды, Ессея, Эконды, Нидыма, Туто",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/13036",
+    "image": "https://cdn4.telesco.pe/file/fJP3bqOQdDhi9EY6Z907KJcXXR2ZqZrCTSEnCiVP-Dzhx0SX6aXorK1R8KWEjKrn1YLrZplHgg5u3o6K0O5dKOIY6yIsqXfHYDKIvjDs6hiX6uE0JVZS2BBDFlAZOUaJyPUSFCHWfk6_uAUzue_80GU90m_alYpKyMrCLGFm8oUlsRdEatAgHriHgHpS6sHukfclP8Z-JcHzL76Svc7rMgzVlqNo_AvzK7QYkgfAZQ7fwX6_XmR48-vkAa7jJJlfn7RxTi_UXk42vterqRJvqRIw6Je3YpBKkJxmaEs0NZ6vjbHD8Apxek5iTRTy8EnCW0a4YEu5kGP_cQHT99FGvA.jpg"
+  },
+  {
+    "region": "Якутия",
     "date": "2026-10-13",
     "source": "Новости «Якутия 24» · Telegram",
     "title": "Более 924 тысяч тонн грузов доставили в Якутию с начала навигации Всего 958 тысяч тонн жизнеобеспечивающих грузов для нужд республики, или 94,9% от плана отгрузили с начала нави",
@@ -4647,25 +4748,24 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/S0JIN07DTLZ33oVdgMjNR8o5dMjeUnxZ3kpakQAQ4bvr_5L67kv6UykBVbmQ1tyUs__K8722DgyOUnH3vVCZt1ju2KSyZ1z7pC7STvHK2ZGz_QDOQb0QvyvwDTnBF_o_04wi19zyTd8ZCuxax1ZSH4KEYYtBihFEDL2u7nv1wvU8h48YZKP1_X8mQ1bRpSI0_yFouFzbnoUI97h3QdB-MTltjb6IXGstu0G9cTI6ynXlNbA0_33R3FAtLbc0rBWCnJmWCg6ejqDdSEgxoD9pcnAlXsqhTqw92sHBlhD-iaP2i9lbUQybUUmgB0FvT_N2G-Cr7zfd3y8Rm9i_nsfNjw.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-20",
-    "source": "gtrksakha.ru",
-    "title": "В Якутии подвели предварительные итоги навигации 2026 года",
-    "desc": "В Якутии подвели предварительные итоги навигации 2026 года и обсудили организацию зимних поставок топлива в арктические районы республики. Вопросы обеспечения теплоснабжающих организаций и объектов коммунальной энергетики топливно-энергетическими ресурсами рассмотрели на круглом столе с участием представителей органов власти, муниципальных образований и профильных предприятий. Как сообщил исполняющий обязанности перв",
+    "region": "Общие новости",
+    "date": "2026-10-15",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Как оленеводство обеспечивает продовольственный суверенитет России?",
+    "desc": "В РУДН им. Патриса Лумумбы состоялся круглый стол «Продовольственные системы коренных народов: знания, практики и перспективы развития», организованный отделением ФАО в России. Среди участников – представители ФАДН России, международных организаций, коренных малочисленных народов, научного сообщества, эксперты. The post Как оленеводство обеспечивает продовольственный суверенитет России? appeared first on Новостной по",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://gtrksakha.ru/news/2026/10/20/v-yakutii-podveli-predvaritelnye-itogi-navigacii-2026-goda"
+    "link": "https://news.kmnsoyuz.ru/news/53787"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-01",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Рубрика «Ретро-фото» Рыбачки в посёлке Оскоба, 1960-е годы. Личный архив читательницы Надежды Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "desc": "Рубрика «Ретро-фото» Рыбачки в посёлке Оскоба, 1960-е годы. Личный архив читательницы Надежды Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/13005",
-    "image": "https://cdn4.telesco.pe/file/l6cHsqldysVm2jxJQdemXGqGzJLXuTQEm-dbD1wR0TUsdGDP3OhJLZQOxB_4jeTjy36TDe7ym0OgHdKAfLBYSYvdgC4JR56Q-2FpKSplXEvmUOfoJklW0Lvo8CtDNkt7mF-jempUTFIykOFMide2w4T7VSHpnqWjIZ1iKGMxfIP6BjEQsrs3HvZJFsLjkJKTRCty11KrYxqMKgIchAOrxzYNOv63lJwRNfgn5Mcav4NnOboz_93kex3JOIJigfMNS7rPolbd0gAjgmB8peeI5cPjgeQabn2p1WxzgEQJ9OT4vJzZDDvksFrV2AavRgJ_FBm7vY-03jJwR2xALOKltg.jpg"
+    "region": "Забайкальский край",
+    "date": "2026-09-20",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Эвенкийские работы на выставке II Всероссийского форума коренных народов",
+    "desc": "Центр «Арун» показал экспонаты выставки в Чите: куклы, украшения и сувениры различных этнокультурных организаций, включая работы эвенкийских мастеров Бурятии. Материал опубликован 20 сентября.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/eksponatyi-vyistavki-na-vserossijskom-forume-korennyix-narodov.html"
   },
   {
     "region": "Общие новости",
@@ -4689,35 +4789,36 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/LUyMzeDHGm0g1bG_Ksq5ITMONjWNWNUXaWXODhzDVHS2q3xZcNQGXjtQHZBSc024D0PMrYmmPCOd3-2tqKvRmgEwRh29bOgbm8Em1y_2iNTpKQsJXTQTCjbvgWuAXXFbD29PT4xVCwMGID8eRLAjfgEAWAvqiR-Ern_ZuELtPJw3g1pjJhzfWiWAHGpbBPwk5apoNvUXwrSBR1quKJMeNRYtb9V1tKaepFxOQPHmlvhcnnZTzZgAkFO1M2VWbTmtdz8b5mgTveKEITWSHrM76BjrM5xJn81DvGeQElOn2e3vAiu37SKTuWbHc_R5KLZrNwSKa7mnlDzjU31E9099kQ.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
-    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53765"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-17",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "«Арун» представил эвенкийскую культуру на фестивале «День Бурятии в кругу Первых»",
-    "desc": "На фестивале в Улан-Удэ 16 сентября центр показал эвенкийские костюмы и предметы быта, провёл лекции, игры и мастер-классы. Хореографическая группа ансамбля «Гулувун» исполнила танцевальные композиции.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/czentr-arun-uchastvoval-v-festivale-den-buryatii-v-krugu-pervyix.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-19",
-    "source": "搜狐",
-    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 搜狐",
-    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 搜狐",
+    "source": "经济参考报",
+    "title": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 - 经济参考报",
+    "desc": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 经济参考报",
+    "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZk1SM2lMSFUyT1JJSEZ2bTdqRWVWNUgyRTA1Ty05Q1lsZUxteTBidTQ0azMwWTR1TTU3OWlkYVh0WjNCSk8yRjlKT2JmQ0c0aFQzNFdyRElNVjVXa3RoSXJPQVpTZWs1OVFQTEdRQVgtZWNjUHJ0Ukw3MlZZMjl4ZWdDSHdITHph?oc=5",
-    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFI1Q3BqRF9qcDdhM3Jqd1hiWHhrN1hmSWJ5ZlB6bHFTVXo1V1N0V2NRWGt0MkotY1hWRlFIaXJzTUVJRmI5QmpQRFo5MG9kTDJwZHZ6eTV2MWkybTg0U1VMd3g1cXg5RFd5RjRpYjNiWU1iQ0J4RTVtOGh1dDVZNQ?oc=5"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-19",
+    "source": "gtrksakha.ru",
+    "title": "Мостовой переход через Лену в Якутии вступил в ключевую фазу строительства",
+    "desc": "Строительство Ленского моста — трёхпилонного вантового перехода через реку Лену в Якутии — вступило в ключевую фазу, сообщили в Группе \"ВИС\". То, что сейчас разворачивается в русле реки Лены, специалисты называют ключевой фазой исторической стройки. Уже установлены в проектные положения на дно два коффердама, что позволило приступить к возведению фундаментов...",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://gtrksakha.ru/news/2026/10/19/mostovoj-perehod-cherez-lenu-v-yakutii-vstupil-v-klyuchevuyu-fazu-stroitelstva"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-11-01",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Ванаваре проект «Аюкан» знакомят детей с эвенкийской культурой В селе Ванавара стартовал проект «Аюкан», его цель — помочь детям и подросткам узнать больше о традициях эвенков. П",
+    "desc": "В Ванаваре проект «Аюкан» знакомят детей с эвенкийской культурой В селе Ванавара стартовал проект «Аюкан», его цель — помочь детям и подросткам узнать больше о традициях эвенков. Проект получил грант от агентства по развитию северных территорий Красноярского края — он вошёл в число 24 победителей, получивших 28 миллионов рублей. Инициативу придумала местная жительница Мальвина Чуркина, а идейным вдохновителем стала Э",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/13016",
+    "image": "https://cdn4.telesco.pe/file/l6cHsqldysVm2jxJQdemXGqGzJLXuTQEm-dbD1wR0TUsdGDP3OhJLZQOxB_4jeTjy36TDe7ym0OgHdKAfLBYSYvdgC4JR56Q-2FpKSplXEvmUOfoJklW0Lvo8CtDNkt7mF-jempUTFIykOFMide2w4T7VSHpnqWjIZ1iKGMxfIP6BjEQsrs3HvZJFsLjkJKTRCty11KrYxqMKgIchAOrxzYNOv63lJwRNfgn5Mcav4NnOboz_93kex3JOIJigfMNS7rPolbd0gAjgmB8peeI5cPjgeQabn2p1WxzgEQJ9OT4vJzZDDvksFrV2AavRgJ_FBm7vY-03jJwR2xALOKltg.jpg"
   },
   {
     "region": "Якутия",
@@ -4732,24 +4833,23 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-19",
-    "source": "gtrksakha.ru",
-    "title": "Мостовой переход через Лену в Якутии вступил в ключевую фазу строительства",
-    "desc": "Строительство Ленского моста — трёхпилонного вантового перехода через реку Лену в Якутии — вступило в ключевую фазу, сообщили в Группе \"ВИС\". То, что сейчас разворачивается в русле реки Лены, специалисты называют ключевой фазой исторической стройки. Уже установлены в проектные положения на дно два коффердама, что позволило приступить к возведению фундаментов...",
+    "date": "2026-10-14",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия рассматривает вопрос экспорта северных оленей в Китай",
+    "desc": "В Якутске состоялась рабочая встреча с делегацией КНР, посвящённая вопросам сотрудничества в сфере северного домашнего оленеводства. Помимо организации экспорта северных оленей на встрече обсуждались поставки продукции оленеводства, развитие культурного обмена и сохранение культурного наследия эвенкийского народа. The post Якутия рассматривает вопрос экспорта северных оленей в Китай appeared first on Новостной портал",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://gtrksakha.ru/news/2026/10/19/mostovoj-perehod-cherez-lenu-v-yakutii-vstupil-v-klyuchevuyu-fazu-stroitelstva"
+    "link": "https://news.kmnsoyuz.ru/news/53775"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-30",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Четыре аргиша и победа Мирошко: в центральной библиотеке прошла игра «Путешествие по Эвенкии» 28 октября в центральной библиотеке состоялась интеллектуальная игра – «Путешествие по",
-    "desc": "Четыре аргиша и победа Мирошко: в центральной библиотеке прошла игра «Путешествие по Эвенкии» 28 октября в центральной библиотеке состоялась интеллектуальная игра – «Путешествие по Эвенкии». Участники прошли четыре аргиша — раунда, а главным противостоянием стала встреча двух родов: Мирошко и Оёгир. Каждый аргиш открывал новый этап и новые вопросы о родном крае. Борьба шла динамично, и интрига сохранялась до последне",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12972",
-    "image": "https://cdn4.telesco.pe/file/STZSp2KAjiP4Om21DWAWUBDvIHDX43JJwb3zrd36JCbo5GjxFi6e0jejqPMrecli0551NdxS0HWhaTHP4aq-ZUIcKk8J12UFj3MdrCqCNrYlT985rSPc6gFfdNLOCZ3SfIvroHqKJw0TLErFisWYKL2_z42bAMlJtg-TNdjpfjRXmYBd2shjkh6-5vR-swfsnFiflZuJoIE_z6PSKgWS-KyBxu2q4p28WyZ2qcAHPgxkPPYfAqcItydKh3M5Nvf7derQMAwiLGv3xTHMIDX5tsXzxJJnRNYCjeHXN4my1_07vYcPAP1n1FXYq2IsXVPxI6TukcaWpqwthjEd0E6Z0A.jpg"
+    "region": "Бурятия",
+    "date": "2026-09-17",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "«Арун» представил эвенкийскую культуру на фестивале «День Бурятии в кругу Первых»",
+    "desc": "На фестивале в Улан-Удэ 16 сентября центр показал эвенкийские костюмы и предметы быта, провёл лекции, игры и мастер-классы. Хореографическая группа ансамбля «Гулувун» исполнила танцевальные композиции.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/czentr-arun-uchastvoval-v-festivale-den-buryatii-v-krugu-pervyix.html"
   },
   {
     "region": "Общие новости",
@@ -4773,34 +4873,36 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/LUyMzeDHGm0g1bG_Ksq5ITMONjWNWNUXaWXODhzDVHS2q3xZcNQGXjtQHZBSc024D0PMrYmmPCOd3-2tqKvRmgEwRh29bOgbm8Em1y_2iNTpKQsJXTQTCjbvgWuAXXFbD29PT4xVCwMGID8eRLAjfgEAWAvqiR-Ern_ZuELtPJw3g1pjJhzfWiWAHGpbBPwk5apoNvUXwrSBR1quKJMeNRYtb9V1tKaepFxOQPHmlvhcnnZTzZgAkFO1M2VWbTmtdz8b5mgTveKEITWSHrM76BjrM5xJn81DvGeQElOn2e3vAiu37SKTuWbHc_R5KLZrNwSKa7mnlDzjU31E9099kQ.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-12",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
-    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53738"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-15",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эпизоды фестиваля \"Байкальский аргиш-2026\"",
-    "desc": "Видеоклип подготовил эвенкийский певец и композитор из Красноярского края Максим Дженкоуль",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-19",
-    "source": "新浪财经",
-    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 新浪财经",
-    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 新浪财经",
+    "source": "搜狐",
+    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 搜狐",
+    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 搜狐",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZk1SM2lMSFUyT1JJSEZ2bTdqRWVWNUgyRTA1Ty05Q1lsZUxteTBidTQ0azMwWTR1TTU3OWlkYVh0WjNCSk8yRjlKT2JmQ0c0aFQzNFdyRElNVjVXa3RoSXJPQVpTZWs1OVFQTEdRQVgtZWNjUHJ0Ukw3MlZZMjl4ZWdDSHdITHph?oc=5",
     "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-13",
+    "source": "gtrksakha.ru",
+    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза",
+    "desc": "Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ.",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://gtrksakha.ru/news/2026/10/13/yakutiya-vystupila-za-sovershenstvovanie-mehanizmov-federalnoj-podderzhki-severnogo-zavoza"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-01",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Рубрика «Ретро-фото» Рыбачки в посёлке Оскоба, 1960-е годы. Личный архив читательницы Надежды Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "desc": "Рубрика «Ретро-фото» Рыбачки в посёлке Оскоба, 1960-е годы. Личный архив читательницы Надежды Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/13005",
+    "image": "https://cdn4.telesco.pe/file/l6cHsqldysVm2jxJQdemXGqGzJLXuTQEm-dbD1wR0TUsdGDP3OhJLZQOxB_4jeTjy36TDe7ym0OgHdKAfLBYSYvdgC4JR56Q-2FpKSplXEvmUOfoJklW0Lvo8CtDNkt7mF-jempUTFIykOFMide2w4T7VSHpnqWjIZ1iKGMxfIP6BjEQsrs3HvZJFsLjkJKTRCty11KrYxqMKgIchAOrxzYNOv63lJwRNfgn5Mcav4NnOboz_93kex3JOIJigfMNS7rPolbd0gAjgmB8peeI5cPjgeQabn2p1WxzgEQJ9OT4vJzZDDvksFrV2AavRgJ_FBm7vY-03jJwR2xALOKltg.jpg"
   },
   {
     "region": "Якутия",
@@ -4814,25 +4916,23 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-13",
-    "source": "gtrksakha.ru",
-    "title": "Якутия выступила за совершенствование механизмов федеральной поддержки северного завоза",
-    "desc": "Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ.",
+    "region": "Общие новости",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Полным ходом идет подготовка к Всероссийскому форуму оленеводов",
+    "desc": "В Москве предварительно согласована архитектура программы и состав участников I Всероссийского форума оленеводов, который состоится в 2027 году в столице страны. Обсуждены организационные вопросы и тематические направления форума, среди которых реальное состояние отрасли, пастбища, ветеринария, генетика, кадры, логистика. The post Полным ходом идет подготовка к Всероссийскому форуму оленеводов appeared first on Новос",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://gtrksakha.ru/news/2026/10/13/yakutiya-vystupila-za-sovershenstvovanie-mehanizmov-federalnoj-podderzhki-severnogo-zavoza"
+    "link": "https://news.kmnsoyuz.ru/news/53765"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-29",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Новая экотропа «Пять этносов Таймыра» создана в Красноярском крае В живописной долине реки Олор, среди склонов хребта Хараелах у подножия легендарного плато Путорана, открылся уник",
-    "desc": "Новая экотропа «Пять этносов Таймыра» создана в Красноярском крае В живописной долине реки Олор, среди склонов хребта Хараелах у подножия легендарного плато Путорана, открылся уникальный туристический маршрут. Название тропы — дань уважения пяти коренным народам Таймыра: долганам, нганасанам, энцам, ненцам и эвенкам. Прогуливаясь по маршруту, вы встретите впечатляющие четырёхметровые деревянные скульптуры, украшенные",
+    "region": "Бурятия",
+    "date": "2026-09-15",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Эпизоды фестиваля \"Байкальский аргиш-2026\"",
+    "desc": "Видеоклип подготовил эвенкийский певец и композитор из Красноярского края Максим Дженкоуль",
     "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12961",
-    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
+    "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
   },
   {
     "region": "Якутия",
@@ -4856,34 +4956,26 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/vehmTMhT7xIWzNoJQB4QThfK2KGL3XfqaM1NuLRHmY2IGsMlIavidiBdvfD3_l388ytUWvkkSm50JJ1LPnlFBIJBmoak-maupzqMb0lbtP32KbW6uI4UyFeYUxroKM0IEX1LxMpCOGSpxb4RfR5s0UgJGa7gpoYVf-srv_8OZBoRWho9lRoWN9NUSy85cAUE52AlAikAKjWA0yd1O3DimJn12HBkOd46B1SidsD3tadb01YZyRjKIZ7IVLn6d53aO5uOwvG9SKNLvYkn2lUz8itSGFiReOClPtXGemF7ifXo22uRmM34a5oeSCm_geHXevJroz-6zAUVVmKBRpuNvg.jpg"
   },
   {
-    "region": "Якутия",
-    "date": "2026-10-09",
-    "source": "news.kmnsoyuz.ru",
-    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
-    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.kmnsoyuz.ru/news/53729"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-09-11",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» открывает набор в ансамбль «Гулувун»",
-    "desc": "Приглашаются юноши и девушки от 14 до 18 лет, желающих ждём в четверг 17 сентября, в 18:00 в Доме дружбы народов",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-19",
-    "source": "凤凰网",
-    "title": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 - 凤凰网",
-    "desc": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 凤凰网",
+    "source": "新浪财经",
+    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 新浪财经",
+    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 新浪财经",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWZE1JS1ZLRWpVbTk3LVFBSEpRNVVjWVAxN1VBeEJwT0NDdWJoYUdLREJlYU5Zdl9UQXdYZkxYSk5nZ2tZNmc2Zw?oc=5",
-    "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом."
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ET3VuVzZiS2k2dEF3WmYwVDNXVFdLcVR6anVsOG9KaXBWZmR1OWVDeWZyb18wVzFLZGJONzN2OGRoRk1kNGtsY3Z4MjdLQzVZRmU1LUN0VnVjbVFNcG8yNmNKRk1hYUs3aVBlR0d5RUVRc0lYUGIyUg?oc=5",
+    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-30",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Четыре аргиша и победа Мирошко: в центральной библиотеке прошла игра «Путешествие по Эвенкии» 28 октября в центральной библиотеке состоялась интеллектуальная игра – «Путешествие по",
+    "desc": "Четыре аргиша и победа Мирошко: в центральной библиотеке прошла игра «Путешествие по Эвенкии» 28 октября в центральной библиотеке состоялась интеллектуальная игра – «Путешествие по Эвенкии». Участники прошли четыре аргиша — раунда, а главным противостоянием стала встреча двух родов: Мирошко и Оёгир. Каждый аргиш открывал новый этап и новые вопросы о родном крае. Борьба шла динамично, и интрига сохранялась до последне",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12972",
+    "image": "https://cdn4.telesco.pe/file/STZSp2KAjiP4Om21DWAWUBDvIHDX43JJwb3zrd36JCbo5GjxFi6e0jejqPMrecli0551NdxS0HWhaTHP4aq-ZUIcKk8J12UFj3MdrCqCNrYlT985rSPc6gFfdNLOCZ3SfIvroHqKJw0TLErFisWYKL2_z42bAMlJtg-TNdjpfjRXmYBd2shjkh6-5vR-swfsnFiflZuJoIE_z6PSKgWS-KyBxu2q4p28WyZ2qcAHPgxkPPYfAqcItydKh3M5Nvf7derQMAwiLGv3xTHMIDX5tsXzxJJnRNYCjeHXN4my1_07vYcPAP1n1FXYq2IsXVPxI6TukcaWpqwthjEd0E6Z0A.jpg"
   },
   {
     "region": "Якутия",
@@ -4896,15 +4988,23 @@ window.newsStories=[
     "link": "https://t.me/yk24ru/91101"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-29",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "«Мамины помощники» Друзья, мы объявляем милую акцию к замечательному празднику — Дню матери! Все знают, что лучший подарок для любящей мамы — это забота семьи. Особенно когда помоч",
-    "desc": "«Мамины помощники» Друзья, мы объявляем милую акцию к замечательному празднику — Дню матери! Все знают, что лучший подарок для любящей мамы — это забота семьи. Особенно когда помочь стараются сами дети Покажите, как ваши дети поддерживают мам! Может, кто-то готовит на всю семью, чтобы мама больше отдыхала, а может, ребята чистят снег, убираются по дому, или просто каждый день искренне говорят маме, что она — самая до",
+    "region": "Якутия",
+    "date": "2026-10-12",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Якутия по поголовью оленей поднялась с третьего на второе место среди регионов страны",
+    "desc": "Якутия укрепила свои позиции в оленеводстве: по итогам прошлого года республика поднялась с третьего на второе место среди регионов России по поголовью северных домашних оленей, опередив Ненецкий автономный округ. На сегодня в 118 хозяйствах всех форм собственности насчитывается 177 047 оленей. В отрасли трудятся 1022 человека. The post Якутия по поголовью оленей поднялась с третьего на второе место среди регионов ст",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12958",
-    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
+    "link": "https://news.kmnsoyuz.ru/news/53738"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-11",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Центр «Арун» открывает набор в ансамбль «Гулувун»",
+    "desc": "Приглашаются юноши и девушки от 14 до 18 лет, желающих ждём в четверг 17 сентября, в 18:00 в Доме дружбы народов",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
   },
   {
     "region": "Якутия",
@@ -4928,24 +5028,26 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/vehmTMhT7xIWzNoJQB4QThfK2KGL3XfqaM1NuLRHmY2IGsMlIavidiBdvfD3_l388ytUWvkkSm50JJ1LPnlFBIJBmoak-maupzqMb0lbtP32KbW6uI4UyFeYUxroKM0IEX1LxMpCOGSpxb4RfR5s0UgJGa7gpoYVf-srv_8OZBoRWho9lRoWN9NUSy85cAUE52AlAikAKjWA0yd1O3DimJn12HBkOd46B1SidsD3tadb01YZyRjKIZ7IVLn6d53aO5uOwvG9SKNLvYkn2lUz8itSGFiReOClPtXGemF7ifXo22uRmM34a5oeSCm_geHXevJroz-6zAUVVmKBRpuNvg.jpg"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-09-09",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
-    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-19",
-    "source": "金融界",
-    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 金融界",
-    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 金融界",
+    "source": "凤凰网",
+    "title": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 - 凤凰网",
+    "desc": "大爱老区公益计划走进鄂伦春 助力老年人守住钱袋子 凤凰网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5",
-    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWZE1JS1ZLRWpVbTk3LVFBSEpRNVVjWVAxN1VBeEJwT0NDdWJoYUdLREJlYU5Zdl9UQXdYZkxYSk5nZ2tZNmc2Zw?oc=5",
+    "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом."
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-29",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Новая экотропа «Пять этносов Таймыра» создана в Красноярском крае В живописной долине реки Олор, среди склонов хребта Хараелах у подножия легендарного плато Путорана, открылся уник",
+    "desc": "Новая экотропа «Пять этносов Таймыра» создана в Красноярском крае В живописной долине реки Олор, среди склонов хребта Хараелах у подножия легендарного плато Путорана, открылся уникальный туристический маршрут. Название тропы — дань уважения пяти коренным народам Таймыра: долганам, нганасанам, энцам, ненцам и эвенкам. Прогуливаясь по маршруту, вы встретите впечатляющие четырёхметровые деревянные скульптуры, украшенные",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12961",
+    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
   },
   {
     "region": "Якутия",
@@ -4959,15 +5061,23 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/etOcX2xSPK1B2xQ74-8_6COtH94_81UV6BrhK0Vd0oxojE8pljOHt30LGK0YQM6U2fcoq8gnWMoERb69tbb8AYKofN9Zso5XWCtLCbilz6A3jtVbwHcqjljktnzLrdiNvoYDDur5baOkWvPamIrpuJnfXmtdIj8wSMiNT5yoFdKAou-0N8hewLVvgw6tq_SLC4wAzyY2jbx_dazqBBLvhr3PAIkIIMqtOEI4n50DQ_qQZd4Tcqhd4u0uvYSuTwYF-vKgyeMVMuX3edoJ-UKvH061qInSUrRD3RkmwHno49ARKpFohwFGjooS4_2kj5blikzEFxLRs83Obm636lRSJA.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-29",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Эвенкии пройдёт окружной фестиваль детского творчества «Аяврик» В Туре праздник начнётся с торжественного открытия, которое состоится 30 октября в 17:30. 31 октября в 12:00 на сц",
-    "desc": "В Эвенкии пройдёт окружной фестиваль детского творчества «Аяврик» В Туре праздник начнётся с торжественного открытия, которое состоится 30 октября в 17:30. 31 октября в 12:00 на сцене культурно-досугового центра зрители увидят программу с выступлениями детских коллективов и юных солистов из окружного центра, а также посёлков Тутончаны, Ессей, Эконда, Чиринда, Нидым. В эти же дни к фестивалю присоединятся ребята из Ва",
+    "region": "Якутия",
+    "date": "2026-10-09",
+    "source": "news.kmnsoyuz.ru",
+    "title": "Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без земли",
+    "desc": "Суть проблемы: на основании представления прокуратуры Булунского района муниципальным районом было принято решение о прекращении права постоянного (бессрочного) пользования землями сельскохозяйственного значения, которые в период с 2020 по 2022 годы муниципальным районом были предоставлены на постоянное (бессрочное) пользование. The post Оленеводы Якутии бьют тревогу: из-за правовой коллизии они могут остаться без зе",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12955",
-    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
+    "link": "https://news.kmnsoyuz.ru/news/53729"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-09",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
+    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
   },
   {
     "region": "Якутия",
@@ -4991,6 +5101,28 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/GicKeKpgjebUIYt56gAiVEqHmhj5XgG6PB8N_s9rmfdw9NDDVAZkqpgbhp6w5VVtGE9UFc5T0OF49Fu7s5JBKA5BY8s88TWNBRQ9UtFgzklfc5d__iYqPlM1ejzsdQHZ3uOLNnn-3dEQvUqH75veZWE-aGw6fz_ZnHyPMkj4Sf-5arbBNsIB01nzY-gFIQ-LMxkNMLZT9mVrfWxLlGlIpPuRlW4nRhoHmLQ2D_S2sCuWxeNF2C1-ovrqMkI5OcC04C7uN2IFezBGx60ExADL614k701uBW0ccnCw-bZv-DTmvTC6iI0iILhRd8QFmQDx3LLY8u8ekhmsjNyTAK8bDA.jpg"
   },
   {
+    "region": "Зарубежные источники",
+    "date": "2026-10-19",
+    "source": "金融界",
+    "title": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” - 金融界",
+    "desc": "重阳节，诺安基金“银发族金融课”为鄂伦春老人筑牢反诈“防火墙” 金融界",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NGtQRkFuMnljOW5ZUHhWLURMN0Y2c1hCdEYtTHlYSjBvVEt1d0MyUmhLS3ViSVVYTzNtYlpReDBkbDdDZ2FwV0kyMTdnSGtCZlFNUDZBLXY5cnl1WnE2dFNxY1lpSk8yZ3dKbjY3cGU?oc=5",
+    "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-10-29",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "«Мамины помощники» Друзья, мы объявляем милую акцию к замечательному празднику — Дню матери! Все знают, что лучший подарок для любящей мамы — это забота семьи. Особенно когда помоч",
+    "desc": "«Мамины помощники» Друзья, мы объявляем милую акцию к замечательному празднику — Дню матери! Все знают, что лучший подарок для любящей мамы — это забота семьи. Особенно когда помочь стараются сами дети Покажите, как ваши дети поддерживают мам! Может, кто-то готовит на всю семью, чтобы мама больше отдыхала, а может, ребята чистят снег, убираются по дому, или просто каждый день искренне говорят маме, что она — самая до",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12958",
+    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
+  },
+  {
     "region": "Забайкальский край",
     "date": "2026-09-08",
     "source": "Центр эвенкийской культуры «Арун»",
@@ -4998,28 +5130,6 @@ window.newsStories=[
     "desc": "Сюжет телеканала \"Ариг Ус\" о поездке Центра \"Арун\" на II Всероссийский культурный форум коренных народов в Чите",
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
-  },
-  {
-    "region": "Зарубежные источники",
-    "date": "2026-10-15",
-    "source": "中国新闻网",
-    "title": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 - 中国新闻网",
-    "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
-    "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-28",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной програм",
-    "desc": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной программе будут задействованы самолёты Ан-26: чтобы увеличить объёмы доставки продовольствия, грузо-пассажирские машины переоборудуют в грузовые – демонтаж кресел позволит увеличить предельную коммерческую загрузку каждого борта до 4 тонн на рейс.",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12949",
-    "image": "https://cdn4.telesco.pe/file/l8nEIXfb0zBVzQtI5JGvI0OSJegN9zS-ArguHIT4bRs4rTOXB4lHqao77wOXYYz3TG3Ps9FgmqQnGyKcjlbKYt1o7wd1oJoJws2JwhYPmbyeur7L8iZXuzZYxQDB6ARW6NqJZR-85ufufzTZMnA6SL8t4h4d7C3zXXZ3iHOhhW_qd8zXuho0OimUMlrD9wZfwSe382i3EibG_WSveEm65bdyYhljTx6FBJg_mMQO_maFT9x4o7fHMdRcsxIWCrRfGFq7Wi1iSaUTWk7keyVP4-p2GrW7AlDyG6tZ05mBT-0i8qpTZCPw2pQYv9i2ZisZWJ6KrvNk0xM-suFapTqapQ.jpg"
   },
   {
     "region": "Якутия",
@@ -5043,15 +5153,6 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/GicKeKpgjebUIYt56gAiVEqHmhj5XgG6PB8N_s9rmfdw9NDDVAZkqpgbhp6w5VVtGE9UFc5T0OF49Fu7s5JBKA5BY8s88TWNBRQ9UtFgzklfc5d__iYqPlM1ejzsdQHZ3uOLNnn-3dEQvUqH75veZWE-aGw6fz_ZnHyPMkj4Sf-5arbBNsIB01nzY-gFIQ-LMxkNMLZT9mVrfWxLlGlIpPuRlW4nRhoHmLQ2D_S2sCuWxeNF2C1-ovrqMkI5OcC04C7uN2IFezBGx60ExADL614k701uBW0ccnCw-bZv-DTmvTC6iI0iILhRd8QFmQDx3LLY8u8ekhmsjNyTAK8bDA.jpg"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-09-03",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
-    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
-  },
-  {
     "region": "Зарубежные источники",
     "date": "2026-10-15",
     "source": "中国新闻网",
@@ -5059,19 +5160,28 @@ window.newsStories=[
     "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5",
-    "overviewRu": "В Рейкьявике на полях форума Arctic Circle прошла встреча об изменении климата и жизни сообщества эвенков-оленеводов. Жители Аолугуи рассказали о сезонном выпасе оленей и традиционных знаниях о тайге; участники обсудили, как этот опыт помогает сохранять культуру и может учитываться в диалоге об устойчивом развитии Арктики."
+    "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
+    "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-27",
+    "date": "2026-10-29",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Тайга раздора: в Красноярском крае суд с участием присяжных рассмотрел дело об убийстве охотника на Нижней Тунгуске почти 20 лет назад В Эвенкии семья одного из местных охотников м",
-    "desc": "Тайга раздора: в Красноярском крае суд с участием присяжных рассмотрел дело об убийстве охотника на Нижней Тунгуске почти 20 лет назад В Эвенкии семья одного из местных охотников много лет занималась промыслом на участках Тутончанского лесничества. Здесь добывали пушного зверя и другую дичь, а охота была не только привычным образом жизни, но и источником дохода. В 2006 году право пользования несколькими лесными участ",
+    "title": "В Эвенкии пройдёт окружной фестиваль детского творчества «Аяврик» В Туре праздник начнётся с торжественного открытия, которое состоится 30 октября в 17:30. 31 октября в 12:00 на сц",
+    "desc": "В Эвенкии пройдёт окружной фестиваль детского творчества «Аяврик» В Туре праздник начнётся с торжественного открытия, которое состоится 30 октября в 17:30. 31 октября в 12:00 на сцене культурно-досугового центра зрители увидят программу с выступлениями детских коллективов и юных солистов из окружного центра, а также посёлков Тутончаны, Ессей, Эконда, Чиринда, Нидым. В эти же дни к фестивалю присоединятся ребята из Ва",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12932",
-    "image": "https://cdn4.telesco.pe/file/kagGJknmG2hCPHEkzcyiBHoDmpDNLc8HPOhk9kFlZdLkIbZcK4Q8HNUZPRkdtlfioh6k6kip1ffbgjj_Ga9hMzYGhLbv_NOsbFcoKDuwK65js7Sbvmi7n53_GO3n-RdHqtfO8QvlvmXP_-jjkgEYZlgpfq59ktrKFkt4C5wWYdreLiUvEUW-c1wvy9xUM5hAFQqwfKtNXq445RfnV5cHvuaDPq096qTMOa6-IxO-RSLawcmbnlip9nZJh8RXRpQ0xQDVGs0CP4DB2OSk0y0TdHfw9kR_EoieUaqcaNEGgvoWrWXI14NDykICseVW4DFLb_pyJrUuh18zbXUPS5Lbkg.jpg"
+    "link": "https://t.me/evenkya_life/12955",
+    "image": "https://cdn4.telesco.pe/file/GCAtHJTHMJ0Hh_8HrWLoL0ZB1lAf6h4A50IGn0Q11W3Ueg2PVz7H55YtA8jlhMSENv0tStVrnD7YrCfImDN2cftI1KCMCtwpyXIaoU6SjhXkdIqUBJ77non7ZsUUBXZbv8O6L_EBdf24fKHD2xZ5hGAgMf0v5HnkASYKauJ7L8kz30nDkvIv19tkHLmS1MDuQEeJZms42H602F10hf_DOXAhF0Qf1JS5nO8N8I5SH1NY-VzvkZRDaVJ_BGLlZUZWgO5KxxouN2s-RnXO_k1jH3iLmHemFXJ94EW8EGHyfTg1EEGDjVrzNP8kpnmdd0AQSSh20l_mJw5aPbg1uDxwVw.jpg"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-03",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
+    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
   },
   {
     "region": "Якутия",
@@ -5096,25 +5206,25 @@ window.newsStories=[
   },
   {
     "region": "Зарубежные источники",
-    "date": "2026-10-14",
-    "source": "新华网",
-    "title": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 - 新华网",
-    "desc": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 新华网",
-    "overviewRu": "В деревне Яньцаоши Орочонского автономного хошуна модернизируют сельскохозяйственную инфраструктуру: прокладывают водоотводные каналы и дороги для обработки и вывоза урожая. Проект охватывает 20 тысяч му сельхозземель; на момент публикации он был выполнен более чем на 97%. Статья рассказывает о сельском хозяйстве в Орочонском хошуне, а не об эвенках.",
-    "tags": "орочоны сельское хозяйство китай внутренняя монголия",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5"
+    "date": "2026-10-15",
+    "source": "中国新闻网",
+    "title": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 - 中国新闻网",
+    "desc": "“中国鄂温克驯鹿社区的气候与社会变迁”边会在冰岛举行 中国新闻网",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JcS04bTRJNzBaQU1TcE9QRDBwYVh0S01BaUtmYk9QN1B4RGxZRWRhTFhXWFB1b0NTZFZveFQ1bm1kN285NE9wTVNpT2Q2TFpLX3JPV3YzUlctR20yVVR0WjNWeUpqbENn?oc=5",
+    "overviewRu": "В Рейкьявике на полях форума Arctic Circle прошла встреча об изменении климата и жизни сообщества эвенков-оленеводов. Жители Аолугуи рассказали о сезонном выпасе оленей и традиционных знаниях о тайге; участники обсудили, как этот опыт помогает сохранять культуру и может учитываться в диалоге об устойчивом развитии Арктики."
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-24",
+    "region": "Красноярский край",
+    "date": "2026-10-28",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Стихи Анастасии Тыгановой вошли в петербургский сборник Кетская поэтесса Анастасия Тыганова стала участницей международного конкурса. Стихотворение Анастасии Тыгановой из Суломая в",
-    "desc": "Стихи Анастасии Тыгановой вошли в петербургский сборник Кетская поэтесса Анастасия Тыганова стала участницей международного конкурса. Стихотворение Анастасии Тыгановой из Суломая вошло в сборник «Читающий Петербург: культурные коды». Его выпустила Центральная городская публичная библиотека имени В.В. Маяковского Санкт-Петербурга по итогам международного конкурса поэтических переводов – 2025. В этом году конкурс вперв",
+    "title": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной програм",
+    "desc": "Для Эвенкии увеличат частоту авиарейсов с продовольствием С начала ноября авиакомпания «КрасАвиа» переходит на более плотный график грузовых перевозок в Эвенкию. В полетной программе будут задействованы самолёты Ан-26: чтобы увеличить объёмы доставки продовольствия, грузо-пассажирские машины переоборудуют в грузовые – демонтаж кресел позволит увеличить предельную коммерческую загрузку каждого борта до 4 тонн на рейс.",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12905",
-    "image": "https://cdn4.telesco.pe/file/H-zb_u7KJjg38LXmj0l9yvRUI3b5cZ3U3UUc-CbFE6SgNie2w7oq0PsdIyAwjC61xES8Y0BKk03wcHMylutWLPXNJbEoCskMDBaZZ9vNN9_DOauyJ4-S2U-_0GarndAJiR1klgujWRU617KQwPDYu6VxndVOZf2opr-KWLQvyoA7U138y4RzasTpcQEooo3J_JE3mlhYVB4b8qShPZ9Wlxwn3I5zbGUdlt8HtgPAxChSLnCvkBdgZLF6cRXIv_WMSPkTZeUe1xKWXYYzsmX4cXdTvJzYLrYw8NgBHLjR4k4fIjYheifSl3Y-qWQsVpgyZdfXHcsNAn_mNLTwHmgiow.jpg"
+    "link": "https://t.me/evenkya_life/12949",
+    "image": "https://cdn4.telesco.pe/file/l8nEIXfb0zBVzQtI5JGvI0OSJegN9zS-ArguHIT4bRs4rTOXB4lHqao77wOXYYz3TG3Ps9FgmqQnGyKcjlbKYt1o7wd1oJoJws2JwhYPmbyeur7L8iZXuzZYxQDB6ARW6NqJZR-85ufufzTZMnA6SL8t4h4d7C3zXXZ3iHOhhW_qd8zXuho0OimUMlrD9wZfwSe382i3EibG_WSveEm65bdyYhljTx6FBJg_mMQO_maFT9x4o7fHMdRcsxIWCrRfGFq7Wi1iSaUTWk7keyVP4-p2GrW7AlDyG6tZ05mBT-0i8qpTZCPw2pQYv9i2ZisZWJ6KrvNk0xM-suFapTqapQ.jpg"
   },
   {
     "region": "Якутия",
@@ -5138,15 +5248,26 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/Kj4pAWW_WfIa7DLa3yoOzvT9naovSpuGbtyyDXZv3h0QTFk3GdUqX7tnLUMqxzLSFWNhUSw7ZW2IBUiFnzbQUVb6RSOJuMiwJGpR_1TbpltaL2cK3_so8QtnC6j5BBVq25m3v9HKR0P2sYqsXBpDhlQ-SBIL7FVQyBDsRX_3qMBK5hLmqZkmPb6ZhjC79NFcWO9cCCb74scJeZBOPm3QgUEVOjH0OMB9solyiEpHPQhiBNNxC78lCfYJfZKOACHIs0RkNpWZL8kzy0m3Kt9tbaPKtl2OIYxOTBS6_2QCSBHp5-ISQ9xtzDgv9qRYimspTrkq5LQkiZoKecQSxRz2VA.jpg"
   },
   {
+    "region": "Зарубежные источники",
+    "date": "2026-10-14",
+    "source": "新华网",
+    "title": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 - 新华网",
+    "desc": "沟渠贯通、路网成型 鄂伦春烟囱石村2万亩高标准农田焕新颜 新华网",
+    "overviewRu": "В деревне Яньцаоши Орочонского автономного хошуна модернизируют сельскохозяйственную инфраструктуру: прокладывают водоотводные каналы и дороги для обработки и вывоза урожая. Проект охватывает 20 тысяч му сельхозземель; на момент публикации он был выполнен более чем на 97%. Статья рассказывает о сельском хозяйстве в Орочонском хошуне, а не об эвенках.",
+    "tags": "орочоны сельское хозяйство китай внутренняя монголия",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDNDNkluYzU4Rll3WnpLYlhlektFTkEzZlMxQmlURDdNenREdkY5YkU4R2Y3NVNvaGRqQWVmaGNmb2JXZ2tfQktVaUhIdFZid3llR0drT1JVUkUyYVBsMF85dHo4NEJXOV92T0o3UHk3YXQyT2JnaFo4S0FXVE5VWTZkQQ?oc=5"
+  },
+  {
     "region": "Красноярский край",
-    "date": "2026-10-23",
+    "date": "2026-10-27",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Общепоселковый турнир по баскетболу прошел в Ванаваре Два дня захватывающей игры, четыре команды и непередаваемые эмоции — так прошли соревнования в спортивной школе. Участники ком",
-    "desc": "Общепоселковый турнир по баскетболу прошел в Ванаваре Два дня захватывающей игры, четыре команды и непередаваемые эмоции — так прошли соревнования в спортивной школе. Участники команд были как профессиональными спортсменами, так и любителями, но борьба была по-настоящему спортивная и непредсказуемая. Команда «Север» показала динамичную игру, чем сильно измотала соперников. Команда «Поселок» состояла из солидных мужчи",
+    "title": "Тайга раздора: в Красноярском крае суд с участием присяжных рассмотрел дело об убийстве охотника на Нижней Тунгуске почти 20 лет назад В Эвенкии семья одного из местных охотников м",
+    "desc": "Тайга раздора: в Красноярском крае суд с участием присяжных рассмотрел дело об убийстве охотника на Нижней Тунгуске почти 20 лет назад В Эвенкии семья одного из местных охотников много лет занималась промыслом на участках Тутончанского лесничества. Здесь добывали пушного зверя и другую дичь, а охота была не только привычным образом жизни, но и источником дохода. В 2006 году право пользования несколькими лесными участ",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12891",
-    "image": "https://cdn4.telesco.pe/file/nTDqJb004KAahDwO05hC-9pLSNOyqXR7-M-TyRb5vyUFkv3jcvLY0zZnP3FDfc7RJEdNngNK80u4Q31trbrCkP10GcPj9nPfLgO_pTmc8bccUmv8eEF0MlRdjLvJw20AfcIE6Oh4A8gH8QPxP0VP_qcENfPQ8UXRwG1xHUzkiZcJxSkKLRKP98K6keF9A9-wng5Osto8hV-wGpUWYlWX0a_Z0-ARM1Zx3RLhssABf0CiSMcgPNQ99UGxdEPat67FhtZPqbTOZ0XzdoJ_Ka0vu_wF3eTnx5OX9Ztpmt-V2A-yr5lrVuosymHtl2UYP9YZ289Y8puPbfgpJTY_qxfwrQ.jpg"
+    "link": "https://t.me/evenkya_life/12932",
+    "image": "https://cdn4.telesco.pe/file/kagGJknmG2hCPHEkzcyiBHoDmpDNLc8HPOhk9kFlZdLkIbZcK4Q8HNUZPRkdtlfioh6k6kip1ffbgjj_Ga9hMzYGhLbv_NOsbFcoKDuwK65js7Sbvmi7n53_GO3n-RdHqtfO8QvlvmXP_-jjkgEYZlgpfq59ktrKFkt4C5wWYdreLiUvEUW-c1wvy9xUM5hAFQqwfKtNXq445RfnV5cHvuaDPq096qTMOa6-IxO-RSLawcmbnlip9nZJh8RXRpQ0xQDVGs0CP4DB2OSk0y0TdHfw9kR_EoieUaqcaNEGgvoWrWXI14NDykICseVW4DFLb_pyJrUuh18zbXUPS5Lbkg.jpg"
   },
   {
     "region": "Якутия",
@@ -5171,14 +5292,14 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Новый выпуск ЭЖ! Как всегда рассказываем всё о людях нашей территории, в том числе на эвенкийском языке. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в М",
-    "desc": "Новый выпуск ЭЖ! Как всегда рассказываем всё о людях нашей территории, в том числе на эвенкийском языке. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12886",
-    "image": "https://cdn4.telesco.pe/file/nTDqJb004KAahDwO05hC-9pLSNOyqXR7-M-TyRb5vyUFkv3jcvLY0zZnP3FDfc7RJEdNngNK80u4Q31trbrCkP10GcPj9nPfLgO_pTmc8bccUmv8eEF0MlRdjLvJw20AfcIE6Oh4A8gH8QPxP0VP_qcENfPQ8UXRwG1xHUzkiZcJxSkKLRKP98K6keF9A9-wng5Osto8hV-wGpUWYlWX0a_Z0-ARM1Zx3RLhssABf0CiSMcgPNQ99UGxdEPat67FhtZPqbTOZ0XzdoJ_Ka0vu_wF3eTnx5OX9Ztpmt-V2A-yr5lrVuosymHtl2UYP9YZ289Y8puPbfgpJTY_qxfwrQ.jpg"
+    "title": "Стихи Анастасии Тыгановой вошли в петербургский сборник Кетская поэтесса Анастасия Тыганова стала участницей международного конкурса. Стихотворение Анастасии Тыгановой из Суломая в",
+    "desc": "Стихи Анастасии Тыгановой вошли в петербургский сборник Кетская поэтесса Анастасия Тыганова стала участницей международного конкурса. Стихотворение Анастасии Тыгановой из Суломая вошло в сборник «Читающий Петербург: культурные коды». Его выпустила Центральная городская публичная библиотека имени В.В. Маяковского Санкт-Петербурга по итогам международного конкурса поэтических переводов – 2025. В этом году конкурс вперв",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12905",
+    "image": "https://cdn4.telesco.pe/file/H-zb_u7KJjg38LXmj0l9yvRUI3b5cZ3U3UUc-CbFE6SgNie2w7oq0PsdIyAwjC61xES8Y0BKk03wcHMylutWLPXNJbEoCskMDBaZZ9vNN9_DOauyJ4-S2U-_0GarndAJiR1klgujWRU617KQwPDYu6VxndVOZf2opr-KWLQvyoA7U138y4RzasTpcQEooo3J_JE3mlhYVB4b8qShPZ9Wlxwn3I5zbGUdlt8HtgPAxChSLnCvkBdgZLF6cRXIv_WMSPkTZeUe1xKWXYYzsmX4cXdTvJzYLrYw8NgBHLjR4k4fIjYheifSl3Y-qWQsVpgyZdfXHcsNAn_mNLTwHmgiow.jpg"
   },
   {
     "region": "Якутия",
@@ -5205,11 +5326,11 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-23",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Администрация Эвенкии совместно с КЦСОН и органами соцзащиты организовала для льготных категорий граждан более доступные условия приобретения продуктов. Сотрудники комплексного цен",
-    "desc": "Администрация Эвенкии совместно с КЦСОН и органами соцзащиты организовала для льготных категорий граждан более доступные условия приобретения продуктов. Сотрудники комплексного центра социального обслуживания населения будут привозить социальные продовольственные наборы по сниженным ценам одиноким пожилым людям и маломобильным гражданам (подопечным КЦСОН) домой. Кроме этого, более удобные условия предложены многодетн",
+    "title": "Общепоселковый турнир по баскетболу прошел в Ванаваре Два дня захватывающей игры, четыре команды и непередаваемые эмоции — так прошли соревнования в спортивной школе. Участники ком",
+    "desc": "Общепоселковый турнир по баскетболу прошел в Ванаваре Два дня захватывающей игры, четыре команды и непередаваемые эмоции — так прошли соревнования в спортивной школе. Участники команд были как профессиональными спортсменами, так и любителями, но борьба была по-настоящему спортивная и непредсказуемая. Команда «Север» показала динамичную игру, чем сильно измотала соперников. Команда «Поселок» состояла из солидных мужчи",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12902",
+    "link": "https://t.me/evenkya_life/12891",
     "image": "https://cdn4.telesco.pe/file/nTDqJb004KAahDwO05hC-9pLSNOyqXR7-M-TyRb5vyUFkv3jcvLY0zZnP3FDfc7RJEdNngNK80u4Q31trbrCkP10GcPj9nPfLgO_pTmc8bccUmv8eEF0MlRdjLvJw20AfcIE6Oh4A8gH8QPxP0VP_qcENfPQ8UXRwG1xHUzkiZcJxSkKLRKP98K6keF9A9-wng5Osto8hV-wGpUWYlWX0a_Z0-ARM1Zx3RLhssABf0CiSMcgPNQ99UGxdEPat67FhtZPqbTOZ0XzdoJ_Ka0vu_wF3eTnx5OX9Ztpmt-V2A-yr5lrVuosymHtl2UYP9YZ289Y8puPbfgpJTY_qxfwrQ.jpg"
   },
   {
@@ -5234,15 +5355,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-21",
+    "region": "Общие новости",
+    "date": "2026-10-23",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Депутаты Законодательного Собрания подготовили предложения в Минприроды РФ по регулированию численности бурых медведей Обращение парламентарии обсудили на заседании сессии. Ранее п",
-    "desc": "Депутаты Законодательного Собрания подготовили предложения в Минприроды РФ по регулированию численности бурых медведей Обращение парламентарии обсудили на заседании сессии. Ранее предложения были рассмотрены на заседании комитета по экологии и природным ресурсам, в котором приняли участие представители СФУ, краевой службы по ветнадзору, природоохранной прокуратуры. В Красноярском крае ситуация с выходами бурых медвед",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12870",
-    "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
+    "title": "Новый выпуск ЭЖ! Как всегда рассказываем всё о людях нашей территории, в том числе на эвенкийском языке. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в М",
+    "desc": "Новый выпуск ЭЖ! Как всегда рассказываем всё о людях нашей территории, в том числе на эвенкийском языке. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12886",
+    "image": "https://cdn4.telesco.pe/file/nTDqJb004KAahDwO05hC-9pLSNOyqXR7-M-TyRb5vyUFkv3jcvLY0zZnP3FDfc7RJEdNngNK80u4Q31trbrCkP10GcPj9nPfLgO_pTmc8bccUmv8eEF0MlRdjLvJw20AfcIE6Oh4A8gH8QPxP0VP_qcENfPQ8UXRwG1xHUzkiZcJxSkKLRKP98K6keF9A9-wng5Osto8hV-wGpUWYlWX0a_Z0-ARM1Zx3RLhssABf0CiSMcgPNQ99UGxdEPat67FhtZPqbTOZ0XzdoJ_Ka0vu_wF3eTnx5OX9Ztpmt-V2A-yr5lrVuosymHtl2UYP9YZ289Y8puPbfgpJTY_qxfwrQ.jpg"
   },
   {
     "region": "Якутия",
@@ -5267,14 +5388,14 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-21",
+    "date": "2026-10-23",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного це",
-    "desc": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного центра и отдаленных поселений – Ессея, Чиринды, Эконды и Кислокана. Продукты по сниженным ценам поступят в торговые точки индивидуального предпринимателя Солеха Пирова. По данным администрации Эвенкии, все социальные и учреждения имеют необхо",
+    "title": "Администрация Эвенкии совместно с КЦСОН и органами соцзащиты организовала для льготных категорий граждан более доступные условия приобретения продуктов. Сотрудники комплексного цен",
+    "desc": "Администрация Эвенкии совместно с КЦСОН и органами соцзащиты организовала для льготных категорий граждан более доступные условия приобретения продуктов. Сотрудники комплексного центра социального обслуживания населения будут привозить социальные продовольственные наборы по сниженным ценам одиноким пожилым людям и маломобильным гражданам (подопечным КЦСОН) домой. Кроме этого, более удобные условия предложены многодетн",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12879",
-    "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
+    "link": "https://t.me/evenkya_life/12902",
+    "image": "https://cdn4.telesco.pe/file/nTDqJb004KAahDwO05hC-9pLSNOyqXR7-M-TyRb5vyUFkv3jcvLY0zZnP3FDfc7RJEdNngNK80u4Q31trbrCkP10GcPj9nPfLgO_pTmc8bccUmv8eEF0MlRdjLvJw20AfcIE6Oh4A8gH8QPxP0VP_qcENfPQ8UXRwG1xHUzkiZcJxSkKLRKP98K6keF9A9-wng5Osto8hV-wGpUWYlWX0a_Z0-ARM1Zx3RLhssABf0CiSMcgPNQ99UGxdEPat67FhtZPqbTOZ0XzdoJ_Ka0vu_wF3eTnx5OX9Ztpmt-V2A-yr5lrVuosymHtl2UYP9YZ289Y8puPbfgpJTY_qxfwrQ.jpg"
   },
   {
     "region": "Якутия",
@@ -5298,14 +5419,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/IqBNH_ixmaCi3q-uo6FWKI14qhYtk9ixdm9WTJPeADnuW-XPeF0rkDcMkCYmus-dgtgFQ958_tU0trYpclc0_Qd3pPpFV-ks978DXEtTNwV5ucNuCUXd9j6MVsCAJmaatXGn-dBv2pBbQK3b6toCRcjmVK6DMplCJu1WakglZyo4DqGJ3HnrlanfX8RTCtlIARgcmROfzMHxczJJYrTQLvH___CYLtCiKxeDQpOdfu3p4fSyISaKfOqIsjCxkjKVyJq17lY-Np7Vkl2VcmkOE6J9aGIMHhLfF2uPlt2VMvOy0UWZoDyHIz9JuvBLXcuDmspPm7iCgUmjzvftth1MFw.jpg"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-20",
+    "region": "Красноярский край",
+    "date": "2026-10-21",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "О питании в социальных учреждениях Образовательные и лечебные учреждения Туры и поселков Илимпии, в которых организовано ежедневное горячее питание, в полном объеме обеспечены прод",
-    "desc": "О питании в социальных учреждениях Образовательные и лечебные учреждения Туры и поселков Илимпии, в которых организовано ежедневное горячее питание, в полном объеме обеспечены продуктами как длительного хранения, так и «скоропортом». На фоне продовольственного ажиотажа узнали ситуацию у руководителей учреждений «из первых уст». Наталья ВЕРШИНИНА, главный врач КГБУЗ «Туринская районная больница»: - В настоящее время в",
+    "title": "Депутаты Законодательного Собрания подготовили предложения в Минприроды РФ по регулированию численности бурых медведей Обращение парламентарии обсудили на заседании сессии. Ранее п",
+    "desc": "Депутаты Законодательного Собрания подготовили предложения в Минприроды РФ по регулированию численности бурых медведей Обращение парламентарии обсудили на заседании сессии. Ранее предложения были рассмотрены на заседании комитета по экологии и природным ресурсам, в котором приняли участие представители СФУ, краевой службы по ветнадзору, природоохранной прокуратуры. В Красноярском крае ситуация с выходами бурых медвед",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12861",
+    "link": "https://t.me/evenkya_life/12870",
     "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
   },
   {
@@ -5331,14 +5452,14 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-19",
+    "date": "2026-10-21",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Туре в розничную продажу поступила очередная партия продовольствия по социальным ценам Продукцию доставили накануне из Красноярска двумя субсидируемыми спецрейсами. Приобрести пр",
-    "desc": "В Туре в розничную продажу поступила очередная партия продовольствия по социальным ценам Продукцию доставили накануне из Красноярска двумя субсидируемыми спецрейсами. Приобрести продукты по сниженным ценам туринцы могут в магазине «Овощи-Фрукты» по адресу: ул. Кочечумская, 27. Продукты, предназначенные для жителей малых сел Илимпийской группы - Ессей, Чиринда, Эконда и Кислокан - отправят ближайшими вертолетными рейс",
+    "title": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного це",
+    "desc": "В Туру на этой неделе авиацией доставят еще 13 тонн продовольствия 23 и 24 октября запланированы субсидируемые грузовые рейсы с продовольствием для продажи в магазинах окружного центра и отдаленных поселений – Ессея, Чиринды, Эконды и Кислокана. Продукты по сниженным ценам поступят в торговые точки индивидуального предпринимателя Солеха Пирова. По данным администрации Эвенкии, все социальные и учреждения имеют необхо",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12848",
-    "image": "https://cdn4.telesco.pe/file/ZXZsSPUu0SQAd3axXpakbDa8BsRDmVFm9IqovtdSJztzH0PMlGvNceSifmcP2bpHV0GI3LNJDRXX77b3ro4LMXyfE1_asAS5QjYr1YMrVrIxU25f-RBukKbwU0mgXisU59Lpiwe-jzZn4Iy-9czrtOriJgriAY66LGJ9iiYewWqEe5CwcL2jZkd131kvucZl87aD-VYmXUb9c8gozB22kAeRM2t_9jn8R4dVK0H0Rn-8oE4Lr0zNVhMejASbgXgvZM1f0IPdvzfZlH2vaQjkilqurzrs2VplvgkeT2tOwGhUpCVdGCnivwsQ6q6YjjoLzEMGf6UBaUJox58rbJpu6A.jpg"
+    "link": "https://t.me/evenkya_life/12879",
+    "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
   },
   {
     "region": "Якутия",
@@ -5363,14 +5484,14 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Студенты ЭМТ познакомились с эвенкийскими традициями на таёжной базе Учащиеся Эвенкийского многопрофильного техникума побывали на таёжной базе у Станислава Игоревича Увачана — хран",
-    "desc": "Студенты ЭМТ познакомились с эвенкийскими традициями на таёжной базе Учащиеся Эвенкийского многопрофильного техникума побывали на таёжной базе у Станислава Игоревича Увачана — хранителя эвенкийского культурного наследия. Поездка стала для ребят настоящим погружением в северные традиции и быт. Особое впечатление на студентов произвело знакомство с оленями. Они узнали, как ухаживают за этими животными и как устроены ол",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12837",
-    "image": "https://cdn4.telesco.pe/file/ZXZsSPUu0SQAd3axXpakbDa8BsRDmVFm9IqovtdSJztzH0PMlGvNceSifmcP2bpHV0GI3LNJDRXX77b3ro4LMXyfE1_asAS5QjYr1YMrVrIxU25f-RBukKbwU0mgXisU59Lpiwe-jzZn4Iy-9czrtOriJgriAY66LGJ9iiYewWqEe5CwcL2jZkd131kvucZl87aD-VYmXUb9c8gozB22kAeRM2t_9jn8R4dVK0H0Rn-8oE4Lr0zNVhMejASbgXgvZM1f0IPdvzfZlH2vaQjkilqurzrs2VplvgkeT2tOwGhUpCVdGCnivwsQ6q6YjjoLzEMGf6UBaUJox58rbJpu6A.jpg"
+    "title": "О питании в социальных учреждениях Образовательные и лечебные учреждения Туры и поселков Илимпии, в которых организовано ежедневное горячее питание, в полном объеме обеспечены прод",
+    "desc": "О питании в социальных учреждениях Образовательные и лечебные учреждения Туры и поселков Илимпии, в которых организовано ежедневное горячее питание, в полном объеме обеспечены продуктами как длительного хранения, так и «скоропортом». На фоне продовольственного ажиотажа узнали ситуацию у руководителей учреждений «из первых уст». Наталья ВЕРШИНИНА, главный врач КГБУЗ «Туринская районная больница»: - В настоящее время в",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12861",
+    "image": "https://cdn4.telesco.pe/file/avNZEWE8ZlKP19fwyK2Z6EHn7BVusW9m4MJfiyLTsEuCWcSwI_6ZlgdF5guJbY5VTo2X4qFfzowrebwvyBA_7o3HnDeYlrxOsCUzaHrOjeOTBDtOQL-6zsIPNJGai506MNWR1-YTl-KE-wi4tKzvULjn3sD3lfNsmTK7APy3xAF3DXBIJySwCmwL23SjsOG6eznB6-7IImjS6DQ84z2ULUBeu5eT2B1OSc5MAjuYug-16bUbsBr2JyXCqH2kYHLpdA5Sjro57ySESEU2Scj-JVJvqUo6b6oD5rf7wtL9g5FZSHUu6cVmZf73I-ZUXZnjwPiEtD01X4WE-JJJ5GdIrw.jpg"
   },
   {
     "region": "Якутия",
@@ -5395,14 +5516,14 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Туру привезли масла для муниципального предприятия «Илимпийские электросети» Они должны были поступить ранее навигацией по запланированному графику, но из-за низкого уровня воды",
-    "desc": "В Туру привезли масла для муниципального предприятия «Илимпийские электросети» Они должны были поступить ранее навигацией по запланированному графику, но из-за низкого уровня воды в Нижней Тунгуске это оказалось невозможным. 15 октября масла в объеме 3000 кг были доставлены в посёлок. Данного объема достаточно до начала декабря. Одновременно поставщик ООО «Сибиндустритехмаш» ведет переговоры с авиаперевозчиком по дос",
+    "title": "В Туре в розничную продажу поступила очередная партия продовольствия по социальным ценам Продукцию доставили накануне из Красноярска двумя субсидируемыми спецрейсами. Приобрести пр",
+    "desc": "В Туре в розничную продажу поступила очередная партия продовольствия по социальным ценам Продукцию доставили накануне из Красноярска двумя субсидируемыми спецрейсами. Приобрести продукты по сниженным ценам туринцы могут в магазине «Овощи-Фрукты» по адресу: ул. Кочечумская, 27. Продукты, предназначенные для жителей малых сел Илимпийской группы - Ессей, Чиринда, Эконда и Кислокан - отправят ближайшими вертолетными рейс",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12816",
-    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+    "link": "https://t.me/evenkya_life/12848",
+    "image": "https://cdn4.telesco.pe/file/ZXZsSPUu0SQAd3axXpakbDa8BsRDmVFm9IqovtdSJztzH0PMlGvNceSifmcP2bpHV0GI3LNJDRXX77b3ro4LMXyfE1_asAS5QjYr1YMrVrIxU25f-RBukKbwU0mgXisU59Lpiwe-jzZn4Iy-9czrtOriJgriAY66LGJ9iiYewWqEe5CwcL2jZkd131kvucZl87aD-VYmXUb9c8gozB22kAeRM2t_9jn8R4dVK0H0Rn-8oE4Lr0zNVhMejASbgXgvZM1f0IPdvzfZlH2vaQjkilqurzrs2VplvgkeT2tOwGhUpCVdGCnivwsQ6q6YjjoLzEMGf6UBaUJox58rbJpu6A.jpg"
   },
   {
     "region": "Якутия",
@@ -5426,15 +5547,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/D_fh6SNwpd3kgEKdhKZwclYgP002iZvrPEnbVJCCPY7EKfBvVBPDlQ9tZMhhYCdvK3n-ylcm7cvEqe1nM53oE4Vmt0Rh-Z4wpC5B3wlyCMw6F-1gf8sPlDi2RBKGAOSG0a9k-FjIsP1RlGdG9OwzDx044BBJStYYQa1x1BwH6ugVfokMebHS8eu9eB8fin8DG_231LcKm-pnL44R29kiywOwWVB6xKHPY8H53GVUurIZyZzBjypUM_VHmB8oTPFnCnnT9CU9OLfPfBN6yvXyxbd7u86IrN_f-J-TfYdkJHP0hqkG-08TyzpfTVjwxuHsLmrYtIBQjXfvgocbxaWiFw.jpg"
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-16",
+    "region": "Общие новости",
+    "date": "2026-10-19",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Редакция газеты «Эвенкийская жизнь» объявляет о старте окружного творческого конкурса для детей и подростков «Тепло Севера: из Эвенкии с любовью» Цель нашего очередного конкурса —",
-    "desc": "Редакция газеты «Эвенкийская жизнь» объявляет о старте окружного творческого конкурса для детей и подростков «Тепло Севера: из Эвенкии с любовью» Цель нашего очередного конкурса — помочь юным землякам научиться творить и находить интересный краеведческий материал. Также коллектив ЭЖ будет рад поддержать талантливых ребят призами и через публикации в газете и соцсетях. Номинации конкурса: • «Моя Эвенкия» (для участник",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12814",
-    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+    "title": "Студенты ЭМТ познакомились с эвенкийскими традициями на таёжной базе Учащиеся Эвенкийского многопрофильного техникума побывали на таёжной базе у Станислава Игоревича Увачана — хран",
+    "desc": "Студенты ЭМТ познакомились с эвенкийскими традициями на таёжной базе Учащиеся Эвенкийского многопрофильного техникума побывали на таёжной базе у Станислава Игоревича Увачана — хранителя эвенкийского культурного наследия. Поездка стала для ребят настоящим погружением в северные традиции и быт. Особое впечатление на студентов произвело знакомство с оленями. Они узнали, как ухаживают за этими животными и как устроены ол",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12837",
+    "image": "https://cdn4.telesco.pe/file/ZXZsSPUu0SQAd3axXpakbDa8BsRDmVFm9IqovtdSJztzH0PMlGvNceSifmcP2bpHV0GI3LNJDRXX77b3ro4LMXyfE1_asAS5QjYr1YMrVrIxU25f-RBukKbwU0mgXisU59Lpiwe-jzZn4Iy-9czrtOriJgriAY66LGJ9iiYewWqEe5CwcL2jZkd131kvucZl87aD-VYmXUb9c8gozB22kAeRM2t_9jn8R4dVK0H0Rn-8oE4Lr0zNVhMejASbgXgvZM1f0IPdvzfZlH2vaQjkilqurzrs2VplvgkeT2tOwGhUpCVdGCnivwsQ6q6YjjoLzEMGf6UBaUJox58rbJpu6A.jpg"
   },
   {
     "region": "Красноярский край",
@@ -5458,14 +5579,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/CHsJlhr7QUy2Ldn-hq_-2myqY5sTYG5KE8zObEAJ7Z44WrrWEuYT9i9GXTtyJX2uS28WXqLGthGTyxoZBZ13HjJ6uuhV7ckIAOSzGhVK4Qyd7upboeE4orYxy4lHcuWNq4dHHj8Hq0_Sb0vu2T6iBjD3n4RMD_AKXV-ojBHpGJ5TrdICLG3Kpb260uuZfx3GP4lXhVL7nj4uxH4NVDvGeLjx3pZDA1RRXsL64wx2jHOKk3qAI1_Hvee78jrhB6sDY9NDIoVJWxWmGHEy7zQZO9KahNx0KlSlHMCqpPxzAJR2OW58odYiMFAtEHqy4bMuUn1952wyHkzDOhoMOfO9zg.jpg"
   },
   {
-    "region": "Общие новости",
+    "region": "Красноярский край",
     "date": "2026-10-16",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Объединяем регионы с помощью книг Заведующая Ванаварской детской библиотекой Евгения Игнатова передала в дар детской библиотеке - филиалу №17 имени Аркадия Гайдара г. Улан-Удэ книг",
-    "desc": "Объединяем регионы с помощью книг Заведующая Ванаварской детской библиотекой Евгения Игнатова передала в дар детской библиотеке - филиалу №17 имени Аркадия Гайдара г. Улан-Удэ книги из Эвенкии. Евгения обучается в Восточно-Сибирском государственном институте культуры (ВСГИК), во время сессии посетила местную библиотеку и вручила книги \"Нимнгакар\" и \"Нококо-аяко\", изданные в рамках грантовых проектов, которые выиграли",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12801",
+    "title": "В Туру привезли масла для муниципального предприятия «Илимпийские электросети» Они должны были поступить ранее навигацией по запланированному графику, но из-за низкого уровня воды",
+    "desc": "В Туру привезли масла для муниципального предприятия «Илимпийские электросети» Они должны были поступить ранее навигацией по запланированному графику, но из-за низкого уровня воды в Нижней Тунгуске это оказалось невозможным. 15 октября масла в объеме 3000 кг были доставлены в посёлок. Данного объема достаточно до начала декабря. Одновременно поставщик ООО «Сибиндустритехмаш» ведет переговоры с авиаперевозчиком по дос",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12816",
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
@@ -5491,14 +5612,14 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Эвенкию доставили более 52 тонн продуктов с начала действия режима повышенной готовности Органы местного самоуправления Эвенкийского муниципального округа при поддержке Правитель",
-    "desc": "В Эвенкию доставили более 52 тонн продуктов с начала действия режима повышенной готовности Органы местного самоуправления Эвенкийского муниципального округа при поддержке Правительства Красноярского края продолжают работу по стабилизации ситуации с продовольственным обеспечением северных территорий. Продукты доставляют авиацией, в том числе субсидируемыми рейсами, что позволяет предлагать жителям товары по более дост",
+    "title": "Редакция газеты «Эвенкийская жизнь» объявляет о старте окружного творческого конкурса для детей и подростков «Тепло Севера: из Эвенкии с любовью» Цель нашего очередного конкурса —",
+    "desc": "Редакция газеты «Эвенкийская жизнь» объявляет о старте окружного творческого конкурса для детей и подростков «Тепло Севера: из Эвенкии с любовью» Цель нашего очередного конкурса — помочь юным землякам научиться творить и находить интересный краеведческий материал. Также коллектив ЭЖ будет рад поддержать талантливых ребят призами и через публикации в газете и соцсетях. Номинации конкурса: • «Моя Эвенкия» (для участник",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12797",
-    "image": "https://cdn4.telesco.pe/file/lZ2cKAyLM_UZhsh_27FdMR0ToOB3GRWVkbixRqNsycWlawxMRZ4YhX68lyEXtrCBz3kHd9kSGUnwfXHap0pq4HqOKlxWScYpCRbuuC2g-NrnxmTy3kSnXMd5mnDQvkwv2OAKbq-xwgkoE_LpF_x44fXqo7QpDMb117wXsjDwOgypUAQnvUL65P3G1-QFdqYHtozeJxA2eoUv52eejGSYCs4o6rTwcmHTRHyBVN3Lt8vfoh2GOm3JpQCG77ZENx1xM2hfGXCgKjf52O2gmaf5i7_WTGNXpq8xG7rhuhuTDLUAnieLss9PpYA6LLK6Wawt0wmQ7tx9Sy5UQ-8DhSA5bw.jpg"
+    "link": "https://t.me/evenkya_life/12814",
+    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
     "region": "Новости на эвенкийском",
@@ -5521,15 +5642,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/k_zora9SbhdHgnjB3kEB-krxfGpGqMdHyxU3R-Tx1C1VxDoQ38NP7XH_-lijYQR8RBPyMiuZOhWhDgll31w7rm0LxUtLCEgDwH0P3eGhPFsepxZw9SCOu-mwdiZen_zA7-wLw-KAjgqate9hszitnDma832CiIn6HqQtY9Joss_EBTui901oPSdB1p4aovWrXbClpmiLSpfKhwlUlMe-IVXgiweRtmU0W3eflyI-hja14KbGl3_DXtqcoi8j70HlTYxKvap2-0yC63GNVGCJkAYMK_ee9CQrCBDse7mBUbrbeHYen9wkobTdramMmJ3g6llSC3Y4HPoaG-PfSb0jCQ.jpg"
   },
   {
-    "region": "Томская область",
-    "date": "2026-10-14",
+    "region": "Общие новости",
+    "date": "2026-10-16",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийс",
-    "desc": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийском культурном форуме коренных малочисленных народов России в Томске. На одной сцене с «Осиктаканом» выступили творческие коллективы из разных регионов — ансамбли «Алтай», «Тагтал», «Солоны», «Пор‑Бажын» и другие. Концерты прошли в Томской",
+    "title": "Объединяем регионы с помощью книг Заведующая Ванаварской детской библиотекой Евгения Игнатова передала в дар детской библиотеке - филиалу №17 имени Аркадия Гайдара г. Улан-Удэ книг",
+    "desc": "Объединяем регионы с помощью книг Заведующая Ванаварской детской библиотекой Евгения Игнатова передала в дар детской библиотеке - филиалу №17 имени Аркадия Гайдара г. Улан-Удэ книги из Эвенкии. Евгения обучается в Восточно-Сибирском государственном институте культуры (ВСГИК), во время сессии посетила местную библиотеку и вручила книги \"Нимнгакар\" и \"Нококо-аяко\", изданные в рамках грантовых проектов, которые выиграли",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12777",
-    "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
+    "link": "https://t.me/evenkya_life/12801",
+    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
     "region": "Якутия",
@@ -5553,14 +5674,14 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Ванаваре запустили экологический и культурный проекты Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Эк",
-    "desc": "В Ванаваре запустили экологический и культурный проекты Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Экокультура на Подкаменной». Его цель — привить детям и подросткам бережное отношение к природе. Старт проекту дал экосубботник на берегу Подкаменной Тунгуски. Мероприятие открыли концертной программой, участники спели песни о малой родине, а",
+    "title": "В Эвенкию доставили более 52 тонн продуктов с начала действия режима повышенной готовности Органы местного самоуправления Эвенкийского муниципального округа при поддержке Правитель",
+    "desc": "В Эвенкию доставили более 52 тонн продуктов с начала действия режима повышенной готовности Органы местного самоуправления Эвенкийского муниципального округа при поддержке Правительства Красноярского края продолжают работу по стабилизации ситуации с продовольственным обеспечением северных территорий. Продукты доставляют авиацией, в том числе субсидируемыми рейсами, что позволяет предлагать жителям товары по более дост",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12782",
-    "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
+    "link": "https://t.me/evenkya_life/12797",
+    "image": "https://cdn4.telesco.pe/file/lZ2cKAyLM_UZhsh_27FdMR0ToOB3GRWVkbixRqNsycWlawxMRZ4YhX68lyEXtrCBz3kHd9kSGUnwfXHap0pq4HqOKlxWScYpCRbuuC2g-NrnxmTy3kSnXMd5mnDQvkwv2OAKbq-xwgkoE_LpF_x44fXqo7QpDMb117wXsjDwOgypUAQnvUL65P3G1-QFdqYHtozeJxA2eoUv52eejGSYCs4o6rTwcmHTRHyBVN3Lt8vfoh2GOm3JpQCG77ZENx1xM2hfGXCgKjf52O2gmaf5i7_WTGNXpq8xG7rhuhuTDLUAnieLss9PpYA6LLK6Wawt0wmQ7tx9Sy5UQ-8DhSA5bw.jpg"
   },
   {
     "region": "Новости на эвенкийском",
@@ -5584,15 +5705,15 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/UlpBhGFKp3Vu23yQ-ZQWNuaKCNO0pgGcuenS5zVa9-Yul9P9a0DITN-uWnDntQyhulaNCd4vSNYaftcLyzh_hoCL4Bom2X6SIcYkLGQf2FBbEkuAnxqVv2fYa2tOoRl0nkk5b7vZgzta6onFEL0k2WfdNx6gqkF2MgtKoFrUrKJHRcCa0yuwGA7SsEKD4Laj_C2btaD_jrmrawDNfS_8iOUAHj0qY7XvJJF30n9m4jI3InZBLQa5eZVMPDgdagv9qrjTfWG34VL4SojCco-iVqzLvwzJR4qIUIkzUDBIqR7p9M9hExUmTwDiZNipWhcJBIQeGXLtYMBfX-q2kfxVYQ.jpg"
   },
   {
-    "region": "Красноярский край",
+    "region": "Томская область",
     "date": "2026-10-14",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать",
-    "desc": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12775",
-    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+    "title": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийс",
+    "desc": "Эвенкийский ансамбль «Осиктакан» выступил на Всероссийском форуме в Томске Эвенкийский народный ансамбль песни и танца «Осиктакан» представил своё творчество на Втором Всероссийском культурном форуме коренных малочисленных народов России в Томске. На одной сцене с «Осиктаканом» выступили творческие коллективы из разных регионов — ансамбли «Алтай», «Тагтал», «Солоны», «Пор‑Бажын» и другие. Концерты прошли в Томской",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12777",
+    "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
   },
   {
     "region": "Приморский край",
@@ -5619,12 +5740,12 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-14",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участко",
-    "desc": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участком волонтеры выдавали билеты Викторины 2026, посвященной Году единства народов России. Айнур заполнил билет и даже не надеялся на удачу. Но на следующий день ему позвонили и сообщили о том, что он выиграл смартфон. 12 октября в здании админи",
+    "title": "В Ванаваре запустили экологический и культурный проекты Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Эк",
+    "desc": "В Ванаваре запустили экологический и культурный проекты Автономная некоммерческая организация «Балдыран» начала реализацию двух новых грантовых проектов в Ванаваре. Первый — «Экокультура на Подкаменной». Его цель — привить детям и подросткам бережное отношение к природе. Старт проекту дал экосубботник на берегу Подкаменной Тунгуски. Мероприятие открыли концертной программой, участники спели песни о малой родине, а",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://t.me/evenkya_life/12765",
-    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+    "link": "https://t.me/evenkya_life/12782",
+    "image": "https://cdn4.telesco.pe/file/VmTaLKO_XvszyYqcflzt5iM-lvReoQeKIz4gcYaYzHOz8mIMWGiX-xAmp1UD0fc_7FkV6brkSQlKLtXrFEtTlbQAP8qefWI20_djlu75qvD-EtU6VzQt8uyVb4jwhSWcPgx2MzBMceA54Nl4NJCXc5q1mhe10l4elmK0d5E0PDer9mEFxjQCneXJFrjZRdffezsjXymm9kygVNYNnSmkii17UftYirX1OeqFaci3QEByRCf9N9yW9Z5kyWJRSNq0ibfpyTOxjAaUzLoilDTt9HieY2jbgA15TOgPcqAi0jFF9NmjaIEFSQEZB4PSkFphPEIemtEsjWOoGky9egm8bA.jpg"
   },
   {
     "region": "Якутия",
@@ -5647,6 +5768,48 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
+    "date": "2026-10-14",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать",
+    "desc": "Вот так сейчас выглядит берег Нижней Тунгуски около поселка Юкта. Жители населённого пункта рассказали, что по реке несет шугу. Рыбка, кстати, ловится Фото Никиты Егорова Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12775",
+    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-25",
+    "source": "Илкэн · Улгур",
+    "title": "Бэгину Борису Николаеву – с юбилеем!",
+    "desc": "Борис Ануфриевич Николаев — выдающийся государственный и общественный деятель Республики Саха (Якутия), чья биография неразрывно",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/25/beginu-borisu-nikolaevu-s-yubileem/"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-14",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участко",
+    "desc": "Жителю Ванавары Айнуру Шакирову вручили выигрыш победителя Викторины-2026 Айнур работает бортмехаником вертолета МИ-8. 18 сентября он пошел на выборы, рядом с избирательным участком волонтеры выдавали билеты Викторины 2026, посвященной Году единства народов России. Айнур заполнил билет и даже не надеялся на удачу. Но на следующий день ему позвонили и сообщили о том, что он выиграл смартфон. 12 октября в здании админи",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12765",
+    "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
+  },
+  {
+    "region": "Якутия",
+    "date": "2026-10-24",
+    "source": "Илкэн · Улгур",
+    "title": "Памяти этномузыковеда Шейкина",
+    "desc": "Голоса тайги, шепот тундры и танец солнца: как в Якутске ожила музыкальная этнография 15 октября",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://ilken.ru/2026/10/24/pamyati-etnomuzykoveda-shejkina/"
+  },
+  {
+    "region": "Красноярский край",
     "date": "2026-10-13",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "Спецрейсы с продуктами задерживаются из-за погоды Самолеты с продовольственными товарами не смогли прибыть в окружной центр ни в выходные, ни в понедельник. Вылет несколько раз пер",
@@ -5658,13 +5821,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-25",
+    "date": "2026-10-24",
     "source": "Илкэн · Улгур",
-    "title": "Бэгину Борису Николаеву – с юбилеем!",
-    "desc": "Борис Ануфриевич Николаев — выдающийся государственный и общественный деятель Республики Саха (Якутия), чья биография неразрывно",
+    "title": "Эвенский свадебный обряд «Манаридяк» вошёл в Федеральный реестр этнокультурного достояния",
+    "desc": "Магаданская область впервые вошла в Федеральный реестр объектов нематериального этнокультурного достояния народов России, что стало",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/25/beginu-borisu-nikolaevu-s-yubileem/"
+    "link": "https://ilken.ru/2026/10/24/evenskij-svadebnyj-obryad-manaridyak-voshyol-v-federalnyj-reestr-etnokulturnogo-dostoyaniya/"
   },
   {
     "region": "Красноярский край",
@@ -5681,11 +5844,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-24",
     "source": "Илкэн · Улгур",
-    "title": "Памяти этномузыковеда Шейкина",
-    "desc": "Голоса тайги, шепот тундры и танец солнца: как в Якутске ожила музыкальная этнография 15 октября",
+    "title": "Юные хранители традиции: русскоустьинские школьники покорили «Старт в науке—2026»",
+    "desc": "В «Сириусе» завершился XXIX Всероссийский международный конкурс научно‑исследовательских и творческих работ учащихся «Старт в науке",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/pamyati-etnomuzykoveda-shejkina/"
+    "link": "https://ilken.ru/2026/10/24/yunye-hraniteli-tradiczii-russkoustinskie-shkolniki-pokorili-start-v-nauke-2026/"
   },
   {
     "region": "Красноярский край",
@@ -5700,13 +5863,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-24",
+    "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Эвенский свадебный обряд «Манаридяк» вошёл в Федеральный реестр этнокультурного достояния",
-    "desc": "Магаданская область впервые вошла в Федеральный реестр объектов нематериального этнокультурного достояния народов России, что стало",
+    "title": "Код Севера: Этно-лаборатория наследия",
+    "desc": "С 25 октября по 4 ноября Дом дружбы народов имени А.Е. Кулаковского приглашает на Международную",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/evenskij-svadebnyj-obryad-manaridyak-voshyol-v-federalnyj-reestr-etnokulturnogo-dostoyaniya/"
+    "link": "https://ilken.ru/2026/10/23/kod-severa-etno-laboratoriya-naslediya/"
   },
   {
     "region": "Общие новости",
@@ -5721,13 +5884,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-24",
+    "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Юные хранители традиции: русскоустьинские школьники покорили «Старт в науке—2026»",
-    "desc": "В «Сириусе» завершился XXIX Всероссийский международный конкурс научно‑исследовательских и творческих работ учащихся «Старт в науке",
+    "title": "Елена Голомарева поблагодарила Юрия Трутнева за поддержку инициатив для Якутии",
+    "desc": "Трутнев занимал пост полпреда в ДФО с 2013 года Председатель комитета Государственного Собрания (Ил Тумэн)",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/24/yunye-hraniteli-tradiczii-russkoustinskie-shkolniki-pokorili-start-v-nauke-2026/"
+    "link": "https://ilken.ru/2026/10/23/elena-golomareva-poblagodarila-yuriya-trutneva-za-podderzhku-inicziativ-dlya-yakutii/"
   },
   {
     "region": "Красноярский край",
@@ -5741,14 +5904,14 @@ window.newsStories=[
     "image": "https://cdn4.telesco.pe/file/r70CasWAkvTH_EI0fGIsCqNR1htukj41bf_-Q1s9BMGBCjSQ54OkbnVCBUP7vpF7tsEQGsDs7K5CKS1bNd5ZDOmim5gtEUYRkT4oIk81A0zzmuJ36bTVLp-zDv7KBI-KhWMfoS7XCle8W7Qi7NbogvbpCuv06nNaBbQ4YEBTCgSbSGBYlSVibwwoP1Bj83_EmmEpbmF2E5_am1eqi_DZTMfNFlNQM07ItWWXsMMvxkZIKKQljh_e7fPCS7-CpgHNyL5qN2ZSIhMRVPYOrlEqgE43dVE4-3OxjRtowC1HeBeDTp_jRhRCjQP7TqUSooROnMIF2Txjh2u6tfNa71rcbA.jpg"
   },
   {
-    "region": "Якутия",
+    "region": "Общие новости",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Код Севера: Этно-лаборатория наследия",
-    "desc": "С 25 октября по 4 ноября Дом дружбы народов имени А.Е. Кулаковского приглашает на Международную",
+    "title": "Мы родом из кафедры северной филологии",
+    "desc": "Кафедра северной филологии отпраздновала 35‑летний юбилей! Первые два дня прошли в стенах нашей альма-матер –",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/kod-severa-etno-laboratoriya-naslediya/"
+    "link": "https://ilken.ru/2026/10/23/my-rodom-iz-kafedry-severnoj-filologii/"
   },
   {
     "region": "Красноярский край",
@@ -5765,11 +5928,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Елена Голомарева поблагодарила Юрия Трутнева за поддержку инициатив для Якутии",
-    "desc": "Трутнев занимал пост полпреда в ДФО с 2013 года Председатель комитета Государственного Собрания (Ил Тумэн)",
+    "title": "Якутия подводит итоги экологического сезона проекта “Чистая Арктика” в 2026 году",
+    "desc": "Вот уже 5 лет на Крайнем Севере, в том числе и в Якутии, работают волонтёры",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/elena-golomareva-poblagodarila-yuriya-trutneva-za-podderzhku-inicziativ-dlya-yakutii/"
+    "link": "https://ilken.ru/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
   },
   {
     "region": "Красноярский край",
@@ -5782,14 +5945,14 @@ window.newsStories=[
     "link": "https://t.me/evenkya_life/12668"
   },
   {
-    "region": "Общие новости",
+    "region": "Якутия",
     "date": "2026-10-23",
     "source": "Илкэн · Улгур",
-    "title": "Мы родом из кафедры северной филологии",
-    "desc": "Кафедра северной филологии отпраздновала 35‑летний юбилей! Первые два дня прошли в стенах нашей альма-матер –",
+    "title": "Якутиян итогилва экологическай проектва «Дучама Арктика» 2026 анӈаниду очан",
+    "desc": "Тунӈа анӈанива Крайняй Северду, якутияду волонтерил экологическай проектули «Дучама Арктика» тэԧинду севернай дуннэвэ хавалдяра. Нюӈи",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/my-rodom-iz-kafedry-severnoj-filologii/"
+    "link": "https://ilken.ru/evenki/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
   },
   {
     "region": "Красноярский край",
@@ -5803,13 +5966,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-23",
+    "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "Якутия подводит итоги экологического сезона проекта “Чистая Арктика” в 2026 году",
-    "desc": "Вот уже 5 лет на Крайнем Севере, в том числе и в Якутии, работают волонтёры",
+    "title": "“Синилгэн” совсем скоро: встречаем первый снег вместе!",
+    "desc": "Ассоциация эвенков Республики Саха (Якутия), Молодежный совет эвенков “Геван”, Родовая община эвенков имени А.К. Ильинова",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
+    "link": "https://ilken.ru/2026/10/22/sinilgen-sovsem-skoro-vstrechaem-pervyj-sneg-vmeste/"
   },
   {
     "region": "Красноярский край",
@@ -5823,13 +5986,13 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-23",
+    "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "Якутиян итогилва экологическай проектва «Дучама Арктика» 2026 анӈаниду очан",
-    "desc": "Тунӈа анӈанива Крайняй Северду, якутияду волонтерил экологическай проектули «Дучама Арктика» тэԧинду севернай дуннэвэ хавалдяра. Нюӈи",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/evenki/2026/10/23/yakutiya-podvodit-itogi-ekologicheskogo-sezona-proekta-chistaya-arktika-v-2026-godu/"
+    "title": "Язык предков в формате 2D: в СВФУ презентовали уникальные мультфильмы на чукотском и долганском языках",
+    "desc": "В Северо-Восточном федеральном университете им. М.К. Аммосова прошло знаковое событие, приуроченное к 35-летию кафедры северной",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://ilken.ru/2026/10/22/yazyk-predkov-v-formate-2d-v-svfu-prezentovali-unikalnye-multfilmy-na-chukotskom-i-dolganskom-yazykah/"
   },
   {
     "region": "Красноярский край",
@@ -5845,11 +6008,11 @@ window.newsStories=[
     "region": "Якутия",
     "date": "2026-10-22",
     "source": "Илкэн · Улгур",
-    "title": "“Синилгэн” совсем скоро: встречаем первый снег вместе!",
-    "desc": "Ассоциация эвенков Республики Саха (Якутия), Молодежный совет эвенков “Геван”, Родовая община эвенков имени А.К. Ильинова",
+    "title": "В районе создан Совет представителей КМНС",
+    "desc": "В администрации района недавно прошло первое заседание Совета представителей коренных малочисленных народов Севера Республики Саха",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/22/sinilgen-sovsem-skoro-vstrechaem-pervyj-sneg-vmeste/"
+    "link": "https://ilken.ru/2026/10/22/v-rajone-sozdan-sovet-predstavitelej-kmns/"
   },
   {
     "region": "Красноярский край",
@@ -5860,46 +6023,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "link": "https://t.me/evenkya_life/12639",
     "image": "https://cdn4.telesco.pe/file/oEcgwRwGKqS-9saj153iW4ste00TyTkedOJvHEoRuo6wfyDhFbfdnnFesiNTBP9djUu7QYylfrGzrYo1GVWmPdpguBMGKRNOisGo6341FCtffqdojwiG6VfnMyg6oRQslC3NwEedQW4yiyEE1ks0FqfUBqxUzkVGDYIWbBxNSdUyhEvfFm07PUYRzEi6iP45FDj6g8_Yfl8eoVWypzSzs7iAAm_41lMz-X3pWuGZuNc3MidHS4UA5HzOtvfheGwPTztU4MR_cs7xc5wP3wSncFjyBvJV7zZ5l2vV8tLyluAo9xaKRHF_mXxHBlyE5k6EvUvh5gAePBsndX5nUvE2og.jpg"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-22",
-    "source": "Илкэн · Улгур",
-    "title": "Язык предков в формате 2D: в СВФУ презентовали уникальные мультфильмы на чукотском и долганском языках",
-    "desc": "В Северо-Восточном федеральном университете им. М.К. Аммосова прошло знаковое событие, приуроченное к 35-летию кафедры северной",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://ilken.ru/2026/10/22/yazyk-predkov-v-formate-2d-v-svfu-prezentovali-unikalnye-multfilmy-na-chukotskom-i-dolganskom-yazykah/"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-08",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Журналисты «Эвенкийской жизни» участвуют в медиафоруме «Енисей»",
-    "desc": "Газета сообщила об участии своей команды в медиафоруме в Красноярске. Программу открыло пленарное заседание о влиянии медиа на образ будущего.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12640"
-  },
-  {
-    "region": "Якутия",
-    "date": "2026-10-22",
-    "source": "Илкэн · Улгур",
-    "title": "В районе создан Совет представителей КМНС",
-    "desc": "В администрации района недавно прошло первое заседание Совета представителей коренных малочисленных народов Севера Республики Саха",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://ilken.ru/2026/10/22/v-rajone-sozdan-sovet-predstavitelej-kmns/"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-10-07",
-    "source": "Эвенкийская жизнь · Telegram",
-    "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
-    "desc": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают поддержку к промысловому сезону. В этом году единовременную социальную выплату в размере 27 989 рублей получили 753 промысловика. Кроме этого, им компенсируют расходы на горюче-смазочные материалы и доставку на промысловые участки воздушным тран",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12622",
-    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
     "region": "Общие новости",
@@ -5913,13 +6036,13 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
-    "desc": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Александра Зарубина с заместителем министра тарифной политики Красноярского края Алексеем Андреевым. На ней обсуждены вопросы корректировки новых тарифов на электроэнергию и расчетов потребления. Замминистра проинформировал о том, что соответству",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12625",
-    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
+    "title": "Журналисты «Эвенкийской жизни» участвуют в медиафоруме «Енисей»",
+    "desc": "Газета сообщила об участии своей команды в медиафоруме в Красноярске. Программу открыло пленарное заседание о влиянии медиа на образ будущего.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12640"
   },
   {
     "region": "Новости на эвенкийском",
@@ -5935,10 +6058,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
-    "desc": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также прокомментировал текущую ситуацию со снабжением территории. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
+    "title": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают подде",
+    "desc": "Охотникам и рыбакам Эвенкии помогают подготовиться к промысловому сезону В Эвенкийском муниципальном округе охотники и рыбаки из числа коренных малочисленных народов получают поддержку к промысловому сезону. В этом году единовременную социальную выплату в размере 27 989 рублей получили 753 промысловика. Кроме этого, им компенсируют расходы на горюче-смазочные материалы и доставку на промысловые участки воздушным тран",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12638",
+    "link": "https://t.me/evenkya_life/12622",
     "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
@@ -5955,11 +6078,11 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Красноярске дебютировал национальный коллектив «Дюкэкон»",
-    "desc": "В коллективе выступают молодые представители коренных народов из Эвенкии и Таймыра. Дебют состоялся на «Сокровищах Севера» и «Кочевье Севера»; в репертуаре — эвенкийские танцы.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://t.me/evenkya_life/12635"
+    "title": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Алекса",
+    "desc": "Льготный тариф на электроэнергию Состоялась рабочая встреча заместителя председателя комитета по развитию Арктики и делам коренных малочисленных народов краевого Заксобрания Александра Зарубина с заместителем министра тарифной политики Красноярского края Алексеем Андреевым. На ней обсуждены вопросы корректировки новых тарифов на электроэнергию и расчетов потребления. Замминистра проинформировал о том, что соответству",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12625",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
     "region": "Якутия",
@@ -5973,13 +6096,13 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два деся",
-    "desc": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два десятка лет Мария Кирилловна не живет в Эвенкии – она выехала в Красноярск, в город с более мягкими климатическими условиями, – ее сердце навсегда осталось на Севере и с эвенкийцами. Рассказываем о её жизни. Прислать новость @newsevenkia_bot",
+    "title": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также пр",
+    "desc": "В Эвенкию вылетели два новых рейса с продовольствием Об этом рассказал руководитель краевого агентства по развитию северных территорий и поддержке КМН Антон Нарчуганов. Он также прокомментировал текущую ситуацию со снабжением территории. Прислать новость @newsevenkia_bot Подписаться на «Эвенкийская жизнь» Мы в МАХ",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12611",
-    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
+    "link": "https://t.me/evenkya_life/12638",
+    "image": "https://cdn4.telesco.pe/file/gV4ul9a631hcC8Jru7r0ZXGXkPxdHh2U7-UIrgUbZZuGsjo6PW5HcW4aSxVcD6Ao6q2iWTYv0BaxhXgHtR69psJSB4t0AbXbJ7UmN8N0eAfbanov5EtjemLb9Ko5-AAn-N4jZ1S-i706b1M-iajdf1m0Mz_q2SJBMLSbcEXM7LXfPQw4sBc_vMzMcyZiOdELCSVw6H0Pvpt91I4U2nNVCZWaJsfm9JfLcU16-WWsGXuQ-3ZHRPZ5uY8GsyRCYGGeGgFZ3PIMBDiSH08uaF3keOgklEbgjKIXymXXX-RglR3y5Jt6e73kim_c86n_OcwMAIOPvdcQ23HPQL6xAiyJQQ.jpg"
   },
   {
     "region": "Новости на эвенкийском",
@@ -5993,13 +6116,13 @@ window.newsStories=[
   },
   {
     "region": "Красноярский край",
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решил",
-    "desc": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решили уточнить, действительно ли в местном магазине есть дефицит самых необходимых продуктов, и обратились за комментарием к главе поселка Надежде Удыгир. По ее словам, основные продукты в магазине есть, и имеющихся запасов хватит до открытия з",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12601",
-    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
+    "title": "В Красноярске дебютировал национальный коллектив «Дюкэкон»",
+    "desc": "В коллективе выступают молодые представители коренных народов из Эвенкии и Таймыра. Дебют состоялся на «Сокровищах Севера» и «Кочевье Севера»; в репертуаре — эвенкийские танцы.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://t.me/evenkya_life/12635"
   },
   {
     "region": "Якутия",
@@ -6015,10 +6138,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем",
-    "desc": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем необходимым до открытия зимней дороги. По его информации, основные продовольственные товары завезли ранее, их достаточно на межсезонный период. На полках есть мука, сахар, растительное и сливочное масло, крупы, макаронные изделия, колбаса,",
+    "title": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два деся",
+    "desc": "90 лет мудрости и доброты. В начале октября свой юбилей отметила почетный житель Эвенкии Мария Кирилловна Межанцис Высокое звание ей было присвоено в этом году. И хотя уже два десятка лет Мария Кирилловна не живет в Эвенкии – она выехала в Красноярск, в город с более мягкими климатическими условиями, – ее сердце навсегда осталось на Севере и с эвенкийцами. Рассказываем о её жизни. Прислать новость @newsevenkia_bot",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12609",
+    "link": "https://t.me/evenkya_life/12611",
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
@@ -6035,10 +6158,10 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и",
-    "desc": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и поселках Илимпии, постановлением администрации Эвенкии на территории этих населенных пунктов введен режим функционирования «Повышенная готовность». При этом в местных магазинах в наличии основные товары длительного хранения: овощные, рыбные",
+    "title": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решил",
+    "desc": "Есть ли продукты в Эконде? Разбираемся после жалоб жителей В поселковых мессенджерах жители Эконды обсуждают ситуацию с продуктами и сообщают о нехватке некоторых товаров. Мы решили уточнить, действительно ли в местном магазине есть дефицит самых необходимых продуктов, и обратились за комментарием к главе поселка Надежде Удыгир. По ее словам, основные продукты в магазине есть, и имеющихся запасов хватит до открытия з",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://t.me/evenkya_life/12617",
+    "link": "https://t.me/evenkya_life/12601",
     "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
@@ -6055,12 +6178,11 @@ window.newsStories=[
     "region": "Красноярский край",
     "date": "2026-10-06",
     "source": "Эвенкийская жизнь · Telegram",
-    "title": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет бол",
-    "desc": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет большая медиатусовка с яркими перформансами, интерактивными площадками, фотозонами и встречами с журналистами, которых в этот вечер можно будет увидеть совсем с другой стороны – вне привычной рабочей атмосферы. Свою творческую площадку подгото",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://t.me/evenkya_life/12621",
-    "image": "https://cdn4.telesco.pe/file/cNaCIwUb0ZVPCzrAi--bhW_W5ANDrHry-rfTE-q2mJiX__BBOq10BH-o_Y7-5nStpsBj5jdrKK68AvtHBJes_b8jd8gxL38zc4FtAWcnEqkmfV8RtDK1hreE-6PBHQxidnmRvTkgsvjFn2UvuEBQEOA6Gl3ehNRHN8SemXxYUIIagab_HjG654tI_oYOOlxpgvTN7zCIK5tHNWK3Hywsq66Lcy3yRJcL4P3mVakCoh5WVYz5UZYTkznSE6i8DSIBURvYu-HisPScBvl6jn9WMpu-2-drE_X9lo7PD4lIUiDxb9lmdVfDI6FpBrxsTP4O7MvAkL_TjFs16aI0qKlBuw.jpg"
+    "title": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем",
+    "desc": "Как обстоят дела с продуктами в Ессее? Узнали у заместителя главы заполярного поселка Алексея Эспек о ситуации с продуктами в местном магазине и обеспечен ли населенный пункт всем необходимым до открытия зимней дороги. По его информации, основные продовольственные товары завезли ранее, их достаточно на межсезонный период. На полках есть мука, сахар, растительное и сливочное масло, крупы, макаронные изделия, колбаса,",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12609",
+    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
   },
   {
     "region": "Якутия",
@@ -6073,6 +6195,16 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/20/hraniteli-tundry-kak-semya-achikasovyh-iz-bulunskogo-rajona-sohranila-tradiczii-olenevodstva-i-pamyat-o-predkah/"
   },
   {
+    "region": "Красноярский край",
+    "date": "2026-10-06",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и",
+    "desc": "В Туру готовятся новые спецрейсы В связи с отсутствием судоходства на реке Нижняя Тунгуска и ограниченными запасами свежих продуктов питания (овощи, фрукты, молоко, яйца) в Туре и поселках Илимпии, постановлением администрации Эвенкии на территории этих населенных пунктов введен режим функционирования «Повышенная готовность». При этом в местных магазинах в наличии основные товары длительного хранения: овощные, рыбные",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://t.me/evenkya_life/12617",
+    "image": "https://cdn4.telesco.pe/file/QIBMbfHQgFrrmVzzduYUcDtXr3A6BjFNFI3zaB0Cua9zGBkzba9sl0fqQWevLWASRGL8gPkMJXzewWP7FCrk3qhWpZ-DCFLDilpVBHT06_9wOSrr5nSrBb5bmPCJz3oXhI9rY3C-JG9GkFRVP7bwNcOTNtwSVRkaN9gdk7DMRHBhJrihsx-0_rESNJtw3pm8cqghHCnYVHO-_wUprhasqcCI8C_QOALbjtDpsim8c2RPsx5uF9_AJc4rOxny5HPBet9h90BJbxV2n7vjkzyidD2yyzpEvgOlqkxrPw9TrWC2xyJdQ6vJtRo6hIR66IpwPtg05FhqobqfCWFI80kG7A.jpg"
+  },
+  {
     "region": "Якутия",
     "date": "2026-10-20",
     "source": "Илкэн · Улгур",
@@ -6081,6 +6213,17 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://ilken.ru/2026/10/20/zhiganczy-otmetili-prazdnik-sinilgen/"
+  },
+  {
+    "region": "Красноярский край",
+    "date": "2026-10-06",
+    "source": "Эвенкийская жизнь · Telegram",
+    "title": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет бол",
+    "desc": "Яркой финальной точкой медиафорума «Енисей» станет «Медианочь» 9 октября медиафорум «Енисей» завершится ярким событием – в 20.00 в Красноярске начнется «Медианочь». Гостей ждет большая медиатусовка с яркими перформансами, интерактивными площадками, фотозонами и встречами с журналистами, которых в этот вечер можно будет увидеть совсем с другой стороны – вне привычной рабочей атмосферы. Свою творческую площадку подгото",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://t.me/evenkya_life/12621",
+    "image": "https://cdn4.telesco.pe/file/cNaCIwUb0ZVPCzrAi--bhW_W5ANDrHry-rfTE-q2mJiX__BBOq10BH-o_Y7-5nStpsBj5jdrKK68AvtHBJes_b8jd8gxL38zc4FtAWcnEqkmfV8RtDK1hreE-6PBHQxidnmRvTkgsvjFn2UvuEBQEOA6Gl3ehNRHN8SemXxYUIIagab_HjG654tI_oYOOlxpgvTN7zCIK5tHNWK3Hywsq66Lcy3yRJcL4P3mVakCoh5WVYz5UZYTkznSE6i8DSIBURvYu-HisPScBvl6jn9WMpu-2-drE_X9lo7PD4lIUiDxb9lmdVfDI6FpBrxsTP4O7MvAkL_TjFs16aI0qKlBuw.jpg"
   },
   {
     "region": "Якутия",
