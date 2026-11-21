@@ -1,6 +1,16 @@
 window.newsStories=[
   {
     "region": "Общие новости",
+    "date": "2026-11-21",
+    "source": "prospect.com.ru",
+    "title": "От тигроведения до оленеводства: чему учат школьников в разных регионах России - prospect.com.ru",
+    "desc": "От тигроведения до оленеводства: чему учат школьников в разных регионах России prospect.com.ru",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSk51cjZxMzFJNV9DbTdEXzdfaW44OTBCVE5uSTI2RGN3Rm1KdE5LTmJKTGVBNVcyXzlfRnBKSkVkV3Zpd0Ezd2s3U09XSThvUnpUMVlPTUx5VFZ6aF9GakJWcUV5RjdEUmpZSVB1aTJGcG5Nc0d3QW5XZ2dHTDBMUjZiOTJkRmNRdWdQU0FsZnlmc1BwbmpWMzVXYjhyM0xfeE9HNzhtZE5CSmZWX1prOGFhU1BXeHg5SGNkdVF3MA?oc=5"
+  },
+  {
+    "region": "Общие новости",
     "date": "2026-11-20",
     "source": "Эвенкийская жизнь · Telegram",
     "title": "В Туринском детском саду «Асиктакан» отметили День рождения Деда Мороза 18 ноября в детском саду «Асиктакан» поселка Тура царила сказочная атмосфера. Ребята отпраздновали День рожд",
@@ -103,6 +113,26 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS05fcGNCdV9CWjJTZmhUN1JQQUlLX0NuQVgxSnNibHo4T3V5aV9vNVVUbUMtRFVMOTZXNm5wUHoxYy1Lc3pFZVNQM3BfTFkzeFQzX1Rsbi1JTHBCTy1uNlQtbmRNRFRJRGtyVkpNNVlZRWlqbUt6eFNDQnpmdmpNaktNdXF2dWtkUnhCTTVWUloxLXJ1Zm1ycnhyOE1iYXhubjNGNmxqbEllYVRzandLSElQVUs?oc=5"
   },
   {
+    "region": "Бурятия",
+    "date": "2026-11-20",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестивале им. В.С. Гончикова представят изделия эвенкийских мастериц",
+    "desc": "Экспозиция откроется 1 декабря в 17:30 в Бурятском театре драмы",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festivale-im-vs-gonchikova-predstavyat-izdeliya-evenkijskix-mastericz.html"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-20",
+    "source": "Город Прима",
+    "title": "Многодетная семья оленеводов получила новый дом в посёлке Носок на Таймыре - Город Прима",
+    "desc": "Многодетная семья оленеводов получила новый дом в посёлке Носок на Таймыре Город Прима",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORU4wa0hucVFuR2RLZEN6Y1R0dE9ZN2RldG5ZSmhjSUwyNm91MHFSQjZ2S3NsNTQySHZrWHZWby1UQllYNkZyN3lTNGJsczA4RlNqamdBUmoxbWg0NzhibzE3VjZ3dWJnOElOV3VsZ1NyTzFzZXhnMU9SMzd2VTVuQTZCSG1fYUZJQVBVTDRsbw?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-11-19",
     "source": "Newslab",
@@ -171,16 +201,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9SS1ZDNnQzUlN6aXZwTk12eVAyeDM3U0tQQ1NPNnVkSkVfZ2E0cXhpaEFaTXQyVWlXejVScndlb2sySGhaYVJ3?oc=5"
-  },
-  {
-    "region": "Бурятия",
-    "date": "2026-11-18",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "На фестиваль Гончикова в Бурятии соберутся эвенки со всей России",
-    "desc": "Будут представлены эвенкийские этноартисты из Якутии, Иркутской области, Хабаровского и Красноярского краев.",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/na-festival-gonchikova-v-buryatii-soberutsya-evenki-so-vsej-rossii.html"
   },
   {
     "region": "Общие новости",
@@ -1182,16 +1202,6 @@ window.newsStories=[
     "link": "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov/"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-14",
-    "source": "prospect.com.ru",
-    "title": "В России приняли закон о северном завозе. Что в нём предусмотрели - prospect.com.ru",
-    "desc": "В России приняли закон о северном завозе. Что в нём предусмотрели prospect.com.ru",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ0JraVJrblAzZDE2N19aZXdfLVQxYkwxRWN5Uk5DTWZaWFlJdlotWEVBZjk3eklJUXFoZ0RHV0ZYUFlQU1V5Ym9tZXNfdzBEcHRWZVU1b2RycTI5a0poNjhBR01MMVVDWjF6YVNOMGhNMEI3emE3bFlUZ2F6UFBERmZTeTU3alhsWWk0c2M2VGJWRWo1ZE53c0NsVUlleGp4UDBWNzc5TnVEYV9u?oc=5"
-  },
-  {
     "region": "Сахалинская область",
     "date": "2026-10-14",
     "source": "tia-ostrova.ru",
@@ -1554,6 +1564,16 @@ window.newsStories=[
     "link": "https://www.press-line.ru/news/2026/06/v-krasnoyarskom-krae-otprazdnovali-evenkijskij-novyj-god"
   },
   {
+    "region": "Общие новости",
+    "date": "2026-10-14",
+    "source": "prospect.com.ru",
+    "title": "В России приняли закон о северном завозе. Что в нём предусмотрели - prospect.com.ru",
+    "desc": "В России приняли закон о северном завозе. Что в нём предусмотрели prospect.com.ru",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ0JraVJrblAzZDE2N19aZXdfLVQxYkwxRWN5Uk5DTWZaWFlJdlotWEVBZjk3eklJUXFoZ0RHV0ZYUFlQU1V5Ym9tZXNfdzBEcHRWZVU1b2RycTI5a0poNjhBR01MMVVDWjF6YVNOMGhNMEI3emE3bFlUZ2F6UFBERmZTeTU3alhsWWk0c2M2VGJWRWo1ZE53c0NsVUlleGp4UDBWNzc5TnVEYV9u?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-11-19",
     "source": "Эвенкийская жизнь · Telegram",
@@ -1607,13 +1627,13 @@ window.newsStories=[
   },
   {
     "region": "Хабаровский край",
-    "date": "2026-10-31",
+    "date": "2026-11-20",
     "source": "PROKHAB.RU",
-    "title": "Подготовку к северному завозу топлива на 2027 год начали заранее в Хабаровском крае - PROKHAB.RU",
-    "desc": "Подготовку к северному завозу топлива на 2027 год начали заранее в Хабаровском крае PROKHAB.RU",
+    "title": "Изменения в правилах охоты на копытных в Хабаровском крае - PROKHAB.RU",
+    "desc": "Изменения в правилах охоты на копытных в Хабаровском крае PROKHAB.RU",
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd0FQZXF5M0ZfQldPNlVraXk0RGtOaEdzNzJzVkJPUGN0eXE1ajh6OGlUME02QnJIaHR4THMtZnhjMkM1QTRfYWttOXV6b1UzUkdpSkFGdXZrblNZejh1TlN5b0FKYlo2OXE2RkpEY0JzOFptb1VpSW9EdFlHOGhaV1hBZEZPcm43a1lENF9LSms3bTJHQnZfYXd2aWpYVlhMekRvQVMwbw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0RmOGFWdHZxZ0ZNX1ZSczhjN0pMMzFPNUVOeFQ1d3l3T1FrWFhuMmljYmdIT0JiLUZ0Q0hkSHplNkc0S1hxeEFaY1d1b1d0NERRMGw4QXRqSlRJM2dTaEhHVUszT3ZOQl9jWTlXeDg0OXNuWEIxbGRBUG10bTUtRDZ0V0s?oc=5"
   },
   {
     "region": "Якутия",
@@ -1634,6 +1654,16 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWV1OWJXQXJrYS1EbVpONzdsVnJlVFp1NkRzU3RQMTZGdUg2QzJMb2FaM2RQT2tSX29JWmYzN0ZLSDhyMmJTRGQ4dUhJc2o3Qm4zWkVnU1dkSG5RWll1d0dlMjBWWnRhcjJ5b1c0THRyVGVLSEttQ0UxM0Vrb19BZFBNekQ?oc=5"
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-11-18",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестиваль Гончикова в Бурятии соберутся эвенки со всей России",
+    "desc": "Будут представлены эвенкийские этноартисты из Якутии, Иркутской области, Хабаровского и Красноярского краев.",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festival-gonchikova-v-buryatii-soberutsya-evenki-so-vsej-rossii.html"
   },
   {
     "region": "Красноярский край",
@@ -1684,16 +1714,6 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5jeVVjR3NYc2loV3ZNU1RoZW1pdzhlcDM2X0RBOExPa1lEOEIwcGd0VTItYndGU2Zqc0pPWU1sQzcteU0zc2hv?oc=5"
-  },
-  {
-    "region": "Общие новости",
-    "date": "2026-11-15",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "На фестивале имени Гончикова выступят эвенки Якутии и Иркутской области",
-    "desc": "Напомним, гала-концерт состоится 1 декабря в 18:00 на сцене Бурдрама",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/na-festivale-imeni-gonchikova-vyistupyat-evenki-yakutii-i-irkutskoj-oblasti.html"
   },
   {
     "region": "Общие новости",
@@ -1754,6 +1774,16 @@ window.newsStories=[
     "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
     "link": "https://vremya-bir.ru/2026/10/26/seriyu-internet-moshennichestv-s-moreproduktami-raskryli-v-eao"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-17",
+    "source": "RUTUBE",
+    "title": "Мы живем в России - Эвенки (Видеоэнциклопедия нашей страны) - RUTUBE",
+    "desc": "Мы живем в России - Эвенки (Видеоэнциклопедия нашей страны) RUTUBE",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45cFZHZnBhM2tFc2thZFFJbmtydzdjRXhyaEFwMGl5ZllHbjhabnpvRU5sTGxHd3dlUDVWZXFfRXVjQlhlSVY1YTdmT1dHbm5ac0d3Qm1VS0RoRFNsSWQwSlZsekZOTm1l?oc=5"
   },
   {
     "region": "Еврейская автономная область",
@@ -2282,16 +2312,6 @@ window.newsStories=[
   },
   {
     "region": "Якутия",
-    "date": "2026-10-06",
-    "source": "prospect.com.ru",
-    "title": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов - prospect.com.ru",
-    "desc": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов prospect.com.ru",
-    "tags": "северные регионы снабжение охота рыболовство",
-    "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU5OMV9RaWMzSmhUdzhvUE1tOTFkajk1d0hBaF9HbUtBVzNzYUNCZnZna3ZpUVp1bGhaOTJJT0trYm5zVGEtWm9GWnB2dnRFeHBSSWRVejlJOUtqcDAyN0tlM2RSb3E4T1ZwdG9ZWUtST25MVkVQQVkwbDk5aGtXenJYVE1pc1lIV3NSZ2doUXRvYjJ2TEkxQ0ZlVnI4SHZmZE5wTXZ1LVhzYVBjaENkQk5SNWVJX2ZvY0JsOFRfRllkUXRXS0E?oc=5"
-  },
-  {
-    "region": "Якутия",
     "date": "2026-10-13",
     "source": "НИА-Федерация",
     "title": "Якутия направила в федеральные органы власти предложения по совершенствованию механизмов поддержки северного завоза - НИА-Федерация",
@@ -2365,6 +2385,16 @@ window.newsStories=[
     "link": "https://sakh.online/news/18/2026-08-27/na-poberezhie-zaliva-chayvo-proshyol-prazdnik-olenevodov-kurey-2026-524421"
   },
   {
+    "region": "Якутия",
+    "date": "2026-10-06",
+    "source": "prospect.com.ru",
+    "title": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов - prospect.com.ru",
+    "desc": "В Якутии распорядились устранить задержки при доставке жизнеобеспечивающих грузов prospect.com.ru",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU5OMV9RaWMzSmhUdzhvUE1tOTFkajk1d0hBaF9HbUtBVzNzYUNCZnZna3ZpUVp1bGhaOTJJT0trYm5zVGEtWm9GWnB2dnRFeHBSSWRVejlJOUtqcDAyN0tlM2RSb3E4T1ZwdG9ZWUtST25MVkVQQVkwbDk5aGtXenJYVE1pc1lIV3NSZ2doUXRvYjJ2TEkxQ0ZlVnI4SHZmZE5wTXZ1LVhzYVBjaENkQk5SNWVJX2ZvY0JsOFRfRllkUXRXS0E?oc=5"
+  },
+  {
     "region": "Красноярский край",
     "date": "2026-11-19",
     "source": "Эвенкийская жизнь · Telegram",
@@ -2418,13 +2448,23 @@ window.newsStories=[
   },
   {
     "region": "Хабаровский край",
-    "date": "2026-10-09",
+    "date": "2026-10-31",
     "source": "PROKHAB.RU",
-    "title": "В Хабаровском крае обсуждают изменения правил традиционного рыболовства",
-    "desc": "Учёные, пограничники и представители коренных народов обсудили предложения по маркировке сетей и уведомлению о традиционном лове. Предложения ещё предстоит доработать; это обсуждение, а не сообщение о вступивших в силу правилах.",
-    "tags": "региональный контекст север традиционные промыслы",
+    "title": "Подготовку к северному завозу топлива на 2027 год начали заранее в Хабаровском крае - PROKHAB.RU",
+    "desc": "Подготовку к северному завозу топлива на 2027 год начали заранее в Хабаровском крае PROKHAB.RU",
+    "tags": "северные регионы снабжение охота рыболовство",
     "relevance": "context",
-    "link": "https://prokhab.ru/brakoner-pod-maskoj-obshhiny-v-habarovskom-krae-peresmatrivayut-pravila-tradiczionnogo-rybolovstva/"
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd0FQZXF5M0ZfQldPNlVraXk0RGtOaEdzNzJzVkJPUGN0eXE1ajh6OGlUME02QnJIaHR4THMtZnhjMkM1QTRfYWttOXV6b1UzUkdpSkFGdXZrblNZejh1TlN5b0FKYlo2OXE2RkpEY0JzOFptb1VpSW9EdFlHOGhaV1hBZEZPcm43a1lENF9LSms3bTJHQnZfYXd2aWpYVlhMekRvQVMwbw?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-15",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "На фестивале имени Гончикова выступят эвенки Якутии и Иркутской области",
+    "desc": "Напомним, гала-концерт состоится 1 декабря в 18:00 на сцене Бурдрама",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/na-festivale-imeni-gonchikova-vyistupyat-evenki-yakutii-i-irkutskoj-oblasti.html"
   },
   {
     "region": "Амурская область",
@@ -2445,16 +2485,6 @@ window.newsStories=[
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXl3dzZlZjVwRUt2U0h1UjdMVHpWT3Vad3pKamNyZUFBUXhUZjNhQ3Jzc2wtdWFjeEZ4UXpmTFpRcEJCUWM5UXBaTXg5aklmdjR1d20ydXh1VmxpbWdTY0t0dEVhNmhrUGhKOF90bnpwbWdCR21IQ1dfLXhZY2VRRldHLWg3UDY4WFVtaHdNM25PUVh6eHFINmFpMnFBalYwbHZ4M1hoMmFCUkFmRkk4?oc=5"
-  },
-  {
-    "region": "Красноярский край",
-    "date": "2026-11-11",
-    "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвенкийская этнопевица Ayaa примет участие в фестивале имени В.С. Гончикова",
-    "desc": "«Ayaa» - творческий псевдоним певицы из Красноярского края Галины Веретновой, это слово переводится как «добро, свет, путь».",
-    "tags": "эвенки эвенкийский язык новости",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/evenkijskaya-etnopevicza-ayaa-primet-uchastie-v-festivale-imeni-v.s.-gonchikova.html"
   },
   {
     "region": "Якутия",
@@ -2883,21 +2913,21 @@ window.newsStories=[
     "region": "Хабаровский край",
     "date": "2026-10-09",
     "source": "PROKHAB.RU",
-    "title": "Браконьер под маской общины: в Хабаровском крае пересматривают правила традиционного рыболовства - PROKHAB.RU",
-    "desc": "Браконьер под маской общины: в Хабаровском крае пересматривают правила традиционного рыболовства PROKHAB.RU",
-    "tags": "северные регионы снабжение охота рыболовство",
+    "title": "В Хабаровском крае обсуждают изменения правил традиционного рыболовства",
+    "desc": "Учёные, пограничники и представители коренных народов обсудили предложения по маркировке сетей и уведомлению о традиционном лове. Предложения ещё предстоит доработать; это обсуждение, а не сообщение о вступивших в силу правилах.",
+    "tags": "региональный контекст север традиционные промыслы",
     "relevance": "context",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlprZ1E0VTQ0dXhINWJ5QmZXRVdLYjdHUE1OZ2d0S193UVFVRElUdTNibFZ5SE9KdzdEM1pEa2EtaUl6dk1haWxZQTRTZTZ3blBBQUVwQ0EtTUlpQ0V6VUdJZkJDam1zeEZYU19BUnZVOHZSWFF1ajVqVUJ3cHFhTF9mTnd3TV9IM25nX2pTZTJ6eWVHNlJTaDJhTjV3ZWZaNlI1ekhnc3ZKbVFwQW5VbE1aUVpPSU1vTVE?oc=5"
+    "link": "https://prokhab.ru/brakoner-pod-maskoj-obshhiny-v-habarovskom-krae-peresmatrivayut-pravila-tradiczionnogo-rybolovstva/"
   },
   {
-    "region": "Общие новости",
-    "date": "2026-11-07",
+    "region": "Красноярский край",
+    "date": "2026-11-11",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "На фестивале имени В.С. Гончикова выступит этно-певица AINA",
-    "desc": "Она впервые участвует в этом межрегиональном этнокультурном мероприятии.",
+    "title": "Эвенкийская этнопевица Ayaa примет участие в фестивале имени В.С. Гончикова",
+    "desc": "«Ayaa» - творческий псевдоним певицы из Красноярского края Галины Веретновой, это слово переводится как «добро, свет, путь».",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/na-festivale-imeni-v.s.-gonchikova-vyistupit-etno-pevicza-aina.html"
+    "link": "https://arun-rb.ru/evenkijskaya-etnopevicza-ayaa-primet-uchastie-v-festivale-imeni-v.s.-gonchikova.html"
   },
   {
     "region": "Общие новости",
@@ -3183,14 +3213,24 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ubXlDY1JUNGczT1gtcnNPYW1JUnhWUWN1UFdCMHNZdlAtZ2F6a0h2MlItU0h1TWU4V1o0MjBPZzF2VmVnMHhKNHQ5WHA?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-11-05",
+    "region": "Хабаровский край",
+    "date": "2026-10-09",
+    "source": "PROKHAB.RU",
+    "title": "Браконьер под маской общины: в Хабаровском крае пересматривают правила традиционного рыболовства - PROKHAB.RU",
+    "desc": "Браконьер под маской общины: в Хабаровском крае пересматривают правила традиционного рыболовства PROKHAB.RU",
+    "tags": "северные регионы снабжение охота рыболовство",
+    "relevance": "context",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlprZ1E0VTQ0dXhINWJ5QmZXRVdLYjdHUE1OZ2d0S193UVFVRElUdTNibFZ5SE9KdzdEM1pEa2EtaUl6dk1haWxZQTRTZTZ3blBBQUVwQ0EtTUlpQ0V6VUdJZkJDam1zeEZYU19BUnZVOHZSWFF1ajVqVUJ3cHFhTF9mTnd3TV9IM25nX2pTZTJ6eWVHNlJTaDJhTjV3ZWZaNlI1ekhnc3ZKbVFwQW5VbE1aUVpPSU1vTVE?oc=5"
+  },
+  {
+    "region": "Общие новости",
+    "date": "2026-11-07",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Валентина Матвиенко посетила экспозицию Центра «Арун»",
-    "desc": "Председатель Совета Федерации похвалила деятельность организации по сохранению культуры эвенков Бурятии",
+    "title": "На фестивале имени В.С. Гончикова выступит этно-певица AINA",
+    "desc": "Она впервые участвует в этом межрегиональном этнокультурном мероприятии.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/valentina-matvienko-posetila-ekspozicziyu-czentra-arun.html"
+    "link": "https://arun-rb.ru/na-festivale-imeni-v.s.-gonchikova-vyistupit-etno-pevicza-aina.html"
   },
   {
     "region": "Общие новости",
@@ -3439,13 +3479,13 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-10-29",
+    "date": "2026-11-05",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» поддержал семинар «Игры народов России»",
-    "desc": "Мероприятие филиала Центра \"ВОИН\" в Бурятии было приурочено ко Дню народного единства",
+    "title": "Валентина Матвиенко посетила экспозицию Центра «Арун»",
+    "desc": "Председатель Совета Федерации похвалила деятельность организации по сохранению культуры эвенков Бурятии",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/czentr-arun-podderzhal-seminar-igryi-narodov-rossii.html"
+    "link": "https://arun-rb.ru/valentina-matvienko-posetila-ekspozicziyu-czentra-arun.html"
   },
   {
     "region": "Забайкальский край",
@@ -3664,13 +3704,13 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-10-27",
+    "date": "2026-10-29",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова",
-    "desc": "Гала-концерт межрегионального мероприятия будет проходить 1 декабря на сцене Бурдрама",
+    "title": "Центр «Арун» поддержал семинар «Игры народов России»",
+    "desc": "Мероприятие филиала Центра \"ВОИН\" в Бурятии было приурочено ко Дню народного единства",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/v-ulan-ude-projdet-festival-evenkijskoj-kulturyi-im.-v.s.-gonchikova.html"
+    "link": "https://arun-rb.ru/czentr-arun-podderzhal-seminar-igryi-narodov-rossii.html"
   },
   {
     "region": "Красноярский край",
@@ -3848,14 +3888,14 @@ window.newsStories=[
     "overviewRu": "Материал знакомит с Аолугуей во Внутренней Монголии — общиной эвенков-оленеводов в окрестностях Гэньхэ. Зимний сюжет рассказывает о тайге, оленях и жизни сообщества."
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-24",
+    "region": "Бурятия",
+    "date": "2026-10-27",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Музыкальные композиции эвенкийского певца и композитора Максима Дженкоуля",
-    "desc": "Все выложенные композиции доступны для скачивания.",
+    "title": "В Улан-Удэ пройдет фестиваль эвенкийской культуры им. В.С. Гончикова",
+    "desc": "Гала-концерт межрегионального мероприятия будет проходить 1 декабря на сцене Бурдрама",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/pesni-evenkijskogo-pevcza-i-kompozitora-maksima-dzhenkoulya.html"
+    "link": "https://arun-rb.ru/v-ulan-ude-projdet-festival-evenkijskoj-kulturyi-im.-v.s.-gonchikova.html"
   },
   {
     "region": "Бурятия",
@@ -4003,13 +4043,13 @@ window.newsStories=[
   },
   {
     "region": "Общие новости",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
-    "desc": "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.",
+    "title": "Музыкальные композиции эвенкийского певца и композитора Максима Дженкоуля",
+    "desc": "Все выложенные композиции доступны для скачивания.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html"
+    "link": "https://arun-rb.ru/pesni-evenkijskogo-pevcza-i-kompozitora-maksima-dzhenkoulya.html"
   },
   {
     "region": "Забайкальский край",
@@ -4147,14 +4187,14 @@ window.newsStories=[
     "overviewRu": "Публикация рассказывает об исполнении актёром Ван Яньлином классической народной песни орочонов. Материал обращает внимание на музыкальное наследие народа."
   },
   {
-    "region": "Бурятия",
-    "date": "2026-10-16",
+    "region": "Общие новости",
+    "date": "2026-10-21",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове",
-    "desc": "Режиссёр Юрий Ботоев готовит проект кинокартины о снайперах Великой Отечественной из Бурятии, Иркутской области и Забайкальского края",
+    "title": "В первый день зимы вас ждёт фестиваль эвенкийской культуры",
+    "desc": "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/v-buryatii-snimut-film-o-snajpere-evenke-semyone-nomokonove.html"
+    "link": "https://arun-rb.ru/v-pervyij-den-zimyi-vas-zhdyot-festival-evenkijskoj-kulturyi.html"
   },
   {
     "region": "Бурятия",
@@ -4291,14 +4331,14 @@ window.newsStories=[
     "overviewRu": "Публикация предлагает услышать исполнение Хэ Се, которого источник представляет как охотника последнего поколения в эвенкийском оленеводческом сообществе. Через его музыку автор знакомит с Аолугуей и её культурой."
   },
   {
-    "region": "Общие новости",
-    "date": "2026-10-09",
+    "region": "Бурятия",
+    "date": "2026-10-16",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Продолжается приём заявок на конкурс «Дальний Восток — Земля приключений»",
-    "desc": "Центр «Арун» сообщает о приёме фильмов о путешествиях по Дальнему Востоку и Арктике. Заявки на конкурс принимают до 15 января 2027 года.",
-    "tags": "региональный контекст север традиционные промыслы",
-    "relevance": "context",
-    "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
+    "title": "В Бурятии снимут фильм о снайпере-эвенке Семёне Номоконове",
+    "desc": "Режиссёр Юрий Ботоев готовит проект кинокартины о снайперах Великой Отечественной из Бурятии, Иркутской области и Забайкальского края",
+    "tags": "эвенки эвенкийский язык новости",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/v-buryatii-snimut-film-o-snajpere-evenke-semyone-nomokonove.html"
   },
   {
     "region": "Общие новости",
@@ -4414,14 +4454,14 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SemJsRy1RbExkQldhUGFfZlkxNVVUU0VuZTRGVkY1bWRyX1J6eTJYNmpfSUkydjRfUnRmZWRxODNoWnZISWMydVJtUEE?oc=5"
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-10-08",
+    "region": "Общие новости",
+    "date": "2026-10-09",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Видео выставки на II культурном форуме коренных народов в Чите",
-    "desc": "Центр «Арун» опубликовал видео выставки, подготовленное дизайнером Натальей Макаровой. Выставка проходила во время II Всероссийского культурного форума коренных малочисленных народов в Чите в августе 2026 года.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
+    "title": "Продолжается приём заявок на конкурс «Дальний Восток — Земля приключений»",
+    "desc": "Центр «Арун» сообщает о приёме фильмов о путешествиях по Дальнему Востоку и Арктике. Заявки на конкурс принимают до 15 января 2027 года.",
+    "tags": "региональный контекст север традиционные промыслы",
+    "relevance": "context",
+    "link": "https://arun-rb.ru/prodolzhaetsya-priem-zayavok-na-konkurs-dalnij-vostok-zemlya-priklyuchenij.html"
   },
   {
     "region": "Общие новости",
@@ -4539,13 +4579,14 @@ window.newsStories=[
     "overviewRu": "Публикация сообщает о специальных туристических предложениях для участников марафона в районе Гэньхэ. Среди них — поездка в Аолугуя, известную эвенкийской культурой и оленеводством."
   },
   {
-    "region": "Красноярский край",
-    "date": "2026-10-07",
+    "region": "Забайкальский край",
+    "date": "2026-10-08",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
-    "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
+    "title": "Видео выставки на II культурном форуме коренных народов в Чите",
+    "desc": "Центр «Арун» опубликовал видео выставки, подготовленное дизайнером Натальей Макаровой. Выставка проходила во время II Всероссийского культурного форума коренных малочисленных народов в Чите в августе 2026 года.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/vyistavka-na-vserossijskom-kulturnom-forum-korennyix-malochislennyix-narodov-rossii.html"
   },
   {
     "region": "Якутия",
@@ -4652,13 +4693,13 @@ window.newsStories=[
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBRYXMxb3hyREZ3djhBQmxGVjF2WTRHZjFGUnI3bWUxNXNLcDhmU0x4WURsdDd1WFBKT1dua2tFNGZYd2hsX29JR2JqTG4?oc=5"
   },
   {
-    "region": "Бурятия",
-    "date": "2026-09-29",
+    "region": "Красноярский край",
+    "date": "2026-10-07",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» продолжает конкурс «Моя родословная. Миӈни дюган, миӈни дялан»",
-    "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
-    "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
-    "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
+    "title": "Фотографии Максима Дженкоуля с этнофестиваля «Сокровища Севера-2026» в Красноярске",
+    "desc": "Эвенкийский композитор и певец Максим Дженкоуль из Красноярского края выложил в своём max-калане видео с подборкой фотографий, сделанных на международной выставке-ярмарке",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/fotografii-maksima-dzhenkoulya-s-etnofestivalya-sokrovishha-severa-2026-v-krasnoyarske.html"
   },
   {
     "region": "Общие новости",
@@ -4746,12 +4787,12 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-09-24",
+    "date": "2026-09-29",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Культуру эвенков Бурятии показали представителю Минобороны РФ",
-    "desc": "Вице-адмирал Владимир Цимлянский во время визита в Бурятию посетил эвенкийский комплекс Этнографического музея народов Забайкалья",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
+    "title": "Центр «Арун» продолжает конкурс «Моя родословная. Миӈни дюган, миӈни дялан»",
+    "desc": "Начался второй этап конкурса семейных исследований эвенкийских родов. Участникам предлагают дополнить истории рода, семейных реликвий и генеалогические древа; материалы принимаются до 5 декабря 2026 года.",
+    "tags": "эвенки Бурятия Арун родословная генеалогия семья история конкурс Миӈни дюган Миӈни дялан",
+    "link": "https://arun-rb.ru/czentr-arun-prodolzhaet-konkurs-moya-rodoslovnaya-mi%D3%88ni-dyugan-mi%D3%88ni-dyalan.html"
   },
   {
     "region": "Общие новости",
@@ -4838,14 +4879,13 @@ window.newsStories=[
     "overviewRu": "Публикация рассказывает о работе полиции орочонского района в условиях снегопада и о мерах по обеспечению безопасности жителей."
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-09-20",
+    "region": "Бурятия",
+    "date": "2026-09-24",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвенкийские работы на выставке II Всероссийского форума коренных народов",
-    "desc": "Центр «Арун» показал экспонаты выставки в Чите: куклы, украшения и сувениры различных этнокультурных организаций, включая работы эвенкийских мастеров Бурятии. Материал опубликован 20 сентября.",
-    "tags": "эвенки культура коренные народы",
-    "relevance": "direct",
-    "link": "https://arun-rb.ru/eksponatyi-vyistavki-na-vserossijskom-forume-korennyix-narodov.html"
+    "title": "Культуру эвенков Бурятии показали представителю Минобороны РФ",
+    "desc": "Вице-адмирал Владимир Цимлянский во время визита в Бурятию посетил эвенкийский комплекс Этнографического музея народов Забайкалья",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/kulturu-evenkov-buryatii-pokazali-predstavitelyu-minoboronyi-rf.html"
   },
   {
     "region": "Общие новости",
@@ -4922,14 +4962,14 @@ window.newsStories=[
     "overviewRu": "Материал приглашает познакомиться с зимней жизнью орочонов в горах Большого Хингана и с культурой народа, связанной с тайгой."
   },
   {
-    "region": "Бурятия",
-    "date": "2026-09-17",
+    "region": "Забайкальский край",
+    "date": "2026-09-20",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "«Арун» представил эвенкийскую культуру на фестивале «День Бурятии в кругу Первых»",
-    "desc": "На фестивале в Улан-Удэ 16 сентября центр показал эвенкийские костюмы и предметы быта, провёл лекции, игры и мастер-классы. Хореографическая группа ансамбля «Гулувун» исполнила танцевальные композиции.",
+    "title": "Эвенкийские работы на выставке II Всероссийского форума коренных народов",
+    "desc": "Центр «Арун» показал экспонаты выставки в Чите: куклы, украшения и сувениры различных этнокультурных организаций, включая работы эвенкийских мастеров Бурятии. Материал опубликован 20 сентября.",
     "tags": "эвенки культура коренные народы",
     "relevance": "direct",
-    "link": "https://arun-rb.ru/czentr-arun-uchastvoval-v-festivale-den-buryatii-v-krugu-pervyix.html"
+    "link": "https://arun-rb.ru/eksponatyi-vyistavki-na-vserossijskom-forume-korennyix-narodov.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5007,12 +5047,13 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-09-15",
+    "date": "2026-09-17",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эпизоды фестиваля \"Байкальский аргиш-2026\"",
-    "desc": "Видеоклип подготовил эвенкийский певец и композитор из Красноярского края Максим Дженкоуль",
-    "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
+    "title": "«Арун» представил эвенкийскую культуру на фестивале «День Бурятии в кругу Первых»",
+    "desc": "На фестивале в Улан-Удэ 16 сентября центр показал эвенкийские костюмы и предметы быта, провёл лекции, игры и мастер-классы. Хореографическая группа ансамбля «Гулувун» исполнила танцевальные композиции.",
+    "tags": "эвенки культура коренные народы",
+    "relevance": "direct",
+    "link": "https://arun-rb.ru/czentr-arun-uchastvoval-v-festivale-den-buryatii-v-krugu-pervyix.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5080,12 +5121,12 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-09-11",
+    "date": "2026-09-15",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» открывает набор в ансамбль «Гулувун»",
-    "desc": "Приглашаются юноши и девушки от 14 до 18 лет, желающих ждём в четверг 17 сентября, в 18:00 в Доме дружбы народов",
+    "title": "Эпизоды фестиваля \"Байкальский аргиш-2026\"",
+    "desc": "Видеоклип подготовил эвенкийский певец и композитор из Красноярского края Максим Дженкоуль",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
+    "link": "https://arun-rb.ru/epizodyi-festivalya-bajkalskij-argish-2026.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5153,12 +5194,12 @@ window.newsStories=[
   },
   {
     "region": "Бурятия",
-    "date": "2026-09-09",
+    "date": "2026-09-11",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
-    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
+    "title": "Центр «Арун» открывает набор в ансамбль «Гулувун»",
+    "desc": "Приглашаются юноши и девушки от 14 до 18 лет, желающих ждём в четверг 17 сентября, в 18:00 в Доме дружбы народов",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
+    "link": "https://arun-rb.ru/czentr-arun-otkryivaet-nabor-v-ansambl-guluvun.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5224,13 +5265,13 @@ window.newsStories=[
     "overviewRu": "В Орочонском автономном хошуне для почти ста пожилых людей провели занятие по финансовой безопасности. Участникам объяснили, как распознавать распространённые схемы мошенничества — от обмана с медицинскими товарами и сомнительными вложениями до подделки голоса и лица с помощью ИИ, — и что делать, если они столкнулись с обманом."
   },
   {
-    "region": "Забайкальский край",
-    "date": "2026-09-08",
+    "region": "Бурятия",
+    "date": "2026-09-09",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Эвeнки Бypятии пpиняли yчacтиe вo Bcepoccийcкoм фopyмe",
-    "desc": "Сюжет телеканала \"Ариг Ус\" о поездке Центра \"Арун\" на II Всероссийский культурный форум коренных народов в Чите",
+    "title": "Центр «Арун» провел Всероссийский диктант на эвенкийском языке",
+    "desc": "Мероприятие состоялось в честь Дня языков коренных народов России 8 сентября, совместно с БГУ",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
+    "link": "https://arun-rb.ru/czentr-arun-provel-vserossijskij-diktant-na-evenkijskom-yazyike.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5287,13 +5328,13 @@ window.newsStories=[
     "overviewRu": "Накануне Праздника двойной девятки в Орочонском автономном хошуне провели занятие по финансовой безопасности для пожилых людей. На примерах разобрали мошенничество с медицинскими товарами, незаконные вложения пенсионных накоплений и обман с помощью дипфейков; участникам объяснили, как распознавать такие схемы и что делать, если они уже столкнулись с мошенниками."
   },
   {
-    "region": "Бурятия",
-    "date": "2026-09-03",
+    "region": "Забайкальский край",
+    "date": "2026-09-08",
     "source": "Центр эвенкийской культуры «Арун»",
-    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
-    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
+    "title": "Эвeнки Бypятии пpиняли yчacтиe вo Bcepoccийcкoм фopyмe",
+    "desc": "Сюжет телеканала \"Ариг Ус\" о поездке Центра \"Арун\" на II Всероссийский культурный форум коренных народов в Чите",
     "tags": "эвенки эвенкийский язык новости",
-    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
+    "link": "https://arun-rb.ru/evenki-bypyatii-ppinyali-ychactie-vo-bcepoccijckom-fopyme.html"
   },
   {
     "region": "Еврейская автономная область",
@@ -5337,6 +5378,15 @@ window.newsStories=[
     "relevance": "direct",
     "link": "https://www.chinanews.com.cn/gj/2026/10-15/10714797.shtml",
     "overviewRu": "В Рейкьявике во время Арктического круга прошла встреча о климатических и социальных изменениях в сообществах эвенков-оленеводов. Учёные и оленеводы из Аолугуи рассказали о традиционных экологических знаниях, сезонных маршрутах и взаимосвязи людей, оленей и тайги; участники обсудили, как учитывать этот опыт в международном диалоге об Арктике."
+  },
+  {
+    "region": "Бурятия",
+    "date": "2026-09-03",
+    "source": "Центр эвенкийской культуры «Арун»",
+    "title": "Стрелки-эвенки против самураев. Кадетам рассказали, как разгромили милитаристскую Японию",
+    "desc": "Центр \"Арун\" совместно с Центром \"ВОИН\" прочитал школьникам лекцию об эвенках-героях и зверствах японских оккупантов",
+    "tags": "эвенки эвенкийский язык новости",
+    "link": "https://arun-rb.ru/strelki-evenki-protiv-samuraev.-kadetam-rasskazali%2C-kak-razgromili-militaristskuyu-yaponiyu.html"
   },
   {
     "region": "Общие новости",
