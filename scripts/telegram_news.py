@@ -115,6 +115,7 @@ REGION_PATTERNS = {
     "Якутия": re.compile(r"якут\w*|республик\w* саха|\bсаха\b|оймякон\w*|иенгр\w*|хатыстыр\w*|нерюнгри\w*|алдан\w*", re.I),
 }
 EAST_ASIAN_SCRIPT_RE = re.compile(r"[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]")
+CYRILLIC_SCRIPT_RE = re.compile(r"[А-Яа-яЁё]")
 CHINESE_ADMIN_PLACE_RE = re.compile(r"鄂温克族自治旗|鄂温克自治旗|鄂温克旗|鄂伦春自治旗|鄂伦春旗")
 CHINESE_RELEVANCE_CONTEXT_RE = re.compile(r"文化|传统|語言|语言|民俗|民族|生活|经济|經濟|牧业|牧業|狩猎|狩獵|驯鹿|馴鹿|放牧|非遗|非遺|节庆|節慶|手工艺|手工藝|舞蹈|歌曲|历史|歷史|教育")
 SOLON_TOKEN_RE = re.compile(r"\bсолон[а-яё]*\b", re.I)
@@ -451,6 +452,40 @@ def request(url: str, *, data: bytes | None = None, headers: dict[str, str] | No
     except (OSError, ValueError) as error:
         AUDIT.event(host, "http_failed", safe_url, error=type(error).__name__, httpStatus=getattr(error, "code", None))
         raise
+
+
+def russian_news_overview(item: dict[str, str]) -> str:
+    """Translate an East Asian RSS teaser for the Russian-language website card."""
+    title = clean(item.get("title", ""))
+    description = clean(item.get("description", ""))
+    # Prefer a real RSS excerpt; fall back to the headline when the feed only
+    # repeats it. The original-language headline remains unchanged on the site.
+    source_text = description if description and description.casefold() != title.casefold() else title
+    if not source_text:
+        return ""
+    if not EAST_ASIAN_SCRIPT_RE.search(source_text):
+        return source_text[:420] if CYRILLIC_SCRIPT_RE.search(source_text) else ""
+    params = urllib.parse.urlencode({
+        "client": "gtx", "sl": "auto", "tl": "ru", "dt": "t", "q": source_text[:3000],
+    })
+    try:
+        payload = request(
+            f"https://translate.googleapis.com/translate_a/single?{params}",
+            headers={"Accept": "application/json"}, timeout=12,
+        )
+        translated_data = json.loads(payload.decode("utf-8"))
+        translated = clean("".join(
+            str(segment[0]) for segment in translated_data[0]
+            if isinstance(segment, list) and segment and segment[0]
+        ))
+    except (OSError, ValueError, IndexError, TypeError, urllib.error.URLError, TimeoutError) as error:
+        AUDIT.event(item.get("source", "translation"), "russian_overview_translation_failed", item.get("url", ""), error=type(error).__name__)
+        return ""
+    if not translated or EAST_ASIAN_SCRIPT_RE.search(translated) or not CYRILLIC_SCRIPT_RE.search(translated):
+        AUDIT.event(item.get("source", "translation"), "russian_overview_translation_invalid", item.get("url", ""))
+        return ""
+    AUDIT.event(item.get("source", "translation"), "russian_overview_translated", item.get("url", ""))
+    return translated[:420]
 
 
 def parse_date(value: str) -> dt.datetime | None:
@@ -1316,8 +1351,14 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             )
             continue
         relevance = story_relevance(item)
+        overview_ru = ""
+        if EAST_ASIAN_SCRIPT_RE.search(" ".join((item.get("title", ""), item.get("description", "")))):
+            overview_ru = russian_news_overview(item)
+            if not overview_ru:
+                AUDIT.event(item["source"], "site_skipped_missing_russian_overview", item["url"])
+                continue
         category = "Новости на эвенкийском" if item.get("ilkenEvenki") == "1" else "Общие новости"
-        stories.append({
+        story = {
             "region": story_region(item, category),
             "date": item["day"], "source": item["source"],
             "title": item["title"],
@@ -1325,7 +1366,10 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             "tags": "северные регионы снабжение охота рыболовство" if relevance == "context" else "эвенки эвенкийский язык новости",
             "relevance": relevance or "direct", "link": item["url"],
             **({"image": item["image"]} if item.get("image") else {}),
-        })
+        }
+        if overview_ru:
+            story["overviewRu"] = overview_ru
+        stories.append(story)
         known.add(link)
         if topic_key:
             topic_counts[topic_key] = topic_counts.get(topic_key, 0) + 1
