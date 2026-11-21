@@ -87,6 +87,7 @@ EXCLUDED_TOPIC_RE = re.compile(
     r"|боев\w{0,15}\s+действ\w*|зон\w{0,5}\s+боев\w{0,15}\s+действ\w*"
     r"|путешеств\w*.{0,40}по\s+приамурью.{0,40}бирари\w*)", re.I)
 EDITORIAL_RELEVANCE_URLS = {
+    "https://ilken.ru/2026/11/21/eposy-narodov-na-evenkijskom-yazyke-pobediteli-konkursa-perevoda/",
     "https://news.mail.ru/society/72275373",
     "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov",
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo",
@@ -94,6 +95,7 @@ EDITORIAL_RELEVANCE_URLS = {
     "https://ilken.ru/2026/10/10/festival-yazykovoj-mir-arktiki-pokazatel-urovnya-znaniya-yazykov-i-kultury-kmns",
 }
 EDITORIAL_REGION_BY_URL = {
+    "https://ilken.ru/2026/11/21/eposy-narodov-na-evenkijskom-yazyke-pobediteli-konkursa-perevoda/": "Общие новости",
     "https://ilken.ru/2026/10/14/v-novosibirske-otkrylas-vserossijskaya-nauchnaya-konferencziya-yazyki-narodov-sibiri-i-sopredelnyh-regionov": "Якутия",
     "https://ilken.ru/2026/10/11/bakaldyn-prazdnik-vstrechi-kotoryj-vernul-menya-v-detstvo": "Якутия",
     "https://ilken.ru/2026/10/11/sahamin-afanasev-i-elena-golomareva-obsudili-itogovyj-dokument-ii-foruma-zhenshhin-severa": "Якутия",
@@ -210,13 +212,23 @@ def review_fulltext_candidates(items: list[dict[str, str]]) -> list[dict[str, st
                 return item, "full_text_relevant", ""
             except (OSError, ValueError, urllib.error.URLError, TimeoutError) as error:
                 last_error = type(error).__name__
+        # Do not lose an explicitly relevant Ilken headline solely because the
+        # publisher page or its text proxy is temporarily unavailable. The
+        # feed title/excerpt is enough to retain clear Evenki coverage; the
+        # normal relevance and exclusion filters still apply downstream.
+        metadata_relevance = story_relevance(item)
+        if metadata_relevance and not is_excluded_story(item):
+            item["detectedRelevance"] = metadata_relevance
+            item["detectedRegion"] = story_region(item, "Общие новости")
+            item["needsFullText"] = "0"
+            return item, "full_text_metadata_fallback", last_error
         return item, "full_text_failed", last_error
 
     accepted = []
     with ThreadPoolExecutor(max_workers=workers) as executor:
         for item, reason, detail in executor.map(inspect, pending):
             AUDIT.event(item.get("source", "fulltext-review"), reason, item.get("url", ""), detail=detail)
-            if reason == "full_text_relevant":
+            if reason in {"full_text_relevant", "full_text_metadata_fallback"}:
                 accepted.append(item)
     reviewed_ids = {id(item) for item in pending}
     result = [item for item in items if id(item) not in reviewed_ids]
@@ -752,9 +764,10 @@ def fetch_ilken_feed() -> list[dict[str, str]]:
             except (OSError, urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
                 print(f"Warning: Ilken category page failed: {error}", file=sys.stderr)
 
-        # Ilken's origin also blocks GitHub Actions from its public HTML page.
-        # Jina Reader fetches that public page and returns its article cards as Markdown.
-        if len(found) == feed_start and feed.get("category"):
+        # Ilken's category page may return only part of its archive. Always
+        # merge the Reader view as a second discovery route; canonical URL
+        # deduplication later removes entries already seen in RSS/HTML.
+        if feed.get("category"):
             try:
                 reader_url = "https://r.jina.ai/" + str(feed["category"])
                 markdown = request(reader_url, headers={
