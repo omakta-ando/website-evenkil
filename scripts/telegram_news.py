@@ -1378,6 +1378,7 @@ def update_site_news_feed(items: list[dict[str, str]]) -> int:
             "desc": (item.get("description") or ("Региональная тема, важная для жизни северных территорий. Читайте оригинал в СМИ." if relevance == "context" else "Публикация о жизни, языке или культуре эвенков. Читайте оригинал в СМИ."))[:420],
             "tags": "северные регионы снабжение охота рыболовство" if relevance == "context" else "эвенки эвенкийский язык новости",
             "relevance": relevance or "direct", "link": item["url"],
+            **({"languageNews": True} if item.get("ilkenEvenki") == "1" else {}),
             **({"image": item["image"]} if item.get("image") else {}),
         }
         if overview_ru:
