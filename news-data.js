@@ -47,6 +47,7 @@ window.newsStories=[
     "source": "新华网",
     "title": "寒江雪韵 鄂伦春冬日雾凇 - 新华网",
     "desc": "寒江雪韵 鄂伦春冬日雾凇 新华网",
+    "overviewRu": "Зимний иней орочонов: морозная красота холодной реки.",
     "tags": "эвенки эвенкийский язык новости",
     "relevance": "direct",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbUVnZTlfNDI5Q3hDQ2FYUS1WenAwcjhON0s2TDl5U2lERmVnLUVUWjZIRUNhdzVBN2pqYWxfR0MyQzFWMVRJNzRTVFMwaC1hbDkzY0ppWkdYanB6RDQtQS1JcVNkeERLbXZqeUpxMUp2NkxEY0RHbFlLeUNnbHBmODZ4OA?oc=5"
